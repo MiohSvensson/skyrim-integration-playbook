@@ -20,7 +20,7 @@ Use these current sources rather than older status labels:
 
 - `integration/state.json`
 - `integration/research/plugin_integration/navi_unresolved_audit/stock_orphan_lookup_fix_manifest_v6.json`
-- `integration/research/verified_patch_install/installer_tools_frozen_rev3.json`
+- `integration/research/verified_patch_install/installer_tools_frozen_rev4.json`
 - `integration/research/lod_update/delivery_manifest.json`
 - `integration/research/feature_generation/PG_delivery.json`
 - `integration/research/feature_conflicts/draft_version_manifest.v13.json` for the feature producer
@@ -43,7 +43,7 @@ Do not:
 - Stop on unexpected records, missing masters, changed load order, altered source winners, or unclassified resource paths.
 - Maintain the 32 GiB reserve. Do not launch the game.
 
-Before another patch installation, add and fixture-test deliberate recovery for an `install_started.json` interrupted between file copies. Handled rollback restores files and units; process-crash recovery is still a manual procedure.
+Installer rev4 passes 29 fixture checks, including actual child-process interruptions before and after copies and replacement recovery. For a rev4 `install_started.json` without a terminal receipt, use `install_verified_patch.py recover --prepared <job/prepared.json>` only after its installer process has exited. It refuses external changes and restores the original bytes and journal rows. Legacy rev3 interrupted attempts still require manual inspection.
 
 ## 1. Forgotten City navigation
 
@@ -52,7 +52,7 @@ Use the current v6 PAS scripts.
 1. Run the corrected source preflight documented in `integration/research/forgotten_city_navigation/README.md`.
 2. Prepare a fresh xEdit producer against `Unified Build` and execute it through the actual MO2 VFS.
 3. Independently verify the exported candidate, using the builder-logged prior NAVI winner as witness.
-4. Prepare/install with installer rev3.
+4. Prepare/install with installer rev4.
 5. Reload in a new MO2/xEdit process and run the read-only typed verifier.
 6. Accept only after exact candidate SHA, four-record whitelist, 16/16 reciprocal portals, NAVI preservation, and both-profile closure pass.
 

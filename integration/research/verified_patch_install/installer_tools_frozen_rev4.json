@@ -1,0 +1,78 @@
+{
+  "schema": "skyrim.verified_patch_installer.freeze.v1",
+  "utc": "2026-10-31T16:43:00Z",
+  "revision": 4,
+  "status": "PREPARED_AND_CRASH_RECOVERY_FIXTURE_VERIFIED_NOT_EXECUTED_ON_RUNTIME_BY_THIS_REVISION",
+  "files": [
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\verified_patch_install\\install_verified_patch.py",
+      "sha256": "8b8767a1b1cedefe9e5c8fc17de8fc5c65d4e053d5112ffdda1b61bb522f4079",
+      "size_bytes": 44217
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\verified_patch_install\\validate_installer.py",
+      "sha256": "f470ff9d9f07f9929faac2e0b0de2c556fbf388ad6a8be62250713f7f1498b86",
+      "size_bytes": 15440
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\verified_patch_install\\validation_4284950a476a4a259e0d8c7f40710eb6.json",
+      "sha256": "7ed041fde3feadaad3980f98955ee47c69b6f5ef4f566a1bc19cf2cac1bfff6a",
+      "size_bytes": 4779
+    }
+  ],
+  "root_api_dependencies": [
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\materialize.py",
+      "sha256": "c0d93f992580c8dcbe1951f116a9d75609e2344761d7d5a2564816416ca2e34c",
+      "size_bytes": 14405
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\runtime_inventory.py",
+      "sha256": "f6b3902eb51c8ff97884daaac8b279095572700f43250f7c8eef03934249712d",
+      "size_bytes": 6072
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\rootcause\\plugin_binary.py",
+      "sha256": "2722572c9a3d25b731dcfb2c7eaee9b543725b2b06348f4e0c49e1575bf058d6",
+      "size_bytes": 3439
+    }
+  ],
+  "layer": "ZZ87 Verified compatibility patches",
+  "profiles": ["Unified Skyrim", "Unified Build"],
+  "cli": {
+    "prepare": "python integration/research/verified_patch_install/install_verified_patch.py prepare --candidate <research/candidate/Exact Patch.esp> --producer <UnifiedSkyrim/validation/PASS_builder_task> --binary-report <research/SHA-bound_binary_report.json> --output <fresh research/install_job>",
+    "install": "python integration/research/verified_patch_install/install_verified_patch.py install --prepared <fresh research/install_job/prepared.json>",
+    "recover": "python integration/research/verified_patch_install/install_verified_patch.py recover --prepared <interrupted research/install_job/prepared.json>",
+    "accept": "python integration/research/verified_patch_install/install_verified_patch.py accept --prepared <research/install_job/prepared.json> --reload-task <fresh UnifiedSkyrim/validation/PASS_installed_reload_task>"
+  },
+  "requirements": [
+    "All rev3 producer, independent binary, full active-context, profile topology, exact private-copy, ordering, and fresh typed-reload gates remain mandatory.",
+    "Before any journal mutation, install_started.json stores the complete original file rows, exact backups, candidate unit, installer PID, and preparation SHA.",
+    "recover is an explicit command for a rev4 process-interrupted attempt; it is never an automatic resume and never authorizes acceptance.",
+    "Recovery refuses live PIDs, terminal receipts, legacy incomplete snapshots, changed prepared inputs or staged files, unexpected file bytes, shared destinations, unexpected journal occupants, and mismatched prior-row events.",
+    "Recovery restores every previous byte and original file row, removes only the interrupted new unit, preserves event history, and renames install_started.json to recovered_attempt.json.",
+    "The persistent install.lock uses a Windows byte lock while an operation runs. operation_finished means the callback has returned or raised, not that installation was accepted. An unfinished lock requires explicit recovery.",
+    "Reprepare after successful recovery rather than rerunning the interrupted attempt. An installed candidate still requires a fresh read-only typed reload before accept."
+  ],
+  "verification": {
+    "checks": 29,
+    "actual_child_process_crashes": [
+      "before second copy",
+      "after final copy and before its journal update",
+      "replacement of an existing candidate"
+    ],
+    "guards_exercised": ["live-PID rejection", "external-file-drift rejection", "stale-lock takeover", "integrity_check ok"],
+    "scope": "Only research fixtures were mutated. No real runtime/profile/shared-journal mutation or candidate installation occurred."
+  },
+  "limits": [
+    "Legacy rev3 interrupted attempts lack original_file_rows and still require manual inspection; rev4 does not guess their original journal state.",
+    "A crash during an individual private-copy temporary write is not claimed to be covered by the between-copy fixtures.",
+    "Final full VFS/resource graph, regenerated Synthesis/LOD and game validation remain separate gates. No game was started."
+  ],
+  "previous_freeze": {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\verified_patch_install\\installer_tools_frozen_rev3.json",
+    "sha256": "6f1f10596e1e05fd5fe5ac90f9bff1c5c9960cdd7a9f4c1e851e62d4d266ca27",
+    "size_bytes": 5961
+  },
+  "change": "Adds deliberate process-crash recovery with complete original-row snapshots and tested Windows locking; rev3 handled rollback and immutable receipts are retained."
+}

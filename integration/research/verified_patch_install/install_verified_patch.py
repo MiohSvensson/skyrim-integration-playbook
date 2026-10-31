@@ -7,8 +7,11 @@ a later successful, fresh MO2/xEdit typed reload of the installed VFS winner.
 from __future__ import annotations
 
 import argparse
+import ctypes
+from ctypes import wintypes
 import hashlib
 import json
+import msvcrt
 import os
 import re
 import shutil
@@ -394,7 +397,7 @@ def prepare(args):
                       'sha256': mat.sha(job / 'prepared.json'), 'profiles': [{k: p[k] for k in ('profile', 'slots', 'relocated_derived_suffix')} for p in plans]}, indent=2))
 
 
-def check_plan(plan):
+def check_plan(plan, verify_current=True):
     need(plan['schema'] == 'skyrim.verified_patch_install.v1' and plan['layer'] == LAYER, 'Wrong plan schema/layer')
     need(plan.get('compatibility_priority') == COMPATIBILITY_PRIORITY, 'Compatibility priority policy changed')
     need(Path(plan['installer']['path']).resolve() == Path(__file__).resolve(), 'Wrong installer source')
@@ -402,11 +405,12 @@ def check_plan(plan):
         check_pin(row)
     producer_gate(plan['producer_task'], Path(plan['source_pins'][0]['path']))
     binary_gate(load(plan['binary_report']), Path(plan['source_pins'][0]['path']), plan['candidate_sha256'])
-    for profile in plan['profiles']:
-        for row in profile['control_pins'].values():
-            check_pin(row)
-        for row in profile['inputs']:
-            check_pin(row)
+    if verify_current:
+        for profile in plan['profiles']:
+            for row in profile['control_pins'].values():
+                check_pin(row)
+            for row in profile['inputs']:
+                check_pin(row)
     need([p['profile'] for p in plan['profiles']] == list(PROFILES), 'Unexpected profile set/order')
     source_pins = {str(Path(p['path']).resolve()): p for p in plan['staged_pins']}
     need(len(source_pins) == len(plan['mappings']), 'Incomplete staged source set')
@@ -416,17 +420,18 @@ def check_plan(plan):
              mapping.get('storage') == 'private', 'Unpinned or non-private mapping')
     header = candidate_header(Path(plan['source_pins'][0]['path']))
     need(header == plan['candidate_header'], 'Candidate structure changed')
-    # Recalculate from current controls, so the staged text is not trusted merely
-    # because its hash occurs in a JSON plan.
-    for profile in plan['profiles']:
-        current, expected = profile_plan(profile['profile'], Path(plan['source_pins'][0]['path']),
-                                         header, plan['replace_sha256'])
-        need(current == profile, 'Current active-input or ordering plan differs')
-        for filename, blob in expected.items():
-            destination = f'profiles/{profile["profile"]}/{filename}'
-            matches = [m for m in plan['mappings'] if m['destination'] == destination]
-            need(len(matches) == 1 and Path(matches[0]['source']).read_bytes() == blob,
-                 'Staged control file differs from recomputed ordering')
+    if verify_current:
+        # Recalculate from current controls, so the staged text is not trusted merely
+        # because its hash occurs in a JSON plan.
+        for profile in plan['profiles']:
+            current, expected = profile_plan(profile['profile'], Path(plan['source_pins'][0]['path']),
+                                             header, plan['replace_sha256'])
+            need(current == profile, 'Current active-input or ordering plan differs')
+            for filename, blob in expected.items():
+                destination = f'profiles/{profile["profile"]}/{filename}'
+                matches = [m for m in plan['mappings'] if m['destination'] == destination]
+                need(len(matches) == 1 and Path(matches[0]['source']).read_bytes() == blob,
+                     'Staged control file differs from recomputed ordering')
 
 
 def install_unlocked(args):
@@ -460,20 +465,24 @@ def install_unlocked(args):
     need(shutil.disk_usage(mat.BASE).free >= mat.RESERVE + needed, 'Disk reserve would be crossed')
     check_plan(plan)
     unit = 'verified_patch_' + uuid.uuid4().hex
-    save_new(job / 'install_started.json', {'utc': mat.utc(), 'plan': pin(path), 'unit': unit, 'backups': backups})
+    unit = 'verified_patch_' + uuid.uuid4().hex
     c = mat.connect()
+    c.execute('begin immediate')
     old_rows = []
+    for item in mappings:
+        old = c.execute('select * from files where dest_key=?', (mat.key(item['destination']),)).fetchone()
+        if old:
+            need(old['status'] == 'materialized', 'Destination has unresolved journal work')
+            old_rows.append(dict(old))
+    save_new(job / 'install_started.json', {
+        'schema': 'skyrim.verified_patch_install.started.v1', 'utc': mat.utc(), 'install_pid': os.getpid(),
+        'plan': pin(path), 'unit': unit, 'backups': backups, 'original_file_rows': old_rows})
     touched = []
     try:
         # add_file_mapping owns the canonical source/destination validation and
         # planned journal records. Never call build(): it consumes unrelated work.
-        c.execute('begin immediate')
-        for item in mappings:
-            old = c.execute('select * from files where dest_key=?', (mat.key(item['destination']),)).fetchone()
-            if old:
-                need(old['status'] == 'materialized', 'Destination has unresolved journal work')
-                old_rows.append(dict(old))
-                c.execute('delete from files where id=?', (old['id'],))
+        for row in old_rows:
+            c.execute('delete from files where id=?', (row['id'],))
         c.execute('insert into events values(?,?,?)', (mat.utc(), 'verified_patch_prior_rows', json.dumps({'unit': unit, 'rows': old_rows, 'backups': backups})))
         mat.add_file_mapping(c, unit, mappings, 'Independently verified exported compatibility candidate; acceptance pending fresh installed-VFS typed reload')
         for item in mappings:
@@ -544,18 +553,190 @@ def install_unlocked(args):
         c.close()
 
 
-def install(args):
-    # A process crash leaves the lock and attempt receipt for deliberate recovery.
-    # Never race two installers against the same profiles/journal destinations.
-    lock_path = HERE / 'install.lock'
-    lock = lock_path.open('x', encoding='utf-8')
+def locked_operation(args, action, recovery=False):
+    path = HERE / 'install.lock'
+    existed = path.exists()
+    acquired = False
+    lock = path.open('a+b')
     try:
-        lock.write(json.dumps({'utc': mat.utc(), 'pid': os.getpid(), 'prepared': args.prepared}) + '\n')
+        if lock.tell() == 0:
+            lock.write(b'\n')
+            lock.flush()
+        lock.seek(0)
+        msvcrt.locking(lock.fileno(), msvcrt.LK_NBLCK, 1)
+        acquired = True
+        lock.seek(0)
+        content = lock.read().decode('utf-8').strip()
+        prior = json.loads(content) if content else None
+        if prior:
+            need(isinstance(prior.get('pid'), int) and not pid_running(prior['pid']),
+                 'A live installer holds the operation lock')
+        need(recovery or not existed or (prior or {}).get('operation_finished') is True,
+             'Unfinished lock requires explicit recovery of its prepared attempt')
+        if recovery and prior:
+            need(Path(prior['prepared']).resolve() == research_path(args.prepared),
+                 'Lock belongs to a different prepared attempt')
+        lock.seek(0)
+        lock.truncate()
+        lock.write((json.dumps({'utc': mat.utc(), 'pid': os.getpid(), 'prepared': args.prepared,
+                                'recovery': recovery}) + '\n').encode('utf-8'))
         lock.flush()
-        install_unlocked(args)
+        action(args)
     finally:
+        if acquired:
+            lock.seek(0)
+            lock.truncate()
+            lock.write((json.dumps({'utc': mat.utc(), 'pid': os.getpid(), 'prepared': args.prepared,
+                                    'recovery': recovery, 'operation_finished': True}) + '\n').encode('utf-8'))
+            lock.flush()
+            lock.seek(0)
+            msvcrt.locking(lock.fileno(), msvcrt.LK_UNLCK, 1)
         lock.close()
-        lock_path.unlink()
+
+
+def install(args):
+    locked_operation(args, install_unlocked)
+
+
+def pid_running(pid):
+    kernel = ctypes.WinDLL('kernel32', use_last_error=True)
+    kernel.OpenProcess.argtypes = [wintypes.DWORD, wintypes.BOOL, wintypes.DWORD]
+    kernel.OpenProcess.restype = wintypes.HANDLE
+    kernel.GetExitCodeProcess.argtypes = [wintypes.HANDLE, ctypes.POINTER(wintypes.DWORD)]
+    kernel.GetExitCodeProcess.restype = wintypes.BOOL
+    kernel.CloseHandle.argtypes = [wintypes.HANDLE]
+    kernel.CloseHandle.restype = wintypes.BOOL
+    handle = kernel.OpenProcess(0x1000, False, pid)
+    if not handle:
+        error = ctypes.get_last_error()
+        if error == 5:
+            return True
+        if error == 87:
+            return False
+        raise ctypes.WinError(error)
+    try:
+        code = wintypes.DWORD()
+        need(kernel.GetExitCodeProcess(handle, ctypes.byref(code)), 'Cannot inspect installer process')
+        return code.value == 259
+    finally:
+        kernel.CloseHandle(handle)
+
+
+def check_recovery_journal(c, unit, mappings, old_rows):
+    expected = {r['id']: r for r in old_rows}
+    keys = [mat.key(m['destination']) for m in mappings]
+    placeholders = ','.join('?' for _ in keys)
+    actual = [dict(r) for r in c.execute(
+        f'select * from files where dest_key in ({placeholders}) or unit_id=?', (*keys, unit))]
+    for row in actual:
+        if row['unit_id'] == unit:
+            need(mat.key(row['destination']) in keys, 'Interrupted unit has an unexpected destination')
+        else:
+            need(row['id'] in expected and dict(row) == expected[row['id']],
+                 'An unrelated journal row occupies a recovery destination')
+    return actual
+
+
+def recover_unlocked(args):
+    path = research_path(args.prepared)
+    plan = load(path)
+    check_plan(plan, verify_current=False)
+    job = path.parent
+    need(not any((job / name).exists() for name in (
+        'installed.json', 'accepted.json', 'install_failure.json', 'recovered.json', 'recovered_attempt.json')),
+         'Attempt already has a terminal receipt; do not recover it again')
+    started = load(job / 'install_started.json')
+    need(started.get('schema') == 'skyrim.verified_patch_install.started.v1',
+         'Legacy interrupted attempts lack complete original journal rows; inspect them manually')
+    need(started['plan']['path'] == str(path) and started['plan']['sha256'] == mat.sha(path),
+         'Interrupted attempt belongs to a different preparation')
+    unit = started['unit']
+    need(re.fullmatch(r'verified_patch_[0-9a-f]{32}', unit), 'Unexpected interrupted unit')
+    need(isinstance(started.get('install_pid'), int) and not pid_running(started['install_pid']),
+         'Installer is still running; recovery cannot proceed')
+    mappings = plan['mappings']
+    allowed = {f'mods/{LAYER}/{plan["candidate_name"]}'} | {
+        f'profiles/{p}/{n}' for p in PROFILES for n in CONTROLS[:3]}
+    need({m['destination'] for m in mappings} == allowed and len(mappings) == len(allowed),
+         'Unexpected or duplicate recovery destination')
+    backups = started['backups']
+    need(set(backups) == allowed, 'Incomplete interrupted backup set')
+    old_rows = started['original_file_rows']
+    old_by_key = {mat.key(r['destination']): r for r in old_rows}
+    need(len(old_by_key) == len(old_rows) and
+         set(old_by_key) == {mat.key(k) for k, v in backups.items() if v},
+         'Duplicate or incomplete original journal destination')
+    for item in mappings:
+        destination = item['destination']
+        prior = backups[destination]
+        old = old_by_key.get(mat.key(destination))
+        if prior:
+            check_pin(prior)
+            need(old is not None and old['status'] == 'materialized' and old['storage'] == 'private' and
+                 old['sha256'] == prior['prior_sha256'] and old['destination'] == destination and
+                 old['unit_id'] != unit,
+                 'Original journal row does not match its backup')
+            for profile in plan['profiles']:
+                control = profile['control_pins'].get(Path(destination).name)
+                if control and f'profiles/{profile["profile"]}/' + Path(destination).name == destination:
+                    need(control['sha256'] == prior['prior_sha256'], 'Control backup does not match the frozen plan')
+        else:
+            need(old is None and destination == f'mods/{LAYER}/{plan["candidate_name"]}',
+                 'A missing original is only valid for the new candidate')
+        target = mat.guard_destination(mat.TARGET / destination)
+        actual = mat.sha(target) if target.exists() else None
+        expected = {mat.sha(item['source']), prior['prior_sha256'] if prior else None}
+        need(actual in expected, 'External file change prevents recovery: ' + destination)
+        if actual is not None:
+            need(regular(target).st_nlink == 1, 'Recovery destination became shared')
+    c = mat.connect()
+    try:
+        check_recovery_journal(c, unit, mappings, old_rows)
+        for event in c.execute("select detail from events where event='verified_patch_prior_rows'"):
+            detail = json.loads(event['detail'])
+            if detail.get('unit') == unit:
+                need(detail['rows'] == old_rows and detail['backups'] == backups,
+                     'Journal event disagrees with interrupted-attempt snapshot')
+        for item in reversed(mappings):
+            target = mat.guard_destination(mat.TARGET / item['destination'])
+            prior = backups[item['destination']]
+            if prior:
+                source = Path(prior['path'])
+                mat.make_private(source, target, regular(source))
+            elif target.exists():
+                target.unlink()
+        for item in mappings:
+            target = mat.guard_destination(mat.TARGET / item['destination'])
+            prior = backups[item['destination']]
+            need((mat.sha(target) == prior['prior_sha256']) if prior else not target.exists(),
+                 'Restored file failed verification: ' + item['destination'])
+        c.execute('begin immediate')
+        before = check_recovery_journal(c, unit, mappings, old_rows)
+        c.execute('delete from files where unit_id=?', (unit,))
+        c.execute('delete from units where id=?', (unit,))
+        for row in old_rows:
+            columns = ','.join(row)
+            c.execute(f'insert into files({columns}) values({",".join("?" for _ in row)})', tuple(row.values()))
+        receipt = {'utc': mat.utc(), 'status': 'INTERRUPTED_INSTALL_RECOVERED_NOT_ACCEPTED', 'accepted': False,
+                   'unit': unit, 'prepared': pin(path), 'interrupted_attempt': pin(job / 'install_started.json'),
+                   'restored_files': [pin(mat.TARGET / m['destination']) for m in mappings if backups[m['destination']]],
+                   'removed_new_files': [m['destination'] for m in mappings if not backups[m['destination']]],
+                   'restored_journal_rows': old_rows, 'rows_before_recovery': before,
+                   'required_next_step': 'Re-run preparation and installation from unchanged inputs; do not reuse this interrupted attempt.'}
+        c.execute('insert into events values(?,?,?)', (mat.utc(), 'verified_patch_interrupted_install_recovered', json.dumps(receipt)))
+        c.commit()
+        after = check_recovery_journal(c, unit, mappings, old_rows)
+        need(len(after) == len(old_rows) and not c.execute('select 1 from units where id=?', (unit,)).fetchone(),
+             'Recovered journal verification failed')
+        save_new(job / 'recovered.json', receipt)
+        (job / 'install_started.json').rename(job / 'recovered_attempt.json')
+        print(json.dumps(receipt, indent=2))
+    finally:
+        c.close()
+
+
+def recover(args):
+    locked_operation(args, recover_unlocked, recovery=True)
 
 
 def accept(args):
@@ -631,6 +812,9 @@ def main():
     p = sub.add_parser('install')
     p.add_argument('--prepared', required=True)
     p.set_defaults(function=install)
+    p = sub.add_parser('recover', help='Restore a process-interrupted rev4 installation after verifying that its PID has exited')
+    p.add_argument('--prepared', required=True)
+    p.set_defaults(function=recover)
     p = sub.add_parser('accept')
     p.add_argument('--prepared', required=True)
     p.add_argument('--reload-task', required=True)

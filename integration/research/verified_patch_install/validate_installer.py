@@ -1,12 +1,15 @@
 """Adversarial pure checks and private fixture journal/rollback exercises.
 
-The two journal fixtures redirect materialize.TARGET/DB to this research folder.
-No real integration runtime, profile, or shared journal is written.
+The journal fixtures redirect materialize.TARGET/DB to this research folder.
+Crash children exit deliberately only against these isolated fixtures. No real
+integration runtime, profile, or shared journal is written.
 """
 import contextlib
 import io
 import json
+import os
 import struct
+import subprocess
 import sys
 import uuid
 from pathlib import Path
@@ -116,14 +119,15 @@ def main():
     result.append({'case': 'both actual profiles read-only planning/topology/consistent activation-loadorder', 'passed': True})
 
     saved = (m.mat.TARGET, m.mat.DB, m.mat.RESERVE, m.check_plan, m.mat.make_private)
-    def journal_fixture(fail):
-        root = folder / ('rollback' if fail else 'success')
+    def journal_fixture(mode):
+        root = folder / mode
         runtime = root / 'runtime'
         runtime.mkdir(parents=True)
         m.mat.TARGET, m.mat.DB, m.mat.RESERVE = runtime, root / 'journal.sqlite', 0
-        m.check_plan = lambda p: None  # Exercise I/O/journal only; gates tested above.
+        m.check_plan = lambda p, verify_current=True: None
         job = root / 'job'
         job.mkdir()
+        replacement = mode == 'crash_replacement'
         paths = [f'mods/{m.LAYER}/Test.esp'] + [f'profiles/{p}/{n}' for p in m.PROFILES for n in m.CONTROLS[:3]]
         mappings, prior, old_mappings = [], {}, []
         for i, destination in enumerate(paths):
@@ -131,7 +135,7 @@ def main():
             src.write_bytes(f'new {i}'.encode())
             mappings.append({'source': str(src), 'destination': destination, 'storage': 'private', 'bytes': src.stat().st_size})
             dst = runtime / destination
-            if i:
+            if i or replacement:
                 dst.parent.mkdir(parents=True, exist_ok=True)
                 dst.write_bytes(f'old {i}'.encode())
                 oldsrc = job / f'old_{i}.bin'
@@ -140,51 +144,105 @@ def main():
                 prior[destination] = dst.read_bytes()
         c = m.mat.connect()
         m.mat.add_file_mapping(c, 'fixture_old', old_mappings, 'Private research fixture')
-        c.execute("update files set status='materialized'")
+        for item in old_mappings:
+            c.execute("update files set status='materialized',sha256=? where dest_key=?",
+                      (m.mat.sha(item['source']), m.mat.key(item['destination'])))
         c.commit()
         old_rows = [dict(r) for r in c.execute('select * from files order by id')]
         old_units = [dict(r) for r in c.execute('select * from units order by id')]
         c.close()
         plan = {'candidate_name': 'Test.esp', 'candidate_sha256': m.mat.sha(mappings[0]['source']),
-                'replace_sha256': None, 'mappings': mappings, 'profiles': [], 'source_pins': [], 'staged_pins': []}
+                'replace_sha256': m.sha_bytes(prior[paths[0]]) if replacement else None,
+                'mappings': mappings, 'profiles': [], 'source_pins': [], 'staged_pins': []}
         prepared = job / 'prepared.json'
         m.save_new(prepared, plan)
         calls = [0]
-        def atomic(src, dst, st):
-            calls[0] += 1
-            if fail and calls[0] == 2:
-                raise RuntimeError('Injected failure after the first atomic copy')
-            return saved[4](src, dst, st)
-        m.mat.make_private = atomic
-        caught = None
-        with contextlib.redirect_stdout(io.StringIO()):
-            try:
-                m.install_unlocked(SimpleNamespace(prepared=str(prepared)))
-            except RuntimeError as exc:
-                caught = exc
+        crashed = None
+        if mode.startswith('crash_'):
+            child = '''import os,sys
+from types import SimpleNamespace
+from pathlib import Path
+import install_verified_patch as m
+prepared,target,db,mode=sys.argv[1:]
+m.mat.TARGET=Path(target);m.mat.DB=Path(db);m.mat.RESERVE=0
+m.check_plan=lambda p,verify_current=True:None
+original=m.mat.make_private
+calls=[0]
+def crash(src,dst,st):
+    calls[0]+=1
+    if mode in ('crash_before_copy','crash_replacement') and calls[0]==2:os._exit(42)
+    result=original(src,dst,st)
+    if mode=='crash_after_copy' and calls[0]==7:os._exit(43)
+    return result
+m.mat.make_private=crash
+m.install_unlocked(SimpleNamespace(prepared=prepared))
+'''
+            with (root / 'crash_stdout.log').open('w', encoding='utf-8') as stream:
+                crashed = subprocess.run([sys.executable, '-B', '-c', child, str(prepared), str(runtime), str(m.mat.DB), mode],
+                                         cwd=m.HERE, stdout=stream, stderr=subprocess.STDOUT)
+            assert crashed.returncode == (43 if mode == 'crash_after_copy' else 42)
+            assert (job / 'install_started.json').is_file() and not (job / 'installed.json').exists()
+            started = m.load(job / 'install_started.json')
+            live = dict(started, install_pid=os.getpid())
+            (job / 'install_started.json').write_text(json.dumps(live), encoding='utf-8')
+            rejects(lambda: m.recover_unlocked(SimpleNamespace(prepared=str(prepared))))
+            (job / 'install_started.json').write_text(json.dumps(started), encoding='utf-8')
+            drifted = runtime / paths[0]
+            correct = drifted.read_bytes()
+            drifted.write_bytes(b'external drift')
+            rejects(lambda: m.recover_unlocked(SimpleNamespace(prepared=str(prepared))))
+            drifted.write_bytes(correct)
+            lock = m.HERE / 'install.lock'
+            assert not lock.exists() or m.load(lock).get('operation_finished') is True or not m.pid_running(m.load(lock)['pid']), 'An unrelated installer must not be active during fixture recovery'
+            lock.write_text(json.dumps({'pid': started['install_pid'], 'prepared': str(prepared)}) + '\n', encoding='utf-8')
+            with contextlib.redirect_stdout(io.StringIO()):
+                m.locked_operation(SimpleNamespace(prepared=str(prepared)), m.recover_unlocked, recovery=True)
+            assert m.load(lock)['operation_finished'] is True
+        else:
+            def atomic(src, dst, st):
+                calls[0] += 1
+                if mode == 'rollback' and calls[0] == 2:
+                    raise RuntimeError('Injected failure after the first atomic copy')
+                return saved[4](src, dst, st)
+            m.mat.make_private = atomic
+            with contextlib.redirect_stdout(io.StringIO()):
+                try:
+                    m.install_unlocked(SimpleNamespace(prepared=str(prepared)))
+                except RuntimeError:
+                    assert mode == 'rollback'
         c = m.mat.connect()
         rows = [dict(r) for r in c.execute('select * from files order by id')]
         units = [dict(r) for r in c.execute('select * from units order by id')]
+        integrity = c.execute('pragma integrity_check').fetchone()[0]
         c.close()
-        if fail:
-            assert caught and rows == old_rows and units == old_units
-            assert not (runtime / paths[0]).exists()
+        assert integrity == 'ok'
+        if mode != 'success':
+            assert rows == old_rows and units == old_units
             for destination, blob in prior.items():
                 assert (runtime / destination).read_bytes() == blob
-            assert m.load(job / 'install_failure.json')['status'] == 'INSTALL_FAILED_ROLLED_BACK'
+            if mode.startswith('crash_'):
+                assert not (runtime / paths[0]).exists() or replacement
+                assert m.load(job / 'recovered.json')['status'] == 'INTERRUPTED_INSTALL_RECOVERED_NOT_ACCEPTED'
+                assert not (job / 'install_started.json').exists() and (job / 'recovered_attempt.json').is_file()
+            else:
+                assert m.load(job / 'install_failure.json')['status'] == 'INSTALL_FAILED_ROLLED_BACK'
         else:
-            assert not caught and len(rows) == 7 and len(units) == len(old_units) + 1
+            assert len(rows) == 7 and len(units) == len(old_units) + 1
             assert all(r['status'] == 'materialized' and r['storage'] == 'private' for r in rows)
             assert m.load(job / 'installed.json')['accepted'] is False
             for mapping in mappings:
                 dst = runtime / mapping['destination']
                 assert m.mat.sha(dst) == m.mat.sha(mapping['source']) and dst.stat().st_nlink == 1
-        return {'fixture': str(root), 'atomic_calls': calls[0], 'journal_rows': len(rows)}
+        return {'fixture': str(root), 'atomic_calls': calls[0], 'journal_rows': len(rows),
+                'crash_exit_code': crashed.returncode if crashed else None}
     try:
-        success = journal_fixture(False)
+        success = journal_fixture('success')
         result.append({'case': 'seven private atomic copies and journal replacements succeed but acceptance remains false', 'passed': True, **success})
-        rollback = journal_fixture(True)
+        rollback = journal_fixture('rollback')
         result.append({'case': 'injected second-copy failure restores exact prior bytes and journal rows', 'passed': True, **rollback})
+        for mode in ['crash_before_copy', 'crash_after_copy', 'crash_replacement']:
+            recovered = journal_fixture(mode)
+            result.append({'case': 'actual child-process crash recovers bytes and complete journal: ' + mode, 'passed': True, **recovered})
     finally:
         m.mat.TARGET, m.mat.DB, m.mat.RESERVE, m.check_plan, m.mat.make_private = saved
     output = {'utc': m.mat.utc(), 'status': 'PASS_RESEARCH_FIXTURES_AND_READONLY_PROFILE_PREFLIGHT',

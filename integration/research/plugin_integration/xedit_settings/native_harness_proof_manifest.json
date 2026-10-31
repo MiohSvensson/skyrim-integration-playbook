@@ -1,0 +1,100 @@
+{
+  "schema": "skyrim.native_xedit_harness.proof.v1",
+  "utc": "2026-10-31T19:01:25Z",
+  "status": "NAVM_AND_NAVI_PRIMITIVES_PASS_FC_DESTRUCTION_FAILURE_STILL_UNRESOLVED",
+  "harness": [
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\prepare_xedit_producer.py",
+      "sha256": "21c4eadaf8b7d52540476412a03ba83aea770378974e4093ba8842a44a6ac88f"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\xedit_producer_child.py",
+      "sha256": "89a9f3fbac6937b664e7742605a2fe235b8f600a7e6a2ace282951e2d4b09c1c"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\xedit_dialogs.py",
+      "sha256": "2db1794c09b8a1475edc936c198c121b0b90443420aa44a855cbb4d20932b6e2"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\native_xedit_context.py",
+      "sha256": "13b44c18844d6cf77d25443d5e758afbac8b14721a2d19bbaac04c860e1e6ca2"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\audit_native_context.py",
+      "sha256": "81eaad4138c218d698d87a75a75f70e2ee6e39ddded9e3ec56ab797b2952b102"
+    }
+  ],
+  "native_context": {
+    "profile_plugins": 1076,
+    "native_entries": 1077,
+    "sequence": "Skyrim.esm, SkyrimSE.exe pseudo-plugin, then the remaining frozen Build plugins",
+    "exact_order_sha256": "a55bf2bb1d46d9db5270551d93838e4e4d47318f5770ece2984aa92dd0ab33f1",
+    "input_plugins_changed": false,
+    "profile_controls_changed": false,
+    "game_launched": false
+  },
+  "proofs": [
+    {
+      "operation": "Exact stock orphan scalar nil-parent LinksTo",
+      "script_sha256": "40e1086e81c933c7783c454c1966e9a37422bdf17684cb5522c2bcd3f5310c61",
+      "result": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\validation\\orphan_link_probe_v1\\native_context_review_rev2.json",
+      "result_sha256": "4325c17db720f51c9f8ac147c6823bc94c8a73f20fd9e37c0e2844aa696efdae",
+      "status": "PASS"
+    },
+    {
+      "operation": "NAVM source copy and external-edge removal",
+      "script_sha256": "5a1fb38b75a034f425a3a5eb6f6f84162b75ee2e98871e825db235b613738467",
+      "result": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\validation\\navm_removal_probe_v2\\result.json",
+      "result_sha256": "a3cbcfd143b6cd157136f6d555c05c5784617ae512599e240c9f657ff9285667",
+      "status": "PASS"
+    },
+    {
+      "operation": "Winning NAVI copy, absent-target append, and reference remapping",
+      "script_sha256": "08bbc3526c4fda5ee756883da2ed39b893cefbd894fae3a8119e56688275ec58",
+      "result": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\validation\\navi_append_probe_v2\\result.json",
+      "result_sha256": "889f6ad85865bdfa4b91452a977356803bf3981d20a97311791364360edfdfe1",
+      "status": "PASS"
+    },
+    {
+      "operation": "Full NAVI preservation comparison with scalar unions and xEdit Check",
+      "script_sha256": "cd974b4feec7f7bf6650c383514bd9d99919b5ad84d9bf0534209b9d89a84aa4",
+      "result": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\validation\\navi_compare_probe_v1\\result.json",
+      "result_sha256": "70103242c89c69b2044735e01927b94deedeaa3e625d98e5dfbe9e78e5e47b52",
+      "status": "PASS"
+    },
+    {
+      "operation": "CELL/WRLD parent copy and full preservation comparison",
+      "script_sha256": "3d2f98af52822a80d8083a284a56aec2e20da711423a4a192296ce42806257e9",
+      "result": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\validation\\parent_compare_probe_v1\\result.json",
+      "result_sha256": "d0f59f1d3e2109dbb3e18d7c6b8f987029719ca12fc34cd03df680e5a7ee30e3",
+      "status": "PASS"
+    },
+    {
+      "operation": "USSEP island NVMI forwarding and full typed comparison",
+      "script_sha256": "e5c9f2e0d0b54116f36dbcf45d2223c17795279a0a30cc45fe4d7347ce8722a7",
+      "result": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\validation\\nvmi_compare_probe_v1\\result.json",
+      "result_sha256": "841b66afbeb09d4d03dbc44f80f1620eca0413763e348a905aa51828d333bc29",
+      "status": "PASS"
+    }
+  ],
+  "launch_contract": [
+    "Confirm only the exact TfrmModuleSelect Module Selection dialog and its sole visible OK button. Do not approve arbitrary dialogs.",
+    "After the intended script completes, allow one normal WM_CLOSE. A phase file permits detection when a short script's title was not observed. No save/error dialog is approved by the watcher.",
+    "Require clean exit, exact native sequence, pass and Done markers, unchanged inputs/controls, and required candidate bytes before returning PASS.",
+    "Every task gets fresh private logs/cache/temp. PROGRESS_FILE placeholders resolve inside the task; absolute PROGRESS paths must remain under integration/research."
+  ],
+  "fc_open_failure": {
+    "last_full_builder_result": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\validation\\fc_navigation_v9_r1\\result.json",
+    "last_full_builder_result_sha256": "c241ec2fdfb79ac9bb4e5e7ad01beaa518a5bcb09306db0354b196f0afb15da6",
+    "primary_exception": "TwbContainer.BeforeDestruction interface-reference assertion at wbImplementation.pas:6125",
+    "v8_candidate_binary_report": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\forgotten_city_navigation\\binary_v8.json",
+    "binary_result": "PASS but producer failed; not installed",
+    "next_isolation": "Full NAVM composition and reciprocal-portal checks",
+    "not_accepted": true
+  },
+  "limits": [
+    "These are bounded diagnostic operations, not acceptance of the full FC candidate.",
+    "Glen has not been executed. No game was started and no in-game behavior is proven.",
+    "No original pack or accepted compatibility plugin was modified."
+  ]
+}

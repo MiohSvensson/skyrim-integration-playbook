@@ -47,9 +47,11 @@ Do not:
 
 Installer rev4 passes 29 fixture checks, including actual child-process interruptions before and after copies and replacement recovery. For a rev4 `install_started.json` without a terminal receipt, use `install_verified_patch.py recover --prepared <job/prepared.json>` only after its installer process has exited. It refuses external changes and restores the original bytes and journal rows. Legacy rev3 interrupted attempts still require manual inspection.
 
+The MO2/xEdit harness proves the complete native plugin sequence, including xEdit's `SkyrimSE.exe` pseudo-plugin—not a game launch. It permits only the exact Module Selection dialog, uses phase evidence for short scripts, and closes normally after the intended script. Nil-parent lookup, edge removal, NAVI append/remap, full NAVI preservation, and parent preservation probes pass; see `integration/research/plugin_integration/xedit_settings/native_harness_proof_manifest.json`.
+
 ## 1. Forgotten City navigation
 
-Use the current v6 PAS scripts.
+Use the current diagnostic PAS files, not the historical v6 baseline or `generate_drafts.py`. FC still has a `TwbContainer.BeforeDestruction` assertion during full-builder cleanup. Its independently verified candidate is not installed or accepted while the producer fails.
 
 1. Run the corrected source preflight documented in `integration/research/forgotten_city_navigation/README.md`.
 2. Prepare a fresh xEdit producer against `Unified Build` and execute it through the actual MO2 VFS.

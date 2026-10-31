@@ -1,7 +1,15 @@
 """MO2-only xEdit producer/typed reload verifier, with explicit completion marker."""
-import configparser,ctypes,json,os,subprocess,sys,time
+import configparser
+import ctypes
+import json
+import os
+import subprocess
+import sys
+import time
 from pathlib import Path
 from materialize import BASE,TARGET,sha,utc
+import xedit_dialogs
+import native_xedit_context
 
 task=Path(sys.argv[1]).resolve(strict=True)
 assert task.is_relative_to(TARGET/'validation')
@@ -13,6 +21,8 @@ prepared=json.loads((task/'prepared.json').read_text('utf-8'))
 normal_settings=None
 if prepared.get('normal_records_option') is not None:
     assert sha(__file__)==prepared['harness_sha256']['xedit_producer_child.py'],'Frozen harness changed before dispatch'
+    assert sha(xedit_dialogs.__file__)==prepared['harness_sha256']['xedit_dialogs.py'],'Frozen dialog helper changed before dispatch'
+    assert sha(native_xedit_context.__file__)==prepared['harness_sha256']['native_xedit_context.py'],'Frozen native-context helper changed before dispatch'
     settings_path=Path(prepared['normal_records_ini'])
     assert settings_path.resolve()==TARGET/'tools/xedit/SSEScript.ini'
     ini=configparser.ConfigParser();ini.read_string(settings_path.read_text('utf-8-sig'))
@@ -28,10 +38,20 @@ log=task/'logs/xedit.log'
 assert not log.exists()
 (task/'child_started.json').write_text(json.dumps({'utc':utc(),'usvfs':True,'pid':os.getpid(),'normal_records_config':normal_settings})+'\n',encoding='utf-8')
 started=time.monotonic()
+inputs=json.loads((task/'input_inventory.json').read_text('utf-8'))
 process=subprocess.Popen(command,cwd=Path(command[0]).parent)
 (task/'xedit_pid.json').write_text(json.dumps({'pid':process.pid})+'\n',encoding='utf-8')
-code=process.wait()
-inputs=json.loads((task/'input_inventory.json').read_text('utf-8'))
+watcher=xedit_dialogs.ModuleSelectionWatcher(task,process,len(inputs['plugins']),prepared.get('progress_file'))
+timed_out=False
+try:
+    try:
+        code=process.wait(timeout=prepared.get('xedit_timeout_seconds',3600))
+    except subprocess.TimeoutExpired:
+        timed_out=True
+        process.kill()
+        code=process.wait()
+finally:
+    watcher.stop()
 changed_inputs=[r['name'] for r in inputs['plugins'] if sha(r['path'])!=r['sha256']]
 changed_controls=[name for name,digest in prepared.get('profile_controls',{}).items() if sha(Path(prepared['profile'])/name)!=digest]
 autosave=None
@@ -46,16 +66,19 @@ if patch_name:
         autosave={'source':str(saved),'quarantined':str(quarantine),'sha256':sha(saved),
                   'disposition':'Script-mode automatic save is isolated; only explicitly exported and independently verified candidate can be installed.'}
         saved.rename(quarantine)
-content=log.read_text('utf-8-sig',errors='replace') if log.exists() else ''
+loaded_context=native_xedit_context.evaluate(task,prepared,inputs,log)
 candidate=Path(prepared['candidate']) if prepared['candidate'] else None
-passed=code==0 and not changed_inputs and not changed_controls and prepared['pass_marker'] in content and (candidate is None or candidate.is_file())
+passed=code==0 and not timed_out and loaded_context['exact_order_match'] and loaded_context['script_done_marker_seen'] and loaded_context['marker_seen'] and not changed_inputs and not changed_controls and not (task/'module_selection_error.json').exists() and (candidate is None or candidate.is_file())
 result={'utc':utc(),'status':'PASS' if passed else 'FAIL','usvfs':True,'return_code':code,
-        'seconds':round(time.monotonic()-started,1),'pass_marker':prepared['pass_marker'],
-        'marker_seen':prepared['pass_marker'] in content,'log_sha256':sha(log) if log.exists() else None,
-        'candidate_sha256':sha(candidate) if candidate and candidate.exists() else None}
+        'seconds':round(time.monotonic()-started,1),'pass_marker':prepared['pass_marker'],'timed_out':timed_out,
+        'marker_seen':loaded_context['marker_seen'],'log_sha256':loaded_context['log_sha256'],
+        'candidate_sha256':sha(candidate) if candidate and candidate.exists() else None,
+        'native_loaded_context':loaded_context,
+        'native_progress':native_xedit_context.read_log(prepared['progress_file']) if prepared.get('progress_file') else None}
 result['changed_input_plugins']=changed_inputs
 result['changed_profile_controls']=changed_controls
 result['isolated_script_autosave']=autosave
+result['module_selection_confirmation']=(task/'module_selection_confirmation.json').is_file()
 (task/'result.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 print(json.dumps(result,ensure_ascii=False),flush=True)
 raise SystemExit(0 if passed else 1)

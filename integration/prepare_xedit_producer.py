@@ -14,7 +14,9 @@ ap.add_argument('script')
 ap.add_argument('pass_marker')
 ap.add_argument('--candidate')
 ap.add_argument('--profile', choices=['Unified Build', 'Unified Skyrim'], default='Unified Build')
+ap.add_argument('--timeout-seconds', type=int, default=3600)
 args=ap.parse_args()
+assert 30 <= args.timeout_seconds <= 86400
 assert re.fullmatch('[A-Za-z0-9_]+',args.task_name)
 source=Path(args.script).resolve(strict=True)
 assert source.is_relative_to(BASE/'integration/research') and source.suffix=='.pas'
@@ -28,14 +30,26 @@ assert settings_parser.get('Options','SimpleRecords').strip()=='0', 'Use experim
 harness_dir=task/'harness'
 harness_dir.mkdir()
 harness_files={}
-for filename in ['prepare_xedit_producer.py','xedit_producer_child.py','logged_child.py']:
+for filename in ['prepare_xedit_producer.py','xedit_producer_child.py','xedit_dialogs.py','native_xedit_context.py','logged_child.py']:
     p=BASE/'integration'/filename
     (harness_dir/(filename+'.frozen.txt')).write_bytes(p.read_bytes())
     harness_files[filename]=sha(p)
 script=TARGET/'tools/xedit/Edit Scripts'/(args.task_name+'.pas')
 assert not script.exists()
-script.write_bytes(source.read_bytes())
-patch_match=re.search(r"PATCH_NAME\s*=\s*'([^']+)'",source.read_text('utf-8'))
+source_text=source.read_text('utf-8')
+progress_file=task/'native_progress.txt'
+progress_match=re.search(r"(?m)^\s*PROGRESS\s*=\s*'([^']+)'\s*;",source_text)
+progress_instrumented="PROGRESS_FILE = '';" in source_text or bool(progress_match)
+if progress_match:
+    progress_file=Path(progress_match.group(1)).resolve()
+    assert progress_file.is_relative_to(BASE/'integration/research')
+if "PROGRESS_FILE = '';" in source_text:
+    assert source_text.count("PROGRESS_FILE = '';")==1
+    source_text=source_text.replace("PROGRESS_FILE = '';", "PROGRESS_FILE = '"+str(progress_file).replace("'", "''")+"';")
+    script.write_text(source_text,encoding='utf-8',newline='')
+else:
+    script.write_bytes(source.read_bytes())
+patch_match=re.search(r"PATCH_NAME\s*=\s*'([^']+)'",source_text)
 patch_name=patch_match.group(1) if patch_match else None
 if patch_name:
     assert Path(patch_name).name==patch_name and not (TARGET/'overwrite'/patch_name).exists()
@@ -51,12 +65,13 @@ command=[str(TARGET/'tools/xedit/SSEEdit64.exe'),'-SSE','-nobuildrefs','-nofixup
 candidate=Path(args.candidate).resolve() if args.candidate else None
 if candidate:
     assert candidate.is_relative_to(BASE) and not candidate.exists()
-manifest={'utc':utc(),'source_script':str(source),'script':str(script),'script_sha256':sha(script),
+manifest={'utc':utc(),'source_script':str(source),'source_script_sha256':sha(source),
+          'script':str(script),'script_sha256':sha(script),'progress_file':str(progress_file) if progress_instrumented else None,
           'normal_records_ini':str(settings),'normal_records_option':'0','harness_sha256':harness_files,
           'patch_name':patch_name,
           'profile':str(profile),'control_normalization':control_normalization,
           'pass_marker':args.pass_marker,'candidate':str(candidate) if candidate else None,
-          'context_plugins':len(before['plugins']),'game_not_selected':True}
+          'context_plugins':len(before['plugins']),'xedit_timeout_seconds':args.timeout_seconds,'game_not_selected':True}
 manifest['profile_controls']={name:sha(profile/name) for name in ['modlist.txt','plugins.txt','loadorder.txt','Skyrim.ini','SkyrimCustom.ini','initweaks.ini','archives.txt','settings.ini'] if (profile/name).is_file()}
 (task/'prepared.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 (task/'xedit_command.json').write_text(json.dumps(command,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')

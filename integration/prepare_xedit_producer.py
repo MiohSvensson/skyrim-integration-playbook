@@ -6,6 +6,7 @@ import re
 from pathlib import Path
 from materialize import BASE,TARGET,sha,utc
 import runtime_inventory as runtime
+from mo2_controls import normalize_profile
 
 ap=argparse.ArgumentParser()
 ap.add_argument('task_name')
@@ -39,6 +40,7 @@ patch_name=patch_match.group(1) if patch_match else None
 if patch_name:
     assert Path(patch_name).name==patch_name and not (TARGET/'overwrite'/patch_name).exists()
 profile=TARGET/'profiles'/args.profile
+control_normalization=normalize_profile(profile,task/'control_normalization')
 runtime.PROFILE=profile
 before=runtime.inventory()
 assert not before['missing_plugins'] and not before['missing_masters']
@@ -52,7 +54,8 @@ if candidate:
 manifest={'utc':utc(),'source_script':str(source),'script':str(script),'script_sha256':sha(script),
           'normal_records_ini':str(settings),'normal_records_option':'0','harness_sha256':harness_files,
           'patch_name':patch_name,
-          'profile':str(profile),'pass_marker':args.pass_marker,'candidate':str(candidate) if candidate else None,
+          'profile':str(profile),'control_normalization':control_normalization,
+          'pass_marker':args.pass_marker,'candidate':str(candidate) if candidate else None,
           'context_plugins':len(before['plugins']),'game_not_selected':True}
 manifest['profile_controls']={name:sha(profile/name) for name in ['modlist.txt','plugins.txt','loadorder.txt','Skyrim.ini','SkyrimCustom.ini','initweaks.ini','archives.txt','settings.ini'] if (profile/name).is_file()}
 (task/'prepared.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')

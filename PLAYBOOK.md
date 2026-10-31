@@ -12,7 +12,9 @@ Last reviewed: 2026-10-31. Base: TuLED. Work remains active; static integration 
 - FC and Glen navigation are at the v6 draft/source-preflight stage, not compiled or installed.
 - Formal Synthesis, PG, and final LOD generation remain pending.
 
-These are physical/static checks, not final MO2 VFS or in-game proof.
+A pre-navigation MO2 child proved actual `usvfs_x64` injection and all 411,248 current runtime-path FileID/size winners in `pre_navigation_vfs_r2_probe_files.json`. That run is not an aggregate pass: MO2 moved its generated `modlist.txt` comment, and two Igraine hand textures remain unresolved. `mo2_controls.py` now canonicalizes only that exact comment with journal backup/rollback; no final all-resource VFS or in-game proof exists.
+
+`run_mo2_child.py` and `prepare_xedit_producer.py` normalize the selected profile before freezing its controls. Keep all child script arguments absolute; the wrapper also resolves `integration/...` arguments to avoid the pre-injection launch failure seen with a relative child path.
 
 ## Authoritative handoff files
 

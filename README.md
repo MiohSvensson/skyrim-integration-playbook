@@ -1,6 +1,6 @@
 # Unified Skyrim integration playbook
 
-Private, selective Git snapshot of the control plane for the Anno / Burida / TuLED integration. The working project remains under `E:\stock\Skyrim collection\Database`.
+Selective Git snapshot of the control plane for the Anno / Burida / TuLED integration. The working project remains under `E:\stock\Skyrim collection\Database`.
 
 This repository is for continuity, review, and recovery of the workflow. It is **not** a downloadable Skyrim mod pack and is **not** a standalone reproducible build.
 

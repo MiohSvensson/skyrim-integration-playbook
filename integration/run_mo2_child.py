@@ -11,6 +11,7 @@ import sys
 from pathlib import Path
 
 from materialize import BASE, TARGET, utc
+from mo2_controls import normalize_profile
 
 
 def main():
@@ -29,6 +30,8 @@ def main():
         raise ValueError('Only task-local Python children may be launched by this wrapper')
     task = TARGET/'validation'/args.task_name
     task.mkdir(parents=True, exist_ok=True)
+    normalization = normalize_profile(TARGET/'profiles'/args.profile, task/'launch_control_normalization')
+    arguments = [str((BASE/arg).resolve()) if arg.startswith(('integration/', 'integration\\')) else arg for arg in args.arguments]
     env = os.environ.copy()
     for name in ['TEMP', 'TMP', 'APPDATA', 'LOCALAPPDATA']:
         directory = TARGET/'sandbox'/name
@@ -38,9 +41,10 @@ def main():
     env['PYTHONDONTWRITEBYTECODE'] = '1'
     exe = TARGET/'MO2/ModOrganizer.exe'
     command = [str(exe), '--logs', '--profile', args.profile, 'run',
-               '--arguments', subprocess.list2cmdline([str(script)]+args.arguments), sys.executable]
+               '--arguments', subprocess.list2cmdline([str(script)]+arguments), sys.executable]
     record = {'utc': utc(), 'command': command, 'child_script_sha256': hashlib.sha256(script.read_bytes()).hexdigest(),
-              'selected_program': sys.executable, 'game_not_selected': True}
+              'selected_program': sys.executable, 'game_not_selected': True,
+              'profile_control_normalization': normalization}
     (task/'command.json').write_text(json.dumps(record, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
     with (task/'mo2_console.log').open('w', encoding='utf-8') as output:
         child = subprocess.Popen(command, cwd=exe.parent, env=env, stdout=output, stderr=subprocess.STDOUT)

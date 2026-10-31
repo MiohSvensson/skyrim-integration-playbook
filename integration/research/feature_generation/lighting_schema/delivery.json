@@ -1,0 +1,24 @@
+{
+  "status": "READY_READ_ONLY_LIGHTING_VALIDATOR_FIXTURES_PASS_ACTUAL_PG_PENDING",
+  "module_sha256": "dc6c4d668395e7c59c61f53720f0fc6e71fdbad52432c2bb75902e126873b7b1",
+  "files": {
+    "fixture_0.json": "0a5664ff821e58f07a6badb296da8735ef9433f809643b353062d77abb2a8af3",
+    "fixture_1.json": "e79d8a11bdf2f6d55a1a8693eab38cf04fecf7f2ab9d766017e77d4ecf750dc8",
+    "fixture_2.json": "f65339d9595b721ff95afddf887e64308175c01065bbd120929186f1ed377ef3",
+    "fixture_report.json": "2cece8aae5e4630215750406fa344f235f9cc589fa5b42eafe64c6151806f9b3",
+    "lighting_schema.py": "dc6c4d668395e7c59c61f53720f0fc6e71fdbad52432c2bb75902e126873b7b1",
+    "README.md": "e1d24035febb26908a9048b79e8177d8e8fefae405710d237dcd5868f6677116",
+    "verify_fixtures.py": "860c8fe53d0206a758b19126a9105f7be97bc07c649a08df6dea2386b09ef6ea"
+  },
+  "interfaces": [
+    "snapshot(path)",
+    "compare_shape(before,after,ordered_recipes,stream,allow_serializer_rebuild=False)",
+    "compare_descriptor(before,after,ordered_recipes,allow_serializer_rebuild=False)",
+    "normalization_allowance(before,after,ordered_recipes,stream,allow_serializer_rebuild=False)",
+    "apply_color_recipes(shape,ordered_recipes)",
+    "rgb8_hsl_operation(rgb,lum_mult=None,sat_mult=None)"
+  ],
+  "models_modified": false,
+  "GUI_or_game_launched": false,
+  "blocked_native_helper_used": false
+}

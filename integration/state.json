@@ -1,0 +1,149 @@
+{
+  "objective": "Build one reviewed Skyrim integration from Anno, Burida and TuLED without launching the game or making full pack backups",
+  "status": "active",
+  "phase": "final_navigation_and_generated_output_validation",
+  "base_pack": "TuLED",
+  "source_packs_unchanged": true,
+  "game_launch_prohibited": true,
+  "workspace": "E:\\stock\\Skyrim collection\\Database",
+  "target": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim",
+  "reserve_bytes": 34359738368,
+  "decisions": [
+    {
+      "decision": "Use TuLED content and framework baseline",
+      "reason": "LOTD/Unslaad/Darkend and their patch family already present; lower full-slot use leaves room for Anno unique quests; preserve MCO/Ordinator/CBBE3BA/OAR",
+      "utc": "2026-10-31T03:16:19.226865+00:00"
+    }
+  ],
+  "validation": [
+    {
+      "evidence": "UnifiedSkyrim/validation/equipment_repaired/result.json",
+      "status": "PASS"
+    },
+    {
+      "evidence": "integration/research/vfs_validation/phase2_probe.json",
+      "status": "FILES_PASS_GRAPH_6_KNOWN_PENDING_PHASE3"
+    },
+    {
+      "evidence": "integration/research/bodyslide_validation/all47_corrected_candidates_topology.json",
+      "status": "94_NIF_47_TRI_TOPOLOGY_PASS_CANDIDATES_PENDING_IMPORT"
+    },
+    {
+      "evidence": "integration/research/verified_patch_install/runs/feature_v13_v14/accepted.json",
+      "status": "ACCEPTED_STATIC_TYPED_RELOAD_FINAL_VFS_PENDING"
+    },
+    {
+      "evidence": "integration/research/verified_patch_install/runs/quest_v10/accepted.json",
+      "status": "ACCEPTED_STATIC_TYPED_RELOAD_FINAL_VFS_PENDING"
+    },
+    {
+      "evidence": "integration/research/feature_conflicts/candidate/review_recheck_v14.json",
+      "status": "CURRENT_RESOLVED_MAP_BINARY_RECHECK_PASS"
+    }
+  ],
+  "remaining": [
+    "build_binary_verify_install_and_fresh_reload_FC_then_Glen_navigation_patches",
+    "close_or_explicitly_disposition_bounded_upstream_resource_gaps",
+    "rebuild_final_Synthesis_with_all_gameplay_inputs",
+    "implement_and_verify_Database_only_PG_driver_cache_containment_then_run_and_validate_PG",
+    "regenerate_affected_grass_terrain_TexGen_DynDOLOD_and_occlusion_without_game",
+    "run_full_final_native_xEdit_QEX_and_actual_MO2_VFS_resource_closure",
+    "verify_original_controls_unchanged_after_all_remaining_writers",
+    "finalize_database_catalog_launchers_and_maintenance_docs"
+  ],
+  "updated_utc": "2026-10-31T15:27:39Z",
+  "completed": [
+    "base_selection_TuLED",
+    "full_491328_file_baseline_view",
+    "private_mutable_runtime_and_clean_MO2",
+    "consistent_stock_23_SHA",
+    "reviewed_baseline_repairs",
+    "52_equipment_plugins_and_resource_closure",
+    "full_MO2_xEdit_63_targets_4598_records_zero_diagnostics",
+    "strict_VFS_phase2_396371_winner_FileID_checks",
+    "14_quest_follower_plugins_and_12_standalone_roots_materialized",
+    "47_bodyslide_jobs_generated_fresh",
+    "148_verified_body_and_author_asset_supplements_materialized",
+    "Rift_two_undeclared_properties_removed_with_exact_PEX_guard",
+    "private_Synthesis_sidecar_workspace_created",
+    "Codex_two_BadRequest_failures_diagnosed_text_only_workflow_resumed",
+    "145_original_control_files_live_rehashed_unchanged",
+    "comparator_self_audit_333_records_23972_leaves_zero_unsupported",
+    "actual_FasterNGIO_CPU_smoke_structural_PASS",
+    "all_8_world_grass_inspection_complete_with_9_exact_source_gaps",
+    "Forgotten_City_author_1_8_ZIP_identical_source_missing_sound_proven",
+    "27_record_quest_compatibility_binary_and_fresh_typed_reload_accepted",
+    "154_record_feature_compatibility_binary_v14_and_fresh_typed_reload_accepted",
+    "actual_normal_xEdit_schema_proven_numeric0",
+    "exact_Glen_sprint_animation_literal_repair_materialized",
+    "6495_source_catalog_and_66_adopted_plugin_links_audited",
+    "private_ReShade_and_CrashLogger_four_value_rebase_postapply_PASS",
+    "catalog_refreshed_WIP_with_zero_stale_rows_and_zero_linkage_issues",
+    "installer_rollback_restores_file_rows_and_unit_rows_with_regression_coverage",
+    "LOD_batches_use_fully_frozen_private_tool_and_preset_copies"
+  ],
+  "runtime_checkpoint": {
+    "active_job": null,
+    "module_selection_confirmed": true,
+    "build_profile_plugins": 1076,
+    "default_profile_plugins": 1079,
+    "build_profile_slots": {
+      "full": 144,
+      "light": 932
+    },
+    "default_profile_slots": {
+      "full": 147,
+      "light": 932
+    },
+    "current_workflow": "Text-only continuation; do not launch the game. Keep every task-owned output, cache, log and generated file under Database.",
+    "last_bad_requests_utc": [
+      "2026-10-31T04:53:36.514Z",
+      "2026-10-31T11:49:08.285Z"
+    ],
+    "diagnostic": "integration/diagnostics/codex_transport/observed_failures.json",
+    "xedit_guard_history": {
+      "v1": "Header Data Size/cntElementsMap",
+      "v2": "VCS union NativeValue Type mismatch",
+      "v3": "Copy resets VCS2 metadata",
+      "v4": "DIAL editor-only INOM dfDontSave/dfDontAssign omitted",
+      "v5": "CTDA no-param typed union bytevector",
+      "v6": "PACK native bytevector generalization",
+      "v7": "CTDA named CIS semantic UInt32 normalization",
+      "v8": "合法 empty Properties array",
+      "v9": "full source-kind self-audit PASS before any patch build"
+    },
+    "smoke001": "precheck failed Path.is_file fast-path VFS mismatch; generator never started",
+    "smoke_v2_ready": "research/lod_update/faster_ngio_child.py uses Win32 FileID + long-path SHA",
+    "synthesis_ready": "research/synthesis_final/replay_tools_frozen_rev3.json",
+    "final_vfs_tools": "research/vfs_validation/phase3_frozen_scripts_rev9.json",
+    "source_new_gaps": [
+      "Glen female DwarvenSoldier.nif (male NPC chain being audited)",
+      "Glen shaderbox.nif MATO common stock stub; runtime ignored not yet proven",
+      "FC one response motif sound missing, FUZ voice itself present"
+    ],
+    "next_required": [
+      "FC4 navigation builder+binary+install+fresh reload, then Glen8 navigation with the same gates",
+      "Final Synthesis with all gameplay inputs and master budget checks",
+      "Fresh PG against final Synthesis context; typed records, NIF and resource closure before deployment",
+      "Affected terrain/TexGen/DynDOLOD/offline grass and final occlusion in verified batch order",
+      "Full native Check+QEX final consumer proof",
+      "Bootstrap->quest seeds/exact exceptions->final expectations->actual all-path MO2 probe",
+      "Finalize all6495 catalog and launch/maintenance documentation only after final validation"
+    ],
+    "comparator_self_audit": "PASS333records23972leaves0unsupported",
+    "smoke003": "PASS actual CPU positive and empty CGID structural validation; source grass gaps retained",
+    "grass_bulk_inspect002": "PASS eight worlds inspected, nine bounded upstream gaps",
+    "quest27": "ACCEPTED: binary43guards27recordsPASS and freshreloadPASS; research/verified_patch_install/runs/quest_v10/accepted.json",
+    "feature154": "ACCEPTED: v14 resolved-map binary PASS and fresh typed reload PASS; current recheck research/feature_conflicts/candidate/review_recheck_v14.json; final VFS pending",
+    "moon_nif": "CAO candidates rejected; original typed47blocks valid, 2exacteffectiveBS82 asset contract under review",
+    "normal_xedit": "ACTUAL_PROVEN SimpleRecords=0; textfalseignored. See plugin_integration/xedit_settings/settings_rootcause.json",
+    "current_native_source": "research/feature_conflicts/draft_version_manifest.v13.json",
+    "current_feature_binary_verifier": "research/feature_conflicts/verify_compatibility_v14.py; verify_compatibility.py remains frozen v13 evidence and is not the accepted-candidate verifier",
+    "navigation_source": "research/plugin_integration/navi_unresolved_audit/stock_orphan_lookup_fix_manifest_v6.json is authoritative for current FC/Glen PAS; baseline generators are historical and must not overwrite v6. Drafts remain not xEdit compiled/executed; run FC first and preserve its NVMI entries in Glen",
+    "sprint_repair": "ExactoneTABPEXfixinstalledZZ86 integration/sprint_literal_fix.json",
+    "PG_nif": "3842 sources read with exact-format numeric limits; source-only trailer cases not adopted; formal PG not started",
+    "configuration_rebase": "POST_APPLY_READ_ONLY_STATE_PASS; four values private and original controls unchanged",
+    "lod_batching": "Per-batch isolated tool/preset copies and complete prelaunch hash/file-set verification implemented and fixture-tested; actual LOD generation pending",
+    "catalog": "WIP shared CSV/DB refreshed; 6495 rows, zero stale differences and zero linkage issues; --final remains prohibited until final generation/validation"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "status": "AUTHORING_V6_EXACT_SOURCE_NIL_PARENT_NATIVE_EXECUTION_PENDING",
+  "files": [
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\forgotten_city_navigation\\DatabaseForgottenCityNavigationDraft.pas",
+      "sha256": "8a41dc099384cfaab67d71873527120593dad34eba5189248d228835bbdcae1c",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\navi_unresolved_audit\\frozen\\stock_orphan_v6\\DatabaseForgottenCityNavigationDraft.pas.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\forgotten_city_navigation\\DatabaseVerifyForgottenCityNavigationDraft.pas",
+      "sha256": "bbfb3070b1e27be29e6571099bc7d7bccb6a9a6ad8a37621c76caa6d182e6350",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\navi_unresolved_audit\\frozen\\stock_orphan_v6\\DatabaseVerifyForgottenCityNavigationDraft.pas.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\glen_region_navigation\\DatabaseGlenmorilNavigationDraft.pas",
+      "sha256": "c8599ebaec0d7078371e3a390a1ea9a7aec8395431f7dd834f10cbce98008223",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\navi_unresolved_audit\\frozen\\stock_orphan_v6\\DatabaseGlenmorilNavigationDraft.pas.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\glen_region_navigation\\DatabaseVerifyGlenmorilNavigationDraft.pas",
+      "sha256": "693e64b10799e5b3ec6533dd85b93bd72b11af449936078dbb41a9cf6c48ba6b",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\navi_unresolved_audit\\frozen\\stock_orphan_v6\\DatabaseVerifyGlenmorilNavigationDraft.pas.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\navi_unresolved_audit\\stock_orphan_lookup_fix_manifest_v6.json",
+      "sha256": "7f210b9a4fb6eb155c5e34d78cbc4d5cabdfc6c730e880441d0fd4afb3f9d31d",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\navi_unresolved_audit\\frozen\\stock_orphan_v6\\stock_orphan_lookup_fix_manifest_v6.json.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\navi_unresolved_audit\\stock_orphan_parent_absence_v6.json",
+      "sha256": "8e13090dfd2ea83aa957d4739f3d8b7e7572dc5e9e40cc0b47d084c1b3eaa090",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\navi_unresolved_audit\\frozen\\stock_orphan_v6\\stock_orphan_parent_absence_v6.json.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\navi_unresolved_audit\\apply_stock_orphan_parent_absence_v6.py",
+      "sha256": "26f5cb0dd595e4ac570793de015cd336e22c23084dc3379f3e40305b37138f3c",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\navi_unresolved_audit\\frozen\\stock_orphan_v6\\apply_stock_orphan_parent_absence_v6.py.frozen.txt"
+    }
+  ]
+}

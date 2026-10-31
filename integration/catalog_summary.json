@@ -1,0 +1,42 @@
+{
+  "utc": "2026-10-31T15:08:35.197644+00:00",
+  "original_mods": 6495,
+  "status": "WORK_IN_PROGRESS_DECISIONS_WILL_BE_FINALIZED",
+  "scope_note": "Every original mod is catalogued. Unelected alternatives remain in their original packs; a final catalogue does not assert that every alternative is active or independently game-tested.",
+  "decisions": [
+    [
+      "adopted_standalone_feature_resources",
+      12
+    ],
+    [
+      "deduplicated_exact",
+      2001
+    ],
+    [
+      "disabled_optional_mismatched_addon",
+      5
+    ],
+    [
+      "enabled_baseline",
+      2264
+    ],
+    [
+      "not_enabled_pending_or_alternative",
+      1721
+    ],
+    [
+      "partially_adopted_explicit_files",
+      32
+    ],
+    [
+      "retained_exact_duplicate_of_disabled_source",
+      2
+    ],
+    [
+      "retained_in_catalog",
+      458
+    ]
+  ],
+  "sources_preserved": true,
+  "csv": "E:\\stock\\Skyrim collection\\Database\\integration\\全模組採用目錄.csv"
+}

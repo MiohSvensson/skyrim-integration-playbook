@@ -1,0 +1,201 @@
+{
+  "status": "FROZEN_EXACT_SOURCE_FORMAT82_PROOFS_PLUS_EXISTING_BOUNDED_SOURCE_LIMITATIONS",
+  "utc": "2026-10-31T13:49:32.759242+00:00",
+  "revision": 9,
+  "previous_freeze": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\phase3_frozen_scripts_rev8.json",
+  "scripts_and_contracts": [
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\vfs_common.py",
+      "sha256": "e72e21d30b72cf9945e6bce429e31fcdde3cf409c4d98f9578d22ffb3fdda1ce",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\frozen\\rev9\\vfs_common.py.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\prepare_vfs_expectations.py",
+      "sha256": "baa34204dc2849adc64da3eed62cc6c0ba048f27ad72ed3c7b5fe6972339c651",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\frozen\\rev9\\prepare_vfs_expectations.py.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\probe_vfs.py",
+      "sha256": "ef969c8f5a817e220764b8adf9f6264d6b2f5bff8f49a2dccfa77bc909eb4c69",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\frozen\\rev9\\probe_vfs.py.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\probe_resource_graph.py",
+      "sha256": "4fed5b81f7b71da307889ca6a3ea518ae029db96680ba2232c5cf092d90cdd22",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\frozen\\rev9\\probe_resource_graph.py.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\probe_vfs_full.py",
+      "sha256": "e5f880cc9ef2cfd7f4240e9bf2367e0a9fc8be237f75618552af89830a7629e7",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\frozen\\rev9\\probe_vfs_full.py.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\quest_resource_seeds.py",
+      "sha256": "cf25761f9bd8c03c4b2dd03a3a736e7440437bc70bfdcaf242e46ab7d85d0b43",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\frozen\\rev9\\quest_resource_seeds.py.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\bounded_quest_exceptions.py",
+      "sha256": "1d50f7048622df3cf3fd30b38904e5367d43d3c8e796b64b4f7611b5d09ec384",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\frozen\\rev9\\bounded_quest_exceptions.py.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\external_nif_refs.py",
+      "sha256": "f1f0bc7ad327295ff62ed08f599f9d165cdbbc5d4ee757e28ed452d9d33d5416",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\frozen\\rev9\\external_nif_refs.py.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\nif_resource_inventory.py",
+      "sha256": "a6f06370f7692f1d200469892116d73b016ee948347a2743efb62c8076a9b97b",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\frozen\\rev9\\nif_resource_inventory.py.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\supplemental_import\\supplemental_import_plan.json",
+      "sha256": "9098579e7698316259b1760d83dddbcec9f1acc939bc96521ce6283e4c736148",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\frozen\\rev9\\supplemental_import_plan.json.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\supplemental_import\\quest_resource_exceptions.json",
+      "sha256": "18a6af462053c3e678e1f4167839a2853c83e83757e291ad4ec29036d518c8ea",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\frozen\\rev9\\quest_resource_exceptions.json.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\supplemental_import\\BoundedQuestConsumerAudit.pas",
+      "sha256": "e27cc0ec050718b8f16de22f088631a933ccac1b54724ca32478ab587fc08d5e",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\frozen\\rev9\\BoundedQuestConsumerAudit.pas.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\supplemental_import\\bounded_contract_verification.json",
+      "sha256": "4d6223f21d75ddbb25124db35546da49c9b56c9c89717a7fcb5bbc45acf2c579",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\frozen\\rev9\\bounded_contract_verification.json.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\supplemental_import\\build_quest_exception_manifest.py",
+      "sha256": "387fe752aba1650dc37048162da7ef51ac8c3c11e14a76968c742e3186f20285",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\frozen\\rev9\\build_quest_exception_manifest.py.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\supplemental_import\\verify_bounded_contract.py",
+      "sha256": "c33993a6190d843f6a2f4092c109c7d01b4c6ca243d8c88a4dd629ee2004fe63",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\frozen\\rev9\\verify_bounded_contract.py.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\forgotten_city_author_compare\\author_compare.json",
+      "sha256": "f534995f3d6f197a0a83a3db1113f095188dcda1e19310403828f4ae46b8c672",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\frozen\\rev9\\author_compare.json.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\forgotten_city_author_compare\\compare_author_package.py",
+      "sha256": "b5f96184ba0a3ae525130f238eb66ec33630fa3ee4a4b0cc6445b2e8b38d4b91",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\frozen\\rev9\\compare_author_package.py.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\supplemental_import\\glen_female_branch_evidence.json",
+      "sha256": "b4988fada29c2f6366bd3ea333d725a1c070bc28e3f8f0d6fb5fe3c2b0d90592",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\frozen\\rev9\\glen_female_branch_evidence.json.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\supplemental_import\\glen_script_race_consumers.json",
+      "sha256": "d2dd8e5d503f477dd4a6c7962ccb6459b640045db3bdfeb65f074dadc865b748",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\frozen\\rev9\\glen_script_race_consumers.json.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\supplemental_import\\shaderbox_material_semantics_evidence.json",
+      "sha256": "d68abf60c3b0e3a5420c799f7fced7593c46bad44bd40689f9dbf493d78f6503",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\frozen\\rev9\\shaderbox_material_semantics_evidence.json.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\supplemental_import\\material_reference_image_comparison.json",
+      "sha256": "089ae7f3226f72f8ba60907644642952a67e881e479184578997961347b2c09f",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\frozen\\rev9\\material_reference_image_comparison.json.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\supplemental_import\\material_ensure_loaded_reference_anno.json",
+      "sha256": "6e56a6656ee64f0182a096485681723b57be585d90037d6d90fba77c76a2a833",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\frozen\\rev9\\material_ensure_loaded_reference_anno.json.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\supplemental_import\\shaderbox_stock_material_evidence.json",
+      "sha256": "c6c7a41d8d99fd99248825bfeec2881f056f98d47b23bc75a1d9f0eff629637c",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\frozen\\rev9\\shaderbox_stock_material_evidence.json.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\legacy_nif_contracts.py",
+      "sha256": "fb0ff722f0c9c99f3b69fa4942e31605e3f4bf69f1d8089ce2be892ac25a8c44",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\frozen\\rev9\\legacy_nif_contracts.py.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\verify_legacy_nif_contract.py",
+      "sha256": "f46e77d1340c7d0d50416c6d5b4f8107feafc191446ffdee329ad83cbcce304f",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\frozen\\rev9\\verify_legacy_nif_contract.py.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\legacy_nif_contract_verification_rev9.json",
+      "sha256": "2dccfebfe49f068fc98ea165e07d860fa337e883f9e85edeed1e2950e483518a",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\frozen\\rev9\\legacy_nif_contract_verification_rev9.json.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\compare_typed.py",
+      "sha256": "5e38c104df85a452d2a65ef84d3e1c227bf611953315d84274c66ff14a66eef6",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\frozen\\rev9\\compare_typed.py.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\effective_bs82_contract.json",
+      "sha256": "fec8674d8eb2ddab1f38120c968493cd8e1b5708285866a2aa2d5c00c796bdca",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\frozen\\rev9\\effective_bs82_contract.json.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\finalize_contract.py",
+      "sha256": "23bb52813fea390154101dfc66e941ce47f574732c873ad890dbb817ac051a31",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\frozen\\rev9\\finalize_contract.py.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\originals\\meshes\\mwl\\wg_0.nif",
+      "sha256": "3182b43fd2f42132907f22743d43fac5588f9bfcdbfb20bf556cefa26bddb0ed",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\frozen\\rev9\\wg_0.nif.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\originals\\meshes\\mwl\\wg_1.nif",
+      "sha256": "9cdb6d3d6b8b34b85ff08720ed1e31a56d2ca0b2afa39f87c1655bf85d0c3f27",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\frozen\\rev9\\wg_1.nif.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\wg_0.nif.typed_original.json",
+      "sha256": "ea098e82582abfde864e4a65741e8904c20ae6a8036dbfde6edca98710958a08",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\frozen\\rev9\\wg_0.nif.typed_original.json.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\wg_1.nif.typed_original.json",
+      "sha256": "21a4c21bb872daf31f6a653dab5b40d56bb34b406cb39795768ff5b53f0e01da",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\frozen\\rev9\\wg_1.nif.typed_original.json.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\primary_sources\\PyNifly\\addon\\io_scene_nifly\\NiflyDLL.dll",
+      "sha256": "c31df4a16430911f8961d0d963f525b695b94857c39c55bb79b50b346c030062",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\frozen\\rev9\\NiflyDLL.dll.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\primary_sources\\PyNifly\\io_scene_nifly.zip",
+      "sha256": "dcedc0a2f1be0d5d923b9d62f74d85b401d033cd9946ad86cede3e917767a02d",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\frozen\\rev9\\io_scene_nifly.zip.frozen.txt"
+    }
+  ],
+  "bounded_cases": 11,
+  "missing_alternative_paths": 13,
+  "source_only_verified_cases": 3,
+  "requires_actual_final_QEX_or_RSRC_cases": 8,
+  "bounded_legacy_nif_format_files": 2,
+  "legacy_nif_contract_verification": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\legacy_nif_contract_verification_rev9.json",
+  "changes": [
+    "General NIF parser remains83/100-only. Two exact MoonAndStar original stream82 assets require path+actualSHA+logicalF05BSA winner/archiveSHA and full47block/typed-snapshot proof; no generic82 allowance.",
+    "All nine legacy source-proof files, including official reader DLL/releaseZIP and snapshot/parser scripts, are hashed into immutable expectations and rechecked in graph.",
+    "Four exact typed textures remain mandatory recursive graph edges; body/behavior/controller/extra refs are proven absent in these exact images.",
+    "Graph/full status retains documented source-format limitations: native rendering untested, NOT_REPAIRED and no SSE100-conversion claim. CAO resave is not deployed.",
+    "22 positive/negative legacy guards passed against exact source bytes; no actual profile probe/game/MO2 launched by this agent.",
+    "Final plan installs only feature,quest,FC-navigation,newGlen-navigation. Old standaloneUnderground is superseded and not installed; QEX must be rerun in exact final Unified Skyrim context after all generated outputs."
+  ],
+  "acceptance_matrix": {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\final_acceptance_matrix_rev1.json",
+    "sha256": "64c8bc5946e1224590f19e1afb5d935a24a2959ae3837045fd9a4b51f1e4370b"
+  }
+}

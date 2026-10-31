@@ -1,0 +1,9 @@
+{
+  "profile": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\profiles\\Unified Skyrim",
+  "mo2": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\MO2\\ModOrganizer.exe",
+  "game": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\Game",
+  "base_mods": 2269,
+  "mo2_exe_sha256": "442b354a8f34754da0048654c44d27f51628feba54ce46c3187cf58d6c43e622",
+  "game_was_not_started": true,
+  "note": "Initial complete baseline configuration; additions/repairs and final validation still pending"
+}

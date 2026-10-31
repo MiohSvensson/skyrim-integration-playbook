@@ -1,0 +1,2842 @@
+{
+  "utc": "2026-10-31T11:41:33.623935+00:00",
+  "status": "MATERIALIZED_PENDING_FINAL_VFS_GRAPH",
+  "layer": "ZZ83 Verified generated item and quest assets",
+  "plan": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\supplemental_import\\supplemental_import_plan.json",
+  "plan_sha256": "9098579e7698316259b1760d83dddbcec9f1acc939bc96521ce6283e4c736148",
+  "files": [
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\batman\\catwoman\\arkham city\\1stperson_catsuit_0.nif",
+      "source_sha256": "6f048d5ea8062caafdd5529b6ad6168296607980d8073c6fa94e8ff50c3fedf8",
+      "size_bytes": 84974,
+      "destination_relative": "meshes/armor/batman/catwoman/arkham city/1stperson_catsuit_0.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 001 - Catwoman - Arkham City Catsuit 1st Person",
+      "plugins": [
+        "Catwoman.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\batman\\catwoman\\arkham city\\1stperson_catsuit_0.nif",
+        "sha256": "6f048d5ea8062caafdd5529b6ad6168296607980d8073c6fa94e8ff50c3fedf8"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\batman\\catwoman\\arkham city\\1stperson_catsuit_1.nif",
+      "source_sha256": "2a4cafe1405f0ab21ebc00bf3bbd0677140c20f38de6e24b91c7671dfc2c0549",
+      "size_bytes": 84974,
+      "destination_relative": "meshes/armor/batman/catwoman/arkham city/1stperson_catsuit_1.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 001 - Catwoman - Arkham City Catsuit 1st Person",
+      "plugins": [
+        "Catwoman.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\batman\\catwoman\\arkham city\\1stperson_catsuit_1.nif",
+        "sha256": "2a4cafe1405f0ab21ebc00bf3bbd0677140c20f38de6e24b91c7671dfc2c0549"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\batman\\catwoman\\arkham city\\1stperson_catsuit.tri",
+      "source_sha256": "5a0222b27e50724003db7bbfba8054a1ea46c680302bd9142a12578a313ea837",
+      "size_bytes": 76060,
+      "destination_relative": "meshes/armor/batman/catwoman/arkham city/1stperson_catsuit.tri",
+      "pack": "Anno",
+      "project": "Database Morph Anno 001 - Catwoman - Arkham City Catsuit 1st Person",
+      "plugins": [
+        "Catwoman.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\batman\\catwoman\\arkham city\\1stperson_catsuit.tri",
+        "sha256": "5a0222b27e50724003db7bbfba8054a1ea46c680302bd9142a12578a313ea837"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\batman\\catwoman\\arkham city\\catsuit_0.nif",
+      "source_sha256": "0ead71a1c004de1836773b251827d8c1a9db68c8f39c00ac3f3b791de5f60f7e",
+      "size_bytes": 562554,
+      "destination_relative": "meshes/armor/batman/catwoman/arkham city/catsuit_0.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 002 - Catwoman - Arkham City Catsuit",
+      "plugins": [
+        "Catwoman.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\batman\\catwoman\\arkham city\\catsuit_0.nif",
+        "sha256": "0ead71a1c004de1836773b251827d8c1a9db68c8f39c00ac3f3b791de5f60f7e"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\batman\\catwoman\\arkham city\\catsuit_1.nif",
+      "source_sha256": "850bca145648d3d4cc79207eb9c3ddfa6436754a2e869505a27c0f0490031214",
+      "size_bytes": 562554,
+      "destination_relative": "meshes/armor/batman/catwoman/arkham city/catsuit_1.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 002 - Catwoman - Arkham City Catsuit",
+      "plugins": [
+        "Catwoman.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\batman\\catwoman\\arkham city\\catsuit_1.nif",
+        "sha256": "850bca145648d3d4cc79207eb9c3ddfa6436754a2e869505a27c0f0490031214"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\batman\\catwoman\\arkham city\\catsuit.tri",
+      "source_sha256": "1f2f41df15d07e0c0eeedeeccc856f73b1c6b1f219d5d9a56bcc0968aaa45a99",
+      "size_bytes": 1086617,
+      "destination_relative": "meshes/armor/batman/catwoman/arkham city/catsuit.tri",
+      "pack": "Anno",
+      "project": "Database Morph Anno 002 - Catwoman - Arkham City Catsuit",
+      "plugins": [
+        "Catwoman.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\batman\\catwoman\\arkham city\\catsuit.tri",
+        "sha256": "1f2f41df15d07e0c0eeedeeccc856f73b1c6b1f219d5d9a56bcc0968aaa45a99"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\batman\\catwoman\\arkham knight\\1stperson_catsuit_0.nif",
+      "source_sha256": "b6d5e8580be2cff6fc3f43ee298bde178500cf3a5d8bd82f345a20c01305762b",
+      "size_bytes": 90996,
+      "destination_relative": "meshes/armor/batman/catwoman/arkham knight/1stperson_catsuit_0.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 003 - Catwoman - Arkham Knight Catsuit 1st Person",
+      "plugins": [
+        "Catwoman.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\batman\\catwoman\\arkham knight\\1stperson_catsuit_0.nif",
+        "sha256": "b6d5e8580be2cff6fc3f43ee298bde178500cf3a5d8bd82f345a20c01305762b"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\batman\\catwoman\\arkham knight\\1stperson_catsuit_1.nif",
+      "source_sha256": "ba5d886d4983fb9e028f6340b3044458cbd5e7c173ed774556f830a9cef56be7",
+      "size_bytes": 90996,
+      "destination_relative": "meshes/armor/batman/catwoman/arkham knight/1stperson_catsuit_1.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 003 - Catwoman - Arkham Knight Catsuit 1st Person",
+      "plugins": [
+        "Catwoman.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\batman\\catwoman\\arkham knight\\1stperson_catsuit_1.nif",
+        "sha256": "ba5d886d4983fb9e028f6340b3044458cbd5e7c173ed774556f830a9cef56be7"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\batman\\catwoman\\arkham knight\\1stperson_catsuit.tri",
+      "source_sha256": "1051357d483a78c206ddcd8308176632fca06426a8c3c4343f104bad65cd0562",
+      "size_bytes": 74129,
+      "destination_relative": "meshes/armor/batman/catwoman/arkham knight/1stperson_catsuit.tri",
+      "pack": "Anno",
+      "project": "Database Morph Anno 003 - Catwoman - Arkham Knight Catsuit 1st Person",
+      "plugins": [
+        "Catwoman.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\batman\\catwoman\\arkham knight\\1stperson_catsuit.tri",
+        "sha256": "1051357d483a78c206ddcd8308176632fca06426a8c3c4343f104bad65cd0562"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\batman\\catwoman\\arkham knight\\catsuit_0.nif",
+      "source_sha256": "db104865a2484d5dea38d1965bb4b97ca070f28364ec2221ad45a017492d3ae8",
+      "size_bytes": 888213,
+      "destination_relative": "meshes/armor/batman/catwoman/arkham knight/catsuit_0.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 004 - Catwoman - Arkham Knight Catsuit",
+      "plugins": [
+        "Catwoman.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\batman\\catwoman\\arkham knight\\catsuit_0.nif",
+        "sha256": "db104865a2484d5dea38d1965bb4b97ca070f28364ec2221ad45a017492d3ae8"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\batman\\catwoman\\arkham knight\\catsuit_1.nif",
+      "source_sha256": "f03fe605f745de2603f7d0b7b914ebe0a5b440765b0a450951549e6822fdf824",
+      "size_bytes": 888213,
+      "destination_relative": "meshes/armor/batman/catwoman/arkham knight/catsuit_1.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 004 - Catwoman - Arkham Knight Catsuit",
+      "plugins": [
+        "Catwoman.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\batman\\catwoman\\arkham knight\\catsuit_1.nif",
+        "sha256": "f03fe605f745de2603f7d0b7b914ebe0a5b440765b0a450951549e6822fdf824"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\batman\\catwoman\\arkham knight\\catsuit.tri",
+      "source_sha256": "7446e5e8037fbd60c451e57af5305ee5bc1b97f74d261393d26d87caa9437e99",
+      "size_bytes": 2043846,
+      "destination_relative": "meshes/armor/batman/catwoman/arkham knight/catsuit.tri",
+      "pack": "Anno",
+      "project": "Database Morph Anno 004 - Catwoman - Arkham Knight Catsuit",
+      "plugins": [
+        "Catwoman.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\batman\\catwoman\\arkham knight\\catsuit.tri",
+        "sha256": "7446e5e8037fbd60c451e57af5305ee5bc1b97f74d261393d26d87caa9437e99"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\batman\\catwoman\\injustice 2\\torso_0.nif",
+      "source_sha256": "902268a25acb8dac88da01cbb55ddc047384c671302e19d9b439265e8037499c",
+      "size_bytes": 591191,
+      "destination_relative": "meshes/armor/batman/catwoman/injustice 2/torso_0.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 005 - Catwoman - Injustice Catsuit",
+      "plugins": [
+        "Catwoman.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\batman\\catwoman\\injustice 2\\torso_0.nif",
+        "sha256": "902268a25acb8dac88da01cbb55ddc047384c671302e19d9b439265e8037499c"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\batman\\catwoman\\injustice 2\\torso_1.nif",
+      "source_sha256": "3e68d5e3ea1159b2ab26955ceac9b984a1b570b94cb9c996e040d316836b38a1",
+      "size_bytes": 591191,
+      "destination_relative": "meshes/armor/batman/catwoman/injustice 2/torso_1.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 005 - Catwoman - Injustice Catsuit",
+      "plugins": [
+        "Catwoman.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\batman\\catwoman\\injustice 2\\torso_1.nif",
+        "sha256": "3e68d5e3ea1159b2ab26955ceac9b984a1b570b94cb9c996e040d316836b38a1"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\batman\\catwoman\\injustice 2\\torso.tri",
+      "source_sha256": "41bdb3d068d19fac036bde00a3cc4c4da2ea1225ead17fd797af13740219cc3c",
+      "size_bytes": 1049188,
+      "destination_relative": "meshes/armor/batman/catwoman/injustice 2/torso.tri",
+      "pack": "Anno",
+      "project": "Database Morph Anno 005 - Catwoman - Injustice Catsuit",
+      "plugins": [
+        "Catwoman.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\batman\\catwoman\\injustice 2\\torso.tri",
+        "sha256": "41bdb3d068d19fac036bde00a3cc4c4da2ea1225ead17fd797af13740219cc3c"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\batman\\catwoman\\mk11\\catsuit_0.nif",
+      "source_sha256": "ec13b0874150d3959220382dd3885c7ab4f252021004e480e266199281dc8fb0",
+      "size_bytes": 2219726,
+      "destination_relative": "meshes/armor/batman/catwoman/mk11/catsuit_0.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 006 - Catwoman - Catsuit",
+      "plugins": [
+        "Catwoman.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\batman\\catwoman\\mk11\\catsuit_0.nif",
+        "sha256": "ec13b0874150d3959220382dd3885c7ab4f252021004e480e266199281dc8fb0"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\batman\\catwoman\\mk11\\catsuit_1.nif",
+      "source_sha256": "e352b8e462f9766cb8935a0043e760202053ff7658830e74a27dc37621fa38fc",
+      "size_bytes": 2219726,
+      "destination_relative": "meshes/armor/batman/catwoman/mk11/catsuit_1.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 006 - Catwoman - Catsuit",
+      "plugins": [
+        "Catwoman.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\batman\\catwoman\\mk11\\catsuit_1.nif",
+        "sha256": "e352b8e462f9766cb8935a0043e760202053ff7658830e74a27dc37621fa38fc"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\batman\\catwoman\\mk11\\catsuit.tri",
+      "source_sha256": "117f14b46a81fe2ec7302fa22b8a90beaad37af3e5e02031362225f028b6a739",
+      "size_bytes": 3604692,
+      "destination_relative": "meshes/armor/batman/catwoman/mk11/catsuit.tri",
+      "pack": "Anno",
+      "project": "Database Morph Anno 006 - Catwoman - Catsuit",
+      "plugins": [
+        "Catwoman.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\batman\\catwoman\\mk11\\catsuit.tri",
+        "sha256": "117f14b46a81fe2ec7302fa22b8a90beaad37af3e5e02031362225f028b6a739"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\bdor chic lua\\cloak_0.nif",
+      "source_sha256": "23956381178fee77c02665227eff15fb28eb3a3dc02a0c348fe30cb879022465",
+      "size_bytes": 3185258,
+      "destination_relative": "meshes/armor/bdor chic lua/cloak_0.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 007 - BDOR Chic Lua Cloak",
+      "plugins": [
+        "BDOR Chic Lua.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\bdor chic lua\\cloak_0.nif",
+        "sha256": "23956381178fee77c02665227eff15fb28eb3a3dc02a0c348fe30cb879022465"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\bdor chic lua\\cloak_1.nif",
+      "source_sha256": "6e23559a730e90a2f98e68c7c50b9e1e308028dbc63422d2b3e45e98575c3483",
+      "size_bytes": 3185258,
+      "destination_relative": "meshes/armor/bdor chic lua/cloak_1.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 007 - BDOR Chic Lua Cloak",
+      "plugins": [
+        "BDOR Chic Lua.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\bdor chic lua\\cloak_1.nif",
+        "sha256": "6e23559a730e90a2f98e68c7c50b9e1e308028dbc63422d2b3e45e98575c3483"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\bdor chic lua\\cloak.tri",
+      "source_sha256": "625568372e04dc1106d0c2a901946438d15fcbbe579d142122896ee3c4c0a008",
+      "size_bytes": 3711001,
+      "destination_relative": "meshes/armor/bdor chic lua/cloak.tri",
+      "pack": "Anno",
+      "project": "Database Morph Anno 007 - BDOR Chic Lua Cloak",
+      "plugins": [
+        "BDOR Chic Lua.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\bdor chic lua\\cloak.tri",
+        "sha256": "625568372e04dc1106d0c2a901946438d15fcbbe579d142122896ee3c4c0a008"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\bdor chic lua\\hand_0.nif",
+      "source_sha256": "2cb7db52ac84ec20caf8fe99b177ea6c4357e5b7e92d2651c975ed64cb974a37",
+      "size_bytes": 1120989,
+      "destination_relative": "meshes/armor/bdor chic lua/hand_0.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 008 - BDOR Chic Lua Hand",
+      "plugins": [
+        "BDOR Chic Lua.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\bdor chic lua\\hand_0.nif",
+        "sha256": "2cb7db52ac84ec20caf8fe99b177ea6c4357e5b7e92d2651c975ed64cb974a37"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\bdor chic lua\\hand_1.nif",
+      "source_sha256": "d6934a13b9fe3526e1e46dbb1f90f292770704f289cfbf00de291921b72fbf9c",
+      "size_bytes": 1120989,
+      "destination_relative": "meshes/armor/bdor chic lua/hand_1.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 008 - BDOR Chic Lua Hand",
+      "plugins": [
+        "BDOR Chic Lua.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\bdor chic lua\\hand_1.nif",
+        "sha256": "d6934a13b9fe3526e1e46dbb1f90f292770704f289cfbf00de291921b72fbf9c"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\bdor chic lua\\hand.tri",
+      "source_sha256": "bc46bff46c2cd72493c3adae871aa232653fee3ef3daf54f4bd00d54ccb1a9ce",
+      "size_bytes": 138376,
+      "destination_relative": "meshes/armor/bdor chic lua/hand.tri",
+      "pack": "Anno",
+      "project": "Database Morph Anno 008 - BDOR Chic Lua Hand",
+      "plugins": [
+        "BDOR Chic Lua.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\bdor chic lua\\hand.tri",
+        "sha256": "bc46bff46c2cd72493c3adae871aa232653fee3ef3daf54f4bd00d54ccb1a9ce"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\bdor\\ars magna\\hands_0.nif",
+      "source_sha256": "37cb88bae54e6962a1021923d718780a612e725c500d198374015e2daa45a513",
+      "size_bytes": 1012410,
+      "destination_relative": "meshes/armor/bdor/ars magna/hands_0.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 009 - BDOR Ars Magna Hands",
+      "plugins": [
+        "BDOR Ars Magna.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\bdor\\ars magna\\hands_0.nif",
+        "sha256": "37cb88bae54e6962a1021923d718780a612e725c500d198374015e2daa45a513"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\bdor\\ars magna\\hands_1.nif",
+      "source_sha256": "1b1d0989c24193c5cee27792b13e122d82d562801a96c76849046b6699123bda",
+      "size_bytes": 1012410,
+      "destination_relative": "meshes/armor/bdor/ars magna/hands_1.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 009 - BDOR Ars Magna Hands",
+      "plugins": [
+        "BDOR Ars Magna.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\bdor\\ars magna\\hands_1.nif",
+        "sha256": "1b1d0989c24193c5cee27792b13e122d82d562801a96c76849046b6699123bda"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\bdor\\ars magna\\hands.tri",
+      "source_sha256": "e7d324f82490e53fb6912031646e30b7dad17e3211b325c4978b81b86667a7d0",
+      "size_bytes": 221759,
+      "destination_relative": "meshes/armor/bdor/ars magna/hands.tri",
+      "pack": "Anno",
+      "project": "Database Morph Anno 009 - BDOR Ars Magna Hands",
+      "plugins": [
+        "BDOR Ars Magna.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\bdor\\ars magna\\hands.tri",
+        "sha256": "e7d324f82490e53fb6912031646e30b7dad17e3211b325c4978b81b86667a7d0"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\bdor\\night stalker\\body_0.nif",
+      "source_sha256": "8fbaeaf406341c650b203346c89728100a9c8926441fd1215abac789c8f052fd",
+      "size_bytes": 5844039,
+      "destination_relative": "meshes/armor/bdor/night stalker/body_0.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 010 - BDOR Night Stalker - Body",
+      "plugins": [
+        "BDOR Night Stalker.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\bdor\\night stalker\\body_0.nif",
+        "sha256": "8fbaeaf406341c650b203346c89728100a9c8926441fd1215abac789c8f052fd"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\bdor\\night stalker\\body_1.nif",
+      "source_sha256": "a625a8f91ca9d31d30157cdd2f16c922adddba92a3a3ffbb173c738c7c1ef14f",
+      "size_bytes": 5844039,
+      "destination_relative": "meshes/armor/bdor/night stalker/body_1.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 010 - BDOR Night Stalker - Body",
+      "plugins": [
+        "BDOR Night Stalker.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\bdor\\night stalker\\body_1.nif",
+        "sha256": "a625a8f91ca9d31d30157cdd2f16c922adddba92a3a3ffbb173c738c7c1ef14f"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\bdor\\night stalker\\body.tri",
+      "source_sha256": "6b299b03e29b80276b8094ce01b09382578130e0331a56d918b91b9644baee6b",
+      "size_bytes": 10859700,
+      "destination_relative": "meshes/armor/bdor/night stalker/body.tri",
+      "pack": "Anno",
+      "project": "Database Morph Anno 010 - BDOR Night Stalker - Body",
+      "plugins": [
+        "BDOR Night Stalker.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\bdor\\night stalker\\body.tri",
+        "sha256": "6b299b03e29b80276b8094ce01b09382578130e0331a56d918b91b9644baee6b"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\bdor\\night stalker\\hand_0.nif",
+      "source_sha256": "fcffbb5adcc709a4bdfb117f7b4e74a2be79b8e7cfab1b7f1b7c60754af74a47",
+      "size_bytes": 1475076,
+      "destination_relative": "meshes/armor/bdor/night stalker/hand_0.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 011 - BDOR Night Stalker - Hands",
+      "plugins": [
+        "BDOR Night Stalker.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\bdor\\night stalker\\hand_0.nif",
+        "sha256": "fcffbb5adcc709a4bdfb117f7b4e74a2be79b8e7cfab1b7f1b7c60754af74a47"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\bdor\\night stalker\\hand_1.nif",
+      "source_sha256": "0b383959662202943f619cc845a1211810519c8cc4fb029f47d1bd4bc74172af",
+      "size_bytes": 1475076,
+      "destination_relative": "meshes/armor/bdor/night stalker/hand_1.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 011 - BDOR Night Stalker - Hands",
+      "plugins": [
+        "BDOR Night Stalker.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\bdor\\night stalker\\hand_1.nif",
+        "sha256": "0b383959662202943f619cc845a1211810519c8cc4fb029f47d1bd4bc74172af"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\bdor\\night stalker\\hand.tri",
+      "source_sha256": "73fc0ae7889be746ed23f3e1f24ec9e27af8c88289278edb977f8674290e030d",
+      "size_bytes": 707369,
+      "destination_relative": "meshes/armor/bdor/night stalker/hand.tri",
+      "pack": "Anno",
+      "project": "Database Morph Anno 011 - BDOR Night Stalker - Hands",
+      "plugins": [
+        "BDOR Night Stalker.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\bdor\\night stalker\\hand.tri",
+        "sha256": "73fc0ae7889be746ed23f3e1f24ec9e27af8c88289278edb977f8674290e030d"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\bdor\\poetica\\hand_0.nif",
+      "source_sha256": "053c5c41388d1b95b35ab52f5e8eba13a69e1fb9f1c0b6e0ef2a4ff9b1343a5d",
+      "size_bytes": 780356,
+      "destination_relative": "meshes/armor/bdor/poetica/hand_0.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 012 - BDOR Poetica - Hands",
+      "plugins": [
+        "BDOR Poetica.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\bdor\\poetica\\hand_0.nif",
+        "sha256": "053c5c41388d1b95b35ab52f5e8eba13a69e1fb9f1c0b6e0ef2a4ff9b1343a5d"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\bdor\\poetica\\hand_1.nif",
+      "source_sha256": "ed2d55a58172fad732f63d27f6442f7cb2b29a5aacf66dcd5ea6378170213ae2",
+      "size_bytes": 780356,
+      "destination_relative": "meshes/armor/bdor/poetica/hand_1.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 012 - BDOR Poetica - Hands",
+      "plugins": [
+        "BDOR Poetica.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\bdor\\poetica\\hand_1.nif",
+        "sha256": "ed2d55a58172fad732f63d27f6442f7cb2b29a5aacf66dcd5ea6378170213ae2"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\bdor\\poetica\\hand.tri",
+      "source_sha256": "a1d12c14870f2bd0b1eff6b18f5c8751dce5bf2d5c5314eaf656f1afc8fe10f4",
+      "size_bytes": 22120,
+      "destination_relative": "meshes/armor/bdor/poetica/hand.tri",
+      "pack": "Anno",
+      "project": "Database Morph Anno 012 - BDOR Poetica - Hands",
+      "plugins": [
+        "BDOR Poetica.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\bdor\\poetica\\hand.tri",
+        "sha256": "a1d12c14870f2bd0b1eff6b18f5c8751dce5bf2d5c5314eaf656f1afc8fe10f4"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\bdor\\rose noir\\body_0.nif",
+      "source_sha256": "29b9e05af1125c5462acfaf1ce251eef48e45870f01274fe892cbea89036963c",
+      "size_bytes": 2117727,
+      "destination_relative": "meshes/armor/bdor/rose noir/body_0.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 013 - BDOR Rose Noir - Body",
+      "plugins": [
+        "BDOR Rose Noir.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\bdor\\rose noir\\body_0.nif",
+        "sha256": "29b9e05af1125c5462acfaf1ce251eef48e45870f01274fe892cbea89036963c"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\bdor\\rose noir\\body_1.nif",
+      "source_sha256": "e50af02c90ee883169eed92d6e041bb72843a88ad2b5c78a255445a13201bd49",
+      "size_bytes": 2117727,
+      "destination_relative": "meshes/armor/bdor/rose noir/body_1.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 013 - BDOR Rose Noir - Body",
+      "plugins": [
+        "BDOR Rose Noir.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\bdor\\rose noir\\body_1.nif",
+        "sha256": "e50af02c90ee883169eed92d6e041bb72843a88ad2b5c78a255445a13201bd49"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\bdor\\rose noir\\body.tri",
+      "source_sha256": "be8f29313151e64dd00b12265904a0d4518e6d1b6335c84ae22f252d51416740",
+      "size_bytes": 3743507,
+      "destination_relative": "meshes/armor/bdor/rose noir/body.tri",
+      "pack": "Anno",
+      "project": "Database Morph Anno 013 - BDOR Rose Noir - Body",
+      "plugins": [
+        "BDOR Rose Noir.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\bdor\\rose noir\\body.tri",
+        "sha256": "be8f29313151e64dd00b12265904a0d4518e6d1b6335c84ae22f252d51416740"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\bdor\\rose noir\\hand_0.nif",
+      "source_sha256": "c826494dbc8846d086b48227a5c404a4cc8cf45081b67ad6fc76a571c22370a4",
+      "size_bytes": 862405,
+      "destination_relative": "meshes/armor/bdor/rose noir/hand_0.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 014 - BDOR Rose Noir - Hands",
+      "plugins": [
+        "BDOR Rose Noir.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\bdor\\rose noir\\hand_0.nif",
+        "sha256": "c826494dbc8846d086b48227a5c404a4cc8cf45081b67ad6fc76a571c22370a4"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\bdor\\rose noir\\hand_1.nif",
+      "source_sha256": "93399aa6c636b7f64042263b4626d3370c490982455dcc51b4ab4d9af3096c42",
+      "size_bytes": 862405,
+      "destination_relative": "meshes/armor/bdor/rose noir/hand_1.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 014 - BDOR Rose Noir - Hands",
+      "plugins": [
+        "BDOR Rose Noir.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\bdor\\rose noir\\hand_1.nif",
+        "sha256": "93399aa6c636b7f64042263b4626d3370c490982455dcc51b4ab4d9af3096c42"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\bdor\\rose noir\\hand.tri",
+      "source_sha256": "07d67e1da8607dc7b929be0bc5a334dd392c37c8ab7b5f16a3596b0eb838bada",
+      "size_bytes": 153357,
+      "destination_relative": "meshes/armor/bdor/rose noir/hand.tri",
+      "pack": "Anno",
+      "project": "Database Morph Anno 014 - BDOR Rose Noir - Hands",
+      "plugins": [
+        "BDOR Rose Noir.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\bdor\\rose noir\\hand.tri",
+        "sha256": "07d67e1da8607dc7b929be0bc5a334dd392c37c8ab7b5f16a3596b0eb838bada"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\goma\\ebonykai\\boots_0.nif",
+      "source_sha256": "07e320263a07ab977db5c0382aa3961677f889ee7aeb7205ec5e4e27b6929b6d",
+      "size_bytes": 109062,
+      "destination_relative": "meshes/armor/goma/ebonykai/boots_0.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 015 - Ebony Armor Kai Boots CBBE 3BA",
+      "plugins": [
+        "EbonyArmorKai.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\goma\\ebonykai\\boots_0.nif",
+        "sha256": "07e320263a07ab977db5c0382aa3961677f889ee7aeb7205ec5e4e27b6929b6d"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\goma\\ebonykai\\boots_1.nif",
+      "source_sha256": "5450845f4550758ed74936c60d55af01347acb0f6d7f31aaa34214593c546f1c",
+      "size_bytes": 109062,
+      "destination_relative": "meshes/armor/goma/ebonykai/boots_1.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 015 - Ebony Armor Kai Boots CBBE 3BA",
+      "plugins": [
+        "EbonyArmorKai.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\goma\\ebonykai\\boots_1.nif",
+        "sha256": "5450845f4550758ed74936c60d55af01347acb0f6d7f31aaa34214593c546f1c"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\goma\\ebonykai\\boots.tri",
+      "source_sha256": "e24b12806006894c16ad7d149d681d2e63e44d74fa1d9caca8d5dc602eb2fe8a",
+      "size_bytes": 83090,
+      "destination_relative": "meshes/armor/goma/ebonykai/boots.tri",
+      "pack": "Anno",
+      "project": "Database Morph Anno 015 - Ebony Armor Kai Boots CBBE 3BA",
+      "plugins": [
+        "EbonyArmorKai.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\goma\\ebonykai\\boots.tri",
+        "sha256": "e24b12806006894c16ad7d149d681d2e63e44d74fa1d9caca8d5dc602eb2fe8a"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\goma\\ebonykai\\cuirass_0.nif",
+      "source_sha256": "de286ce85e187cea38d9b98d78799c9fe6a7f86e0ec909eb35eb4a12761d9f02",
+      "size_bytes": 2593249,
+      "destination_relative": "meshes/armor/goma/ebonykai/cuirass_0.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 016 - Ebony Armor Kai CBBE 3BA",
+      "plugins": [
+        "EbonyArmorKai.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\goma\\ebonykai\\cuirass_0.nif",
+        "sha256": "de286ce85e187cea38d9b98d78799c9fe6a7f86e0ec909eb35eb4a12761d9f02"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\goma\\ebonykai\\cuirass_1.nif",
+      "source_sha256": "9b4edd2cf71ef7b99d0380a887bf216c0721e5f50e131147c7c55e5472d4f27a",
+      "size_bytes": 2593249,
+      "destination_relative": "meshes/armor/goma/ebonykai/cuirass_1.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 016 - Ebony Armor Kai CBBE 3BA",
+      "plugins": [
+        "EbonyArmorKai.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\goma\\ebonykai\\cuirass_1.nif",
+        "sha256": "9b4edd2cf71ef7b99d0380a887bf216c0721e5f50e131147c7c55e5472d4f27a"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\goma\\ebonykai\\cuirass.tri",
+      "source_sha256": "f6bffc3504d9c25993c8342e76ab9c368e90682b85bd9ee73b1f69e23d0ef7d0",
+      "size_bytes": 6305204,
+      "destination_relative": "meshes/armor/goma/ebonykai/cuirass.tri",
+      "pack": "Anno",
+      "project": "Database Morph Anno 016 - Ebony Armor Kai CBBE 3BA",
+      "plugins": [
+        "EbonyArmorKai.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\goma\\ebonykai\\cuirass.tri",
+        "sha256": "f6bffc3504d9c25993c8342e76ab9c368e90682b85bd9ee73b1f69e23d0ef7d0"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\goma\\ebonykai\\gauntlets_0.nif",
+      "source_sha256": "f42a3712b17144bc210af1fde8154e41814be1ead7ab808f99b2f374623685b1",
+      "size_bytes": 142292,
+      "destination_relative": "meshes/armor/goma/ebonykai/gauntlets_0.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 017 - Ebony Armor Kai Gauntlets CBBE 3BA",
+      "plugins": [
+        "EbonyArmorKai.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\goma\\ebonykai\\gauntlets_0.nif",
+        "sha256": "f42a3712b17144bc210af1fde8154e41814be1ead7ab808f99b2f374623685b1"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\goma\\ebonykai\\gauntlets_1.nif",
+      "source_sha256": "36ce3eded4b545ddc98286147c345421e1197721630da9e6fa21f2f8347988d5",
+      "size_bytes": 142292,
+      "destination_relative": "meshes/armor/goma/ebonykai/gauntlets_1.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 017 - Ebony Armor Kai Gauntlets CBBE 3BA",
+      "plugins": [
+        "EbonyArmorKai.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\goma\\ebonykai\\gauntlets_1.nif",
+        "sha256": "36ce3eded4b545ddc98286147c345421e1197721630da9e6fa21f2f8347988d5"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\goma\\ebonykai\\gauntlets.tri",
+      "source_sha256": "74506ba38c12d90c01f3fdb2e4b7c522736a9436df034a6a78abae3e1dfa543e",
+      "size_bytes": 16776,
+      "destination_relative": "meshes/armor/goma/ebonykai/gauntlets.tri",
+      "pack": "Anno",
+      "project": "Database Morph Anno 017 - Ebony Armor Kai Gauntlets CBBE 3BA",
+      "plugins": [
+        "EbonyArmorKai.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\armor\\goma\\ebonykai\\gauntlets.tri",
+        "sha256": "74506ba38c12d90c01f3fdb2e4b7c522736a9436df034a6a78abae3e1dfa543e"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\bdo reborn nereid\\c_main_0.nif",
+      "source_sha256": "b518dddd3b83e086007539093f1f4f0f5cc680e403c88b52073b73ac5e00a7c4",
+      "size_bytes": 4082125,
+      "destination_relative": "meshes/bdo reborn nereid/c_main_0.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 018 - BDO Reborn Nereid Main",
+      "plugins": [
+        "[Kirax] BDO Reborn Nereid.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\bdo reborn nereid\\c_main_0.nif",
+        "sha256": "b518dddd3b83e086007539093f1f4f0f5cc680e403c88b52073b73ac5e00a7c4"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\bdo reborn nereid\\c_main_1.nif",
+      "source_sha256": "123a57fe622fe10a2bfc635ff56aa5a23d9ed4f3a4d9c1ae0b5e4ad5e5d1721e",
+      "size_bytes": 4082125,
+      "destination_relative": "meshes/bdo reborn nereid/c_main_1.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 018 - BDO Reborn Nereid Main",
+      "plugins": [
+        "[Kirax] BDO Reborn Nereid.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\bdo reborn nereid\\c_main_1.nif",
+        "sha256": "123a57fe622fe10a2bfc635ff56aa5a23d9ed4f3a4d9c1ae0b5e4ad5e5d1721e"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\bdo reborn nereid\\c_main.tri",
+      "source_sha256": "16f8333a3e7a42d508262eb2cee37eab0b489fba3f464cf4a0af860f76c02651",
+      "size_bytes": 8732885,
+      "destination_relative": "meshes/bdo reborn nereid/c_main.tri",
+      "pack": "Anno",
+      "project": "Database Morph Anno 018 - BDO Reborn Nereid Main",
+      "plugins": [
+        "[Kirax] BDO Reborn Nereid.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\bdo reborn nereid\\c_main.tri",
+        "sha256": "16f8333a3e7a42d508262eb2cee37eab0b489fba3f464cf4a0af860f76c02651"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\bdo reborn selaine\\s_main_0.nif",
+      "source_sha256": "21593e597cea6173f101b841ecd24c3d23b748a5946621e5a8ff3e94c68b29ea",
+      "size_bytes": 3691193,
+      "destination_relative": "meshes/bdo reborn selaine/s_main_0.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 019 - BDO Reborn Selaine Main",
+      "plugins": [
+        "[Kirax] BDO Reborn Selaine.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\bdo reborn selaine\\s_main_0.nif",
+        "sha256": "21593e597cea6173f101b841ecd24c3d23b748a5946621e5a8ff3e94c68b29ea"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\bdo reborn selaine\\s_main_1.nif",
+      "source_sha256": "108a3194d87f7533f9a4bbdafb38b2b8df8997e711f4ec99f082ad2341f29f00",
+      "size_bytes": 3691193,
+      "destination_relative": "meshes/bdo reborn selaine/s_main_1.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 019 - BDO Reborn Selaine Main",
+      "plugins": [
+        "[Kirax] BDO Reborn Selaine.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\bdo reborn selaine\\s_main_1.nif",
+        "sha256": "108a3194d87f7533f9a4bbdafb38b2b8df8997e711f4ec99f082ad2341f29f00"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\bdo reborn selaine\\s_main.tri",
+      "source_sha256": "79dfae6c3e2af94e34b793914ef638ce87edbee58ac7e4b1e7ebf851d93cd69a",
+      "size_bytes": 7882547,
+      "destination_relative": "meshes/bdo reborn selaine/s_main.tri",
+      "pack": "Anno",
+      "project": "Database Morph Anno 019 - BDO Reborn Selaine Main",
+      "plugins": [
+        "[Kirax] BDO Reborn Selaine.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\bdo reborn selaine\\s_main.tri",
+        "sha256": "79dfae6c3e2af94e34b793914ef638ce87edbee58ac7e4b1e7ebf851d93cd69a"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\bdo reborn sephia\\se_main_0.nif",
+      "source_sha256": "ea985cf06b0af930ea50144899936d7b0acd36d7fc509dd105e4e3f4301edd8e",
+      "size_bytes": 3830474,
+      "destination_relative": "meshes/bdo reborn sephia/se_main_0.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 020 - BDO Reborn Sephia Main",
+      "plugins": [
+        "[Kirax] BDO Reborn Sephia.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\bdo reborn sephia\\se_main_0.nif",
+        "sha256": "ea985cf06b0af930ea50144899936d7b0acd36d7fc509dd105e4e3f4301edd8e"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\bdo reborn sephia\\se_main_1.nif",
+      "source_sha256": "03ed47d4044eb57ab06611b4bdd29dbe1c7ee30fd2676d941916417446e1931e",
+      "size_bytes": 3830474,
+      "destination_relative": "meshes/bdo reborn sephia/se_main_1.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 020 - BDO Reborn Sephia Main",
+      "plugins": [
+        "[Kirax] BDO Reborn Sephia.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\bdo reborn sephia\\se_main_1.nif",
+        "sha256": "03ed47d4044eb57ab06611b4bdd29dbe1c7ee30fd2676d941916417446e1931e"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\bdo reborn sephia\\se_main.tri",
+      "source_sha256": "9e8def9220eb0651d83ab67ef9e59eeb60421cbce5ae0b02204deeb982f7fd2b",
+      "size_bytes": 9008240,
+      "destination_relative": "meshes/bdo reborn sephia/se_main.tri",
+      "pack": "Anno",
+      "project": "Database Morph Anno 020 - BDO Reborn Sephia Main",
+      "plugins": [
+        "[Kirax] BDO Reborn Sephia.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\bdo reborn sephia\\se_main.tri",
+        "sha256": "9e8def9220eb0651d83ab67ef9e59eeb60421cbce5ae0b02204deeb982f7fd2b"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\fangfeizhuzhi\\dress_0.nif",
+      "source_sha256": "5a2c4389db7881e8419312db216568ccde5148f6cb4e0abb0d636d6036736d2f",
+      "size_bytes": 13841480,
+      "destination_relative": "meshes/fangfeizhuzhi/dress_0.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 021 - fangfeizhuzhi DRESS",
+      "plugins": [
+        "(lilyrim)fangfeizhuzhi.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\fangfeizhuzhi\\dress_0.nif",
+        "sha256": "5a2c4389db7881e8419312db216568ccde5148f6cb4e0abb0d636d6036736d2f"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\fangfeizhuzhi\\dress_1.nif",
+      "source_sha256": "226655c2591b7a1d8b116c7c6f61c4f99038d27f4751e839326838d47ec610b3",
+      "size_bytes": 13841480,
+      "destination_relative": "meshes/fangfeizhuzhi/dress_1.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 021 - fangfeizhuzhi DRESS",
+      "plugins": [
+        "(lilyrim)fangfeizhuzhi.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\fangfeizhuzhi\\dress_1.nif",
+        "sha256": "226655c2591b7a1d8b116c7c6f61c4f99038d27f4751e839326838d47ec610b3"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\fangfeizhuzhi\\dress.tri",
+      "source_sha256": "19735aa74980767bd3d77217a3bda0f5afe78ae66a667196f19c53e92b956578",
+      "size_bytes": 23239632,
+      "destination_relative": "meshes/fangfeizhuzhi/dress.tri",
+      "pack": "Anno",
+      "project": "Database Morph Anno 021 - fangfeizhuzhi DRESS",
+      "plugins": [
+        "(lilyrim)fangfeizhuzhi.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\fangfeizhuzhi\\dress.tri",
+        "sha256": "19735aa74980767bd3d77217a3bda0f5afe78ae66a667196f19c53e92b956578"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\grimlook33\\mai shiranu s2\\pants_0.nif",
+      "source_sha256": "68932f079ae69505c948dc5f84157be11a10ed097719d4e185e9a28e11e73a01",
+      "size_bytes": 2925781,
+      "destination_relative": "meshes/grimlook33/mai shiranu s2/pants_0.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 022 - [Grimlook33] Mai Shiranu S2 Pants",
+      "plugins": [
+        "[Grimlook33] Mai Shiranu Skin 2.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\grimlook33\\mai shiranu s2\\pants_0.nif",
+        "sha256": "68932f079ae69505c948dc5f84157be11a10ed097719d4e185e9a28e11e73a01"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\grimlook33\\mai shiranu s2\\pants_1.nif",
+      "source_sha256": "fc64644fe95add7e975cff41dc49fcbc851e441f6ce9cfde1777454aff8b7382",
+      "size_bytes": 2925781,
+      "destination_relative": "meshes/grimlook33/mai shiranu s2/pants_1.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 022 - [Grimlook33] Mai Shiranu S2 Pants",
+      "plugins": [
+        "[Grimlook33] Mai Shiranu Skin 2.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\grimlook33\\mai shiranu s2\\pants_1.nif",
+        "sha256": "fc64644fe95add7e975cff41dc49fcbc851e441f6ce9cfde1777454aff8b7382"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\grimlook33\\mai shiranu s2\\pants.tri",
+      "source_sha256": "6ca905003879cae24eb84538489df8621d2e977427c566ae2aade649cb397ef7",
+      "size_bytes": 1907693,
+      "destination_relative": "meshes/grimlook33/mai shiranu s2/pants.tri",
+      "pack": "Anno",
+      "project": "Database Morph Anno 022 - [Grimlook33] Mai Shiranu S2 Pants",
+      "plugins": [
+        "[Grimlook33] Mai Shiranu Skin 2.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\grimlook33\\mai shiranu s2\\pants.tri",
+        "sha256": "6ca905003879cae24eb84538489df8621d2e977427c566ae2aade649cb397ef7"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\grimlook33\\mai shiranu s2\\top_0.nif",
+      "source_sha256": "ef8995defa31f358a85d8d460928b8fcfc2d724a786be83cea6680e82a84e537",
+      "size_bytes": 2695777,
+      "destination_relative": "meshes/grimlook33/mai shiranu s2/top_0.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 023 - [Grimlook33] Mai Shiranu S2 Jacket",
+      "plugins": [
+        "[Grimlook33] Mai Shiranu Skin 2.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\grimlook33\\mai shiranu s2\\top_0.nif",
+        "sha256": "ef8995defa31f358a85d8d460928b8fcfc2d724a786be83cea6680e82a84e537"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\grimlook33\\mai shiranu s2\\top_1.nif",
+      "source_sha256": "66b14d26e73263a1361333fc1a2ce5ea8491a84169e89658d17b79f3daf982e8",
+      "size_bytes": 2695777,
+      "destination_relative": "meshes/grimlook33/mai shiranu s2/top_1.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 023 - [Grimlook33] Mai Shiranu S2 Jacket",
+      "plugins": [
+        "[Grimlook33] Mai Shiranu Skin 2.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\grimlook33\\mai shiranu s2\\top_1.nif",
+        "sha256": "66b14d26e73263a1361333fc1a2ce5ea8491a84169e89658d17b79f3daf982e8"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\grimlook33\\mai shiranu s2\\top.tri",
+      "source_sha256": "3e2c41407d0d5f7b4e8e3928f40307cb32bb451858e4972da23e9b701fded07f",
+      "size_bytes": 6037369,
+      "destination_relative": "meshes/grimlook33/mai shiranu s2/top.tri",
+      "pack": "Anno",
+      "project": "Database Morph Anno 023 - [Grimlook33] Mai Shiranu S2 Jacket",
+      "plugins": [
+        "[Grimlook33] Mai Shiranu Skin 2.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\grimlook33\\mai shiranu s2\\top.tri",
+        "sha256": "3e2c41407d0d5f7b4e8e3928f40307cb32bb451858e4972da23e9b701fded07f"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\hongluanzhuojin\\dress_0.nif",
+      "source_sha256": "f2bed4cb3b1ad6b18d022824e8a8b6ae43fd7e61ae9b33a3f50076fc4333d3c5",
+      "size_bytes": 8498936,
+      "destination_relative": "meshes/hongluanzhuojin/dress_0.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 024 - hongluanzhuojin dress",
+      "plugins": [
+        "(lilyrim)hongluanzhuojin.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\hongluanzhuojin\\dress_0.nif",
+        "sha256": "f2bed4cb3b1ad6b18d022824e8a8b6ae43fd7e61ae9b33a3f50076fc4333d3c5"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\hongluanzhuojin\\dress_1.nif",
+      "source_sha256": "704de43757019b03a4c29b5248567037d3de35a8c53e8fb0a9c5a7639155ceae",
+      "size_bytes": 8498936,
+      "destination_relative": "meshes/hongluanzhuojin/dress_1.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 024 - hongluanzhuojin dress",
+      "plugins": [
+        "(lilyrim)hongluanzhuojin.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\hongluanzhuojin\\dress_1.nif",
+        "sha256": "704de43757019b03a4c29b5248567037d3de35a8c53e8fb0a9c5a7639155ceae"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\hongluanzhuojin\\dress.tri",
+      "source_sha256": "7ce12e445006cfeb06803c47682be6e8e2a429a0619c5fdcfd9c79b6367910f2",
+      "size_bytes": 12037812,
+      "destination_relative": "meshes/hongluanzhuojin/dress.tri",
+      "pack": "Anno",
+      "project": "Database Morph Anno 024 - hongluanzhuojin dress",
+      "plugins": [
+        "(lilyrim)hongluanzhuojin.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\hongluanzhuojin\\dress.tri",
+        "sha256": "7ce12e445006cfeb06803c47682be6e8e2a429a0619c5fdcfd9c79b6367910f2"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\lingzhuyinyue\\dressf1_0.nif",
+      "source_sha256": "b0ca19476917f3e9f618f577dc3003b68749f33c3d1d5b894a09bab91b6e3b1e",
+      "size_bytes": 10070023,
+      "destination_relative": "meshes/lingzhuyinyue/dressf1_0.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 025 - lingzhuyinyue dress f 1",
+      "plugins": [
+        "(lilyrim)lingzhuyinyue.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\lingzhuyinyue\\dressf1_0.nif",
+        "sha256": "b0ca19476917f3e9f618f577dc3003b68749f33c3d1d5b894a09bab91b6e3b1e"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\lingzhuyinyue\\dressf1_1.nif",
+      "source_sha256": "e054b17829c88cab32a724c0497ae3a22b5d93adfebce5984fd0963cfe8f7a86",
+      "size_bytes": 10070023,
+      "destination_relative": "meshes/lingzhuyinyue/dressf1_1.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 025 - lingzhuyinyue dress f 1",
+      "plugins": [
+        "(lilyrim)lingzhuyinyue.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\lingzhuyinyue\\dressf1_1.nif",
+        "sha256": "e054b17829c88cab32a724c0497ae3a22b5d93adfebce5984fd0963cfe8f7a86"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\lingzhuyinyue\\dressf1.tri",
+      "source_sha256": "88657efee9feed832dbfed21b24919c7f3e71193c5d0f098883a5edf69544a1a",
+      "size_bytes": 16808711,
+      "destination_relative": "meshes/lingzhuyinyue/dressf1.tri",
+      "pack": "Anno",
+      "project": "Database Morph Anno 025 - lingzhuyinyue dress f 1",
+      "plugins": [
+        "(lilyrim)lingzhuyinyue.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\lingzhuyinyue\\dressf1.tri",
+        "sha256": "88657efee9feed832dbfed21b24919c7f3e71193c5d0f098883a5edf69544a1a"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\lingzhuyinyue\\dressf2_0.nif",
+      "source_sha256": "1a1b37fcb55032b7340e7f6b9f7e868fb7b3b042676ab674194c7af454ced87d",
+      "size_bytes": 12702788,
+      "destination_relative": "meshes/lingzhuyinyue/dressf2_0.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 026 - lingzhuyinyue dress f 2",
+      "plugins": [
+        "(lilyrim)lingzhuyinyue.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\lingzhuyinyue\\dressf2_0.nif",
+        "sha256": "1a1b37fcb55032b7340e7f6b9f7e868fb7b3b042676ab674194c7af454ced87d"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\lingzhuyinyue\\dressf2_1.nif",
+      "source_sha256": "d22e746ac63d8ee89843e8c11ab6209b3c43a8c44b27b22123214e033b33ba9f",
+      "size_bytes": 12702788,
+      "destination_relative": "meshes/lingzhuyinyue/dressf2_1.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 026 - lingzhuyinyue dress f 2",
+      "plugins": [
+        "(lilyrim)lingzhuyinyue.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\lingzhuyinyue\\dressf2_1.nif",
+        "sha256": "d22e746ac63d8ee89843e8c11ab6209b3c43a8c44b27b22123214e033b33ba9f"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\lingzhuyinyue\\dressf2.tri",
+      "source_sha256": "c10069dcbdeadad69a466abd9ee541085d18ebb767089bf501d1ae73af95aa6a",
+      "size_bytes": 21630119,
+      "destination_relative": "meshes/lingzhuyinyue/dressf2.tri",
+      "pack": "Anno",
+      "project": "Database Morph Anno 026 - lingzhuyinyue dress f 2",
+      "plugins": [
+        "(lilyrim)lingzhuyinyue.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\lingzhuyinyue\\dressf2.tri",
+        "sha256": "c10069dcbdeadad69a466abd9ee541085d18ebb767089bf501d1ae73af95aa6a"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\loa 002\\002_hands_0.nif",
+      "source_sha256": "79a3480f4fd1ca87c0f4c719b4774881d05ca189d1c1a99d10a8209c9220cecf",
+      "size_bytes": 754235,
+      "destination_relative": "meshes/loa 002/002_hands_0.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 027 - LoA 002 Hands",
+      "plugins": [
+        "[Kirax] LoA Elgacia.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\loa 002\\002_hands_0.nif",
+        "sha256": "79a3480f4fd1ca87c0f4c719b4774881d05ca189d1c1a99d10a8209c9220cecf"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\loa 002\\002_hands_1.nif",
+      "source_sha256": "e5e21e699adb01a77275fc3b6dc961abee14354708dc18ee736ffecca801c727",
+      "size_bytes": 754235,
+      "destination_relative": "meshes/loa 002/002_hands_1.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 027 - LoA 002 Hands",
+      "plugins": [
+        "[Kirax] LoA Elgacia.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\loa 002\\002_hands_1.nif",
+        "sha256": "e5e21e699adb01a77275fc3b6dc961abee14354708dc18ee736ffecca801c727"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\loa 002\\002_hands.tri",
+      "source_sha256": "9a63b962fdd618f3c1e8f747deaf9e8f906dc0b6e8fb54dc7b5561fe8dc0bf53",
+      "size_bytes": 16403,
+      "destination_relative": "meshes/loa 002/002_hands.tri",
+      "pack": "Anno",
+      "project": "Database Morph Anno 027 - LoA 002 Hands",
+      "plugins": [
+        "[Kirax] LoA Elgacia.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\loa 002\\002_hands.tri",
+        "sha256": "9a63b962fdd618f3c1e8f747deaf9e8f906dc0b6e8fb54dc7b5561fe8dc0bf53"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\loa 002\\002_main_0.nif",
+      "source_sha256": "b87110ed3195047a40962190241ce437b196ad763ab131e8d20b8a13d382ac96",
+      "size_bytes": 3039972,
+      "destination_relative": "meshes/loa 002/002_main_0.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 028 - LoA 002 Main",
+      "plugins": [
+        "[Kirax] LoA Elgacia.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\loa 002\\002_main_0.nif",
+        "sha256": "b87110ed3195047a40962190241ce437b196ad763ab131e8d20b8a13d382ac96"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\loa 002\\002_main_1.nif",
+      "source_sha256": "6122051a463fb33ff052e016762945e1e14db9ddd2d0e605d210fa49e8dc7f79",
+      "size_bytes": 3039972,
+      "destination_relative": "meshes/loa 002/002_main_1.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 028 - LoA 002 Main",
+      "plugins": [
+        "[Kirax] LoA Elgacia.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\loa 002\\002_main_1.nif",
+        "sha256": "6122051a463fb33ff052e016762945e1e14db9ddd2d0e605d210fa49e8dc7f79"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\loa 002\\002_main.tri",
+      "source_sha256": "3da89fbc56c25fd1e35b103da3639abf41a257e7fbd7feb0cd03d9e59a5c5e37",
+      "size_bytes": 6663933,
+      "destination_relative": "meshes/loa 002/002_main.tri",
+      "pack": "Anno",
+      "project": "Database Morph Anno 028 - LoA 002 Main",
+      "plugins": [
+        "[Kirax] LoA Elgacia.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\loa 002\\002_main.tri",
+        "sha256": "3da89fbc56c25fd1e35b103da3639abf41a257e7fbd7feb0cd03d9e59a5c5e37"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\loa sorceress eternal\\alt\\se_main_0.nif",
+      "source_sha256": "2040f0f8bdaef3fef5ab147dccbbbc95fbe4f153b20ba86469b5b114806c296f",
+      "size_bytes": 3868660,
+      "destination_relative": "meshes/loa sorceress eternal/alt/se_main_0.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 029 - LoA Sorceress Eternal Skin Alt Main",
+      "plugins": [
+        "[Kirax] LoA Sorceress Eternal Skin.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\loa sorceress eternal\\alt\\se_main_0.nif",
+        "sha256": "2040f0f8bdaef3fef5ab147dccbbbc95fbe4f153b20ba86469b5b114806c296f"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\loa sorceress eternal\\alt\\se_main_1.nif",
+      "source_sha256": "6ab26bd7674e7c2e1ff325ef9120cc48b60265ac0279d558c1a5ad9a223bcbe1",
+      "size_bytes": 3868660,
+      "destination_relative": "meshes/loa sorceress eternal/alt/se_main_1.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 029 - LoA Sorceress Eternal Skin Alt Main",
+      "plugins": [
+        "[Kirax] LoA Sorceress Eternal Skin.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\loa sorceress eternal\\alt\\se_main_1.nif",
+        "sha256": "6ab26bd7674e7c2e1ff325ef9120cc48b60265ac0279d558c1a5ad9a223bcbe1"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\loa sorceress eternal\\alt\\se_main.tri",
+      "source_sha256": "425eff02a3bfc95e09ab7538900fe72aa27a81cf645517904b178021716c0626",
+      "size_bytes": 8439714,
+      "destination_relative": "meshes/loa sorceress eternal/alt/se_main.tri",
+      "pack": "Anno",
+      "project": "Database Morph Anno 029 - LoA Sorceress Eternal Skin Alt Main",
+      "plugins": [
+        "[Kirax] LoA Sorceress Eternal Skin.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\loa sorceress eternal\\alt\\se_main.tri",
+        "sha256": "425eff02a3bfc95e09ab7538900fe72aa27a81cf645517904b178021716c0626"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\loa sorceress eternal\\se_main_0.nif",
+      "source_sha256": "4aa8d9ac0ec464c5e9c085a66ce9ef03fe517558aadaab91aadb17961a8d88ff",
+      "size_bytes": 3868624,
+      "destination_relative": "meshes/loa sorceress eternal/se_main_0.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 030 - LoA Sorceress Eternal Skin Main",
+      "plugins": [
+        "[Kirax] LoA Sorceress Eternal Skin.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\loa sorceress eternal\\se_main_0.nif",
+        "sha256": "4aa8d9ac0ec464c5e9c085a66ce9ef03fe517558aadaab91aadb17961a8d88ff"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\loa sorceress eternal\\se_main_1.nif",
+      "source_sha256": "f6b4424483b93d8b858cf3ba1d3138941d03ee894d8837e87cf22cc26dbbcc52",
+      "size_bytes": 3868624,
+      "destination_relative": "meshes/loa sorceress eternal/se_main_1.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 030 - LoA Sorceress Eternal Skin Main",
+      "plugins": [
+        "[Kirax] LoA Sorceress Eternal Skin.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\loa sorceress eternal\\se_main_1.nif",
+        "sha256": "f6b4424483b93d8b858cf3ba1d3138941d03ee894d8837e87cf22cc26dbbcc52"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\loa sorceress eternal\\se_main.tri",
+      "source_sha256": "425eff02a3bfc95e09ab7538900fe72aa27a81cf645517904b178021716c0626",
+      "size_bytes": 8439714,
+      "destination_relative": "meshes/loa sorceress eternal/se_main.tri",
+      "pack": "Anno",
+      "project": "Database Morph Anno 030 - LoA Sorceress Eternal Skin Main",
+      "plugins": [
+        "[Kirax] LoA Sorceress Eternal Skin.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\loa sorceress eternal\\se_main.tri",
+        "sha256": "425eff02a3bfc95e09ab7538900fe72aa27a81cf645517904b178021716c0626"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\meltallic_bunny\\sse_meltallic_bunny_0.nif",
+      "source_sha256": "361fa259a664ae3c82683ab08a7ff8f1da6066fea4035670c94703a165f44b39",
+      "size_bytes": 3765014,
+      "destination_relative": "meshes/meltallic_bunny/sse_meltallic_bunny_0.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 031 - SSE_MELTALLIC_Bunny",
+      "plugins": [
+        "(SSE) MELTALLIC Bunny.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\meltallic_bunny\\sse_meltallic_bunny_0.nif",
+        "sha256": "361fa259a664ae3c82683ab08a7ff8f1da6066fea4035670c94703a165f44b39"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\meltallic_bunny\\sse_meltallic_bunny_1.nif",
+      "source_sha256": "6ccd1e061f7782706483dc4b713616b3bdc7a75b1b47abbcc0ba4bcca32d9ffb",
+      "size_bytes": 3765014,
+      "destination_relative": "meshes/meltallic_bunny/sse_meltallic_bunny_1.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 031 - SSE_MELTALLIC_Bunny",
+      "plugins": [
+        "(SSE) MELTALLIC Bunny.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\meltallic_bunny\\sse_meltallic_bunny_1.nif",
+        "sha256": "6ccd1e061f7782706483dc4b713616b3bdc7a75b1b47abbcc0ba4bcca32d9ffb"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\meltallic_bunny\\sse_meltallic_bunny.tri",
+      "source_sha256": "5e386950e81377494d8b9ce4bce1acdcb476ecd334f84bcc8e72d887387b5418",
+      "size_bytes": 9016341,
+      "destination_relative": "meshes/meltallic_bunny/sse_meltallic_bunny.tri",
+      "pack": "Anno",
+      "project": "Database Morph Anno 031 - SSE_MELTALLIC_Bunny",
+      "plugins": [
+        "(SSE) MELTALLIC Bunny.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\meltallic_bunny\\sse_meltallic_bunny.tri",
+        "sha256": "5e386950e81377494d8b9ce4bce1acdcb476ecd334f84bcc8e72d887387b5418"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\meltallic_bunny\\sse_meltallic_bunny_02_0.nif",
+      "source_sha256": "4ef89a7516b503a7de409d3d9db54e3c9ce77578c9e42148b22c2ea35d6c1d7f",
+      "size_bytes": 3484753,
+      "destination_relative": "meshes/meltallic_bunny/sse_meltallic_bunny_02_0.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 032 - SSE_MELTALLIC_Bunny_02",
+      "plugins": [
+        "(SSE) MELTALLIC Bunny.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\meltallic_bunny\\sse_meltallic_bunny_02_0.nif",
+        "sha256": "4ef89a7516b503a7de409d3d9db54e3c9ce77578c9e42148b22c2ea35d6c1d7f"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\meltallic_bunny\\sse_meltallic_bunny_02_1.nif",
+      "source_sha256": "4796a1c066673e1c290cf9337ebdcecafecc886c24d63fc44155b00d3f8b22a2",
+      "size_bytes": 3484753,
+      "destination_relative": "meshes/meltallic_bunny/sse_meltallic_bunny_02_1.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 032 - SSE_MELTALLIC_Bunny_02",
+      "plugins": [
+        "(SSE) MELTALLIC Bunny.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\meltallic_bunny\\sse_meltallic_bunny_02_1.nif",
+        "sha256": "4796a1c066673e1c290cf9337ebdcecafecc886c24d63fc44155b00d3f8b22a2"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\meltallic_bunny\\sse_meltallic_bunny_02.tri",
+      "source_sha256": "4371ccda7c7fb075ad8b769f29b23b510df9861ffce1914aecbcf77f3ec9ee76",
+      "size_bytes": 8332904,
+      "destination_relative": "meshes/meltallic_bunny/sse_meltallic_bunny_02.tri",
+      "pack": "Anno",
+      "project": "Database Morph Anno 032 - SSE_MELTALLIC_Bunny_02",
+      "plugins": [
+        "(SSE) MELTALLIC Bunny.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\meltallic_bunny\\sse_meltallic_bunny_02.tri",
+        "sha256": "4371ccda7c7fb075ad8b769f29b23b510df9861ffce1914aecbcf77f3ec9ee76"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\meltallic_bunny\\sse_meltallic_bunny_heart_0.nif",
+      "source_sha256": "75d0c3e536a18fe44a154b33efe05485cdd50d0361c8bbada548025410476bed",
+      "size_bytes": 2068820,
+      "destination_relative": "meshes/meltallic_bunny/sse_meltallic_bunny_heart_0.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 033 - SSE_MELTALLIC_Bunny_Heart",
+      "plugins": [
+        "(SSE) MELTALLIC Bunny.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\meltallic_bunny\\sse_meltallic_bunny_heart_0.nif",
+        "sha256": "75d0c3e536a18fe44a154b33efe05485cdd50d0361c8bbada548025410476bed"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\meltallic_bunny\\sse_meltallic_bunny_heart_1.nif",
+      "source_sha256": "6a3be9eb129f494b5e68fdea3afbbe6005fe56106358a026f86d6ddbb1222065",
+      "size_bytes": 2068820,
+      "destination_relative": "meshes/meltallic_bunny/sse_meltallic_bunny_heart_1.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 033 - SSE_MELTALLIC_Bunny_Heart",
+      "plugins": [
+        "(SSE) MELTALLIC Bunny.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\meltallic_bunny\\sse_meltallic_bunny_heart_1.nif",
+        "sha256": "6a3be9eb129f494b5e68fdea3afbbe6005fe56106358a026f86d6ddbb1222065"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\meltallic_bunny\\sse_meltallic_bunny_heart.tri",
+      "source_sha256": "5f72705cb65ac0f64a44312c9d59887f8dd5ec9b30f2c2903a73c35a4be11256",
+      "size_bytes": 5181927,
+      "destination_relative": "meshes/meltallic_bunny/sse_meltallic_bunny_heart.tri",
+      "pack": "Anno",
+      "project": "Database Morph Anno 033 - SSE_MELTALLIC_Bunny_Heart",
+      "plugins": [
+        "(SSE) MELTALLIC Bunny.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\meltallic_bunny\\sse_meltallic_bunny_heart.tri",
+        "sha256": "5f72705cb65ac0f64a44312c9d59887f8dd5ec9b30f2c2903a73c35a4be11256"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\ovr sorceress aegir\\ae_main_0.nif",
+      "source_sha256": "a968d44ace61790ecbb89a7d86a9885083f851a77c324306e183724583cb646c",
+      "size_bytes": 3280259,
+      "destination_relative": "meshes/ovr sorceress aegir/ae_main_0.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 034 - OVR Sorceress Aegir Main",
+      "plugins": [
+        "[Kirax] OVR Sorceress Aegir.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\ovr sorceress aegir\\ae_main_0.nif",
+        "sha256": "a968d44ace61790ecbb89a7d86a9885083f851a77c324306e183724583cb646c"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\ovr sorceress aegir\\ae_main_1.nif",
+      "source_sha256": "9143cf81098d38cf0cc3461e3b3ed6884d10d5e97420202ff2f62dc5202bf335",
+      "size_bytes": 3280259,
+      "destination_relative": "meshes/ovr sorceress aegir/ae_main_1.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 034 - OVR Sorceress Aegir Main",
+      "plugins": [
+        "[Kirax] OVR Sorceress Aegir.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\ovr sorceress aegir\\ae_main_1.nif",
+        "sha256": "9143cf81098d38cf0cc3461e3b3ed6884d10d5e97420202ff2f62dc5202bf335"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\ovr sorceress aegir\\ae_main.tri",
+      "source_sha256": "877b3dd2059f14e7f56063824bfd8af7a14cbdd205697bb103d77e99d5a940a4",
+      "size_bytes": 7657599,
+      "destination_relative": "meshes/ovr sorceress aegir/ae_main.tri",
+      "pack": "Anno",
+      "project": "Database Morph Anno 034 - OVR Sorceress Aegir Main",
+      "plugins": [
+        "[Kirax] OVR Sorceress Aegir.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\ovr sorceress aegir\\ae_main.tri",
+        "sha256": "877b3dd2059f14e7f56063824bfd8af7a14cbdd205697bb103d77e99d5a940a4"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\sc\\4_ports\\21_order1886\\igraine\\knight\\bootsf_0.nif",
+      "source_sha256": "f6235158346e9102f05ba6988e6dba314875f8f6582dae151c97318f0d3f9a18",
+      "size_bytes": 424490,
+      "destination_relative": "meshes/sc/4_ports/21_order1886/igraine/knight/bootsf_0.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 035 - Igraine Boots CBBE 3BA",
+      "plugins": [
+        "SC_Order1886_Igraine.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\sc\\4_ports\\21_order1886\\igraine\\knight\\bootsf_0.nif",
+        "sha256": "f6235158346e9102f05ba6988e6dba314875f8f6582dae151c97318f0d3f9a18"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\sc\\4_ports\\21_order1886\\igraine\\knight\\bootsf_1.nif",
+      "source_sha256": "3f33cad7aa1a53d0462dda0648d62f65c4f0476483f02d5e5976f8e9e016df98",
+      "size_bytes": 424490,
+      "destination_relative": "meshes/sc/4_ports/21_order1886/igraine/knight/bootsf_1.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 035 - Igraine Boots CBBE 3BA",
+      "plugins": [
+        "SC_Order1886_Igraine.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\sc\\4_ports\\21_order1886\\igraine\\knight\\bootsf_1.nif",
+        "sha256": "3f33cad7aa1a53d0462dda0648d62f65c4f0476483f02d5e5976f8e9e016df98"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\sc\\4_ports\\21_order1886\\igraine\\knight\\bootsf.tri",
+      "source_sha256": "3fb39798791cce4c030075b7415bc0e40ad114de2f5aa9e849dd46b825a2e227",
+      "size_bytes": 361030,
+      "destination_relative": "meshes/sc/4_ports/21_order1886/igraine/knight/bootsf.tri",
+      "pack": "Anno",
+      "project": "Database Morph Anno 035 - Igraine Boots CBBE 3BA",
+      "plugins": [
+        "SC_Order1886_Igraine.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\sc\\4_ports\\21_order1886\\igraine\\knight\\bootsf.tri",
+        "sha256": "3fb39798791cce4c030075b7415bc0e40ad114de2f5aa9e849dd46b825a2e227"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\sc\\4_ports\\21_order1886\\igraine\\knight\\f_0.nif",
+      "source_sha256": "32587ae2136c43a1e7b767ca87c1cca427cbd3738d2ccfb71477df22ce1cf948",
+      "size_bytes": 1805333,
+      "destination_relative": "meshes/sc/4_ports/21_order1886/igraine/knight/f_0.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 036 - Igraine Armor CBBE 3BA",
+      "plugins": [
+        "SC_Order1886_Igraine.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\sc\\4_ports\\21_order1886\\igraine\\knight\\f_0.nif",
+        "sha256": "32587ae2136c43a1e7b767ca87c1cca427cbd3738d2ccfb71477df22ce1cf948"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\sc\\4_ports\\21_order1886\\igraine\\knight\\f_1.nif",
+      "source_sha256": "b6899fa0c2495419a8d157d47287f01f7b81ac75069cf3d1fadc5f2e21ba859f",
+      "size_bytes": 1805333,
+      "destination_relative": "meshes/sc/4_ports/21_order1886/igraine/knight/f_1.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 036 - Igraine Armor CBBE 3BA",
+      "plugins": [
+        "SC_Order1886_Igraine.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\sc\\4_ports\\21_order1886\\igraine\\knight\\f_1.nif",
+        "sha256": "b6899fa0c2495419a8d157d47287f01f7b81ac75069cf3d1fadc5f2e21ba859f"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\sc\\4_ports\\21_order1886\\igraine\\knight\\f.tri",
+      "source_sha256": "0d578490328ec4227c0b0f6b014c1454b48b85a732ddfe6b210990f8c5e34a22",
+      "size_bytes": 2385884,
+      "destination_relative": "meshes/sc/4_ports/21_order1886/igraine/knight/f.tri",
+      "pack": "Anno",
+      "project": "Database Morph Anno 036 - Igraine Armor CBBE 3BA",
+      "plugins": [
+        "SC_Order1886_Igraine.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\sc\\4_ports\\21_order1886\\igraine\\knight\\f.tri",
+        "sha256": "0d578490328ec4227c0b0f6b014c1454b48b85a732ddfe6b210990f8c5e34a22"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\sc\\4_ports\\21_order1886\\igraine\\knight\\handsf_0.nif",
+      "source_sha256": "94003fee159c22d12491414f1c75f1832668ef8c6b8ee06277fca6108ab9c493",
+      "size_bytes": 348717,
+      "destination_relative": "meshes/sc/4_ports/21_order1886/igraine/knight/handsf_0.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 037 - Igraine Hands CBBE 3BA",
+      "plugins": [
+        "SC_Order1886_Igraine.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\sc\\4_ports\\21_order1886\\igraine\\knight\\handsf_0.nif",
+        "sha256": "94003fee159c22d12491414f1c75f1832668ef8c6b8ee06277fca6108ab9c493"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\sc\\4_ports\\21_order1886\\igraine\\knight\\handsf_1.nif",
+      "source_sha256": "3c297d9ade3f25a0a7b0d251bdb23f6df39d234e9869bab3d61609cf9ff75fed",
+      "size_bytes": 348717,
+      "destination_relative": "meshes/sc/4_ports/21_order1886/igraine/knight/handsf_1.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 037 - Igraine Hands CBBE 3BA",
+      "plugins": [
+        "SC_Order1886_Igraine.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\sc\\4_ports\\21_order1886\\igraine\\knight\\handsf_1.nif",
+        "sha256": "3c297d9ade3f25a0a7b0d251bdb23f6df39d234e9869bab3d61609cf9ff75fed"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\sc\\4_ports\\21_order1886\\igraine\\knight\\handsf.tri",
+      "source_sha256": "acdb36c10b311851a99302a42e2091f10b4b708e1f72e386829e05c63369d182",
+      "size_bytes": 2530,
+      "destination_relative": "meshes/sc/4_ports/21_order1886/igraine/knight/handsf.tri",
+      "pack": "Anno",
+      "project": "Database Morph Anno 037 - Igraine Hands CBBE 3BA",
+      "plugins": [
+        "SC_Order1886_Igraine.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\sc\\4_ports\\21_order1886\\igraine\\knight\\handsf.tri",
+        "sha256": "acdb36c10b311851a99302a42e2091f10b4b708e1f72e386829e05c63369d182"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\bodyslide_validation\\green_nun_bodytri_candidates\\meshes\\sse_3ba_green_nun\\sse_3ba_green_nun_feet_0.nif",
+      "source_sha256": "d425ea672a93a96689f636fb8dc3887a676776bcb7c66d3df16b74da7890ae17",
+      "size_bytes": 2143878,
+      "destination_relative": "meshes/sse_3ba_green_nun/sse_3ba_green_nun_feet_0.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 038 - SSE_3BA_Green_Nun_Feet",
+      "plugins": [
+        "SSE_3BA_Green_Nun.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\sse_3ba_green_nun\\sse_3ba_green_nun_feet_0.nif",
+        "sha256": "0a079f3b7b9e8f08b65dbd131064c8fa15a9d8cd14ed386e974a395c48d85ce7"
+      },
+      "candidate_override": true,
+      "override_evidence": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\bodyslide_validation\\green_nun_bodytri_rebind_evidence.json",
+        "sha256": "2626ef78e039329f41701b869e30621621e5ae11c5a7d5cd0498f7ad6ef4bea8"
+      }
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\bodyslide_validation\\green_nun_bodytri_candidates\\meshes\\sse_3ba_green_nun\\sse_3ba_green_nun_feet_1.nif",
+      "source_sha256": "0c5c24c6efe7b2da7c845750dbed404071e78cef8ee7da02a7eaba2a9172a7c1",
+      "size_bytes": 2143878,
+      "destination_relative": "meshes/sse_3ba_green_nun/sse_3ba_green_nun_feet_1.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 038 - SSE_3BA_Green_Nun_Feet",
+      "plugins": [
+        "SSE_3BA_Green_Nun.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\sse_3ba_green_nun\\sse_3ba_green_nun_feet_1.nif",
+        "sha256": "4b0fe2ccdd46bb0b94345c758465bade65d6f8dfcb2d52652dafa5d62697ad41"
+      },
+      "candidate_override": true,
+      "override_evidence": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\bodyslide_validation\\green_nun_bodytri_rebind_evidence.json",
+        "sha256": "2626ef78e039329f41701b869e30621621e5ae11c5a7d5cd0498f7ad6ef4bea8"
+      }
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\sse_3ba_green_nun\\sse_3ba_green_nun_feet.tri",
+      "source_sha256": "ed903bb1cf57cb688df9aa2799e716f5f0935df0459073e5c6b5be442ac6c684",
+      "size_bytes": 51345,
+      "destination_relative": "meshes/sse_3ba_green_nun/sse_3ba_green_nun_feet.tri",
+      "pack": "Anno",
+      "project": "Database Morph Anno 038 - SSE_3BA_Green_Nun_Feet",
+      "plugins": [
+        "SSE_3BA_Green_Nun.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\sse_3ba_green_nun\\sse_3ba_green_nun_feet.tri",
+        "sha256": "ed903bb1cf57cb688df9aa2799e716f5f0935df0459073e5c6b5be442ac6c684"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\takuya\\hanyiqinghua\\dress_0.nif",
+      "source_sha256": "8db52905f6234c4bc0641192d32d73336920e10f36a5881f465e69e46f85b974",
+      "size_bytes": 12125542,
+      "destination_relative": "meshes/takuya/hanyiqinghua/dress_0.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 039 - hanyiqinghua Female.ver dress",
+      "plugins": [
+        "hanyiqinghua.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\takuya\\hanyiqinghua\\dress_0.nif",
+        "sha256": "8db52905f6234c4bc0641192d32d73336920e10f36a5881f465e69e46f85b974"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\takuya\\hanyiqinghua\\dress_1.nif",
+      "source_sha256": "cab81cdfdca74a489ca00ee5b1a4b9b0f1b1e6b357e0224126779552ff550270",
+      "size_bytes": 12125542,
+      "destination_relative": "meshes/takuya/hanyiqinghua/dress_1.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 039 - hanyiqinghua Female.ver dress",
+      "plugins": [
+        "hanyiqinghua.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\takuya\\hanyiqinghua\\dress_1.nif",
+        "sha256": "cab81cdfdca74a489ca00ee5b1a4b9b0f1b1e6b357e0224126779552ff550270"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\takuya\\hanyiqinghua\\dress.tri",
+      "source_sha256": "8ff0e4a2f2a99cff284b65ebc617f9e5a3dd07381001cff784cb680694863545",
+      "size_bytes": 19870278,
+      "destination_relative": "meshes/takuya/hanyiqinghua/dress.tri",
+      "pack": "Anno",
+      "project": "Database Morph Anno 039 - hanyiqinghua Female.ver dress",
+      "plugins": [
+        "hanyiqinghua.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\takuya\\hanyiqinghua\\dress.tri",
+        "sha256": "8ff0e4a2f2a99cff284b65ebc617f9e5a3dd07381001cff784cb680694863545"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\td-mz\\mingzhuang-tm_0.nif",
+      "source_sha256": "57bb6761986f5243640719da678cdebcc89f4fa22ceb57e65b1e9bf111f310d8",
+      "size_bytes": 3998321,
+      "destination_relative": "meshes/td-mz/mingzhuang-tm_0.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 040 - mingzhuang-tm_11",
+      "plugins": [
+        "cj-mingzhuang.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\td-mz\\mingzhuang-tm_0.nif",
+        "sha256": "57bb6761986f5243640719da678cdebcc89f4fa22ceb57e65b1e9bf111f310d8"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\td-mz\\mingzhuang-tm_1.nif",
+      "source_sha256": "d3fc412ab0fe195a8b08aaa4fa8eca4ef6998e2edc72398b33157540266a10a0",
+      "size_bytes": 3998321,
+      "destination_relative": "meshes/td-mz/mingzhuang-tm_1.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 040 - mingzhuang-tm_11",
+      "plugins": [
+        "cj-mingzhuang.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\td-mz\\mingzhuang-tm_1.nif",
+        "sha256": "d3fc412ab0fe195a8b08aaa4fa8eca4ef6998e2edc72398b33157540266a10a0"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\td-mz\\mingzhuang-tm.tri",
+      "source_sha256": "8f2fd405dbb26504194fa473e5579e0f3c5545b415045735872d71a8ce0acc18",
+      "size_bytes": 7099965,
+      "destination_relative": "meshes/td-mz/mingzhuang-tm.tri",
+      "pack": "Anno",
+      "project": "Database Morph Anno 040 - mingzhuang-tm_11",
+      "plugins": [
+        "cj-mingzhuang.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\td-mz\\mingzhuang-tm.tri",
+        "sha256": "8f2fd405dbb26504194fa473e5579e0f3c5545b415045735872d71a8ce0acc18"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\td-mz\\mz-xiezi_0.nif",
+      "source_sha256": "c4ac3bad1178b6f23e5ced6691772b4ae0a8815c0efe2125050d029b99ecddf7",
+      "size_bytes": 910282,
+      "destination_relative": "meshes/td-mz/mz-xiezi_0.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 041 - mingzhuang-tm xiezi",
+      "plugins": [
+        "cj-mingzhuang.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\td-mz\\mz-xiezi_0.nif",
+        "sha256": "c4ac3bad1178b6f23e5ced6691772b4ae0a8815c0efe2125050d029b99ecddf7"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\td-mz\\mz-xiezi_1.nif",
+      "source_sha256": "ca60b1b489c0bb2cc2b21e2d8cb2d401ab4d09b81891116b26531fbd433036be",
+      "size_bytes": 910282,
+      "destination_relative": "meshes/td-mz/mz-xiezi_1.nif",
+      "pack": "Anno",
+      "project": "Database Morph Anno 041 - mingzhuang-tm xiezi",
+      "plugins": [
+        "cj-mingzhuang.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\td-mz\\mz-xiezi_1.nif",
+        "sha256": "ca60b1b489c0bb2cc2b21e2d8cb2d401ab4d09b81891116b26531fbd433036be"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\td-mz\\mz-xiezi.tri",
+      "source_sha256": "9db988743f23006cf572bc2e3c5a430c069c5428b12a41e2787e66efbe08803e",
+      "size_bytes": 47879,
+      "destination_relative": "meshes/td-mz/mz-xiezi.tri",
+      "pack": "Anno",
+      "project": "Database Morph Anno 041 - mingzhuang-tm xiezi",
+      "plugins": [
+        "cj-mingzhuang.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry\\meshes\\td-mz\\mz-xiezi.tri",
+        "sha256": "9db988743f23006cf572bc2e3c5a430c069c5428b12a41e2787e66efbe08803e"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\Burida\\meshes\\thebottomhoodofsteel\\fashionwitchset\\fw_boots_0.nif",
+      "source_sha256": "21ffeeca76700a749e62c93b5f495228323e96bb4c4b1c88c1a3e5c974f2c2dd",
+      "size_bytes": 355555,
+      "destination_relative": "meshes/thebottomhoodofsteel/fashionwitchset/fw_boots_0.nif",
+      "pack": "Burida",
+      "project": "Database Morph Burida 042 - [SE] Fashion Witch Boots (3BA)",
+      "plugins": [
+        "FashionWtich Set.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\Burida\\meshes\\thebottomhoodofsteel\\fashionwitchset\\fw_boots_0.nif",
+        "sha256": "21ffeeca76700a749e62c93b5f495228323e96bb4c4b1c88c1a3e5c974f2c2dd"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\Burida\\meshes\\thebottomhoodofsteel\\fashionwitchset\\fw_boots_1.nif",
+      "source_sha256": "026b4421c88ea1479257d71fb27d0a0496b9e5d42d2580caf0efe66821aeba35",
+      "size_bytes": 355555,
+      "destination_relative": "meshes/thebottomhoodofsteel/fashionwitchset/fw_boots_1.nif",
+      "pack": "Burida",
+      "project": "Database Morph Burida 042 - [SE] Fashion Witch Boots (3BA)",
+      "plugins": [
+        "FashionWtich Set.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\Burida\\meshes\\thebottomhoodofsteel\\fashionwitchset\\fw_boots_1.nif",
+        "sha256": "026b4421c88ea1479257d71fb27d0a0496b9e5d42d2580caf0efe66821aeba35"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\Burida\\meshes\\thebottomhoodofsteel\\fashionwitchset\\fw_boots.tri",
+      "source_sha256": "62157083b55af6c59903a913bede62030f01ae81d586b4097f03ae2ce796d434",
+      "size_bytes": 8122,
+      "destination_relative": "meshes/thebottomhoodofsteel/fashionwitchset/fw_boots.tri",
+      "pack": "Burida",
+      "project": "Database Morph Burida 042 - [SE] Fashion Witch Boots (3BA)",
+      "plugins": [
+        "FashionWtich Set.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\Burida\\meshes\\thebottomhoodofsteel\\fashionwitchset\\fw_boots.tri",
+        "sha256": "62157083b55af6c59903a913bede62030f01ae81d586b4097f03ae2ce796d434"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\Burida\\meshes\\thebottomhoodofsteel\\fashionwitchset\\fw_bracelet_0.nif",
+      "source_sha256": "557d8494e8437b5ec7adbc8ea4e0ae79df72d914ed12bc23f23830954b4dd73f",
+      "size_bytes": 33573,
+      "destination_relative": "meshes/thebottomhoodofsteel/fashionwitchset/fw_bracelet_0.nif",
+      "pack": "Burida",
+      "project": "Database Morph Burida 043 - [SE] Fashion Witch Bracelet (3BA)",
+      "plugins": [
+        "FashionWtich Set.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\Burida\\meshes\\thebottomhoodofsteel\\fashionwitchset\\fw_bracelet_0.nif",
+        "sha256": "557d8494e8437b5ec7adbc8ea4e0ae79df72d914ed12bc23f23830954b4dd73f"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\Burida\\meshes\\thebottomhoodofsteel\\fashionwitchset\\fw_bracelet_1.nif",
+      "source_sha256": "278fbc322316d5d74ea4ae375286a8df9947b4a521d6eedff4caa25061366fad",
+      "size_bytes": 33573,
+      "destination_relative": "meshes/thebottomhoodofsteel/fashionwitchset/fw_bracelet_1.nif",
+      "pack": "Burida",
+      "project": "Database Morph Burida 043 - [SE] Fashion Witch Bracelet (3BA)",
+      "plugins": [
+        "FashionWtich Set.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\Burida\\meshes\\thebottomhoodofsteel\\fashionwitchset\\fw_bracelet_1.nif",
+        "sha256": "278fbc322316d5d74ea4ae375286a8df9947b4a521d6eedff4caa25061366fad"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\Burida\\meshes\\thebottomhoodofsteel\\fashionwitchset\\fw_bracelet.tri",
+      "source_sha256": "68b31faff2f4a658bf512ef2569d8ffa1a02b51fb7d1dde1575fc2a05e1b4ed2",
+      "size_bytes": 7873,
+      "destination_relative": "meshes/thebottomhoodofsteel/fashionwitchset/fw_bracelet.tri",
+      "pack": "Burida",
+      "project": "Database Morph Burida 043 - [SE] Fashion Witch Bracelet (3BA)",
+      "plugins": [
+        "FashionWtich Set.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\Burida\\meshes\\thebottomhoodofsteel\\fashionwitchset\\fw_bracelet.tri",
+        "sha256": "68b31faff2f4a658bf512ef2569d8ffa1a02b51fb7d1dde1575fc2a05e1b4ed2"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\Burida\\meshes\\thebottomhoodofsteel\\fashionwitchset\\fw_braceletchain_0.nif",
+      "source_sha256": "ee855226c78b8148355cfb066c0b912633e7d0bd80567525c2b88daa34aee494",
+      "size_bytes": 254393,
+      "destination_relative": "meshes/thebottomhoodofsteel/fashionwitchset/fw_braceletchain_0.nif",
+      "pack": "Burida",
+      "project": "Database Morph Burida 044 - [SE] Fashion Witch Bracelet Chain (3BA)",
+      "plugins": [
+        "FashionWtich Set.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\Burida\\meshes\\thebottomhoodofsteel\\fashionwitchset\\fw_braceletchain_0.nif",
+        "sha256": "ee855226c78b8148355cfb066c0b912633e7d0bd80567525c2b88daa34aee494"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\Burida\\meshes\\thebottomhoodofsteel\\fashionwitchset\\fw_braceletchain_1.nif",
+      "source_sha256": "826cdc3f34290518e54568a9a9f1bf5cad3cab939717842c8671a916ee9f1e99",
+      "size_bytes": 254393,
+      "destination_relative": "meshes/thebottomhoodofsteel/fashionwitchset/fw_braceletchain_1.nif",
+      "pack": "Burida",
+      "project": "Database Morph Burida 044 - [SE] Fashion Witch Bracelet Chain (3BA)",
+      "plugins": [
+        "FashionWtich Set.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\Burida\\meshes\\thebottomhoodofsteel\\fashionwitchset\\fw_braceletchain_1.nif",
+        "sha256": "826cdc3f34290518e54568a9a9f1bf5cad3cab939717842c8671a916ee9f1e99"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\Burida\\meshes\\thebottomhoodofsteel\\fashionwitchset\\fw_braceletchain.tri",
+      "source_sha256": "8738405aa9f89703a56cd73aa4fbea103117cb18c4c85d46f8607ca5272a018d",
+      "size_bytes": 20924,
+      "destination_relative": "meshes/thebottomhoodofsteel/fashionwitchset/fw_braceletchain.tri",
+      "pack": "Burida",
+      "project": "Database Morph Burida 044 - [SE] Fashion Witch Bracelet Chain (3BA)",
+      "plugins": [
+        "FashionWtich Set.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\Burida\\meshes\\thebottomhoodofsteel\\fashionwitchset\\fw_braceletchain.tri",
+        "sha256": "8738405aa9f89703a56cd73aa4fbea103117cb18c4c85d46f8607ca5272a018d"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\Burida\\meshes\\thebottomhoodofsteel\\fashionwitchset\\fw_dress_0.nif",
+      "source_sha256": "11caaab81b45792d68496493670c51f3790505e38d228657ba173938f6b8c41b",
+      "size_bytes": 3805571,
+      "destination_relative": "meshes/thebottomhoodofsteel/fashionwitchset/fw_dress_0.nif",
+      "pack": "Burida",
+      "project": "Database Morph Burida 045 - [SE] Fashion Witch Dress (3BA)",
+      "plugins": [
+        "FashionWtich Set.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\Burida\\meshes\\thebottomhoodofsteel\\fashionwitchset\\fw_dress_0.nif",
+        "sha256": "11caaab81b45792d68496493670c51f3790505e38d228657ba173938f6b8c41b"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\Burida\\meshes\\thebottomhoodofsteel\\fashionwitchset\\fw_dress_1.nif",
+      "source_sha256": "3df045b8efc194ef73866bdfd4f6761518eaaf31f8571a31355085b620a3bfff",
+      "size_bytes": 3805571,
+      "destination_relative": "meshes/thebottomhoodofsteel/fashionwitchset/fw_dress_1.nif",
+      "pack": "Burida",
+      "project": "Database Morph Burida 045 - [SE] Fashion Witch Dress (3BA)",
+      "plugins": [
+        "FashionWtich Set.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\Burida\\meshes\\thebottomhoodofsteel\\fashionwitchset\\fw_dress_1.nif",
+        "sha256": "3df045b8efc194ef73866bdfd4f6761518eaaf31f8571a31355085b620a3bfff"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\Burida\\meshes\\thebottomhoodofsteel\\fashionwitchset\\fw_dress.tri",
+      "source_sha256": "2c4d10027bb5026d3d3193ec659000a2bd5b16ba13d617a86ba0f7fea8418514",
+      "size_bytes": 10050835,
+      "destination_relative": "meshes/thebottomhoodofsteel/fashionwitchset/fw_dress.tri",
+      "pack": "Burida",
+      "project": "Database Morph Burida 045 - [SE] Fashion Witch Dress (3BA)",
+      "plugins": [
+        "FashionWtich Set.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\Burida\\meshes\\thebottomhoodofsteel\\fashionwitchset\\fw_dress.tri",
+        "sha256": "2c4d10027bb5026d3d3193ec659000a2bd5b16ba13d617a86ba0f7fea8418514"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\Burida\\meshes\\thebottomhoodofsteel\\fashionwitchset\\fw_heels_0.nif",
+      "source_sha256": "e2d2d73999357471b1428dbedc3dea6b9107e381fd51cb5b275a55c5a43649f8",
+      "size_bytes": 1789527,
+      "destination_relative": "meshes/thebottomhoodofsteel/fashionwitchset/fw_heels_0.nif",
+      "pack": "Burida",
+      "project": "Database Morph Burida 046 - [SE] Fashion Witch Heels (3BA)",
+      "plugins": [
+        "FashionWtich Set.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\Burida\\meshes\\thebottomhoodofsteel\\fashionwitchset\\fw_heels_0.nif",
+        "sha256": "e2d2d73999357471b1428dbedc3dea6b9107e381fd51cb5b275a55c5a43649f8"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\Burida\\meshes\\thebottomhoodofsteel\\fashionwitchset\\fw_heels_1.nif",
+      "source_sha256": "87f2389e551cd8d727448ec8a33dc06d3faea069c82ac171e2d66e7ef4f6ca3d",
+      "size_bytes": 1789527,
+      "destination_relative": "meshes/thebottomhoodofsteel/fashionwitchset/fw_heels_1.nif",
+      "pack": "Burida",
+      "project": "Database Morph Burida 046 - [SE] Fashion Witch Heels (3BA)",
+      "plugins": [
+        "FashionWtich Set.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\Burida\\meshes\\thebottomhoodofsteel\\fashionwitchset\\fw_heels_1.nif",
+        "sha256": "87f2389e551cd8d727448ec8a33dc06d3faea069c82ac171e2d66e7ef4f6ca3d"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\Burida\\meshes\\thebottomhoodofsteel\\fashionwitchset\\fw_heels.tri",
+      "source_sha256": "da6d47d2b113c7800b212d1d2cb8f8b3f613dff1470ef230d115f74f7bfb2fd2",
+      "size_bytes": 35522,
+      "destination_relative": "meshes/thebottomhoodofsteel/fashionwitchset/fw_heels.tri",
+      "pack": "Burida",
+      "project": "Database Morph Burida 046 - [SE] Fashion Witch Heels (3BA)",
+      "plugins": [
+        "FashionWtich Set.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\Burida\\meshes\\thebottomhoodofsteel\\fashionwitchset\\fw_heels.tri",
+        "sha256": "da6d47d2b113c7800b212d1d2cb8f8b3f613dff1470ef230d115f74f7bfb2fd2"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\Burida\\meshes\\thebottomhoodofsteel\\fashionwitchset\\fw_nail_0.nif",
+      "source_sha256": "597ac4813a45d5c392199eb12421af0398c6d851a7cf6e1376ff31785696c173",
+      "size_bytes": 887337,
+      "destination_relative": "meshes/thebottomhoodofsteel/fashionwitchset/fw_nail_0.nif",
+      "pack": "Burida",
+      "project": "Database Morph Burida 047 - [SE] Fashion Witch Nails (3BA)",
+      "plugins": [
+        "FashionWtich Set.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\Burida\\meshes\\thebottomhoodofsteel\\fashionwitchset\\fw_nail_0.nif",
+        "sha256": "597ac4813a45d5c392199eb12421af0398c6d851a7cf6e1376ff31785696c173"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\Burida\\meshes\\thebottomhoodofsteel\\fashionwitchset\\fw_nail_1.nif",
+      "source_sha256": "d5ad9f1c5de059e385e03a9f62ee1cfd7d18400a7afb2f5afb0627fc8a41e112",
+      "size_bytes": 887337,
+      "destination_relative": "meshes/thebottomhoodofsteel/fashionwitchset/fw_nail_1.nif",
+      "pack": "Burida",
+      "project": "Database Morph Burida 047 - [SE] Fashion Witch Nails (3BA)",
+      "plugins": [
+        "FashionWtich Set.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\Burida\\meshes\\thebottomhoodofsteel\\fashionwitchset\\fw_nail_1.nif",
+        "sha256": "d5ad9f1c5de059e385e03a9f62ee1cfd7d18400a7afb2f5afb0627fc8a41e112"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "bodyslide_generated",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\Burida\\meshes\\thebottomhoodofsteel\\fashionwitchset\\fw_nail.tri",
+      "source_sha256": "a335be4be9d982f847c7d2e198d73a71a2c42e307ec3aea7ece0fa10739af26b",
+      "size_bytes": 7380,
+      "destination_relative": "meshes/thebottomhoodofsteel/fashionwitchset/fw_nail.tri",
+      "pack": "Burida",
+      "project": "Database Morph Burida 047 - [SE] Fashion Witch Nails (3BA)",
+      "plugins": [
+        "FashionWtich Set.esp"
+      ],
+      "generated_original": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\Burida\\meshes\\thebottomhoodofsteel\\fashionwitchset\\fw_nail.tri",
+        "sha256": "a335be4be9d982f847c7d2e198d73a71a2c42e307ec3aea7ece0fa10739af26b"
+      },
+      "candidate_override": false,
+      "override_evidence": null
+    },
+    {
+      "category": "effect_shader_texture",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\mods\\CAENARVON衣服整合\\Textures\\Caenarvon\\Eula\\Sword\\fx\\snowflakes.dds",
+      "source_sha256": "446cf37cd05e9fe42a64b05e2e880f5e9b976dc5d23949ec36d0b326d933e984",
+      "size_bytes": 87536,
+      "destination_relative": "textures/caenarvon/eula/sword/fx/snowflakes.dds",
+      "source_mod_id": 2002,
+      "source_mod_name": "CAENARVON衣服整合",
+      "required_by": {
+        "path": "meshes/caenarvon/eula/fx/frostgreatsword.nif",
+        "field": "BSEffectShaderProperty Source Texture"
+      }
+    },
+    {
+      "category": "author_patch_display_model",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\supplemental_import\\author_patch_assets\\meshes\\dbm resources\\immaculatearmordisp.nif",
+      "source_sha256": "7f4d2ede4b5a36f6037631e4570eee6da88c1d9d624623e1d1c0c875f78ccdc5",
+      "size_bytes": 262494,
+      "destination_relative": "meshes/dbm resources/immaculatearmordisp.nif",
+      "author_extraction": {
+        "archive_path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\龙裔艺术馆补丁-Legacy of the Dragonborn Patches (Official)\\DBM_ForgottenCity_Patch.bsa",
+        "archive_sha256": "fbf7b13547457860533a8ffbe03476adf054dddc64a67ab9595db6fe0c351cbe",
+        "member": "meshes/dbm resources/immaculatearmordisp.nif",
+        "member_sha256": "7f4d2ede4b5a36f6037631e4570eee6da88c1d9d624623e1d1c0c875f78ccdc5",
+        "archive_id": 94,
+        "source_mod_id": 1666
+      },
+      "requested_by": [
+        {
+          "plugin": "DBM_ForgottenCity_Patch.esp",
+          "record": "dbm_forgottencity_patch.esp|000834",
+          "field": "MODL"
+        }
+      ]
+    },
+    {
+      "category": "author_patch_display_model",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\supplemental_import\\author_patch_assets\\meshes\\dbm resources\\arbiterhelmdisp.nif",
+      "source_sha256": "b442685704cda508e5eb206b832ac43a274a6f1562a3449229321e0734e8a395",
+      "size_bytes": 39158,
+      "destination_relative": "meshes/dbm resources/arbiterhelmdisp.nif",
+      "author_extraction": {
+        "archive_path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\龙裔艺术馆补丁-Legacy of the Dragonborn Patches (Official)\\DBM_ForgottenCity_Patch.bsa",
+        "archive_sha256": "fbf7b13547457860533a8ffbe03476adf054dddc64a67ab9595db6fe0c351cbe",
+        "member": "meshes/dbm resources/arbiterhelmdisp.nif",
+        "member_sha256": "b442685704cda508e5eb206b832ac43a274a6f1562a3449229321e0734e8a395",
+        "archive_id": 94,
+        "source_mod_id": 1666
+      },
+      "requested_by": [
+        {
+          "plugin": "DBM_ForgottenCity_Patch.esp",
+          "record": "dbm_forgottencity_patch.esp|000835",
+          "field": "MODL"
+        }
+      ]
+    },
+    {
+      "category": "author_patch_display_model",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\supplemental_import\\author_patch_assets\\meshes\\dbm resources\\tongueammystat.nif",
+      "source_sha256": "ad79a307b20255099c10070a235642d4af55ae8615859b4d59c80230921a6e2f",
+      "size_bytes": 15474,
+      "destination_relative": "meshes/dbm resources/tongueammystat.nif",
+      "author_extraction": {
+        "archive_path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\龙裔艺术馆补丁-Legacy of the Dragonborn Patches (Official)\\DBM_ForgottenCity_Patch.bsa",
+        "archive_sha256": "fbf7b13547457860533a8ffbe03476adf054dddc64a67ab9595db6fe0c351cbe",
+        "member": "meshes/dbm resources/tongueammystat.nif",
+        "member_sha256": "ad79a307b20255099c10070a235642d4af55ae8615859b4d59c80230921a6e2f",
+        "archive_id": 94,
+        "source_mod_id": 1666
+      },
+      "requested_by": [
+        {
+          "plugin": "DBM_ForgottenCity_Patch.esp",
+          "record": "dbm_forgottencity_patch.esp|000836",
+          "field": "MODL"
+        }
+      ]
+    },
+    {
+      "category": "generated_own_sge_sequence",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\supplemental_import\\generated_sequence\\seq\\dbm_wyrmstooth_patch.seq",
+      "source_sha256": "4e756a730eb423e885dddc2a9fc5c0806ecc4762a990ef0e2639857f3d2d664f",
+      "size_bytes": 4,
+      "destination_relative": "seq/dbm_wyrmstooth_patch.seq",
+      "defining_plugin": "DBM_Wyrmstooth_Patch.esp",
+      "defining_plugin_source": {
+        "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\龙裔艺术馆补丁-Legacy of the Dragonborn Patches (Official)\\DBM_Wyrmstooth_Patch.esp",
+        "sha256": "8609205dfb8f93d691db32be4743bfdd9dc1c5dffa769e5a708deba1f3f146fb"
+      },
+      "raw_fixed_formids": [
+        "08000883"
+      ],
+      "bytes_hex": "83080008",
+      "algorithm": "Little-endian uint32 FixedFormID of every nondeleted own QUST with DNAM Start Game Enabled bit; no runtime load-order IDs."
+    },
+    {
+      "category": "generated_own_sge_sequence",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\supplemental_import\\generated_sequence\\seq\\lotd_tcc_wyrmstooth.seq",
+      "source_sha256": "3ec77fd3e3eaa5ede0af1b397b52ba02c81e2569d8c781d86b3e7b92a4718178",
+      "size_bytes": 4,
+      "destination_relative": "seq/lotd_tcc_wyrmstooth.seq",
+      "defining_plugin": "LOTD_TCC_Wyrmstooth.esp",
+      "defining_plugin_source": {
+        "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\Legacy of the Dragonborn - The Curators Companion\\LOTD_TCC_Wyrmstooth.esp",
+        "sha256": "34cbdea2bf5d54f1a7afb0d8f897261a6d3f32ef2a40468c8f5d93e74a9a89fd"
+      },
+      "raw_fixed_formids": [
+        "09000802"
+      ],
+      "bytes_hex": "02080009",
+      "algorithm": "Little-endian uint32 FixedFormID of every nondeleted own QUST with DNAM Start Game Enabled bit; no runtime load-order IDs."
+    },
+    {
+      "category": "generated_own_sge_sequence",
+      "source_kind": "loose",
+      "source_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\supplemental_import\\generated_sequence\\seq\\dbm_forgottencity_patch.seq",
+      "source_sha256": "e83e5264e219d27fafb8978d4c30e51d9375fd73bb83b8d036a744fec49a2505",
+      "size_bytes": 4,
+      "destination_relative": "seq/dbm_forgottencity_patch.seq",
+      "defining_plugin": "DBM_ForgottenCity_Patch.esp",
+      "defining_plugin_source": {
+        "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\龙裔艺术馆补丁-Legacy of the Dragonborn Patches (Official)\\DBM_ForgottenCity_Patch.esp",
+        "sha256": "537f1e02d106184efc54dae3bbaf14214f846f6c855d0ae5fd6b6c79b4dcf123"
+      },
+      "raw_fixed_formids": [
+        "07000803"
+      ],
+      "bytes_hex": "03080007",
+      "algorithm": "Little-endian uint32 FixedFormID of every nondeleted own QUST with DNAM Start Game Enabled bit; no runtime load-order IDs."
+    }
+  ],
+  "counts": {
+    "projects": 47,
+    "body_outputs": 141,
+    "body_nif": 94,
+    "body_tri": 47,
+    "candidate_overrides": 2,
+    "original_dds": 1,
+    "original_patch_nif": 3,
+    "generated_seq": 3,
+    "effective_import_files": 148
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "schema": "skyrim.bounded_navi_orphan_lookup_fix.v3",
+  "utc": "2026-10-31T14:30:13.809242+00:00",
+  "revision": 5,
+  "status": "AUTHORING_V5_COMPLETE_SUBTREE_DUMP_EXACT_SCALAR_UNION_NATIVE_EXECUTION_PENDING",
+  "previous_manifest": {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\navi_unresolved_audit\\stock_orphan_lookup_fix_manifest_v4.json",
+    "sha256": "11695cf675566fce2508573a43b6ecf293b0e551395cf5e04a087f16775d6735"
+  },
+  "files": [
+    {
+      "before": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\forgotten_city_navigation\\DatabaseForgottenCityNavigationDraft.pas",
+        "sha256": "a2835466abd66053be6220053f7f08ccbc4709630aa2cb478e7e7ec10402a71a"
+      },
+      "frozen_before": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\navi_unresolved_audit\\frozen\\stock_orphan_v4_before_v5\\DatabaseForgottenCityNavigationDraft.pas.frozen.txt",
+        "sha256": "a2835466abd66053be6220053f7f08ccbc4709630aa2cb478e7e7ec10402a71a"
+      },
+      "after": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\forgotten_city_navigation\\DatabaseForgottenCityNavigationDraft.pas",
+        "sha256": "2378e4dd35cdf07be2a0a52f87277a58c00c5f85384b5b52e34d8d3f6b695f88"
+      }
+    },
+    {
+      "before": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\forgotten_city_navigation\\DatabaseVerifyForgottenCityNavigationDraft.pas",
+        "sha256": "ff8e72166d5dc0b50aa4290a29fde0eb1bff50bb62f18224ed781f79fa0bbf04"
+      },
+      "frozen_before": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\navi_unresolved_audit\\frozen\\stock_orphan_v4_before_v5\\DatabaseVerifyForgottenCityNavigationDraft.pas.frozen.txt",
+        "sha256": "ff8e72166d5dc0b50aa4290a29fde0eb1bff50bb62f18224ed781f79fa0bbf04"
+      },
+      "after": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\forgotten_city_navigation\\DatabaseVerifyForgottenCityNavigationDraft.pas",
+        "sha256": "67c983c4c50896a3370fa428be725115edf12d2424eef1d1f98ec81ad3750f24"
+      }
+    },
+    {
+      "before": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\glen_region_navigation\\DatabaseGlenmorilNavigationDraft.pas",
+        "sha256": "eb437a99de85bb88a9f36268d2d29beb4bba0733037bd22dc8cb21f976191389"
+      },
+      "frozen_before": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\navi_unresolved_audit\\frozen\\stock_orphan_v4_before_v5\\DatabaseGlenmorilNavigationDraft.pas.frozen.txt",
+        "sha256": "eb437a99de85bb88a9f36268d2d29beb4bba0733037bd22dc8cb21f976191389"
+      },
+      "after": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\glen_region_navigation\\DatabaseGlenmorilNavigationDraft.pas",
+        "sha256": "65dc250df1c1f4086bcebadea005649c976f26622bd8578be246387ceee993d1"
+      }
+    },
+    {
+      "before": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\glen_region_navigation\\DatabaseVerifyGlenmorilNavigationDraft.pas",
+        "sha256": "887610069ba094825c352cffc878cc7e81861326dbf7a719b1d80648a4a7ffc1"
+      },
+      "frozen_before": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\navi_unresolved_audit\\frozen\\stock_orphan_v4_before_v5\\DatabaseVerifyGlenmorilNavigationDraft.pas.frozen.txt",
+        "sha256": "887610069ba094825c352cffc878cc7e81861326dbf7a719b1d80648a4a7ffc1"
+      },
+      "after": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\glen_region_navigation\\DatabaseVerifyGlenmorilNavigationDraft.pas",
+        "sha256": "05a1b7b72b12e4b89d6db43cdecaa45406bab572115f0cc904c6ad9a1adb6827"
+      }
+    }
+  ],
+  "patcher": {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\navi_unresolved_audit\\apply_stock_orphan_union_v5.py",
+    "sha256": "2c948dba3ff2f8800685ce67595f621b1097f036f8b9ec5259b8e570b078f06e"
+  },
+  "diff": {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\navi_unresolved_audit\\stock_orphan_union_v5.diff",
+    "sha256": "db85c14446592b99803b86f176075eb5f1cb93892a141da7c929381ea5c593d1"
+  },
+  "v4_actual_single_witness": {
+    "log": {
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\validation\\fc_navigation_v4\\logs\\xedit.log",
+      "sha256": "7b4b578607560c7f0bf99d127423adc52ad6f5346908818d77cc70149f4875b9"
+    },
+    "rows": [
+      "NAVMI_ORPHAN_FLOAT_SINGLE|X|actualLE=A0FD53C5|literalLE=A0FD53C5|expectedLE=A0FD53C5 | record=skyrim.esm|012FB4 path= \\ [00] Skyrim.esm \\ [52] GRUP Top \"NAVI\" \\ [0] [NAVI:00012FB4] \\ [2] Navmesh Infos \\ [657] NVMI - Navmesh Info \\ [2] X actualNative=-3391.8515624364 edit=-3391.851562 nativeVarType=5 definition=14 element=9 expected=A0FD53C5 literal=-3391.8515625 literalVarType=5",
+      "NAVMI_ORPHAN_FLOAT_SINGLE|Y|actualLE=25E18E43|literalLE=25E18E43|expectedLE=25E18E43 | record=skyrim.esm|012FB4 path= \\ [00] Skyrim.esm \\ [52] GRUP Top \"NAVI\" \\ [0] [NAVI:00012FB4] \\ [2] Navmesh Infos \\ [657] NVMI - Navmesh Info \\ [3] Y actualNative=285.758941278528 edit=285.758941 nativeVarType=5 definition=14 element=9 expected=25E18E43 literal=285.758941650391 literalVarType=5",
+      "NAVMI_ORPHAN_FLOAT_SINGLE|Z|actualLE=4E176F43|literalLE=4E176F43|expectedLE=4E176F43 | record=skyrim.esm|012FB4 path= \\ [00] Skyrim.esm \\ [52] GRUP Top \"NAVI\" \\ [0] [NAVI:00012FB4] \\ [2] Navmesh Infos \\ [657] NVMI - Navmesh Info \\ [4] Z actualNative=239.091034396353 edit=239.091034 nativeVarType=5 definition=14 element=9 expected=4E176F43 literal=239.091033935547 literalVarType=5"
+    ],
+    "result": "All3 actual native and literal VarType5; their Double values differ, but WriteSingle produces exact original4bytes. No Jv literal type coercion is inferred."
+  },
+  "source_semantics": [
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_conflicts\\source_4_1_5f\\wbDefinitionsTES5.pas",
+      "lines": [
+        1922,
+        1945,
+        8215,
+        8220
+      ],
+      "fact": "Null Parent Worldspace resolves Parent union to scalar CELL FormID.",
+      "sha256": "c0682fa93939993bd959956c2c53a3a1a0564c09cb3ba9b83a8e6a378ffb7986"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_conflicts\\source_4_1_5f\\wbImplementation.pas",
+      "lines": [
+        21595,
+        21631
+      ],
+      "fact": "UnionDoInit creates no child element for a scalar resolved definition; it delegates to ValueDoInit.",
+      "sha256": "d277fed128abb14c060fd8a6a30407b81ee05b3f3d4ebfe83881b2931d3694f3"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_conflicts\\source_4_1_5f\\wbInterface.pas",
+      "lines": [
+        20117,
+        20126,
+        20330,
+        20336
+      ],
+      "fact": "Resolved union directly delegates LinksTo and NativeValue to its selected scalar definition.",
+      "sha256": "d4fc435ff634cdbd30fc7f191e81c0c13974e0a08fb0dd29d134ad2bfe0feb7c"
+    }
+  ],
+  "diagnostic_scope": "First matching original source orphan only, before12field guards, recursive bounded full subtree; Name/BaseName/DefType/ElementType/count/VarType/native/edit/canonicalLinks/record/path for every node.",
+  "unchanged_guards": [
+    "All12 exact typed NVMI fields still reconstruct original49bytes; 3 strict Single byte checks unchanged.",
+    "Source SkyrimSHA+actualVFSCRC, NAVI/key/owner guard, rawvalue028E34 and now resolved canonical CELL target, all other nil/duplicate/target guards remain strict.",
+    "No0-or1 union fallback: require exact dtUnion etUnion zero-child scalar layout from pinned source.",
+    "Full nontarget binary/typed NAVI preservation and Check diagnostics remain mandatory."
+  ],
+  "limits": [
+    "v4 dispatched PAS/log/result untouched; only four research authoring files changed.",
+    "No runtime/profile/plugin or rev9 edit; native v5 execution still required."
+  ]
+}

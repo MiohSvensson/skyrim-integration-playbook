@@ -1,0 +1,30 @@
+{
+  "status": "ALL_3741_SCHEMA_IDENTITY_PROVEN_SIX_SOURCE_NUMERIC_LIMITATIONS_REQUIRE_DECISION",
+  "frozen_module_sha256": "dc6c4d668395e7c59c61f53720f0fc6e71fdbad52432c2bb75902e126873b7b1",
+  "original_frozen_delivery_and_all_files_unchanged": true,
+  "all_work_output_directory": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\lighting_schema\\full_source_preflight",
+  "files": {
+    "audit_diagnostics.py": "3f4b852f98bca680b24b8acf57bc0da5bf0fd5c9edd89233ff7135a90be05fe3",
+    "BSBlastNode_cases.json": "5dbe1fc006a0198bac7b756042adc038aee36b3e6b65025ee3bf4432081fe279",
+    "diagnostics.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+    "entries.jsonl": "9ed3b71f0d5419ef51fd525f193d12d93dce41485d20e5c5b1dde074dfa38234",
+    "excluded.json": "f8cded46fbfd158828417a64e7e77b1ee99a9be8b2441599147f0c9855e6664b",
+    "failures.json": "bf34256cdde1858f62ef76c6fe1800d5025c9925c9ee115b23c5f63cc7f86291",
+    "failures_strict.json": "bf34256cdde1858f62ef76c6fe1800d5025c9925c9ee115b23c5f63cc7f86291",
+    "final_source_review.json": "28f48e7445f2fa61158b8a9d04e6f24af33d1f2af714ef77a5af56a6a04cac87",
+    "investigate_nonfinite.py": "23cd864a3d2a6bc3030b31aa7f19430cb2682bf14444881cbbe4af351fbc0ac2",
+    "new_numeric_exclusion_candidates.json": "d36af201597c91d4c4810ee713248fd17189871c6ad6b02d25ba943e04fef5f5",
+    "postprocess_source_review.py": "d7213fdffacc7b1fd986f46000a9cd21d81e8024d944e6fab8431e37a3ae09c8",
+    "progress.json": "da07784896e2d16c6d421a8755c3e73a7e76290e7321f3a50870d4ddf8d28350",
+    "README.md": "2af99f2293174fc11dc02ca5938570f410888cc6166509a30521a58bcbe9a226",
+    "run_preflight.py": "6f050770d764c681d7c84b9051efd536372ae3609aa454be43e4dacd62f5a42c",
+    "shared_pointer_path_representation.json": "5954523cfba5502a95bc5b9065e3c5fb77430923e7534f9bef7a06dbf9d55794",
+    "source_descriptor_special_flags.json": "b45d0c800a981579336c082e4dbda83ea2bbbfbab7bf28fbc8a97a5f659b4688",
+    "source_lighting_nonfinite.json": "532eaa6dc1b24273a927aa09a79a9a2cc47f7a79e4b7df675eb9d590aa79f5a9",
+    "source_numeric_summary.json": "d91b87ba1d721b6ce607bce6993c4deed42fb1d951813dda198838356989aee0",
+    "summary.json": "4b2e080f3beeea5de8a25ed5ed1b57a6c6cc46e9930e97602cc87041abc3fc86",
+    "summary_strict.json": "67690399a6034c4258333cf6d451d9f875b94adb2af4c8e634fb4de3dc8fb279"
+  },
+  "runtime_or_profile_changed": false,
+  "native_GUI_game_MO2_PG_used": false
+}

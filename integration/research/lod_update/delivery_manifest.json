@@ -1,0 +1,63 @@
+{
+  "status": "EXECUTION_PACKAGE_PREPARED_NOT_LAUNCHED_BY_RESEARCH_AGENT",
+  "revision": 2,
+  "previous_delivery_manifest_sha256": "8e952f6c2542c0e0d1c9d9faace62e3eebb0129e53c34dafc928362e2c99ce0e",
+  "files": [
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\lod_update\\runtime_common.py",
+      "sha256": "3b81b7ce423f843d855afcc4732d37d76fae6b2e34db44ef65e3dec93a92364e"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\lod_update\\prepare_smoke.py",
+      "sha256": "d10f1177c4e699bc386423bc0354c735ec65aca9d886ca6afa96d3915437258d"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\lod_update\\faster_ngio_child.py",
+      "sha256": "c3c40e994f8bf304341431fa6e91bb5ff712cd3983f6617cf1145f1a1fde8f38"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\lod_update\\stage_private_tools.py",
+      "sha256": "b8224d36d3b35c0d0e955f21c7b30dc8302faf352ae0bac75dc7b78e923ca9ff"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\lod_update\\prepare_lod_batch.py",
+      "sha256": "bdd67c9d671409506e4ba43704aee2648a887352ab1c82fb0c06ffdd6867fbe4"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\lod_update\\lod_tool_child.py",
+      "sha256": "19d99a73a9bb8963dd8a5d0c0fc1f7449258164fc9ddfac04535e2c3419e373d"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\lod_update\\README.md",
+      "sha256": "6fe8430f39884a65fdef74f73cf1c0c3a8d999fea54773ed16af3451d9ff1068"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\lod_update\\smoke_manifest.json",
+      "sha256": "c319e1827485b6f02e389f06bfb95051ddea8013fe82a39cd33672a6daf42820"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\lod_update\\tool_staging_manifest.json",
+      "sha256": "e2930be5def9521999041d638d971188d42c2e08be10f3127b03d15b34bcf65f"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\lod_update\\obsolete_private_exports_moved.json",
+      "sha256": "abe3ab721e6e47231844e54ce4f33406f91059ac1a0f61cb2cf2a18c0341dae8"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\lod_update\\source_evidence\\tesworld_manifest.json",
+      "sha256": "fe765ab9f5cb816c56cb00ada6094a374910822215a0ed85ecbb2dc8387beef0"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\lod_update\\batches\\terrain_wyrm_preview_001\\batch_manifest.json",
+      "sha256": "6bfcff534fb4670795d6d45d0874a7846eba69884f520f4275699a8e71409995",
+      "current_executable": false,
+      "disposition": "Legacy pre-isolation schema and stale profile; preserve as evidence only and prepare a fresh batch"
+    }
+  ],
+  "batch_tool_isolation": "Each new batch owns its complete pinned DynDOLOD/xLODGen copy and preset. Prelaunch verification requires the exact file set, SHA and nlink; shared staging presets are not modified.",
+  "batch_isolation_validation": "Real preparer created 1053-file DynDOLOD batch; preflight passed, modified preset and extra file were rejected, shared staging SHA stayed 3f18bca8e14192ec4e4218c5327d64f3020eb45af2dfb9a75ca93bd6a1ff98c8. Temporary batch removed after verification; no GUI launched.",
+  "parent_actual_smoke001": "Precheck Path.is_file VFS compatibility failure; generator not started; preserved result",
+  "CPU_child_revision": "v2 CreateFileW/FileID + long-path SHA; parent may run next",
+  "GUI_started_by_research_agent": false,
+  "game_started": false
+}

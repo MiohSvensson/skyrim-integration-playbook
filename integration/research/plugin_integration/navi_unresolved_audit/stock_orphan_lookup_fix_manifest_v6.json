@@ -1,0 +1,89 @@
+{
+  "schema": "skyrim.bounded_navi_orphan_lookup_fix.v4",
+  "revision": 6,
+  "utc": "2026-10-31T14:43:53.698773+00:00",
+  "status": "AUTHORING_V6_EXACT_SOURCE_NIL_PARENT_NATIVE_EXECUTION_PENDING",
+  "previous_manifest": {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\navi_unresolved_audit\\stock_orphan_lookup_fix_manifest_v5.json",
+    "sha256": "3f8ef581b5335f34f65565d305ed8eb5b00bed3131ae26d30c294d5d2ad587d1"
+  },
+  "complete_parent_absence_and_native_guard_audit": {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\navi_unresolved_audit\\stock_orphan_parent_absence_v6.json",
+    "sha256": "8e13090dfd2ea83aa957d4739f3d8b7e7572dc5e9e40cc0b47d084c1b3eaa090"
+  },
+  "files": [
+    {
+      "before": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\forgotten_city_navigation\\DatabaseForgottenCityNavigationDraft.pas",
+        "sha256": "2378e4dd35cdf07be2a0a52f87277a58c00c5f85384b5b52e34d8d3f6b695f88"
+      },
+      "frozen_before": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\navi_unresolved_audit\\frozen\\stock_orphan_v5_before_v6\\DatabaseForgottenCityNavigationDraft.pas.frozen.txt",
+        "sha256": "2378e4dd35cdf07be2a0a52f87277a58c00c5f85384b5b52e34d8d3f6b695f88"
+      },
+      "after": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\forgotten_city_navigation\\DatabaseForgottenCityNavigationDraft.pas",
+        "sha256": "8a41dc099384cfaab67d71873527120593dad34eba5189248d228835bbdcae1c"
+      }
+    },
+    {
+      "before": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\forgotten_city_navigation\\DatabaseVerifyForgottenCityNavigationDraft.pas",
+        "sha256": "67c983c4c50896a3370fa428be725115edf12d2424eef1d1f98ec81ad3750f24"
+      },
+      "frozen_before": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\navi_unresolved_audit\\frozen\\stock_orphan_v5_before_v6\\DatabaseVerifyForgottenCityNavigationDraft.pas.frozen.txt",
+        "sha256": "67c983c4c50896a3370fa428be725115edf12d2424eef1d1f98ec81ad3750f24"
+      },
+      "after": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\forgotten_city_navigation\\DatabaseVerifyForgottenCityNavigationDraft.pas",
+        "sha256": "bbfb3070b1e27be29e6571099bc7d7bccb6a9a6ad8a37621c76caa6d182e6350"
+      }
+    },
+    {
+      "before": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\glen_region_navigation\\DatabaseGlenmorilNavigationDraft.pas",
+        "sha256": "65dc250df1c1f4086bcebadea005649c976f26622bd8578be246387ceee993d1"
+      },
+      "frozen_before": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\navi_unresolved_audit\\frozen\\stock_orphan_v5_before_v6\\DatabaseGlenmorilNavigationDraft.pas.frozen.txt",
+        "sha256": "65dc250df1c1f4086bcebadea005649c976f26622bd8578be246387ceee993d1"
+      },
+      "after": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\glen_region_navigation\\DatabaseGlenmorilNavigationDraft.pas",
+        "sha256": "c8599ebaec0d7078371e3a390a1ea9a7aec8395431f7dd834f10cbce98008223"
+      }
+    },
+    {
+      "before": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\glen_region_navigation\\DatabaseVerifyGlenmorilNavigationDraft.pas",
+        "sha256": "05a1b7b72b12e4b89d6db43cdecaa45406bab572115f0cc904c6ad9a1adb6827"
+      },
+      "frozen_before": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\navi_unresolved_audit\\frozen\\stock_orphan_v5_before_v6\\DatabaseVerifyGlenmorilNavigationDraft.pas.frozen.txt",
+        "sha256": "05a1b7b72b12e4b89d6db43cdecaa45406bab572115f0cc904c6ad9a1adb6827"
+      },
+      "after": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\glen_region_navigation\\DatabaseVerifyGlenmorilNavigationDraft.pas",
+        "sha256": "693e64b10799e5b3ec6533dd85b93bd72b11af449936078dbb41a9cf6c48ba6b"
+      }
+    }
+  ],
+  "diff": {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\navi_unresolved_audit\\stock_orphan_parent_absence_v6.diff",
+    "sha256": "b93488606a04efb53fe13ad888bc10015eeed06a79dfd3146f159b54147ba0de"
+  },
+  "patcher": {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\navi_unresolved_audit\\apply_stock_orphan_parent_absence_v6.py",
+    "sha256": "26f5cb0dd595e4ac570793de015cd336e22c23084dc3379f3e40305b37138f3c"
+  },
+  "changes": [
+    "Exact raw parent00028E34 remains dtUnion/etUnion/zero-child scalar, but must have nilLinksTo as independently proved across every active record signature.",
+    "No placeholder CELL/NAVM, source changes, new missing-key categories, or broad nil skips. Sole original source NVMI key028E37 stays a lookup/classification-only allowance.",
+    "Full12field/49byte reconstruction, original stockSHA/actualVFSCRC, complete first-call16node diagnostics, all3 strict Single-byte witnesses, duplicate/target checks and full nontarget NAVI binary/typed preservation retained."
+  ],
+  "limits": [
+    "Native v6 run, independent candidate binary check and fresh installed typed reload still mandatory.",
+    "No runtime/profile/dispatchedv5/rev9 change."
+  ]
+}

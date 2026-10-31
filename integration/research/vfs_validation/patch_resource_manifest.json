@@ -1,0 +1,3401 @@
+{
+  "status": "FAIL",
+  "plugins": [
+    {
+      "name": "DBM_Wyrmstooth_Patch.esp",
+      "source_path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\龙裔艺术馆补丁-Legacy of the Dragonborn Patches (Official)\\DBM_Wyrmstooth_Patch.esp",
+      "source_mod_id": 1666,
+      "sha256": "8609205dfb8f93d691db32be4743bfdd9dc1c5dffa769e5a708deba1f3f146fb",
+      "masters": [
+        "Skyrim.esm",
+        "Update.esm",
+        "Dawnguard.esm",
+        "HearthFires.esm",
+        "Dragonborn.esm",
+        "_ResourcePack.esl",
+        "LegacyoftheDragonborn.esm",
+        "Wyrmstooth.esp"
+      ],
+      "flags": 512,
+      "version": 1.7100000381469727,
+      "is_light": true,
+      "own_sge_quests": [
+        "dbm_wyrmstooth_patch.esp|000883"
+      ]
+    },
+    {
+      "name": "LOTD_TCC_Wyrmstooth.esp",
+      "source_path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\Legacy of the Dragonborn - The Curators Companion\\LOTD_TCC_Wyrmstooth.esp",
+      "source_mod_id": 80,
+      "sha256": "34cbdea2bf5d54f1a7afb0d8f897261a6d3f32ef2a40468c8f5d93e74a9a89fd",
+      "masters": [
+        "Skyrim.esm",
+        "Update.esm",
+        "Dawnguard.esm",
+        "HearthFires.esm",
+        "Dragonborn.esm",
+        "LegacyoftheDragonborn.esm",
+        "Wyrmstooth.esp",
+        "DBM_Wyrmstooth_Patch.esp",
+        "DBM_RelicNotifications.esp"
+      ],
+      "flags": 512,
+      "version": 1.7000000476837158,
+      "is_light": true,
+      "own_sge_quests": [
+        "lotd_tcc_wyrmstooth.esp|000802"
+      ]
+    },
+    {
+      "name": "DBM_ForgottenCity_Patch.esp",
+      "source_path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\龙裔艺术馆补丁-Legacy of the Dragonborn Patches (Official)\\DBM_ForgottenCity_Patch.esp",
+      "source_mod_id": 1666,
+      "sha256": "537f1e02d106184efc54dae3bbaf14214f846f6c855d0ae5fd6b6c79b4dcf123",
+      "masters": [
+        "Skyrim.esm",
+        "Update.esm",
+        "Dawnguard.esm",
+        "HearthFires.esm",
+        "Dragonborn.esm",
+        "LegacyoftheDragonborn.esm",
+        "ForgottenCity.esp"
+      ],
+      "flags": 512,
+      "version": 1.7000000476837158,
+      "is_light": true,
+      "own_sge_quests": [
+        "dbm_forgottencity_patch.esp|000803"
+      ]
+    }
+  ],
+  "resource_count": 92,
+  "direct_seed_count": 29,
+  "counts": {
+    "inherit_base": 71,
+    "inherit_standalone_feature_or_stage_if_absent": 17,
+    "stage_exact_source_resource": 4
+  },
+  "resources": [
+    {
+      "path_key": "scripts/dbmdisplayscript.pex",
+      "decision": "inherit_base",
+      "selected_source": {
+        "kind": "bsa",
+        "archive": "LegacyoftheDragonborn0.bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6269 [LED]Legacy of the Dragonborn v6.10.0\\LegacyoftheDragonborn0.bsa",
+        "archive_sha256": "da3cd228880fc7f8fe2ad2be3f79e79e3095cb58a0f624f66ac902765dfbfbc0",
+        "metadata_archive_id": 101,
+        "entry": "scripts/dbmdisplayscript.pex",
+        "sha256": "51c52af9ea8c9fbeb0b06f056ada15f3a0e9ee4abe5c05b773c8e1081ae37819",
+        "bytes": 6155,
+        "provider": "T6269 [LED]Legacy of the Dragonborn v6.10.0",
+        "order": 70
+      },
+      "source_anno_candidate": {
+        "kind": "bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\Legacy of the Dragonborn\\LegacyoftheDragonborn0.bsa",
+        "archive_id": 214,
+        "archive_sha256": "da3cd228880fc7f8fe2ad2be3f79e79e3095cb58a0f624f66ac902765dfbfbc0",
+        "entry": "scripts/dbmdisplayscript.pex",
+        "sha256": "51c52af9ea8c9fbeb0b06f056ada15f3a0e9ee4abe5c05b773c8e1081ae37819",
+        "bytes": 6155,
+        "mod_id": 79
+      },
+      "requested_by": [
+        {
+          "plugin": "DBM_Wyrmstooth_Patch.esp",
+          "record": "dbm_wyrmstooth_patch.esp|000831",
+          "field": "VMAD attached script"
+        },
+        {
+          "plugin": "DBM_Wyrmstooth_Patch.esp",
+          "record": "dbm_wyrmstooth_patch.esp|000839",
+          "field": "VMAD attached script"
+        },
+        {
+          "plugin": "DBM_Wyrmstooth_Patch.esp",
+          "record": "dbm_wyrmstooth_patch.esp|00083b",
+          "field": "VMAD attached script"
+        },
+        {
+          "plugin": "DBM_Wyrmstooth_Patch.esp",
+          "record": "dbm_wyrmstooth_patch.esp|00083d",
+          "field": "VMAD attached script"
+        },
+        {
+          "plugin": "DBM_Wyrmstooth_Patch.esp",
+          "record": "dbm_wyrmstooth_patch.esp|00083f",
+          "field": "VMAD attached script"
+        },
+        {
+          "plugin": "DBM_Wyrmstooth_Patch.esp",
+          "record": "dbm_wyrmstooth_patch.esp|000841",
+          "field": "VMAD attached script"
+        },
+        {
+          "plugin": "DBM_Wyrmstooth_Patch.esp",
+          "record": "dbm_wyrmstooth_patch.esp|000845",
+          "field": "VMAD attached script"
+        },
+        {
+          "plugin": "DBM_Wyrmstooth_Patch.esp",
+          "record": "dbm_wyrmstooth_patch.esp|000847",
+          "field": "VMAD attached script"
+        },
+        {
+          "plugin": "DBM_Wyrmstooth_Patch.esp",
+          "record": "dbm_wyrmstooth_patch.esp|000849",
+          "field": "VMAD attached script"
+        },
+        {
+          "plugin": "DBM_Wyrmstooth_Patch.esp",
+          "record": "dbm_wyrmstooth_patch.esp|00084b",
+          "field": "VMAD attached script"
+        },
+        {
+          "plugin": "DBM_Wyrmstooth_Patch.esp",
+          "record": "dbm_wyrmstooth_patch.esp|00084d",
+          "field": "VMAD attached script"
+        },
+        {
+          "plugin": "DBM_Wyrmstooth_Patch.esp",
+          "record": "dbm_wyrmstooth_patch.esp|00084f",
+          "field": "VMAD attached script"
+        },
+        {
+          "plugin": "DBM_Wyrmstooth_Patch.esp",
+          "record": "dbm_wyrmstooth_patch.esp|000851",
+          "field": "VMAD attached script"
+        },
+        {
+          "plugin": "DBM_Wyrmstooth_Patch.esp",
+          "record": "dbm_wyrmstooth_patch.esp|000853",
+          "field": "VMAD attached script"
+        },
+        {
+          "plugin": "DBM_Wyrmstooth_Patch.esp",
+          "record": "dbm_wyrmstooth_patch.esp|000855",
+          "field": "VMAD attached script"
+        },
+        {
+          "plugin": "DBM_Wyrmstooth_Patch.esp",
+          "record": "dbm_wyrmstooth_patch.esp|000857",
+          "field": "VMAD attached script"
+        },
+        {
+          "plugin": "DBM_Wyrmstooth_Patch.esp",
+          "record": "dbm_wyrmstooth_patch.esp|000859",
+          "field": "VMAD attached script"
+        },
+        {
+          "plugin": "DBM_Wyrmstooth_Patch.esp",
+          "record": "dbm_wyrmstooth_patch.esp|00085b",
+          "field": "VMAD attached script"
+        },
+        {
+          "plugin": "DBM_Wyrmstooth_Patch.esp",
+          "record": "dbm_wyrmstooth_patch.esp|00085d",
+          "field": "VMAD attached script"
+        },
+        {
+          "plugin": "DBM_Wyrmstooth_Patch.esp",
+          "record": "dbm_wyrmstooth_patch.esp|00085f",
+          "field": "VMAD attached script"
+        },
+        {
+          "plugin": "DBM_Wyrmstooth_Patch.esp",
+          "record": "dbm_wyrmstooth_patch.esp|000861",
+          "field": "VMAD attached script"
+        },
+        {
+          "plugin": "DBM_Wyrmstooth_Patch.esp",
+          "record": "dbm_wyrmstooth_patch.esp|000863",
+          "field": "VMAD attached script"
+        },
+        {
+          "plugin": "DBM_Wyrmstooth_Patch.esp",
+          "record": "dbm_wyrmstooth_patch.esp|000865",
+          "field": "VMAD attached script"
+        },
+        {
+          "plugin": "DBM_Wyrmstooth_Patch.esp",
+          "record": "dbm_wyrmstooth_patch.esp|0008ce",
+          "field": "VMAD attached script"
+        },
+        {
+          "plugin": "DBM_ForgottenCity_Patch.esp",
+          "record": "dbm_forgottencity_patch.esp|00080b",
+          "field": "VMAD attached script"
+        },
+        {
+          "plugin": "DBM_ForgottenCity_Patch.esp",
+          "record": "dbm_forgottencity_patch.esp|00080c",
+          "field": "VMAD attached script"
+        },
+        {
+          "plugin": "DBM_ForgottenCity_Patch.esp",
+          "record": "dbm_forgottencity_patch.esp|00080d",
+          "field": "VMAD attached script"
+        },
+        {
+          "plugin": "DBM_ForgottenCity_Patch.esp",
+          "record": "dbm_forgottencity_patch.esp|00080e",
+          "field": "VMAD attached script"
+        },
+        {
+          "plugin": "DBM_ForgottenCity_Patch.esp",
+          "record": "dbm_forgottencity_patch.esp|00080f",
+          "field": "VMAD attached script"
+        },
+        {
+          "plugin": "DBM_ForgottenCity_Patch.esp",
+          "record": "dbm_forgottencity_patch.esp|000810",
+          "field": "VMAD attached script"
+        }
+      ]
+    },
+    {
+      "path_key": "meshes/clutter/civilwar/cwmapflagfortred01.nif",
+      "decision": "inherit_base",
+      "selected_source": {
+        "kind": "loose",
+        "relative_path": "meshes/clutter/civilwar/cwmapflagfortred01.nif",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T5392 ParallaxGen_Output (1.01)\\meshes\\clutter\\civilwar\\cwmapflagfortred01.nif",
+        "provider": "T5392 ParallaxGen_Output (1.01)",
+        "bytes": 2069,
+        "sha256": "a267ed834fe3ba537ed38283212834b43f8b0b8ff5d0c0cf1e0dd0db989410fe"
+      },
+      "source_anno_candidate": {
+        "kind": "bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\StockGame\\Data\\Skyrim - Meshes0.bsa",
+        "archive_id": 88,
+        "archive_sha256": "91d0c93706846cefe4c51be5a7dee95e9042a0ad2069962b219c5bcabc75234e",
+        "entry": "meshes/clutter/civilwar/cwmapflagfortred01.nif",
+        "sha256": "f0ee10f7a788276c190e0407c3f323559e0c147f06f797a527304996fb9429f7",
+        "bytes": 1913,
+        "mod_id": null
+      },
+      "requested_by": [
+        {
+          "plugin": "DBM_Wyrmstooth_Patch.esp",
+          "record": "dbm_wyrmstooth_patch.esp|0008b6",
+          "field": "MODL"
+        },
+        {
+          "plugin": "DBM_Wyrmstooth_Patch.esp",
+          "record": "dbm_wyrmstooth_patch.esp|0008b7",
+          "field": "MODL"
+        }
+      ]
+    },
+    {
+      "path_key": "meshes/armor/amuletsandrings/silveramuletgo.nif",
+      "decision": "inherit_base",
+      "selected_source": {
+        "kind": "loose",
+        "relative_path": "meshes/armor/amuletsandrings/silveramuletgo.nif",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T5392 ParallaxGen_Output (1.01)\\meshes\\armor\\amuletsandrings\\silveramuletgo.nif",
+        "provider": "T5392 ParallaxGen_Output (1.01)",
+        "bytes": 17786,
+        "sha256": "027098950bb7925e11a65c63fd5fc111edc2f64e093903ced1cab7fcb086d675"
+      },
+      "source_anno_candidate": {
+        "kind": "loose",
+        "physical_path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\戒指护符材质替换-DD -Jewelry Replecer by Vergi\\meshes\\armor\\amuletsandrings\\SilverAmuletGO.nif",
+        "relative_path": "meshes/armor/amuletsandrings/SilverAmuletGO.nif",
+        "mod_id": 1079,
+        "sha256": "9ef5d6dfe8bf465192ac930ba440a080c81d4a2c02d253e388cd27b4024c30ad",
+        "bytes": 147653
+      },
+      "requested_by": [
+        {
+          "plugin": "DBM_Wyrmstooth_Patch.esp",
+          "record": "dbm_wyrmstooth_patch.esp|0008c9",
+          "field": "MOD2"
+        }
+      ]
+    },
+    {
+      "path_key": "scripts/dbm_additemsfromarrayoflists.pex",
+      "decision": "inherit_base",
+      "selected_source": {
+        "kind": "bsa",
+        "archive": "LegacyoftheDragonborn0.bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6269 [LED]Legacy of the Dragonborn v6.10.0\\LegacyoftheDragonborn0.bsa",
+        "archive_sha256": "da3cd228880fc7f8fe2ad2be3f79e79e3095cb58a0f624f66ac902765dfbfbc0",
+        "metadata_archive_id": 101,
+        "entry": "scripts/dbm_additemsfromarrayoflists.pex",
+        "sha256": "5d2b231ea81ace051395d9d7089cb3a33483734bb207beb51e3b72836a2715df",
+        "bytes": 1456,
+        "provider": "T6269 [LED]Legacy of the Dragonborn v6.10.0",
+        "order": 70
+      },
+      "source_anno_candidate": {
+        "kind": "bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\Legacy of the Dragonborn\\LegacyoftheDragonborn0.bsa",
+        "archive_id": 214,
+        "archive_sha256": "da3cd228880fc7f8fe2ad2be3f79e79e3095cb58a0f624f66ac902765dfbfbc0",
+        "entry": "scripts/dbm_additemsfromarrayoflists.pex",
+        "sha256": "5d2b231ea81ace051395d9d7089cb3a33483734bb207beb51e3b72836a2715df",
+        "bytes": 1456,
+        "mod_id": 79
+      },
+      "requested_by": [
+        {
+          "plugin": "DBM_Wyrmstooth_Patch.esp",
+          "record": "dbm_wyrmstooth_patch.esp|000885",
+          "field": "VMAD attached script"
+        },
+        {
+          "plugin": "DBM_ForgottenCity_Patch.esp",
+          "record": "dbm_forgottencity_patch.esp|000804",
+          "field": "VMAD attached script"
+        }
+      ]
+    },
+    {
+      "path_key": "meshes/dbm resources/dbm_cheatcrate.nif",
+      "decision": "inherit_base",
+      "selected_source": {
+        "kind": "loose",
+        "relative_path": "meshes/dbm resources/dbm_cheatcrate.nif",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T5392 ParallaxGen_Output (1.01)\\meshes\\dbm resources\\dbm_cheatcrate.nif",
+        "provider": "T5392 ParallaxGen_Output (1.01)",
+        "bytes": 49878,
+        "sha256": "ff15c6901c8d8dde9dbd980dab5dc14d1fd4df0607d55c8cb8db7c3786424d92"
+      },
+      "source_anno_candidate": {
+        "kind": "loose",
+        "physical_path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\PGPatcher_Output\\meshes\\dbm resources\\dbm_cheatcrate.nif",
+        "relative_path": "meshes/dbm resources/dbm_cheatcrate.nif",
+        "mod_id": 112,
+        "sha256": "357afd7b2458b3a25b7a57416cc42a47a0729896e2329f15f7875c95babda086",
+        "bytes": 49975
+      },
+      "requested_by": [
+        {
+          "plugin": "DBM_Wyrmstooth_Patch.esp",
+          "record": "dbm_wyrmstooth_patch.esp|000885",
+          "field": "MODL"
+        },
+        {
+          "plugin": "DBM_ForgottenCity_Patch.esp",
+          "record": "dbm_forgottencity_patch.esp|000804",
+          "field": "MODL"
+        }
+      ]
+    },
+    {
+      "path_key": "meshes/pkymaps/wyrmstoothmap.nif",
+      "decision": "inherit_base",
+      "selected_source": {
+        "kind": "bsa",
+        "archive": "LegacyoftheDragonborn.bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6269 [LED]Legacy of the Dragonborn v6.10.0\\LegacyoftheDragonborn.bsa",
+        "archive_sha256": "210d83b82e3715caed64e2c323592b96e387d77b79b063265f3ee24daa325db6",
+        "metadata_archive_id": 103,
+        "entry": "meshes/pkymaps/wyrmstoothmap.nif",
+        "sha256": "43122c40bdef00b424c113b051cc48dd07a90e10dac69b93964a33d51989eece",
+        "bytes": 17776,
+        "provider": "T6269 [LED]Legacy of the Dragonborn v6.10.0",
+        "order": 22
+      },
+      "source_anno_candidate": {
+        "kind": "bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\Legacy of the Dragonborn\\LegacyoftheDragonborn.bsa",
+        "archive_id": 216,
+        "archive_sha256": "210d83b82e3715caed64e2c323592b96e387d77b79b063265f3ee24daa325db6",
+        "entry": "meshes/pkymaps/wyrmstoothmap.nif",
+        "sha256": "43122c40bdef00b424c113b051cc48dd07a90e10dac69b93964a33d51989eece",
+        "bytes": 17776,
+        "mod_id": 79
+      },
+      "requested_by": [
+        {
+          "plugin": "DBM_Wyrmstooth_Patch.esp",
+          "record": "dbm_wyrmstooth_patch.esp|000888",
+          "field": "MODL"
+        }
+      ]
+    },
+    {
+      "path_key": "meshes/dungeons/caves/blackreach/blackreachecorner03.nif",
+      "decision": "inherit_base",
+      "selected_source": {
+        "kind": "loose",
+        "relative_path": "meshes/dungeons/caves/blackreach/blackreachecorner03.nif",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T5988 Vanilla Complex Parallax - Landscapes\\meshes\\dungeons\\caves\\blackreach\\blackreachecorner03.nif",
+        "provider": "T5988 Vanilla Complex Parallax - Landscapes",
+        "bytes": 47991,
+        "sha256": "13fc760386f201cc365599edf581072d80f008b606d31f16f5b999700cbabd7c"
+      },
+      "source_anno_candidate": {
+        "kind": "loose",
+        "physical_path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\PGPatcher_Output\\meshes\\dungeons\\caves\\blackreach\\blackreachecorner03.nif",
+        "relative_path": "meshes/dungeons/caves/blackreach/blackreachecorner03.nif",
+        "mod_id": 112,
+        "sha256": "e44eaffbf93f39527571c9665790c87a09d4bdfffd7f097c12ff862943e9f380",
+        "bytes": 48129
+      },
+      "requested_by": [
+        {
+          "plugin": "DBM_Wyrmstooth_Patch.esp",
+          "record": "dbm_wyrmstooth_patch.esp|0008d7",
+          "field": "MODL"
+        }
+      ]
+    },
+    {
+      "path_key": "meshes/weapons/ebony/ebonysword.nif",
+      "decision": "inherit_base",
+      "selected_source": {
+        "kind": "loose",
+        "relative_path": "meshes/weapons/ebony/ebonysword.nif",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T5392 ParallaxGen_Output (1.01)\\meshes\\weapons\\ebony\\ebonysword.nif",
+        "provider": "T5392 ParallaxGen_Output (1.01)",
+        "bytes": 67391,
+        "sha256": "83887ff03055bbd2c35c6059ca6d64b50aa0d6f42289be6e88e7570fa4bb0366"
+      },
+      "source_anno_candidate": {
+        "kind": "loose",
+        "physical_path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\PGPatcher_Output\\meshes\\weapons\\ebony\\ebonysword.nif",
+        "relative_path": "meshes/weapons/ebony/ebonysword.nif",
+        "mod_id": 112,
+        "sha256": "88491b11933339f79bcc9281b3e6ecb3f09ad5d51d66d1173fddf0e6a3379fad",
+        "bytes": 34462
+      },
+      "requested_by": [
+        {
+          "plugin": "DBM_Wyrmstooth_Patch.esp",
+          "record": "dbm_wyrmstooth_patch.esp|0008c5",
+          "field": "MODL"
+        }
+      ]
+    },
+    {
+      "path_key": "meshes/weapons/draugr/draugrsword.nif",
+      "decision": "inherit_base",
+      "selected_source": {
+        "kind": "loose",
+        "relative_path": "meshes/weapons/draugr/draugrsword.nif",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T4952 IED Mesh Fixs\\meshes\\weapons\\draugr\\draugrsword.nif",
+        "provider": "T4952 IED Mesh Fixs",
+        "bytes": 101290,
+        "sha256": "2a4ca07e1200f2f879ed0789dac350e69f5c6cb89a596d2b45f773cbdffeb0f3"
+      },
+      "source_anno_candidate": {
+        "kind": "loose",
+        "physical_path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\PGPatcher_Output\\meshes\\weapons\\draugr\\draugrsword.nif",
+        "relative_path": "meshes/weapons/draugr/draugrsword.nif",
+        "mod_id": 112,
+        "sha256": "793f51166347197cc6d3374c7c5d97b113153bffe385cfbf8f3671221511ea7c",
+        "bytes": 80286
+      },
+      "requested_by": [
+        {
+          "plugin": "DBM_Wyrmstooth_Patch.esp",
+          "record": "dbm_wyrmstooth_patch.esp|0008cb",
+          "field": "MODL"
+        }
+      ]
+    },
+    {
+      "path_key": "scripts/dbm_dynamicdisplayscript.pex",
+      "decision": "inherit_base",
+      "selected_source": {
+        "kind": "bsa",
+        "archive": "LegacyoftheDragonborn0.bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6269 [LED]Legacy of the Dragonborn v6.10.0\\LegacyoftheDragonborn0.bsa",
+        "archive_sha256": "da3cd228880fc7f8fe2ad2be3f79e79e3095cb58a0f624f66ac902765dfbfbc0",
+        "metadata_archive_id": 101,
+        "entry": "scripts/dbm_dynamicdisplayscript.pex",
+        "sha256": "d73f18226d9a4349a59f5245fe96ecbf62f04aa84058ac604ca84bfe5ba5c6af",
+        "bytes": 1434,
+        "provider": "T6269 [LED]Legacy of the Dragonborn v6.10.0",
+        "order": 70
+      },
+      "source_anno_candidate": {
+        "kind": "bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\Legacy of the Dragonborn\\LegacyoftheDragonborn0.bsa",
+        "archive_id": 214,
+        "archive_sha256": "da3cd228880fc7f8fe2ad2be3f79e79e3095cb58a0f624f66ac902765dfbfbc0",
+        "entry": "scripts/dbm_dynamicdisplayscript.pex",
+        "sha256": "d73f18226d9a4349a59f5245fe96ecbf62f04aa84058ac604ca84bfe5ba5c6af",
+        "bytes": 1434,
+        "mod_id": 79
+      },
+      "requested_by": [
+        {
+          "plugin": "DBM_Wyrmstooth_Patch.esp",
+          "record": "dbm_wyrmstooth_patch.esp|000806",
+          "field": "VMAD attached script"
+        },
+        {
+          "plugin": "DBM_Wyrmstooth_Patch.esp",
+          "record": "dbm_wyrmstooth_patch.esp|000810",
+          "field": "VMAD attached script"
+        },
+        {
+          "plugin": "DBM_Wyrmstooth_Patch.esp",
+          "record": "dbm_wyrmstooth_patch.esp|000807",
+          "field": "VMAD attached script"
+        },
+        {
+          "plugin": "DBM_Wyrmstooth_Patch.esp",
+          "record": "dbm_wyrmstooth_patch.esp|000812",
+          "field": "VMAD attached script"
+        },
+        {
+          "plugin": "DBM_Wyrmstooth_Patch.esp",
+          "record": "dbm_wyrmstooth_patch.esp|00080c",
+          "field": "VMAD attached script"
+        },
+        {
+          "plugin": "DBM_Wyrmstooth_Patch.esp",
+          "record": "dbm_wyrmstooth_patch.esp|000803",
+          "field": "VMAD attached script"
+        },
+        {
+          "plugin": "DBM_Wyrmstooth_Patch.esp",
+          "record": "dbm_wyrmstooth_patch.esp|00081a",
+          "field": "VMAD attached script"
+        },
+        {
+          "plugin": "DBM_Wyrmstooth_Patch.esp",
+          "record": "dbm_wyrmstooth_patch.esp|000815",
+          "field": "VMAD attached script"
+        },
+        {
+          "plugin": "DBM_Wyrmstooth_Patch.esp",
+          "record": "dbm_wyrmstooth_patch.esp|0008d0",
+          "field": "VMAD attached script"
+        },
+        {
+          "plugin": "DBM_Wyrmstooth_Patch.esp",
+          "record": "dbm_wyrmstooth_patch.esp|000816",
+          "field": "VMAD attached script"
+        },
+        {
+          "plugin": "DBM_Wyrmstooth_Patch.esp",
+          "record": "dbm_wyrmstooth_patch.esp|00080d",
+          "field": "VMAD attached script"
+        },
+        {
+          "plugin": "DBM_Wyrmstooth_Patch.esp",
+          "record": "dbm_wyrmstooth_patch.esp|000804",
+          "field": "VMAD attached script"
+        },
+        {
+          "plugin": "DBM_Wyrmstooth_Patch.esp",
+          "record": "dbm_wyrmstooth_patch.esp|00080f",
+          "field": "VMAD attached script"
+        },
+        {
+          "plugin": "DBM_Wyrmstooth_Patch.esp",
+          "record": "dbm_wyrmstooth_patch.esp|00080a",
+          "field": "VMAD attached script"
+        },
+        {
+          "plugin": "DBM_Wyrmstooth_Patch.esp",
+          "record": "dbm_wyrmstooth_patch.esp|00080b",
+          "field": "VMAD attached script"
+        },
+        {
+          "plugin": "DBM_Wyrmstooth_Patch.esp",
+          "record": "dbm_wyrmstooth_patch.esp|000809",
+          "field": "VMAD attached script"
+        },
+        {
+          "plugin": "DBM_Wyrmstooth_Patch.esp",
+          "record": "dbm_wyrmstooth_patch.esp|000817",
+          "field": "VMAD attached script"
+        },
+        {
+          "plugin": "DBM_Wyrmstooth_Patch.esp",
+          "record": "dbm_wyrmstooth_patch.esp|000805",
+          "field": "VMAD attached script"
+        },
+        {
+          "plugin": "DBM_Wyrmstooth_Patch.esp",
+          "record": "dbm_wyrmstooth_patch.esp|00080e",
+          "field": "VMAD attached script"
+        },
+        {
+          "plugin": "DBM_Wyrmstooth_Patch.esp",
+          "record": "dbm_wyrmstooth_patch.esp|000813",
+          "field": "VMAD attached script"
+        },
+        {
+          "plugin": "DBM_Wyrmstooth_Patch.esp",
+          "record": "dbm_wyrmstooth_patch.esp|000811",
+          "field": "VMAD attached script"
+        },
+        {
+          "plugin": "DBM_Wyrmstooth_Patch.esp",
+          "record": "dbm_wyrmstooth_patch.esp|000808",
+          "field": "VMAD attached script"
+        },
+        {
+          "plugin": "DBM_Wyrmstooth_Patch.esp",
+          "record": "dbm_wyrmstooth_patch.esp|000829",
+          "field": "VMAD attached script"
+        },
+        {
+          "plugin": "DBM_Wyrmstooth_Patch.esp",
+          "record": "dbm_wyrmstooth_patch.esp|000814",
+          "field": "VMAD attached script"
+        }
+      ]
+    },
+    {
+      "path_key": "scripts/wtsuleykmask.pex",
+      "decision": "inherit_standalone_feature_or_stage_if_absent",
+      "selected_source": {
+        "kind": "bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\龙之牙-Wyrmstooth\\Wyrmstooth.bsa",
+        "archive_id": 117,
+        "archive_sha256": "2ec2e4b58fe3c3235b2017c86f9626804a5db05f731c5e8dd786df427102a71a",
+        "entry": "scripts/wtsuleykmask.pex",
+        "sha256": "51b5f718b65890514279a228c1bf5cd80af2dfeea7efe45a774bda2997737859",
+        "bytes": 704,
+        "mod_id": 1641
+      },
+      "source_anno_candidate": {
+        "kind": "bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\龙之牙-Wyrmstooth\\Wyrmstooth.bsa",
+        "archive_id": 117,
+        "archive_sha256": "2ec2e4b58fe3c3235b2017c86f9626804a5db05f731c5e8dd786df427102a71a",
+        "entry": "scripts/wtsuleykmask.pex",
+        "sha256": "51b5f718b65890514279a228c1bf5cd80af2dfeea7efe45a774bda2997737859",
+        "bytes": 704,
+        "mod_id": 1641
+      },
+      "requested_by": [
+        {
+          "plugin": "DBM_Wyrmstooth_Patch.esp",
+          "record": "dbm_wyrmstooth_patch.esp|000813",
+          "field": "VMAD attached script"
+        }
+      ]
+    },
+    {
+      "path_key": "scripts/dbm_questexhibit.pex",
+      "decision": "inherit_base",
+      "selected_source": {
+        "kind": "bsa",
+        "archive": "LegacyoftheDragonborn0.bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6269 [LED]Legacy of the Dragonborn v6.10.0\\LegacyoftheDragonborn0.bsa",
+        "archive_sha256": "da3cd228880fc7f8fe2ad2be3f79e79e3095cb58a0f624f66ac902765dfbfbc0",
+        "metadata_archive_id": 101,
+        "entry": "scripts/dbm_questexhibit.pex",
+        "sha256": "4d1316a3d27d234a01a3f108e056a9017d967be95f046ce55de4b85307a8bf43",
+        "bytes": 2198,
+        "provider": "T6269 [LED]Legacy of the Dragonborn v6.10.0",
+        "order": 70
+      },
+      "source_anno_candidate": {
+        "kind": "bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\Legacy of the Dragonborn\\LegacyoftheDragonborn0.bsa",
+        "archive_id": 214,
+        "archive_sha256": "da3cd228880fc7f8fe2ad2be3f79e79e3095cb58a0f624f66ac902765dfbfbc0",
+        "entry": "scripts/dbm_questexhibit.pex",
+        "sha256": "4d1316a3d27d234a01a3f108e056a9017d967be95f046ce55de4b85307a8bf43",
+        "bytes": 2198,
+        "mod_id": 79
+      },
+      "requested_by": [
+        {
+          "plugin": "DBM_Wyrmstooth_Patch.esp",
+          "record": "legacyofthedragonborn.esm|04c37e",
+          "field": "VMAD attached script"
+        },
+        {
+          "plugin": "LOTD_TCC_Wyrmstooth.esp",
+          "record": "legacyofthedragonborn.esm|04c37e",
+          "field": "VMAD attached script"
+        }
+      ]
+    },
+    {
+      "path_key": "scripts/dbm_displaymessage.pex",
+      "decision": "inherit_base",
+      "selected_source": {
+        "kind": "bsa",
+        "archive": "LegacyoftheDragonborn0.bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6269 [LED]Legacy of the Dragonborn v6.10.0\\LegacyoftheDragonborn0.bsa",
+        "archive_sha256": "da3cd228880fc7f8fe2ad2be3f79e79e3095cb58a0f624f66ac902765dfbfbc0",
+        "metadata_archive_id": 101,
+        "entry": "scripts/dbm_displaymessage.pex",
+        "sha256": "b7acf3fad650cd68217557a1705475463426b4bdf88a60fa12d2afe77f77042c",
+        "bytes": 678,
+        "provider": "T6269 [LED]Legacy of the Dragonborn v6.10.0",
+        "order": 70
+      },
+      "source_anno_candidate": {
+        "kind": "bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\Legacy of the Dragonborn\\LegacyoftheDragonborn0.bsa",
+        "archive_id": 214,
+        "archive_sha256": "da3cd228880fc7f8fe2ad2be3f79e79e3095cb58a0f624f66ac902765dfbfbc0",
+        "entry": "scripts/dbm_displaymessage.pex",
+        "sha256": "b7acf3fad650cd68217557a1705475463426b4bdf88a60fa12d2afe77f77042c",
+        "bytes": 678,
+        "mod_id": 79
+      },
+      "requested_by": [
+        {
+          "plugin": "DBM_Wyrmstooth_Patch.esp",
+          "record": "dbm_wyrmstooth_patch.esp|000880",
+          "field": "VMAD attached script"
+        }
+      ]
+    },
+    {
+      "path_key": "meshes/sky/wyrmstoothworldmapcloudbank.nif",
+      "decision": "stage_exact_source_resource",
+      "selected_source": {
+        "kind": "loose",
+        "physical_path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\PGPatcher_Output\\meshes\\sky\\wyrmstoothworldmapcloudbank.nif",
+        "relative_path": "meshes/sky/wyrmstoothworldmapcloudbank.nif",
+        "mod_id": 112,
+        "sha256": "e2f13fe14396b428e61e91b5727ad5b1547246a58ff8df5a09e9c2caa519acb3",
+        "bytes": 13452
+      },
+      "source_anno_candidate": {
+        "kind": "loose",
+        "physical_path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\PGPatcher_Output\\meshes\\sky\\wyrmstoothworldmapcloudbank.nif",
+        "relative_path": "meshes/sky/wyrmstoothworldmapcloudbank.nif",
+        "mod_id": 112,
+        "sha256": "e2f13fe14396b428e61e91b5727ad5b1547246a58ff8df5a09e9c2caa519acb3",
+        "bytes": 13452
+      },
+      "requested_by": [
+        {
+          "plugin": "DBM_Wyrmstooth_Patch.esp",
+          "record": "wyrmstooth.esp|000d62",
+          "field": "MODL"
+        }
+      ]
+    },
+    {
+      "path_key": "scripts/dbmsupportedmodscript.pex",
+      "decision": "inherit_base",
+      "selected_source": {
+        "kind": "bsa",
+        "archive": "LegacyoftheDragonborn0.bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6269 [LED]Legacy of the Dragonborn v6.10.0\\LegacyoftheDragonborn0.bsa",
+        "archive_sha256": "da3cd228880fc7f8fe2ad2be3f79e79e3095cb58a0f624f66ac902765dfbfbc0",
+        "metadata_archive_id": 101,
+        "entry": "scripts/dbmsupportedmodscript.pex",
+        "sha256": "106b70d27f8f79854572bdd1bab75495e8fb1148726510e689373f6794fad05e",
+        "bytes": 5831,
+        "provider": "T6269 [LED]Legacy of the Dragonborn v6.10.0",
+        "order": 70
+      },
+      "source_anno_candidate": {
+        "kind": "bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\Legacy of the Dragonborn\\LegacyoftheDragonborn0.bsa",
+        "archive_id": 214,
+        "archive_sha256": "da3cd228880fc7f8fe2ad2be3f79e79e3095cb58a0f624f66ac902765dfbfbc0",
+        "entry": "scripts/dbmsupportedmodscript.pex",
+        "sha256": "106b70d27f8f79854572bdd1bab75495e8fb1148726510e689373f6794fad05e",
+        "bytes": 5831,
+        "mod_id": 79
+      },
+      "requested_by": [
+        {
+          "plugin": "DBM_Wyrmstooth_Patch.esp",
+          "record": "dbm_wyrmstooth_patch.esp|000883",
+          "field": "VMAD attached script"
+        },
+        {
+          "plugin": "DBM_ForgottenCity_Patch.esp",
+          "record": "dbm_forgottencity_patch.esp|000803",
+          "field": "VMAD attached script"
+        }
+      ]
+    },
+    {
+      "path_key": "scripts/dbm_rn_questdisplay.pex",
+      "decision": "inherit_base",
+      "selected_source": {
+        "kind": "bsa",
+        "archive": "DBM_RelicNotifications.bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6358 [LED]The Curators Companion 7.0.8\\DBM_RelicNotifications.bsa",
+        "archive_sha256": "e51701a75c494624cd8b30c479f727c44fdafec7bc068aa1b777d71457e535a5",
+        "metadata_archive_id": 145,
+        "entry": "scripts/dbm_rn_questdisplay.pex",
+        "sha256": "1b7c360380644320fda04de48fdda56a1aaf70efd7915cee167dd5a7274b9aeb",
+        "bytes": 1092,
+        "provider": "T6358 [LED]The Curators Companion 7.0.8",
+        "order": 229
+      },
+      "source_anno_candidate": {
+        "kind": "bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\Legacy of the Dragonborn - The Curators Companion\\DBM_RelicNotifications.bsa",
+        "archive_id": 212,
+        "archive_sha256": "e51701a75c494624cd8b30c479f727c44fdafec7bc068aa1b777d71457e535a5",
+        "entry": "scripts/dbm_rn_questdisplay.pex",
+        "sha256": "1b7c360380644320fda04de48fdda56a1aaf70efd7915cee167dd5a7274b9aeb",
+        "bytes": 1092,
+        "mod_id": 80
+      },
+      "requested_by": [
+        {
+          "plugin": "LOTD_TCC_Wyrmstooth.esp",
+          "record": "legacyofthedragonborn.esm|04c37e",
+          "field": "VMAD attached script"
+        }
+      ]
+    },
+    {
+      "path_key": "scripts/rn_supportedmod_script.pex",
+      "decision": "inherit_base",
+      "selected_source": {
+        "kind": "loose",
+        "relative_path": "scripts/rn_supportedmod_script.pex",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6358 [LED]The Curators Companion 7.0.8\\scripts\\rn_supportedmod_script.pex",
+        "provider": "T6358 [LED]The Curators Companion 7.0.8",
+        "bytes": 15191,
+        "sha256": "efc0f88b3d4891245b3da57a15ec4833592b8a1cea8a0d6613f03602716c701c"
+      },
+      "source_anno_candidate": {
+        "kind": "loose",
+        "physical_path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\馆长伙伴-Legacy of the Dragonborn SSE - The Curators Companion\\scripts\\rn_supportedmod_script.pex",
+        "relative_path": "scripts/rn_supportedmod_script.pex",
+        "mod_id": 1595,
+        "sha256": "82b581fefdfa1b0ab30b7b687e8aed70bc04a0101afc38868f56d3c0043019a0",
+        "bytes": 14979
+      },
+      "requested_by": [
+        {
+          "plugin": "LOTD_TCC_Wyrmstooth.esp",
+          "record": "lotd_tcc_wyrmstooth.esp|000802",
+          "field": "VMAD attached script"
+        }
+      ]
+    },
+    {
+      "path_key": "meshes/dbm resources/museumplaque.nif",
+      "decision": "inherit_base",
+      "selected_source": {
+        "kind": "loose",
+        "relative_path": "meshes/dbm resources/museumplaque.nif",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T5392 ParallaxGen_Output (1.01)\\meshes\\dbm resources\\museumplaque.nif",
+        "provider": "T5392 ParallaxGen_Output (1.01)",
+        "bytes": 15003,
+        "sha256": "f705c6059e9de84f2eb1a97627df67a1323873b4416fa2360928d9da2771e93f"
+      },
+      "source_anno_candidate": {
+        "kind": "loose",
+        "physical_path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\PGPatcher_Output\\meshes\\dbm resources\\museumplaque.nif",
+        "relative_path": "meshes/dbm resources/museumplaque.nif",
+        "mod_id": 112,
+        "sha256": "f705c6059e9de84f2eb1a97627df67a1323873b4416fa2360928d9da2771e93f",
+        "bytes": 15003
+      },
+      "requested_by": [
+        {
+          "plugin": "DBM_ForgottenCity_Patch.esp",
+          "record": "dbm_forgottencity_patch.esp|000808",
+          "field": "MODL"
+        }
+      ]
+    },
+    {
+      "path_key": "meshes/dbm resources/immaculatearmordisp.nif",
+      "decision": "stage_exact_source_resource",
+      "selected_source": {
+        "kind": "bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\龙裔艺术馆补丁-Legacy of the Dragonborn Patches (Official)\\DBM_ForgottenCity_Patch.bsa",
+        "archive_id": 94,
+        "archive_sha256": "fbf7b13547457860533a8ffbe03476adf054dddc64a67ab9595db6fe0c351cbe",
+        "entry": "meshes/dbm resources/immaculatearmordisp.nif",
+        "sha256": "7f4d2ede4b5a36f6037631e4570eee6da88c1d9d624623e1d1c0c875f78ccdc5",
+        "bytes": 262494,
+        "mod_id": 1666
+      },
+      "source_anno_candidate": {
+        "kind": "bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\龙裔艺术馆补丁-Legacy of the Dragonborn Patches (Official)\\DBM_ForgottenCity_Patch.bsa",
+        "archive_id": 94,
+        "archive_sha256": "fbf7b13547457860533a8ffbe03476adf054dddc64a67ab9595db6fe0c351cbe",
+        "entry": "meshes/dbm resources/immaculatearmordisp.nif",
+        "sha256": "7f4d2ede4b5a36f6037631e4570eee6da88c1d9d624623e1d1c0c875f78ccdc5",
+        "bytes": 262494,
+        "mod_id": 1666
+      },
+      "requested_by": [
+        {
+          "plugin": "DBM_ForgottenCity_Patch.esp",
+          "record": "dbm_forgottencity_patch.esp|000834",
+          "field": "MODL"
+        }
+      ]
+    },
+    {
+      "path_key": "meshes/dbm resources/arbiterhelmdisp.nif",
+      "decision": "stage_exact_source_resource",
+      "selected_source": {
+        "kind": "bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\龙裔艺术馆补丁-Legacy of the Dragonborn Patches (Official)\\DBM_ForgottenCity_Patch.bsa",
+        "archive_id": 94,
+        "archive_sha256": "fbf7b13547457860533a8ffbe03476adf054dddc64a67ab9595db6fe0c351cbe",
+        "entry": "meshes/dbm resources/arbiterhelmdisp.nif",
+        "sha256": "b442685704cda508e5eb206b832ac43a274a6f1562a3449229321e0734e8a395",
+        "bytes": 39158,
+        "mod_id": 1666
+      },
+      "source_anno_candidate": {
+        "kind": "bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\龙裔艺术馆补丁-Legacy of the Dragonborn Patches (Official)\\DBM_ForgottenCity_Patch.bsa",
+        "archive_id": 94,
+        "archive_sha256": "fbf7b13547457860533a8ffbe03476adf054dddc64a67ab9595db6fe0c351cbe",
+        "entry": "meshes/dbm resources/arbiterhelmdisp.nif",
+        "sha256": "b442685704cda508e5eb206b832ac43a274a6f1562a3449229321e0734e8a395",
+        "bytes": 39158,
+        "mod_id": 1666
+      },
+      "requested_by": [
+        {
+          "plugin": "DBM_ForgottenCity_Patch.esp",
+          "record": "dbm_forgottencity_patch.esp|000835",
+          "field": "MODL"
+        }
+      ]
+    },
+    {
+      "path_key": "meshes/dbm resources/tongueammystat.nif",
+      "decision": "stage_exact_source_resource",
+      "selected_source": {
+        "kind": "bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\龙裔艺术馆补丁-Legacy of the Dragonborn Patches (Official)\\DBM_ForgottenCity_Patch.bsa",
+        "archive_id": 94,
+        "archive_sha256": "fbf7b13547457860533a8ffbe03476adf054dddc64a67ab9595db6fe0c351cbe",
+        "entry": "meshes/dbm resources/tongueammystat.nif",
+        "sha256": "ad79a307b20255099c10070a235642d4af55ae8615859b4d59c80230921a6e2f",
+        "bytes": 15474,
+        "mod_id": 1666
+      },
+      "source_anno_candidate": {
+        "kind": "bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\龙裔艺术馆补丁-Legacy of the Dragonborn Patches (Official)\\DBM_ForgottenCity_Patch.bsa",
+        "archive_id": 94,
+        "archive_sha256": "fbf7b13547457860533a8ffbe03476adf054dddc64a67ab9595db6fe0c351cbe",
+        "entry": "meshes/dbm resources/tongueammystat.nif",
+        "sha256": "ad79a307b20255099c10070a235642d4af55ae8615859b4d59c80230921a6e2f",
+        "bytes": 15474,
+        "mod_id": 1666
+      },
+      "requested_by": [
+        {
+          "plugin": "DBM_ForgottenCity_Patch.esp",
+          "record": "dbm_forgottencity_patch.esp|000836",
+          "field": "MODL"
+        }
+      ]
+    },
+    {
+      "path_key": "meshes/armor/dwarven/000fcdwarvenarmorgo.nif",
+      "decision": "inherit_standalone_feature_or_stage_if_absent",
+      "selected_source": {
+        "kind": "bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\The Forgotten City\\forgottencity.bsa",
+        "archive_id": 437,
+        "archive_sha256": "bf93273fa08a177848b9e966d63d479e090ecb52e225e34aa51ddc136111afbd",
+        "entry": "meshes/armor/dwarven/000fcdwarvenarmorgo.nif",
+        "sha256": "3fbc575365beb6aa882cf580f7cf43a0a4937223470ea2fdb97cf677a2850ed3",
+        "bytes": 149675,
+        "mod_id": 137
+      },
+      "source_anno_candidate": {
+        "kind": "bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\The Forgotten City\\forgottencity.bsa",
+        "archive_id": 437,
+        "archive_sha256": "bf93273fa08a177848b9e966d63d479e090ecb52e225e34aa51ddc136111afbd",
+        "entry": "meshes/armor/dwarven/000fcdwarvenarmorgo.nif",
+        "sha256": "3fbc575365beb6aa882cf580f7cf43a0a4937223470ea2fdb97cf677a2850ed3",
+        "bytes": 149675,
+        "mod_id": 137
+      },
+      "requested_by": [
+        {
+          "plugin": "DBM_ForgottenCity_Patch.esp",
+          "record": "dbm_forgottencity_patch.esp|000837",
+          "field": "MODL"
+        }
+      ]
+    },
+    {
+      "path_key": "meshes/armor/dwarven/000fcdwarvenhelmetgo.nif",
+      "decision": "inherit_standalone_feature_or_stage_if_absent",
+      "selected_source": {
+        "kind": "bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\The Forgotten City\\forgottencity.bsa",
+        "archive_id": 437,
+        "archive_sha256": "bf93273fa08a177848b9e966d63d479e090ecb52e225e34aa51ddc136111afbd",
+        "entry": "meshes/armor/dwarven/000fcdwarvenhelmetgo.nif",
+        "sha256": "0b2fab4e6c4378106cb0aa513189d13417a9c7431ef609809bc2e6710793055f",
+        "bytes": 76308,
+        "mod_id": 137
+      },
+      "source_anno_candidate": {
+        "kind": "bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\The Forgotten City\\forgottencity.bsa",
+        "archive_id": 437,
+        "archive_sha256": "bf93273fa08a177848b9e966d63d479e090ecb52e225e34aa51ddc136111afbd",
+        "entry": "meshes/armor/dwarven/000fcdwarvenhelmetgo.nif",
+        "sha256": "0b2fab4e6c4378106cb0aa513189d13417a9c7431ef609809bc2e6710793055f",
+        "bytes": 76308,
+        "mod_id": 137
+      },
+      "requested_by": [
+        {
+          "plugin": "DBM_ForgottenCity_Patch.esp",
+          "record": "dbm_forgottencity_patch.esp|000838",
+          "field": "MODL"
+        }
+      ]
+    },
+    {
+      "path_key": "meshes/armor/dwarven/000fcdwarvenbootsgo.nif",
+      "decision": "inherit_standalone_feature_or_stage_if_absent",
+      "selected_source": {
+        "kind": "bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\The Forgotten City\\forgottencity.bsa",
+        "archive_id": 437,
+        "archive_sha256": "bf93273fa08a177848b9e966d63d479e090ecb52e225e34aa51ddc136111afbd",
+        "entry": "meshes/armor/dwarven/000fcdwarvenbootsgo.nif",
+        "sha256": "bc26f2c84eb202a1827bd8bedd76ce365c5271dceda8ba36a74b42011df98efe",
+        "bytes": 94927,
+        "mod_id": 137
+      },
+      "source_anno_candidate": {
+        "kind": "bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\The Forgotten City\\forgottencity.bsa",
+        "archive_id": 437,
+        "archive_sha256": "bf93273fa08a177848b9e966d63d479e090ecb52e225e34aa51ddc136111afbd",
+        "entry": "meshes/armor/dwarven/000fcdwarvenbootsgo.nif",
+        "sha256": "bc26f2c84eb202a1827bd8bedd76ce365c5271dceda8ba36a74b42011df98efe",
+        "bytes": 94927,
+        "mod_id": 137
+      },
+      "requested_by": [
+        {
+          "plugin": "DBM_ForgottenCity_Patch.esp",
+          "record": "dbm_forgottencity_patch.esp|000839",
+          "field": "MODL"
+        }
+      ]
+    },
+    {
+      "path_key": "meshes/armor/dwarven/000fcdwarvengauntletsgo.nif",
+      "decision": "inherit_standalone_feature_or_stage_if_absent",
+      "selected_source": {
+        "kind": "bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\The Forgotten City\\forgottencity.bsa",
+        "archive_id": 437,
+        "archive_sha256": "bf93273fa08a177848b9e966d63d479e090ecb52e225e34aa51ddc136111afbd",
+        "entry": "meshes/armor/dwarven/000fcdwarvengauntletsgo.nif",
+        "sha256": "bf50f666440803c65900648c53812ad84c994a50bfc81a3ad38ddd206835fb04",
+        "bytes": 144955,
+        "mod_id": 137
+      },
+      "source_anno_candidate": {
+        "kind": "bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\The Forgotten City\\forgottencity.bsa",
+        "archive_id": 437,
+        "archive_sha256": "bf93273fa08a177848b9e966d63d479e090ecb52e225e34aa51ddc136111afbd",
+        "entry": "meshes/armor/dwarven/000fcdwarvengauntletsgo.nif",
+        "sha256": "bf50f666440803c65900648c53812ad84c994a50bfc81a3ad38ddd206835fb04",
+        "bytes": 144955,
+        "mod_id": 137
+      },
+      "requested_by": [
+        {
+          "plugin": "DBM_ForgottenCity_Patch.esp",
+          "record": "dbm_forgottencity_patch.esp|00083a",
+          "field": "MODL"
+        }
+      ]
+    },
+    {
+      "path_key": "scripts/dbmexhibitquestvariants.pex",
+      "decision": "inherit_base",
+      "selected_source": {
+        "kind": "bsa",
+        "archive": "LegacyoftheDragonborn0.bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6269 [LED]Legacy of the Dragonborn v6.10.0\\LegacyoftheDragonborn0.bsa",
+        "archive_sha256": "da3cd228880fc7f8fe2ad2be3f79e79e3095cb58a0f624f66ac902765dfbfbc0",
+        "metadata_archive_id": 101,
+        "entry": "scripts/dbmexhibitquestvariants.pex",
+        "sha256": "f538bbd076fc6d02780a90261be7bf73686a53f7f35921cae88c8c1dab30fc24",
+        "bytes": 3996,
+        "provider": "T6269 [LED]Legacy of the Dragonborn v6.10.0",
+        "order": 70
+      },
+      "source_anno_candidate": {
+        "kind": "bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\Legacy of the Dragonborn\\LegacyoftheDragonborn0.bsa",
+        "archive_id": 214,
+        "archive_sha256": "da3cd228880fc7f8fe2ad2be3f79e79e3095cb58a0f624f66ac902765dfbfbc0",
+        "entry": "scripts/dbmexhibitquestvariants.pex",
+        "sha256": "f538bbd076fc6d02780a90261be7bf73686a53f7f35921cae88c8c1dab30fc24",
+        "bytes": 3996,
+        "mod_id": 79
+      },
+      "requested_by": [
+        {
+          "plugin": "DBM_ForgottenCity_Patch.esp",
+          "record": "dbm_forgottencity_patch.esp|00087d",
+          "field": "VMAD attached script"
+        }
+      ]
+    },
+    {
+      "path_key": "textures/pbr/dungeons/imperial/battlemap01.dds",
+      "decision": "inherit_base",
+      "selected_source": {
+        "kind": "loose",
+        "relative_path": "textures/pbr/dungeons/imperial/battlemap01.dds",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T4724 Faultier's PBR Skyrim AIO 2k tweak\\textures\\pbr\\dungeons\\imperial\\battlemap01.dds",
+        "provider": "T4724 Faultier's PBR Skyrim AIO 2k tweak",
+        "bytes": 5592580,
+        "sha256": "4ecf1a5ff80de766ab5ba2505dcf8c793d4f28519c59103a96840415ab202b53"
+      },
+      "source_anno_candidate": {
+        "kind": "missing"
+      },
+      "requested_by": []
+    },
+    {
+      "path_key": "textures/pbr/dungeons/imperial/battlemap01_n.dds",
+      "decision": "inherit_base",
+      "selected_source": {
+        "kind": "loose",
+        "relative_path": "textures/pbr/dungeons/imperial/battlemap01_n.dds",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T4724 Faultier's PBR Skyrim AIO 2k tweak\\textures\\pbr\\dungeons\\imperial\\battlemap01_n.dds",
+        "provider": "T4724 Faultier's PBR Skyrim AIO 2k tweak",
+        "bytes": 5592580,
+        "sha256": "d54a971f1daf8ab579816acf20eee006d3e6688120af03fc875b026886c04fe4"
+      },
+      "source_anno_candidate": {
+        "kind": "missing"
+      },
+      "requested_by": []
+    },
+    {
+      "path_key": "textures/pbr/dungeons/imperial/battlemap01_p.dds",
+      "decision": "inherit_base",
+      "selected_source": {
+        "kind": "loose",
+        "relative_path": "textures/pbr/dungeons/imperial/battlemap01_p.dds",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T4724 Faultier's PBR Skyrim AIO 2k tweak\\textures\\pbr\\dungeons\\imperial\\battlemap01_p.dds",
+        "provider": "T4724 Faultier's PBR Skyrim AIO 2k tweak",
+        "bytes": 699192,
+        "sha256": "3eb463bbf83969904b765b21a8c0363b9b2aced57f37efbf9fd9bbda1d71533e"
+      },
+      "source_anno_candidate": {
+        "kind": "missing"
+      },
+      "requested_by": []
+    },
+    {
+      "path_key": "textures/pbr/dungeons/imperial/battlemap01_rmaos.dds",
+      "decision": "inherit_base",
+      "selected_source": {
+        "kind": "loose",
+        "relative_path": "textures/pbr/dungeons/imperial/battlemap01_rmaos.dds",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T4724 Faultier's PBR Skyrim AIO 2k tweak\\textures\\pbr\\dungeons\\imperial\\battlemap01_rmaos.dds",
+        "provider": "T4724 Faultier's PBR Skyrim AIO 2k tweak",
+        "bytes": 2796364,
+        "sha256": "36ca40e1e31bde46e0dbced44b6c4a92822b4d949badf7ace10646d384991856"
+      },
+      "source_anno_candidate": {
+        "kind": "missing"
+      },
+      "requested_by": []
+    },
+    {
+      "path_key": "textures/pbr/dungeons/imperial/battlemap01_s.dds",
+      "decision": "inherit_base",
+      "selected_source": {
+        "kind": "loose",
+        "relative_path": "textures/pbr/dungeons/imperial/battlemap01_s.dds",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T4724 Faultier's PBR Skyrim AIO 2k tweak\\textures\\pbr\\dungeons\\imperial\\battlemap01_s.dds",
+        "provider": "T4724 Faultier's PBR Skyrim AIO 2k tweak",
+        "bytes": 349700,
+        "sha256": "fbce87cacea29896994cc1a8f75f1ec19e7d034c3f874fae2d8f7fc6d37a9768"
+      },
+      "source_anno_candidate": {
+        "kind": "missing"
+      },
+      "requested_by": []
+    },
+    {
+      "path_key": "textures/pbr/armor/amuletsandrings/genericamulets.dds",
+      "decision": "inherit_base",
+      "selected_source": {
+        "kind": "loose",
+        "relative_path": "textures/pbr/armor/amuletsandrings/genericamulets.dds",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T4724 Faultier's PBR Skyrim AIO 2k tweak\\textures\\pbr\\armor\\amuletsandrings\\genericamulets.dds",
+        "provider": "T4724 Faultier's PBR Skyrim AIO 2k tweak",
+        "bytes": 699212,
+        "sha256": "f71cc1b691bdc1458c26021625052b16769e631e2f9d4485e787c19b203dbe2b"
+      },
+      "source_anno_candidate": {
+        "kind": "missing"
+      },
+      "requested_by": []
+    },
+    {
+      "path_key": "textures/pbr/armor/amuletsandrings/genericamulets_n.dds",
+      "decision": "inherit_base",
+      "selected_source": {
+        "kind": "loose",
+        "relative_path": "textures/pbr/armor/amuletsandrings/genericamulets_n.dds",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T4724 Faultier's PBR Skyrim AIO 2k tweak\\textures\\pbr\\armor\\amuletsandrings\\genericamulets_n.dds",
+        "provider": "T4724 Faultier's PBR Skyrim AIO 2k tweak",
+        "bytes": 1398276,
+        "sha256": "cbc898ad8bd87c91ba4615e1d00a97a87dd8ac7f51d3e7f5e0c902a257fa2963"
+      },
+      "source_anno_candidate": {
+        "kind": "missing"
+      },
+      "requested_by": []
+    },
+    {
+      "path_key": "textures/pbr/armor/amuletsandrings/genericamulets_rmaos.dds",
+      "decision": "inherit_base",
+      "selected_source": {
+        "kind": "loose",
+        "relative_path": "textures/pbr/armor/amuletsandrings/genericamulets_rmaos.dds",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T4724 Faultier's PBR Skyrim AIO 2k tweak\\textures\\pbr\\armor\\amuletsandrings\\genericamulets_rmaos.dds",
+        "provider": "T4724 Faultier's PBR Skyrim AIO 2k tweak",
+        "bytes": 1398276,
+        "sha256": "e2aad8e7b752b811a7f29300fe2dc95d5b517902ce6b5c04cb6b738c41dc2390"
+      },
+      "source_anno_candidate": {
+        "kind": "missing"
+      },
+      "requested_by": []
+    },
+    {
+      "path_key": "textures/pbr/armor/amuletsandrings/genericamulets_s.dds",
+      "decision": "inherit_base",
+      "selected_source": {
+        "kind": "loose",
+        "relative_path": "textures/pbr/armor/amuletsandrings/genericamulets_s.dds",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T4724 Faultier's PBR Skyrim AIO 2k tweak\\textures\\pbr\\armor\\amuletsandrings\\genericamulets_s.dds",
+        "provider": "T4724 Faultier's PBR Skyrim AIO 2k tweak",
+        "bytes": 22020,
+        "sha256": "6bd7e82a8309cebdbb82186fa57ba1ecaad342294b39fe2920c66d3a3eddfcfb"
+      },
+      "source_anno_candidate": {
+        "kind": "missing"
+      },
+      "requested_by": []
+    },
+    {
+      "path_key": "textures/pbr/clutter/common/cratewood01.dds",
+      "decision": "inherit_base",
+      "selected_source": {
+        "kind": "loose",
+        "relative_path": "textures/pbr/clutter/common/cratewood01.dds",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T4724 Faultier's PBR Skyrim AIO 2k tweak\\textures\\pbr\\clutter\\common\\cratewood01.dds",
+        "provider": "T4724 Faultier's PBR Skyrim AIO 2k tweak",
+        "bytes": 1398268,
+        "sha256": "6ca61afd4ac927c5f2e7fe6283f05dcb14df6861c7818a2fa3b6e213bdf65661"
+      },
+      "source_anno_candidate": {
+        "kind": "loose",
+        "physical_path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\杂物材质替换-Skyland Bits and Bobs PBR\\textures\\pbr\\clutter\\common\\cratewood01.dds",
+        "relative_path": "textures/pbr/clutter/common/cratewood01.dds",
+        "mod_id": 1145,
+        "sha256": "871ae2908469b07314b3a7e8877fa7465473c153e2e76cb798b674e9f8d4088e",
+        "bytes": 2796388
+      },
+      "requested_by": []
+    },
+    {
+      "path_key": "textures/pbr/clutter/common/cratewood01_n.dds",
+      "decision": "inherit_base",
+      "selected_source": {
+        "kind": "loose",
+        "relative_path": "textures/pbr/clutter/common/cratewood01_n.dds",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T4724 Faultier's PBR Skyrim AIO 2k tweak\\textures\\pbr\\clutter\\common\\cratewood01_n.dds",
+        "provider": "T4724 Faultier's PBR Skyrim AIO 2k tweak",
+        "bytes": 2796388,
+        "sha256": "ecc5c04b9e591368c73b4b71570ac442ce3595ac9f5f8d520797b7960f797b16"
+      },
+      "source_anno_candidate": {
+        "kind": "loose",
+        "physical_path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\杂物材质替换-Skyland Bits and Bobs PBR\\textures\\pbr\\clutter\\common\\cratewood01_n.dds",
+        "relative_path": "textures/pbr/clutter/common/cratewood01_n.dds",
+        "mod_id": 1145,
+        "sha256": "04ef8ee686e516d8bbd151b3a1a0f9f89e11c52fb8138bac1da7e686ab4eccf8",
+        "bytes": 2796388
+      },
+      "requested_by": []
+    },
+    {
+      "path_key": "textures/pbr/clutter/common/cratewood01_p.dds",
+      "decision": "inherit_base",
+      "selected_source": {
+        "kind": "loose",
+        "relative_path": "textures/pbr/clutter/common/cratewood01_p.dds",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T4724 Faultier's PBR Skyrim AIO 2k tweak\\textures\\pbr\\clutter\\common\\cratewood01_p.dds",
+        "provider": "T4724 Faultier's PBR Skyrim AIO 2k tweak",
+        "bytes": 87548,
+        "sha256": "21aaa3af77883785947c39098b9e38726dc408ecb2cde6c6e18e8dfdd6715906"
+      },
+      "source_anno_candidate": {
+        "kind": "loose",
+        "physical_path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\杂物材质替换-Skyland Bits and Bobs PBR\\textures\\pbr\\clutter\\common\\cratewood01_p.dds",
+        "relative_path": "textures/pbr/clutter/common/cratewood01_p.dds",
+        "mod_id": 1145,
+        "sha256": "4022ff91c190ba1f47242bd8cd06fb7a8e7a37cb09eb10fe1654979ddcb3ff32",
+        "bytes": 349692
+      },
+      "requested_by": []
+    },
+    {
+      "path_key": "textures/pbr/clutter/common/cratewood01_rmaos.dds",
+      "decision": "inherit_base",
+      "selected_source": {
+        "kind": "loose",
+        "relative_path": "textures/pbr/clutter/common/cratewood01_rmaos.dds",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T4724 Faultier's PBR Skyrim AIO 2k tweak\\textures\\pbr\\clutter\\common\\cratewood01_rmaos.dds",
+        "provider": "T4724 Faultier's PBR Skyrim AIO 2k tweak",
+        "bytes": 349692,
+        "sha256": "2e3dfc44c8982b996b1fb713122f686412adeeab94a63a2d47732ff2632c1cbf"
+      },
+      "source_anno_candidate": {
+        "kind": "loose",
+        "physical_path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\杂物材质替换-Skyland Bits and Bobs PBR\\textures\\pbr\\clutter\\common\\cratewood01_rmaos.dds",
+        "relative_path": "textures/pbr/clutter/common/cratewood01_rmaos.dds",
+        "mod_id": 1145,
+        "sha256": "1996310db1e295add22487cdfc18920b8f3079081fe0134b41dc8bf4084f0f1a",
+        "bytes": 349692
+      },
+      "requested_by": []
+    },
+    {
+      "path_key": "textures/pbr/clutter/common/cratewood03.dds",
+      "decision": "inherit_base",
+      "selected_source": {
+        "kind": "loose",
+        "relative_path": "textures/pbr/clutter/common/cratewood03.dds",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T4724 Faultier's PBR Skyrim AIO 2k tweak\\textures\\pbr\\clutter\\common\\cratewood03.dds",
+        "provider": "T4724 Faultier's PBR Skyrim AIO 2k tweak",
+        "bytes": 1398268,
+        "sha256": "1feecd8ce1f321a83057867ec2c086f8a5c896897fd4c38be1bc903aa27a02fa"
+      },
+      "source_anno_candidate": {
+        "kind": "loose",
+        "physical_path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\杂物材质替换-Skyland Bits and Bobs PBR\\textures\\pbr\\clutter\\common\\cratewood03.dds",
+        "relative_path": "textures/pbr/clutter/common/cratewood03.dds",
+        "mod_id": 1145,
+        "sha256": "fa594683af21f4d551a1de5f434829ea371568f73d82cacfa6398167da495b0c",
+        "bytes": 11184996
+      },
+      "requested_by": []
+    },
+    {
+      "path_key": "textures/pbr/clutter/common/cratewood03_n.dds",
+      "decision": "inherit_base",
+      "selected_source": {
+        "kind": "loose",
+        "relative_path": "textures/pbr/clutter/common/cratewood03_n.dds",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T4724 Faultier's PBR Skyrim AIO 2k tweak\\textures\\pbr\\clutter\\common\\cratewood03_n.dds",
+        "provider": "T4724 Faultier's PBR Skyrim AIO 2k tweak",
+        "bytes": 2796388,
+        "sha256": "0fb179f8e43606a48f3572e7da1e16d194a11bc939fb698ff4eae077349aadd8"
+      },
+      "source_anno_candidate": {
+        "kind": "loose",
+        "physical_path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\杂物材质替换-Skyland Bits and Bobs PBR\\textures\\pbr\\clutter\\common\\cratewood03_n.dds",
+        "relative_path": "textures/pbr/clutter/common/cratewood03_n.dds",
+        "mod_id": 1145,
+        "sha256": "dfe5a017027a3aeb29b573784fe0e778567e4b207414985d4cc9a7864458048f",
+        "bytes": 11184996
+      },
+      "requested_by": []
+    },
+    {
+      "path_key": "textures/pbr/clutter/common/cratewood03_p.dds",
+      "decision": "inherit_base",
+      "selected_source": {
+        "kind": "loose",
+        "relative_path": "textures/pbr/clutter/common/cratewood03_p.dds",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T4724 Faultier's PBR Skyrim AIO 2k tweak\\textures\\pbr\\clutter\\common\\cratewood03_p.dds",
+        "provider": "T4724 Faultier's PBR Skyrim AIO 2k tweak",
+        "bytes": 87548,
+        "sha256": "29998f8c2e42565fd086041d0ea75a6386a249c8c969ef0b1bbb0770053a59e6"
+      },
+      "source_anno_candidate": {
+        "kind": "loose",
+        "physical_path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\杂物材质替换-Skyland Bits and Bobs PBR\\textures\\pbr\\clutter\\common\\cratewood03_p.dds",
+        "relative_path": "textures/pbr/clutter/common/cratewood03_p.dds",
+        "mod_id": 1145,
+        "sha256": "be6b0502186a058e85091983282bc2401320c7207a10eb0fddc9717283a4cac1",
+        "bytes": 349692
+      },
+      "requested_by": []
+    },
+    {
+      "path_key": "textures/pbr/clutter/common/cratewood03_rmaos.dds",
+      "decision": "inherit_base",
+      "selected_source": {
+        "kind": "loose",
+        "relative_path": "textures/pbr/clutter/common/cratewood03_rmaos.dds",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T4724 Faultier's PBR Skyrim AIO 2k tweak\\textures\\pbr\\clutter\\common\\cratewood03_rmaos.dds",
+        "provider": "T4724 Faultier's PBR Skyrim AIO 2k tweak",
+        "bytes": 349692,
+        "sha256": "689438484aac73295f0c4d2a723808d24371641a1c39e9e8106ed9931f98b930"
+      },
+      "source_anno_candidate": {
+        "kind": "loose",
+        "physical_path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\杂物材质替换-Skyland Bits and Bobs PBR\\textures\\pbr\\clutter\\common\\cratewood03_rmaos.dds",
+        "relative_path": "textures/pbr/clutter/common/cratewood03_rmaos.dds",
+        "mod_id": 1145,
+        "sha256": "2ae0970121a799735f7ead83aef8674a3a1dc8e1c9f9e41237ee13d735a67e14",
+        "bytes": 349692
+      },
+      "requested_by": []
+    },
+    {
+      "path_key": "textures/pbr/architecture/whiterun/wrtrims01.dds",
+      "decision": "inherit_base",
+      "selected_source": {
+        "kind": "loose",
+        "relative_path": "textures/PBR/architecture/whiterun/wrtrims01.dds",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6467 [PBR] Tomato's Whiterun PBR 2k\\textures\\PBR\\architecture\\whiterun\\wrtrims01.dds",
+        "provider": "T6467 [PBR] Tomato's Whiterun PBR 2k",
+        "bytes": 5592580,
+        "sha256": "f18158203a6e9b2941fe27ebf003c06b7586d1ce55d5a88f2dcd87ce4de22477"
+      },
+      "source_anno_candidate": {
+        "kind": "loose",
+        "physical_path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【白漫】总材质（删除石墙）Tomato's Whiterun PBR 1k\\textures\\PBR\\architecture\\whiterun\\wrtrims01.dds",
+        "relative_path": "textures/PBR/architecture/whiterun/wrtrims01.dds",
+        "mod_id": 553,
+        "sha256": "eaf144638403f40c7de28df61e7884f7c19e0f1f005c431b031df88a70474337",
+        "bytes": 1398276
+      },
+      "requested_by": []
+    },
+    {
+      "path_key": "textures/pbr/architecture/whiterun/wrtrims01_n.dds",
+      "decision": "inherit_base",
+      "selected_source": {
+        "kind": "loose",
+        "relative_path": "textures/PBR/architecture/whiterun/wrtrims01_n.dds",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6467 [PBR] Tomato's Whiterun PBR 2k\\textures\\PBR\\architecture\\whiterun\\wrtrims01_n.dds",
+        "provider": "T6467 [PBR] Tomato's Whiterun PBR 2k",
+        "bytes": 5592580,
+        "sha256": "0a9c6a9ded4b6e31a0061e4f37fac10ccaf51a426e740532b914be576858fe2f"
+      },
+      "source_anno_candidate": {
+        "kind": "loose",
+        "physical_path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【白漫】总材质（删除石墙）Tomato's Whiterun PBR 1k\\textures\\PBR\\architecture\\whiterun\\wrtrims01_n.dds",
+        "relative_path": "textures/PBR/architecture/whiterun/wrtrims01_n.dds",
+        "mod_id": 553,
+        "sha256": "91f9b602ceac01453e5ed7145db7221a2d309053ca78b2c1dd05494759d0a39e",
+        "bytes": 1398276
+      },
+      "requested_by": []
+    },
+    {
+      "path_key": "textures/pbr/architecture/whiterun/wrtrims01_p.dds",
+      "decision": "inherit_base",
+      "selected_source": {
+        "kind": "loose",
+        "relative_path": "textures/PBR/architecture/whiterun/wrtrims01_p.dds",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6467 [PBR] Tomato's Whiterun PBR 2k\\textures\\PBR\\architecture\\whiterun\\wrtrims01_p.dds",
+        "provider": "T6467 [PBR] Tomato's Whiterun PBR 2k",
+        "bytes": 174904,
+        "sha256": "85d295a39a9594f99b270f45bfa5ff4998158ea143963c0e4395668865435342"
+      },
+      "source_anno_candidate": {
+        "kind": "loose",
+        "physical_path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【白漫】总材质（删除石墙）Tomato's Whiterun PBR 1k\\textures\\PBR\\architecture\\whiterun\\wrtrims01_p.dds",
+        "relative_path": "textures/PBR/architecture/whiterun/wrtrims01_p.dds",
+        "mod_id": 553,
+        "sha256": "389784db3eb194b4cb0392cb6486c4d526c5d08f106bd7a86c862885d629e9b0",
+        "bytes": 43832
+      },
+      "requested_by": []
+    },
+    {
+      "path_key": "textures/pbr/architecture/whiterun/wrtrims01_rmaos.dds",
+      "decision": "inherit_base",
+      "selected_source": {
+        "kind": "loose",
+        "relative_path": "textures/PBR/architecture/whiterun/wrtrims01_rmaos.dds",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6467 [PBR] Tomato's Whiterun PBR 2k\\textures\\PBR\\architecture\\whiterun\\wrtrims01_rmaos.dds",
+        "provider": "T6467 [PBR] Tomato's Whiterun PBR 2k",
+        "bytes": 2796344,
+        "sha256": "7397c3fb50248bba91b6f1b184664192b189fa21364f26e75e6b0812bd232b73"
+      },
+      "source_anno_candidate": {
+        "kind": "loose",
+        "physical_path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【白漫】总材质（删除石墙）Tomato's Whiterun PBR 1k\\textures\\PBR\\architecture\\whiterun\\wrtrims01_rmaos.dds",
+        "relative_path": "textures/PBR/architecture/whiterun/wrtrims01_rmaos.dds",
+        "mod_id": 553,
+        "sha256": "7b07d732fd2c159ba7a4b5cb9c82ee898174152ddb349d55db00411c66948b9d",
+        "bytes": 699192
+      },
+      "requested_by": []
+    },
+    {
+      "path_key": "textures/dungeons/finewood.dds",
+      "decision": "inherit_base",
+      "selected_source": {
+        "kind": "bsa",
+        "archive": "LegacyoftheDragonborn0 - Textures.bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6269 [LED]Legacy of the Dragonborn v6.10.0\\LegacyoftheDragonborn0 - Textures.bsa",
+        "archive_sha256": "27c5a3ed0ce1a38463978057c442abed60bdc8fda23d78193c1075f93f3a4950",
+        "metadata_archive_id": 102,
+        "entry": "textures/dungeons/finewood.dds",
+        "sha256": "8ed5f211eb565bf3ad347799beb8a6f03f872eaa0406e5f4f6eaabfd870ad667",
+        "bytes": 349700,
+        "provider": "T6269 [LED]Legacy of the Dragonborn v6.10.0",
+        "order": 71
+      },
+      "source_anno_candidate": {
+        "kind": "bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\Legacy of the Dragonborn\\LegacyoftheDragonborn0 - Textures.bsa",
+        "archive_id": 215,
+        "archive_sha256": "27c5a3ed0ce1a38463978057c442abed60bdc8fda23d78193c1075f93f3a4950",
+        "entry": "textures/dungeons/finewood.dds",
+        "sha256": "8ed5f211eb565bf3ad347799beb8a6f03f872eaa0406e5f4f6eaabfd870ad667",
+        "bytes": 349700,
+        "mod_id": 79
+      },
+      "requested_by": []
+    },
+    {
+      "path_key": "textures/architecture/whiterun/wrtemplefloor01_n.dds",
+      "decision": "inherit_base",
+      "selected_source": {
+        "kind": "loose",
+        "relative_path": "textures/architecture/whiterun/wrtemplefloor01_n.dds",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6032 VramR Output v\\textures\\architecture\\whiterun\\wrtemplefloor01_n.dds",
+        "provider": "T6032 VramR Output v",
+        "bytes": 349700,
+        "sha256": "338afd2b6b4dfc999e28be0ad0ef8cba86ea0c922d9f4f7c0a1ffae448c5633c"
+      },
+      "source_anno_candidate": {
+        "kind": "bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\StockGame\\Data\\Skyrim - Textures1.bsa",
+        "archive_id": 81,
+        "archive_sha256": "d7a6af325a55f27c5af686d4bd34ed0cccf750714a20f8b792cb718cf08eb344",
+        "entry": "textures/architecture/whiterun/wrtemplefloor01_n.dds",
+        "sha256": "d41b24e9dd2e45f94e370ca25608a182e1880cc5a7d435baa4f478ae3bc70eb7",
+        "bytes": 1398240,
+        "mod_id": null
+      },
+      "requested_by": []
+    },
+    {
+      "path_key": "textures/architecture/farmhouse/woodwall01_n.dds",
+      "decision": "inherit_base",
+      "selected_source": {
+        "kind": "loose",
+        "relative_path": "textures/architecture/farmhouse/woodwall01_n.dds",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6032 VramR Output v\\textures\\architecture\\farmhouse\\woodwall01_n.dds",
+        "provider": "T6032 VramR Output v",
+        "bytes": 349700,
+        "sha256": "89e5d8ae0036c0e754fd4602ab0ff2f54d086b785d7eb1c08f8042972b5a0efb"
+      },
+      "source_anno_candidate": {
+        "kind": "loose",
+        "physical_path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【农舍材质】普通远景用-Vanaheimr - Farmhouses\\Textures\\architecture\\farmhouse\\woodwall01_n.dds",
+        "relative_path": "Textures/architecture/farmhouse/woodwall01_n.dds",
+        "mod_id": 219,
+        "sha256": "cdf63d1762cd604d01e8f86a4cb74af2ea345a46e85b31b2a9a7e9c25a73b982",
+        "bytes": 5592580
+      },
+      "requested_by": []
+    },
+    {
+      "path_key": "textures/architecture/whiterun/wrstoneblocks01_n.dds",
+      "decision": "inherit_base",
+      "selected_source": {
+        "kind": "loose",
+        "relative_path": "textures/architecture/whiterun/wrstoneblocks01_n.dds",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6032 VramR Output v\\textures\\architecture\\whiterun\\wrstoneblocks01_n.dds",
+        "provider": "T6032 VramR Output v",
+        "bytes": 349700,
+        "sha256": "34f91baec25241d9fd3a26b9bbbf81dd1546f820b7b6e53e8a36623453adf0fb"
+      },
+      "source_anno_candidate": {
+        "kind": "bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\StockGame\\Data\\Skyrim - Textures1.bsa",
+        "archive_id": 81,
+        "archive_sha256": "d7a6af325a55f27c5af686d4bd34ed0cccf750714a20f8b792cb718cf08eb344",
+        "entry": "textures/architecture/whiterun/wrstoneblocks01_n.dds",
+        "sha256": "9badadb9484628ae9674fc94af238cfcab85496f84296c3c7208c40775ece159",
+        "bytes": 1398240,
+        "mod_id": null
+      },
+      "requested_by": []
+    },
+    {
+      "path_key": "textures/dbm resources/museumplaque.dds",
+      "decision": "inherit_base",
+      "selected_source": {
+        "kind": "bsa",
+        "archive": "LegacyoftheDragonborn - Textures.bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6269 [LED]Legacy of the Dragonborn v6.10.0\\LegacyoftheDragonborn - Textures.bsa",
+        "archive_sha256": "a62a600ac37ff86ebc288a541579cf545685202f2d920ee168da3a896b7f1454",
+        "metadata_archive_id": 104,
+        "entry": "textures/dbm resources/museumplaque.dds",
+        "sha256": "24dfa070eedc62ea3e1fbe33256e9fdff24915172d490c329bd04dd711cd647a",
+        "bytes": 349700,
+        "provider": "T6269 [LED]Legacy of the Dragonborn v6.10.0",
+        "order": 23
+      },
+      "source_anno_candidate": {
+        "kind": "bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\Legacy of the Dragonborn\\LegacyoftheDragonborn - Textures.bsa",
+        "archive_id": 217,
+        "archive_sha256": "a62a600ac37ff86ebc288a541579cf545685202f2d920ee168da3a896b7f1454",
+        "entry": "textures/dbm resources/museumplaque.dds",
+        "sha256": "24dfa070eedc62ea3e1fbe33256e9fdff24915172d490c329bd04dd711cd647a",
+        "bytes": 349700,
+        "mod_id": 79
+      },
+      "requested_by": []
+    },
+    {
+      "path_key": "textures/architecture/whiterun/wrplasterint01_n.dds",
+      "decision": "inherit_base",
+      "selected_source": {
+        "kind": "loose",
+        "relative_path": "textures/architecture/whiterun/wrplasterint01_n.dds",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6032 VramR Output v\\textures\\architecture\\whiterun\\wrplasterint01_n.dds",
+        "provider": "T6032 VramR Output v",
+        "bytes": 349700,
+        "sha256": "e1ada13ae3587221e027ee8cfde421c9833e5a375bd0d4ed0f2be6b541ca987b"
+      },
+      "source_anno_candidate": {
+        "kind": "bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\StockGame\\Data\\Skyrim - Textures1.bsa",
+        "archive_id": 81,
+        "archive_sha256": "d7a6af325a55f27c5af686d4bd34ed0cccf750714a20f8b792cb718cf08eb344",
+        "entry": "textures/architecture/whiterun/wrplasterint01_n.dds",
+        "sha256": "406757bcb5444331e765f9397822d778b04f7e249e4ce72e4fc827dc22246d61",
+        "bytes": 1398240,
+        "mod_id": null
+      },
+      "requested_by": []
+    },
+    {
+      "path_key": "textures/landscape/mountains/mountainslab02.dds",
+      "decision": "inherit_base",
+      "selected_source": {
+        "kind": "loose",
+        "relative_path": "textures/landscape/mountains/Mountainslab02.dds",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6364 [LED]Tomato's Grey AIO Mountains\\textures\\landscape\\mountains\\Mountainslab02.dds",
+        "provider": "T6364 [LED]Tomato's Grey AIO Mountains",
+        "bytes": 89478660,
+        "sha256": "d56463a5b2d63c79dbbb5a058896d57f4b48d034e76326949d39774d05ae90cd"
+      },
+      "source_anno_candidate": {
+        "kind": "bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\StockGame\\Data\\Skyrim - Textures5.bsa",
+        "archive_id": 77,
+        "archive_sha256": "8ad74f1c96e67f8c928b0b46a64c361fa256d6558cd9e052ad4fcf6160b80681",
+        "entry": "textures/landscape/mountains/mountainslab02.dds",
+        "sha256": "82c62d9da6b472f2a238672a1bf09b4e36f0891b4927083d9ac59f7dda519014",
+        "bytes": 11184944,
+        "mod_id": null
+      },
+      "requested_by": []
+    },
+    {
+      "path_key": "textures/landscape/mountains/mountainslab02_n.dds",
+      "decision": "inherit_base",
+      "selected_source": {
+        "kind": "loose",
+        "relative_path": "textures/landscape/mountains/Mountainslab02_n.dds",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6364 [LED]Tomato's Grey AIO Mountains\\textures\\landscape\\mountains\\Mountainslab02_n.dds",
+        "provider": "T6364 [LED]Tomato's Grey AIO Mountains",
+        "bytes": 89478660,
+        "sha256": "54d2e7a7711c47f0aab650a69fdb9c5650d32d298e28c577ea59577e65c48436"
+      },
+      "source_anno_candidate": {
+        "kind": "bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\StockGame\\Data\\Skyrim - Textures5.bsa",
+        "archive_id": 77,
+        "archive_sha256": "8ad74f1c96e67f8c928b0b46a64c361fa256d6558cd9e052ad4fcf6160b80681",
+        "entry": "textures/landscape/mountains/mountainslab02_n.dds",
+        "sha256": "b4e2f6dd068eb30defbe9a858e1a641490acb2de899a821fb833ee6f589bddcc",
+        "bytes": 22369760,
+        "mod_id": null
+      },
+      "requested_by": []
+    },
+    {
+      "path_key": "textures/landscape/mountains/mountainslab02_p.dds",
+      "decision": "inherit_base",
+      "selected_source": {
+        "kind": "loose",
+        "relative_path": "textures/landscape/mountains/Mountainslab02_p.dds",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6364 [LED]Tomato's Grey AIO Mountains\\textures\\landscape\\mountains\\Mountainslab02_p.dds",
+        "provider": "T6364 [LED]Tomato's Grey AIO Mountains",
+        "bytes": 4194452,
+        "sha256": "6f45080fa704df081bdeb1963dda6c5f1481ae75e52e014e3287e499ca536f73"
+      },
+      "source_anno_candidate": {
+        "kind": "missing"
+      },
+      "requested_by": []
+    },
+    {
+      "path_key": "textures/pbr/weapons/ebony/ebonyscabbards.dds",
+      "decision": "inherit_base",
+      "selected_source": {
+        "kind": "loose",
+        "relative_path": "Textures/pbr/weapons/ebony/Ebonyscabbards.dds",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6056 Weapons and Armors Remastered - PBR (4k)\\Textures\\pbr\\weapons\\ebony\\Ebonyscabbards.dds",
+        "provider": "T6056 Weapons and Armors Remastered - PBR (4k)",
+        "bytes": 5592580,
+        "sha256": "f3b55c3589b48921704facb752e0333748918d26a8350edcc04d1ea0e7a7f925"
+      },
+      "source_anno_candidate": {
+        "kind": "loose",
+        "physical_path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\原版装备材质替换-Faultier's PBR conversion of Xavbio's armors - vanilla res\\textures\\PBR\\weapons\\ebony\\ebonyscabbards.dds",
+        "relative_path": "textures/PBR/weapons/ebony/ebonyscabbards.dds",
+        "mod_id": 908,
+        "sha256": "a9d1f8c89649472d9a0aa45a0c24c7acd9c799aad47a8b82e3d7f2e45fecbd98",
+        "bytes": 699212
+      },
+      "requested_by": []
+    },
+    {
+      "path_key": "textures/pbr/weapons/ebony/ebonyscabbards_n.dds",
+      "decision": "inherit_base",
+      "selected_source": {
+        "kind": "loose",
+        "relative_path": "Textures/pbr/weapons/ebony/Ebonyscabbards_n.dds",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6056 Weapons and Armors Remastered - PBR (4k)\\Textures\\pbr\\weapons\\ebony\\Ebonyscabbards_n.dds",
+        "provider": "T6056 Weapons and Armors Remastered - PBR (4k)",
+        "bytes": 5592580,
+        "sha256": "846ca2141726982190f0017457bd37be6c47607f4800ceae68998fb4f0ecc6aa"
+      },
+      "source_anno_candidate": {
+        "kind": "loose",
+        "physical_path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\原版装备材质替换-Faultier's PBR conversion of Xavbio's armors - vanilla res\\textures\\PBR\\weapons\\ebony\\ebonyscabbards_n.dds",
+        "relative_path": "textures/PBR/weapons/ebony/ebonyscabbards_n.dds",
+        "mod_id": 908,
+        "sha256": "ae999e405f7f85f813077133a6e95da7802600fd69d3f818a56e415384958726",
+        "bytes": 1398276
+      },
+      "requested_by": []
+    },
+    {
+      "path_key": "textures/pbr/weapons/ebony/ebonyscabbards_rmaos.dds",
+      "decision": "inherit_base",
+      "selected_source": {
+        "kind": "loose",
+        "relative_path": "Textures/pbr/weapons/ebony/Ebonyscabbards_rmaos.dds",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6056 Weapons and Armors Remastered - PBR (4k)\\Textures\\pbr\\weapons\\ebony\\Ebonyscabbards_rmaos.dds",
+        "provider": "T6056 Weapons and Armors Remastered - PBR (4k)",
+        "bytes": 699212,
+        "sha256": "beb0b72ad10e23456bb2e68c58badacb57be41e6aeed5434bc79ec95e5aaae67"
+      },
+      "source_anno_candidate": {
+        "kind": "loose",
+        "physical_path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\原版装备材质替换-Faultier's PBR conversion of Xavbio's armors - vanilla res\\textures\\PBR\\weapons\\ebony\\ebonyscabbards_rmaos.dds",
+        "relative_path": "textures/PBR/weapons/ebony/ebonyscabbards_rmaos.dds",
+        "mod_id": 908,
+        "sha256": "2a19c39c888597cdbba23451aad709a951ba7a73f8b57fba8f7bd2c90173ac45",
+        "bytes": 699192
+      },
+      "requested_by": []
+    },
+    {
+      "path_key": "textures/blood/bloodedge01.dds",
+      "decision": "inherit_base",
+      "selected_source": {
+        "kind": "bsa",
+        "archive": "DCR_KingCrusaderHeavyWarRegalia_SSE - Textures.bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6205 [LED]DCR King Crusader Heavy War Regalia SSE [킹 크루세이더]\\DCR_KingCrusaderHeavyWarRegalia_SSE - Textures.bsa",
+        "archive_sha256": "e1ed3d5220e099fda86c9bd284fddcf7c8f028246e753921ccb833c14813e2da",
+        "metadata_archive_id": 358,
+        "entry": "textures/blood/bloodedge01.dds",
+        "sha256": "78b1da7ec467cb0165df2ad21a2519372f5636e455dfae238f2dd30079707bb1",
+        "bytes": 2796368,
+        "provider": "T6205 [LED]DCR King Crusader Heavy War Regalia SSE [킹 크루세이더]",
+        "order": 181
+      },
+      "source_anno_candidate": {
+        "kind": "bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【服装】黑沙服装包-BDOR Pack by TeamTAL pack 2.0\\DM BDOR Pack by Team TAL - Textures.bsa",
+        "archive_id": 478,
+        "archive_sha256": "cfb14be4f35fefd61406f8edf84622942a8fc52c7e54955faa77d45d70e0428f",
+        "entry": "textures/blood/bloodedge01.dds",
+        "sha256": "c34d5049f9b2892a328c2c866df5bd2c3eeb33573df0b43e0fc55e81840d7abd",
+        "bytes": 699216,
+        "mod_id": 409
+      },
+      "requested_by": []
+    },
+    {
+      "path_key": "textures/blood/bloodedge01add.dds",
+      "decision": "inherit_base",
+      "selected_source": {
+        "kind": "bsa",
+        "archive": "DCR_KingCrusaderHeavyWarRegalia_SSE - Textures.bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6205 [LED]DCR King Crusader Heavy War Regalia SSE [킹 크루세이더]\\DCR_KingCrusaderHeavyWarRegalia_SSE - Textures.bsa",
+        "archive_sha256": "e1ed3d5220e099fda86c9bd284fddcf7c8f028246e753921ccb833c14813e2da",
+        "metadata_archive_id": 358,
+        "entry": "textures/blood/bloodedge01add.dds",
+        "sha256": "5f540a20028ca9591980338e80f2275ec7a0e96cf441d9e54d72b31fe12d09fd",
+        "bytes": 2796368,
+        "provider": "T6205 [LED]DCR King Crusader Heavy War Regalia SSE [킹 크루세이더]",
+        "order": 181
+      },
+      "source_anno_candidate": {
+        "kind": "bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【服装】黑沙服装包-BDOR Pack by TeamTAL pack 2.0\\DM BDOR Pack by Team TAL - Textures.bsa",
+        "archive_id": 478,
+        "archive_sha256": "cfb14be4f35fefd61406f8edf84622942a8fc52c7e54955faa77d45d70e0428f",
+        "entry": "textures/blood/bloodedge01add.dds",
+        "sha256": "6d52bc334f34a2d44e10a220e44ca9db7d96530beb7b11233e63e17eebabf3c4",
+        "bytes": 699216,
+        "mod_id": 409
+      },
+      "requested_by": []
+    },
+    {
+      "path_key": "textures/blood/bloodedge01_n.dds",
+      "decision": "inherit_base",
+      "selected_source": {
+        "kind": "loose",
+        "relative_path": "textures/blood/bloodedge01_n.dds",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6032 VramR Output v\\textures\\blood\\bloodedge01_n.dds",
+        "provider": "T6032 VramR Output v",
+        "bytes": 174948,
+        "sha256": "192727aba95d66db2eb643ffb6daca05b858d426b3a99a3a8e2980bba640c0df"
+      },
+      "source_anno_candidate": {
+        "kind": "bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【服装】黑沙服装包-BDOR Pack by TeamTAL pack 2.0\\DM BDOR Pack by Team TAL - Textures.bsa",
+        "archive_id": 478,
+        "archive_sha256": "cfb14be4f35fefd61406f8edf84622942a8fc52c7e54955faa77d45d70e0428f",
+        "entry": "textures/blood/bloodedge01_n.dds",
+        "sha256": "fb9c46a521611217b17778100ede32a3f67c014acb10831b7ac63b3dd7dda1cf",
+        "bytes": 699216,
+        "mod_id": 409
+      },
+      "requested_by": []
+    },
+    {
+      "path_key": "textures/pbr/weapons/ebony/ebonysword.dds",
+      "decision": "inherit_base",
+      "selected_source": {
+        "kind": "loose",
+        "relative_path": "Textures/pbr/weapons/ebony/Ebonysword.dds",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6056 Weapons and Armors Remastered - PBR (4k)\\Textures\\pbr\\weapons\\ebony\\Ebonysword.dds",
+        "provider": "T6056 Weapons and Armors Remastered - PBR (4k)",
+        "bytes": 5592580,
+        "sha256": "5d92cf053ec0f5e8f48ce28f2a99292127c0c35f23f8d6d375581ee8b59d5fb4"
+      },
+      "source_anno_candidate": {
+        "kind": "loose",
+        "physical_path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\原版装备材质替换-Faultier's PBR conversion of Xavbio's armors - vanilla res\\textures\\PBR\\weapons\\ebony\\ebonysword.dds",
+        "relative_path": "textures/PBR/weapons/ebony/ebonysword.dds",
+        "mod_id": 908,
+        "sha256": "0a55fd2448747caad44f5013c4ccecfd750ddd089c4d319d8e4be5f67c542c00",
+        "bytes": 699212
+      },
+      "requested_by": []
+    },
+    {
+      "path_key": "textures/pbr/weapons/ebony/ebonysword_n.dds",
+      "decision": "inherit_base",
+      "selected_source": {
+        "kind": "loose",
+        "relative_path": "Textures/pbr/weapons/ebony/Ebonysword_n.dds",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6056 Weapons and Armors Remastered - PBR (4k)\\Textures\\pbr\\weapons\\ebony\\Ebonysword_n.dds",
+        "provider": "T6056 Weapons and Armors Remastered - PBR (4k)",
+        "bytes": 5592580,
+        "sha256": "ed111ada4bfd24f9b41ab5f3a0631f2e01723aea1799f9bea2140a7d0568ebfb"
+      },
+      "source_anno_candidate": {
+        "kind": "loose",
+        "physical_path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\原版装备材质替换-Faultier's PBR conversion of Xavbio's armors - vanilla res\\textures\\PBR\\weapons\\ebony\\ebonysword_n.dds",
+        "relative_path": "textures/PBR/weapons/ebony/ebonysword_n.dds",
+        "mod_id": 908,
+        "sha256": "291313a92ece8b17a55b5454a252ecfd4bc775d22aadd48ce9ed3e68cb8219cb",
+        "bytes": 1398276
+      },
+      "requested_by": []
+    },
+    {
+      "path_key": "textures/pbr/weapons/ebony/ebonysword_rmaos.dds",
+      "decision": "inherit_base",
+      "selected_source": {
+        "kind": "loose",
+        "relative_path": "Textures/pbr/weapons/ebony/Ebonysword_rmaos.dds",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6056 Weapons and Armors Remastered - PBR (4k)\\Textures\\pbr\\weapons\\ebony\\Ebonysword_rmaos.dds",
+        "provider": "T6056 Weapons and Armors Remastered - PBR (4k)",
+        "bytes": 699212,
+        "sha256": "25af3db20c90418b3551130fa485679710a244bc378a4efee6c3b5bd1fe855ce"
+      },
+      "source_anno_candidate": {
+        "kind": "loose",
+        "physical_path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\原版装备材质替换-Faultier's PBR conversion of Xavbio's armors - vanilla res\\textures\\PBR\\weapons\\ebony\\ebonysword_rmaos.dds",
+        "relative_path": "textures/PBR/weapons/ebony/ebonysword_rmaos.dds",
+        "mod_id": 908,
+        "sha256": "bceaed6bf4ad5f2bdb9271ff9a0307550129cc154abb527e827774fbd1db56ac",
+        "bytes": 699192
+      },
+      "requested_by": []
+    },
+    {
+      "path_key": "textures/cubemaps/eyecubemap.dds",
+      "decision": "inherit_base",
+      "selected_source": {
+        "kind": "loose",
+        "relative_path": "textures/cubemaps/eyecubemap.dds",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6470 [SLAMA1210]Seamless Cubemaps\\textures\\cubemaps\\eyecubemap.dds",
+        "provider": "T6470 [SLAMA1210]Seamless Cubemaps",
+        "bytes": 131380,
+        "sha256": "a1bcb615dc1721ecbbc3933ec0ae9cbed7e2daaf2756e3aa407386102967969f"
+      },
+      "source_anno_candidate": {
+        "kind": "loose",
+        "physical_path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\textures\\cubemaps\\eyecubemap.dds",
+        "relative_path": "textures/cubemaps/eyecubemap.dds",
+        "mod_id": 28,
+        "sha256": "5bc9991b4f64ac5631788826e9f32c293c30930ce372f746cd55a6af4ee84ef1",
+        "bytes": 5648
+      },
+      "requested_by": []
+    },
+    {
+      "path_key": "textures/weapons/draugr/draugrsword.dds",
+      "decision": "inherit_base",
+      "selected_source": {
+        "kind": "loose",
+        "relative_path": "textures/weapons/draugr/draugrsword.dds",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T4219 Ancient Nord Armors and Weapons Retexture SE\\textures\\weapons\\draugr\\draugrsword.dds",
+        "provider": "T4219 Ancient Nord Armors and Weapons Retexture SE",
+        "bytes": 5592580,
+        "sha256": "d2148c055e1561c697d96b2ebe68d33271bfe8e33043bbe1975cdc42dc0017d0"
+      },
+      "source_anno_candidate": {
+        "kind": "bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\StockGame\\Data\\Skyrim - Textures7.bsa",
+        "archive_id": 75,
+        "archive_sha256": "1503de093d34ac3f933d553c378287e6c48cddc8a00f7de2490a38967c16edbb",
+        "entry": "textures/weapons/draugr/draugrsword.dds",
+        "sha256": "6f23c926cee4a7920012e70610057209aecde20112cd495e4d1d95d8da6aed86",
+        "bytes": 5592544,
+        "mod_id": null
+      },
+      "requested_by": []
+    },
+    {
+      "path_key": "textures/weapons/draugr/draugrsword_n.dds",
+      "decision": "inherit_base",
+      "selected_source": {
+        "kind": "loose",
+        "relative_path": "textures/weapons/draugr/draugrsword_n.dds",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6032 VramR Output v\\textures\\weapons\\draugr\\draugrsword_n.dds",
+        "provider": "T6032 VramR Output v",
+        "bytes": 349700,
+        "sha256": "265dc5af6e426254b742f3e986fa941e6548bdc07aac4707dc92a35238add9e4"
+      },
+      "source_anno_candidate": {
+        "kind": "bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\StockGame\\Data\\Skyrim - Textures7.bsa",
+        "archive_id": 75,
+        "archive_sha256": "1503de093d34ac3f933d553c378287e6c48cddc8a00f7de2490a38967c16edbb",
+        "entry": "textures/weapons/draugr/draugrsword_n.dds",
+        "sha256": "622822a8e24dfe6402563490dafe66276630ce4557c638ec452b8fe577354682",
+        "bytes": 5592544,
+        "mod_id": null
+      },
+      "requested_by": []
+    },
+    {
+      "path_key": "textures/cubemaps/ore_ebony_e.dds",
+      "decision": "inherit_base",
+      "selected_source": {
+        "kind": "loose",
+        "relative_path": "textures/cubemaps/ore_ebony_e.dds",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6470 [SLAMA1210]Seamless Cubemaps\\textures\\cubemaps\\ore_ebony_e.dds",
+        "provider": "T6470 [SLAMA1210]Seamless Cubemaps",
+        "bytes": 131380,
+        "sha256": "6d6af46f2642a4e50209cb7a3f4a2143fc805290b4f90d463c7cd902b1e997a8"
+      },
+      "source_anno_candidate": {
+        "kind": "loose",
+        "physical_path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\textures\\cubemaps\\ore_ebony_e.dds",
+        "relative_path": "textures/cubemaps/ore_ebony_e.dds",
+        "mod_id": 28,
+        "sha256": "477084d386e6518e8c471cf1df0f5383800f0b60b28438520de8dd6e0df79479",
+        "bytes": 4304
+      },
+      "requested_by": []
+    },
+    {
+      "path_key": "textures/weapons/draugr/draugrsword_m.dds",
+      "decision": "inherit_base",
+      "selected_source": {
+        "kind": "loose",
+        "relative_path": "textures/weapons/draugr/draugrsword_m.dds",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6032 VramR Output v\\textures\\weapons\\draugr\\draugrsword_m.dds",
+        "provider": "T6032 VramR Output v",
+        "bytes": 349700,
+        "sha256": "17aa8d0f6d47ffcb5cf0481953ee2c4ea14b8f73dee279cc67a562659dbafae1"
+      },
+      "source_anno_candidate": {
+        "kind": "bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\StockGame\\Data\\Skyrim - Textures7.bsa",
+        "archive_id": 75,
+        "archive_sha256": "1503de093d34ac3f933d553c378287e6c48cddc8a00f7de2490a38967c16edbb",
+        "entry": "textures/weapons/draugr/draugrsword_m.dds",
+        "sha256": "6af414067e7c52e835375f24e3b26cfc71ec47b30855bc5c8ad68ff8c6434f9a",
+        "bytes": 349664,
+        "mod_id": null
+      },
+      "requested_by": []
+    },
+    {
+      "path_key": "textures/weapons/draugr/draugrarrow.dds",
+      "decision": "inherit_base",
+      "selected_source": {
+        "kind": "loose",
+        "relative_path": "textures/weapons/draugr/draugrarrow.dds",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T4219 Ancient Nord Armors and Weapons Retexture SE\\textures\\weapons\\draugr\\draugrarrow.dds",
+        "provider": "T4219 Ancient Nord Armors and Weapons Retexture SE",
+        "bytes": 5592580,
+        "sha256": "e96dec9e0fe4ba8186be5b623e5798349e6276da596e1f1b36423e736ad3bad1"
+      },
+      "source_anno_candidate": {
+        "kind": "bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\StockGame\\Data\\Skyrim - Textures7.bsa",
+        "archive_id": 75,
+        "archive_sha256": "1503de093d34ac3f933d553c378287e6c48cddc8a00f7de2490a38967c16edbb",
+        "entry": "textures/weapons/draugr/draugrarrow.dds",
+        "sha256": "63b04c33cc722549a6c20678e0d229bf02bf20c4e1359f7fe87ae2a62dd4eca9",
+        "bytes": 1398240,
+        "mod_id": null
+      },
+      "requested_by": []
+    },
+    {
+      "path_key": "textures/weapons/draugr/draugrarrow_n.dds",
+      "decision": "inherit_base",
+      "selected_source": {
+        "kind": "loose",
+        "relative_path": "textures/weapons/draugr/draugrarrow_n.dds",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6032 VramR Output v\\textures\\weapons\\draugr\\draugrarrow_n.dds",
+        "provider": "T6032 VramR Output v",
+        "bytes": 349700,
+        "sha256": "962d26bf81baf0983da3f7d04a59c0912f9e74ff5dda7a61e10679e65ab9d7c4"
+      },
+      "source_anno_candidate": {
+        "kind": "bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\StockGame\\Data\\Skyrim - Textures7.bsa",
+        "archive_id": 75,
+        "archive_sha256": "1503de093d34ac3f933d553c378287e6c48cddc8a00f7de2490a38967c16edbb",
+        "entry": "textures/weapons/draugr/draugrarrow_n.dds",
+        "sha256": "ce9d3e6fc8fa0ab1b32ac6a9d85a9c0ae410b9afd07c5d22b23d7cb7eee8b50f",
+        "bytes": 5592544,
+        "mod_id": null
+      },
+      "requested_by": []
+    },
+    {
+      "path_key": "textures/weapons/draugr/draugrarrow_m.dds",
+      "decision": "inherit_base",
+      "selected_source": {
+        "kind": "loose",
+        "relative_path": "textures/weapons/draugr/draugrarrow_m.dds",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6032 VramR Output v\\textures\\weapons\\draugr\\draugrarrow_m.dds",
+        "provider": "T6032 VramR Output v",
+        "bytes": 349700,
+        "sha256": "ff622399867520991ac655a9eb2073dfabcd0b28bf4688a0085c0ed1800b7c47"
+      },
+      "source_anno_candidate": {
+        "kind": "bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\StockGame\\Data\\Skyrim - Textures7.bsa",
+        "archive_id": 75,
+        "archive_sha256": "1503de093d34ac3f933d553c378287e6c48cddc8a00f7de2490a38967c16edbb",
+        "entry": "textures/weapons/draugr/draugrarrow_m.dds",
+        "sha256": "f545bd83eda9fc2adc51225ad7997ad8bb31a4ac7063d5fb49b05cb3252a38e9",
+        "bytes": 349664,
+        "mod_id": null
+      },
+      "requested_by": []
+    },
+    {
+      "path_key": "textures/sky/skyrimcloudsmap01.dds",
+      "decision": "inherit_base",
+      "selected_source": {
+        "kind": "bsa",
+        "archive": "Skyrim - Textures5.bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\ZZ80 Consistent stock data\\Skyrim - Textures5.bsa",
+        "archive_sha256": "8ad74f1c96e67f8c928b0b46a64c361fa256d6558cd9e052ad4fcf6160b80681",
+        "metadata_archive_id": 26,
+        "entry": "textures/sky/skyrimcloudsmap01.dds",
+        "sha256": "7be0aa9fb6541db9cbbbaeeebb914e440b17bf7124a7743b6eb2254b84e70747",
+        "bytes": 1398240,
+        "provider": "ZZ80 Consistent stock data",
+        "order": 13
+      },
+      "source_anno_candidate": {
+        "kind": "loose",
+        "physical_path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\原版云改进-Vanilla Clouds Upscaled-119003-1-0-1715232981\\textures\\sky\\skyrimcloudsmap01.dds",
+        "relative_path": "textures/sky/skyrimcloudsmap01.dds",
+        "mod_id": 903,
+        "sha256": "c622ecf716bfc318cbf8dc79b7bf4fc629ded13c60a8a3cff2a1c0b820df4525",
+        "bytes": 22369796
+      },
+      "requested_by": []
+    },
+    {
+      "path_key": "textures/sky/skyrimcloudlut.dds",
+      "decision": "inherit_base",
+      "selected_source": {
+        "kind": "bsa",
+        "archive": "Skyrim - Textures5.bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\ZZ80 Consistent stock data\\Skyrim - Textures5.bsa",
+        "archive_sha256": "8ad74f1c96e67f8c928b0b46a64c361fa256d6558cd9e052ad4fcf6160b80681",
+        "metadata_archive_id": 26,
+        "entry": "textures/sky/skyrimcloudlut.dds",
+        "sha256": "094be3d9f46b92f30eb37b013668fcbddc2295b81d5aaf1deca85f508d714c6c",
+        "bytes": 174896,
+        "provider": "ZZ80 Consistent stock data",
+        "order": 13
+      },
+      "source_anno_candidate": {
+        "kind": "bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\StockGame\\Data\\Skyrim - Textures5.bsa",
+        "archive_id": 77,
+        "archive_sha256": "8ad74f1c96e67f8c928b0b46a64c361fa256d6558cd9e052ad4fcf6160b80681",
+        "entry": "textures/sky/skyrimcloudlut.dds",
+        "sha256": "094be3d9f46b92f30eb37b013668fcbddc2295b81d5aaf1deca85f508d714c6c",
+        "bytes": 174896,
+        "mod_id": null
+      },
+      "requested_by": []
+    },
+    {
+      "path_key": "textures/dungeons/finewood_n.dds",
+      "decision": "inherit_base",
+      "selected_source": {
+        "kind": "bsa",
+        "archive": "LegacyoftheDragonborn0 - Textures.bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6269 [LED]Legacy of the Dragonborn v6.10.0\\LegacyoftheDragonborn0 - Textures.bsa",
+        "archive_sha256": "27c5a3ed0ce1a38463978057c442abed60bdc8fda23d78193c1075f93f3a4950",
+        "metadata_archive_id": 102,
+        "entry": "textures/dungeons/finewood_n.dds",
+        "sha256": "af1de055421fa24e886812db8679c35cfc5c2c11e66313f664201513fa30a598",
+        "bytes": 349700,
+        "provider": "T6269 [LED]Legacy of the Dragonborn v6.10.0",
+        "order": 71
+      },
+      "source_anno_candidate": {
+        "kind": "bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\Legacy of the Dragonborn\\LegacyoftheDragonborn0 - Textures.bsa",
+        "archive_id": 215,
+        "archive_sha256": "27c5a3ed0ce1a38463978057c442abed60bdc8fda23d78193c1075f93f3a4950",
+        "entry": "textures/dungeons/finewood_n.dds",
+        "sha256": "af1de055421fa24e886812db8679c35cfc5c2c11e66313f664201513fa30a598",
+        "bytes": 349700,
+        "mod_id": 79
+      },
+      "requested_by": []
+    },
+    {
+      "path_key": "textures/armor/dwarven/m/000fcdwarvenarmor.dds",
+      "decision": "inherit_standalone_feature_or_stage_if_absent",
+      "selected_source": {
+        "kind": "bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\The Forgotten City\\forgottencity - textures.bsa",
+        "archive_id": 438,
+        "archive_sha256": "be881dfbb140684a8f2df9d5151717a73476cca64b6b809c5b8a9b915dc9f33f",
+        "entry": "textures/armor/dwarven/m/000fcdwarvenarmor.dds",
+        "sha256": "085cf2921792291e036293f88438bf52d5c432809f0e8486f51417150c5c8256",
+        "bytes": 699192,
+        "mod_id": 137
+      },
+      "source_anno_candidate": {
+        "kind": "bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\The Forgotten City\\forgottencity - textures.bsa",
+        "archive_id": 438,
+        "archive_sha256": "be881dfbb140684a8f2df9d5151717a73476cca64b6b809c5b8a9b915dc9f33f",
+        "entry": "textures/armor/dwarven/m/000fcdwarvenarmor.dds",
+        "sha256": "085cf2921792291e036293f88438bf52d5c432809f0e8486f51417150c5c8256",
+        "bytes": 699192,
+        "mod_id": 137
+      },
+      "requested_by": []
+    },
+    {
+      "path_key": "textures/armor/dwarven/m/000fcdwarvenarmor_n.dds",
+      "decision": "inherit_standalone_feature_or_stage_if_absent",
+      "selected_source": {
+        "kind": "bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\The Forgotten City\\forgottencity - textures.bsa",
+        "archive_id": 438,
+        "archive_sha256": "be881dfbb140684a8f2df9d5151717a73476cca64b6b809c5b8a9b915dc9f33f",
+        "entry": "textures/armor/dwarven/m/000fcdwarvenarmor_n.dds",
+        "sha256": "fddcba10198871b6ae6a1c413fa816399ec777106d1298a9cdb1e6f4bf44a99a",
+        "bytes": 5592532,
+        "mod_id": 137
+      },
+      "source_anno_candidate": {
+        "kind": "bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\The Forgotten City\\forgottencity - textures.bsa",
+        "archive_id": 438,
+        "archive_sha256": "be881dfbb140684a8f2df9d5151717a73476cca64b6b809c5b8a9b915dc9f33f",
+        "entry": "textures/armor/dwarven/m/000fcdwarvenarmor_n.dds",
+        "sha256": "fddcba10198871b6ae6a1c413fa816399ec777106d1298a9cdb1e6f4bf44a99a",
+        "bytes": 5592532,
+        "mod_id": 137
+      },
+      "requested_by": []
+    },
+    {
+      "path_key": "textures/cubemaps/bronze_e.dds",
+      "decision": "inherit_base",
+      "selected_source": {
+        "kind": "loose",
+        "relative_path": "textures/cubemaps/bronze_e.dds",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6471 [SLAMA1210]Seamless Dynamic Cubemaps\\textures\\cubemaps\\bronze_e.dds",
+        "provider": "T6471 [SLAMA1210]Seamless Dynamic Cubemaps",
+        "bytes": 152,
+        "sha256": "de37d3199bbda79fef1b702495eaa30ffc11ba4089e67afa1a5ead1442ee55e6"
+      },
+      "source_anno_candidate": {
+        "kind": "loose",
+        "physical_path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\textures\\cubemaps\\bronze_e.dds",
+        "relative_path": "textures/cubemaps/bronze_e.dds",
+        "mod_id": 28,
+        "sha256": "5b6a29f318798bd4140611b5cd835d8fb67b9730470eff90d1fa07c5b648b4c5",
+        "bytes": 1048784
+      },
+      "requested_by": []
+    },
+    {
+      "path_key": "textures/armor/dwarven/m/000fcdwarvenarmor_m.dds",
+      "decision": "inherit_standalone_feature_or_stage_if_absent",
+      "selected_source": {
+        "kind": "bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\The Forgotten City\\forgottencity - textures.bsa",
+        "archive_id": 438,
+        "archive_sha256": "be881dfbb140684a8f2df9d5151717a73476cca64b6b809c5b8a9b915dc9f33f",
+        "entry": "textures/armor/dwarven/m/000fcdwarvenarmor_m.dds",
+        "sha256": "ff9456d9f9d527cf1163b662d2d90f6cd15d2f6a7c8e9442c950cdece8b9f490",
+        "bytes": 699192,
+        "mod_id": 137
+      },
+      "source_anno_candidate": {
+        "kind": "bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\The Forgotten City\\forgottencity - textures.bsa",
+        "archive_id": 438,
+        "archive_sha256": "be881dfbb140684a8f2df9d5151717a73476cca64b6b809c5b8a9b915dc9f33f",
+        "entry": "textures/armor/dwarven/m/000fcdwarvenarmor_m.dds",
+        "sha256": "ff9456d9f9d527cf1163b662d2d90f6cd15d2f6a7c8e9442c950cdece8b9f490",
+        "bytes": 699192,
+        "mod_id": 137
+      },
+      "requested_by": []
+    },
+    {
+      "path_key": "textures/armor/dwarven/m/000fcdwarvenhelmetmale.dds",
+      "decision": "inherit_standalone_feature_or_stage_if_absent",
+      "selected_source": {
+        "kind": "bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\The Forgotten City\\forgottencity - textures.bsa",
+        "archive_id": 438,
+        "archive_sha256": "be881dfbb140684a8f2df9d5151717a73476cca64b6b809c5b8a9b915dc9f33f",
+        "entry": "textures/armor/dwarven/m/000fcdwarvenhelmetmale.dds",
+        "sha256": "c728a2aed4d6df8d6c4c0f2ddcd5e5570b936a9ba9d638210455bca843f8fe19",
+        "bytes": 174904,
+        "mod_id": 137
+      },
+      "source_anno_candidate": {
+        "kind": "bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\The Forgotten City\\forgottencity - textures.bsa",
+        "archive_id": 438,
+        "archive_sha256": "be881dfbb140684a8f2df9d5151717a73476cca64b6b809c5b8a9b915dc9f33f",
+        "entry": "textures/armor/dwarven/m/000fcdwarvenhelmetmale.dds",
+        "sha256": "c728a2aed4d6df8d6c4c0f2ddcd5e5570b936a9ba9d638210455bca843f8fe19",
+        "bytes": 174904,
+        "mod_id": 137
+      },
+      "requested_by": []
+    },
+    {
+      "path_key": "textures/armor/dwarven/m/000fcdwarvenhelmetmale_n.dds",
+      "decision": "inherit_standalone_feature_or_stage_if_absent",
+      "selected_source": {
+        "kind": "bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\The Forgotten City\\forgottencity - textures.bsa",
+        "archive_id": 438,
+        "archive_sha256": "be881dfbb140684a8f2df9d5151717a73476cca64b6b809c5b8a9b915dc9f33f",
+        "entry": "textures/armor/dwarven/m/000fcdwarvenhelmetmale_n.dds",
+        "sha256": "32ce13feadd93cf57c353996f2327b6f99cccf9a0941a047632f36f2b5ae269c",
+        "bytes": 1398228,
+        "mod_id": 137
+      },
+      "source_anno_candidate": {
+        "kind": "bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\The Forgotten City\\forgottencity - textures.bsa",
+        "archive_id": 438,
+        "archive_sha256": "be881dfbb140684a8f2df9d5151717a73476cca64b6b809c5b8a9b915dc9f33f",
+        "entry": "textures/armor/dwarven/m/000fcdwarvenhelmetmale_n.dds",
+        "sha256": "32ce13feadd93cf57c353996f2327b6f99cccf9a0941a047632f36f2b5ae269c",
+        "bytes": 1398228,
+        "mod_id": 137
+      },
+      "requested_by": []
+    },
+    {
+      "path_key": "textures/armor/dwarven/m/000fcdwarvenhelmetmale_m.dds",
+      "decision": "inherit_standalone_feature_or_stage_if_absent",
+      "selected_source": {
+        "kind": "bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\The Forgotten City\\forgottencity - textures.bsa",
+        "archive_id": 438,
+        "archive_sha256": "be881dfbb140684a8f2df9d5151717a73476cca64b6b809c5b8a9b915dc9f33f",
+        "entry": "textures/armor/dwarven/m/000fcdwarvenhelmetmale_m.dds",
+        "sha256": "3f8bd422821cc0bf53c5a365c61e601dd986e6acc7ffbefbbb9d8ce554d8ac8d",
+        "bytes": 174904,
+        "mod_id": 137
+      },
+      "source_anno_candidate": {
+        "kind": "bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\The Forgotten City\\forgottencity - textures.bsa",
+        "archive_id": 438,
+        "archive_sha256": "be881dfbb140684a8f2df9d5151717a73476cca64b6b809c5b8a9b915dc9f33f",
+        "entry": "textures/armor/dwarven/m/000fcdwarvenhelmetmale_m.dds",
+        "sha256": "3f8bd422821cc0bf53c5a365c61e601dd986e6acc7ffbefbbb9d8ce554d8ac8d",
+        "bytes": 174904,
+        "mod_id": 137
+      },
+      "requested_by": []
+    },
+    {
+      "path_key": "textures/armor/dwarven/m/000fcdwarvengauntlets.dds",
+      "decision": "inherit_standalone_feature_or_stage_if_absent",
+      "selected_source": {
+        "kind": "bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\The Forgotten City\\forgottencity - textures.bsa",
+        "archive_id": 438,
+        "archive_sha256": "be881dfbb140684a8f2df9d5151717a73476cca64b6b809c5b8a9b915dc9f33f",
+        "entry": "textures/armor/dwarven/m/000fcdwarvengauntlets.dds",
+        "sha256": "6c802c7f211c5c8245ebdd54a26ec459374cb8c11f688cda47ded30a4cd50a27",
+        "bytes": 131200,
+        "mod_id": 137
+      },
+      "source_anno_candidate": {
+        "kind": "bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\The Forgotten City\\forgottencity - textures.bsa",
+        "archive_id": 438,
+        "archive_sha256": "be881dfbb140684a8f2df9d5151717a73476cca64b6b809c5b8a9b915dc9f33f",
+        "entry": "textures/armor/dwarven/m/000fcdwarvengauntlets.dds",
+        "sha256": "6c802c7f211c5c8245ebdd54a26ec459374cb8c11f688cda47ded30a4cd50a27",
+        "bytes": 131200,
+        "mod_id": 137
+      },
+      "requested_by": []
+    },
+    {
+      "path_key": "textures/armor/dwarven/m/000fcdwarvengauntlets_n.dds",
+      "decision": "inherit_standalone_feature_or_stage_if_absent",
+      "selected_source": {
+        "kind": "bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\The Forgotten City\\forgottencity - textures.bsa",
+        "archive_id": 438,
+        "archive_sha256": "be881dfbb140684a8f2df9d5151717a73476cca64b6b809c5b8a9b915dc9f33f",
+        "entry": "textures/armor/dwarven/m/000fcdwarvengauntlets_n.dds",
+        "sha256": "1e4b09acd2c30e737134cb4fb3932ba74b2361315389d4e6a74a158aa36fab0a",
+        "bytes": 1398228,
+        "mod_id": 137
+      },
+      "source_anno_candidate": {
+        "kind": "bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\The Forgotten City\\forgottencity - textures.bsa",
+        "archive_id": 438,
+        "archive_sha256": "be881dfbb140684a8f2df9d5151717a73476cca64b6b809c5b8a9b915dc9f33f",
+        "entry": "textures/armor/dwarven/m/000fcdwarvengauntlets_n.dds",
+        "sha256": "1e4b09acd2c30e737134cb4fb3932ba74b2361315389d4e6a74a158aa36fab0a",
+        "bytes": 1398228,
+        "mod_id": 137
+      },
+      "requested_by": []
+    },
+    {
+      "path_key": "textures/armor/dwarven/m/000fcdwarvengauntlets_m.dds",
+      "decision": "inherit_standalone_feature_or_stage_if_absent",
+      "selected_source": {
+        "kind": "bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\The Forgotten City\\forgottencity - textures.bsa",
+        "archive_id": 438,
+        "archive_sha256": "be881dfbb140684a8f2df9d5151717a73476cca64b6b809c5b8a9b915dc9f33f",
+        "entry": "textures/armor/dwarven/m/000fcdwarvengauntlets_m.dds",
+        "sha256": "81e4aff02111dd9500ffac45d95feff90c4f031bec4b1270326c8ec7dc5d2c46",
+        "bytes": 131200,
+        "mod_id": 137
+      },
+      "source_anno_candidate": {
+        "kind": "bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\The Forgotten City\\forgottencity - textures.bsa",
+        "archive_id": 438,
+        "archive_sha256": "be881dfbb140684a8f2df9d5151717a73476cca64b6b809c5b8a9b915dc9f33f",
+        "entry": "textures/armor/dwarven/m/000fcdwarvengauntlets_m.dds",
+        "sha256": "81e4aff02111dd9500ffac45d95feff90c4f031bec4b1270326c8ec7dc5d2c46",
+        "bytes": 131200,
+        "mod_id": 137
+      },
+      "requested_by": []
+    },
+    {
+      "path_key": "textures/armor/dwarven/m/000fcdwarvenboots.dds",
+      "decision": "inherit_standalone_feature_or_stage_if_absent",
+      "selected_source": {
+        "kind": "bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\The Forgotten City\\forgottencity - textures.bsa",
+        "archive_id": 438,
+        "archive_sha256": "be881dfbb140684a8f2df9d5151717a73476cca64b6b809c5b8a9b915dc9f33f",
+        "entry": "textures/armor/dwarven/m/000fcdwarvenboots.dds",
+        "sha256": "feffd1e50ef7ece84bc390a5ac83e9fbf15d982480efb9ba9d1493299460bd1a",
+        "bytes": 131200,
+        "mod_id": 137
+      },
+      "source_anno_candidate": {
+        "kind": "bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\The Forgotten City\\forgottencity - textures.bsa",
+        "archive_id": 438,
+        "archive_sha256": "be881dfbb140684a8f2df9d5151717a73476cca64b6b809c5b8a9b915dc9f33f",
+        "entry": "textures/armor/dwarven/m/000fcdwarvenboots.dds",
+        "sha256": "feffd1e50ef7ece84bc390a5ac83e9fbf15d982480efb9ba9d1493299460bd1a",
+        "bytes": 131200,
+        "mod_id": 137
+      },
+      "requested_by": []
+    },
+    {
+      "path_key": "textures/armor/dwarven/m/000fcdwarvenboots_n.dds",
+      "decision": "inherit_standalone_feature_or_stage_if_absent",
+      "selected_source": {
+        "kind": "bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\The Forgotten City\\forgottencity - textures.bsa",
+        "archive_id": 438,
+        "archive_sha256": "be881dfbb140684a8f2df9d5151717a73476cca64b6b809c5b8a9b915dc9f33f",
+        "entry": "textures/armor/dwarven/m/000fcdwarvenboots_n.dds",
+        "sha256": "faec521fd3352948f0ad089b5222f754e7c856622610b54945ab30f33501a6f8",
+        "bytes": 1398228,
+        "mod_id": 137
+      },
+      "source_anno_candidate": {
+        "kind": "bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\The Forgotten City\\forgottencity - textures.bsa",
+        "archive_id": 438,
+        "archive_sha256": "be881dfbb140684a8f2df9d5151717a73476cca64b6b809c5b8a9b915dc9f33f",
+        "entry": "textures/armor/dwarven/m/000fcdwarvenboots_n.dds",
+        "sha256": "faec521fd3352948f0ad089b5222f754e7c856622610b54945ab30f33501a6f8",
+        "bytes": 1398228,
+        "mod_id": 137
+      },
+      "requested_by": []
+    },
+    {
+      "path_key": "textures/armor/dwarven/m/000fcdwarvenboots_m.dds",
+      "decision": "inherit_standalone_feature_or_stage_if_absent",
+      "selected_source": {
+        "kind": "bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\The Forgotten City\\forgottencity - textures.bsa",
+        "archive_id": 438,
+        "archive_sha256": "be881dfbb140684a8f2df9d5151717a73476cca64b6b809c5b8a9b915dc9f33f",
+        "entry": "textures/armor/dwarven/m/000fcdwarvenboots_m.dds",
+        "sha256": "94d7baba3b72a5a9812459bf31cbde0f73228ca0c8c19dd402db2af328db8eaa",
+        "bytes": 131200,
+        "mod_id": 137
+      },
+      "source_anno_candidate": {
+        "kind": "bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\The Forgotten City\\forgottencity - textures.bsa",
+        "archive_id": 438,
+        "archive_sha256": "be881dfbb140684a8f2df9d5151717a73476cca64b6b809c5b8a9b915dc9f33f",
+        "entry": "textures/armor/dwarven/m/000fcdwarvenboots_m.dds",
+        "sha256": "94d7baba3b72a5a9812459bf31cbde0f73228ca0c8c19dd402db2af328db8eaa",
+        "bytes": 131200,
+        "mod_id": 137
+      },
+      "requested_by": []
+    },
+    {
+      "path_key": "textures/armor/amuletsandrings/genericamulets.dds",
+      "decision": "inherit_base",
+      "selected_source": {
+        "kind": "bsa",
+        "archive": "Skyrim - Textures2.bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\ZZ80 Consistent stock data\\Skyrim - Textures2.bsa",
+        "archive_sha256": "fc762f3a08f88311d518b623a439c9898c0326ae952aaecd6dea0e722d74dd09",
+        "metadata_archive_id": 29,
+        "entry": "textures/armor/amuletsandrings/genericamulets.dds",
+        "sha256": "1db0d79747313886b96471c81ad35eaf6874951aa23afb239c367dc53ef3dd76",
+        "bytes": 699184,
+        "provider": "ZZ80 Consistent stock data",
+        "order": 10
+      },
+      "source_anno_candidate": {
+        "kind": "bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\StockGame\\Data\\Skyrim - Textures2.bsa",
+        "archive_id": 80,
+        "archive_sha256": "fc762f3a08f88311d518b623a439c9898c0326ae952aaecd6dea0e722d74dd09",
+        "entry": "textures/armor/amuletsandrings/genericamulets.dds",
+        "sha256": "1db0d79747313886b96471c81ad35eaf6874951aa23afb239c367dc53ef3dd76",
+        "bytes": 699184,
+        "mod_id": null
+      },
+      "requested_by": []
+    },
+    {
+      "path_key": "textures/armor/amuletsandrings/genericamulets_n.dds",
+      "decision": "inherit_base",
+      "selected_source": {
+        "kind": "loose",
+        "relative_path": "textures/armor/amuletsandrings/genericamulets_n.dds",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6032 VramR Output v\\textures\\armor\\amuletsandrings\\genericamulets_n.dds",
+        "provider": "T6032 VramR Output v",
+        "bytes": 349700,
+        "sha256": "c77123fd65bff05444ccd48620ff776415666c65e5f088992f2c4a7dfb3c7daf"
+      },
+      "source_anno_candidate": {
+        "kind": "bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\StockGame\\Data\\Skyrim - Textures2.bsa",
+        "archive_id": 80,
+        "archive_sha256": "fc762f3a08f88311d518b623a439c9898c0326ae952aaecd6dea0e722d74dd09",
+        "entry": "textures/armor/amuletsandrings/genericamulets_n.dds",
+        "sha256": "3b085f0cd04a4c096e90d13e9227fa9f7fcbf6c3e80990e13ee218bc397ab868",
+        "bytes": 1398240,
+        "mod_id": null
+      },
+      "requested_by": []
+    },
+    {
+      "path_key": "textures/cubemaps/shinydull_e.dds",
+      "decision": "inherit_base",
+      "selected_source": {
+        "kind": "loose",
+        "relative_path": "textures/cubemaps/shinydull_e.dds",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6471 [SLAMA1210]Seamless Dynamic Cubemaps\\textures\\cubemaps\\shinydull_e.dds",
+        "provider": "T6471 [SLAMA1210]Seamless Dynamic Cubemaps",
+        "bytes": 152,
+        "sha256": "de37d3199bbda79fef1b702495eaa30ffc11ba4089e67afa1a5ead1442ee55e6"
+      },
+      "source_anno_candidate": {
+        "kind": "loose",
+        "physical_path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\随机吃各种食物-Randomized Vanilla Food Animations\\textures\\cubemaps\\shinydull_e.dds",
+        "relative_path": "textures/cubemaps/shinydull_e.dds",
+        "mod_id": 1564,
+        "sha256": "df3de29a0f2bcf34d3838a1500662e9d312b17d0a59292112904b7a3fa1afef5",
+        "bytes": 4304
+      },
+      "requested_by": []
+    }
+  ],
+  "edges": [
+    {
+      "from": "meshes/clutter/civilwar/cwmapflagfortred01.nif",
+      "to": "textures/pbr/dungeons/imperial/battlemap01.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/clutter/civilwar/cwmapflagfortred01.nif",
+      "to": "textures/pbr/dungeons/imperial/battlemap01_n.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/clutter/civilwar/cwmapflagfortred01.nif",
+      "to": "textures/pbr/dungeons/imperial/battlemap01_p.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/clutter/civilwar/cwmapflagfortred01.nif",
+      "to": "textures/pbr/dungeons/imperial/battlemap01_rmaos.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/clutter/civilwar/cwmapflagfortred01.nif",
+      "to": "textures/pbr/dungeons/imperial/battlemap01_s.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/armor/amuletsandrings/silveramuletgo.nif",
+      "to": "textures/pbr/armor/amuletsandrings/genericamulets.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/armor/amuletsandrings/silveramuletgo.nif",
+      "to": "textures/pbr/armor/amuletsandrings/genericamulets_n.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/armor/amuletsandrings/silveramuletgo.nif",
+      "to": "textures/pbr/armor/amuletsandrings/genericamulets_rmaos.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/armor/amuletsandrings/silveramuletgo.nif",
+      "to": "textures/pbr/armor/amuletsandrings/genericamulets_s.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/dbm resources/dbm_cheatcrate.nif",
+      "to": "textures/pbr/clutter/common/cratewood01.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/dbm resources/dbm_cheatcrate.nif",
+      "to": "textures/pbr/clutter/common/cratewood01_n.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/dbm resources/dbm_cheatcrate.nif",
+      "to": "textures/pbr/clutter/common/cratewood01_p.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/dbm resources/dbm_cheatcrate.nif",
+      "to": "textures/pbr/clutter/common/cratewood01_rmaos.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/dbm resources/dbm_cheatcrate.nif",
+      "to": "textures/pbr/clutter/common/cratewood03.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/dbm resources/dbm_cheatcrate.nif",
+      "to": "textures/pbr/clutter/common/cratewood03_n.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/dbm resources/dbm_cheatcrate.nif",
+      "to": "textures/pbr/clutter/common/cratewood03_p.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/dbm resources/dbm_cheatcrate.nif",
+      "to": "textures/pbr/clutter/common/cratewood03_rmaos.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/dbm resources/dbm_cheatcrate.nif",
+      "to": "textures/pbr/architecture/whiterun/wrtrims01.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/dbm resources/dbm_cheatcrate.nif",
+      "to": "textures/pbr/architecture/whiterun/wrtrims01_n.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/dbm resources/dbm_cheatcrate.nif",
+      "to": "textures/pbr/architecture/whiterun/wrtrims01_p.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/dbm resources/dbm_cheatcrate.nif",
+      "to": "textures/pbr/architecture/whiterun/wrtrims01_rmaos.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/dbm resources/dbm_cheatcrate.nif",
+      "to": "textures/dungeons/finewood.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/dbm resources/dbm_cheatcrate.nif",
+      "to": "textures/architecture/whiterun/wrtemplefloor01_n.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/dbm resources/dbm_cheatcrate.nif",
+      "to": "textures/dungeons/finewood.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/dbm resources/dbm_cheatcrate.nif",
+      "to": "textures/architecture/farmhouse/woodwall01_n.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/dbm resources/dbm_cheatcrate.nif",
+      "to": "textures/dungeons/finewood.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/dbm resources/dbm_cheatcrate.nif",
+      "to": "textures/architecture/whiterun/wrstoneblocks01_n.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/dbm resources/dbm_cheatcrate.nif",
+      "to": "textures/dbm resources/museumplaque.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/dbm resources/dbm_cheatcrate.nif",
+      "to": "textures/architecture/whiterun/wrplasterint01_n.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/dungeons/caves/blackreach/blackreachecorner03.nif",
+      "to": "textures/landscape/mountains/mountainslab02.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/dungeons/caves/blackreach/blackreachecorner03.nif",
+      "to": "textures/landscape/mountains/mountainslab02_n.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/dungeons/caves/blackreach/blackreachecorner03.nif",
+      "to": "textures/landscape/mountains/mountainslab02_p.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/dungeons/caves/blackreach/blackreachecorner03.nif",
+      "to": "textures/landscape/mountains/mountainslab02.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/dungeons/caves/blackreach/blackreachecorner03.nif",
+      "to": "textures/landscape/mountains/mountainslab02_n.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/dungeons/caves/blackreach/blackreachecorner03.nif",
+      "to": "textures/landscape/mountains/mountainslab02_p.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/weapons/ebony/ebonysword.nif",
+      "to": "textures/pbr/weapons/ebony/ebonyscabbards.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/weapons/ebony/ebonysword.nif",
+      "to": "textures/pbr/weapons/ebony/ebonyscabbards_n.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/weapons/ebony/ebonysword.nif",
+      "to": "textures/pbr/weapons/ebony/ebonyscabbards_rmaos.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/weapons/ebony/ebonysword.nif",
+      "to": "textures/blood/bloodedge01.dds",
+      "field": "BSEffectShaderProperty:Source Texture"
+    },
+    {
+      "from": "meshes/weapons/ebony/ebonysword.nif",
+      "to": "textures/blood/bloodedge01add.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/weapons/ebony/ebonysword.nif",
+      "to": "textures/blood/bloodedge01_n.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/weapons/ebony/ebonysword.nif",
+      "to": "textures/pbr/weapons/ebony/ebonysword.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/weapons/ebony/ebonysword.nif",
+      "to": "textures/pbr/weapons/ebony/ebonysword_n.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/weapons/ebony/ebonysword.nif",
+      "to": "textures/pbr/weapons/ebony/ebonysword_rmaos.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/weapons/draugr/draugrsword.nif",
+      "to": "textures/blood/bloodedge01.dds",
+      "field": "BSEffectShaderProperty:Source Texture"
+    },
+    {
+      "from": "meshes/weapons/draugr/draugrsword.nif",
+      "to": "textures/blood/bloodedge01add.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/weapons/draugr/draugrsword.nif",
+      "to": "textures/blood/bloodedge01_n.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/weapons/draugr/draugrsword.nif",
+      "to": "textures/cubemaps/eyecubemap.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/weapons/draugr/draugrsword.nif",
+      "to": "textures/weapons/draugr/draugrsword.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/weapons/draugr/draugrsword.nif",
+      "to": "textures/weapons/draugr/draugrsword_n.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/weapons/draugr/draugrsword.nif",
+      "to": "textures/cubemaps/ore_ebony_e.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/weapons/draugr/draugrsword.nif",
+      "to": "textures/weapons/draugr/draugrsword_m.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/weapons/draugr/draugrsword.nif",
+      "to": "textures/weapons/draugr/draugrarrow.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/weapons/draugr/draugrsword.nif",
+      "to": "textures/weapons/draugr/draugrarrow_n.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/weapons/draugr/draugrsword.nif",
+      "to": "textures/cubemaps/ore_ebony_e.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/weapons/draugr/draugrsword.nif",
+      "to": "textures/weapons/draugr/draugrarrow_m.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/sky/wyrmstoothworldmapcloudbank.nif",
+      "to": "textures/sky/skyrimcloudsmap01.dds",
+      "field": "BSEffectShaderProperty:Source Texture"
+    },
+    {
+      "from": "meshes/sky/wyrmstoothworldmapcloudbank.nif",
+      "to": "textures/sky/skyrimcloudlut.dds",
+      "field": "BSEffectShaderProperty:Greyscale Texture"
+    },
+    {
+      "from": "meshes/sky/wyrmstoothworldmapcloudbank.nif",
+      "to": "textures/sky/skyrimcloudsmap01.dds",
+      "field": "BSEffectShaderProperty:Source Texture"
+    },
+    {
+      "from": "meshes/sky/wyrmstoothworldmapcloudbank.nif",
+      "to": "textures/sky/skyrimcloudlut.dds",
+      "field": "BSEffectShaderProperty:Greyscale Texture"
+    },
+    {
+      "from": "meshes/sky/wyrmstoothworldmapcloudbank.nif",
+      "to": "textures/sky/skyrimcloudsmap01.dds",
+      "field": "BSEffectShaderProperty:Source Texture"
+    },
+    {
+      "from": "meshes/sky/wyrmstoothworldmapcloudbank.nif",
+      "to": "textures/sky/skyrimcloudlut.dds",
+      "field": "BSEffectShaderProperty:Greyscale Texture"
+    },
+    {
+      "from": "meshes/dbm resources/museumplaque.nif",
+      "to": "textures/dbm resources/museumplaque.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/dbm resources/museumplaque.nif",
+      "to": "textures/architecture/whiterun/wrplasterint01_n.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/dbm resources/museumplaque.nif",
+      "to": "textures/pbr/architecture/whiterun/wrtrims01.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/dbm resources/museumplaque.nif",
+      "to": "textures/pbr/architecture/whiterun/wrtrims01_n.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/dbm resources/museumplaque.nif",
+      "to": "textures/pbr/architecture/whiterun/wrtrims01_p.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/dbm resources/museumplaque.nif",
+      "to": "textures/pbr/architecture/whiterun/wrtrims01_rmaos.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/dbm resources/museumplaque.nif",
+      "to": "textures/dungeons/finewood.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/dbm resources/museumplaque.nif",
+      "to": "textures/dungeons/finewood_n.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/dbm resources/immaculatearmordisp.nif",
+      "to": "textures/armor/dwarven/m/000fcdwarvenarmor.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/dbm resources/immaculatearmordisp.nif",
+      "to": "textures/armor/dwarven/m/000fcdwarvenarmor_n.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/dbm resources/immaculatearmordisp.nif",
+      "to": "textures/cubemaps/bronze_e.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/dbm resources/immaculatearmordisp.nif",
+      "to": "textures/armor/dwarven/m/000fcdwarvenarmor_m.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/dbm resources/immaculatearmordisp.nif",
+      "to": "textures/armor/dwarven/m/000fcdwarvenhelmetmale.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/dbm resources/immaculatearmordisp.nif",
+      "to": "textures/armor/dwarven/m/000fcdwarvenhelmetmale_n.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/dbm resources/immaculatearmordisp.nif",
+      "to": "textures/cubemaps/bronze_e.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/dbm resources/immaculatearmordisp.nif",
+      "to": "textures/armor/dwarven/m/000fcdwarvenhelmetmale_m.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/dbm resources/immaculatearmordisp.nif",
+      "to": "textures/armor/dwarven/m/000fcdwarvengauntlets.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/dbm resources/immaculatearmordisp.nif",
+      "to": "textures/armor/dwarven/m/000fcdwarvengauntlets_n.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/dbm resources/immaculatearmordisp.nif",
+      "to": "textures/cubemaps/bronze_e.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/dbm resources/immaculatearmordisp.nif",
+      "to": "textures/armor/dwarven/m/000fcdwarvengauntlets_m.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/dbm resources/immaculatearmordisp.nif",
+      "to": "textures/armor/dwarven/m/000fcdwarvenboots.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/dbm resources/immaculatearmordisp.nif",
+      "to": "textures/armor/dwarven/m/000fcdwarvenboots_n.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/dbm resources/immaculatearmordisp.nif",
+      "to": "textures/cubemaps/bronze_e.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/dbm resources/immaculatearmordisp.nif",
+      "to": "textures/armor/dwarven/m/000fcdwarvenboots_m.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/dbm resources/arbiterhelmdisp.nif",
+      "to": "textures/armor/dwarven/m/000fcdwarvenhelmetmale.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/dbm resources/arbiterhelmdisp.nif",
+      "to": "textures/armor/dwarven/m/000fcdwarvenhelmetmale_n.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/dbm resources/arbiterhelmdisp.nif",
+      "to": "textures/cubemaps/bronze_e.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/dbm resources/arbiterhelmdisp.nif",
+      "to": "textures/armor/dwarven/m/000fcdwarvenhelmetmale_m.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/dbm resources/tongueammystat.nif",
+      "to": "textures/armor/amuletsandrings/genericamulets.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/dbm resources/tongueammystat.nif",
+      "to": "textures/armor/amuletsandrings/genericamulets_n.dds",
+      "field": "BSShaderTextureSet"
+    },
+    {
+      "from": "meshes/dbm resources/tongueammystat.nif",
+      "to": "textures/cubemaps/shinydull_e.dds",
+      "field": "BSShaderTextureSet"
+    }
+  ],
+  "base_source_variants": [
+    {
+      "path_key": "meshes/clutter/civilwar/cwmapflagfortred01.nif",
+      "source_sha256": "f0ee10f7a788276c190e0407c3f323559e0c147f06f797a527304996fb9429f7",
+      "base_sha256": "a267ed834fe3ba537ed38283212834b43f8b0b8ff5d0c0cf1e0dd0db989410fe",
+      "decision": "Keep selected TuLED base resource winner; variant is explicit."
+    },
+    {
+      "path_key": "meshes/armor/amuletsandrings/silveramuletgo.nif",
+      "source_sha256": "9ef5d6dfe8bf465192ac930ba440a080c81d4a2c02d253e388cd27b4024c30ad",
+      "base_sha256": "027098950bb7925e11a65c63fd5fc111edc2f64e093903ced1cab7fcb086d675",
+      "decision": "Keep selected TuLED base resource winner; variant is explicit."
+    },
+    {
+      "path_key": "meshes/dbm resources/dbm_cheatcrate.nif",
+      "source_sha256": "357afd7b2458b3a25b7a57416cc42a47a0729896e2329f15f7875c95babda086",
+      "base_sha256": "ff15c6901c8d8dde9dbd980dab5dc14d1fd4df0607d55c8cb8db7c3786424d92",
+      "decision": "Keep selected TuLED base resource winner; variant is explicit."
+    },
+    {
+      "path_key": "meshes/dungeons/caves/blackreach/blackreachecorner03.nif",
+      "source_sha256": "e44eaffbf93f39527571c9665790c87a09d4bdfffd7f097c12ff862943e9f380",
+      "base_sha256": "13fc760386f201cc365599edf581072d80f008b606d31f16f5b999700cbabd7c",
+      "decision": "Keep selected TuLED base resource winner; variant is explicit."
+    },
+    {
+      "path_key": "meshes/weapons/ebony/ebonysword.nif",
+      "source_sha256": "88491b11933339f79bcc9281b3e6ecb3f09ad5d51d66d1173fddf0e6a3379fad",
+      "base_sha256": "83887ff03055bbd2c35c6059ca6d64b50aa0d6f42289be6e88e7570fa4bb0366",
+      "decision": "Keep selected TuLED base resource winner; variant is explicit."
+    },
+    {
+      "path_key": "meshes/weapons/draugr/draugrsword.nif",
+      "source_sha256": "793f51166347197cc6d3374c7c5d97b113153bffe385cfbf8f3671221511ea7c",
+      "base_sha256": "2a4ca07e1200f2f879ed0789dac350e69f5c6cb89a596d2b45f773cbdffeb0f3",
+      "decision": "Keep selected TuLED base resource winner; variant is explicit."
+    },
+    {
+      "path_key": "scripts/rn_supportedmod_script.pex",
+      "source_sha256": "82b581fefdfa1b0ab30b7b687e8aed70bc04a0101afc38868f56d3c0043019a0",
+      "base_sha256": "efc0f88b3d4891245b3da57a15ec4833592b8a1cea8a0d6613f03602716c701c",
+      "decision": "Keep selected TuLED base resource winner; variant is explicit."
+    },
+    {
+      "path_key": "textures/pbr/clutter/common/cratewood01.dds",
+      "source_sha256": "871ae2908469b07314b3a7e8877fa7465473c153e2e76cb798b674e9f8d4088e",
+      "base_sha256": "6ca61afd4ac927c5f2e7fe6283f05dcb14df6861c7818a2fa3b6e213bdf65661",
+      "decision": "Keep selected TuLED base resource winner; variant is explicit."
+    },
+    {
+      "path_key": "textures/pbr/clutter/common/cratewood01_n.dds",
+      "source_sha256": "04ef8ee686e516d8bbd151b3a1a0f9f89e11c52fb8138bac1da7e686ab4eccf8",
+      "base_sha256": "ecc5c04b9e591368c73b4b71570ac442ce3595ac9f5f8d520797b7960f797b16",
+      "decision": "Keep selected TuLED base resource winner; variant is explicit."
+    },
+    {
+      "path_key": "textures/pbr/clutter/common/cratewood01_p.dds",
+      "source_sha256": "4022ff91c190ba1f47242bd8cd06fb7a8e7a37cb09eb10fe1654979ddcb3ff32",
+      "base_sha256": "21aaa3af77883785947c39098b9e38726dc408ecb2cde6c6e18e8dfdd6715906",
+      "decision": "Keep selected TuLED base resource winner; variant is explicit."
+    },
+    {
+      "path_key": "textures/pbr/clutter/common/cratewood01_rmaos.dds",
+      "source_sha256": "1996310db1e295add22487cdfc18920b8f3079081fe0134b41dc8bf4084f0f1a",
+      "base_sha256": "2e3dfc44c8982b996b1fb713122f686412adeeab94a63a2d47732ff2632c1cbf",
+      "decision": "Keep selected TuLED base resource winner; variant is explicit."
+    },
+    {
+      "path_key": "textures/pbr/clutter/common/cratewood03.dds",
+      "source_sha256": "fa594683af21f4d551a1de5f434829ea371568f73d82cacfa6398167da495b0c",
+      "base_sha256": "1feecd8ce1f321a83057867ec2c086f8a5c896897fd4c38be1bc903aa27a02fa",
+      "decision": "Keep selected TuLED base resource winner; variant is explicit."
+    },
+    {
+      "path_key": "textures/pbr/clutter/common/cratewood03_n.dds",
+      "source_sha256": "dfe5a017027a3aeb29b573784fe0e778567e4b207414985d4cc9a7864458048f",
+      "base_sha256": "0fb179f8e43606a48f3572e7da1e16d194a11bc939fb698ff4eae077349aadd8",
+      "decision": "Keep selected TuLED base resource winner; variant is explicit."
+    },
+    {
+      "path_key": "textures/pbr/clutter/common/cratewood03_p.dds",
+      "source_sha256": "be6b0502186a058e85091983282bc2401320c7207a10eb0fddc9717283a4cac1",
+      "base_sha256": "29998f8c2e42565fd086041d0ea75a6386a249c8c969ef0b1bbb0770053a59e6",
+      "decision": "Keep selected TuLED base resource winner; variant is explicit."
+    },
+    {
+      "path_key": "textures/pbr/clutter/common/cratewood03_rmaos.dds",
+      "source_sha256": "2ae0970121a799735f7ead83aef8674a3a1dc8e1c9f9e41237ee13d735a67e14",
+      "base_sha256": "689438484aac73295f0c4d2a723808d24371641a1c39e9e8106ed9931f98b930",
+      "decision": "Keep selected TuLED base resource winner; variant is explicit."
+    },
+    {
+      "path_key": "textures/pbr/architecture/whiterun/wrtrims01.dds",
+      "source_sha256": "eaf144638403f40c7de28df61e7884f7c19e0f1f005c431b031df88a70474337",
+      "base_sha256": "f18158203a6e9b2941fe27ebf003c06b7586d1ce55d5a88f2dcd87ce4de22477",
+      "decision": "Keep selected TuLED base resource winner; variant is explicit."
+    },
+    {
+      "path_key": "textures/pbr/architecture/whiterun/wrtrims01_n.dds",
+      "source_sha256": "91f9b602ceac01453e5ed7145db7221a2d309053ca78b2c1dd05494759d0a39e",
+      "base_sha256": "0a9c6a9ded4b6e31a0061e4f37fac10ccaf51a426e740532b914be576858fe2f",
+      "decision": "Keep selected TuLED base resource winner; variant is explicit."
+    },
+    {
+      "path_key": "textures/pbr/architecture/whiterun/wrtrims01_p.dds",
+      "source_sha256": "389784db3eb194b4cb0392cb6486c4d526c5d08f106bd7a86c862885d629e9b0",
+      "base_sha256": "85d295a39a9594f99b270f45bfa5ff4998158ea143963c0e4395668865435342",
+      "decision": "Keep selected TuLED base resource winner; variant is explicit."
+    },
+    {
+      "path_key": "textures/pbr/architecture/whiterun/wrtrims01_rmaos.dds",
+      "source_sha256": "7b07d732fd2c159ba7a4b5cb9c82ee898174152ddb349d55db00411c66948b9d",
+      "base_sha256": "7397c3fb50248bba91b6f1b184664192b189fa21364f26e75e6b0812bd232b73",
+      "decision": "Keep selected TuLED base resource winner; variant is explicit."
+    },
+    {
+      "path_key": "textures/architecture/whiterun/wrtemplefloor01_n.dds",
+      "source_sha256": "d41b24e9dd2e45f94e370ca25608a182e1880cc5a7d435baa4f478ae3bc70eb7",
+      "base_sha256": "338afd2b6b4dfc999e28be0ad0ef8cba86ea0c922d9f4f7c0a1ffae448c5633c",
+      "decision": "Keep selected TuLED base resource winner; variant is explicit."
+    },
+    {
+      "path_key": "textures/architecture/farmhouse/woodwall01_n.dds",
+      "source_sha256": "cdf63d1762cd604d01e8f86a4cb74af2ea345a46e85b31b2a9a7e9c25a73b982",
+      "base_sha256": "89e5d8ae0036c0e754fd4602ab0ff2f54d086b785d7eb1c08f8042972b5a0efb",
+      "decision": "Keep selected TuLED base resource winner; variant is explicit."
+    },
+    {
+      "path_key": "textures/architecture/whiterun/wrstoneblocks01_n.dds",
+      "source_sha256": "9badadb9484628ae9674fc94af238cfcab85496f84296c3c7208c40775ece159",
+      "base_sha256": "34f91baec25241d9fd3a26b9bbbf81dd1546f820b7b6e53e8a36623453adf0fb",
+      "decision": "Keep selected TuLED base resource winner; variant is explicit."
+    },
+    {
+      "path_key": "textures/architecture/whiterun/wrplasterint01_n.dds",
+      "source_sha256": "406757bcb5444331e765f9397822d778b04f7e249e4ce72e4fc827dc22246d61",
+      "base_sha256": "e1ada13ae3587221e027ee8cfde421c9833e5a375bd0d4ed0f2be6b541ca987b",
+      "decision": "Keep selected TuLED base resource winner; variant is explicit."
+    },
+    {
+      "path_key": "textures/landscape/mountains/mountainslab02.dds",
+      "source_sha256": "82c62d9da6b472f2a238672a1bf09b4e36f0891b4927083d9ac59f7dda519014",
+      "base_sha256": "d56463a5b2d63c79dbbb5a058896d57f4b48d034e76326949d39774d05ae90cd",
+      "decision": "Keep selected TuLED base resource winner; variant is explicit."
+    },
+    {
+      "path_key": "textures/landscape/mountains/mountainslab02_n.dds",
+      "source_sha256": "b4e2f6dd068eb30defbe9a858e1a641490acb2de899a821fb833ee6f589bddcc",
+      "base_sha256": "54d2e7a7711c47f0aab650a69fdb9c5650d32d298e28c577ea59577e65c48436",
+      "decision": "Keep selected TuLED base resource winner; variant is explicit."
+    },
+    {
+      "path_key": "textures/pbr/weapons/ebony/ebonyscabbards.dds",
+      "source_sha256": "a9d1f8c89649472d9a0aa45a0c24c7acd9c799aad47a8b82e3d7f2e45fecbd98",
+      "base_sha256": "f3b55c3589b48921704facb752e0333748918d26a8350edcc04d1ea0e7a7f925",
+      "decision": "Keep selected TuLED base resource winner; variant is explicit."
+    },
+    {
+      "path_key": "textures/pbr/weapons/ebony/ebonyscabbards_n.dds",
+      "source_sha256": "ae999e405f7f85f813077133a6e95da7802600fd69d3f818a56e415384958726",
+      "base_sha256": "846ca2141726982190f0017457bd37be6c47607f4800ceae68998fb4f0ecc6aa",
+      "decision": "Keep selected TuLED base resource winner; variant is explicit."
+    },
+    {
+      "path_key": "textures/pbr/weapons/ebony/ebonyscabbards_rmaos.dds",
+      "source_sha256": "2a19c39c888597cdbba23451aad709a951ba7a73f8b57fba8f7bd2c90173ac45",
+      "base_sha256": "beb0b72ad10e23456bb2e68c58badacb57be41e6aeed5434bc79ec95e5aaae67",
+      "decision": "Keep selected TuLED base resource winner; variant is explicit."
+    },
+    {
+      "path_key": "textures/blood/bloodedge01.dds",
+      "source_sha256": "c34d5049f9b2892a328c2c866df5bd2c3eeb33573df0b43e0fc55e81840d7abd",
+      "base_sha256": "78b1da7ec467cb0165df2ad21a2519372f5636e455dfae238f2dd30079707bb1",
+      "decision": "Keep selected TuLED base resource winner; variant is explicit."
+    },
+    {
+      "path_key": "textures/blood/bloodedge01add.dds",
+      "source_sha256": "6d52bc334f34a2d44e10a220e44ca9db7d96530beb7b11233e63e17eebabf3c4",
+      "base_sha256": "5f540a20028ca9591980338e80f2275ec7a0e96cf441d9e54d72b31fe12d09fd",
+      "decision": "Keep selected TuLED base resource winner; variant is explicit."
+    },
+    {
+      "path_key": "textures/blood/bloodedge01_n.dds",
+      "source_sha256": "fb9c46a521611217b17778100ede32a3f67c014acb10831b7ac63b3dd7dda1cf",
+      "base_sha256": "192727aba95d66db2eb643ffb6daca05b858d426b3a99a3a8e2980bba640c0df",
+      "decision": "Keep selected TuLED base resource winner; variant is explicit."
+    },
+    {
+      "path_key": "textures/pbr/weapons/ebony/ebonysword.dds",
+      "source_sha256": "0a55fd2448747caad44f5013c4ccecfd750ddd089c4d319d8e4be5f67c542c00",
+      "base_sha256": "5d92cf053ec0f5e8f48ce28f2a99292127c0c35f23f8d6d375581ee8b59d5fb4",
+      "decision": "Keep selected TuLED base resource winner; variant is explicit."
+    },
+    {
+      "path_key": "textures/pbr/weapons/ebony/ebonysword_n.dds",
+      "source_sha256": "291313a92ece8b17a55b5454a252ecfd4bc775d22aadd48ce9ed3e68cb8219cb",
+      "base_sha256": "ed111ada4bfd24f9b41ab5f3a0631f2e01723aea1799f9bea2140a7d0568ebfb",
+      "decision": "Keep selected TuLED base resource winner; variant is explicit."
+    },
+    {
+      "path_key": "textures/pbr/weapons/ebony/ebonysword_rmaos.dds",
+      "source_sha256": "bceaed6bf4ad5f2bdb9271ff9a0307550129cc154abb527e827774fbd1db56ac",
+      "base_sha256": "25af3db20c90418b3551130fa485679710a244bc378a4efee6c3b5bd1fe855ce",
+      "decision": "Keep selected TuLED base resource winner; variant is explicit."
+    },
+    {
+      "path_key": "textures/cubemaps/eyecubemap.dds",
+      "source_sha256": "5bc9991b4f64ac5631788826e9f32c293c30930ce372f746cd55a6af4ee84ef1",
+      "base_sha256": "a1bcb615dc1721ecbbc3933ec0ae9cbed7e2daaf2756e3aa407386102967969f",
+      "decision": "Keep selected TuLED base resource winner; variant is explicit."
+    },
+    {
+      "path_key": "textures/weapons/draugr/draugrsword.dds",
+      "source_sha256": "6f23c926cee4a7920012e70610057209aecde20112cd495e4d1d95d8da6aed86",
+      "base_sha256": "d2148c055e1561c697d96b2ebe68d33271bfe8e33043bbe1975cdc42dc0017d0",
+      "decision": "Keep selected TuLED base resource winner; variant is explicit."
+    },
+    {
+      "path_key": "textures/weapons/draugr/draugrsword_n.dds",
+      "source_sha256": "622822a8e24dfe6402563490dafe66276630ce4557c638ec452b8fe577354682",
+      "base_sha256": "265dc5af6e426254b742f3e986fa941e6548bdc07aac4707dc92a35238add9e4",
+      "decision": "Keep selected TuLED base resource winner; variant is explicit."
+    },
+    {
+      "path_key": "textures/cubemaps/ore_ebony_e.dds",
+      "source_sha256": "477084d386e6518e8c471cf1df0f5383800f0b60b28438520de8dd6e0df79479",
+      "base_sha256": "6d6af46f2642a4e50209cb7a3f4a2143fc805290b4f90d463c7cd902b1e997a8",
+      "decision": "Keep selected TuLED base resource winner; variant is explicit."
+    },
+    {
+      "path_key": "textures/weapons/draugr/draugrsword_m.dds",
+      "source_sha256": "6af414067e7c52e835375f24e3b26cfc71ec47b30855bc5c8ad68ff8c6434f9a",
+      "base_sha256": "17aa8d0f6d47ffcb5cf0481953ee2c4ea14b8f73dee279cc67a562659dbafae1",
+      "decision": "Keep selected TuLED base resource winner; variant is explicit."
+    },
+    {
+      "path_key": "textures/weapons/draugr/draugrarrow.dds",
+      "source_sha256": "63b04c33cc722549a6c20678e0d229bf02bf20c4e1359f7fe87ae2a62dd4eca9",
+      "base_sha256": "e96dec9e0fe4ba8186be5b623e5798349e6276da596e1f1b36423e736ad3bad1",
+      "decision": "Keep selected TuLED base resource winner; variant is explicit."
+    },
+    {
+      "path_key": "textures/weapons/draugr/draugrarrow_n.dds",
+      "source_sha256": "ce9d3e6fc8fa0ab1b32ac6a9d85a9c0ae410b9afd07c5d22b23d7cb7eee8b50f",
+      "base_sha256": "962d26bf81baf0983da3f7d04a59c0912f9e74ff5dda7a61e10679e65ab9d7c4",
+      "decision": "Keep selected TuLED base resource winner; variant is explicit."
+    },
+    {
+      "path_key": "textures/weapons/draugr/draugrarrow_m.dds",
+      "source_sha256": "f545bd83eda9fc2adc51225ad7997ad8bb31a4ac7063d5fb49b05cb3252a38e9",
+      "base_sha256": "ff622399867520991ac655a9eb2073dfabcd0b28bf4688a0085c0ed1800b7c47",
+      "decision": "Keep selected TuLED base resource winner; variant is explicit."
+    },
+    {
+      "path_key": "textures/sky/skyrimcloudsmap01.dds",
+      "source_sha256": "c622ecf716bfc318cbf8dc79b7bf4fc629ded13c60a8a3cff2a1c0b820df4525",
+      "base_sha256": "7be0aa9fb6541db9cbbbaeeebb914e440b17bf7124a7743b6eb2254b84e70747",
+      "decision": "Keep selected TuLED base resource winner; variant is explicit."
+    },
+    {
+      "path_key": "textures/cubemaps/bronze_e.dds",
+      "source_sha256": "5b6a29f318798bd4140611b5cd835d8fb67b9730470eff90d1fa07c5b648b4c5",
+      "base_sha256": "de37d3199bbda79fef1b702495eaa30ffc11ba4089e67afa1a5ead1442ee55e6",
+      "decision": "Keep selected TuLED base resource winner; variant is explicit."
+    },
+    {
+      "path_key": "textures/armor/amuletsandrings/genericamulets_n.dds",
+      "source_sha256": "3b085f0cd04a4c096e90d13e9227fa9f7fcbf6c3e80990e13ee218bc397ab868",
+      "base_sha256": "c77123fd65bff05444ccd48620ff776415666c65e5f088992f2c4a7dfb3c7daf",
+      "decision": "Keep selected TuLED base resource winner; variant is explicit."
+    },
+    {
+      "path_key": "textures/cubemaps/shinydull_e.dds",
+      "source_sha256": "df3de29a0f2bcf34d3838a1500662e9d312b17d0a59292112904b7a3fa1afef5",
+      "base_sha256": "de37d3199bbda79fef1b702495eaa30ffc11ba4089e67afa1a5ead1442ee55e6",
+      "decision": "Keep selected TuLED base resource winner; variant is explicit."
+    }
+  ],
+  "errors": [
+    {
+      "kind": "patch_nif_graph_parse_failed",
+      "path_key": "meshes/pkymaps/wyrmstoothmap.nif",
+      "error": "AssertionError()"
+    },
+    {
+      "kind": "patch_resource_missing",
+      "path_key": "seq/dbm_wyrmstooth_patch.seq"
+    },
+    {
+      "kind": "patch_resource_missing",
+      "path_key": "seq/lotd_tcc_wyrmstooth.seq"
+    },
+    {
+      "kind": "patch_nif_graph_parse_failed",
+      "path_key": "meshes/armor/dwarven/000fcdwarvenarmorgo.nif",
+      "error": "AssertionError()"
+    },
+    {
+      "kind": "patch_nif_graph_parse_failed",
+      "path_key": "meshes/armor/dwarven/000fcdwarvenhelmetgo.nif",
+      "error": "AssertionError()"
+    },
+    {
+      "kind": "patch_nif_graph_parse_failed",
+      "path_key": "meshes/armor/dwarven/000fcdwarvenbootsgo.nif",
+      "error": "AssertionError()"
+    },
+    {
+      "kind": "patch_nif_graph_parse_failed",
+      "path_key": "meshes/armor/dwarven/000fcdwarvengauntletsgo.nif",
+      "error": "AssertionError()"
+    },
+    {
+      "kind": "patch_resource_missing",
+      "path_key": "seq/dbm_forgottencity_patch.seq"
+    }
+  ],
+  "scope": "Only typed record model/TXST/VMAD executable PEX/SEQ dependencies and recursive NIF texture/extra-data paths. No whole mixed patch collection is imported.",
+  "limitations": [
+    "This is a physical source manifest, not a final VFS or Papyrus execution pass.",
+    "Inherited selected base versions intentionally win; any different source SHA is reported explicitly.",
+    "Final feature VFS must use exact active plugin master/context and runtime assets."
+  ]
+}

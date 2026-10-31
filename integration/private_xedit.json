@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-31T03:58:18.818937+00:00",
+  "executable": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\tools\\xedit\\SSEEdit64.exe",
+  "sha256": "659faddd8dc061a9d2eddd20de925821b87e377284ce179f4538ff78bb2420cd",
+  "normal_records": true,
+  "source_copy": "E:\\stock\\Skyrim collection\\Database\\tools\\xedit",
+  "game_not_started": true,
+  "normal_records_verified_by": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\forgotten_city_navigation\\numeric_settings_correction.json",
+  "ini_boolean": "SimpleRecords=0; text false was observed not to disable simplified mode"
+}

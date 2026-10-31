@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-31T14:10:12.718568+00:00",
+  "status": "MATERIALIZED_PENDING_FINAL_VFS",
+  "manifest": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\sprint_event_candidate\\manifest.json",
+  "manifest_sha256": "419de68447480c2e3ac82f516cf3d6a0d1906c50bcd58596dcc667d0610e92b0",
+  "source_sha256": "03cb865de8b28696f254fcd01cc3849e076c09d5cc05015f7b36207bc30d0d67",
+  "candidate_sha256": "ed6175d49a9ded5c9bc02f1c24516c777481db209ddaa794c990de4b397f698e",
+  "changes": "Exactly one string-table literal loses its final TAB; its BE ushort length decreases by one. Every other byte is preserved.",
+  "native_execution_tested": false,
+  "installed": true,
+  "destination": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\ZZ86 Verified stale script assignments\\Scripts\\GHSprintSpellScript.pex"
+}

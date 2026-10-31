@@ -1,0 +1,46 @@
+{
+  "utc": "2026-10-31T04:38:13.044474+00:00",
+  "layer": "ZZ82 Skin Tint fallback aliases",
+  "aliases": [
+    {
+      "destination": "textures/!cor/body/femalebody_1.dds",
+      "source_relative": "textures/actors/character/female/femalebody_1.dds",
+      "source_physical": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T4821 Glass Female Skin Textures\\textures\\actors\\character\\female\\femalebody_1.dds",
+      "provider": "T4821 Glass Female Skin Textures",
+      "sha256": "9377183b3239ef44b0bae260b1858b63d59935b8e24e067940694faa2c16d76b",
+      "slot_index": 0,
+      "slot_role": "diffuse/albedo"
+    },
+    {
+      "destination": "textures/!cor/body/femalebody_1_msn.dds",
+      "source_relative": "textures/actors/character/female/femalebody_1_msn.dds",
+      "source_physical": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T4821 Glass Female Skin Textures\\textures\\actors\\character\\female\\femalebody_1_msn.dds",
+      "provider": "T4821 Glass Female Skin Textures",
+      "sha256": "7cccbd8c709e5830406f3349cf49afeeb4af29b3fd9e37edde146a8941614ed7",
+      "slot_index": 1,
+      "slot_role": "model-space normal"
+    },
+    {
+      "destination": "textures/!cor/body/femalebody_1_sk.dds",
+      "source_relative": "textures/actors/character/female/femalebody_1_sk.dds",
+      "source_physical": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T4821 Glass Female Skin Textures\\textures\\actors\\character\\female\\femalebody_1_sk.dds",
+      "provider": "T4821 Glass Female Skin Textures",
+      "sha256": "05ee68bec723f1d50a48b5287a7b94a8caf5dce188be31b511463ff932995f69",
+      "slot_index": 2,
+      "slot_role": "skin subsurface"
+    },
+    {
+      "destination": "textures/!cor/body/femalebody_1_s.dds",
+      "source_relative": "textures/actors/character/female/femalebody_1_s.dds",
+      "source_physical": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T4821 Glass Female Skin Textures\\textures\\actors\\character\\female\\femalebody_1_s.dds",
+      "provider": "T4821 Glass Female Skin Textures",
+      "sha256": "90aa1dd577d8568b8ea6ef0c0e415e98a87e4c729a630b9ed37f7f6fa417f8f7",
+      "slot_index": 7,
+      "slot_role": "skin specular"
+    }
+  ],
+  "evidence": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\graph_issue_evidence.json",
+  "policy": "Use the selected TuLED/Glass 3BA skin set for otherwise missing fallback paths. This is an integration choice, not a claim to restore missing COR assets.",
+  "nif_geometry_materials_and_actor_skin_bindings_unchanged": true,
+  "status": "MATERIALIZED_PENDING_VFS_RECHECK"
+}

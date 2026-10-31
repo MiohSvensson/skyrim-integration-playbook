@@ -1,0 +1,48 @@
+{
+  "utc": "2026-10-31T03:48:11.327030+00:00",
+  "status": "SOURCE_PREFLIGHT_PASS",
+  "source_files": {
+    "vanilla": {
+      "path": "E:\\stock\\Skyrim collection\\Database\\xedit_runs\\TuLED\\Data\\Skyrim.esm",
+      "navm_record": {
+        "signature": "NAVM",
+        "id": "skyrim.esm|016F5D",
+        "offset": 31559681,
+        "size": 11425,
+        "flags": 262144,
+        "vcs1": 1271825,
+        "form_version": 40,
+        "vcs2": 14
+      },
+      "navm_payload_sha256": "d07c3087d9be533ec6d5ac04b89f101b94f557b65ddf7f09bc9f24dc5beecc57"
+    },
+    "glen": {
+      "path": "E:\\stock\\Skyrim collection\\Database\\xedit_runs\\Anno\\Data\\Glenmoril.esm",
+      "navm_record": {
+        "signature": "NAVM",
+        "id": "skyrim.esm|016F5D",
+        "offset": 5799556,
+        "size": 11439,
+        "flags": 262144,
+        "vcs1": 0,
+        "form_version": 44,
+        "vcs2": 14
+      },
+      "navm_payload_sha256": "ca9b7f5f7e763858b8f0b552fdbb7a9183d8c39bd0d73ae20904ef51fe6d7a44"
+    },
+    "ak": {
+      "path": "E:\\stock\\Skyrim collection\\Database\\xedit_runs\\TuLED\\Data\\AKSkyrimUnderground.esm",
+      "navm_record": {
+        "signature": "NAVM",
+        "id": "skyrim.esm|016F5D",
+        "offset": 2791599,
+        "size": 11430,
+        "flags": 262144,
+        "vcs1": 0,
+        "form_version": 44,
+        "vcs2": 15
+      },
+      "navm_payload_sha256": "56c4cf8778f1b7631ef4f841acde8d64872e746a07f41643d5dd67fd737372ac"
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "measured_utc": "2026-10-31T03:10:20.060323+00:00",
+  "status": "PREFLIGHT_ONLY_NO_SOURCE_OR_PROFILE_CHANGES",
+  "volume": {
+    "path": "E:\\",
+    "total_bytes": 4000768323584,
+    "free_bytes": 121833484288,
+    "reserve_bytes": 34359738368,
+    "additional_budget_after_reserve_bytes": 87473745920
+  },
+  "inventory_database": "E:\\stock\\Skyrim collection\\Database\\baseline\\skyrim_research.sqlite",
+  "inventory_note": "Logical file lengths from existing database snapshot; not a new physical allocation scan. Excludes stock games and downloads.",
+  "all_mods": [
+    {
+      "pack": "Anno",
+      "file_count": 496328,
+      "logical_bytes": 424237673196,
+      "plugin_bytes": 765235999,
+      "private_candidate_bytes": 1910967281
+    },
+    {
+      "pack": "Burida",
+      "file_count": 1142805,
+      "logical_bytes": 628725997160,
+      "plugin_bytes": 691060133,
+      "private_candidate_bytes": 2792659844
+    },
+    {
+      "pack": "TuLED",
+      "file_count": 515766,
+      "logical_bytes": 505278408323,
+      "plugin_bytes": 683981998,
+      "private_candidate_bytes": 2330002421
+    }
+  ],
+  "selected_profile_mods": [
+    {
+      "pack": "Anno",
+      "file_count": 457265,
+      "logical_bytes": 360800453136,
+      "plugin_bytes": 539071883,
+      "private_candidate_bytes": 1450702146
+    },
+    {
+      "pack": "Burida",
+      "file_count": 1039312,
+      "logical_bytes": 564975216653,
+      "plugin_bytes": 556101189,
+      "private_candidate_bytes": 2105062609
+    },
+    {
+      "pack": "TuLED",
+      "file_count": 486065,
+      "logical_bytes": 475947662233,
+      "plugin_bytes": 560724428,
+      "private_candidate_bytes": 2077268305
+    }
+  ],
+  "profiles": [
+    {
+      "pack": "Anno",
+      "name": "non chs"
+    },
+    {
+      "pack": "Burida",
+      "name": "BGS REDive"
+    },
+    {
+      "pack": "TuLED",
+      "name": "TuLED"
+    }
+  ],
+  "private_candidate_extensions": [
+    ".esp",
+    ".esm",
+    ".esl",
+    ".ini",
+    ".json",
+    ".toml",
+    ".yaml",
+    ".yml",
+    ".xml",
+    ".txt",
+    ".cfg",
+    ".config",
+    ".psc",
+    ".pex",
+    ".dll",
+    ".exe"
+  ],
+  "limitations": [
+    "This is not an estimate of the final regenerated BodySlide, behavior, parallax or LOD output.",
+    "Private candidate totals include every inventoried matching file, including duplicates and disabled mods, but exclude stock games and runtime copies.",
+    "Hard links share content, attributes and file security. They are neither backups nor copy-on-write isolation.",
+    "Source hard links have not been created by this preflight.",
+    "A single final delivery can still require several small verifiable checkpoints.",
+    "No Skyrim process is launched and no in-game stability claim is made."
+  ]
+}

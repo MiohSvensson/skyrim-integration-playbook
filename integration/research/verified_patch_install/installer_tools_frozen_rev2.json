@@ -1,0 +1,131 @@
+{
+  "schema": "skyrim.verified_patch_installer.freeze.v1",
+  "utc": "2026-10-31T13:38:40.346900+00:00",
+  "revision": 2,
+  "status": "PREPARED_AND_RESEARCH_FIXTURE_VERIFIED_NOT_EXECUTED_ON_RUNTIME",
+  "files": [
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\verified_patch_install\\install_verified_patch.py",
+      "sha256": "80fb6bb816fc2582aad53764af9bac4e0b3b44249fce8dc8cd8255cbf0e8b17c",
+      "size_bytes": 34520
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\verified_patch_install\\validate_installer.py",
+      "sha256": "db9835aa37f7f30d276852dc3daf05c452117a9bf1ecbf8699dfc429a9f4a612",
+      "size_bytes": 11654
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\verified_patch_install\\validation_8191eaee91a8467f9dc8ec83a2b77aae.json",
+      "sha256": "235018ca17cf9a21f3a7cbe61055623b4e061e6f75260373cb5dbd028c729ed9",
+      "size_bytes": 3576
+    }
+  ],
+  "root_api_dependencies": [
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\materialize.py",
+      "sha256": "c0d93f992580c8dcbe1951f116a9d75609e2344761d7d5a2564816416ca2e34c",
+      "size_bytes": 14405
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\runtime_inventory.py",
+      "sha256": "f6b3902eb51c8ff97884daaac8b279095572700f43250f7c8eef03934249712d",
+      "size_bytes": 6072
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\rootcause\\plugin_binary.py",
+      "sha256": "2722572c9a3d25b731dcfb2c7eaee9b543725b2b06348f4e0c49e1575bf058d6",
+      "size_bytes": 3439
+    }
+  ],
+  "layer": "ZZ87 Verified compatibility patches",
+  "profiles": [
+    "Unified Skyrim",
+    "Unified Build"
+  ],
+  "cli": {
+    "prepare": [
+      "python",
+      "E:\\stock\\Skyrim collection\\Database\\integration\\research\\verified_patch_install\\install_verified_patch.py",
+      "prepare",
+      "--candidate",
+      "<research/candidate/Exact Patch.esp>",
+      "--producer",
+      "<UnifiedSkyrim/validation/PASS_builder_task>",
+      "--binary-report",
+      "<research/SHA-bound_binary_report.json>",
+      "--output",
+      "<fresh research/install_job>"
+    ],
+    "install": [
+      "python",
+      "E:\\stock\\Skyrim collection\\Database\\integration\\research\\verified_patch_install\\install_verified_patch.py",
+      "install",
+      "--prepared",
+      "<fresh research/install_job/prepared.json>"
+    ],
+    "accept": [
+      "python",
+      "E:\\stock\\Skyrim collection\\Database\\integration\\research\\verified_patch_install\\install_verified_patch.py",
+      "accept",
+      "--prepared",
+      "<research/install_job/prepared.json>",
+      "--reload-task",
+      "<fresh UnifiedSkyrim/validation/PASS_installed_reload_task>"
+    ]
+  },
+  "requirements": [
+    "Builder result exactly PASS, true usvfs, exit0, real marker, exact log/script/candidate SHA, no changed controls or inputs.",
+    "Independent binary candidate report has passed=true + nonempty matching candidate_checks + exact candidate_sha256, or explicit recognized navigation binary-pass status with candidate.sha256 and records. Source-only report rejected.",
+    "Current Build complete active plugin-name-to-SHA set and controls equal producer snapshot. Both profiles are fully hashed, duplicate checked, master closed, topologically ordered, slot-budgeted.",
+    "Candidate is private and copied atomically through materialize.make_private with canonical add_file_mapping journal rows; unrelated pending units never built. Existing destination rows/backups recorded; handled failures restore exact previous journal rows and bytes.",
+    "Comments, UTF8 BOM, original CRLF/LF endings and disabled rows remain byte-preserved; only candidate activation/layer addition and approved derived-suffix relocation change.",
+    "Active known compatibility plugins move as a fixed feature/quest/FC/Underground/Glen block after gameplay and before Synthesis/DynDOLOD.esp/Occlusion+dependent suffix, preserving stars/comments/BOM/line-endings. DynDOLOD.esm retains its original position. Unknown candidate names are rejected.",
+    "Any installation receipt is accepted=false / INSTALLED_PENDING_FRESH_TYPED_RELOAD. accept requires later read-only VERIFY_ONLY=True xEdit job with installed exact winner in real MO2 VFS and both current profile closures.",
+    "Exact own-layer replacement requires --replace-sha256 prior hash; no arbitrary collision overwrite.",
+    "Do not run installers concurrently or while profile controls are being rewritten. Research install.lock and install_started prevent blind resume after interruption. Inspect backups/journal before deliberate crash recovery."
+  ],
+  "limits": [
+    "No actual candidate installed or accepted by this agent. All 26 checks include two journal fixtures confined to research; actual runtime/profile/shared-journal untouched.",
+    "Final full VFS/resource graph, regenerated Synthesis/LOD and game validation remain separate gates. No game was started."
+  ],
+  "previous_freeze": {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\verified_patch_install\\installer_tools_frozen_rev1.json",
+    "sha256": "571a2fa298fd58634a19a5da1f3586d704c75dcf89aab55d7dad8ac91fa84a45",
+    "size_bytes": 5006
+  },
+  "compatibility_priority": [
+    "Database Feature Compatibility.esp",
+    "Database Quest Feature Compatibility.esp",
+    "Database Forgotten City USSEP Navigation.esp",
+    "Database Glenmoril Underground Door Compatibility.esp",
+    "Database Glenmoril Navigation Compatibility.esp"
+  ],
+  "priority_name_evidence": [
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_conflicts\\DatabaseFeatureCompatibilityDraft.pas",
+      "sha256": "74034aa4c3f74e19b074b5de581e45142d152458677ba26e314e02c489b0ba16",
+      "size_bytes": 112082
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_conflicts\\DatabaseQuestFeatureCompatibilityDraft.pas",
+      "sha256": "4b2cdd412560c6cf972abdd414d9a4f0a15715275570ca5247757c0bb8ed17f6",
+      "size_bytes": 65353
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\forgotten_city_navigation\\DatabaseForgottenCityNavigationDraft.pas",
+      "sha256": "83613f00a86242fae7d5f737b7d88d453dae9b5378323649a1d50bcf2f6ae698",
+      "size_bytes": 36853
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\navmesh_patch\\DatabaseBoundedNavmeshDraft.pas",
+      "sha256": "f059dac06a295ede4298af0851711bdd77e2334dfcabb335faded81460a03b06",
+      "size_bytes": 35718
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\glen_region_navigation\\DatabaseGlenmorilNavigationDraft.pas",
+      "sha256": "67a2578bb890e1c5f622fd0fec0bb1622573791a7aa972bb37c3ef57c9a88636",
+      "size_bytes": 42103
+    }
+  ],
+  "change": "Fixed compatibility priority independent of installation sequence; quest-first then feature still resolves feature/quest/FC/Underground/Glen. Source names matched actual PAS PATCH_NAME constants; actual final master topology must still pass."
+}

@@ -1,0 +1,10 @@
+{
+  "feature": "Moon and Star",
+  "prior_manifest_status": "disabled_known_source_missing_records",
+  "new_status": "bounded_candidate_ready_for_native_and_full_final_view_validation",
+  "candidate": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\moonstar_cleanup_candidate\\MoonAndStar_MAS.esp",
+  "sha256": "6182033b97b4fd106f2d8ecfe8174defef1788ca4e9f4dc059534b8d57ffb90e",
+  "full_original_resource_mod_id": 88,
+  "evidence": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\moonstar_cleanup_evidence.json",
+  "scope": "Remove only four nonexistent compiled-script property assignments, no missing target reconstruction or FormID remapping."
+}

@@ -1,0 +1,871 @@
+[
+  {
+    "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\ModOrganizer.ini",
+    "sha256": "79222a547d9bd5000fd9a5782fc9cfa257e6595dffa2d864b21e87fbb217843e",
+    "bytes": 12322
+  },
+  {
+    "pack": "Anno",
+    "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\profiles\\non chs\\archives.txt",
+    "sha256": "f340bc38cb784704839caca280514f51941753814fa1d370a489fff304ee280b",
+    "bytes": 9219
+  },
+  {
+    "pack": "Anno",
+    "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\profiles\\non chs\\initweaks.ini",
+    "sha256": "c35e72b526cf46723f3559435de33c388f431966e48f66dfb6556283609cd27c",
+    "bytes": 36
+  },
+  {
+    "pack": "Anno",
+    "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\profiles\\non chs\\loadorder.txt",
+    "sha256": "1951543b3ca4368c164d39f83c7288e54b96eed7a6a14962f4ff24444cd20b75",
+    "bytes": 49167
+  },
+  {
+    "pack": "Anno",
+    "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\profiles\\non chs\\loadorder.txt.2026_01_04_18_38_26",
+    "sha256": "a0ebeb792e1d46cffa51346ec631df4ab406a82445e916db6f44adcb9a0eb2e5",
+    "bytes": 45743
+  },
+  {
+    "pack": "Anno",
+    "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\profiles\\non chs\\loadorder.txt.2026_01_04_18_56_40",
+    "sha256": "e92834ddbdf816f3584e7af7a4c86e5cc58b79b8b1e37dd68ae52add068aaa65",
+    "bytes": 45725
+  },
+  {
+    "pack": "Anno",
+    "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\profiles\\non chs\\loadorder.txt.2026_01_04_22_06_26",
+    "sha256": "e92834ddbdf816f3584e7af7a4c86e5cc58b79b8b1e37dd68ae52add068aaa65",
+    "bytes": 45725
+  },
+  {
+    "pack": "Anno",
+    "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\profiles\\non chs\\loadorder.txt.2026_01_10_10_39_12",
+    "sha256": "c32bf822bebbf7ab692d1561f1931fad9ec25da078d6081531ef60e95cf67484",
+    "bytes": 47907
+  },
+  {
+    "pack": "Anno",
+    "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\profiles\\non chs\\loadorder.txt.2026_01_10_13_30_29",
+    "sha256": "64c8d60227003e9a197347ee89aa7fb4f6be8db7b35720c68a65df4803070886",
+    "bytes": 48353
+  },
+  {
+    "pack": "Anno",
+    "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\profiles\\non chs\\loadorder.txt.LOD",
+    "sha256": "953026c2fe8bc62e0079a949d38df54ea47041361a893284e3a9de322a05b8d2",
+    "bytes": 31157
+  },
+  {
+    "pack": "Anno",
+    "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\profiles\\non chs\\lockedorder.txt",
+    "sha256": "9962fbb07e4c40c4c39b6fe7cedf3f1527cdda5ad0a60d7d53a872b5ae52812d",
+    "bytes": 59
+  },
+  {
+    "pack": "Anno",
+    "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\profiles\\non chs\\lockedorder.txt.2026_01_04_18_38_26",
+    "sha256": "9962fbb07e4c40c4c39b6fe7cedf3f1527cdda5ad0a60d7d53a872b5ae52812d",
+    "bytes": 59
+  },
+  {
+    "pack": "Anno",
+    "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\profiles\\non chs\\lockedorder.txt.2026_01_04_18_56_40",
+    "sha256": "9962fbb07e4c40c4c39b6fe7cedf3f1527cdda5ad0a60d7d53a872b5ae52812d",
+    "bytes": 59
+  },
+  {
+    "pack": "Anno",
+    "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\profiles\\non chs\\lockedorder.txt.2026_01_04_22_06_26",
+    "sha256": "9962fbb07e4c40c4c39b6fe7cedf3f1527cdda5ad0a60d7d53a872b5ae52812d",
+    "bytes": 59
+  },
+  {
+    "pack": "Anno",
+    "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\profiles\\non chs\\lockedorder.txt.2026_01_10_10_39_12",
+    "sha256": "9962fbb07e4c40c4c39b6fe7cedf3f1527cdda5ad0a60d7d53a872b5ae52812d",
+    "bytes": 59
+  },
+  {
+    "pack": "Anno",
+    "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\profiles\\non chs\\lockedorder.txt.2026_01_10_13_30_29",
+    "sha256": "9962fbb07e4c40c4c39b6fe7cedf3f1527cdda5ad0a60d7d53a872b5ae52812d",
+    "bytes": 59
+  },
+  {
+    "pack": "Anno",
+    "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\profiles\\non chs\\lockedorder.txt.LOD",
+    "sha256": "9962fbb07e4c40c4c39b6fe7cedf3f1527cdda5ad0a60d7d53a872b5ae52812d",
+    "bytes": 59
+  },
+  {
+    "pack": "Anno",
+    "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\profiles\\non chs\\modlist.txt",
+    "sha256": "e40f553ef8af0edee5b683a8a54a26b7426e2ade7111d595fe6cd07da4ebdac7",
+    "bytes": 90099
+  },
+  {
+    "pack": "Anno",
+    "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\profiles\\non chs\\modlist.txt.2026_01_04_18_38_25",
+    "sha256": "b076bc6f9dde6dfe6a5f344b9f6604879d150a2e4aca2d7bc6579b386207d728",
+    "bytes": 86099
+  },
+  {
+    "pack": "Anno",
+    "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\profiles\\non chs\\modlist.txt.2026_01_04_18_56_39",
+    "sha256": "4b7fb6f6d37a1c87ecc49f39cf33c22f667d5f8035c49ca54a3975ed76adf8b2",
+    "bytes": 86140
+  },
+  {
+    "pack": "Anno",
+    "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\profiles\\non chs\\modlist.txt.2026_01_04_22_06_25",
+    "sha256": "6497b1bf340723a0be15e7ae6de0c99e931519c747356c39fb4d5ded8babc8bc",
+    "bytes": 86167
+  },
+  {
+    "pack": "Anno",
+    "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\profiles\\non chs\\modlist.txt.2026_01_13_15_51_48",
+    "sha256": "2537059fc684743e0ec98b3deddc36a8f22b945b9b92b2dd544191ebc8a842c2",
+    "bytes": 89943
+  },
+  {
+    "pack": "Anno",
+    "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\profiles\\non chs\\modlist.txt.LOD",
+    "sha256": "68a46e3c1e9cc9155c4f57f94ed3327c5d529978bb4222b096d06122f8bd546e",
+    "bytes": 85837
+  },
+  {
+    "pack": "Anno",
+    "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\profiles\\non chs\\plugins.txt",
+    "sha256": "deb0d936688f64796d2ed8878d8d3a12a1621f49ce5d1db025c3514cb83bfdeb",
+    "bytes": 48469
+  },
+  {
+    "pack": "Anno",
+    "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\profiles\\non chs\\plugins.txt.2026_01_04_18_38_26",
+    "sha256": "572dbe17af4295308b26f21ad7bb6bbedb7ba73618a857390ae033c33a617a66",
+    "bytes": 44897
+  },
+  {
+    "pack": "Anno",
+    "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\profiles\\non chs\\plugins.txt.2026_01_04_18_56_40",
+    "sha256": "5408fcac677842cce298eacb550738650bbc2c9a67bffd1b791ba12f69f00f9c",
+    "bytes": 44878
+  },
+  {
+    "pack": "Anno",
+    "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\profiles\\non chs\\plugins.txt.2026_01_04_22_06_26",
+    "sha256": "5408fcac677842cce298eacb550738650bbc2c9a67bffd1b791ba12f69f00f9c",
+    "bytes": 44878
+  },
+  {
+    "pack": "Anno",
+    "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\profiles\\non chs\\plugins.txt.2026_01_10_10_39_12",
+    "sha256": "e92a84329b6dd1cda5484122e07f3892798b3382fc808000d9770ea8bcba3ada",
+    "bytes": 47148
+  },
+  {
+    "pack": "Anno",
+    "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\profiles\\non chs\\plugins.txt.2026_01_10_13_30_29",
+    "sha256": "1f827edbbeb4c3c74bd5631b1cb9d4d2f50f39a32259dc1e34c3f9a605e28e54",
+    "bytes": 47617
+  },
+  {
+    "pack": "Anno",
+    "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\profiles\\non chs\\plugins.txt.LOD",
+    "sha256": "6d3e741f29677170cb3705f775dba4b5cf026c2e462ec11b60b7ba6e47e523b9",
+    "bytes": 29803
+  },
+  {
+    "pack": "Anno",
+    "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\profiles\\non chs\\settings.ini",
+    "sha256": "b114e0b18cab9ab6818fd8e21b48e4e670bb5f13a32cbc8f9429e433017ab901",
+    "bytes": 183
+  },
+  {
+    "pack": "Anno",
+    "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\profiles\\non chs\\Skyrim.ini",
+    "sha256": "347b9ac41f0808951064238fdd0030b4ab140187a8debbeee432f9a02cfb4e9f",
+    "bytes": 3168
+  },
+  {
+    "pack": "Anno",
+    "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\profiles\\non chs\\Skyrim.ini.BethINIbackup",
+    "sha256": "60383833a3479bf3463cafd5c7dba42a961ad697a1a210ccc96279b2ec89db31",
+    "bytes": 3168
+  },
+  {
+    "pack": "Anno",
+    "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\profiles\\non chs\\SkyrimCustom.ini",
+    "sha256": "6f586a7247243c03e4abf574c9cf87b0e07132a2fb9c70cf902bfbd4766b57c3",
+    "bytes": 3192
+  },
+  {
+    "pack": "Anno",
+    "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\profiles\\non chs\\SkyrimPrefs.ini",
+    "sha256": "56f50759e3b4566163858f811fd723da7889a585ed3380e20be6bc9f148f08ee",
+    "bytes": 3882
+  },
+  {
+    "pack": "Anno",
+    "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\profiles\\non chs\\SkyrimPrefs.ini.BethINIbackup",
+    "sha256": "5332e761eaa74f87cc5b3a9d69178350187c261100320dbcbf0edfc465bf95e3",
+    "bytes": 4312
+  },
+  {
+    "pack": "Anno",
+    "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\StockGame\\SkyrimSE.exe",
+    "sha256": "5666e1bddd01bcab31ecf11691ef1a3f22e1541af79f2bc0e55318533cfe5d12",
+    "bytes": 34769792
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\archives.txt",
+    "sha256": "1d313270b4ce3804bd8d68a112cc01a0c880e42ba0080506f69053876b27f7bb",
+    "bytes": 4291
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\initweaks.ini",
+    "sha256": "c35e72b526cf46723f3559435de33c388f431966e48f66dfb6556283609cd27c",
+    "bytes": 36
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\loadorder.txt",
+    "sha256": "a4fa92d2b549f5282d8668298af095da41de2adb6f177e018d13cba7432b6cc0",
+    "bytes": 25730
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\loadorder.txt.2026_01_26_12_16_17",
+    "sha256": "b45ae671297de8323ee1629d50e5178fa5721c4cf57cb5bbf947230157f05175",
+    "bytes": 23620
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\loadorder.txt.2026_01_28_17_38_57",
+    "sha256": "5155aa1facd9451b3ee5cd866e388fdfbb7410980329ba8312131b2cdd6462ef",
+    "bytes": 24437
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\loadorder.txt.2026_01_28_19_45_39",
+    "sha256": "038d48b417940cea198fce749e3f55b620072106e522eeac7659823d294cbbb9",
+    "bytes": 24437
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\loadorder.txt.2026_01_28_21_17_16",
+    "sha256": "046501912dcb8451acebbf036574e83ef2ddc69f676bb31e8ebab68ba106f9b9",
+    "bytes": 24437
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\loadorder.txt.2026_01_30_22_18_19",
+    "sha256": "85204d3435d6ef4961b8f3d8922dedfb11930309c12b7437d4740a8adbf61b58",
+    "bytes": 24548
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\loadorder.txt.2026_01_31_01_17_04",
+    "sha256": "8d176510b1de86c98093496c807f2b85ffa5977312867481133a7c3ed90cb1d3",
+    "bytes": 24548
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\loadorder.txt.2026_02_03_14_37_57",
+    "sha256": "1bf0d30e627fa97e3710d3b94798000e10ae0337254a570bbc4eb625fc6fd488",
+    "bytes": 24788
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\loadorder.txt.2026_02_05_14_49_40",
+    "sha256": "5c91ab404d294bef9130e1e5dc1df2702420f389542e17345dd9abe1bd334003",
+    "bytes": 25387
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\loadorder.txt.2026_02_05_14_53_35",
+    "sha256": "5c91ab404d294bef9130e1e5dc1df2702420f389542e17345dd9abe1bd334003",
+    "bytes": 25387
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\loadorder.txt.2026_02_05_15_50_06",
+    "sha256": "3fad9033a01ac2d068ab39bb2278c22ca13034bf0a7abf7bf2b825a37ff5bc7e",
+    "bytes": 25418
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\loadorder.txt.뷰리다 베타 1.2",
+    "sha256": "dfda7cda520c344e49520ed903eabc1e8d59c38bfaf1d90d415074bcf66bbae5",
+    "bytes": 23095
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\loadorder.txt.뷰리다 베타 1.3",
+    "sha256": "e73d7af56f7a77fa07f2c6d2c32bd274147e1f4b1b0ae1e38920e34a6740d04b",
+    "bytes": 23111
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\loadorder.txt.뷰리다 베타 1.3.1",
+    "sha256": "e73d7af56f7a77fa07f2c6d2c32bd274147e1f4b1b0ae1e38920e34a6740d04b",
+    "bytes": 23111
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\lockedorder.txt",
+    "sha256": "9962fbb07e4c40c4c39b6fe7cedf3f1527cdda5ad0a60d7d53a872b5ae52812d",
+    "bytes": 59
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\lockedorder.txt.2026_01_26_12_16_17",
+    "sha256": "9962fbb07e4c40c4c39b6fe7cedf3f1527cdda5ad0a60d7d53a872b5ae52812d",
+    "bytes": 59
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\lockedorder.txt.2026_01_28_17_38_57",
+    "sha256": "9962fbb07e4c40c4c39b6fe7cedf3f1527cdda5ad0a60d7d53a872b5ae52812d",
+    "bytes": 59
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\lockedorder.txt.2026_01_28_19_45_39",
+    "sha256": "9962fbb07e4c40c4c39b6fe7cedf3f1527cdda5ad0a60d7d53a872b5ae52812d",
+    "bytes": 59
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\lockedorder.txt.2026_01_28_21_17_16",
+    "sha256": "9962fbb07e4c40c4c39b6fe7cedf3f1527cdda5ad0a60d7d53a872b5ae52812d",
+    "bytes": 59
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\lockedorder.txt.2026_01_30_22_18_19",
+    "sha256": "9962fbb07e4c40c4c39b6fe7cedf3f1527cdda5ad0a60d7d53a872b5ae52812d",
+    "bytes": 59
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\lockedorder.txt.2026_01_31_01_17_04",
+    "sha256": "9962fbb07e4c40c4c39b6fe7cedf3f1527cdda5ad0a60d7d53a872b5ae52812d",
+    "bytes": 59
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\lockedorder.txt.2026_02_03_14_37_57",
+    "sha256": "9962fbb07e4c40c4c39b6fe7cedf3f1527cdda5ad0a60d7d53a872b5ae52812d",
+    "bytes": 59
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\lockedorder.txt.2026_02_05_14_49_40",
+    "sha256": "9962fbb07e4c40c4c39b6fe7cedf3f1527cdda5ad0a60d7d53a872b5ae52812d",
+    "bytes": 59
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\lockedorder.txt.2026_02_05_14_53_35",
+    "sha256": "9962fbb07e4c40c4c39b6fe7cedf3f1527cdda5ad0a60d7d53a872b5ae52812d",
+    "bytes": 59
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\lockedorder.txt.2026_02_05_15_50_06",
+    "sha256": "9962fbb07e4c40c4c39b6fe7cedf3f1527cdda5ad0a60d7d53a872b5ae52812d",
+    "bytes": 59
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\lockedorder.txt.뷰리다 베타 1.2",
+    "sha256": "9962fbb07e4c40c4c39b6fe7cedf3f1527cdda5ad0a60d7d53a872b5ae52812d",
+    "bytes": 59
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\lockedorder.txt.뷰리다 베타 1.3",
+    "sha256": "9962fbb07e4c40c4c39b6fe7cedf3f1527cdda5ad0a60d7d53a872b5ae52812d",
+    "bytes": 59
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\lockedorder.txt.뷰리다 베타 1.3.1",
+    "sha256": "9962fbb07e4c40c4c39b6fe7cedf3f1527cdda5ad0a60d7d53a872b5ae52812d",
+    "bytes": 59
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\modlist.txt",
+    "sha256": "0967565cfe6277c8f5a529164ff9d31d8c096c80eaf591858cd5c91921147db6",
+    "bytes": 81981
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\modlist.txt.2026_01_17_22_33_40",
+    "sha256": "b47ab24130de24cfb85ee45ce8b791ca41fc7543e58c9a0e4aab64eb373f9d35",
+    "bytes": 76882
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\modlist.txt.2026_01_17_23_28_24",
+    "sha256": "ed7e2b2c7ca795d138931d90be0d6d3f35a885e9a6c8e8291fd369299b35ea6a",
+    "bytes": 76864
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\modlist.txt.2026_01_26_03_18_41",
+    "sha256": "389c81655bba3de00b290e9e64f49063fe24c54e86aa9acb3947a0c8af0bfd7f",
+    "bytes": 78349
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\modlist.txt.2026_01_26_05_16_38",
+    "sha256": "8041367d2c597dcbbf0bdcf15fd3830722e0adc452879ff9f369e199d91d1d47",
+    "bytes": 78973
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\modlist.txt.2026_01_27_17_35_56",
+    "sha256": "22ed991a62127939d4b0f2f749d0f528b10aefe2010f945849cfd6117d392de6",
+    "bytes": 79837
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\modlist.txt.2026_02_03_14_37_54",
+    "sha256": "d840b972397df41c1f2f01b316826cc1b5c013909e7851c7a55772348ae4324a",
+    "bytes": 81144
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\modlist.txt.2026_02_05_14_49_42",
+    "sha256": "5b91d0b56d2dbcc0becdf3abf126b60c4695463ebf2a3d9610913ba64a9498dc",
+    "bytes": 81329
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\modlist.txt.2026_02_05_15_50_07",
+    "sha256": "29e2620a196112732002b42afc0b4f211f162368527ce9d6082880b21327d32a",
+    "bytes": 81350
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\modlist.txt.2026_02_05_16_18_08",
+    "sha256": "092e5012aaa96940df40b958f09bded13055b81d077118bbe96f7786e05ad303",
+    "bytes": 81350
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\modlist.txt.뷰리다 베타 1.2",
+    "sha256": "467d47db77758adcdb0b8ff3f7ae835167dcb4efa0e6f22ab196610350151fea",
+    "bytes": 74896
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\modlist.txt.뷰리다 베타 1.3",
+    "sha256": "b314998f8f1c8ad17a656f6ea3ad0e60bba8d24543257cda94163910fffb8d19",
+    "bytes": 78264
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\modlist.txt.뷰리다 베타 1.3.1",
+    "sha256": "f6e260845f97f5768c8c6e90962e46de9d4e84b9229de6b5444ef050ed4a074c",
+    "bytes": 78264
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\plugingroups.txt",
+    "sha256": "181742198177e2f57fc8723c6acb296cd51470cfe685a3135b2044b8a757b6c3",
+    "bytes": 39582
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\plugingroups.txt.2026_01_26_12_16_17",
+    "sha256": "e08e7fe1f5a51de6faa95f06f889155c92ffe0a860cc6d3b0a302e84f94463e4",
+    "bytes": 39370
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\plugingroups.txt.2026_01_28_17_38_57",
+    "sha256": "5651d684d17145c21d26b2c2e12e9fa020d2e234a9c2356696f89eb45109ed6b",
+    "bytes": 39271
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\plugingroups.txt.2026_01_28_19_45_39",
+    "sha256": "2b06ccb63fd08be0d4705c5f6403e1243b5405c3407330647c0ae9090f56bb9b",
+    "bytes": 39223
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\plugingroups.txt.2026_01_28_21_17_16",
+    "sha256": "b685df2131055298ea923aa97d62cdb9c7d1b5dc0c2e61505e573c33b962365e",
+    "bytes": 39571
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\plugingroups.txt.2026_01_30_22_18_19",
+    "sha256": "ce8c9a22f380e6ec7ca2b7f841eb736e34ad49475e507975428ce064d234b1be",
+    "bytes": 39615
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\plugingroups.txt.2026_01_31_01_17_04",
+    "sha256": "4fea70dc9b620aae62d933c671605944dec19f1493d968b078edf6be09ad78b3",
+    "bytes": 39566
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\plugingroups.txt.2026_02_03_14_37_57",
+    "sha256": "ce8c9a22f380e6ec7ca2b7f841eb736e34ad49475e507975428ce064d234b1be",
+    "bytes": 39615
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\plugingroups.txt.2026_02_05_14_49_40",
+    "sha256": "ce8c9a22f380e6ec7ca2b7f841eb736e34ad49475e507975428ce064d234b1be",
+    "bytes": 39615
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\plugingroups.txt.2026_02_05_14_53_35",
+    "sha256": "ce8c9a22f380e6ec7ca2b7f841eb736e34ad49475e507975428ce064d234b1be",
+    "bytes": 39615
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\plugingroups.txt.2026_02_05_15_50_06",
+    "sha256": "a732e653f9c2461c5a08ab4b49008778d0ef930f2323439050a0272c574abf8a",
+    "bytes": 40471
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\plugingroups.txt.뷰리다 베타 1.2",
+    "sha256": "baff893a78de57ff7755bed65c19cf233551b1e5700d5d2d9e93c6cedd90d614",
+    "bytes": 39852
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\plugingroups.txt.뷰리다 베타 1.3",
+    "sha256": "f63ed040abbb79deb26291d8d5bae563fd25f92d4b2b5b1a362d65d7cf8dcc4d",
+    "bytes": 39810
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\plugingroups.txt.뷰리다 베타 1.3.1",
+    "sha256": "f63ed040abbb79deb26291d8d5bae563fd25f92d4b2b5b1a362d65d7cf8dcc4d",
+    "bytes": 39810
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\plugins.txt",
+    "sha256": "ad1aaa9af9953fdcac61a6b34afd63c7ed853dd4ace9718e1a9e5ad1863246f0",
+    "bytes": 26588
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\plugins.txt.2026_01_26_12_16_17",
+    "sha256": "414e226aba9bc311c778c2beca9a09b1d51cbc4f2a935ec6aa4bfb628978e87a",
+    "bytes": 24406
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\plugins.txt.2026_01_28_17_38_57",
+    "sha256": "332189f6ea7b311915c8a165540d86c2e108244584cb4079b1d8429917531de4",
+    "bytes": 25248
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\plugins.txt.2026_01_28_19_45_39",
+    "sha256": "b8731f4a41bc0ae00cb1b4830e900d4235d98cfaaeb77a4ee8efeaea1a40e7b9",
+    "bytes": 25248
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\plugins.txt.2026_01_28_21_17_16",
+    "sha256": "af1a0e6e19c985c633cafe3bba937f256ab3191a6826cea8bf0548458370fd57",
+    "bytes": 25250
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\plugins.txt.2026_01_30_22_18_19",
+    "sha256": "1bea0051b2321d36cd4f29fdfb87afd8786caeed6e03d701ec589b76320d4c37",
+    "bytes": 25366
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\plugins.txt.2026_01_31_01_17_04",
+    "sha256": "843aeb937f968604696d62d2c486ee72fa38cfa2833cd4927f797250c0b0078e",
+    "bytes": 25366
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\plugins.txt.2026_02_03_14_37_57",
+    "sha256": "0f0a0a84d7294ca121c8777450ddb20e3c2d7d749ee53d2b6b55baf19ba5fb98",
+    "bytes": 25614
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\plugins.txt.2026_02_05_14_49_40",
+    "sha256": "4a1dcef66b321e92b05500331a9542013809841f352ffb6cb8f5fe45fcea8cc7",
+    "bytes": 26233
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\plugins.txt.2026_02_05_14_53_35",
+    "sha256": "4a1dcef66b321e92b05500331a9542013809841f352ffb6cb8f5fe45fcea8cc7",
+    "bytes": 26233
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\plugins.txt.2026_02_05_15_50_06",
+    "sha256": "a1203fa06fc31abe0a610adbe7ec10ee1e9d9a3fe1bfeb0f5a1340d6ece76349",
+    "bytes": 26265
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\plugins.txt.뷰리다 베타 1.2",
+    "sha256": "a82933923280c4527029d6d0499c893f85a9a816ca3610177d656313de9b118c",
+    "bytes": 23846
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\plugins.txt.뷰리다 베타 1.3",
+    "sha256": "08f329df244d3e6016f27e5a3b99aa4582595e5a0394992810cc937f8715b1ba",
+    "bytes": 23875
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\plugins.txt.뷰리다 베타 1.3.1",
+    "sha256": "08f329df244d3e6016f27e5a3b99aa4582595e5a0394992810cc937f8715b1ba",
+    "bytes": 23875
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\settings.ini",
+    "sha256": "3a4e7a7fe1fc03d7a89f141baa4ff3164fb03470758f7b58abdf655dc8fc394a",
+    "bytes": 193
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\Skyrim.ini",
+    "sha256": "991843ac2a9e8e26fab31c19e1c25ff8ecb4964878a11a91b0d759cb4752d64c",
+    "bytes": 2734
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\SkyrimCustom.ini",
+    "sha256": "e1da91829cd2b433d670b35214ec77924d22331ca4f814186b28523106119be9",
+    "bytes": 2837
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\profiles\\BGS REDive\\SkyrimPrefs.ini",
+    "sha256": "9f174fff594ec43423dd269a724bfa50e4bb26facefca9c3450a8306a1385e98",
+    "bytes": 3894
+  },
+  {
+    "pack": "Burida",
+    "path": "E:\\stock\\Skyrim collection\\Burida\\STOCK GAME\\Skyrim Special Edition\\SkyrimSE.exe",
+    "sha256": "693e5a51ea2680119a68620bcf5080e81745549872b5d06bbd3f51131b67abab",
+    "bytes": 34769792
+  },
+  {
+    "pack": "TuLED",
+    "path": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\profiles\\TuLED\\archives.txt",
+    "sha256": "66a808b02603edb38b7f187c341d394e33fa75247e03b1d9eb82af8b34af6339",
+    "bytes": 6134
+  },
+  {
+    "pack": "TuLED",
+    "path": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\profiles\\TuLED\\initweaks.ini",
+    "sha256": "c35e72b526cf46723f3559435de33c388f431966e48f66dfb6556283609cd27c",
+    "bytes": 36
+  },
+  {
+    "pack": "TuLED",
+    "path": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\profiles\\TuLED\\loadorder.txt",
+    "sha256": "420c4065b305ee64a7049babf016b481d218ba01dc933dfd271d730a256d9104",
+    "bytes": 27309
+  },
+  {
+    "pack": "TuLED",
+    "path": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\profiles\\TuLED\\loadorder.txt.2026_01_21_18_17_56",
+    "sha256": "264af62f5a4cc56dc075ff3008cb370395953cf8328944604437be8347598c08",
+    "bytes": 27287
+  },
+  {
+    "pack": "TuLED",
+    "path": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\profiles\\TuLED\\loadorder.txt.TuLED 1.0",
+    "sha256": "e3e439178359200ae56361ceafe8bab5c3ddd4753728214a2f2d596844efe49e",
+    "bytes": 27026
+  },
+  {
+    "pack": "TuLED",
+    "path": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\profiles\\TuLED\\loadorder.txt.TuLED 1.0 Erin Add-on",
+    "sha256": "913d5acf0aeaadb563d92ac8c93f2cbba363cd3ff68533238fa2dfebcf04d3ef",
+    "bytes": 28166
+  },
+  {
+    "pack": "TuLED",
+    "path": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\profiles\\TuLED\\loadorder.txt.TuLED 1.01",
+    "sha256": "42dee7279b96fd0c0ab102d1a6dfa094a8be86adfc9505761bb6011e5a6ae3cc",
+    "bytes": 27058
+  },
+  {
+    "pack": "TuLED",
+    "path": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\profiles\\TuLED\\lockedorder.txt",
+    "sha256": "9962fbb07e4c40c4c39b6fe7cedf3f1527cdda5ad0a60d7d53a872b5ae52812d",
+    "bytes": 59
+  },
+  {
+    "pack": "TuLED",
+    "path": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\profiles\\TuLED\\lockedorder.txt.2026_01_21_18_17_56",
+    "sha256": "9962fbb07e4c40c4c39b6fe7cedf3f1527cdda5ad0a60d7d53a872b5ae52812d",
+    "bytes": 59
+  },
+  {
+    "pack": "TuLED",
+    "path": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\profiles\\TuLED\\lockedorder.txt.TuLED 1.0",
+    "sha256": "9962fbb07e4c40c4c39b6fe7cedf3f1527cdda5ad0a60d7d53a872b5ae52812d",
+    "bytes": 59
+  },
+  {
+    "pack": "TuLED",
+    "path": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\profiles\\TuLED\\lockedorder.txt.TuLED 1.0 Erin Add-on",
+    "sha256": "9962fbb07e4c40c4c39b6fe7cedf3f1527cdda5ad0a60d7d53a872b5ae52812d",
+    "bytes": 59
+  },
+  {
+    "pack": "TuLED",
+    "path": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\profiles\\TuLED\\lockedorder.txt.TuLED 1.01",
+    "sha256": "9962fbb07e4c40c4c39b6fe7cedf3f1527cdda5ad0a60d7d53a872b5ae52812d",
+    "bytes": 59
+  },
+  {
+    "pack": "TuLED",
+    "path": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\profiles\\TuLED\\modlist.txt",
+    "sha256": "d4f54061ec73c3dddf3c0136d88daef4393a5568a3f2ccc91f2a800f79cec6aa",
+    "bytes": 83903
+  },
+  {
+    "pack": "TuLED",
+    "path": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\profiles\\TuLED\\modlist.txt.2026_01_15_13_13_55",
+    "sha256": "9665a374fdb437dd57288cf611b822ddc6611563b038dc1a0cff1bb434d17b41",
+    "bytes": 83188
+  },
+  {
+    "pack": "TuLED",
+    "path": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\profiles\\TuLED\\modlist.txt.TuLED 1.0",
+    "sha256": "d575222abb266f4ab8b51a90d0cc27ae97a778ed6cdc825d2d4ff44537e400e7",
+    "bytes": 81941
+  },
+  {
+    "pack": "TuLED",
+    "path": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\profiles\\TuLED\\modlist.txt.TuLED 1.0 Erin Add-on",
+    "sha256": "a5f5923888c0f14c13482c6674733354f4c260d10321f44e4c4d02cf155c2997",
+    "bytes": 84548
+  },
+  {
+    "pack": "TuLED",
+    "path": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\profiles\\TuLED\\modlist.txt.TuLED 1.01",
+    "sha256": "6031fa58cab98bd6a2575d3683e7e2166c0aa2a20b4ea4684dfd1014a0dbe84b",
+    "bytes": 81751
+  },
+  {
+    "pack": "TuLED",
+    "path": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\profiles\\TuLED\\plugingroups.txt",
+    "sha256": "21ca4d2b8991613adef34d2e70b1a1b4108da803156020f5973476c7d8f7639d",
+    "bytes": 46128
+  },
+  {
+    "pack": "TuLED",
+    "path": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\profiles\\TuLED\\plugingroups.txt.2026_01_21_18_17_56",
+    "sha256": "83101307c4997e95cdf6e964dd1a9ce629a3ffbfdba5b787a2cff0067609f688",
+    "bytes": 46192
+  },
+  {
+    "pack": "TuLED",
+    "path": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\profiles\\TuLED\\plugingroups.txt.TuLED 1.0",
+    "sha256": "70042d787509588d3291c062ef8c7bdaf9f89ca7e46ada11737719a7e5dc4e0c",
+    "bytes": 46267
+  },
+  {
+    "pack": "TuLED",
+    "path": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\profiles\\TuLED\\plugingroups.txt.TuLED 1.0 Erin Add-on",
+    "sha256": "4e94f8aabd093b37a66aa3e10a12da7d385c524832d8176739b10b02e08073d7",
+    "bytes": 47978
+  },
+  {
+    "pack": "TuLED",
+    "path": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\profiles\\TuLED\\plugingroups.txt.TuLED 1.01",
+    "sha256": "79e97e96ede4c3c33c86a8e5c5a19ac6520cf198e4f59bc919e2682df92d153b",
+    "bytes": 46297
+  },
+  {
+    "pack": "TuLED",
+    "path": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\profiles\\TuLED\\plugins.txt",
+    "sha256": "f7e230c1f49f2c1cab98c3ccb5951481681789d2e426e62c44256d17e4dafbf2",
+    "bytes": 28248
+  },
+  {
+    "pack": "TuLED",
+    "path": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\profiles\\TuLED\\plugins.txt.2026_01_21_18_17_56",
+    "sha256": "db4bac0719cdffb5bad525d1bf044358469bc1815aea0df6a4e2daa7f29ece4a",
+    "bytes": 28228
+  },
+  {
+    "pack": "TuLED",
+    "path": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\profiles\\TuLED\\plugins.txt.TuLED 1.0",
+    "sha256": "b73ed5d1da85d93e71fb3bb2ce852b8237d93613a50ed5134e447de10704921f",
+    "bytes": 27958
+  },
+  {
+    "pack": "TuLED",
+    "path": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\profiles\\TuLED\\plugins.txt.TuLED 1.0 Erin Add-on",
+    "sha256": "17d09b6a065193c5739726607371f7a1eb5b0a02b38e11c88f6c17ee8c90b95f",
+    "bytes": 29148
+  },
+  {
+    "pack": "TuLED",
+    "path": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\profiles\\TuLED\\plugins.txt.TuLED 1.01",
+    "sha256": "be3bf1a14b43f9e9dcff4b576000664f29b97eb5a001425f6e42bdb7de95d676",
+    "bytes": 27991
+  },
+  {
+    "pack": "TuLED",
+    "path": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\profiles\\TuLED\\settings.ini",
+    "sha256": "c9fa8f16d7025178bf5e9195da266e3b626c66217addbac5935fb260d9bb7a4f",
+    "bytes": 197
+  },
+  {
+    "pack": "TuLED",
+    "path": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\profiles\\TuLED\\Skyrim.ini",
+    "sha256": "991843ac2a9e8e26fab31c19e1c25ff8ecb4964878a11a91b0d759cb4752d64c",
+    "bytes": 2734
+  },
+  {
+    "pack": "TuLED",
+    "path": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\profiles\\TuLED\\SkyrimCustom.ini",
+    "sha256": "e1da91829cd2b433d670b35214ec77924d22331ca4f814186b28523106119be9",
+    "bytes": 2837
+  },
+  {
+    "pack": "TuLED",
+    "path": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\profiles\\TuLED\\SkyrimPrefs.ini",
+    "sha256": "0f73d9c77ffe1473d16a7c5b7c41dc444f19b8586f468d9c45b82e0ccdc31e57",
+    "bytes": 3895
+  },
+  {
+    "pack": "TuLED",
+    "path": "E:\\stock\\Skyrim collection\\TuLED\\STOCK GAME\\Skyrim Special Edition\\SkyrimSE.exe",
+    "sha256": "693e5a51ea2680119a68620bcf5080e81745549872b5d06bbd3f51131b67abab",
+    "bytes": 34769792
+  }
+]

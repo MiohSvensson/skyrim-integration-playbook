@@ -1,0 +1,59 @@
+{
+  "status": "FROZEN_OFFICIAL_SIX_DLL_REPLAY_NOT_EXECUTED",
+  "files": [
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\synthesis_final\\catalogue_official_replay.py",
+      "sha256": "78d81cf5421cc87e0f8df51a904766e5ad9651df195c0b188fae8bf350f038d0",
+      "source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\synthesis_final\\frozen\\rev2\\catalogue_official_replay.py.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\synthesis_final\\prepare_replay.py",
+      "sha256": "b13ed7c3de6eadb5fda3a5739749cd3306e8a8037b67babbb9254d8f216e48be",
+      "source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\synthesis_final\\frozen\\rev2\\prepare_replay.py.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\synthesis_final\\run_official_replay.py",
+      "sha256": "46185885d02efb53222ce209f341711cee1a190afa95b78f78d0867f0935193c",
+      "source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\synthesis_final\\frozen\\rev2\\run_official_replay.py.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\synthesis_final\\official_replay_catalogue.json",
+      "sha256": "9bf91162371e3ed183e44f44311be403eee22a411774377427532ba2dd6e74ee",
+      "source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\synthesis_final\\frozen\\rev2\\official_replay_catalogue.json.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\synthesis_final\\legacy_option_compatibility_evidence.json",
+      "sha256": "bc2799cce8dd9a7c313dcec86bd9b8b7c68a2078ebf553ba146fd66f93a939f6",
+      "source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\synthesis_final\\frozen\\rev2\\legacy_option_compatibility_evidence.json.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\synthesis_final\\old_output_identity_evidence.json",
+      "sha256": "81d91388c10ac761c6197a5b976be68f2426367ebf6e3e7237fdd2e67e40652b",
+      "source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\synthesis_final\\frozen\\rev2\\old_output_identity_evidence.json.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\synthesis_final\\official_legacy_source\\RunSynthesisMutagenPatcher_0.20.2.cs",
+      "sha256": "56b77ec2cbcb5bc32431d3d4e9e65253652c85b8c95435e140cbe2c183620557",
+      "source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\synthesis_final\\frozen\\rev2\\RunSynthesisMutagenPatcher_0.20.2.cs.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\synthesis_final\\official_legacy_source\\StateFactory_0.20.2.cs",
+      "sha256": "29f519d06931c3d70732aa211fea3d6add0cf0653714a92d6d3ac781e86fd4e3",
+      "source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\synthesis_final\\frozen\\rev2\\StateFactory_0.20.2.cs.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\synthesis_final\\official_legacy_source\\SynthesisPipeline_0.20.2.cs",
+      "sha256": "c214770f941c8b0a4c76fe2223db3e26ebe6a56990a57e8f331ce820daf2f4c4",
+      "source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\synthesis_final\\frozen\\rev2\\SynthesisPipeline_0.20.2.cs.frozen.txt"
+    }
+  ],
+  "checks": [
+    "Six recorded official GUI host and interpreted command lines matched to pinned source commits and versions.",
+    "Only five path values plus dotnet host resolution differ in replay argv templates.",
+    "42-byte seed contains only HEDR with zero records, masters and next FormID.",
+    "946 compiled runtime files pinned; no build, GUI or patcher launch.",
+    "Oldest0.20.2 official source confirms IgnoreUnknownArguments and absence of CCC provider; SourcePath import has no allocator without PersistencePath.",
+    "Six old GUI outputs have zero own records; Experience stage4 is byte-identical to stage3."
+  ],
+  "remaining": "Actual final MO2 replay, input-aware semantic checks, xEdit and final VFS are not yet performed."
+}

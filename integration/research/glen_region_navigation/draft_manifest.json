@@ -1,0 +1,22 @@
+{
+  "status": "DRAFT_V6_NOT_XEDIT_COMPILED_OR_EXECUTED",
+  "authoritative_revision": 6,
+  "helper_source": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\navmesh_patch\\DatabaseBoundedNavmeshDraft.pas",
+  "helper_sha256": "f059dac06a295ede4298af0851711bdd77e2334dfcabb335faded81460a03b06",
+  "files": [
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\glen_region_navigation\\DatabaseGlenmorilNavigationDraft.pas",
+      "sha256": "c8599ebaec0d7078371e3a390a1ea9a7aec8395431f7dd834f10cbce98008223"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\glen_region_navigation\\DatabaseVerifyGlenmorilNavigationDraft.pas",
+      "sha256": "693e64b10799e5b3ec6533dd85b93bd72b11af449936078dbb41a9cf6c48ba6b"
+    }
+  ],
+  "authoritative_overlay": {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\navi_unresolved_audit\\stock_orphan_lookup_fix_manifest_v6.json",
+    "sha256": "7f210b9a4fb6eb155c5e34d78cbc4d5cabdfc6c730e880441d0fd4afb3f9d31d"
+  },
+  "baseline_generator_current": false,
+  "note": "generate_drafts.py is historical baseline evidence. Do not regenerate over the v6 scripts; older manifests and audit receipts are preserved history, not current pins."
+}

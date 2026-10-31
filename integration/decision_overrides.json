@@ -1,0 +1,397 @@
+[
+  {
+    "mod_id": 5344,
+    "decision": "disabled_optional_mismatched_addon",
+    "category": "verified_isolation",
+    "reason": "Optional NPC faction patch references absent Missives faction; preserve source appearance/gameplay masters.",
+    "evidence": "integration/research/base_diagnostics/recommended_actions.json"
+  },
+  {
+    "mod_id": 4486,
+    "decision": "disabled_optional_mismatched_addon",
+    "category": "verified_isolation",
+    "reason": "Restore Daegon base NPC and its matching FaceGen assets rather than leaving replacer assets active.",
+    "evidence": "integration/research/base_diagnostics/recommended_actions.json"
+  },
+  {
+    "mod_id": 4262,
+    "decision": "disabled_optional_mismatched_addon",
+    "category": "verified_isolation",
+    "reason": "Keep Ashe - Crystal Heart (4261) main follower and source FaceGen; exclude only the extra replacer fix.",
+    "evidence": "integration/research/base_diagnostics/recommended_actions.json"
+  },
+  {
+    "mod_id": 6158,
+    "decision": "disabled_optional_mismatched_addon",
+    "category": "verified_isolation",
+    "reason": "Retain base AlternatePerspective startup; remove mismatched voice-addon script overrides as well as both ESP providers.",
+    "evidence": "integration/research/base_diagnostics/recommended_actions.json"
+  },
+  {
+    "mod_id": 6159,
+    "decision": "disabled_optional_mismatched_addon",
+    "category": "verified_isolation",
+    "reason": "Retain base AlternatePerspective startup; remove mismatched voice-addon script overrides as well as both ESP providers.",
+    "evidence": "integration/research/base_diagnostics/recommended_actions.json"
+  },
+  {
+    "mod_id": 28,
+    "decision": "partially_adopted_explicit_files",
+    "category": "validated_item_closure",
+    "reason": "只採用明確裝備插件與專屬資源：(lilyrim)lingzhuyinyue.esp, (lilyrim)fangfeizhuzhi.esp, (lilyrim)hongluanzhuojin.esp, cj-tdcxyz.esp, (SSE) MELTALLIC Bunny.esp, [COCO]SMP hair v6.esp, [Kirax] LoA Sorceress Eternal Skin.esp, [Kirax] LoA Elgacia.esp, AE_Fallen_Doll_Stealth_Suit.esp, hanyiqinghua.esp, [Grimlook33] Mai Shiranu Skin 2.esp, [Kirax] BDO Reborn Sephia.esp, [Kirax] BDO Reborn Nereid.esp, [Kirax] BDO Reborn Selaine.esp, [Kirax] OVR Sorceress Aegir.esp, [Tullius] Blue Plate Armor.esp, AE_DOA5_Halloween_BodySuit.esp, AE_Fallen_Doll_Soldier.esp, AE_Miza.esp, BDOR Ars Magna.esp, BDOR Night Stalker.esp, BDOR Rose Noir.esp, Black Rose.esp, Catwoman.esp, Latex Lover Corset Plus.esp, hanfu.esp, MBO 0006 by Team TAL.esp, MBO 0018 by Team TAL.esp, cj-mingzhuang.esp",
+    "directory": "ZZ70 Imported equipment",
+    "evidence": "integration/imported_equipment.json"
+  },
+  {
+    "mod_id": 43,
+    "decision": "partially_adopted_explicit_files",
+    "category": "validated_item_closure",
+    "reason": "只採用明確裝備插件與專屬資源：ED Horns SSE.esp",
+    "directory": "ZZ70 Imported equipment",
+    "evidence": "integration/imported_equipment.json"
+  },
+  {
+    "mod_id": 61,
+    "decision": "partially_adopted_explicit_files",
+    "category": "validated_item_closure",
+    "reason": "只採用明確裝備插件與專屬資源：gui-sunrise dream.esp",
+    "directory": "ZZ70 Imported equipment",
+    "evidence": "integration/imported_equipment.json"
+  },
+  {
+    "mod_id": 62,
+    "decision": "partially_adopted_explicit_files",
+    "category": "validated_item_closure",
+    "reason": "只重用已列出並核對的裝備網格／貼圖資源，未採用其整套生成輸出或全局框架。",
+    "directory": "ZZ70 Imported equipment",
+    "evidence": "integration/imported_equipment.json"
+  },
+  {
+    "mod_id": 112,
+    "decision": "partially_adopted_explicit_files",
+    "category": "validated_item_closure",
+    "reason": "只重用已列出並核對的裝備網格／貼圖資源，未採用其整套生成輸出或全局框架。",
+    "directory": "ZZ70 Imported equipment",
+    "evidence": "integration/imported_equipment.json"
+  },
+  {
+    "mod_id": 365,
+    "decision": "partially_adopted_explicit_files",
+    "category": "validated_item_closure",
+    "reason": "只採用明確裝備插件與專屬資源：EbonyArmorKai.esp",
+    "directory": "ZZ70 Imported equipment",
+    "evidence": "integration/imported_equipment.json"
+  },
+  {
+    "mod_id": 366,
+    "decision": "partially_adopted_explicit_files",
+    "category": "validated_item_closure",
+    "reason": "只採用明確裝備插件與專屬資源：BDOR Poetica.esp",
+    "directory": "ZZ70 Imported equipment",
+    "evidence": "integration/imported_equipment.json"
+  },
+  {
+    "mod_id": 369,
+    "decision": "partially_adopted_explicit_files",
+    "category": "validated_item_closure",
+    "reason": "只採用明確裝備插件與專屬資源：AE_YOG_Ruo_Green_Dress.esp",
+    "directory": "ZZ70 Imported equipment",
+    "evidence": "integration/imported_equipment.json"
+  },
+  {
+    "mod_id": 385,
+    "decision": "partially_adopted_explicit_files",
+    "category": "validated_item_closure",
+    "reason": "只採用明確裝備插件與專屬資源：SC_Order1886_Igraine.esp",
+    "directory": "ZZ70 Imported equipment",
+    "evidence": "integration/imported_equipment.json"
+  },
+  {
+    "mod_id": 387,
+    "decision": "partially_adopted_explicit_files",
+    "category": "validated_item_closure",
+    "reason": "只採用明確裝備插件與專屬資源：BDOR Chic Lua.esp",
+    "directory": "ZZ70 Imported equipment",
+    "evidence": "integration/imported_equipment.json"
+  },
+  {
+    "mod_id": 388,
+    "decision": "partially_adopted_explicit_files",
+    "category": "validated_item_closure",
+    "reason": "只採用明確裝備插件與專屬資源：Vertigo Boots.esp",
+    "directory": "ZZ70 Imported equipment",
+    "evidence": "integration/imported_equipment.json"
+  },
+  {
+    "mod_id": 391,
+    "decision": "partially_adopted_explicit_files",
+    "category": "validated_item_closure",
+    "reason": "只採用明確裝備插件與專屬資源：SSE_3BA_Green_Nun.esp",
+    "directory": "ZZ70 Imported equipment",
+    "evidence": "integration/imported_equipment.json"
+  },
+  {
+    "mod_id": 393,
+    "decision": "partially_adopted_explicit_files",
+    "category": "validated_item_closure",
+    "reason": "只採用明確裝備插件與專屬資源：WP Elden Ring Nightreign Wylder.esp",
+    "directory": "ZZ70 Imported equipment",
+    "evidence": "integration/imported_equipment.json"
+  },
+  {
+    "mod_id": 394,
+    "decision": "partially_adopted_explicit_files",
+    "category": "validated_item_closure",
+    "reason": "只採用明確裝備插件與專屬資源：Elden_Doragon.esp",
+    "directory": "ZZ70 Imported equipment",
+    "evidence": "integration/imported_equipment.json"
+  },
+  {
+    "mod_id": 400,
+    "decision": "partially_adopted_explicit_files",
+    "category": "validated_item_closure",
+    "reason": "只重用已列出並核對的裝備網格／貼圖資源，未採用其整套生成輸出或全局框架。",
+    "directory": "ZZ70 Imported equipment",
+    "evidence": "integration/imported_equipment.json"
+  },
+  {
+    "mod_id": 401,
+    "decision": "partially_adopted_explicit_files",
+    "category": "validated_item_closure",
+    "reason": "只採用明確裝備插件與專屬資源：_Fuse00_ArmorScout.esp",
+    "directory": "ZZ70 Imported equipment",
+    "evidence": "integration/imported_equipment.json"
+  },
+  {
+    "mod_id": 402,
+    "decision": "partially_adopted_explicit_files",
+    "category": "validated_item_closure",
+    "reason": "只重用已列出並核對的裝備網格／貼圖資源，未採用其整套生成輸出或全局框架。",
+    "directory": "ZZ70 Imported equipment",
+    "evidence": "integration/imported_equipment.json"
+  },
+  {
+    "mod_id": 908,
+    "decision": "partially_adopted_explicit_files",
+    "category": "validated_item_closure",
+    "reason": "只重用已列出並核對的裝備網格／貼圖資源，未採用其整套生成輸出或全局框架。",
+    "directory": "ZZ70 Imported equipment",
+    "evidence": "integration/imported_equipment.json"
+  },
+  {
+    "mod_id": 1296,
+    "decision": "partially_adopted_explicit_files",
+    "category": "validated_item_closure",
+    "reason": "只重用已列出並核對的裝備網格／貼圖資源，未採用其整套生成輸出或全局框架。",
+    "directory": "ZZ70 Imported equipment",
+    "evidence": "integration/imported_equipment.json"
+  },
+  {
+    "mod_id": 1528,
+    "decision": "partially_adopted_explicit_files",
+    "category": "validated_item_closure",
+    "reason": "只採用明確裝備插件與專屬資源：NW_Steel_Plate_Armors.esp",
+    "directory": "ZZ70 Imported equipment",
+    "evidence": "integration/imported_equipment.json"
+  },
+  {
+    "mod_id": 1529,
+    "decision": "partially_adopted_explicit_files",
+    "category": "validated_item_closure",
+    "reason": "只重用已列出並核對的裝備網格／貼圖資源，未採用其整套生成輸出或全局框架。",
+    "directory": "ZZ70 Imported equipment",
+    "evidence": "integration/imported_equipment.json"
+  },
+  {
+    "mod_id": 1977,
+    "decision": "partially_adopted_explicit_files",
+    "category": "validated_item_closure",
+    "reason": "只重用已列出並核對的裝備網格／貼圖資源，未採用其整套生成輸出或全局框架。",
+    "directory": "ZZ70 Imported equipment",
+    "evidence": "integration/imported_equipment.json"
+  },
+  {
+    "mod_id": 1998,
+    "decision": "partially_adopted_explicit_files",
+    "category": "validated_item_closure",
+    "reason": "只採用明確裝備插件與專屬資源：SSE_VRC_Bunny_Police.esp",
+    "directory": "ZZ70 Imported equipment",
+    "evidence": "integration/imported_equipment.json"
+  },
+  {
+    "mod_id": 2002,
+    "decision": "partially_adopted_explicit_files",
+    "category": "validated_item_closure",
+    "reason": "只採用明確裝備插件與專屬資源：[Caenarvon] Pharaoh Slave.esp, FashionWtich Set.esp, [Caenarvon] Kagura.esp, [Caenarvon] Song of Broken Pine Standalone.esp",
+    "directory": "ZZ70 Imported equipment",
+    "evidence": "integration/imported_equipment.json"
+  },
+  {
+    "mod_id": 3155,
+    "decision": "partially_adopted_explicit_files",
+    "category": "validated_item_closure",
+    "reason": "只重用已列出並核對的裝備網格／貼圖資源，未採用其整套生成輸出或全局框架。",
+    "directory": "ZZ70 Imported equipment",
+    "evidence": "integration/imported_equipment.json"
+  },
+  {
+    "mod_id": 3672,
+    "decision": "partially_adopted_explicit_files",
+    "category": "validated_item_closure",
+    "reason": "只採用明確裝備插件與專屬資源：DDAngeli.esp",
+    "directory": "ZZ70 Imported equipment",
+    "evidence": "integration/imported_equipment.json"
+  },
+  {
+    "mod_id": 3673,
+    "decision": "partially_adopted_explicit_files",
+    "category": "validated_item_closure",
+    "reason": "只採用明確裝備插件與專屬資源：SSE_Tubaki.esp",
+    "directory": "ZZ70 Imported equipment",
+    "evidence": "integration/imported_equipment.json"
+  },
+  {
+    "mod_id": 4053,
+    "decision": "partially_adopted_explicit_files",
+    "category": "validated_item_closure",
+    "reason": "只採用明確裝備插件與專屬資源：[Stella]MagicalGirl3BA.esp",
+    "directory": "ZZ70 Imported equipment",
+    "evidence": "integration/imported_equipment.json"
+  },
+  {
+    "mod_id": 4079,
+    "decision": "partially_adopted_explicit_files",
+    "category": "validated_item_closure",
+    "reason": "只採用明確裝備插件與專屬資源：gui-SucubusSister Shinano.esp",
+    "directory": "ZZ70 Imported equipment",
+    "evidence": "integration/imported_equipment.json"
+  },
+  {
+    "mod_id": 4096,
+    "decision": "partially_adopted_explicit_files",
+    "category": "validated_item_closure",
+    "reason": "只採用明確裝備插件與專屬資源：BlackWidow.esp",
+    "directory": "ZZ70 Imported equipment",
+    "evidence": "integration/imported_equipment.json"
+  },
+  {
+    "mod_id": 1641,
+    "decision": "adopted_standalone_feature_resources",
+    "category": "quest_follower_feature",
+    "reason": "Wyrmstooth：採用獨立原作資源及明確選定插件；安裝選項與無關補丁未啟用。",
+    "directory": "F01 Wyrmstooth",
+    "evidence": "integration/imported_features.json"
+  },
+  {
+    "mod_id": 137,
+    "decision": "adopted_standalone_feature_resources",
+    "category": "quest_follower_feature",
+    "reason": "The Forgotten City：採用獨立原作資源及明確選定插件；安裝選項與無關補丁未啟用。",
+    "directory": "F02 The Forgotten City",
+    "evidence": "integration/imported_features.json"
+  },
+  {
+    "mod_id": 1510,
+    "decision": "adopted_standalone_feature_resources",
+    "category": "quest_follower_feature",
+    "reason": "The Forgotten City：採用獨立原作資源及明確選定插件；安裝選項與無關補丁未啟用。",
+    "directory": "F02 The Forgotten City",
+    "evidence": "integration/imported_features.json"
+  },
+  {
+    "mod_id": 291,
+    "decision": "adopted_standalone_feature_resources",
+    "category": "quest_follower_feature",
+    "reason": "World In Painting / Zero Hall / UF6：採用獨立原作資源及明確選定插件；安裝選項與無關補丁未啟用。",
+    "directory": "F03 World In Painting - Zero Hall - UF6",
+    "evidence": "integration/imported_features.json"
+  },
+  {
+    "mod_id": 290,
+    "decision": "adopted_standalone_feature_resources",
+    "category": "quest_follower_feature",
+    "reason": "World In Painting / Zero Hall / UF6：採用獨立原作資源及明確選定插件；安裝選項與無關補丁未啟用。",
+    "directory": "F03 World In Painting - Zero Hall - UF6",
+    "evidence": "integration/imported_features.json"
+  },
+  {
+    "mod_id": 1163,
+    "decision": "adopted_standalone_feature_resources",
+    "category": "quest_follower_feature",
+    "reason": "Glenmoril：採用獨立原作資源及明確選定插件；安裝選項與無關補丁未啟用。",
+    "directory": "F04 Glenmoril",
+    "evidence": "integration/imported_features.json"
+  },
+  {
+    "mod_id": 59,
+    "decision": "adopted_standalone_feature_resources",
+    "category": "quest_follower_feature",
+    "reason": "Glenmoril：採用獨立原作資源及明確選定插件；安裝選項與無關補丁未啟用。",
+    "directory": "F04 Glenmoril",
+    "evidence": "integration/imported_features.json"
+  },
+  {
+    "mod_id": 88,
+    "decision": "adopted_standalone_feature_resources",
+    "category": "quest_follower_feature",
+    "reason": "Moon and Star：採用獨立原作資源及明確選定插件；安裝選項與無關補丁未啟用。",
+    "directory": "F05 Moon and Star",
+    "evidence": "integration/imported_features.json"
+  },
+  {
+    "mod_id": 751,
+    "decision": "adopted_standalone_feature_resources",
+    "category": "quest_follower_feature",
+    "reason": "Forgotten Magic Redone：採用獨立原作資源及明確選定插件；安裝選項與無關補丁未啟用。",
+    "directory": "F06 Forgotten Magic Redone",
+    "evidence": "integration/imported_features.json"
+  },
+  {
+    "mod_id": 127,
+    "decision": "adopted_standalone_feature_resources",
+    "category": "quest_follower_feature",
+    "reason": "SofiaFollower.esp：採用獨立原作資源及明確選定插件；安裝選項與無關補丁未啟用。",
+    "directory": "F07 SofiaFollower.esp",
+    "evidence": "integration/imported_features.json"
+  },
+  {
+    "mod_id": 64,
+    "decision": "adopted_standalone_feature_resources",
+    "category": "quest_follower_feature",
+    "reason": "HothFollower.esp：採用獨立原作資源及明確選定插件；安裝選項與無關補丁未啟用。",
+    "directory": "F08 HothFollower.esp",
+    "evidence": "integration/imported_features.json"
+  },
+  {
+    "mod_id": 14,
+    "decision": "adopted_standalone_feature_resources",
+    "category": "quest_follower_feature",
+    "reason": "BenDoonSSE.esp：採用獨立原作資源及明確選定插件；安裝選項與無關補丁未啟用。",
+    "directory": "F09 BenDoonSSE.esp",
+    "evidence": "integration/imported_features.json"
+  },
+  {
+    "mod_id": 1666,
+    "decision": "partially_adopted_explicit_files",
+    "category": "selected_feature_patch",
+    "reason": "只採用已核對版本與master的補丁 DBM_Wyrmstooth_Patch.esp",
+    "directory": "F01 Wyrmstooth",
+    "evidence": "integration/imported_features.json"
+  },
+  {
+    "mod_id": 80,
+    "decision": "partially_adopted_explicit_files",
+    "category": "selected_feature_patch",
+    "reason": "只採用已核對版本與master的補丁 LOTD_TCC_Wyrmstooth.esp",
+    "directory": "F01 Wyrmstooth",
+    "evidence": "integration/imported_features.json"
+  },
+  {
+    "mod_id": 1666,
+    "decision": "partially_adopted_explicit_files",
+    "category": "selected_feature_patch",
+    "reason": "只採用已核對版本與master的補丁 DBM_ForgottenCity_Patch.esp",
+    "directory": "F02 The Forgotten City",
+    "evidence": "integration/imported_features.json"
+  }
+]

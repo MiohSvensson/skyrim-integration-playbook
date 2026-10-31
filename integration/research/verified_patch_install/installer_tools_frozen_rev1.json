@@ -1,0 +1,91 @@
+{
+  "schema": "skyrim.verified_patch_installer.freeze.v1",
+  "utc": "2026-10-31T13:36:19.321568+00:00",
+  "revision": 1,
+  "status": "PREPARED_AND_RESEARCH_FIXTURE_VERIFIED_NOT_EXECUTED_ON_RUNTIME",
+  "files": [
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\verified_patch_install\\install_verified_patch.py",
+      "sha256": "5b6be65b71f09de53a73c175016477364c609328d7b22cb11a217b86df314eb1",
+      "size_bytes": 33013
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\verified_patch_install\\validate_installer.py",
+      "sha256": "9c7ab85f8c9fafcdff89356a8c74533f1bed9c169013083aaec014be1151b8eb",
+      "size_bytes": 10847
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\verified_patch_install\\validation_9090b813c2e84c0e84511e65ebc09e92.json",
+      "sha256": "d82094749343619fc9fae85f66f7ab3b9ae51dd0c0b4f21fb61c2e1d333b2391",
+      "size_bytes": 3443
+    }
+  ],
+  "root_api_dependencies": [
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\materialize.py",
+      "sha256": "c0d93f992580c8dcbe1951f116a9d75609e2344761d7d5a2564816416ca2e34c",
+      "size_bytes": 14405
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\runtime_inventory.py",
+      "sha256": "f6b3902eb51c8ff97884daaac8b279095572700f43250f7c8eef03934249712d",
+      "size_bytes": 6072
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\rootcause\\plugin_binary.py",
+      "sha256": "2722572c9a3d25b731dcfb2c7eaee9b543725b2b06348f4e0c49e1575bf058d6",
+      "size_bytes": 3439
+    }
+  ],
+  "layer": "ZZ87 Verified compatibility patches",
+  "profiles": [
+    "Unified Skyrim",
+    "Unified Build"
+  ],
+  "cli": {
+    "prepare": [
+      "python",
+      "E:\\stock\\Skyrim collection\\Database\\integration\\research\\verified_patch_install\\install_verified_patch.py",
+      "prepare",
+      "--candidate",
+      "<research/candidate/Exact Patch.esp>",
+      "--producer",
+      "<UnifiedSkyrim/validation/PASS_builder_task>",
+      "--binary-report",
+      "<research/SHA-bound_binary_report.json>",
+      "--output",
+      "<fresh research/install_job>"
+    ],
+    "install": [
+      "python",
+      "E:\\stock\\Skyrim collection\\Database\\integration\\research\\verified_patch_install\\install_verified_patch.py",
+      "install",
+      "--prepared",
+      "<fresh research/install_job/prepared.json>"
+    ],
+    "accept": [
+      "python",
+      "E:\\stock\\Skyrim collection\\Database\\integration\\research\\verified_patch_install\\install_verified_patch.py",
+      "accept",
+      "--prepared",
+      "<research/install_job/prepared.json>",
+      "--reload-task",
+      "<fresh UnifiedSkyrim/validation/PASS_installed_reload_task>"
+    ]
+  },
+  "requirements": [
+    "Builder result exactly PASS, true usvfs, exit0, real marker, exact log/script/candidate SHA, no changed controls or inputs.",
+    "Independent binary candidate report has passed=true + nonempty matching candidate_checks + exact candidate_sha256, or explicit recognized navigation binary-pass status with candidate.sha256 and records. Source-only report rejected.",
+    "Current Build complete active plugin-name-to-SHA set and controls equal producer snapshot. Both profiles are fully hashed, duplicate checked, master closed, topologically ordered, slot-budgeted.",
+    "Candidate is private and copied atomically through materialize.make_private with canonical add_file_mapping journal rows; unrelated pending units never built. Existing destination rows/backups recorded; handled failures restore exact previous journal rows and bytes.",
+    "Comments, UTF8 BOM, original CRLF/LF endings and disabled rows remain byte-preserved; only candidate activation/layer addition and approved derived-suffix relocation change.",
+    "Candidate inserted after gameplay and before active Synthesis/DynDOLOD.esp/Occlusion plus dependent suffix. DynDOLOD.esm position preserved.",
+    "Any installation receipt is accepted=false / INSTALLED_PENDING_FRESH_TYPED_RELOAD. accept requires later read-only VERIFY_ONLY=True xEdit job with installed exact winner in real MO2 VFS and both current profile closures.",
+    "Exact own-layer replacement requires --replace-sha256 prior hash; no arbitrary collision overwrite.",
+    "Do not run installers concurrently or while profile controls are being rewritten. Research install.lock and install_started prevent blind resume after interruption. Inspect backups/journal before deliberate crash recovery."
+  ],
+  "limits": [
+    "No actual candidate installed or accepted by this agent. The 25 checks include two journal fixtures confined to research, with actual runtime/profile/shared-journal paths untouched.",
+    "Final full VFS/resource graph, regenerated Synthesis/LOD and game validation remain separate gates. No game was started."
+  ]
+}

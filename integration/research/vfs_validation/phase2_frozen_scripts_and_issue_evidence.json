@@ -1,0 +1,242 @@
+[
+  {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\vfs_common.py",
+    "bytes": 11867,
+    "sha256": "f3895131240b777b08126c74d3e9eb0c8207792eedb9d99e878dc5854d9ac39c"
+  },
+  {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\prepare_vfs_expectations.py",
+    "bytes": 7747,
+    "sha256": "0be014c638d697cd992c19d74c17f5b91669cf0616f130b10276db9284f80c56"
+  },
+  {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\probe_resource_graph.py",
+    "bytes": 11742,
+    "sha256": "de49a7074263a2fecb719fee9a93c13af9de6ebcc49150fbd9e935008c7bfecc"
+  },
+  {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\probe_vfs_full.py",
+    "bytes": 2192,
+    "sha256": "649142cb516c918ba08e9af2fcaf491ec41eafa47e0f9652864748fc324c9e99"
+  },
+  {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\probe_vfs.py",
+    "bytes": 8819,
+    "sha256": "ef969c8f5a817e220764b8adf9f6264d6b2f5bff8f49a2dccfa77bc909eb4c69"
+  },
+  {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\graph_issue_evidence.json",
+    "bytes": 21564,
+    "sha256": "8f4cf8d5ecccb547cef34d19df8eca529462cef5601635061bcfe922e300cd1d"
+  },
+  {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\sos_source_audit\\psc\\SOS_ActorMagicEffect_Script.psc",
+    "bytes": 16110,
+    "sha256": "e93395b97d0167d081861cbaf17e21ee76c6c516c68f15d8c8433ecb652c13de"
+  },
+  {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\sos_source_audit\\psc\\SOS_AddonQuest_Script.psc",
+    "bytes": 8437,
+    "sha256": "efa61f066791cc0a361de29730ec98f809cbbcfc6217a20ee94217c4b98c15f8"
+  },
+  {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\sos_source_audit\\psc\\SOS_API.psc",
+    "bytes": 7321,
+    "sha256": "09d1f4e10a47ab22edff64d974ece425271d002fcd49d77bcd862c7640051bb9"
+  },
+  {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\sos_source_audit\\psc\\SOS_Config.psc",
+    "bytes": 58337,
+    "sha256": "2ac0deae8fda3893fdc975265a50e77cb9826aec169043f3137ee86e8e0dcb5d"
+  },
+  {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\sos_source_audit\\psc\\SOS_Data.psc",
+    "bytes": 11642,
+    "sha256": "a3d3276cab5003bb867caef4692ad6986b7d4e6f343310f808f16db9c8d4fa55"
+  },
+  {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\sos_source_audit\\psc\\SOS_Debug.psc",
+    "bytes": 5956,
+    "sha256": "ebe8ae787cf9a578ade0cb51757282e821cf9054bdf758fbd539ca1e83caa592"
+  },
+  {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\sos_source_audit\\psc\\SOS_DecreaseSizeMagicEffect_Script.psc",
+    "bytes": 1150,
+    "sha256": "64710bc5da0d20a5c6a2729afea6e653afa8cb601c96a17822183c19a815a78a"
+  },
+  {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\sos_source_audit\\psc\\SOS_ErectionMagicEffect_Script.psc",
+    "bytes": 6454,
+    "sha256": "15792820d3748d7f46e302a5289e62f8c236b97e28fbfb5639ba2ce7d599aa38"
+  },
+  {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\sos_source_audit\\psc\\SOS_IncreaseSizeMagicEffect_Script.psc",
+    "bytes": 1295,
+    "sha256": "4360611f16bc037e0f3b8d1c1b4fdba30f81a28dcee6d6a0b0cedd78a6978248"
+  },
+  {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\sos_source_audit\\psc\\SOS_IO.psc",
+    "bytes": 12464,
+    "sha256": "c828b1079813d0e16c52e42c1397e1bf22869ac682c304b42562fd350a760d3b"
+  },
+  {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\sos_source_audit\\psc\\SOS_Maintenance.psc",
+    "bytes": 5531,
+    "sha256": "8c9e4fea607ebe64a093162ebedeaf7683ed42ba1025cfcf4b5a169c8c50a3c6"
+  },
+  {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\sos_source_audit\\psc\\SOS_Maintenance_Alias.psc",
+    "bytes": 518,
+    "sha256": "3bbe766196f97c1e8f73df1253bafda0625d0268d819fce2a0981eb08b0682e6"
+  },
+  {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\sos_source_audit\\psc\\SOS_PlayerAliasScript.psc",
+    "bytes": 8274,
+    "sha256": "6b7baf6d0a09646a6db6c49bf3ecb4a14e9ea22241f2f57c101550e27c8b9b40"
+  },
+  {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\sos_source_audit\\psc\\SOS_RevealingArmorMagicEffect_Script.psc",
+    "bytes": 3382,
+    "sha256": "52c260fe592881d010866d06cb110062c92ca3a870385efcbf1c5dc2b95d182a"
+  },
+  {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\sos_source_audit\\psc\\SOS_SetupNPCMagicEffect_Script.psc",
+    "bytes": 1232,
+    "sha256": "f1de1f40a2a4fe9bf19a0506289025ff6d7ab937e2803cadee7cb0e6dd767e0c"
+  },
+  {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\sos_source_audit\\psc\\SOS_SetupQuest_Script.psc",
+    "bytes": 35198,
+    "sha256": "d0ebeba77a0916e473102c06ed3e01c627b69234e830fa612f183e58b6431299"
+  },
+  {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\sos_source_audit\\psc\\SOS_SKSE.psc",
+    "bytes": 2837,
+    "sha256": "fa6a9cf091eeed0d8d5922ce5316a485f9944e582c4f073bc4064dc1ee538ca8"
+  },
+  {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\sos_source_audit\\psc\\SOS_TIF_Erection.psc",
+    "bytes": 762,
+    "sha256": "a89873968f2ce96487fbe4fe45ca3994291ac90ddc27d65b2014d0806a3ae001"
+  },
+  {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\sos_source_audit\\psc\\SOS_TIF_Growth.psc",
+    "bytes": 858,
+    "sha256": "09500609a72892c61f397b652291eeed6ad7baa7865cb33a0cb34e8493ce52a0"
+  },
+  {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\sos_source_audit\\psc\\SOS_TIF_Shrink.psc",
+    "bytes": 858,
+    "sha256": "10cd874f8ee641ab5a309772558cf5489ffd880456b93ef25b447702a2c56eb1"
+  },
+  {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\sos_source_audit\\psc\\SOS_TrollololScript.psc",
+    "bytes": 934,
+    "sha256": "a67d9c2aa7db3c96e4630eb8da630a35f62e13b4dc1ed6b34c92ff1db3d34844"
+  },
+  {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\sos_source_audit\\asm\\SOS_ActorMagicEffect_Script.pas",
+    "bytes": 56116,
+    "sha256": "1b89bee52c7ac7258d2dd92b7154e5fd6a3fc7e7400b58ae37a4d517ed30bbec"
+  },
+  {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\sos_source_audit\\asm\\SOS_AddonQuest_Script.pas",
+    "bytes": 30689,
+    "sha256": "3ba84d8cb9dfdcf9cb0c2cbf796d75b083e29cd7ee87e6a0d7e22eb20d198544"
+  },
+  {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\sos_source_audit\\asm\\SOS_API.pas",
+    "bytes": 20688,
+    "sha256": "546faacba360efcc9e0dce08bf4c37ab26d2513244f3eb75144b36ed271f194e"
+  },
+  {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\sos_source_audit\\asm\\SOS_Config.pas",
+    "bytes": 157344,
+    "sha256": "8fc1591fb15e7cd18459ec85426265392163539e63fdc057e6b4713ccabd501d"
+  },
+  {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\sos_source_audit\\asm\\SOS_Data.pas",
+    "bytes": 43870,
+    "sha256": "91eb42168f92c78057bdd4995207f6dcd3acb98e9dc21f69b3c3fdbe102fa960"
+  },
+  {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\sos_source_audit\\asm\\SOS_Debug.pas",
+    "bytes": 18048,
+    "sha256": "2df633755affc7f4f61d5886b06fd1a1ffd1689ee258e6a12bffa22fefa05647"
+  },
+  {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\sos_source_audit\\asm\\SOS_DecreaseSizeMagicEffect_Script.pas",
+    "bytes": 4111,
+    "sha256": "b394578c4f071d66cda22641fb7f4c7252f98f391126f8c1affb7d704ea16b6c"
+  },
+  {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\sos_source_audit\\asm\\SOS_ErectionMagicEffect_Script.pas",
+    "bytes": 20908,
+    "sha256": "a0c5e3c26096226434db4f524f3423b96a572047e974075aa1b01b67f9e574bc"
+  },
+  {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\sos_source_audit\\asm\\SOS_IncreaseSizeMagicEffect_Script.pas",
+    "bytes": 5115,
+    "sha256": "9b5c83bb6948f700240d27916613cbc5c615013e02a6765f3f537aadc1ee8c6b"
+  },
+  {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\sos_source_audit\\asm\\SOS_IO.pas",
+    "bytes": 39358,
+    "sha256": "72b7bd6db072c9d261720de9c51595e5694cdceb8b962eeb720b2d177abef4e6"
+  },
+  {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\sos_source_audit\\asm\\SOS_Maintenance.pas",
+    "bytes": 14490,
+    "sha256": "800a73042fe70335e83f5b6ca074da5b7bcca081ac5af760efbb6f1e3835cd9c"
+  },
+  {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\sos_source_audit\\asm\\SOS_Maintenance_Alias.pas",
+    "bytes": 2205,
+    "sha256": "0e5a0cc984afeac385b35e8cdca8d05572a88ca4c779da55c9a519c33489ff8e"
+  },
+  {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\sos_source_audit\\asm\\SOS_PlayerAliasScript.pas",
+    "bytes": 25949,
+    "sha256": "6babb2c69b706088f0d3599d816fcb87762f797ec5a8f5279fe0129f67acfb38"
+  },
+  {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\sos_source_audit\\asm\\SOS_RevealingArmorMagicEffect_Script.pas",
+    "bytes": 10110,
+    "sha256": "5352fac8368b70adae403369dbb251b7b136b5997c014fd7bcd52a0a34878502"
+  },
+  {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\sos_source_audit\\asm\\SOS_SetupNPCMagicEffect_Script.pas",
+    "bytes": 3815,
+    "sha256": "465a1bd2b40cc653bea5bc2a2674fc8a334fcbc4540ead66151b79741ab58fe6"
+  },
+  {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\sos_source_audit\\asm\\SOS_SetupQuest_Script.pas",
+    "bytes": 110992,
+    "sha256": "4c99b519557d31b1b03dd4f5cba9358a2eab9a92c510435cf7f331c80107ae75"
+  },
+  {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\sos_source_audit\\asm\\SOS_SKSE.pas",
+    "bytes": 13879,
+    "sha256": "b57b21aebf9d6de4f85764c0fd8b4f8fe789291d25bd979f4f9857849bb1fbff"
+  },
+  {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\sos_source_audit\\asm\\SOS_TIF_Erection.pas",
+    "bytes": 2611,
+    "sha256": "4a7e4c9e61acb2069de666efa5cf6dcf3233b43b8c9995d5548306ff69f66aa9"
+  },
+  {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\sos_source_audit\\asm\\SOS_TIF_Growth.pas",
+    "bytes": 2848,
+    "sha256": "fecc760f2718898378f7c7ec3a90d9cff25adf1a9234867e5facc7cda6c4ec81"
+  },
+  {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\sos_source_audit\\asm\\SOS_TIF_Shrink.pas",
+    "bytes": 2848,
+    "sha256": "301618e7a10c3648235f651b2fc88a4859266fff48e085b6e235bd6909c67d28"
+  },
+  {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\sos_source_audit\\asm\\SOS_TrollololScript.pas",
+    "bytes": 3730,
+    "sha256": "1832ba979432be7d9e50072428c2e5e0661dd0fbc7ccc644a9adc684a07c2b3c"
+  }
+]

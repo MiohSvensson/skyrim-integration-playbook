@@ -1,0 +1,5800 @@
+{
+  "input_scope": "resolved-map",
+  "file_checks": [
+    {
+      "filename": "[longshou]UF6.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\F03 World In Painting - Zero Hall - UF6\\[longshou]UF6.esp",
+      "sha256": "37472e17e48101ec53fa6046385cbc29068db4b244bbfbd5bfbd2a7c5256783d",
+      "crc32": "6030A1F3",
+      "matches": true
+    },
+    {
+      "filename": "[LongShou]WorldInPainting_ZeroHall.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\F03 World In Painting - Zero Hall - UF6\\[LongShou]WorldInPainting_ZeroHall.esp",
+      "sha256": "105e0bf084ec5bf5fb968406480a057c67daf35fc4a361589ea5fd6955f4a724",
+      "crc32": "1E5A771B",
+      "matches": true
+    },
+    {
+      "filename": "AE_StellarBlade_Doro.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T5304 Nikke Doro Follower DDUDDYA\\AE_StellarBlade_Doro.esp",
+      "sha256": "3cac3618b7c0e8aa69b6f4a01c1f642d5aaeaf104b1e53806efb619106d9e825",
+      "crc32": "92087F4A",
+      "matches": true
+    },
+    {
+      "filename": "AlternatePerspective.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6142 [LED] Alternate Perspective 4.1 - Kor\\AlternatePerspective.esp",
+      "sha256": "35b7c6ae076e8299cd22059c27dfe0e13998dc772255e6d6d049fc18585ddada",
+      "crc32": "DB953833",
+      "matches": true
+    },
+    {
+      "filename": "AP - USSEP patch.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T4206 Alternate Perspective - Fixes and Patches\\AP - USSEP patch.esp",
+      "sha256": "4178d7aeac07a0c58a33fae5acd42e3872938580266b5cec141c648ff75c3ab3",
+      "crc32": "D0B8D8A5",
+      "matches": true
+    },
+    {
+      "filename": "BenDoonSSE.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\F09 BenDoonSSE.esp\\BenDoonSSE.esp",
+      "sha256": "afd1e978edaffe14adb8083686a184ace484de253c89fd73d7091ac7a7d27878",
+      "crc32": "8BBC1931",
+      "matches": true
+    },
+    {
+      "filename": "BGCollectables.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6400 [LED][Custom] BGCollectable\\BGCollectables.esp",
+      "sha256": "1edb43bd4f72936085b02f3ebf3dd52d7f47e4ef6290d701af23281d53749b46",
+      "crc32": "0CA1F837",
+      "matches": true
+    },
+    {
+      "filename": "BGS TuLED Patch.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6401 [LED][Custom] BGSR TuLED Patch\\BGS TuLED Patch.esp",
+      "sha256": "342b2873667633e30b9036906eb4a472571c5b071a4d82633d2f53c71e745363",
+      "crc32": "E8433978",
+      "matches": true
+    },
+    {
+      "filename": "BPUFXelzazFollower.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6393 [LED]Xelzaz Follower Core 1.13.2\\BPUFXelzazFollower.esp",
+      "sha256": "a47357f4cffd735e0666dc918942c4bb48ffb7a4d16857c626d530ac05004e8b",
+      "crc32": "1AC9B757",
+      "matches": true
+    },
+    {
+      "filename": "Dawnguard.esm",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\ZZ80 Consistent stock data\\Dawnguard.esm",
+      "sha256": "92c5d2c407e9f1e753c82ea40799bad8e2d61a1b64f58b5cc3b4521b57c5ae1d",
+      "crc32": "4077581E",
+      "matches": true
+    },
+    {
+      "filename": "DBM_HUB_Kozakowy_CBBE_Patch.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6243 [LED]Hall of Forgotten 2.4.26\\DBM_HUB_Kozakowy_CBBE_Patch.esp",
+      "sha256": "6732ae1d55ea6dcb31b99832a48dde35d1d3cd76d16b5dd59062c5f9b96e3d0c",
+      "crc32": "528BE1BA",
+      "matches": true
+    },
+    {
+      "filename": "DBM_WorldofDucky_Patch.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6276 [LED]LOTD - WoD Patch Re-balanced [덕키]\\DBM_WorldofDucky_Patch.esp",
+      "sha256": "d6962200892fcb0c047d85aa6a8b0c0c9200764eba2fed90f5b97a212730b986",
+      "crc32": "5DE47D61",
+      "matches": true
+    },
+    {
+      "filename": "DBM_Xelzaz_Patch.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T5107 Legacy of the Dragonborn - Follower Room Patches\\DBM_Xelzaz_Patch.esp",
+      "sha256": "78e9c32dbdb42128f9244ddd751ff818b35ef975ac80201a6ac88cbf979ec2f6",
+      "crc32": "7729318B",
+      "matches": true
+    },
+    {
+      "filename": "Dragonborn.esm",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\ZZ80 Consistent stock data\\Dragonborn.esm",
+      "sha256": "2ecc393bb93660e36364cd8e48d58b8ce7ee1791b1218863918d04b83ad38429",
+      "crc32": "541B8348",
+      "matches": true
+    },
+    {
+      "filename": "ErinRace.esm",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T4691 Erin Race (Anime Race) 1.4.18\\ErinRace.esm",
+      "sha256": "56cf1983d0a362eaee0e38e3da170eec86d5108dfcf7d65abdb90a155a61d0b4",
+      "crc32": "EC78CED1",
+      "matches": true
+    },
+    {
+      "filename": "Forgotten City Music Fix.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\F02 The Forgotten City\\Forgotten City Music Fix.esp",
+      "sha256": "831fd5a977abe7fa09e419b7e75188e1700c450ff33cfac05251b0f786816370",
+      "crc32": "95ED79FE",
+      "matches": true
+    },
+    {
+      "filename": "ForgottenCity.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\F02 The Forgotten City\\ForgottenCity.esp",
+      "sha256": "25e4dc1cf2763523bfec6ac3dcb08c83d4c1fe54be719865688c38122eda34f2",
+      "crc32": "E6DC78C3",
+      "matches": true
+    },
+    {
+      "filename": "ForgottenMagic_Redone.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\F06 Forgotten Magic Redone\\ForgottenMagic_Redone.esp",
+      "sha256": "c8df195c3b5e23db3f7dcd0d689c21bce0e28323c3463381571216db55e8e6b4",
+      "crc32": "B5EB6964",
+      "matches": true
+    },
+    {
+      "filename": "Golden Egg Treasure Hunt.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6243 [LED]Hall of Forgotten 2.4.26\\Golden Egg Treasure Hunt.esp",
+      "sha256": "a6ace24bae611bfdd885853d283bc600bcd31a4cbd7cfa97573ac1857d0eba73",
+      "crc32": "C9B7A6A5",
+      "matches": true
+    },
+    {
+      "filename": "HearthFires.esm",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\ZZ80 Consistent stock data\\HearthFires.esm",
+      "sha256": "b330c76f976a7e681f5ca86a3a01479e5b82ef08ec7ede73719f835f4b509460",
+      "crc32": "2BD3F40E",
+      "matches": true
+    },
+    {
+      "filename": "HothFollower.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\F08 HothFollower.esp\\HothFollower.esp",
+      "sha256": "0071a7200fdc42e8bf37dd20b87fb93109656fa55b2373f3404e029a2e9d9095",
+      "crc32": "215922B2",
+      "matches": true
+    },
+    {
+      "filename": "I5K Treasure Hunt.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T4174 ADVG 1st #02 Hidden Treasure SSE ver1.1 - PSI Rework\\I5K Treasure Hunt.esp",
+      "sha256": "dbedb63988ac3cca959f1f4b40d9660c94df769c1f3da33d85541585da469cc0",
+      "crc32": "76F34D6E",
+      "matches": true
+    },
+    {
+      "filename": "iNeed - Extended.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T4989 iNeed - Food, Water and Sleep - Continued\\iNeed - Extended.esp",
+      "sha256": "719525c9a2b2877b25ca73a24d6c50915cf4d8a8c692ae96865ccc5467490c1e",
+      "crc32": "DD598601",
+      "matches": true
+    },
+    {
+      "filename": "Kaidan - Immersive Features.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6259 [LED]Kaidan - Extended Edition\\Kaidan - Immersive Features.esp",
+      "sha256": "fdd4a0c5ad86dfda5df8864c7073969cd7ca117202846b9994e3e7a9aaf3be36",
+      "crc32": "57B3CCD8",
+      "matches": true
+    },
+    {
+      "filename": "KuroneSoulTomb_EX1.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T5087 Kurone Soul Tomb\\KuroneSoulTomb_EX1.esp",
+      "sha256": "24227319b0363c010b88b8a49772b06e5fefb9d76925b465db1eec6aec3c2528",
+      "crc32": "1C2AA2D7",
+      "matches": true
+    },
+    {
+      "filename": "Landscape Fixes For Grass Mods.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T5095 Landscape Fixes For Grass Mods\\Landscape Fixes For Grass Mods.esp",
+      "sha256": "f937c33529a315a3a35f8ecea54e2eb8ad7a7f02947dbc7b6db49049156a4435",
+      "crc32": "F7A5B6E7",
+      "matches": true
+    },
+    {
+      "filename": "Natural Waterfalls.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T5264 Natural Waterfalls\\Natural Waterfalls.esp",
+      "sha256": "f83e64b1c1ab33269a5d9050f872e496e225c8fc6e028e103ef0bb4d0952c649",
+      "crc32": "E54A4741",
+      "matches": true
+    },
+    {
+      "filename": "Nature of the Wild Lands.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T5266 Nature of the Wild Lands\\Nature of the Wild Lands.esp",
+      "sha256": "5f61e72c46c419f74f6a006377291c5eaa1c7eed729e7d9b260210f4e2ee9b9e",
+      "crc32": "FC713696",
+      "matches": true
+    },
+    {
+      "filename": "Nix Whiterun Floating Islands - Higher Version.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6296 [LED]Nix's Floating Islands of Whiterun - High Version\\Nix Whiterun Floating Islands - Higher Version.esp",
+      "sha256": "85cf610a9e4ff6b2f9c1a9c6195b1957cfec914c22c203263f8abe08ff27f6ef",
+      "crc32": "C697EE94",
+      "matches": true
+    },
+    {
+      "filename": "NOTWL - Lanterns.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6367 [LED]True Light - Kor\\NOTWL - Lanterns.esp",
+      "sha256": "8c3fd406b613c44299b0e84bdcb777164bc6e9ac42d1aac9686a3db8ecf35abe",
+      "crc32": "280F68AF",
+      "matches": true
+    },
+    {
+      "filename": "SexLab_Solutions.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T5635 SexLab Solutions - Revisited SE\\SexLab_Solutions.esp",
+      "sha256": "28383987354bd3da8f5115f425bed33c9d4b7a344d70ea30d430ba9122dc4d6e",
+      "crc32": "3D1940D9",
+      "matches": true
+    },
+    {
+      "filename": "Skyrim.esm",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\ZZ80 Consistent stock data\\Skyrim.esm",
+      "sha256": "06a9881f6ab277afd2a82e71f8a3719183b7031db4d9c78a7f40c08e1e4ffa91",
+      "crc32": "66212483",
+      "matches": true
+    },
+    {
+      "filename": "SofiaFollower.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\F07 SofiaFollower.esp\\SofiaFollower.esp",
+      "sha256": "8c70186252d0a4415e1ff02584b87adca4c685a4fc4d2dec94c09040ef3ec3c9",
+      "crc32": "D87DD508",
+      "matches": true
+    },
+    {
+      "filename": "The Modern Scrolls.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T4171 Addon Modern Scrolls SE 5.4\\The Modern Scrolls.esp",
+      "sha256": "08b1d64f58e91964833f8bd04529964cab6e70138a33ab9ea632f2f9aef15fcb",
+      "crc32": "F2CC4CE4",
+      "matches": true
+    },
+    {
+      "filename": "TL Bulbs ISL.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6367 [LED]True Light - Kor\\TL Bulbs ISL.esp",
+      "sha256": "3e02a60ca9e36cab20acf67beebab559245fdac02b534e3ce1d93e7b8a674a9a",
+      "crc32": "879FEB90",
+      "matches": true
+    },
+    {
+      "filename": "True Light Exteriors.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6367 [LED]True Light - Kor\\True Light Exteriors.esp",
+      "sha256": "af99d6f9abf31ead70bd0324085c4a8f9c177a79e9a0db6cb7532e438d8968a8",
+      "crc32": "F4E95A9F",
+      "matches": true
+    },
+    {
+      "filename": "Unofficial Skyrim Special Edition Patch.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T5955 Unofficial Skyrim Special Edition Patch\\Unofficial Skyrim Special Edition Patch.esp",
+      "sha256": "c42820ca1fb31d11254f4478a3f1725db1fc547822ac06f8c74d9edf2d442eac",
+      "crc32": "0CD1CA0B",
+      "matches": true
+    },
+    {
+      "filename": "Update.esm",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\ZZ80 Consistent stock data\\Update.esm",
+      "sha256": "71e0b3a9573ee758a7b546c31c8e34a78c8f1e145d5831299bca4c2a0e3336f4",
+      "crc32": "496B5D11",
+      "matches": true
+    },
+    {
+      "filename": "Water for ENB (Shades of Skyrim).esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6045 Water for ENB\\Water for ENB (Shades of Skyrim).esp",
+      "sha256": "9e11b601aa5a8a553ff34b1243f5cb7b55e3a1aebfdd9983efc5e9e56f7030d7",
+      "crc32": "49BCF5A9",
+      "matches": true
+    },
+    {
+      "filename": "Window Shadows Ultimate Supplement.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6388 [LED]Window Shadows Ultimate - Kor\\Window Shadows Ultimate Supplement.esp",
+      "sha256": "3cb157e9709e77ad69b649c2ff34f820de098c8db726590996fa65c581eaebed",
+      "crc32": "D060E267",
+      "matches": true
+    },
+    {
+      "filename": "Window Shadows Ultimate.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6388 [LED]Window Shadows Ultimate - Kor\\Window Shadows Ultimate.esp",
+      "sha256": "b203e9f90d64a8db0820edd29ec6ff536bc92e1241eb50e5a60a949907a05400",
+      "crc32": "F93DD725",
+      "matches": true
+    },
+    {
+      "filename": "WSU - CS Add-On.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6388 [LED]Window Shadows Ultimate - Kor\\WSU - CS Add-On.esp",
+      "sha256": "6b7be946fe3f3035e5e8f8a639bf441f92c935b8bf1c69610756cf1f3b1cfe21",
+      "crc32": "BECA8611",
+      "matches": true
+    },
+    {
+      "filename": "Wyrmstooth.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\F01 Wyrmstooth\\Wyrmstooth.esp",
+      "sha256": "59b7aa67f4b2434d62fbafe27b97fb4053b0aa3693a4e768bcb6ae8e3213aea9",
+      "crc32": "7F886003",
+      "matches": true
+    }
+  ],
+  "priority_seed_records_verified": 152,
+  "candidate": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\ZZ87 Verified compatibility patches\\Database Feature Compatibility.esp",
+  "candidate_sha256": "25f5a1a424927dba84a189e68c57301a06f80f7d5860c55121f088c84a094557",
+  "candidate_sha256_before": "25f5a1a424927dba84a189e68c57301a06f80f7d5860c55121f088c84a094557",
+  "candidate_sha256_after": "25f5a1a424927dba84a189e68c57301a06f80f7d5860c55121f088c84a094557",
+  "candidate_unchanged_during_verification": true,
+  "physical_placement_contract_sha256": "8ebe5c0b260fc4e8ebe9a9a91986f8c0fc144ad98383d57a12e75ab0c9c1ff7a",
+  "physical_placement_checks": [
+    {
+      "record": "skyrim.esm|0165B3",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "CELL"
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          7
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "CELL"
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          7
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0CDD73",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "CELL"
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          6,
+          "skyrim.esm|0165B3"
+        ],
+        [
+          8,
+          "skyrim.esm|0165B3"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "CELL"
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          6,
+          "skyrim.esm|0165B3"
+        ],
+        [
+          8,
+          "skyrim.esm|0165B3"
+        ]
+      ],
+      "persistent_change": true,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|016A0C",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "CELL"
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          8
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "CELL"
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          8
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0198CB",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "CELL"
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          6,
+          "skyrim.esm|016A0C"
+        ],
+        [
+          8,
+          "skyrim.esm|016A0C"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "CELL"
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          6,
+          "skyrim.esm|016A0C"
+        ],
+        [
+          8,
+          "skyrim.esm|016A0C"
+        ]
+      ],
+      "persistent_change": true,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0198CF",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "CELL"
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          6,
+          "skyrim.esm|016A0C"
+        ],
+        [
+          8,
+          "skyrim.esm|016A0C"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "CELL"
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          6,
+          "skyrim.esm|016A0C"
+        ],
+        [
+          8,
+          "skyrim.esm|016A0C"
+        ]
+      ],
+      "persistent_change": true,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|1027DB",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "CELL"
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          6,
+          "skyrim.esm|016A0C"
+        ],
+        [
+          8,
+          "skyrim.esm|016A0C"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "CELL"
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          6,
+          "skyrim.esm|016A0C"
+        ],
+        [
+          8,
+          "skyrim.esm|016A0C"
+        ]
+      ],
+      "persistent_change": true,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0A1793",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "CELL"
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          9
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "CELL"
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          9
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|01605E",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "CELL"
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "CELL"
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|016A0E",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "CELL"
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          8
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "CELL"
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          8
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0198A2",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "CELL"
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          6,
+          "skyrim.esm|016A0E"
+        ],
+        [
+          8,
+          "skyrim.esm|016A0E"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "CELL"
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          6,
+          "skyrim.esm|016A0E"
+        ],
+        [
+          8,
+          "skyrim.esm|016A0E"
+        ]
+      ],
+      "persistent_change": true,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0138CE",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "CELL"
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          7
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "CELL"
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          7
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|00003C",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "WRLD"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "WRLD"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|000D74",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "WRLD"
+        ],
+        [
+          1,
+          "skyrim.esm|00003C"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "WRLD"
+        ],
+        [
+          1,
+          "skyrim.esm|00003C"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|023DD1",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "WRLD"
+        ],
+        [
+          1,
+          "skyrim.esm|00003C"
+        ],
+        [
+          6,
+          "skyrim.esm|000D74"
+        ],
+        [
+          8,
+          "skyrim.esm|000D74"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "WRLD"
+        ],
+        [
+          1,
+          "skyrim.esm|00003C"
+        ],
+        [
+          6,
+          "skyrim.esm|000D74"
+        ],
+        [
+          8,
+          "skyrim.esm|000D74"
+        ]
+      ],
+      "persistent_change": true,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|04377E",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "WRLD"
+        ],
+        [
+          1,
+          "skyrim.esm|00003C"
+        ],
+        [
+          6,
+          "skyrim.esm|000D74"
+        ],
+        [
+          8,
+          "skyrim.esm|000D74"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "WRLD"
+        ],
+        [
+          1,
+          "skyrim.esm|00003C"
+        ],
+        [
+          6,
+          "skyrim.esm|000D74"
+        ],
+        [
+          8,
+          "skyrim.esm|000D74"
+        ]
+      ],
+      "persistent_change": true,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|04C19B",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "WRLD"
+        ],
+        [
+          1,
+          "skyrim.esm|00003C"
+        ],
+        [
+          6,
+          "skyrim.esm|000D74"
+        ],
+        [
+          8,
+          "skyrim.esm|000D74"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "WRLD"
+        ],
+        [
+          1,
+          "skyrim.esm|00003C"
+        ],
+        [
+          6,
+          "skyrim.esm|000D74"
+        ],
+        [
+          8,
+          "skyrim.esm|000D74"
+        ]
+      ],
+      "persistent_change": true,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|081F3C",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "WRLD"
+        ],
+        [
+          1,
+          "skyrim.esm|00003C"
+        ],
+        [
+          6,
+          "skyrim.esm|000D74"
+        ],
+        [
+          8,
+          "skyrim.esm|000D74"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "WRLD"
+        ],
+        [
+          1,
+          "skyrim.esm|00003C"
+        ],
+        [
+          6,
+          "skyrim.esm|000D74"
+        ],
+        [
+          8,
+          "skyrim.esm|000D74"
+        ]
+      ],
+      "persistent_change": true,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0868CB",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "WRLD"
+        ],
+        [
+          1,
+          "skyrim.esm|00003C"
+        ],
+        [
+          6,
+          "skyrim.esm|000D74"
+        ],
+        [
+          8,
+          "skyrim.esm|000D74"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "WRLD"
+        ],
+        [
+          1,
+          "skyrim.esm|00003C"
+        ],
+        [
+          6,
+          "skyrim.esm|000D74"
+        ],
+        [
+          8,
+          "skyrim.esm|000D74"
+        ]
+      ],
+      "persistent_change": true,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0B8307",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "WRLD"
+        ],
+        [
+          1,
+          "skyrim.esm|00003C"
+        ],
+        [
+          6,
+          "skyrim.esm|000D74"
+        ],
+        [
+          8,
+          "skyrim.esm|000D74"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "WRLD"
+        ],
+        [
+          1,
+          "skyrim.esm|00003C"
+        ],
+        [
+          6,
+          "skyrim.esm|000D74"
+        ],
+        [
+          8,
+          "skyrim.esm|000D74"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0B830F",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "WRLD"
+        ],
+        [
+          1,
+          "skyrim.esm|00003C"
+        ],
+        [
+          6,
+          "skyrim.esm|000D74"
+        ],
+        [
+          8,
+          "skyrim.esm|000D74"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "WRLD"
+        ],
+        [
+          1,
+          "skyrim.esm|00003C"
+        ],
+        [
+          6,
+          "skyrim.esm|000D74"
+        ],
+        [
+          8,
+          "skyrim.esm|000D74"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0BFBFE",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "WRLD"
+        ],
+        [
+          1,
+          "skyrim.esm|00003C"
+        ],
+        [
+          6,
+          "skyrim.esm|000D74"
+        ],
+        [
+          8,
+          "skyrim.esm|000D74"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "WRLD"
+        ],
+        [
+          1,
+          "skyrim.esm|00003C"
+        ],
+        [
+          6,
+          "skyrim.esm|000D74"
+        ],
+        [
+          8,
+          "skyrim.esm|000D74"
+        ]
+      ],
+      "persistent_change": true,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0F1E54",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "WRLD"
+        ],
+        [
+          1,
+          "skyrim.esm|00003C"
+        ],
+        [
+          6,
+          "skyrim.esm|000D74"
+        ],
+        [
+          8,
+          "skyrim.esm|000D74"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "WRLD"
+        ],
+        [
+          1,
+          "skyrim.esm|00003C"
+        ],
+        [
+          6,
+          "skyrim.esm|000D74"
+        ],
+        [
+          8,
+          "skyrim.esm|000D74"
+        ]
+      ],
+      "persistent_change": true,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|10EACF",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "WRLD"
+        ],
+        [
+          1,
+          "skyrim.esm|00003C"
+        ],
+        [
+          6,
+          "skyrim.esm|000D74"
+        ],
+        [
+          8,
+          "skyrim.esm|000D74"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "WRLD"
+        ],
+        [
+          1,
+          "skyrim.esm|00003C"
+        ],
+        [
+          6,
+          "skyrim.esm|000D74"
+        ],
+        [
+          8,
+          "skyrim.esm|000D74"
+        ]
+      ],
+      "persistent_change": true,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|008EC1",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "WRLD"
+        ],
+        [
+          1,
+          "skyrim.esm|00003C"
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          196611
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "WRLD"
+        ],
+        [
+          1,
+          "skyrim.esm|00003C"
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          196611
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0097E4",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "WRLD"
+        ],
+        [
+          1,
+          "skyrim.esm|00003C"
+        ],
+        [
+          4,
+          65535
+        ],
+        [
+          5,
+          131069
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "WRLD"
+        ],
+        [
+          1,
+          "skyrim.esm|00003C"
+        ],
+        [
+          4,
+          65535
+        ],
+        [
+          5,
+          131069
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0BFC09",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "WRLD"
+        ],
+        [
+          1,
+          "skyrim.esm|00003C"
+        ],
+        [
+          4,
+          65535
+        ],
+        [
+          5,
+          131069
+        ],
+        [
+          6,
+          "skyrim.esm|0097E4"
+        ],
+        [
+          9,
+          "skyrim.esm|0097E4"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "WRLD"
+        ],
+        [
+          1,
+          "skyrim.esm|00003C"
+        ],
+        [
+          4,
+          65535
+        ],
+        [
+          5,
+          131069
+        ],
+        [
+          6,
+          "skyrim.esm|0097E4"
+        ],
+        [
+          9,
+          "skyrim.esm|0097E4"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0096EC",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "WRLD"
+        ],
+        [
+          1,
+          "skyrim.esm|00003C"
+        ],
+        [
+          4,
+          65535
+        ],
+        [
+          5,
+          131070
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "WRLD"
+        ],
+        [
+          1,
+          "skyrim.esm|00003C"
+        ],
+        [
+          4,
+          65535
+        ],
+        [
+          5,
+          131070
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0C032D",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "WRLD"
+        ],
+        [
+          1,
+          "skyrim.esm|00003C"
+        ],
+        [
+          4,
+          65535
+        ],
+        [
+          5,
+          131070
+        ],
+        [
+          6,
+          "skyrim.esm|0096EC"
+        ],
+        [
+          9,
+          "skyrim.esm|0096EC"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "WRLD"
+        ],
+        [
+          1,
+          "skyrim.esm|00003C"
+        ],
+        [
+          4,
+          65535
+        ],
+        [
+          5,
+          131070
+        ],
+        [
+          6,
+          "skyrim.esm|0096EC"
+        ],
+        [
+          9,
+          "skyrim.esm|0096EC"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0096ED",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "WRLD"
+        ],
+        [
+          1,
+          "skyrim.esm|00003C"
+        ],
+        [
+          4,
+          65535
+        ],
+        [
+          5,
+          131070
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "WRLD"
+        ],
+        [
+          1,
+          "skyrim.esm|00003C"
+        ],
+        [
+          4,
+          65535
+        ],
+        [
+          5,
+          131070
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|00970D",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "WRLD"
+        ],
+        [
+          1,
+          "skyrim.esm|00003C"
+        ],
+        [
+          4,
+          65535
+        ],
+        [
+          5,
+          131070
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "WRLD"
+        ],
+        [
+          1,
+          "skyrim.esm|00003C"
+        ],
+        [
+          4,
+          65535
+        ],
+        [
+          5,
+          131070
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0BFC6C",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "WRLD"
+        ],
+        [
+          1,
+          "skyrim.esm|00003C"
+        ],
+        [
+          4,
+          65535
+        ],
+        [
+          5,
+          131070
+        ],
+        [
+          6,
+          "skyrim.esm|00970D"
+        ],
+        [
+          9,
+          "skyrim.esm|00970D"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "WRLD"
+        ],
+        [
+          1,
+          "skyrim.esm|00003C"
+        ],
+        [
+          4,
+          65535
+        ],
+        [
+          5,
+          131070
+        ],
+        [
+          6,
+          "skyrim.esm|00970D"
+        ],
+        [
+          9,
+          "skyrim.esm|00970D"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|009744",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "WRLD"
+        ],
+        [
+          1,
+          "skyrim.esm|00003C"
+        ],
+        [
+          4,
+          65535
+        ],
+        [
+          5,
+          196606
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "WRLD"
+        ],
+        [
+          1,
+          "skyrim.esm|00003C"
+        ],
+        [
+          4,
+          65535
+        ],
+        [
+          5,
+          196606
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|009763",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "WRLD"
+        ],
+        [
+          1,
+          "skyrim.esm|00003C"
+        ],
+        [
+          4,
+          65535
+        ],
+        [
+          5,
+          196606
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "WRLD"
+        ],
+        [
+          1,
+          "skyrim.esm|00003C"
+        ],
+        [
+          4,
+          65535
+        ],
+        [
+          5,
+          196606
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0097A2",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "WRLD"
+        ],
+        [
+          1,
+          "skyrim.esm|00003C"
+        ],
+        [
+          4,
+          65535
+        ],
+        [
+          5,
+          196606
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "WRLD"
+        ],
+        [
+          1,
+          "skyrim.esm|00003C"
+        ],
+        [
+          4,
+          65535
+        ],
+        [
+          5,
+          196606
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|009A07",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "WRLD"
+        ],
+        [
+          1,
+          "skyrim.esm|00003C"
+        ],
+        [
+          4,
+          4294967295
+        ],
+        [
+          5,
+          4294967295
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "WRLD"
+        ],
+        [
+          1,
+          "skyrim.esm|00003C"
+        ],
+        [
+          4,
+          4294967295
+        ],
+        [
+          5,
+          4294967295
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|016BB4",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "WRLD"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "WRLD"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|016BE0",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "WRLD"
+        ],
+        [
+          1,
+          "skyrim.esm|016BB4"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "WRLD"
+        ],
+        [
+          1,
+          "skyrim.esm|016BB4"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0EA62D",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "WRLD"
+        ],
+        [
+          1,
+          "skyrim.esm|016BB4"
+        ],
+        [
+          6,
+          "skyrim.esm|016BE0"
+        ],
+        [
+          8,
+          "skyrim.esm|016BE0"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "WRLD"
+        ],
+        [
+          1,
+          "skyrim.esm|016BB4"
+        ],
+        [
+          6,
+          "skyrim.esm|016BE0"
+        ],
+        [
+          8,
+          "skyrim.esm|016BE0"
+        ]
+      ],
+      "persistent_change": true,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|042247",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "WRLD"
+        ],
+        [
+          1,
+          "skyrim.esm|016BB4"
+        ],
+        [
+          4,
+          131071
+        ],
+        [
+          5,
+          393213
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "WRLD"
+        ],
+        [
+          1,
+          "skyrim.esm|016BB4"
+        ],
+        [
+          4,
+          131071
+        ],
+        [
+          5,
+          393213
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|01A26F",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "WRLD"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "WRLD"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|01A270",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "WRLD"
+        ],
+        [
+          1,
+          "skyrim.esm|01A26F"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "WRLD"
+        ],
+        [
+          1,
+          "skyrim.esm|01A26F"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|096271",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "WRLD"
+        ],
+        [
+          1,
+          "skyrim.esm|01A26F"
+        ],
+        [
+          6,
+          "skyrim.esm|01A270"
+        ],
+        [
+          8,
+          "skyrim.esm|01A270"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "WRLD"
+        ],
+        [
+          1,
+          "skyrim.esm|01A26F"
+        ],
+        [
+          6,
+          "skyrim.esm|01A270"
+        ],
+        [
+          8,
+          "skyrim.esm|01A270"
+        ]
+      ],
+      "persistent_change": true,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0B8E97",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "WRLD"
+        ],
+        [
+          1,
+          "skyrim.esm|01A26F"
+        ],
+        [
+          6,
+          "skyrim.esm|01A270"
+        ],
+        [
+          8,
+          "skyrim.esm|01A270"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "WRLD"
+        ],
+        [
+          1,
+          "skyrim.esm|01A26F"
+        ],
+        [
+          6,
+          "skyrim.esm|01A270"
+        ],
+        [
+          8,
+          "skyrim.esm|01A270"
+        ]
+      ],
+      "persistent_change": true,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|1000F2",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "WRLD"
+        ],
+        [
+          1,
+          "skyrim.esm|01A26F"
+        ],
+        [
+          6,
+          "skyrim.esm|01A270"
+        ],
+        [
+          8,
+          "skyrim.esm|01A270"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "WRLD"
+        ],
+        [
+          1,
+          "skyrim.esm|01A26F"
+        ],
+        [
+          6,
+          "skyrim.esm|01A270"
+        ],
+        [
+          8,
+          "skyrim.esm|01A270"
+        ]
+      ],
+      "persistent_change": true,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|01A275",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "WRLD"
+        ],
+        [
+          1,
+          "skyrim.esm|01A26F"
+        ],
+        [
+          4,
+          65535
+        ],
+        [
+          5,
+          65535
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "WRLD"
+        ],
+        [
+          1,
+          "skyrim.esm|01A26F"
+        ],
+        [
+          4,
+          65535
+        ],
+        [
+          5,
+          65535
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|01A276",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "WRLD"
+        ],
+        [
+          1,
+          "skyrim.esm|01A26F"
+        ],
+        [
+          4,
+          65535
+        ],
+        [
+          5,
+          65535
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "WRLD"
+        ],
+        [
+          1,
+          "skyrim.esm|01A26F"
+        ],
+        [
+          4,
+          65535
+        ],
+        [
+          5,
+          65535
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|037EDF",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "WRLD"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "WRLD"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|037EE6",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "WRLD"
+        ],
+        [
+          1,
+          "skyrim.esm|037EDF"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "WRLD"
+        ],
+        [
+          1,
+          "skyrim.esm|037EDF"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0F0A1F",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "WRLD"
+        ],
+        [
+          1,
+          "skyrim.esm|037EDF"
+        ],
+        [
+          6,
+          "skyrim.esm|037EE6"
+        ],
+        [
+          8,
+          "skyrim.esm|037EE6"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "WRLD"
+        ],
+        [
+          1,
+          "skyrim.esm|037EDF"
+        ],
+        [
+          6,
+          "skyrim.esm|037EE6"
+        ],
+        [
+          8,
+          "skyrim.esm|037EE6"
+        ]
+      ],
+      "persistent_change": true,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|037EE9",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "WRLD"
+        ],
+        [
+          1,
+          "skyrim.esm|037EDF"
+        ],
+        [
+          4,
+          4294901760
+        ],
+        [
+          5,
+          4294836227
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "WRLD"
+        ],
+        [
+          1,
+          "skyrim.esm|037EDF"
+        ],
+        [
+          4,
+          4294901760
+        ],
+        [
+          5,
+          4294836227
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|013DFE",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|068526",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|013DFE"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|013DFE"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|013DFF",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0684F4",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|013DFF"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|013DFF"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|013E00",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|068454",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|013E00"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|013E00"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|013E01",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|06884E",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|013E01"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|013E01"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|026DFD",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0D8E18",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|026DFD"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|026DFD"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|026DFF",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0D8DD0",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|026DFF"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|026DFF"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|026E0D",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0D8DDE",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|026E0D"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|026E0D"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|026E0E",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0DE50E",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|026E0E"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|026E0E"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|02707A",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|02A7C8",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02707A"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02707A"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|02A7C9",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02707A"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02707A"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|02AB8F",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02707A"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02707A"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|02A7A5",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02707A"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02707A"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|02A7A7",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02707A"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02707A"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|02A7A8",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02707A"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02707A"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|02A7AD",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02707A"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02707A"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|02A7AF",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02707A"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02707A"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|02AB91",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02707A"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02707A"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|02AB92",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02707A"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02707A"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|08F147",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02707A"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02707A"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|08F148",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02707A"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02707A"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0934F6",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02707A"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02707A"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|02BDDD",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|020948",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02BDDD"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02BDDD"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|020954",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02BDDD"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02BDDD"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|02BE0B",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02BDDD"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02BDDD"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|02BE10",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02BDDD"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02BDDD"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|02BE12",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02BDDD"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02BDDD"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|04464A",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02BDDD"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02BDDD"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0AD7C9",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02BDDD"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02BDDD"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0AD7E7",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02BDDD"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02BDDD"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0AD7E8",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02BDDD"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02BDDD"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0AD7EC",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02BDDD"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02BDDD"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0AD7ED",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02BDDD"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02BDDD"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0D27E1",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02BDDD"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02BDDD"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0D27E2",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02BDDD"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02BDDD"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0D27E3",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02BDDD"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02BDDD"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0DD06A",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02BDDD"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02BDDD"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0DD0A1",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02BDDD"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02BDDD"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0DD0DB",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02BDDD"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02BDDD"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|02E13B",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0C7C1F",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02E13B"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02E13B"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0C7C21",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02E13B"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02E13B"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|02E163",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02E13B"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02E13B"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|02E169",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02E13B"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02E13B"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0C1D57",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02E13B"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02E13B"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|02E164",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02E13B"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02E13B"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|02E168",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02E13B"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02E13B"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0C0FD1",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02E13B"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|02E13B"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|04BEB1",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0D2382",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|04BEB1"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|04BEB1"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|04BEB2",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0BCCF1",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|04BEB2"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|04BEB2"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|05C80C",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0D8DD4",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|05C80C"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|05C80C"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|060020",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0D8DC1",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|060020"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|060020"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|074DDA",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0CDA0F",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|074DDA"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|074DDA"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|074DDB",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0CDA1A",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|074DDB"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|074DDB"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|074E25",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0CDA15",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|074E25"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|074E25"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|075083",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0D8DB3",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|075083"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|075083"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|075084",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0D8E1C",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|075084"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|075084"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|095122",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|095123",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|095122"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|095122"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0CBA96",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|095122"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|095122"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0B122F",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0B1231",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|0B122F"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|0B122F"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0B1232",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|0B122F"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|0B122F"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0B1233",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|0B122F"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|0B122F"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0BCC84",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|01A18E",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|0BCC84"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|0BCC84"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0653F1",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|0BCC84"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|0BCC84"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0BD4AF",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0BD734",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|0BD4AF"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|0BD4AF"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0CBA92",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|0BD4AF"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|0BD4AF"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0BD690",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0BD752",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|0BD690"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|0BD690"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0CBA94",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|0BD690"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|0BD690"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0BD732",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0CBA95",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|0BD732"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|0BD732"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0CBA91",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0CBA97",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|0CBA91"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|0CBA91"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0CBA98",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|0CBA91"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|0CBA91"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0D11FF",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0D1205",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|0D11FF"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|0D11FF"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|0D1206",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|0D11FF"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "DIAL"
+        ],
+        [
+          7,
+          "skyrim.esm|0D11FF"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|09845C",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "PACK"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "PACK"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|03B4A5",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "FLST"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "FLST"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "skyrim.esm|020082",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "LCTN"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "LCTN"
+        ]
+      ],
+      "persistent_change": false,
+      "issues": []
+    },
+    {
+      "record": "database feature compatibility.esp|000800",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "PACK"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "PACK"
+        ]
+      ]
+    },
+    {
+      "record": "sofiafollower.esp|00AA58",
+      "matching": true,
+      "expected_groups": [
+        [
+          0,
+          "QUST"
+        ]
+      ],
+      "actual_groups": [
+        [
+          0,
+          "QUST"
+        ]
+      ]
+    }
+  ],
+  "candidate_checks": [
+    {
+      "record": "skyrim.esm|00003C",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "343c9e914ead2c102e7660dca8ad4a1a95425b28e279321071442ca08342682c",
+      "actual_sha256": "343c9e914ead2c102e7660dca8ad4a1a95425b28e279321071442ca08342682c"
+    },
+    {
+      "record": "skyrim.esm|016BB4",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "7ed7d5976bb368140f01d0b63895f65504d21a0422107edb9cffad19dcab0dd8",
+      "actual_sha256": "7ed7d5976bb368140f01d0b63895f65504d21a0422107edb9cffad19dcab0dd8"
+    },
+    {
+      "record": "skyrim.esm|01A26F",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "489a538d6e1cc64f8083b106713ddc8ac972b6315ffee6dbbbf88dccb0a3624e",
+      "actual_sha256": "489a538d6e1cc64f8083b106713ddc8ac972b6315ffee6dbbbf88dccb0a3624e"
+    },
+    {
+      "record": "skyrim.esm|037EDF",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "c81a7cd65a9ff6918335833f6119e2dc886236d7954cc51c4c4c83ab093474ae",
+      "actual_sha256": "c81a7cd65a9ff6918335833f6119e2dc886236d7954cc51c4c4c83ab093474ae"
+    },
+    {
+      "record": "skyrim.esm|000D74",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "5ea72bad61ddbb0c92edd58298dddf7bbd4e886c4950cf88b75072c94ea39f05",
+      "actual_sha256": "5ea72bad61ddbb0c92edd58298dddf7bbd4e886c4950cf88b75072c94ea39f05"
+    },
+    {
+      "record": "skyrim.esm|008EC1",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "f68bd0bbb73fe6baa9967a620f34400d46cb0d221aba6939872202f06c7cb955",
+      "actual_sha256": "f68bd0bbb73fe6baa9967a620f34400d46cb0d221aba6939872202f06c7cb955"
+    },
+    {
+      "record": "skyrim.esm|0096EC",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "72f0d6b1bfc3835e14a53314fd9912d0e4bbdc48c0776a7363ca5c690a8ec060",
+      "actual_sha256": "72f0d6b1bfc3835e14a53314fd9912d0e4bbdc48c0776a7363ca5c690a8ec060"
+    },
+    {
+      "record": "skyrim.esm|0096ED",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "45825c9d6e3906083d5a234c81499babe529108e8efb0e6305f623651d0fe5d6",
+      "actual_sha256": "45825c9d6e3906083d5a234c81499babe529108e8efb0e6305f623651d0fe5d6"
+    },
+    {
+      "record": "skyrim.esm|00970D",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "c1dfdf1ec11056d85a97e4334a6003edb1011dbfb6b2fd11859868a5a683e9e5",
+      "actual_sha256": "c1dfdf1ec11056d85a97e4334a6003edb1011dbfb6b2fd11859868a5a683e9e5"
+    },
+    {
+      "record": "skyrim.esm|009744",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "c811b347dc9ab5a4c4f24c8a7e438f0452e4064e24ef4edab5a2982bae42a095",
+      "actual_sha256": "c811b347dc9ab5a4c4f24c8a7e438f0452e4064e24ef4edab5a2982bae42a095"
+    },
+    {
+      "record": "skyrim.esm|009763",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "5045670b5c01b8b1d77720ab3b4798cec91d50145ef42aca0ce951f4c21ca3fc",
+      "actual_sha256": "5045670b5c01b8b1d77720ab3b4798cec91d50145ef42aca0ce951f4c21ca3fc"
+    },
+    {
+      "record": "skyrim.esm|0097A2",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "7b6ae47722a4cc6f6d3fcf6914cd359fc011538774a4a91778fe3c72b3bab1c1",
+      "actual_sha256": "7b6ae47722a4cc6f6d3fcf6914cd359fc011538774a4a91778fe3c72b3bab1c1"
+    },
+    {
+      "record": "skyrim.esm|0097E4",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "e2ca18807ce8f19cebdcae63bad6c6ef48eef962a6fb5f38de5ed2cea215757e",
+      "actual_sha256": "e2ca18807ce8f19cebdcae63bad6c6ef48eef962a6fb5f38de5ed2cea215757e"
+    },
+    {
+      "record": "skyrim.esm|009A07",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "8b2aaad0c64e5d3be39ddd5d89cd31344dee6d0224b9d6b78962a740cedc4f9f",
+      "actual_sha256": "8b2aaad0c64e5d3be39ddd5d89cd31344dee6d0224b9d6b78962a740cedc4f9f"
+    },
+    {
+      "record": "skyrim.esm|0138CE",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "e899beb00411d46b5a5031d34737c33e3e2aa6aa5cf1f79b9c030fbc5145116c",
+      "actual_sha256": "e899beb00411d46b5a5031d34737c33e3e2aa6aa5cf1f79b9c030fbc5145116c"
+    },
+    {
+      "record": "skyrim.esm|01605E",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "b63bfc151aee5f3670b22544cef34c187fa90f17dfbf17fbf7e02d1add24334e",
+      "actual_sha256": "b63bfc151aee5f3670b22544cef34c187fa90f17dfbf17fbf7e02d1add24334e"
+    },
+    {
+      "record": "skyrim.esm|0165B3",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "497612745175069a69071418f66f3f7a85ccf6dd9c13c67386977e8ab0544ab0",
+      "actual_sha256": "497612745175069a69071418f66f3f7a85ccf6dd9c13c67386977e8ab0544ab0"
+    },
+    {
+      "record": "skyrim.esm|016A0C",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "777376b2e86154c6760d74793e5bdbe15aa0efa489f6d9d7235f9aadfb160e34",
+      "actual_sha256": "777376b2e86154c6760d74793e5bdbe15aa0efa489f6d9d7235f9aadfb160e34"
+    },
+    {
+      "record": "skyrim.esm|016A0E",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "80e0b4f2ad095d992f0cb8f16a05b701ce12673ecdbf2284c767fb4fe3cdd12e",
+      "actual_sha256": "80e0b4f2ad095d992f0cb8f16a05b701ce12673ecdbf2284c767fb4fe3cdd12e"
+    },
+    {
+      "record": "skyrim.esm|016BE0",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "6ce7d810312e4ea84f153f6ca18a3f5fb21d24fdaa82892cea284c06a1ae7e35",
+      "actual_sha256": "6ce7d810312e4ea84f153f6ca18a3f5fb21d24fdaa82892cea284c06a1ae7e35"
+    },
+    {
+      "record": "skyrim.esm|01A270",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "6ce7d810312e4ea84f153f6ca18a3f5fb21d24fdaa82892cea284c06a1ae7e35",
+      "actual_sha256": "6ce7d810312e4ea84f153f6ca18a3f5fb21d24fdaa82892cea284c06a1ae7e35"
+    },
+    {
+      "record": "skyrim.esm|01A275",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "c491fe766aeebcfe0010a8aa4dade8463f05e47ccc44aece975655ccee07db2a",
+      "actual_sha256": "c491fe766aeebcfe0010a8aa4dade8463f05e47ccc44aece975655ccee07db2a"
+    },
+    {
+      "record": "skyrim.esm|01A276",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "2232e331c21bdb3b469e0883366d3000b5e4fbb71e03a7c07c6ea1d61be9bf05",
+      "actual_sha256": "2232e331c21bdb3b469e0883366d3000b5e4fbb71e03a7c07c6ea1d61be9bf05"
+    },
+    {
+      "record": "skyrim.esm|037EE6",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "be87db3809429b4b71d8924978ce07b948aef0a8ea0c3820190ebab30c842c0c",
+      "actual_sha256": "be87db3809429b4b71d8924978ce07b948aef0a8ea0c3820190ebab30c842c0c"
+    },
+    {
+      "record": "skyrim.esm|037EE9",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "e7c1457ea41c4cc19694dcb81026ca21029d24b9e6c204443048300d1b22cb86",
+      "actual_sha256": "e7c1457ea41c4cc19694dcb81026ca21029d24b9e6c204443048300d1b22cb86"
+    },
+    {
+      "record": "skyrim.esm|042247",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "76414dd009b8e56245cea6097256e2cccd79ba3a106cc9f1c42ab89dc978b353",
+      "actual_sha256": "76414dd009b8e56245cea6097256e2cccd79ba3a106cc9f1c42ab89dc978b353"
+    },
+    {
+      "record": "skyrim.esm|0A1793",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "37d61f7fa0e9f1a1faaac39a536fe58e0a6b2d2ef4e16ed53944d3fb2abae32f",
+      "actual_sha256": "37d61f7fa0e9f1a1faaac39a536fe58e0a6b2d2ef4e16ed53944d3fb2abae32f"
+    },
+    {
+      "record": "skyrim.esm|013DFE",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "bfcb18bd81f9a722f5f923331dad0389248f4d30c02ed4943708682b09107bf2",
+      "actual_sha256": "bfcb18bd81f9a722f5f923331dad0389248f4d30c02ed4943708682b09107bf2"
+    },
+    {
+      "record": "skyrim.esm|013DFF",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "57ae478bb4f4c5ee8aaabf1e6e4c5fb7eb9fbd2c9e8f9f7d6baf6a84b091d49c",
+      "actual_sha256": "57ae478bb4f4c5ee8aaabf1e6e4c5fb7eb9fbd2c9e8f9f7d6baf6a84b091d49c"
+    },
+    {
+      "record": "skyrim.esm|013E00",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "45ecbf89a6aa51bf8098c96d587de23fac9920102278762d9374f1430f457a32",
+      "actual_sha256": "45ecbf89a6aa51bf8098c96d587de23fac9920102278762d9374f1430f457a32"
+    },
+    {
+      "record": "skyrim.esm|013E01",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "f007ee41142d9dd3fd9264ccf6291227611b6e23b3451807031b172ef29708bb",
+      "actual_sha256": "f007ee41142d9dd3fd9264ccf6291227611b6e23b3451807031b172ef29708bb"
+    },
+    {
+      "record": "skyrim.esm|026DFD",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "0a77d56ac13968c5efc7d875157f142de38f98ce245c0dd37cdd3f1601e5a916",
+      "actual_sha256": "0a77d56ac13968c5efc7d875157f142de38f98ce245c0dd37cdd3f1601e5a916"
+    },
+    {
+      "record": "skyrim.esm|026DFF",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "38a56eab74f342585807ebc293802a15f978c91d6a5e702c34a4bd9cecb592ac",
+      "actual_sha256": "38a56eab74f342585807ebc293802a15f978c91d6a5e702c34a4bd9cecb592ac"
+    },
+    {
+      "record": "skyrim.esm|026E0D",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "31c8a62c797ecc63322c93aa26efffa5cc766f9249a0eaa65b88d5f5ac5a68a2",
+      "actual_sha256": "31c8a62c797ecc63322c93aa26efffa5cc766f9249a0eaa65b88d5f5ac5a68a2"
+    },
+    {
+      "record": "skyrim.esm|026E0E",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "9dd20447b62e7b2a927500d2f60a35f3d166ad2c51c7011a0f40fee15820ecb3",
+      "actual_sha256": "9dd20447b62e7b2a927500d2f60a35f3d166ad2c51c7011a0f40fee15820ecb3"
+    },
+    {
+      "record": "skyrim.esm|02707A",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "faeb13362ce7e38ac46d7eec06621bdca0c55007816626d8bfec4a6de4da9150",
+      "actual_sha256": "faeb13362ce7e38ac46d7eec06621bdca0c55007816626d8bfec4a6de4da9150"
+    },
+    {
+      "record": "skyrim.esm|02BDDD",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "0052a26a5dd09a9edb860c70338dc781f989b576fcea30e841d31834c4887cc7",
+      "actual_sha256": "0052a26a5dd09a9edb860c70338dc781f989b576fcea30e841d31834c4887cc7"
+    },
+    {
+      "record": "skyrim.esm|02E13B",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "ef826e1ed25c50da37945e7007ac58ef9f0aba4a7f8eef65dc78975b173696e8",
+      "actual_sha256": "ef826e1ed25c50da37945e7007ac58ef9f0aba4a7f8eef65dc78975b173696e8"
+    },
+    {
+      "record": "skyrim.esm|04BEB1",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "5176311448669bae0216f57509b47f278947dc69641254050442c28c87a2c3b6",
+      "actual_sha256": "5176311448669bae0216f57509b47f278947dc69641254050442c28c87a2c3b6"
+    },
+    {
+      "record": "skyrim.esm|04BEB2",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "cfda17675f34c35a139284ebf4e52e93fa906119284507b5d886bf4a99ff5d86",
+      "actual_sha256": "cfda17675f34c35a139284ebf4e52e93fa906119284507b5d886bf4a99ff5d86"
+    },
+    {
+      "record": "skyrim.esm|05C80C",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "6fe80543021fe4ef085ccc5e829f4a7a32a8ed2503587062dc316ba009c43512",
+      "actual_sha256": "6fe80543021fe4ef085ccc5e829f4a7a32a8ed2503587062dc316ba009c43512"
+    },
+    {
+      "record": "skyrim.esm|060020",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "e3e16ac61f7801e671fc7b1166b107ace70072164125f76b87270df5b3e7e466",
+      "actual_sha256": "e3e16ac61f7801e671fc7b1166b107ace70072164125f76b87270df5b3e7e466"
+    },
+    {
+      "record": "skyrim.esm|074DDA",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "ecf4d10e3a18df2f246c1d922b7058637f13f68b6eb3ef97e49e58508d46bc3a",
+      "actual_sha256": "ecf4d10e3a18df2f246c1d922b7058637f13f68b6eb3ef97e49e58508d46bc3a"
+    },
+    {
+      "record": "skyrim.esm|074DDB",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "405e12d80f3f29a90ba3909d39b4e1237bbb3af55bba4aa80cd1303b0d7cab3c",
+      "actual_sha256": "405e12d80f3f29a90ba3909d39b4e1237bbb3af55bba4aa80cd1303b0d7cab3c"
+    },
+    {
+      "record": "skyrim.esm|074E25",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "f22bf496116a271494bd113d2d0c208e8b8e47aebe5406c0138a3c395efa1bbf",
+      "actual_sha256": "f22bf496116a271494bd113d2d0c208e8b8e47aebe5406c0138a3c395efa1bbf"
+    },
+    {
+      "record": "skyrim.esm|075083",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "e733db427420e488302e2d70347b7b7e04c1bbc686382ae10de285521d3d14f4",
+      "actual_sha256": "e733db427420e488302e2d70347b7b7e04c1bbc686382ae10de285521d3d14f4"
+    },
+    {
+      "record": "skyrim.esm|075084",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "89784002b6cd91a7c5090365f3f30e3caa875167e7d6ad5c81d950c202fa55e7",
+      "actual_sha256": "89784002b6cd91a7c5090365f3f30e3caa875167e7d6ad5c81d950c202fa55e7"
+    },
+    {
+      "record": "skyrim.esm|095122",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "74f248e3af1c7ba3034767632b986905a8a93e3abbe4e86de2e709e8d7ecb695",
+      "actual_sha256": "74f248e3af1c7ba3034767632b986905a8a93e3abbe4e86de2e709e8d7ecb695"
+    },
+    {
+      "record": "skyrim.esm|0B122F",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "face2d359908c9fbad1cd9112e061e72e63ede112a300f027da0d5c3ac0ef9fb",
+      "actual_sha256": "face2d359908c9fbad1cd9112e061e72e63ede112a300f027da0d5c3ac0ef9fb"
+    },
+    {
+      "record": "skyrim.esm|0BCC84",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "00f1fd00a59be0b8d2d5437980ae70beeca52e316245fafcc7cdaf333f668de2",
+      "actual_sha256": "00f1fd00a59be0b8d2d5437980ae70beeca52e316245fafcc7cdaf333f668de2"
+    },
+    {
+      "record": "skyrim.esm|0BD4AF",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "5ffe7b74f321fefe73a1463c362aac418a5eb23f297833927dce3e2c0c7e0ca8",
+      "actual_sha256": "5ffe7b74f321fefe73a1463c362aac418a5eb23f297833927dce3e2c0c7e0ca8"
+    },
+    {
+      "record": "skyrim.esm|0BD690",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "168aeb643dbb2a417b809e6dcb46075e6f242388a3f12952312038421fc2632f",
+      "actual_sha256": "168aeb643dbb2a417b809e6dcb46075e6f242388a3f12952312038421fc2632f"
+    },
+    {
+      "record": "skyrim.esm|0BD732",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "92de6f0ad7de609d2741f21bfb7b53fbad0d94bf84f9dde32306de6d67e3de3b",
+      "actual_sha256": "92de6f0ad7de609d2741f21bfb7b53fbad0d94bf84f9dde32306de6d67e3de3b"
+    },
+    {
+      "record": "skyrim.esm|0CBA91",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "a60dcac8eb009584135437327f3f92b7b3c4db9e2fb6337c38965680d605257e",
+      "actual_sha256": "a60dcac8eb009584135437327f3f92b7b3c4db9e2fb6337c38965680d605257e"
+    },
+    {
+      "record": "skyrim.esm|0D11FF",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "cc40a752bce6b4087eed669041ea2688cb6a39a80be70050ba7cbe550314c03d",
+      "actual_sha256": "cc40a752bce6b4087eed669041ea2688cb6a39a80be70050ba7cbe550314c03d"
+    },
+    {
+      "record": "skyrim.esm|0198A2",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "fd549b9ffa53897988b8b8954dd5abe7df27582cb917ab42e40f82bd48d30398",
+      "actual_sha256": "fd549b9ffa53897988b8b8954dd5abe7df27582cb917ab42e40f82bd48d30398"
+    },
+    {
+      "record": "skyrim.esm|0198CB",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "32f419735369ad1052a9561cada14e496992ed631b1bc8e8baaee1b6a62821d1",
+      "actual_sha256": "32f419735369ad1052a9561cada14e496992ed631b1bc8e8baaee1b6a62821d1"
+    },
+    {
+      "record": "skyrim.esm|0198CF",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "09f7ba107d1cb1ec6de38b6eea95b25116c9e011ab69aa8e5049b698f0b9514f",
+      "actual_sha256": "09f7ba107d1cb1ec6de38b6eea95b25116c9e011ab69aa8e5049b698f0b9514f"
+    },
+    {
+      "record": "skyrim.esm|01A18E",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "8d96edb0e4c96abedc1231e316e02d85a37ee506d092d2ebaf5c7ae0b13dbdab",
+      "actual_sha256": "8d96edb0e4c96abedc1231e316e02d85a37ee506d092d2ebaf5c7ae0b13dbdab"
+    },
+    {
+      "record": "skyrim.esm|020082",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "32b6ec60f528fdda7de85314d3d65b8df3fb0d84a0123e49ff7fa7fd77fd72e1",
+      "actual_sha256": "32b6ec60f528fdda7de85314d3d65b8df3fb0d84a0123e49ff7fa7fd77fd72e1"
+    },
+    {
+      "record": "skyrim.esm|020948",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "c7cf61838970848713f8db2f2c948b1a2adf56d44e500884f0195981c391fa0f",
+      "actual_sha256": "c7cf61838970848713f8db2f2c948b1a2adf56d44e500884f0195981c391fa0f"
+    },
+    {
+      "record": "skyrim.esm|020954",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "5bb04acc0bedeae562ddd3b517cb1178f17c697a96556a42b8768bd71643fd1e",
+      "actual_sha256": "5bb04acc0bedeae562ddd3b517cb1178f17c697a96556a42b8768bd71643fd1e"
+    },
+    {
+      "record": "skyrim.esm|023DD1",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "14356e9841549d395a3a9482d5266a6a3aec6bae30eb23a19c8cc85cdb1801fa",
+      "actual_sha256": "14356e9841549d395a3a9482d5266a6a3aec6bae30eb23a19c8cc85cdb1801fa"
+    },
+    {
+      "record": "skyrim.esm|02A7A5",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "8ac88233fd43f7838a30b8feac77110ecd06cfffb141fd684e4f3a6dbe441cc9",
+      "actual_sha256": "8ac88233fd43f7838a30b8feac77110ecd06cfffb141fd684e4f3a6dbe441cc9"
+    },
+    {
+      "record": "skyrim.esm|02A7A7",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "bfa84646c9a760e464979ee583adbd5297025ee05fc205c3cf9939ce23c78350",
+      "actual_sha256": "bfa84646c9a760e464979ee583adbd5297025ee05fc205c3cf9939ce23c78350"
+    },
+    {
+      "record": "skyrim.esm|02A7A8",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "d7358790b19c65482a15364a0961047d01dac0d478d6bcdc2b567609d3069fe0",
+      "actual_sha256": "d7358790b19c65482a15364a0961047d01dac0d478d6bcdc2b567609d3069fe0"
+    },
+    {
+      "record": "skyrim.esm|02A7AD",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "1906d7d822da81f84f16b799987bc6cf591bfefc643e3219328536fec000fb84",
+      "actual_sha256": "1906d7d822da81f84f16b799987bc6cf591bfefc643e3219328536fec000fb84"
+    },
+    {
+      "record": "skyrim.esm|02A7AF",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "55484adc397286aa9576cf7ccb02201b1aa3b9ed64c7d8230fad7e60b8011ca5",
+      "actual_sha256": "55484adc397286aa9576cf7ccb02201b1aa3b9ed64c7d8230fad7e60b8011ca5"
+    },
+    {
+      "record": "skyrim.esm|02A7C8",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "b3d2e6597c751ecd3dfc7b512b3caf72befcfa03bd40e45e64f697c90648ccfa",
+      "actual_sha256": "b3d2e6597c751ecd3dfc7b512b3caf72befcfa03bd40e45e64f697c90648ccfa"
+    },
+    {
+      "record": "skyrim.esm|02A7C9",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "3712b56eec2f4becde3e3aa05b6e1e1d57d47a000912d62a8b43470fb53935ee",
+      "actual_sha256": "3712b56eec2f4becde3e3aa05b6e1e1d57d47a000912d62a8b43470fb53935ee"
+    },
+    {
+      "record": "skyrim.esm|02AB8F",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "c32c0af5304040ca985e13b27097c270dd00de2693ad22563f14fd70f99bff6f",
+      "actual_sha256": "c32c0af5304040ca985e13b27097c270dd00de2693ad22563f14fd70f99bff6f"
+    },
+    {
+      "record": "skyrim.esm|02AB91",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "0de26964854e314a3fc44187467b884a1fe314ca840dff8ac193395bdf1200ac",
+      "actual_sha256": "0de26964854e314a3fc44187467b884a1fe314ca840dff8ac193395bdf1200ac"
+    },
+    {
+      "record": "skyrim.esm|02AB92",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "dd20b2684528d62714456f9988d453dedfcea5912c22b018656ef7067c37a160",
+      "actual_sha256": "dd20b2684528d62714456f9988d453dedfcea5912c22b018656ef7067c37a160"
+    },
+    {
+      "record": "skyrim.esm|02BE0B",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "7871c65fd1f62f2ee95cb1a0b62cbbfd192c9b3c42aa806ff561a1dfd438e3a5",
+      "actual_sha256": "7871c65fd1f62f2ee95cb1a0b62cbbfd192c9b3c42aa806ff561a1dfd438e3a5"
+    },
+    {
+      "record": "skyrim.esm|02BE10",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "5d2112755afaad3ce1cd6bce1bbc193d39d07bf5a1ca98455fda87093a802927",
+      "actual_sha256": "5d2112755afaad3ce1cd6bce1bbc193d39d07bf5a1ca98455fda87093a802927"
+    },
+    {
+      "record": "skyrim.esm|02BE12",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "0bca09a38280e7ed289ea6fd2a5303c98ff87752042f29ef3a25825cd8c83eae",
+      "actual_sha256": "0bca09a38280e7ed289ea6fd2a5303c98ff87752042f29ef3a25825cd8c83eae"
+    },
+    {
+      "record": "skyrim.esm|02E163",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "0baa19fc1cf3b652c61cef03a332d9c6a9077b6a616b566b9aaae6d7a6872efd",
+      "actual_sha256": "0baa19fc1cf3b652c61cef03a332d9c6a9077b6a616b566b9aaae6d7a6872efd"
+    },
+    {
+      "record": "skyrim.esm|02E164",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "e36bb21c26aea16e2c566cf6585e289386378bb1c11b3e18e938fd2140ba12cf",
+      "actual_sha256": "e36bb21c26aea16e2c566cf6585e289386378bb1c11b3e18e938fd2140ba12cf"
+    },
+    {
+      "record": "skyrim.esm|02E168",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "5f4e34293c412376cb9dd3d9d7d6e11078d733fc848ba51fba98dd91987f769d",
+      "actual_sha256": "5f4e34293c412376cb9dd3d9d7d6e11078d733fc848ba51fba98dd91987f769d"
+    },
+    {
+      "record": "skyrim.esm|02E169",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "7c79f95b0e54afbc9798ad661bdf6211771f08ac3ccd7027858268b444474d2b",
+      "actual_sha256": "7c79f95b0e54afbc9798ad661bdf6211771f08ac3ccd7027858268b444474d2b"
+    },
+    {
+      "record": "skyrim.esm|03B4A5",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "20c2074162ad8bfd6fd4ef2161444b2cf2719c3816f13ce8e963ea3e1820c524",
+      "actual_sha256": "20c2074162ad8bfd6fd4ef2161444b2cf2719c3816f13ce8e963ea3e1820c524"
+    },
+    {
+      "record": "skyrim.esm|04377E",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "1e86db5297508a3aeab2b023b5977ab41d09548fdf2245b5b7c43545e70e4c98",
+      "actual_sha256": "1e86db5297508a3aeab2b023b5977ab41d09548fdf2245b5b7c43545e70e4c98"
+    },
+    {
+      "record": "skyrim.esm|04464A",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "af5833df8a6d58bab1bb4ff3d9ac85b28eef5f20ca771ea1f6f6bb5f7dcdbbdb",
+      "actual_sha256": "af5833df8a6d58bab1bb4ff3d9ac85b28eef5f20ca771ea1f6f6bb5f7dcdbbdb"
+    },
+    {
+      "record": "skyrim.esm|04C19B",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "b1f2ba1489d6fcf7450c4be19a84518b9f1f156388cc61d296f2c7b4607edebc",
+      "actual_sha256": "b1f2ba1489d6fcf7450c4be19a84518b9f1f156388cc61d296f2c7b4607edebc"
+    },
+    {
+      "record": "skyrim.esm|0653F1",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "8e4301b77fea1613c95af0cd9b963689614e81e381469c609594c7b11adb5a85",
+      "actual_sha256": "8e4301b77fea1613c95af0cd9b963689614e81e381469c609594c7b11adb5a85"
+    },
+    {
+      "record": "skyrim.esm|068454",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "ff526a9b96a78e672d5699ff14bddb248ab7ad91d668ea985bb5cc16f9f7ed8f",
+      "actual_sha256": "ff526a9b96a78e672d5699ff14bddb248ab7ad91d668ea985bb5cc16f9f7ed8f"
+    },
+    {
+      "record": "skyrim.esm|0684F4",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "1efcaff178efe0ca774992716596d9f29cc27a454e1c93bd67a4575a94e992b7",
+      "actual_sha256": "1efcaff178efe0ca774992716596d9f29cc27a454e1c93bd67a4575a94e992b7"
+    },
+    {
+      "record": "skyrim.esm|068526",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "c2bb5655c2271e0402ac07751f4dcbe11f339c87360ec4f9c56c60f7931979d4",
+      "actual_sha256": "c2bb5655c2271e0402ac07751f4dcbe11f339c87360ec4f9c56c60f7931979d4"
+    },
+    {
+      "record": "skyrim.esm|06884E",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "169d20ba584e601121558d86d237476a45b38aaef579f0adc03f09a5953eeb99",
+      "actual_sha256": "169d20ba584e601121558d86d237476a45b38aaef579f0adc03f09a5953eeb99"
+    },
+    {
+      "record": "skyrim.esm|081F3C",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "e1ee82b41d6c32eec4f5df3dfa6b377b802e85c93110dd9487479ab8fd1b5a18",
+      "actual_sha256": "e1ee82b41d6c32eec4f5df3dfa6b377b802e85c93110dd9487479ab8fd1b5a18"
+    },
+    {
+      "record": "skyrim.esm|0868CB",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "c1c42a6aa337a41724e3354371fdcd3a3ab88ef5dc0bedf5c936c86e744b6990",
+      "actual_sha256": "c1c42a6aa337a41724e3354371fdcd3a3ab88ef5dc0bedf5c936c86e744b6990"
+    },
+    {
+      "record": "skyrim.esm|08F147",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "225bb0989a64984e197862a56e4a018f4920a6aa86e733668e9a8e769ca3c845",
+      "actual_sha256": "225bb0989a64984e197862a56e4a018f4920a6aa86e733668e9a8e769ca3c845"
+    },
+    {
+      "record": "skyrim.esm|08F148",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "915eb264b9d39da28d92d59a7f142dd0fc92f7c715fd4f5f7ec1b618a73638c1",
+      "actual_sha256": "915eb264b9d39da28d92d59a7f142dd0fc92f7c715fd4f5f7ec1b618a73638c1"
+    },
+    {
+      "record": "skyrim.esm|0934F6",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "88fc16465c48f044eaa597658281e3dd86f9b14d92401956a8effd5dbf34d132",
+      "actual_sha256": "88fc16465c48f044eaa597658281e3dd86f9b14d92401956a8effd5dbf34d132"
+    },
+    {
+      "record": "skyrim.esm|095123",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "da76107056c56198ee9b48718c9aa846c585da80d3aeed75f61d0c287df92a42",
+      "actual_sha256": "da76107056c56198ee9b48718c9aa846c585da80d3aeed75f61d0c287df92a42"
+    },
+    {
+      "record": "skyrim.esm|096271",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "f4f64c099752fbc1a8711e21cb578c02aacdedc219f8101263af8953695e15e4",
+      "actual_sha256": "f4f64c099752fbc1a8711e21cb578c02aacdedc219f8101263af8953695e15e4"
+    },
+    {
+      "record": "skyrim.esm|09845C",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "ae8abbe621729a14d0c1d66947e79fad9fa12923ddab9c2db201321bfde4f92d",
+      "actual_sha256": "ae8abbe621729a14d0c1d66947e79fad9fa12923ddab9c2db201321bfde4f92d"
+    },
+    {
+      "record": "skyrim.esm|0AD7C9",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "a34ba6f6d2e65195cdb3f3f8d8766e7776ac3fd91ca08b6d6d325e425a27214a",
+      "actual_sha256": "a34ba6f6d2e65195cdb3f3f8d8766e7776ac3fd91ca08b6d6d325e425a27214a"
+    },
+    {
+      "record": "skyrim.esm|0AD7E7",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "915e57ca924106d9bac3941a86beedd55fe482bcf409485c6892370c5c199595",
+      "actual_sha256": "915e57ca924106d9bac3941a86beedd55fe482bcf409485c6892370c5c199595"
+    },
+    {
+      "record": "skyrim.esm|0AD7E8",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "d19e2212c9597d56ed56c9bb21f6c78af8dd112a3272adb1c52fc206f78fe1bd",
+      "actual_sha256": "d19e2212c9597d56ed56c9bb21f6c78af8dd112a3272adb1c52fc206f78fe1bd"
+    },
+    {
+      "record": "skyrim.esm|0AD7EC",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "3035a94b377d23f591ca1f0f2597b35bd236b54a176c252bde8148d76b8ea47e",
+      "actual_sha256": "3035a94b377d23f591ca1f0f2597b35bd236b54a176c252bde8148d76b8ea47e"
+    },
+    {
+      "record": "skyrim.esm|0AD7ED",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "b67db48affd97827d7d7b33fa82cfc66c0dade206020e8ded0b963dea185fa5e",
+      "actual_sha256": "b67db48affd97827d7d7b33fa82cfc66c0dade206020e8ded0b963dea185fa5e"
+    },
+    {
+      "record": "skyrim.esm|0B1231",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "1525b3b254fb17ef718e40c84c5fe039fde29907b1bacd00e99fb355d27c1f81",
+      "actual_sha256": "1525b3b254fb17ef718e40c84c5fe039fde29907b1bacd00e99fb355d27c1f81"
+    },
+    {
+      "record": "skyrim.esm|0B1232",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "f464396430cd35012a9762fbc24c0af864129f98ac4a00f742a0eec1a2c7a915",
+      "actual_sha256": "f464396430cd35012a9762fbc24c0af864129f98ac4a00f742a0eec1a2c7a915"
+    },
+    {
+      "record": "skyrim.esm|0B1233",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "3deda0ba526a4eb72ddcf9cb3efae3ea940eff5fbca660bea0252f1b6fb2c8da",
+      "actual_sha256": "3deda0ba526a4eb72ddcf9cb3efae3ea940eff5fbca660bea0252f1b6fb2c8da"
+    },
+    {
+      "record": "skyrim.esm|0B8307",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "0c96564e3c9925220f5891957d65dcc7312e8c2c18737756539874d2c4455713",
+      "actual_sha256": "0c96564e3c9925220f5891957d65dcc7312e8c2c18737756539874d2c4455713"
+    },
+    {
+      "record": "skyrim.esm|0B830F",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "114fb99f1b06220fc2d74c044fc4524168147047d2502f9c858cbda6bb13776f",
+      "actual_sha256": "114fb99f1b06220fc2d74c044fc4524168147047d2502f9c858cbda6bb13776f"
+    },
+    {
+      "record": "skyrim.esm|0B8E97",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "b0b3d9b959c3e0dcfcdeb569198bf523863768d874a96e966b850195f7472d9e",
+      "actual_sha256": "b0b3d9b959c3e0dcfcdeb569198bf523863768d874a96e966b850195f7472d9e"
+    },
+    {
+      "record": "skyrim.esm|0BCCF1",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "6570394729bca85a5d39a2aa46188c956e25773e26a6351f034d9075dcbb36f0",
+      "actual_sha256": "6570394729bca85a5d39a2aa46188c956e25773e26a6351f034d9075dcbb36f0"
+    },
+    {
+      "record": "skyrim.esm|0BD734",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "309e2c4d26db802be57f18759859d721e17b60b095dbde36aff05029ccfbb957",
+      "actual_sha256": "309e2c4d26db802be57f18759859d721e17b60b095dbde36aff05029ccfbb957"
+    },
+    {
+      "record": "skyrim.esm|0BD752",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "393466e7e9b61d28c1ce4d6f6a1c5995ef706b6e448d978d9331896205b56ecc",
+      "actual_sha256": "393466e7e9b61d28c1ce4d6f6a1c5995ef706b6e448d978d9331896205b56ecc"
+    },
+    {
+      "record": "skyrim.esm|0BFBFE",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "85f96e22e1b8e5a711cecca7b18657e2905f28d444f3008dda3b3d3ee6e7aa61",
+      "actual_sha256": "85f96e22e1b8e5a711cecca7b18657e2905f28d444f3008dda3b3d3ee6e7aa61"
+    },
+    {
+      "record": "skyrim.esm|0BFC09",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "3c37ec21f97e2c273c97f83090347eec52fce67ed9bb12104716c38afe1170d3",
+      "actual_sha256": "3c37ec21f97e2c273c97f83090347eec52fce67ed9bb12104716c38afe1170d3"
+    },
+    {
+      "record": "skyrim.esm|0BFC6C",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "c3f9e53bb85aca438cbca7d4b191091cf85d7b17c91d033cfa54bba48c7235b2",
+      "actual_sha256": "c3f9e53bb85aca438cbca7d4b191091cf85d7b17c91d033cfa54bba48c7235b2"
+    },
+    {
+      "record": "skyrim.esm|0C032D",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "cc3214a70c3a06a45dcf74df0042132050e38f3628c4bf180c60bd9bcff99b72",
+      "actual_sha256": "cc3214a70c3a06a45dcf74df0042132050e38f3628c4bf180c60bd9bcff99b72"
+    },
+    {
+      "record": "skyrim.esm|0C0FD1",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "18013097fede99b2a516816c35a79fb401da9164d75f4aeb66849cbec18f6828",
+      "actual_sha256": "18013097fede99b2a516816c35a79fb401da9164d75f4aeb66849cbec18f6828"
+    },
+    {
+      "record": "skyrim.esm|0C1D57",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "7727a134cd14a628bab21dfc15fd56285f3bc943a9e3f7ab4195a6567f19bf1a",
+      "actual_sha256": "7727a134cd14a628bab21dfc15fd56285f3bc943a9e3f7ab4195a6567f19bf1a"
+    },
+    {
+      "record": "skyrim.esm|0C7C1F",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "257060d188f763494b0d5e1220c8c24c2fd8069e7acb74e27e697072dd2a6785",
+      "actual_sha256": "257060d188f763494b0d5e1220c8c24c2fd8069e7acb74e27e697072dd2a6785"
+    },
+    {
+      "record": "skyrim.esm|0C7C21",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "ecab9e20e3b775e99dfde5aaf1dc59e5c33a55430e9233639146332945f33b3c",
+      "actual_sha256": "ecab9e20e3b775e99dfde5aaf1dc59e5c33a55430e9233639146332945f33b3c"
+    },
+    {
+      "record": "skyrim.esm|0CBA92",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "cfc766b7c643c260d1fbe5363949e03b9867d9feb63773c9deac700e674f7f2a",
+      "actual_sha256": "cfc766b7c643c260d1fbe5363949e03b9867d9feb63773c9deac700e674f7f2a"
+    },
+    {
+      "record": "skyrim.esm|0CBA94",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "4d47f6120cfcceba5437fbca032bc78c455348be9120fad83e5256fafa07302d",
+      "actual_sha256": "4d47f6120cfcceba5437fbca032bc78c455348be9120fad83e5256fafa07302d"
+    },
+    {
+      "record": "skyrim.esm|0CBA95",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "bfd313c01aaf60c83aa49e3a6280ced7e0477131c9f4d1d0f104774e7db4202d",
+      "actual_sha256": "bfd313c01aaf60c83aa49e3a6280ced7e0477131c9f4d1d0f104774e7db4202d"
+    },
+    {
+      "record": "skyrim.esm|0CBA96",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "0075ec258239d00a220d2587ce85918312b7695146f958d6baf289919c453101",
+      "actual_sha256": "0075ec258239d00a220d2587ce85918312b7695146f958d6baf289919c453101"
+    },
+    {
+      "record": "skyrim.esm|0CBA97",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "bcf70631947ec1d8659bc1f5d69b7cd3d6992f4ad03f71b3885b8a9d47643386",
+      "actual_sha256": "bcf70631947ec1d8659bc1f5d69b7cd3d6992f4ad03f71b3885b8a9d47643386"
+    },
+    {
+      "record": "skyrim.esm|0CBA98",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "caf86f0c73c4aecb7cbf89e5bc5169022c9fb3c00c5095526503ba5299636d69",
+      "actual_sha256": "caf86f0c73c4aecb7cbf89e5bc5169022c9fb3c00c5095526503ba5299636d69"
+    },
+    {
+      "record": "skyrim.esm|0CDA0F",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "cf48b0a1e1f0d8d5bbdec230cd02e27e5896efbbd4d7652abf0697e0550051e7",
+      "actual_sha256": "cf48b0a1e1f0d8d5bbdec230cd02e27e5896efbbd4d7652abf0697e0550051e7"
+    },
+    {
+      "record": "skyrim.esm|0CDA15",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "3a1c70a47163d9eec87bd050c80baba7baab2ddcd6a4b77a79cdc047fd05590a",
+      "actual_sha256": "3a1c70a47163d9eec87bd050c80baba7baab2ddcd6a4b77a79cdc047fd05590a"
+    },
+    {
+      "record": "skyrim.esm|0CDA1A",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "576ba2bf811d40b5c169f627a0e8a3c37b43db7345b0b307d92128281f19822e",
+      "actual_sha256": "576ba2bf811d40b5c169f627a0e8a3c37b43db7345b0b307d92128281f19822e"
+    },
+    {
+      "record": "skyrim.esm|0CDD73",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "934e34107079e37aa8fda8ae48793ef93ea30a1aad9a821a8ea6945c62d135e5",
+      "actual_sha256": "934e34107079e37aa8fda8ae48793ef93ea30a1aad9a821a8ea6945c62d135e5"
+    },
+    {
+      "record": "skyrim.esm|0D1205",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "d89b3fd085814a41899a94fa84af9b3b65055e96cc48d62f23a7a3f283f5608d",
+      "actual_sha256": "d89b3fd085814a41899a94fa84af9b3b65055e96cc48d62f23a7a3f283f5608d"
+    },
+    {
+      "record": "skyrim.esm|0D1206",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "abed2875a2016f48b45c78fa58a6ce1c0a3faf4e1ada0ce617a83465dbf01775",
+      "actual_sha256": "abed2875a2016f48b45c78fa58a6ce1c0a3faf4e1ada0ce617a83465dbf01775"
+    },
+    {
+      "record": "skyrim.esm|0D2382",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "1c5094622d020a6879dacfea662a8438c2aec1ba1fa0831fc3720556ae886619",
+      "actual_sha256": "1c5094622d020a6879dacfea662a8438c2aec1ba1fa0831fc3720556ae886619"
+    },
+    {
+      "record": "skyrim.esm|0D27E1",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "c006d1678fc0df4a24be77550d409e40271bbfb2925299d6e38b272707d85af4",
+      "actual_sha256": "c006d1678fc0df4a24be77550d409e40271bbfb2925299d6e38b272707d85af4"
+    },
+    {
+      "record": "skyrim.esm|0D27E2",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "18c45c6dd20f6405c653abf09c55b8eb10af26e9076162d716dd942f1c8b7441",
+      "actual_sha256": "18c45c6dd20f6405c653abf09c55b8eb10af26e9076162d716dd942f1c8b7441"
+    },
+    {
+      "record": "skyrim.esm|0D27E3",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "1ba7924762e652932d93bc90822c2c23b3eef628bb736990e62fbe376d3ba3db",
+      "actual_sha256": "1ba7924762e652932d93bc90822c2c23b3eef628bb736990e62fbe376d3ba3db"
+    },
+    {
+      "record": "skyrim.esm|0D8DB3",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "f4f65f2cdac15317b69311644f91f9bf3adcc454526c6f5dac582559df727e86",
+      "actual_sha256": "f4f65f2cdac15317b69311644f91f9bf3adcc454526c6f5dac582559df727e86"
+    },
+    {
+      "record": "skyrim.esm|0D8DC1",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "1027c143502e8b5083d2e936c97beb378d4605b46db284624e142cc4b9125d49",
+      "actual_sha256": "1027c143502e8b5083d2e936c97beb378d4605b46db284624e142cc4b9125d49"
+    },
+    {
+      "record": "skyrim.esm|0D8DD0",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "f6c2703ad6687a0c0e7d07a9d766c2ce98a532698d43fd200b9455591ffed4a5",
+      "actual_sha256": "f6c2703ad6687a0c0e7d07a9d766c2ce98a532698d43fd200b9455591ffed4a5"
+    },
+    {
+      "record": "skyrim.esm|0D8DD4",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "d90d29f951a9c639721bf2658101874e8f874a4953d99fdfdd799ff477fa8b31",
+      "actual_sha256": "d90d29f951a9c639721bf2658101874e8f874a4953d99fdfdd799ff477fa8b31"
+    },
+    {
+      "record": "skyrim.esm|0D8DDE",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "821e3cbe96c8eabffc784f99fbb6761c07225f4afd57129faa3e3418f54c05c8",
+      "actual_sha256": "821e3cbe96c8eabffc784f99fbb6761c07225f4afd57129faa3e3418f54c05c8"
+    },
+    {
+      "record": "skyrim.esm|0D8E18",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "7e9f651527dfe84703868aef7dacd12dba6796f7247f0c099ecb4ceaf346800d",
+      "actual_sha256": "7e9f651527dfe84703868aef7dacd12dba6796f7247f0c099ecb4ceaf346800d"
+    },
+    {
+      "record": "skyrim.esm|0D8E1C",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "3c5cd1744df6072816853f458abcd09c784f463f9021d14aa1cb0ae990816c18",
+      "actual_sha256": "3c5cd1744df6072816853f458abcd09c784f463f9021d14aa1cb0ae990816c18"
+    },
+    {
+      "record": "skyrim.esm|0DD06A",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "8eef625915b6fe29e2989facdb9ddefb4c65bee81bdda379916f9ce4029012f7",
+      "actual_sha256": "8eef625915b6fe29e2989facdb9ddefb4c65bee81bdda379916f9ce4029012f7"
+    },
+    {
+      "record": "skyrim.esm|0DD0A1",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "58f2ebcb2ee0851f3d7aa600a59d12d836a08b4190f5a1361fa434e3981447fc",
+      "actual_sha256": "58f2ebcb2ee0851f3d7aa600a59d12d836a08b4190f5a1361fa434e3981447fc"
+    },
+    {
+      "record": "skyrim.esm|0DD0DB",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "da0f51565652a12eb17ef9b7a9a622066038cb92104d010df57a892a3a4fcbf9",
+      "actual_sha256": "da0f51565652a12eb17ef9b7a9a622066038cb92104d010df57a892a3a4fcbf9"
+    },
+    {
+      "record": "skyrim.esm|0DE50E",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "88fc17f9d72023ce7526f56945ca2c6449a1cfe65d7127c80657db0134fe2473",
+      "actual_sha256": "88fc17f9d72023ce7526f56945ca2c6449a1cfe65d7127c80657db0134fe2473"
+    },
+    {
+      "record": "skyrim.esm|0EA62D",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "d3c847ccf25feb7f92a0c8087f76b4ac2fb78ff6df455f7f69a175a68dd9112a",
+      "actual_sha256": "d3c847ccf25feb7f92a0c8087f76b4ac2fb78ff6df455f7f69a175a68dd9112a"
+    },
+    {
+      "record": "skyrim.esm|0F0A1F",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "e8d90db7011665913c39513b251a13c7d028fe2010baf6931e904034733c6f45",
+      "actual_sha256": "e8d90db7011665913c39513b251a13c7d028fe2010baf6931e904034733c6f45"
+    },
+    {
+      "record": "skyrim.esm|0F1E54",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "06a6014cfb569b80f8f8b02c7887f19fb688ed4b360614ffe601f31338278779",
+      "actual_sha256": "06a6014cfb569b80f8f8b02c7887f19fb688ed4b360614ffe601f31338278779"
+    },
+    {
+      "record": "skyrim.esm|1000F2",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "d00e61df8c4d846da9d74915caaae0131f805f29de17e5f0668511e1615c5e79",
+      "actual_sha256": "d00e61df8c4d846da9d74915caaae0131f805f29de17e5f0668511e1615c5e79"
+    },
+    {
+      "record": "skyrim.esm|1027DB",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "f5b885320ac7efc4e4bbb3d221d008c0369c6e90361775791367b644a709e4bf",
+      "actual_sha256": "f5b885320ac7efc4e4bbb3d221d008c0369c6e90361775791367b644a709e4bf"
+    },
+    {
+      "record": "skyrim.esm|10EACF",
+      "matching": true,
+      "different_fields": [],
+      "expected_sha256": "1fe2dac8157e2286c3d763663797af79ae2603350544a78960868cbb918cb38b",
+      "actual_sha256": "1fe2dac8157e2286c3d763663797af79ae2603350544a78960868cbb918cb38b"
+    }
+  ],
+  "errors": [],
+  "passed": true,
+  "limits": "Limited binary normalizer. Fresh final-VFS xEdit typed leaf LinksTo reload verification and whole-profile checks are separately required. No game/runtime test."
+}

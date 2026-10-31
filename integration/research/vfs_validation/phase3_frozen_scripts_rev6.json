@@ -1,0 +1,109 @@
+{
+  "status": "FROZEN_IMPORTER_TOPLEVEL_SOURCE_MODS_SCHEMA_COMPATIBILITY",
+  "previous_freeze": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\phase3_frozen_scripts_rev5.json",
+  "scripts_and_contracts": [
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\vfs_common.py",
+      "sha256": "e72e21d30b72cf9945e6bce429e31fcdde3cf409c4d98f9578d22ffb3fdda1ce",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\frozen\\rev6\\vfs_common.py.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\prepare_vfs_expectations.py",
+      "sha256": "82a05f3b9dffc0b449a3d75d5ca9d4ffb47970bf2a3c94d3404e80fcd1228766",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\frozen\\rev6\\prepare_vfs_expectations.py.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\probe_vfs.py",
+      "sha256": "ef969c8f5a817e220764b8adf9f6264d6b2f5bff8f49a2dccfa77bc909eb4c69",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\frozen\\rev6\\probe_vfs.py.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\probe_resource_graph.py",
+      "sha256": "80d6f3616331fdedd9bcf3262ea71935407621b7ff31dbe85ed8b79410633c73",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\frozen\\rev6\\probe_resource_graph.py.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\probe_vfs_full.py",
+      "sha256": "4a3b89ba6c7be4123c8fdd44c3d960fe9e8d0c7005f8e35d783ec5659bd71a9f",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\frozen\\rev6\\probe_vfs_full.py.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\quest_resource_seeds.py",
+      "sha256": "093b678720f7e220c9f6484106e6496384d59dbf5d2cba411f8f5b5d89cdadbe",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\frozen\\rev6\\quest_resource_seeds.py.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\bounded_quest_exceptions.py",
+      "sha256": "e5b52baad4fdd89fbde8694ac3444e0f09730c12e3eeed1306fbe6ba2e984c5d",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\frozen\\rev6\\bounded_quest_exceptions.py.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\external_nif_refs.py",
+      "sha256": "f1f0bc7ad327295ff62ed08f599f9d165cdbbc5d4ee757e28ed452d9d33d5416",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\frozen\\rev6\\external_nif_refs.py.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\nif_resource_inventory.py",
+      "sha256": "a6f06370f7692f1d200469892116d73b016ee948347a2743efb62c8076a9b97b",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\frozen\\rev6\\nif_resource_inventory.py.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\supplemental_import\\supplemental_import_plan.json",
+      "sha256": "9098579e7698316259b1760d83dddbcec9f1acc939bc96521ce6283e4c736148",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\frozen\\rev6\\supplemental_import_plan.json.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\supplemental_import\\quest_resource_exceptions.json",
+      "sha256": "63e965d13fa1224539cc310efa481df95aa118236898d4411dfe227671863edd",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\frozen\\rev6\\quest_resource_exceptions.json.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\supplemental_import\\BoundedQuestConsumerAudit.pas",
+      "sha256": "aadd197ba7b54fd60f169e5144eeadbf5b7ec65d025f2038e11b335efd2e5e1a",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\frozen\\rev6\\BoundedQuestConsumerAudit.pas.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\supplemental_import\\bounded_contract_verification.json",
+      "sha256": "486c0b024b6ac15995a05f09b417fa8cc00c0de503baa843f0119f98af8f1673",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\frozen\\rev6\\bounded_contract_verification.json.frozen.txt"
+    }
+  ],
+  "source_manifest": {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\imported_features.json",
+    "sha256": "0b3ef69a0b7c8c13c25f71a3836268ab06f60cf28cbde54b423a7e744d357eae"
+  },
+  "resolved_source_mod_ids_by_feature": {
+    "Wyrmstooth": [
+      1641
+    ],
+    "The Forgotten City": [
+      137,
+      1510
+    ],
+    "World In Painting / Zero Hall / UF6": [
+      290,
+      291
+    ],
+    "Glenmoril": [
+      59,
+      1163
+    ],
+    "Moon and Star": [
+      88
+    ],
+    "Forgotten Magic Redone": [
+      751
+    ],
+    "SofiaFollower.esp": [
+      127
+    ],
+    "HothFollower.esp": [
+      64
+    ],
+    "BenDoonSSE.esp": [
+      14
+    ]
+  },
+  "source_id_count": 12,
+  "verification": "Every top-level exact standalone source ID is covered; mixed LOTD/TCC collection mod1666/80 intentionally not pulled into provided loose voice/FaceGen enumeration. No runtime or probe run."
+}

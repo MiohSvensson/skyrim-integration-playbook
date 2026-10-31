@@ -1,0 +1,22 @@
+{
+  "status": "DRAFT_V6_NOT_XEDIT_COMPILED_OR_EXECUTED",
+  "authoritative_revision": 6,
+  "common_helpers_source": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\navmesh_patch\\DatabaseBoundedNavmeshDraft.pas",
+  "common_helpers_sha256": "f059dac06a295ede4298af0851711bdd77e2334dfcabb335faded81460a03b06",
+  "files": [
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\forgotten_city_navigation\\DatabaseForgottenCityNavigationDraft.pas",
+      "sha256": "8a41dc099384cfaab67d71873527120593dad34eba5189248d228835bbdcae1c"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\forgotten_city_navigation\\DatabaseVerifyForgottenCityNavigationDraft.pas",
+      "sha256": "bbfb3070b1e27be29e6571099bc7d7bccb6a9a6ad8a37621c76caa6d182e6350"
+    }
+  ],
+  "authoritative_overlay": {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\navi_unresolved_audit\\stock_orphan_lookup_fix_manifest_v6.json",
+    "sha256": "7f210b9a4fb6eb155c5e34d78cbc4d5cabdfc6c730e880441d0fd4afb3f9d31d"
+  },
+  "baseline_generator_current": false,
+  "note": "generate_drafts.py is historical baseline evidence. Do not regenerate over the v6 scripts; older manifests and audit receipts are preserved history, not current pins."
+}

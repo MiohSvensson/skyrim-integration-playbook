@@ -1,0 +1,1360 @@
+{
+  "status": "PRIVATE_TWO_FILE_AUTHOR_TOOL_CANDIDATE_STAGED_NOT_EXECUTED",
+  "tool": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\Cathedral_Assets_Optimizer.exe",
+  "tool_files": [
+    {
+      "relative": "Cathedral_Assets_Optimizer.exe",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\Cathedral_Assets_Optimizer.exe",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\Cathedral_Assets_Optimizer.exe",
+      "sha256": "2a7886225815aa137be88a7fc717ca6981ff3f5cf62b08e77ca88a35f067b683",
+      "bytes": 5017600
+    },
+    {
+      "relative": "lz4.dll",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\lz4.dll",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\lz4.dll",
+      "sha256": "3ab5b0b32a097e3b5eb1700a5bcf360ca1b138290af13bae910e67a6ad738ec5",
+      "bytes": 117248
+    },
+    {
+      "relative": "Qt5Core.dll",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\Qt5Core.dll",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\Qt5Core.dll",
+      "sha256": "8d2ff4ce9096ddccc4f4cd62c2e41fc854cfd1b0d6e8d296645a7f5fd4ae565a",
+      "bytes": 6023664
+    },
+    {
+      "relative": "Qt5Gui.dll",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\Qt5Gui.dll",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\Qt5Gui.dll",
+      "sha256": "5e7d2d41b8b92a880e83b8cc0ca173f5da61218604186196787ee1600956be1e",
+      "bytes": 7008240
+    },
+    {
+      "relative": "Qt5Widgets.dll",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\Qt5Widgets.dll",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\Qt5Widgets.dll",
+      "sha256": "3788c669d4b645e5a576de9fc77fca776bf516d43c89143dc2ca28291ba14358",
+      "bytes": 5498352
+    },
+    {
+      "relative": "zlib1.dll",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\zlib1.dll",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\zlib1.dll",
+      "sha256": "7984fa5d9e9e9c3356e6ea0f5d841373c440abd4fe8415180f1b4c2915f0153d",
+      "bytes": 87040
+    },
+    {
+      "relative": "bin\\hkxcmd.exe",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\bin\\hkxcmd.exe",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\bin\\hkxcmd.exe",
+      "sha256": "b1355b05603de598c10d57b8c8ead7688634c304ac67ffa284c446674237d8b0",
+      "bytes": 10524672
+    },
+    {
+      "relative": "platforms\\qwindows.dll",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\platforms\\qwindows.dll",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\platforms\\qwindows.dll",
+      "sha256": "3333ba244c97264e3bd19db5953efa80a6e47aaced9d337ac3287ec718162b85",
+      "bytes": 1477104
+    },
+    {
+      "relative": "profiles\\common.ini",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\profiles\\common.ini",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\profiles\\common.ini",
+      "sha256": "9c96abdfd0d484f45f4e9c5de869da68c1c4738439d7ee77bbbe1242156c11bd",
+      "bytes": 109
+    },
+    {
+      "relative": "styles\\qwindowsvistastyle.dll",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\styles\\qwindowsvistastyle.dll",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\styles\\qwindowsvistastyle.dll",
+      "sha256": "d9b21182952682fe7ba63af1df24e23ace592c35b3f31eceef9f0eabeb5881b9",
+      "bytes": 144368
+    },
+    {
+      "relative": "translations\\AssetsOpt_de.qm",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\translations\\AssetsOpt_de.qm",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\translations\\AssetsOpt_de.qm",
+      "sha256": "469514ecfa94c72f14692676d8291d0d350111fac6326a0a82cd4d59e88048c0",
+      "bytes": 22823
+    },
+    {
+      "relative": "translations\\AssetsOpt_en.qm",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\translations\\AssetsOpt_en.qm",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\translations\\AssetsOpt_en.qm",
+      "sha256": "5280468f5bfd240720a26101c41fe97a59d76c94ce4ddafe9f629cdfb27464ae",
+      "bytes": 19431
+    },
+    {
+      "relative": "translations\\AssetsOpt_es.qm",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\translations\\AssetsOpt_es.qm",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\translations\\AssetsOpt_es.qm",
+      "sha256": "7ce81a887f74f7491d4d521c597b7dd73d73b70d9815600cb039524f90aa46d9",
+      "bytes": 30
+    },
+    {
+      "relative": "translations\\AssetsOpt_fr_FR.qm",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\translations\\AssetsOpt_fr_FR.qm",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\translations\\AssetsOpt_fr_FR.qm",
+      "sha256": "86ff010fdf82c885d70de8f91483b7b7d0da0d54a073e4ff339f0a725236acbd",
+      "bytes": 19630
+    },
+    {
+      "relative": "translations\\AssetsOpt_ja.qm",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\translations\\AssetsOpt_ja.qm",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\translations\\AssetsOpt_ja.qm",
+      "sha256": "982140a08201ee5861c4a61c8726b63a0416df913395167ddb481bf368f458b0",
+      "bytes": 15782
+    },
+    {
+      "relative": "translations\\AssetsOpt_ko_KR.qm",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\translations\\AssetsOpt_ko_KR.qm",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\translations\\AssetsOpt_ko_KR.qm",
+      "sha256": "ad76a36e8ca2f63e7d583a5e4e3edcd0a6f1994e4cb52822631597e6ef56a50f",
+      "bytes": 15631
+    },
+    {
+      "relative": "translations\\AssetsOpt_nl.qm",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\translations\\AssetsOpt_nl.qm",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\translations\\AssetsOpt_nl.qm",
+      "sha256": "9559b018b99fa45ed563b4cca69ef40c12fd4d9749ea796de3c18aaed57183fc",
+      "bytes": 20409
+    },
+    {
+      "relative": "translations\\AssetsOpt_tr.qm",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\translations\\AssetsOpt_tr.qm",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\translations\\AssetsOpt_tr.qm",
+      "sha256": "a889f71d4b326940aeafd1d494bac24ffa369801d0600ae28c12115d5aecd7cc",
+      "bytes": 20597
+    },
+    {
+      "relative": "translations\\AssetsOpt_zh_CN.qm",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\translations\\AssetsOpt_zh_CN.qm",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\translations\\AssetsOpt_zh_CN.qm",
+      "sha256": "274eeecc80600de795163ed12b3bbefa2220b83af0c6b811ddb8ab160f635263",
+      "bytes": 14119
+    },
+    {
+      "relative": "translations\\qt_ar.qm",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\translations\\qt_ar.qm",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\translations\\qt_ar.qm",
+      "sha256": "c14ebfaa0fecb341b43ed2179df9372d27ad20a15bafb9f5403d57838ae1d88a",
+      "bytes": 160017
+    },
+    {
+      "relative": "translations\\qt_bg.qm",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\translations\\qt_bg.qm",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\translations\\qt_bg.qm",
+      "sha256": "e448ac9e3f16c29eb27af3012efe21052daa78fabfb34cd6dff2f69ee3bd3cdb",
+      "bytes": 165337
+    },
+    {
+      "relative": "translations\\qt_ca.qm",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\translations\\qt_ca.qm",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\translations\\qt_ca.qm",
+      "sha256": "235f502810d5750a47421d3e57620dcae5cfcfd83bc97766ad8b99b75238a544",
+      "bytes": 210126
+    },
+    {
+      "relative": "translations\\qt_cs.qm",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\translations\\qt_cs.qm",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\translations\\qt_cs.qm",
+      "sha256": "03028b42df5479270371e4c3bdc7df2f56cbbe6dda956a2864ac6f6415861fe8",
+      "bytes": 174701
+    },
+    {
+      "relative": "translations\\qt_da.qm",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\translations\\qt_da.qm",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\translations\\qt_da.qm",
+      "sha256": "7d1e5ca3310b54d104c19bf2abd402b38e584e87039a70e153c4a9af74b25c22",
+      "bytes": 181387
+    },
+    {
+      "relative": "translations\\qt_de.qm",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\translations\\qt_de.qm",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\translations\\qt_de.qm",
+      "sha256": "553c046835db9adef15954fa9a576625366ba8bfd16637038c4bcd28e5ebace1",
+      "bytes": 220467
+    },
+    {
+      "relative": "translations\\qt_en.qm",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\translations\\qt_en.qm",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\translations\\qt_en.qm",
+      "sha256": "494ac9a2b2cb2fdeced353f4a9f898ed8dcf616e9bc667438c62681e3f7f79cf",
+      "bytes": 33
+    },
+    {
+      "relative": "translations\\qt_es.qm",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\translations\\qt_es.qm",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\translations\\qt_es.qm",
+      "sha256": "4ffda56ba3bb5414ab0482d1dde64a6f226e3488f6b7f3f11a150e01f53fa4c8",
+      "bytes": 165170
+    },
+    {
+      "relative": "translations\\qt_fi.qm",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\translations\\qt_fi.qm",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\translations\\qt_fi.qm",
+      "sha256": "e47fe13713e184d07fa4495dde0c589b0e8f562e91574a3558a9363443a4fa72",
+      "bytes": 179941
+    },
+    {
+      "relative": "translations\\qt_fr.qm",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\translations\\qt_fr.qm",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\translations\\qt_fr.qm",
+      "sha256": "edb32a933cef376a2636634e14e2977ced6284e4aa9a4ac7e2292f9ca54c384a",
+      "bytes": 166167
+    },
+    {
+      "relative": "translations\\qt_gd.qm",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\translations\\qt_gd.qm",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\translations\\qt_gd.qm",
+      "sha256": "c515dd2a2e00765b5f651aae124a55d617b24777138019abc5a7001da7417561",
+      "bytes": 189580
+    },
+    {
+      "relative": "translations\\qt_he.qm",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\translations\\qt_he.qm",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\translations\\qt_he.qm",
+      "sha256": "4281c421984772665a9d72ab32276cfe1e2a3b0ebe21d4b63c5a4c3ba1f49365",
+      "bytes": 138690
+    },
+    {
+      "relative": "translations\\qt_hu.qm",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\translations\\qt_hu.qm",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\translations\\qt_hu.qm",
+      "sha256": "c61b67bb9d1e84f0ab0792b6518fe055414a68e44d0c7bc7c862773800fa8299",
+      "bytes": 160494
+    },
+    {
+      "relative": "translations\\qt_it.qm",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\translations\\qt_it.qm",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\translations\\qt_it.qm",
+      "sha256": "eeda9549376601652f8e2f35048e56548f4c15bc6ccab48f5a3d5a249d631bee",
+      "bytes": 161139
+    },
+    {
+      "relative": "translations\\qt_ja.qm",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\translations\\qt_ja.qm",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\translations\\qt_ja.qm",
+      "sha256": "cba382acc44d3680d400f2c625de93d0c4bd72a90102769edfd1fe91cb9b617b",
+      "bytes": 129911
+    },
+    {
+      "relative": "translations\\qt_ko.qm",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\translations\\qt_ko.qm",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\translations\\qt_ko.qm",
+      "sha256": "0179ed1b136e1cb3f583351eaa2c545ba3d83a6ee3f82c32505926a1a5f5f183",
+      "bytes": 156799
+    },
+    {
+      "relative": "translations\\qt_lv.qm",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\translations\\qt_lv.qm",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\translations\\qt_lv.qm",
+      "sha256": "846e047573ae40c83671c3ba7f73e27efc24b98c82701da0df9973e574178bb2",
+      "bytes": 153608
+    },
+    {
+      "relative": "translations\\qt_pl.qm",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\translations\\qt_pl.qm",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\translations\\qt_pl.qm",
+      "sha256": "ce99032a3b0bf8abad758895cc22837088ead99fd2d2514e2d180693081cfe57",
+      "bytes": 162982
+    },
+    {
+      "relative": "translations\\qt_ru.qm",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\translations\\qt_ru.qm",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\translations\\qt_ru.qm",
+      "sha256": "b2c601c7decb9f8d2d6dc3b1929f2ec20656ff21783bf283df23b02dd022dc5b",
+      "bytes": 203767
+    },
+    {
+      "relative": "translations\\qt_sk.qm",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\translations\\qt_sk.qm",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\translations\\qt_sk.qm",
+      "sha256": "b70c6de694e717fa05c46831b6a11927536aead937cce6ba66665d5c496eed06",
+      "bytes": 125763
+    },
+    {
+      "relative": "translations\\qt_tr.qm",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\translations\\qt_tr.qm",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\translations\\qt_tr.qm",
+      "sha256": "6a0bf6e70e7920c2b193e76e92f78f315936955d3b06ac039d917f2e06c43281",
+      "bytes": 194487
+    },
+    {
+      "relative": "translations\\qt_uk.qm",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\translations\\qt_uk.qm",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\translations\\qt_uk.qm",
+      "sha256": "4835b26fc4fccbf4444e4af1178ba89ada88d340ba74d61eae344d81b8a26461",
+      "bytes": 158241
+    },
+    {
+      "relative": "translations\\qt_zh_TW.qm",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\translations\\qt_zh_TW.qm",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\translations\\qt_zh_TW.qm",
+      "sha256": "085d29eaf9bbb788b2f2503d74a1ef963a9411ceb600441254ce49a120e1ab63",
+      "bytes": 127849
+    },
+    {
+      "relative": "profiles\\FO4\\DummyPlugin.esp",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\profiles\\FO4\\DummyPlugin.esp",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\profiles\\FO4\\DummyPlugin.esp",
+      "sha256": "affcbdea9d14fe2199440912b326b9f5b704c34f436b51cef03730319f404ca1",
+      "bytes": 49
+    },
+    {
+      "relative": "profiles\\FO4\\isBase",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\profiles\\FO4\\isBase",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\profiles\\FO4\\isBase",
+      "sha256": "b3d510ef04275ca8e698e5b3cbb0ece3949ef9252f0cdc839e9ee347409a2209",
+      "bytes": 2
+    },
+    {
+      "relative": "profiles\\FO4\\profile.ini",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\profiles\\FO4\\profile.ini",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\profiles\\FO4\\profile.ini",
+      "sha256": "72cfce00cbfd878a7f3ce0495c1ed26d25524abc6f28126b13cc338471ec961d",
+      "bytes": 376
+    },
+    {
+      "relative": "profiles\\SSE\\customHeadparts.txt",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\profiles\\SSE\\customHeadparts.txt",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\profiles\\SSE\\customHeadparts.txt",
+      "sha256": "a2e6162a2b420b1ca5396a2743b09102a986be201366ce5729694641de66104c",
+      "bytes": 33801
+    },
+    {
+      "relative": "profiles\\SSE\\customLandscape.txt",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\profiles\\SSE\\customLandscape.txt",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\profiles\\SSE\\customLandscape.txt",
+      "sha256": "10da47f392e79741c872c8538ce1f432ad23c74a8c20eb08a9681eff8a44a9c4",
+      "bytes": 6202
+    },
+    {
+      "relative": "profiles\\SSE\\DummyPlugin.esp",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\profiles\\SSE\\DummyPlugin.esp",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\profiles\\SSE\\DummyPlugin.esp",
+      "sha256": "ed29d3a93c5802e61eb78227629db289bc14d71c6ac96d19b7e1a3ba5d13bd51",
+      "bytes": 128
+    },
+    {
+      "relative": "profiles\\SSE\\FilesToNotPack.txt",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\profiles\\SSE\\FilesToNotPack.txt",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\profiles\\SSE\\FilesToNotPack.txt",
+      "sha256": "34a6565af7c092af04b80e3a89f25a6ae93f7d52cb39e49ff983a76091f1418d",
+      "bytes": 382
+    },
+    {
+      "relative": "profiles\\SSE\\ignoredMods.txt",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\profiles\\SSE\\ignoredMods.txt",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\profiles\\SSE\\ignoredMods.txt",
+      "sha256": "f085a159bd0d05d087bee4eee9ad232713e440588b1a63cfd24e8667261312c3",
+      "bytes": 24
+    },
+    {
+      "relative": "profiles\\SSE\\isBase",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\profiles\\SSE\\isBase",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\profiles\\SSE\\isBase",
+      "sha256": "b3d510ef04275ca8e698e5b3cbb0ece3949ef9252f0cdc839e9ee347409a2209",
+      "bytes": 2
+    },
+    {
+      "relative": "profiles\\SSE\\profile.ini",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\profiles\\SSE\\profile.ini",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\profiles\\SSE\\profile.ini",
+      "sha256": "e569440f1ac9e7df0f9b1a6485476f186a6bb0ac0a36f3f7baacece1649388c1",
+      "bytes": 375
+    },
+    {
+      "relative": "profiles\\TES5\\DummyPlugin.esp",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\profiles\\TES5\\DummyPlugin.esp",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\profiles\\TES5\\DummyPlugin.esp",
+      "sha256": "852f2db6923c2203d60daa176d5fa27d61a0d0e717b6819386bbfcbff7fffefd",
+      "bytes": 49
+    },
+    {
+      "relative": "profiles\\TES5\\isBase",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\profiles\\TES5\\isBase",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\profiles\\TES5\\isBase",
+      "sha256": "b3d510ef04275ca8e698e5b3cbb0ece3949ef9252f0cdc839e9ee347409a2209",
+      "bytes": 2
+    },
+    {
+      "relative": "profiles\\TES5\\profile.ini",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\profiles\\TES5\\profile.ini",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\profiles\\TES5\\profile.ini",
+      "sha256": "dcfd90f4687680dc3891bde676003e7f09e1a1ae19f979a2d62844e9b0762111",
+      "bytes": 368
+    },
+    {
+      "relative": "logs\\SSE\\23.01.13.15.23.1.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.01.13.15.23.1.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.01.13.15.23.1.html",
+      "sha256": "0c2efe8f2daccc68019b94fd1853057d2bca89f8468886d9e26ff2b9f407ac0b",
+      "bytes": 250004
+    },
+    {
+      "relative": "logs\\SSE\\23.01.13.15.23.2.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.01.13.15.23.2.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.01.13.15.23.2.html",
+      "sha256": "69bbd42cdef88e5c94e7d787a5d6d1b9eb95ce0230311ebaf57f64efb162d3d1",
+      "bytes": 250118
+    },
+    {
+      "relative": "logs\\SSE\\23.01.13.15.23.3.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.01.13.15.23.3.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.01.13.15.23.3.html",
+      "sha256": "942e021bf942a1fae1fad2ecb3b93712a2e235a24faee0cef75e1116db1de29c",
+      "bytes": 250105
+    },
+    {
+      "relative": "logs\\SSE\\23.01.13.15.23.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.01.13.15.23.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.01.13.15.23.html",
+      "sha256": "0dc49f3a37aa055a1147a3a38d9964e600d92017ab1e231f7d28bc811f6380a6",
+      "bytes": 139005
+    },
+    {
+      "relative": "logs\\SSE\\23.01.21.10.51.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.01.21.10.51.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.01.21.10.51.html",
+      "sha256": "08a70a4b56af8ed5cb368c3b64bd44897e1615bb1dfdeae21da2531a3c1b61b1",
+      "bytes": 2413
+    },
+    {
+      "relative": "logs\\SSE\\23.01.25.21.44.1.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.01.25.21.44.1.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.01.25.21.44.1.html",
+      "sha256": "5d37c31850930c8c7148bf51271ec5747ade8992e0fa70df1bbe46cb711a96a4",
+      "bytes": 250047
+    },
+    {
+      "relative": "logs\\SSE\\23.01.25.21.44.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.01.25.21.44.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.01.25.21.44.html",
+      "sha256": "bbdca5e9c98ed65f528ee48cd1bc18b92b0f7040d6ca3beb1a5a72029c62894a",
+      "bytes": 172545
+    },
+    {
+      "relative": "logs\\SSE\\23.01.25.21.53.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.01.25.21.53.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.01.25.21.53.html",
+      "sha256": "111c611a83e198ea3c16e78f728896fc46b098936c552ea9f3413e611ecceb99",
+      "bytes": 21886
+    },
+    {
+      "relative": "logs\\SSE\\23.01.27.16.28.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.01.27.16.28.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.01.27.16.28.html",
+      "sha256": "29bcd9b0cbcad618b560944a7d78847ee1e613221ea3f9f7ee33eb8d2a2e2461",
+      "bytes": 838
+    },
+    {
+      "relative": "logs\\SSE\\23.01.28.00.02.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.01.28.00.02.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.01.28.00.02.html",
+      "sha256": "1c091a37b7b3156b7351fe39ee18212cc2ac4cdb1587e5845976ca4828796012",
+      "bytes": 23462
+    },
+    {
+      "relative": "logs\\SSE\\23.02.01.17.03.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.02.01.17.03.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.02.01.17.03.html",
+      "sha256": "2b551586fbef74980732d46422ecdf663431176edc479f2625b14b799ef34de1",
+      "bytes": 6221
+    },
+    {
+      "relative": "logs\\SSE\\23.02.03.20.51.1.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.02.03.20.51.1.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.02.03.20.51.1.html",
+      "sha256": "2133a8b3e64a0eab0d8067acb81e70cfc6d26a1a6bfc2727bea2304d6c1ce14c",
+      "bytes": 250167
+    },
+    {
+      "relative": "logs\\SSE\\23.02.03.20.51.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.02.03.20.51.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.02.03.20.51.html",
+      "sha256": "8d7f484c8f41a5c9c1f1381bc8e96eb354a4adf751d54789c5e94d11bf11e836",
+      "bytes": 166409
+    },
+    {
+      "relative": "logs\\SSE\\23.02.06.18.16.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.02.06.18.16.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.02.06.18.16.html",
+      "sha256": "31e8caa5c1f6c5ff7759cb9058c569540c3eddd4a8fdf93e609fcca40e701827",
+      "bytes": 15722
+    },
+    {
+      "relative": "logs\\SSE\\23.03.02.16.34.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.03.02.16.34.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.03.02.16.34.html",
+      "sha256": "1e8ae117f5d59f22d84be51385fb3c5bc3e2ad5ce3da83c57f2c9749f44420c4",
+      "bytes": 179817
+    },
+    {
+      "relative": "logs\\SSE\\23.03.02.22.04.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.03.02.22.04.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.03.02.22.04.html",
+      "sha256": "2883090083f310d0cb199f642d7fde3d1520310f2559d28bc9858ac16a58f365",
+      "bytes": 1583
+    },
+    {
+      "relative": "logs\\SSE\\23.03.02.22.23.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.03.02.22.23.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.03.02.22.23.html",
+      "sha256": "3bfaab270c89bb56f309e590ac584c73954c5247c732cb7b0dd20ce5d510bd49",
+      "bytes": 3813
+    },
+    {
+      "relative": "logs\\SSE\\23.03.05.10.52.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.03.05.10.52.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.03.05.10.52.html",
+      "sha256": "a83d4c9e0d99213858db91c6c06b565348375e7d97d4842f9365d3711989b732",
+      "bytes": 104083
+    },
+    {
+      "relative": "logs\\SSE\\23.04.20.21.10.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.04.20.21.10.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.04.20.21.10.html",
+      "sha256": "9717def14673bd101aab8eff669da7a3347c70dec2e1ef286161c3e9b81f5922",
+      "bytes": 4313
+    },
+    {
+      "relative": "logs\\SSE\\23.05.07.04.26.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.05.07.04.26.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.05.07.04.26.html",
+      "sha256": "fa8fe8972d386d9802546340b5e3dc6998c95105bfea12f9d222966043a29b07",
+      "bytes": 961
+    },
+    {
+      "relative": "logs\\SSE\\23.05.07.18.14.1.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.05.07.18.14.1.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.05.07.18.14.1.html",
+      "sha256": "495cbad4fb3f44c8833063ad0587fa6065f4ae85a7bee24335c33023fec3a3db",
+      "bytes": 250150
+    },
+    {
+      "relative": "logs\\SSE\\23.05.07.18.14.2.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.05.07.18.14.2.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.05.07.18.14.2.html",
+      "sha256": "ff0659fd458a5b340459e86e3f6eaa54d56a666665c868d61e203f3ee0004e57",
+      "bytes": 250101
+    },
+    {
+      "relative": "logs\\SSE\\23.05.07.18.14.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.05.07.18.14.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.05.07.18.14.html",
+      "sha256": "7a64d8b25701bdb968fccb66b8d308ea1e78502a46274729d248d36dc6ff2b7f",
+      "bytes": 53698
+    },
+    {
+      "relative": "logs\\SSE\\23.05.14.15.44.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.05.14.15.44.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.05.14.15.44.html",
+      "sha256": "9e2a861c910688bd28d4c2a452ca8951437d3fbd5c91fe3a41aaa05ee5282e4a",
+      "bytes": 37472
+    },
+    {
+      "relative": "logs\\SSE\\23.06.02.00.41.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.06.02.00.41.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.06.02.00.41.html",
+      "sha256": "b1918278d0ea7f82161e26cf339f9bd4c78f6852b8a3aef3fbbc90411acce9aa",
+      "bytes": 1146
+    },
+    {
+      "relative": "logs\\SSE\\23.06.02.21.58.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.06.02.21.58.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.06.02.21.58.html",
+      "sha256": "daeb48a1f5cbb7808438bef06be7c470e97fc9c5d3c5374edf1b97213bdd0f15",
+      "bytes": 10477
+    },
+    {
+      "relative": "logs\\SSE\\23.06.06.16.26.1.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.06.06.16.26.1.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.06.06.16.26.1.html",
+      "sha256": "a68df3277254a5516da94ce3e7fba6c683a084a256a3649e33faa614106f99d9",
+      "bytes": 250161
+    },
+    {
+      "relative": "logs\\SSE\\23.06.06.16.26.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.06.06.16.26.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.06.06.16.26.html",
+      "sha256": "d75c87ebc51beac61b311f84b3253e360d47c16bcf9afc37fa70a7740c85c33e",
+      "bytes": 88458
+    },
+    {
+      "relative": "logs\\SSE\\23.06.06.16.33.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.06.06.16.33.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.06.06.16.33.html",
+      "sha256": "0ef0e7231d81d5cdd6ce2ffc9f98fd7f538065b99097c696c194d1f8519ac984",
+      "bytes": 15176
+    },
+    {
+      "relative": "logs\\SSE\\23.06.07.15.01.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.06.07.15.01.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.06.07.15.01.html",
+      "sha256": "23cd38913c33a8af162ce2bb815d7741bb32f2ad9293e8f98e83d6a43146fbd0",
+      "bytes": 891
+    },
+    {
+      "relative": "logs\\SSE\\23.06.07.15.02.1.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.06.07.15.02.1.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.06.07.15.02.1.html",
+      "sha256": "61064ee59159e70f4fc59b97aa2c3b24fd26c26ac7ce87cc7b4c8ea7eb7cf48b",
+      "bytes": 250148
+    },
+    {
+      "relative": "logs\\SSE\\23.06.07.15.02.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.06.07.15.02.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.06.07.15.02.html",
+      "sha256": "72de86e66e53a4c1a0c95fb7143d7bca834cea560f91b524ddfefcf11e708d5e",
+      "bytes": 112088
+    },
+    {
+      "relative": "logs\\SSE\\23.06.07.15.45.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.06.07.15.45.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.06.07.15.45.html",
+      "sha256": "915d78d3acb1efd81d32006750be217d9c0a9608f2165c7aedd3ef58f85eb3e2",
+      "bytes": 10668
+    },
+    {
+      "relative": "logs\\SSE\\23.06.07.15.47.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.06.07.15.47.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.06.07.15.47.html",
+      "sha256": "9b8c372869e846c1eb74c55626e0cfd287c8d13c6b507d687dd8e0faacdb9573",
+      "bytes": 3080
+    },
+    {
+      "relative": "logs\\SSE\\23.06.07.15.49.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.06.07.15.49.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.06.07.15.49.html",
+      "sha256": "e75fee72e601a9a583a9a9e3c4c3e3fb618a7d865e84855ffaf392ec0de82a60",
+      "bytes": 31042
+    },
+    {
+      "relative": "logs\\SSE\\23.06.11.22.49.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.06.11.22.49.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.06.11.22.49.html",
+      "sha256": "d8e7ba0a2bb4ad21ebf26c84259c1ec7f61fe86fcc63e871250314e7eb607ea7",
+      "bytes": 667
+    },
+    {
+      "relative": "logs\\SSE\\23.06.11.22.56.1.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.06.11.22.56.1.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.06.11.22.56.1.html",
+      "sha256": "1d231095bc952685b53ef7204f487553c491d4e1d6f5c73f95b3444352dfa7b2",
+      "bytes": 250128
+    },
+    {
+      "relative": "logs\\SSE\\23.06.11.22.56.2.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.06.11.22.56.2.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.06.11.22.56.2.html",
+      "sha256": "8185c7f99314911e0e2d1e1fd6de960cb031aac375eb61c96445d3b8a65f79ea",
+      "bytes": 250057
+    },
+    {
+      "relative": "logs\\SSE\\23.06.11.22.56.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.06.11.22.56.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.06.11.22.56.html",
+      "sha256": "b693de340af237e384836e473fc51930bb881e118782f8f899f0e5b0469dc435",
+      "bytes": 56528
+    },
+    {
+      "relative": "logs\\SSE\\23.06.14.23.16.1.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.06.14.23.16.1.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.06.14.23.16.1.html",
+      "sha256": "690c983f66a29678a7989b84ea9885be23b51c689c1f5e10584a7952eb9d321b",
+      "bytes": 250161
+    },
+    {
+      "relative": "logs\\SSE\\23.06.14.23.16.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.06.14.23.16.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.06.14.23.16.html",
+      "sha256": "ae73d5fedb839fecac08f7ef9b36ed6edce51ee52247e5c27e583953b0807495",
+      "bytes": 88458
+    },
+    {
+      "relative": "logs\\SSE\\23.06.15.16.34.1.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.06.15.16.34.1.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.06.15.16.34.1.html",
+      "sha256": "c3222137631940cff3f10054238af7a1296a966869e17a5f03e6f28cae7c1773",
+      "bytes": 250125
+    },
+    {
+      "relative": "logs\\SSE\\23.06.15.16.34.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.06.15.16.34.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.06.15.16.34.html",
+      "sha256": "f02b2f2e5b85121dbc9888b3ddfe3a3e6979b7e8b4cd7b3bf0923edf6fbfe973",
+      "bytes": 239110
+    },
+    {
+      "relative": "logs\\SSE\\23.06.16.14.49.1.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.06.16.14.49.1.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.06.16.14.49.1.html",
+      "sha256": "3bc831081a288f45836bd19aacc5ae2c678ce1945ffa803c2da9456a49dfe445",
+      "bytes": 250032
+    },
+    {
+      "relative": "logs\\SSE\\23.06.16.14.49.10.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.06.16.14.49.10.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.06.16.14.49.10.html",
+      "sha256": "d27dd902a9b71d7d27c0e3cc6d44266c2ba171b1293a9cb0ff626f198c9308ce",
+      "bytes": 250034
+    },
+    {
+      "relative": "logs\\SSE\\23.06.16.14.49.11.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.06.16.14.49.11.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.06.16.14.49.11.html",
+      "sha256": "bd2a962452fabb08e449ca545bcd22928e5cc734e9be533425c55eade751660e",
+      "bytes": 250046
+    },
+    {
+      "relative": "logs\\SSE\\23.06.16.14.49.12.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.06.16.14.49.12.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.06.16.14.49.12.html",
+      "sha256": "409a9330ae751358d7ca97b9033adb432c4553eb79f783c51db206ad74876f30",
+      "bytes": 250087
+    },
+    {
+      "relative": "logs\\SSE\\23.06.16.14.49.13.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.06.16.14.49.13.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.06.16.14.49.13.html",
+      "sha256": "c4ba18db03ad1aee2f3838a57e15275742233828aad451f4383bec688d08e6fe",
+      "bytes": 250161
+    },
+    {
+      "relative": "logs\\SSE\\23.06.16.14.49.2.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.06.16.14.49.2.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.06.16.14.49.2.html",
+      "sha256": "d866fec1c2fdef465c75b76266ac9a9a6d8225314f3c9a95fa78fce6a4d1854b",
+      "bytes": 250047
+    },
+    {
+      "relative": "logs\\SSE\\23.06.16.14.49.3.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.06.16.14.49.3.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.06.16.14.49.3.html",
+      "sha256": "27f8f50bf4b7c918e7e94e7930980f22a3c20bf016d6947cbeae201db61b28e6",
+      "bytes": 250107
+    },
+    {
+      "relative": "logs\\SSE\\23.06.16.14.49.4.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.06.16.14.49.4.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.06.16.14.49.4.html",
+      "sha256": "2460fadc4673d254956fe51f4ec4647b3661efbcb26e6f2ed9b8124064170b0b",
+      "bytes": 250045
+    },
+    {
+      "relative": "logs\\SSE\\23.06.16.14.49.5.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.06.16.14.49.5.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.06.16.14.49.5.html",
+      "sha256": "618acccc3181197e78ea320028847bd594f2072f5c61a9363bde38bccdd29b03",
+      "bytes": 250083
+    },
+    {
+      "relative": "logs\\SSE\\23.06.16.14.49.6.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.06.16.14.49.6.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.06.16.14.49.6.html",
+      "sha256": "d8b85e0d97b91a5180ee62f197fa05a33fc98d519203078a40554eb78a8f7f36",
+      "bytes": 250101
+    },
+    {
+      "relative": "logs\\SSE\\23.06.16.14.49.7.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.06.16.14.49.7.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.06.16.14.49.7.html",
+      "sha256": "b744fb1204250b5e131d3b52d3129d5db868b17514628f409af37d490d9f9449",
+      "bytes": 250128
+    },
+    {
+      "relative": "logs\\SSE\\23.06.16.14.49.8.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.06.16.14.49.8.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.06.16.14.49.8.html",
+      "sha256": "47102ea33ea3211a17781d63cf1a7955d0ff60bd94b1981ae703c045846a63d9",
+      "bytes": 250184
+    },
+    {
+      "relative": "logs\\SSE\\23.06.16.14.49.9.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.06.16.14.49.9.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.06.16.14.49.9.html",
+      "sha256": "266045ddb58ff417a0ee664dee940145cdcebe34f349e86a79f178a2109800fc",
+      "bytes": 250150
+    },
+    {
+      "relative": "logs\\SSE\\23.06.16.14.49.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.06.16.14.49.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.06.16.14.49.html",
+      "sha256": "c2ae109d8f423acecfe50dec156e5eb4d4ad39055b43779359e1fd7f51335883",
+      "bytes": 140173
+    },
+    {
+      "relative": "logs\\SSE\\23.06.18.20.55.1.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.06.18.20.55.1.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.06.18.20.55.1.html",
+      "sha256": "a352b23c87df09729f5a1b7b080ab2e23a9858ff734d8d689a2ff63fb370c038",
+      "bytes": 250152
+    },
+    {
+      "relative": "logs\\SSE\\23.06.18.20.55.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.06.18.20.55.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.06.18.20.55.html",
+      "sha256": "70a28c3c5cd159c156c1a565994dc808abcbd5d61032adb10e22a8dd4705e7d3",
+      "bytes": 88458
+    },
+    {
+      "relative": "logs\\SSE\\23.07.02.15.53.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.07.02.15.53.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.07.02.15.53.html",
+      "sha256": "24dadd525f890d4302b4e20eabd3f38e3280e081b5f10a11c5e902403c78f24a",
+      "bytes": 4308
+    },
+    {
+      "relative": "logs\\SSE\\23.07.02.22.59.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.07.02.22.59.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.07.02.22.59.html",
+      "sha256": "7f9ff2dcf4dcd13ca6a646a8712fd3585e5f3b9c6af5f6734f3a6fdb347ef0b1",
+      "bytes": 3368
+    },
+    {
+      "relative": "logs\\SSE\\23.07.07.15.46.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.07.07.15.46.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.07.07.15.46.html",
+      "sha256": "c024d87d981e7c1f85388603890e4afec34226fee9b334ec7f3814eef5539628",
+      "bytes": 201553
+    },
+    {
+      "relative": "logs\\SSE\\23.07.20.17.35.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.07.20.17.35.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.07.20.17.35.html",
+      "sha256": "b8ac639143ff1dbc321ad90ebe804d8beb3effdf0d70a5fbc6cc69a59902f94d",
+      "bytes": 162516
+    },
+    {
+      "relative": "logs\\SSE\\23.08.18.22.08.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.08.18.22.08.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.08.18.22.08.html",
+      "sha256": "05518b30e1e4d791819e29368f7fdbdf14cf2297990c96050d5ad612bc6796d7",
+      "bytes": 153024
+    },
+    {
+      "relative": "logs\\SSE\\23.08.18.22.14.1.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.08.18.22.14.1.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.08.18.22.14.1.html",
+      "sha256": "f68e3965b7929a2d840364dc39c1a4aaa1f6d16a054b184f87f60833e9e0f6f4",
+      "bytes": 250122
+    },
+    {
+      "relative": "logs\\SSE\\23.08.18.22.14.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.08.18.22.14.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.08.18.22.14.html",
+      "sha256": "8a1e115c218641cb42357fc31c5010af4d25842c846906b27ec7f04435af2faa",
+      "bytes": 138635
+    },
+    {
+      "relative": "logs\\SSE\\23.08.18.22.21.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.08.18.22.21.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.08.18.22.21.html",
+      "sha256": "6339085bb6bb5730f9dbbcba2bbb9dfd546e11ac650dc3ee953abf0214f08457",
+      "bytes": 20064
+    },
+    {
+      "relative": "logs\\SSE\\23.08.18.22.25.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.08.18.22.25.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.08.18.22.25.html",
+      "sha256": "4b4a6841da23ec80bc75397363aa35b843a72789b46739df506649cc4991bcd3",
+      "bytes": 17997
+    },
+    {
+      "relative": "logs\\SSE\\23.08.18.23.52.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.08.18.23.52.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.08.18.23.52.html",
+      "sha256": "a80b0448048bcdc890e18485421c1d58878c52cf1e184db4d510deae0e07ef7e",
+      "bytes": 46826
+    },
+    {
+      "relative": "logs\\SSE\\23.08.19.01.35.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.08.19.01.35.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.08.19.01.35.html",
+      "sha256": "951c6e30f3adc7700faa8062bebb24ac97d72d46b1f4386fe69acfba0cb31229",
+      "bytes": 44582
+    },
+    {
+      "relative": "logs\\SSE\\23.09.07.22.58.1.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.09.07.22.58.1.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.09.07.22.58.1.html",
+      "sha256": "af827d5d8f631260e06cfbcd13df91fe2d43ee2534f70acd7131c206249943ce",
+      "bytes": 250012
+    },
+    {
+      "relative": "logs\\SSE\\23.09.07.22.58.2.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.09.07.22.58.2.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.09.07.22.58.2.html",
+      "sha256": "a4243f0b423ef02513faf32a50fd1353d8916e847395e819800fa3819882c9c4",
+      "bytes": 250349
+    },
+    {
+      "relative": "logs\\SSE\\23.09.07.22.58.4.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.09.07.22.58.4.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.09.07.22.58.4.html",
+      "sha256": "563cf3c32538efeed7030aee9e99c46983544b5254ca861168fd054e786c62ce",
+      "bytes": 250054
+    },
+    {
+      "relative": "logs\\SSE\\23.09.07.22.58.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.09.07.22.58.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.09.07.22.58.html",
+      "sha256": "f35e1e94c362514c527b72132d604bc3f4ce2ba2c9b9722ba90f9ede3e17b432",
+      "bytes": 114426
+    },
+    {
+      "relative": "logs\\SSE\\23.09.07.23.41.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.09.07.23.41.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.09.07.23.41.html",
+      "sha256": "6a6f16748630c222b511ad8dc62c56d702c556d832f656afb8da202bc0edd3a0",
+      "bytes": 136168
+    },
+    {
+      "relative": "logs\\SSE\\23.09.08.00.57.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.09.08.00.57.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.09.08.00.57.html",
+      "sha256": "e2b033096522f6e81ddf8851a4fa2ee2f9e16b81145d24819b36b6b740ccc2d5",
+      "bytes": 230697
+    },
+    {
+      "relative": "logs\\SSE\\23.09.08.10.59.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.09.08.10.59.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.09.08.10.59.html",
+      "sha256": "fb58803eac705a6ce25baef77ec5c5e80f8e9d0b9bd7d08346e00c686f401448",
+      "bytes": 4565
+    },
+    {
+      "relative": "logs\\SSE\\23.09.25.18.49.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.09.25.18.49.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.09.25.18.49.html",
+      "sha256": "68a7baacdc66afaf0f6d0cf91e23b4a9e62706b360a88d5a1887e841dc5e0cf2",
+      "bytes": 697
+    },
+    {
+      "relative": "logs\\SSE\\23.10.02.19.39.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.10.02.19.39.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.10.02.19.39.html",
+      "sha256": "6d817da460d4ead69c82e9e3ac57083ba0be98ec70661172d6f9dbfac10c0862",
+      "bytes": 3408
+    },
+    {
+      "relative": "logs\\SSE\\23.10.12.19.02.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.10.12.19.02.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.10.12.19.02.html",
+      "sha256": "8282ac07c7d522dde6d7e19976ea330b3ea34c928f7aa3f531ad655bdbd82b1b",
+      "bytes": 142630
+    },
+    {
+      "relative": "logs\\SSE\\23.10.13.02.27.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.10.13.02.27.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.10.13.02.27.html",
+      "sha256": "e84b23a7091a11d55873f00b724e5713db9b4f7ee95d93465bc86024d8df75d4",
+      "bytes": 2227
+    },
+    {
+      "relative": "logs\\SSE\\23.11.13.23.43.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\23.11.13.23.43.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\23.11.13.23.43.html",
+      "sha256": "5a89609db08eb452f344c214eb86b02dc71af2044039981f13ef752905f48a3d",
+      "bytes": 5428
+    },
+    {
+      "relative": "logs\\SSE\\24.01.29.20.18.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\24.01.29.20.18.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\24.01.29.20.18.html",
+      "sha256": "0c97bf318b13eb8ab7e874acd04c78f9622cb35b6925a0d649ee88afb5deaae7",
+      "bytes": 1378
+    },
+    {
+      "relative": "logs\\SSE\\24.01.29.20.34.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\24.01.29.20.34.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\24.01.29.20.34.html",
+      "sha256": "43f91443e9e7b0092232c3d358abc0a8e9b02977b6509d69fe6693611e8b3e0a",
+      "bytes": 1585
+    },
+    {
+      "relative": "logs\\SSE\\24.02.04.19.34.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\24.02.04.19.34.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\24.02.04.19.34.html",
+      "sha256": "b5c45c3ce08ba08c3a11006f36bd7783b58c83420f6cc8b615d469bf14a46a35",
+      "bytes": 1350
+    },
+    {
+      "relative": "logs\\SSE\\24.02.04.22.19.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\24.02.04.22.19.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\24.02.04.22.19.html",
+      "sha256": "ff73bc5c54a98ee7e0dd154d39bdaf9ec806c0f0bd69f277b7351770fd3f2550",
+      "bytes": 11332
+    },
+    {
+      "relative": "logs\\SSE\\24.02.05.21.01.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\24.02.05.21.01.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\24.02.05.21.01.html",
+      "sha256": "839c15797a2cacc31e7edbd86163138068e8ae08bb47a740695a20220aea095d",
+      "bytes": 25702
+    },
+    {
+      "relative": "logs\\SSE\\24.02.28.15.19.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\24.02.28.15.19.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\24.02.28.15.19.html",
+      "sha256": "acc328823cd14a0bd6ba66b9b6779dcab75febfa723f98ee72dac4e1e03165df",
+      "bytes": 33015
+    },
+    {
+      "relative": "logs\\SSE\\24.06.08.15.05.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\24.06.08.15.05.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\24.06.08.15.05.html",
+      "sha256": "12a35f586578082313109dad84f0509b1f8fa70e39c22e8be92c45a6525900e7",
+      "bytes": 100859
+    },
+    {
+      "relative": "logs\\SSE\\24.06.08.15.15.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\24.06.08.15.15.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\24.06.08.15.15.html",
+      "sha256": "2306f1f5abc096bcdda9246497c60a66bf811f2b0dabf0aa9fbfeced1961de19",
+      "bytes": 12421
+    },
+    {
+      "relative": "logs\\SSE\\24.07.08.01.22.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\24.07.08.01.22.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\24.07.08.01.22.html",
+      "sha256": "7efdb6dc9f07fffa9ce03f4f819b330719cd97ee3b33b3ac7a7773331dccaaf6",
+      "bytes": 645
+    },
+    {
+      "relative": "logs\\SSE\\24.07.08.20.42.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\24.07.08.20.42.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\24.07.08.20.42.html",
+      "sha256": "d3dafc4c750932b9caa701123ab996a854f098c765f3eca7247ba4ea811c2a84",
+      "bytes": 17266
+    },
+    {
+      "relative": "logs\\SSE\\24.07.08.22.09.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\24.07.08.22.09.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\24.07.08.22.09.html",
+      "sha256": "aca42652f5eb27c23d6b5fced8c3e4a058fb5596cb4404523438a9ef852226c1",
+      "bytes": 1084
+    },
+    {
+      "relative": "logs\\SSE\\24.07.09.09.19.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\24.07.09.09.19.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\24.07.09.09.19.html",
+      "sha256": "0f92648f55dda1919cf5284dde2a11ec1754d0d20e5997da85e299ce85d4e568",
+      "bytes": 18900
+    },
+    {
+      "relative": "logs\\SSE\\24.07.09.11.57.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\24.07.09.11.57.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\24.07.09.11.57.html",
+      "sha256": "886a131d25953a42ff20cd1cba82d1bb4683a48224c338101e5e1780798756a5",
+      "bytes": 1398
+    },
+    {
+      "relative": "logs\\SSE\\24.07.09.12.05.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\24.07.09.12.05.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\24.07.09.12.05.html",
+      "sha256": "ad324a08f20775267aae1fb9eb92b64c3b904e626954d873571239d56a24113c",
+      "bytes": 1247
+    },
+    {
+      "relative": "logs\\SSE\\24.07.09.12.06.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\24.07.09.12.06.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\24.07.09.12.06.html",
+      "sha256": "10f82737ecf3a9b54139ffac5cb035c6ec3ee818ecb36b1b460f704d82f3c5c5",
+      "bytes": 1227
+    },
+    {
+      "relative": "logs\\SSE\\24.07.09.12.08.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\24.07.09.12.08.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\24.07.09.12.08.html",
+      "sha256": "7a8c620594fe6fa3e216c14d3e5683bc0f00ce400f23b1f2b09cd767077663a1",
+      "bytes": 795
+    },
+    {
+      "relative": "logs\\SSE\\24.07.09.12.20.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\24.07.09.12.20.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\24.07.09.12.20.html",
+      "sha256": "e0adc67f0547275a4aa45e7a3379e7fb4d5fc4788fee3347be61f60dcdccddcc",
+      "bytes": 772
+    },
+    {
+      "relative": "logs\\SSE\\24.07.09.12.21.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\24.07.09.12.21.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\24.07.09.12.21.html",
+      "sha256": "12b2ee21329a2af58e34f79dd565664fa432d7029d5cf5d0deb755626ee7c8c6",
+      "bytes": 1178
+    },
+    {
+      "relative": "logs\\SSE\\24.07.09.12.23.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\24.07.09.12.23.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\24.07.09.12.23.html",
+      "sha256": "6586d283f58be3a88e6ea03a1bf1929589bad91708038ab23884f5c17c5b3493",
+      "bytes": 1231
+    },
+    {
+      "relative": "logs\\SSE\\24.07.09.12.40.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\24.07.09.12.40.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\24.07.09.12.40.html",
+      "sha256": "89b6fe09f7794fb357eefc54427b18bb80c6d0b64d94bae383a47c74ac6fbdd5",
+      "bytes": 1224
+    },
+    {
+      "relative": "logs\\SSE\\24.07.09.12.42.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\24.07.09.12.42.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\24.07.09.12.42.html",
+      "sha256": "8b36397da72919250f9e2805213205fb4e667ae2a83bda8402ad598ce742f7e6",
+      "bytes": 810
+    },
+    {
+      "relative": "logs\\SSE\\24.07.09.12.44.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\24.07.09.12.44.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\24.07.09.12.44.html",
+      "sha256": "954c0c2093fb8910e49f63be2004be2ec5d786184bb8ccceac498e34d9b1931e",
+      "bytes": 999
+    },
+    {
+      "relative": "logs\\SSE\\24.07.09.13.30.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\24.07.09.13.30.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\24.07.09.13.30.html",
+      "sha256": "be91e614f5ae2cf3484176ef19f1f638de2d1dce8c8dc7be6cd33c932c39d2fd",
+      "bytes": 33019
+    },
+    {
+      "relative": "logs\\SSE\\24.07.09.13.42.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\24.07.09.13.42.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\24.07.09.13.42.html",
+      "sha256": "6b8fe688fe65821e1fb1cd235955e22720d00bf8822ca02563bdc775268ae828",
+      "bytes": 2366
+    },
+    {
+      "relative": "logs\\SSE\\24.07.09.13.43.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\24.07.09.13.43.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\24.07.09.13.43.html",
+      "sha256": "d173665bc1640f86225a776e31d42bf7ddabaa34390a3947b75b9e9bd83cdfa6",
+      "bytes": 6066
+    },
+    {
+      "relative": "logs\\SSE\\24.07.09.13.48.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\24.07.09.13.48.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\24.07.09.13.48.html",
+      "sha256": "eca058308916cac1efd5b44333522358082f9057212cd7a61723dd983ad10094",
+      "bytes": 1084
+    },
+    {
+      "relative": "logs\\SSE\\24.07.09.13.51.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\24.07.09.13.51.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\24.07.09.13.51.html",
+      "sha256": "da3b438ceb54b05637651de0e782fa42e96425ae5b4c087af869b2414ee95056",
+      "bytes": 1084
+    },
+    {
+      "relative": "logs\\SSE\\24.07.09.13.54.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\24.07.09.13.54.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\24.07.09.13.54.html",
+      "sha256": "e2c70d60162082748a5dfd86625528aacdef9e2a1add4d19e41ab68f3ff8ed73",
+      "bytes": 14378
+    },
+    {
+      "relative": "logs\\SSE\\24.07.09.15.13.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\24.07.09.15.13.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\24.07.09.15.13.html",
+      "sha256": "cb7487c4e6d795560225df806d02dfc94dd9330b0be842f0804b5e3bda4cad6b",
+      "bytes": 21666
+    },
+    {
+      "relative": "logs\\SSE\\24.07.09.16.15.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\24.07.09.16.15.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\24.07.09.16.15.html",
+      "sha256": "06c90b48352923bfde07d20cfce23fa46360de4972268ac08e48fa8ac1753b95",
+      "bytes": 10308
+    },
+    {
+      "relative": "logs\\SSE\\24.07.11.15.48.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\24.07.11.15.48.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\24.07.11.15.48.html",
+      "sha256": "b56844580b6d5d164898e130d0f76c9f55238fc8ab04dc31eaa9ad6e65e4a81d",
+      "bytes": 13218
+    },
+    {
+      "relative": "logs\\SSE\\24.07.11.17.06.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\24.07.11.17.06.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\24.07.11.17.06.html",
+      "sha256": "188071059b73c0a02efe921192cde80f63af5a4c6c0ed2f9e1f79ae5c89cc7f8",
+      "bytes": 1475
+    },
+    {
+      "relative": "logs\\SSE\\24.07.13.13.56.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\24.07.13.13.56.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\24.07.13.13.56.html",
+      "sha256": "ea6bccaca9ccf9e32d3f5fe124f96077f29ec862855096acd071673c5ef602f3",
+      "bytes": 13012
+    },
+    {
+      "relative": "logs\\SSE\\24.07.14.08.06.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\24.07.14.08.06.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\24.07.14.08.06.html",
+      "sha256": "e8066ca4e4c870dd6ed704b2d7184d27836e0bc9771162eb3f105deb607fb978",
+      "bytes": 1257
+    },
+    {
+      "relative": "logs\\SSE\\24.07.14.23.11.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\24.07.14.23.11.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\24.07.14.23.11.html",
+      "sha256": "d711df6478138ebaaf7047c88929b0efb1736c0a6d3be6a0fb761fcf086cc506",
+      "bytes": 627
+    },
+    {
+      "relative": "logs\\SSE\\24.07.15.18.50.1.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\24.07.15.18.50.1.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\24.07.15.18.50.1.html",
+      "sha256": "fd80e23e339ecfb1e683816dd8c93c8c65232e168e98bbf7e3b04fad64d1f42e",
+      "bytes": 250095
+    },
+    {
+      "relative": "logs\\SSE\\24.07.15.18.50.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\24.07.15.18.50.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\24.07.15.18.50.html",
+      "sha256": "5d01a4e311469e1dd6bad643e1198ae9821dcd7828992425f9cd358ba09bf9c5",
+      "bytes": 108824
+    },
+    {
+      "relative": "logs\\SSE\\24.07.18.11.53.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\24.07.18.11.53.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\24.07.18.11.53.html",
+      "sha256": "8d8a71e63b8d493700db518c12f39581b90466ae7d91aec226ece18b2e1c8a11",
+      "bytes": 1021
+    },
+    {
+      "relative": "logs\\SSE\\24.07.20.12.04.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\24.07.20.12.04.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\24.07.20.12.04.html",
+      "sha256": "5e1d5849acc359883996776a7349d64484744f6a86c6a8cc2999da1c29b38a5f",
+      "bytes": 885
+    },
+    {
+      "relative": "logs\\SSE\\24.09.25.10.07.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\24.09.25.10.07.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\24.09.25.10.07.html",
+      "sha256": "d13a8347d1a13d65daee6a596372ad84ee70cecba1197877872c34db8e9accb2",
+      "bytes": 1773
+    },
+    {
+      "relative": "logs\\SSE\\24.10.08.22.32.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\24.10.08.22.32.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\24.10.08.22.32.html",
+      "sha256": "49dbefde9256c72dd9d02b938019e589fbac83577819d5ee19fbdcd125d6b2f4",
+      "bytes": 4736
+    },
+    {
+      "relative": "logs\\SSE\\24.10.09.00.51.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\24.10.09.00.51.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\24.10.09.00.51.html",
+      "sha256": "1e3b164ded9b9a9c906e6f1d16297a433223dbad467d0674b0a1cb6808594a60",
+      "bytes": 29901
+    },
+    {
+      "relative": "logs\\SSE\\24.10.12.14.31.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\24.10.12.14.31.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\24.10.12.14.31.html",
+      "sha256": "581da419992bcebe0ba3bc65727c263d8953b504747dd2444040a0cb2fac654a",
+      "bytes": 1773
+    },
+    {
+      "relative": "logs\\SSE\\24.10.15.02.26.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\24.10.15.02.26.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\24.10.15.02.26.html",
+      "sha256": "816d66a2dd43070ed2ec07882ab4920b9e686bd7b71903c719be2d419f7d357f",
+      "bytes": 4664
+    },
+    {
+      "relative": "logs\\SSE\\24.10.16.14.54.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\24.10.16.14.54.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\24.10.16.14.54.html",
+      "sha256": "bd5f9bd64988c2fe8524e6008b89e92b4821ab112cff5e5e81c0b4bd719cfb7a",
+      "bytes": 6148
+    },
+    {
+      "relative": "logs\\SSE\\24.10.16.15.28.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\24.10.16.15.28.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\24.10.16.15.28.html",
+      "sha256": "bbf00a18218ccfc5b0d626238ab6e8f1a4f1da9be048bd4d06e88b0551f0e95b",
+      "bytes": 5241
+    },
+    {
+      "relative": "logs\\SSE\\25.03.06.15.18.html",
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\Cathedral Assets Optimizer\\logs\\SSE\\25.03.06.15.18.html",
+      "private_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\logs\\SSE\\25.03.06.15.18.html",
+      "sha256": "18eb46ef5c38d1478c379efd975de4d4553c5b7e67fa671a7cd6ae5a99175280",
+      "bytes": 8763
+    }
+  ],
+  "omitted_old_work_files": [
+    "___tempAnimFile.hkx",
+    "profiles\\SSE\\settings.ini"
+  ],
+  "input_directory": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\candidate",
+  "input_files": [
+    {
+      "member": "meshes/mwl/wg_0.nif",
+      "source_sha256": "3182b43fd2f42132907f22743d43fac5588f9bfcdbfb20bf556cefa26bddb0ed",
+      "bytes": 347055,
+      "BS_version": 82,
+      "originals": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\originals\\meshes\\mwl\\wg_0.nif",
+      "candidate": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\candidate\\meshes\\mwl\\wg_0.nif"
+    },
+    {
+      "member": "meshes/mwl/wg_1.nif",
+      "source_sha256": "9cdb6d3d6b8b34b85ff08720ed1e31a56d2ca0b2afa39f87c1655bf85d0c3f27",
+      "bytes": 347059,
+      "BS_version": 82,
+      "originals": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\originals\\meshes\\mwl\\wg_1.nif",
+      "candidate": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\candidate\\meshes\\mwl\\wg_1.nif"
+    }
+  ],
+  "source_evidence": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_legacy_nif_consumers.json",
+  "GUI_actions_for_parent": [
+    "Launch only this private CAO copy with cwd=its own tool folder and TEMP/TMP/APPDATA/LOCALAPPDATA under moonstar_conversion/sandbox.",
+    "Explicitly choose candidate directory above before processing; never accept a remembered source-pack/game Data path.",
+    "Use Skyrim Special Edition mesh conversion to stream100. Process ordinary skinned meshes, not head parts; limit scan to the two candidate files.",
+    "Disable BSA, textures and animations. Do not repack or process the MoonAndStar archive. Preserve original branch and every tool log.",
+    "If necessary optimization skips these version82 files, a private full mesh optimization/resave candidate may be tried; if author tool reports unsupported version, STOP. Never force-edit only the header.",
+    "Do not deploy until both resulting NIFs reparse as SSE100 and skeleton/bone weights/shape counts/triangles/texture references are compared against originals; unexpected geometry/material/bone loss rejects candidate."
+  ],
+  "execution_limits": [
+    "The source-provided SSE NIF Optimizer /opt path still shows a GUI in OnInit; this agent did not invoke it or CAO.",
+    "Version82 is outside the expected83/100 schema of the static audit; that observation alone does not prove an in-game crash.",
+    "This private folder is a review candidate, not a converted or runtime-verified fix."
+  ],
+  "private_config_overrides": [
+    {
+      "path": "Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\profiles\\SSE\\profile.ini",
+      "original_sha256": "e569440f1ac9e7df0f9b1a6485476f186a6bb0ac0a36f3f7baacece1649388c1",
+      "sha256": "ae80f853ff5bbef52a7e70a7122199a386324a0a553741c2969c5a1473e86692",
+      "changes": "Only BSA/animations/textures enabled=false; mesh stream100/User12 and meshesEnabled=true retained."
+    },
+    {
+      "path": "Database\\integration\\research\\feature_generation\\moonstar_conversion\\tool\\profiles\\common.ini",
+      "sha256": "b96d79a781108264d97eb355e790cd622af1d85282a2444e1cdde104a5bc628b",
+      "changes": "SSE profile, advanced controls visible, tutorial hidden."
+    }
+  ],
+  "GUI_exact_settings": {
+    "profile": "SSE",
+    "mode": "One mod",
+    "directory": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\candidate",
+    "BSA_enabled": false,
+    "Textures_enabled": false,
+    "Animations_enabled": false,
+    "Meshes_enabled": true,
+    "Meshes_optimization": "Necessary Optimization first",
+    "Meshes_Headparts": false,
+    "Meshes_Resave": "Enable only for these two private candidates to request SSE rewrite",
+    "target_file_version": "20.2.0.7",
+    "target_user_version": 12,
+    "target_stream_version": 100
+  },
+  "parent_launch_script": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\launch_cao_for_parent.py"
+}

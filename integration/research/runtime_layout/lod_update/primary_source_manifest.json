@@ -1,0 +1,94 @@
+{
+  "utc": "2026-10-31T04:52:34.235117+00:00",
+  "pages": [
+    {
+      "url": "https://dyndolod.info/Updating",
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\runtime_layout\\lod_update\\primary_sources\\Updating.html",
+      "bytes": 25074,
+      "sha256": "1a015572543a4fcad7594977d1907a5fd85cf6e20e1245b5952ed50469b56e3d",
+      "status": "Author page contents retrieved; claims separately inspected"
+    },
+    {
+      "url": "https://dyndolod.info/Help/Command-Line-Argument",
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\runtime_layout\\lod_update\\primary_sources\\Command-Line-Argument.html",
+      "bytes": 23933,
+      "sha256": "10ed2bff18fd652bba27f6e9411a7716a65540c24eb2823e78ace6455b874e79",
+      "status": "Author page contents retrieved; claims separately inspected"
+    },
+    {
+      "url": "https://dyndolod.info/Help/Terrain-LOD-and-Water-LOD",
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\runtime_layout\\lod_update\\primary_sources\\Terrain-LOD-and-Water-LOD.html",
+      "bytes": 26639,
+      "sha256": "2322b35f540f3faae6b2bcee11b199a9a67b64f2abe3a914b4ad7f8c19b1a1eb",
+      "status": "Author page contents retrieved; claims separately inspected"
+    },
+    {
+      "url": "https://dyndolod.info/Help/Grass-LOD",
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\runtime_layout\\lod_update\\primary_sources\\Grass-LOD.html",
+      "bytes": 63838,
+      "sha256": "f97a5de40d1bdf38b7e80f4f60fe2a7923098fe546b837c411323570a79704fd",
+      "status": "Author page contents retrieved; claims separately inspected"
+    },
+    {
+      "url": "https://dyndolod.info/Help/TexGen",
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\runtime_layout\\lod_update\\primary_sources\\TexGen.html",
+      "bytes": 42795,
+      "sha256": "0d2e31860c759e0a7970aa5be9050a291e7a2f2d26485d1588517334a021fa22",
+      "status": "Author page contents retrieved; claims separately inspected"
+    },
+    {
+      "url": "https://dyndolod.info/Help/Advanced-Mode",
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\runtime_layout\\lod_update\\primary_sources\\Advanced-Mode.html",
+      "bytes": 66443,
+      "sha256": "b6ca63fcc4f061ec1d512f33e2d36004443a164ebbc8f3fae7aa723cfe54d8bd",
+      "status": "Author page contents retrieved; claims separately inspected"
+    },
+    {
+      "url": "https://dyndolod.info/Help/Occlusion-Data",
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\runtime_layout\\lod_update\\primary_sources\\Occlusion-Data.html",
+      "bytes": 38865,
+      "sha256": "470baca9996604e5fedda8a6cf03bc492c53350f3e215941a4bc65d38476c6ee",
+      "status": "Author page contents retrieved; claims separately inspected"
+    }
+  ],
+  "local": [
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\DynDOLOD\\Edit Scripts\\DynDOLOD\\DynDOLOD_SSE.ini",
+      "copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\runtime_layout\\lod_update\\primary_sources\\DynDOLOD_SSE.ini",
+      "sha256": "f84a5362c0b7179c66c5f00888b097d6b37622693da4d402f6ad6453cc054f88"
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\DynDOLOD\\Edit Scripts\\DynDOLOD\\Presets\\DynDOLOD_SSE_Default.ini",
+      "copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\runtime_layout\\lod_update\\primary_sources\\DynDOLOD_SSE_Default.ini",
+      "sha256": "5e7f3b4b57c4010f6f99480277fc0f729a840d95e3bd7199c09571ddca7349c7"
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\DynDOLOD\\Edit Scripts\\DynDOLOD\\Configs\\DynDOLOD_SSE_worldspace_ignore.txt",
+      "copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\runtime_layout\\lod_update\\primary_sources\\DynDOLOD_SSE_worldspace_ignore.txt",
+      "sha256": "9005b58688067838fff48fdb89f7687a5cbb98afa80ad9cac5bae3f093a305eb"
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\DynDOLOD\\DynDOLODx64.exe",
+      "bytes": 33527296,
+      "sha256": "479e0dfd416200dd99c376d5a7f3fe0851cc37565a7638d8b6bd6d1314e65692",
+      "copied": false
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\DynDOLOD\\TexGenx64.exe",
+      "bytes": 33527296,
+      "sha256": "cd36b234fde5bf001a347de8000a7f34555235c1eb0af02cc0ca00e7e2ed87dc",
+      "copied": false
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\xLODGen\\xLODGenx64.exe",
+      "bytes": 28821504,
+      "sha256": "3db72275c671d2de18790aa4f4246315d991ab82b128bdc4fa755edb275ff286",
+      "copied": false
+    }
+  ],
+  "obsolete_export_path_evidence": {
+    "source": "E:\\stock\\Skyrim collection\\TuLED\\Tool\\DynDOLOD\\Edit Scripts\\Export\\LODGen_SSE_Export_Tamriel.txt",
+    "sha256": "68d64b4e1b4f202c8c7276ef7ea9eea53d991382af7ab0ef5ba6cf378cf971d3",
+    "warning": "Existing exports contain C:\\Modding 2 absolute TerrainData/GrassMap/PathGrass/TextureAtlasMap/PathData/PathOutput/Resource paths. Never execute those unchanged."
+  }
+}

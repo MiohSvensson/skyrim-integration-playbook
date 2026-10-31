@@ -1,0 +1,11 @@
+{
+  "source": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_conflicts\\DatabaseComparatorSelfAuditDraft.pas",
+  "sha256": "d47ccd15135b35568f7e8da1d7f77742588ead8e4520379ebee0e74315181ee2",
+  "input_guards": 43,
+  "exact_record_scope_rows": 239,
+  "visible_source_parent_scope_rows": 107,
+  "all_forbidden_plugin_mutation_and_export_calls_absent": true,
+  "shared_comparator_source": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_conflicts\\DatabaseFeatureCompatibilityDraft.pas",
+  "shared_comparator_sha256": "3004e17d74114f15d29f5969005ae99c4017adfd8059325f16f74460cc8f127e",
+  "scope": "Generated from the same helper and complete scope as both builders. Read-only; actual compilation/execution remains required."
+}

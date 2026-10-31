@@ -1,0 +1,22 @@
+{
+  "utc": "2026-10-31T13:41:49.504574+00:00",
+  "status": "ACCEPTED_STATIC_TYPED_RELOAD_FINAL_VFS_PENDING",
+  "accepted": true,
+  "candidate": {
+    "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\ZZ87 Verified compatibility patches\\Database Quest Feature Compatibility.esp",
+    "sha256": "b6759d3471ffae9cac5d911e7ee457f6152d15c944726537fd1cda263ceace2f",
+    "size_bytes": 56692
+  },
+  "installation": {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\verified_patch_install\\runs\\quest_v10\\installed.json",
+    "sha256": "66d957e53bfeaf6e135f059969be6243c950f66fbd9dadb2969d4b6f866b5c60",
+    "size_bytes": 2422
+  },
+  "reload_task": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\validation\\quest_reload_v10",
+  "reload_result": {
+    "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\validation\\quest_reload_v10\\result.json",
+    "sha256": "5c919f3a0bca8a9b7378d14ed6b8f72aafe915505e81428eb25f8a73f5f9d97a",
+    "size_bytes": 427
+  },
+  "limits": "Static typed reload acceptance only. Final full VFS/resource/Synthesis/LOD audits remain separate; no game launch."
+}

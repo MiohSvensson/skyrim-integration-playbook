@@ -1,0 +1,191 @@
+{
+  "utc": "2026-10-31T03:44:33.366035+00:00",
+  "repairs": [
+    {
+      "kind": "exact_repair",
+      "plugin": "BDOR Mountain Spirit.esp",
+      "previous_provider": "T4297 BDOR Mountain Spirit",
+      "pack": "TuLED",
+      "source_snapshot": "E:\\stock\\Skyrim collection\\Database\\xedit_runs\\TuLED\\Data\\BDOR Mountain Spirit.esp",
+      "source_sha256": "55e10eeec53e02265c775f6dc8e38c59def434c6c22d8704e57682b41690a05b",
+      "candidate": "E:\\stock\\Skyrim collection\\Database\\repairs\\TuLED\\fixed\\BDOR Mountain Spirit.esp",
+      "candidate_sha256": "50a26492b3c8317e2bd148860a42c6058ac61e5b00fe4833141d813d1f1b5785",
+      "candidate_size": 5736,
+      "candidate_rehashed_now": "50a26492b3c8317e2bd148860a42c6058ac61e5b00fe4833141d813d1f1b5785",
+      "apply_guard": "Apply only when the selected input SHA matches source_sha256; validate again in the final integrated context."
+    },
+    {
+      "kind": "exact_repair",
+      "plugin": "IntelligentVoicedDirtyTalk.esp",
+      "previous_provider": "T4903 Hentairim-IVDT",
+      "pack": "TuLED",
+      "source_snapshot": "E:\\stock\\Skyrim collection\\Database\\xedit_runs\\TuLED\\Data\\IntelligentVoicedDirtyTalk.esp",
+      "source_sha256": "52025d91076e704842fb6a19fc3e7cfc92438a3675754d51fd3120c1d8d9e20c",
+      "candidate": "E:\\stock\\Skyrim collection\\Database\\repairs\\TuLED\\fixed\\IntelligentVoicedDirtyTalk.esp",
+      "candidate_sha256": "29656ebc40092899ce783e1d347bad26b3ee9fc955a06567f0b887403cb07f20",
+      "candidate_size": 117317,
+      "candidate_rehashed_now": "29656ebc40092899ce783e1d347bad26b3ee9fc955a06567f0b887403cb07f20",
+      "apply_guard": "Apply only when the selected input SHA matches source_sha256; validate again in the final integrated context."
+    },
+    {
+      "kind": "exact_repair",
+      "plugin": "NitesAhlannaArmor.esp",
+      "previous_provider": "T4193 Ahlanna Armor - SPID",
+      "pack": "TuLED",
+      "source_snapshot": "E:\\stock\\Skyrim collection\\Database\\xedit_runs\\TuLED\\Data\\NitesAhlannaArmor.esp",
+      "source_sha256": "fabbfcf63ebc57d9e1b49ff9bdf8b71f0ab56a182d85cd0d5f4bcf4024cd259c",
+      "candidate": "E:\\stock\\Skyrim collection\\Database\\repairs\\TuLED\\fixed\\NitesAhlannaArmor.esp",
+      "candidate_sha256": "7c7fbfa71af7194f0292c461884f47d0bc6a2629d4acbab9e01bbff17c4e116d",
+      "candidate_size": 232,
+      "candidate_rehashed_now": "7c7fbfa71af7194f0292c461884f47d0bc6a2629d4acbab9e01bbff17c4e116d",
+      "apply_guard": "Apply only when the selected input SHA matches source_sha256; validate again in the final integrated context."
+    },
+    {
+      "kind": "exact_repair",
+      "plugin": "VAE2-USSEP.esp",
+      "previous_provider": "T6025 Visual Animated Enchants 2 - Unofficial Patches",
+      "pack": "TuLED",
+      "source_snapshot": "E:\\stock\\Skyrim collection\\Database\\xedit_runs\\TuLED\\Data\\VAE2-USSEP.esp",
+      "source_sha256": "44f056500c6e639845eee2bbd266be1d7de5960baa6f616d6a9384a1b09397e9",
+      "candidate": "E:\\stock\\Skyrim collection\\Database\\repairs\\TuLED\\fixed\\VAE2-USSEP.esp",
+      "candidate_sha256": "975d1d3e1e4ef87fca64a69f7e1181c5f76ee7944715e3a5b7b396afa95f15dd",
+      "candidate_size": 1343,
+      "candidate_rehashed_now": "975d1d3e1e4ef87fca64a69f7e1181c5f76ee7944715e3a5b7b396afa95f15dd",
+      "apply_guard": "Apply only when the selected input SHA matches source_sha256; validate again in the final integrated context."
+    },
+    {
+      "kind": "direct_hotkeys_pose_registry",
+      "previous_provider": "T4841 GomaPero Poses",
+      "pack": "TuLED",
+      "plugin": "GPPoses.esp",
+      "source_sha256": "541e9f1d08465bd290f1635e3df676ce5195c6411c4ce18442eb6854dc9bba30",
+      "candidate_sha256": "a151d80664758cef73529519fcb48472e4ff8bc31c10ef403a0946b8f91cdfce",
+      "retained": {
+        "TES4": 1,
+        "IDLE": 1148,
+        "ANIO": 317
+      },
+      "removed": {
+        "MGEF": 42,
+        "ENCH": 28,
+        "MISC": 14,
+        "QUST": 154,
+        "PACK": 140,
+        "FLST": 21,
+        "MESG": 154
+      },
+      "path": "E:\\stock\\Skyrim collection\\Database\\repairs\\TuLED\\variants\\pose_registry_only\\GPPoses.esp",
+      "scope": "OPTIONAL: preserves every original IDLE/ANIO ID and payload. Removes legacy ring/spell/quest records. Intended only for direct Poser Hotkeys animation usage; not an upstream restoration; no game test."
+    },
+    {
+      "kind": "direct_hotkeys_pose_registry",
+      "previous_provider": "T4422 Collygons Poser V",
+      "pack": "TuLED",
+      "plugin": "CollyPoser.esp",
+      "source_sha256": "3e48582a7a7b430975ffd6d341fb2911b0a5262bd3a59ed44015467b8f84df79",
+      "candidate_sha256": "1f4c21a64640a7caae42a34573a7eece4c6a47f12262e4f7aa0eee4d0ba217ad",
+      "retained": {
+        "TES4": 1,
+        "IDLE": 406,
+        "ANIO": 5
+      },
+      "removed": {
+        "MGEF": 15,
+        "ENCH": 10,
+        "MISC": 30,
+        "QUST": 55,
+        "PACK": 50,
+        "MESG": 51
+      },
+      "path": "E:\\stock\\Skyrim collection\\Database\\repairs\\TuLED\\variants\\pose_registry_only\\CollyPoser.esp",
+      "scope": "OPTIONAL: preserves every original IDLE/ANIO ID and payload. Removes legacy ring/spell/quest records. Intended only for direct Poser Hotkeys animation usage; not an upstream restoration; no game test."
+    },
+    {
+      "kind": "verified_upstream_restoration",
+      "previous_provider": "T4634 Egil's Rapier",
+      "pack": "TuLED",
+      "plugin": "FGCEgilRapier.esp",
+      "candidate_path": "E:\\stock\\Skyrim collection\\Database\\repairs\\TuLED\\variants\\upstream_egil\\FGCEgilRapier.esp",
+      "sha256": "7a6717291bc6400613f9f083126bac7531553e1bc926b3dd88f5b78bb4088821",
+      "native_records": 25,
+      "native_diagnostics": 0,
+      "full_records": 25,
+      "full_diagnostics": 0,
+      "evidence_path": "E:\\stock\\Skyrim collection\\Database\\repairs\\upstream_full_validation.json",
+      "updated_local": "2026-10-31T00:41:23"
+    },
+    {
+      "kind": "verified_upstream_restoration",
+      "previous_provider": "T5537 Rihad Swordsman Set",
+      "pack": "TuLED",
+      "plugin": "RihadSwordsmanSet.esl",
+      "candidate_path": "E:\\stock\\Skyrim collection\\Database\\repairs\\TuLED\\variants\\upstream_rihad\\RihadSwordsmanSet.esl",
+      "sha256": "8ead94ef16bad6832db748006e8ed555bb3c270431b408500c4a4d443a9872d4",
+      "native_records": 55,
+      "native_diagnostics": 0,
+      "full_records": 55,
+      "full_diagnostics": 0,
+      "evidence_path": "E:\\stock\\Skyrim collection\\Database\\repairs\\upstream_full_validation.json",
+      "updated_local": "2026-10-31T00:41:23"
+    },
+    {
+      "kind": "verified_upstream_restoration",
+      "previous_provider": "T5539 Rihad Swordsman Set - SPID",
+      "pack": "TuLED",
+      "plugin": "SPID Rihad Swordsman Set.esp",
+      "candidate_path": "E:\\stock\\Skyrim collection\\Database\\repairs\\TuLED\\variants\\upstream_rihad\\SPID Rihad Swordsman Set.esp",
+      "sha256": "cb084a369f882f6d0eedafa446e10f08a6c5458a50d75358e6cd92c2733a5a42",
+      "native_records": 9,
+      "native_diagnostics": 0,
+      "full_records": 9,
+      "full_diagnostics": 0,
+      "evidence_path": "E:\\stock\\Skyrim collection\\Database\\repairs\\upstream_full_validation.json",
+      "updated_local": "2026-10-31T00:41:23"
+    }
+  ],
+  "disabled_plugins": [
+    "alternate perspective - gate to sovngarde edition.esp",
+    "ashe_replacer.esp",
+    "daegonreplacersmaffs.esp",
+    "dbm_hub_goaaio_patch.esp",
+    "lotd_tcc_goaaio.esp",
+    "npc - sexlab patch.esp"
+  ],
+  "disabled_mod_ids": [
+    4262,
+    4486,
+    5344,
+    6158,
+    6159
+  ],
+  "rihad_layer_below_existing_output": "T5537 Rihad Swordsman Set",
+  "coherent_stock_overlay": "ZZ80 Consistent stock data",
+  "bounded_support_layer": "ZZ84 Bounded katana support",
+  "quarantined_dsd": [
+    {
+      "original_integration_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T5818 SSE-AT Output\\SKSE\\Plugins\\DynamicStringDistributor\\Synthesis - Patch.esp\\Synthesis - Patch.json",
+      "quarantined_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\quarantine\\old_synthesis_dsd\\T5818 SSE-AT Output\\Synthesis - Patch.json",
+      "sha256": "bd24d90c371b81be5705176774b17564240ac201f662ea895a7e8c8ace76d2d6"
+    }
+  ],
+  "private_configuration_edits": [
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T4360 BodySlide and Outfit Studio\\CalienteTools\\BodySlide\\Config.xml",
+      "before_sha256": "bd191d16f84f6b969d1d74fcb6855ccf009b2b84cd85e4c740519498a9a3b015",
+      "after_sha256": "663e5a59bc6cf2264fe8096b364cefadf2b4f47939ff6742e84c5bb379d97a34",
+      "changes": {
+        "GameDataPath": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\Game\\Data\\",
+        "GameDataPaths/SkyrimSpecialEdition": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\Game\\Data\\",
+        "OutputDataPath": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideFresh\\",
+        "Anim/DefaultSkeletonReference": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\Game\\Data\\meshes\\actors\\character\\character assets female\\skeleton_female.nif"
+      }
+    }
+  ],
+  "pending": [
+    "final master closure",
+    "new content",
+    "Synthesis rebuild",
+    "actual complete VFS probe",
+    "full-context xEdit"
+  ]
+}

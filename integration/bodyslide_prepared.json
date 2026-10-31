@@ -1,0 +1,2424 @@
+{
+  "utc": "2026-10-31T04:45:41.566106+00:00",
+  "status": "PREPARED_NOT_EXECUTED",
+  "jobs": [
+    {
+      "pack": "Anno",
+      "tool": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\tools\\BodySlideMorph\\Anno",
+      "project": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\inputs\\BodySlideMorph\\Anno",
+      "output": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry",
+      "command": [
+        "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\tools\\BodySlideMorph\\Anno\\BodySlide x64.exe",
+        "-gbuild",
+        "Database Morph Repair - Anno",
+        "-p",
+        "- Zeroed Sliders -",
+        "-tri",
+        "-t",
+        "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\AnnoRetry"
+      ],
+      "expected_projects": [
+        {
+          "pack": "Anno",
+          "original_set_name": "Catwoman - Arkham City Catsuit 1st Person",
+          "curated_set_name": "Database Morph Anno 001 - Catwoman - Arkham City Catsuit 1st Person",
+          "curated_osp": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\bodyslide_plan\\Anno\\SliderSets\\DatabaseMorph_001.osp",
+          "author_osp": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\SliderSets\\Catwoman - Arkham City Catsuit 1st Person.osp",
+          "author_set_ordinal": 0,
+          "output_stem": "meshes/armor/batman/catwoman/arkham city/1stperson_catsuit",
+          "generated_paths": [
+            "meshes/armor/batman/catwoman/arkham city/1stperson_catsuit_0.nif",
+            "meshes/armor/batman/catwoman/arkham city/1stperson_catsuit_1.nif"
+          ],
+          "repair_meshes": [
+            "meshes/armor/batman/catwoman/arkham city/1stperson_catsuit_0.nif",
+            "meshes/armor/batman/catwoman/arkham city/1stperson_catsuit_1.nif"
+          ],
+          "plugins": [
+            "Catwoman.esp"
+          ],
+          "group": "Database Morph Repair - Anno",
+          "resolved_family": "CBBE_3BA",
+          "source_saved_output_choice": null,
+          "zap_defaults_preserved": [],
+          "inputs": [
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/catwoman/catwoman - arkham city catsuit 1st person.nif",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\Catwoman\\Catwoman - Arkham City Catsuit 1st Person.nif",
+              "mod_id": 28,
+              "mod_name": "clothes pack",
+              "bytes": 84865,
+              "roles": [
+                "SourceFile"
+              ]
+            },
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/catwoman/catwoman - arkham city catsuit 1st person.osd",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\Catwoman\\Catwoman - Arkham City Catsuit 1st Person.osd",
+              "mod_id": 28,
+              "mod_name": "clothes pack",
+              "bytes": 132461,
+              "roles": [
+                "SliderData"
+              ]
+            }
+          ]
+        },
+        {
+          "pack": "Anno",
+          "original_set_name": "Catwoman - Arkham City Catsuit",
+          "curated_set_name": "Database Morph Anno 002 - Catwoman - Arkham City Catsuit",
+          "curated_osp": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\bodyslide_plan\\Anno\\SliderSets\\DatabaseMorph_002.osp",
+          "author_osp": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\SliderSets\\Catwoman - Arkham City Catsuit.osp",
+          "author_set_ordinal": 0,
+          "output_stem": "meshes/armor/batman/catwoman/arkham city/catsuit",
+          "generated_paths": [
+            "meshes/armor/batman/catwoman/arkham city/catsuit_0.nif",
+            "meshes/armor/batman/catwoman/arkham city/catsuit_1.nif"
+          ],
+          "repair_meshes": [
+            "meshes/armor/batman/catwoman/arkham city/catsuit_0.nif",
+            "meshes/armor/batman/catwoman/arkham city/catsuit_1.nif"
+          ],
+          "plugins": [
+            "Catwoman.esp"
+          ],
+          "group": "Database Morph Repair - Anno",
+          "resolved_family": "CBBE_3BA",
+          "source_saved_output_choice": null,
+          "zap_defaults_preserved": [],
+          "inputs": [
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/catwoman/catwoman - arkham city catsuit.nif",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\Catwoman\\Catwoman - Arkham City Catsuit.nif",
+              "mod_id": 28,
+              "mod_name": "clothes pack",
+              "bytes": 562455,
+              "roles": [
+                "SourceFile"
+              ]
+            },
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/catwoman/catwoman - arkham city catsuit.osd",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\Catwoman\\Catwoman - Arkham City Catsuit.osd",
+              "mod_id": 28,
+              "mod_name": "clothes pack",
+              "bytes": 1898718,
+              "roles": [
+                "SliderData"
+              ]
+            }
+          ]
+        },
+        {
+          "pack": "Anno",
+          "original_set_name": "Catwoman - Arkham Knight Catsuit 1st Person",
+          "curated_set_name": "Database Morph Anno 003 - Catwoman - Arkham Knight Catsuit 1st Person",
+          "curated_osp": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\bodyslide_plan\\Anno\\SliderSets\\DatabaseMorph_003.osp",
+          "author_osp": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\SliderSets\\Catwoman - Arkham Knight Catsuit 1st Person.osp",
+          "author_set_ordinal": 0,
+          "output_stem": "meshes/armor/batman/catwoman/arkham knight/1stperson_catsuit",
+          "generated_paths": [
+            "meshes/armor/batman/catwoman/arkham knight/1stperson_catsuit_0.nif",
+            "meshes/armor/batman/catwoman/arkham knight/1stperson_catsuit_1.nif"
+          ],
+          "repair_meshes": [
+            "meshes/armor/batman/catwoman/arkham knight/1stperson_catsuit_0.nif",
+            "meshes/armor/batman/catwoman/arkham knight/1stperson_catsuit_1.nif"
+          ],
+          "plugins": [
+            "Catwoman.esp"
+          ],
+          "group": "Database Morph Repair - Anno",
+          "resolved_family": "CBBE_3BA",
+          "source_saved_output_choice": null,
+          "zap_defaults_preserved": [],
+          "inputs": [
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/catwoman/catwoman - arkham knight catsuit 1st person.nif",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\Catwoman\\Catwoman - Arkham Knight Catsuit 1st Person.nif",
+              "mod_id": 28,
+              "mod_name": "clothes pack",
+              "bytes": 90885,
+              "roles": [
+                "SourceFile"
+              ]
+            },
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/catwoman/catwoman - arkham knight catsuit 1st person.osd",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\Catwoman\\Catwoman - Arkham Knight Catsuit 1st Person.osd",
+              "mod_id": 28,
+              "mod_name": "clothes pack",
+              "bytes": 128974,
+              "roles": [
+                "SliderData"
+              ]
+            }
+          ]
+        },
+        {
+          "pack": "Anno",
+          "original_set_name": "Catwoman - Arkham Knight Catsuit",
+          "curated_set_name": "Database Morph Anno 004 - Catwoman - Arkham Knight Catsuit",
+          "curated_osp": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\bodyslide_plan\\Anno\\SliderSets\\DatabaseMorph_004.osp",
+          "author_osp": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\SliderSets\\Catwoman - Arkham Knight Catsuit.osp",
+          "author_set_ordinal": 0,
+          "output_stem": "meshes/armor/batman/catwoman/arkham knight/catsuit",
+          "generated_paths": [
+            "meshes/armor/batman/catwoman/arkham knight/catsuit_0.nif",
+            "meshes/armor/batman/catwoman/arkham knight/catsuit_1.nif"
+          ],
+          "repair_meshes": [
+            "meshes/armor/batman/catwoman/arkham knight/catsuit_0.nif",
+            "meshes/armor/batman/catwoman/arkham knight/catsuit_1.nif"
+          ],
+          "plugins": [
+            "Catwoman.esp"
+          ],
+          "group": "Database Morph Repair - Anno",
+          "resolved_family": "CBBE_3BA",
+          "source_saved_output_choice": null,
+          "zap_defaults_preserved": [],
+          "inputs": [
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/catwoman/catwoman - arkham knight catsuit.nif",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\Catwoman\\Catwoman - Arkham Knight Catsuit.nif",
+              "mod_id": 28,
+              "mod_name": "clothes pack",
+              "bytes": 888112,
+              "roles": [
+                "SourceFile"
+              ]
+            },
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/catwoman/catwoman - arkham knight catsuit.osd",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\Catwoman\\Catwoman - Arkham Knight Catsuit.osd",
+              "mod_id": 28,
+              "mod_name": "clothes pack",
+              "bytes": 3571461,
+              "roles": [
+                "SliderData"
+              ]
+            }
+          ]
+        },
+        {
+          "pack": "Anno",
+          "original_set_name": "Catwoman - Injustice Catsuit",
+          "curated_set_name": "Database Morph Anno 005 - Catwoman - Injustice Catsuit",
+          "curated_osp": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\bodyslide_plan\\Anno\\SliderSets\\DatabaseMorph_005.osp",
+          "author_osp": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\SliderSets\\Catwoman - Injustice Catsuit.osp",
+          "author_set_ordinal": 0,
+          "output_stem": "meshes/armor/batman/catwoman/injustice 2/torso",
+          "generated_paths": [
+            "meshes/armor/batman/catwoman/injustice 2/torso_0.nif",
+            "meshes/armor/batman/catwoman/injustice 2/torso_1.nif"
+          ],
+          "repair_meshes": [
+            "meshes/armor/batman/catwoman/injustice 2/torso_0.nif",
+            "meshes/armor/batman/catwoman/injustice 2/torso_1.nif"
+          ],
+          "plugins": [
+            "Catwoman.esp"
+          ],
+          "group": "Database Morph Repair - Anno",
+          "resolved_family": "CBBE_3BA",
+          "source_saved_output_choice": null,
+          "zap_defaults_preserved": [],
+          "inputs": [
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/catwoman/catwoman - injustice catsuit.nif",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\Catwoman\\Catwoman - Injustice Catsuit.nif",
+              "mod_id": 28,
+              "mod_name": "clothes pack",
+              "bytes": 591094,
+              "roles": [
+                "SourceFile"
+              ]
+            },
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/catwoman/catwoman - injustice catsuit.osd",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\Catwoman\\Catwoman - Injustice Catsuit.osd",
+              "mod_id": 28,
+              "mod_name": "clothes pack",
+              "bytes": 1832171,
+              "roles": [
+                "SliderData"
+              ]
+            }
+          ]
+        },
+        {
+          "pack": "Anno",
+          "original_set_name": "Catwoman - Catsuit",
+          "curated_set_name": "Database Morph Anno 006 - Catwoman - Catsuit",
+          "curated_osp": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\bodyslide_plan\\Anno\\SliderSets\\DatabaseMorph_006.osp",
+          "author_osp": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\SliderSets\\Catwoman - Catsuit.osp",
+          "author_set_ordinal": 0,
+          "output_stem": "meshes/armor/batman/catwoman/mk11/catsuit",
+          "generated_paths": [
+            "meshes/armor/batman/catwoman/mk11/catsuit_0.nif",
+            "meshes/armor/batman/catwoman/mk11/catsuit_1.nif"
+          ],
+          "repair_meshes": [
+            "meshes/armor/batman/catwoman/mk11/catsuit_0.nif",
+            "meshes/armor/batman/catwoman/mk11/catsuit_1.nif"
+          ],
+          "plugins": [
+            "Catwoman.esp"
+          ],
+          "group": "Database Morph Repair - Anno",
+          "resolved_family": "CBBE_3BA",
+          "source_saved_output_choice": null,
+          "zap_defaults_preserved": [],
+          "inputs": [
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/catwoman/catwoman - catsuit.nif",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\Catwoman\\Catwoman - Catsuit.nif",
+              "mod_id": 28,
+              "mod_name": "clothes pack",
+              "bytes": 2219634,
+              "roles": [
+                "SourceFile"
+              ]
+            },
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/catwoman/catwoman - catsuit.osd",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\Catwoman\\Catwoman - Catsuit.osd",
+              "mod_id": 28,
+              "mod_name": "clothes pack",
+              "bytes": 13410901,
+              "roles": [
+                "SliderData"
+              ]
+            }
+          ]
+        },
+        {
+          "pack": "Anno",
+          "original_set_name": "BDOR Chic Lua Cloak",
+          "curated_set_name": "Database Morph Anno 007 - BDOR Chic Lua Cloak",
+          "curated_osp": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\bodyslide_plan\\Anno\\SliderSets\\DatabaseMorph_007.osp",
+          "author_osp": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【服装】 银鳞甲 [SE] BDOR Chic Lua\\CalienteTools\\BodySlide\\SliderSets\\BDOR Chic Lua.osp",
+          "author_set_ordinal": 1,
+          "output_stem": "meshes/armor/bdor chic lua/cloak",
+          "generated_paths": [
+            "meshes/armor/bdor chic lua/cloak_0.nif",
+            "meshes/armor/bdor chic lua/cloak_1.nif"
+          ],
+          "repair_meshes": [
+            "meshes/armor/bdor chic lua/cloak_0.nif",
+            "meshes/armor/bdor chic lua/cloak_1.nif"
+          ],
+          "plugins": [
+            "BDOR Chic Lua.esp"
+          ],
+          "group": "Database Morph Repair - Anno",
+          "resolved_family": "CBBE_3BA",
+          "source_saved_output_choice": null,
+          "zap_defaults_preserved": [],
+          "inputs": [
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/bdor chic lua/bdor chic lua cloak.nif",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【服装】 银鳞甲 [SE] BDOR Chic Lua\\CalienteTools\\BodySlide\\ShapeData\\BDOR Chic Lua\\BDOR Chic Lua Cloak.nif",
+              "mod_id": 387,
+              "mod_name": "【服装】 银鳞甲 [SE] BDOR Chic Lua",
+              "bytes": 3185196,
+              "roles": [
+                "SourceFile"
+              ]
+            },
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/bdor chic lua/bdor chic lua cloak.osd",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【服装】 银鳞甲 [SE] BDOR Chic Lua\\CalienteTools\\BodySlide\\ShapeData\\BDOR Chic Lua\\BDOR Chic Lua Cloak.osd",
+              "mod_id": 387,
+              "mod_name": "【服装】 银鳞甲 [SE] BDOR Chic Lua",
+              "bytes": 6852475,
+              "roles": [
+                "SliderData"
+              ]
+            }
+          ]
+        },
+        {
+          "pack": "Anno",
+          "original_set_name": "BDOR Chic Lua Hand",
+          "curated_set_name": "Database Morph Anno 008 - BDOR Chic Lua Hand",
+          "curated_osp": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\bodyslide_plan\\Anno\\SliderSets\\DatabaseMorph_008.osp",
+          "author_osp": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【服装】 银鳞甲 [SE] BDOR Chic Lua\\CalienteTools\\BodySlide\\SliderSets\\BDOR Chic Lua.osp",
+          "author_set_ordinal": 3,
+          "output_stem": "meshes/armor/bdor chic lua/hand",
+          "generated_paths": [
+            "meshes/armor/bdor chic lua/hand_0.nif",
+            "meshes/armor/bdor chic lua/hand_1.nif"
+          ],
+          "repair_meshes": [
+            "meshes/armor/bdor chic lua/hand_0.nif",
+            "meshes/armor/bdor chic lua/hand_1.nif"
+          ],
+          "plugins": [
+            "BDOR Chic Lua.esp"
+          ],
+          "group": "Database Morph Repair - Anno",
+          "resolved_family": "CBBE_3BA",
+          "source_saved_output_choice": null,
+          "zap_defaults_preserved": [],
+          "inputs": [
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/bdor chic lua/bdor chic lua hand.nif",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【服装】 银鳞甲 [SE] BDOR Chic Lua\\CalienteTools\\BodySlide\\ShapeData\\BDOR Chic Lua\\BDOR Chic Lua Hand.nif",
+              "mod_id": 387,
+              "mod_name": "【服装】 银鳞甲 [SE] BDOR Chic Lua",
+              "bytes": 1120907,
+              "roles": [
+                "SourceFile"
+              ]
+            },
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/bdor chic lua/bdor chic lua hand.osd",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【服装】 银鳞甲 [SE] BDOR Chic Lua\\CalienteTools\\BodySlide\\ShapeData\\BDOR Chic Lua\\BDOR Chic Lua Hand.osd",
+              "mod_id": 387,
+              "mod_name": "【服装】 银鳞甲 [SE] BDOR Chic Lua",
+              "bytes": 241906,
+              "roles": [
+                "SliderData"
+              ]
+            }
+          ]
+        },
+        {
+          "pack": "Anno",
+          "original_set_name": "BDOR Ars Magna Hands",
+          "curated_set_name": "Database Morph Anno 009 - BDOR Ars Magna Hands",
+          "curated_osp": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\bodyslide_plan\\Anno\\SliderSets\\DatabaseMorph_009.osp",
+          "author_osp": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\SliderSets\\BDOR Ars Magna 3BA.osp",
+          "author_set_ordinal": 2,
+          "output_stem": "meshes/armor/bdor/ars magna/hands",
+          "generated_paths": [
+            "meshes/armor/bdor/ars magna/hands_0.nif",
+            "meshes/armor/bdor/ars magna/hands_1.nif"
+          ],
+          "repair_meshes": [
+            "meshes/armor/bdor/ars magna/hands_0.nif",
+            "meshes/armor/bdor/ars magna/hands_1.nif"
+          ],
+          "plugins": [
+            "BDOR Ars Magna.esp"
+          ],
+          "group": "Database Morph Repair - Anno",
+          "resolved_family": "CBBE_3BA",
+          "source_saved_output_choice": null,
+          "zap_defaults_preserved": [],
+          "inputs": [
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/bdor ars magna/bdor ars magna hands.nif",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\BDOR Ars Magna\\BDOR Ars Magna Hands.nif",
+              "mod_id": 28,
+              "mod_name": "clothes pack",
+              "bytes": 1012326,
+              "roles": [
+                "SourceFile"
+              ]
+            },
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/bdor ars magna/bdor ars magna hands.osd",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\BDOR Ars Magna\\BDOR Ars Magna Hands.osd",
+              "mod_id": 28,
+              "mod_name": "clothes pack",
+              "bytes": 382565,
+              "roles": [
+                "SliderData"
+              ]
+            },
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/cbbe/cbbe hands.osd",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\女性身形-Caliente's Beautiful Bodies Enhancer\\CalienteTools\\BodySlide\\ShapeData\\CBBE\\CBBE Hands.osd",
+              "mod_id": 992,
+              "mod_name": "女性身形-Caliente's Beautiful Bodies Enhancer",
+              "bytes": 5307,
+              "roles": [
+                "SliderData"
+              ]
+            }
+          ]
+        },
+        {
+          "pack": "Anno",
+          "original_set_name": "BDOR Night Stalker - Body",
+          "curated_set_name": "Database Morph Anno 010 - BDOR Night Stalker - Body",
+          "curated_osp": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\bodyslide_plan\\Anno\\SliderSets\\DatabaseMorph_010.osp",
+          "author_osp": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\SliderSets\\BDOR Night Stalker.osp",
+          "author_set_ordinal": 0,
+          "output_stem": "meshes/armor/bdor/night stalker/body",
+          "generated_paths": [
+            "meshes/armor/bdor/night stalker/body_0.nif",
+            "meshes/armor/bdor/night stalker/body_1.nif"
+          ],
+          "repair_meshes": [
+            "meshes/armor/bdor/night stalker/body_0.nif",
+            "meshes/armor/bdor/night stalker/body_1.nif"
+          ],
+          "plugins": [
+            "BDOR Night Stalker.esp"
+          ],
+          "group": "Database Morph Repair - Anno",
+          "resolved_family": "CBBE_3BA",
+          "source_saved_output_choice": null,
+          "zap_defaults_preserved": [
+            {
+              "name": "Hide Underwear",
+              "small": "0",
+              "big": "0",
+              "hidden": null
+            }
+          ],
+          "inputs": [
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/bdor night stalker/bdor night stalker - body.nif",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\BDOR Night Stalker\\BDOR Night Stalker - Body.nif",
+              "mod_id": 28,
+              "mod_name": "clothes pack",
+              "bytes": 5843973,
+              "roles": [
+                "SourceFile"
+              ]
+            },
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/bdor night stalker/bdor night stalker - body.osd",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\BDOR Night Stalker\\BDOR Night Stalker - Body.osd",
+              "mod_id": 28,
+              "mod_name": "clothes pack",
+              "bytes": 19056117,
+              "roles": [
+                "SliderData"
+              ]
+            }
+          ]
+        },
+        {
+          "pack": "Anno",
+          "original_set_name": "BDOR Night Stalker - Hands",
+          "curated_set_name": "Database Morph Anno 011 - BDOR Night Stalker - Hands",
+          "curated_osp": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\bodyslide_plan\\Anno\\SliderSets\\DatabaseMorph_011.osp",
+          "author_osp": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\SliderSets\\BDOR Night Stalker.osp",
+          "author_set_ordinal": 2,
+          "output_stem": "meshes/armor/bdor/night stalker/hand",
+          "generated_paths": [
+            "meshes/armor/bdor/night stalker/hand_0.nif",
+            "meshes/armor/bdor/night stalker/hand_1.nif"
+          ],
+          "repair_meshes": [
+            "meshes/armor/bdor/night stalker/hand_0.nif",
+            "meshes/armor/bdor/night stalker/hand_1.nif"
+          ],
+          "plugins": [
+            "BDOR Night Stalker.esp"
+          ],
+          "group": "Database Morph Repair - Anno",
+          "resolved_family": "CBBE_3BA",
+          "source_saved_output_choice": null,
+          "zap_defaults_preserved": [],
+          "inputs": [
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/bdor night stalker/bdor night stalker - hands.nif",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\BDOR Night Stalker\\BDOR Night Stalker - Hands.nif",
+              "mod_id": 28,
+              "mod_name": "clothes pack",
+              "bytes": 1474989,
+              "roles": [
+                "SourceFile"
+              ]
+            },
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/bdor night stalker/bdor night stalker - hands.osd",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\BDOR Night Stalker\\BDOR Night Stalker - Hands.osd",
+              "mod_id": 28,
+              "mod_name": "clothes pack",
+              "bytes": 1237741,
+              "roles": [
+                "SliderData"
+              ]
+            }
+          ]
+        },
+        {
+          "pack": "Anno",
+          "original_set_name": "BDOR Poetica - Hands",
+          "curated_set_name": "Database Morph Anno 012 - BDOR Poetica - Hands",
+          "curated_osp": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\bodyslide_plan\\Anno\\SliderSets\\DatabaseMorph_012.osp",
+          "author_osp": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【服装】 休闲蓝服装 [SE] BDOR Poetica\\CalienteTools\\BodySlide\\SliderSets\\BDOR Poetica.osp",
+          "author_set_ordinal": 3,
+          "output_stem": "meshes/armor/bdor/poetica/hand",
+          "generated_paths": [
+            "meshes/armor/bdor/poetica/hand_0.nif",
+            "meshes/armor/bdor/poetica/hand_1.nif"
+          ],
+          "repair_meshes": [
+            "meshes/armor/bdor/poetica/hand_0.nif",
+            "meshes/armor/bdor/poetica/hand_1.nif"
+          ],
+          "plugins": [
+            "BDOR Poetica.esp"
+          ],
+          "group": "Database Morph Repair - Anno",
+          "resolved_family": "CBBE_3BA",
+          "source_saved_output_choice": null,
+          "zap_defaults_preserved": [],
+          "inputs": [
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/bdor poetica/bdor poetica - hands.nif",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【服装】 休闲蓝服装 [SE] BDOR Poetica\\CalienteTools\\BodySlide\\ShapeData\\BDOR Poetica\\BDOR Poetica - Hands.nif",
+              "mod_id": 366,
+              "mod_name": "【服装】 休闲蓝服装 [SE] BDOR Poetica",
+              "bytes": 780275,
+              "roles": [
+                "SourceFile"
+              ]
+            },
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/bdor poetica/bdor poetica - hands.osd",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【服装】 休闲蓝服装 [SE] BDOR Poetica\\CalienteTools\\BodySlide\\ShapeData\\BDOR Poetica\\BDOR Poetica - Hands.osd",
+              "mod_id": 366,
+              "mod_name": "【服装】 休闲蓝服装 [SE] BDOR Poetica",
+              "bytes": 38501,
+              "roles": [
+                "SliderData"
+              ]
+            }
+          ]
+        },
+        {
+          "pack": "Anno",
+          "original_set_name": "BDOR Rose Noir - Body",
+          "curated_set_name": "Database Morph Anno 013 - BDOR Rose Noir - Body",
+          "curated_osp": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\bodyslide_plan\\Anno\\SliderSets\\DatabaseMorph_013.osp",
+          "author_osp": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\SliderSets\\BDOR Rose Noir.osp",
+          "author_set_ordinal": 0,
+          "output_stem": "meshes/armor/bdor/rose noir/body",
+          "generated_paths": [
+            "meshes/armor/bdor/rose noir/body_0.nif",
+            "meshes/armor/bdor/rose noir/body_1.nif"
+          ],
+          "repair_meshes": [
+            "meshes/armor/bdor/rose noir/body_0.nif",
+            "meshes/armor/bdor/rose noir/body_1.nif"
+          ],
+          "plugins": [
+            "BDOR Rose Noir.esp"
+          ],
+          "group": "Database Morph Repair - Anno",
+          "resolved_family": "CBBE_3BA",
+          "source_saved_output_choice": null,
+          "zap_defaults_preserved": [
+            {
+              "name": "Hide Cloak",
+              "small": "0",
+              "big": "0",
+              "hidden": null
+            },
+            {
+              "name": "Hide Sword",
+              "small": "100",
+              "big": "100",
+              "hidden": null
+            }
+          ],
+          "inputs": [
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/bdor rose noir/bdor rose noir - body.nif",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\BDOR Rose Noir\\BDOR Rose Noir - Body.nif",
+              "mod_id": 28,
+              "mod_name": "clothes pack",
+              "bytes": 2291876,
+              "roles": [
+                "SourceFile"
+              ]
+            },
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/bdor rose noir/bdor rose noir - body.osd",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\BDOR Rose Noir\\BDOR Rose Noir - Body.osd",
+              "mod_id": 28,
+              "mod_name": "clothes pack",
+              "bytes": 7239147,
+              "roles": [
+                "SliderData"
+              ]
+            }
+          ]
+        },
+        {
+          "pack": "Anno",
+          "original_set_name": "BDOR Rose Noir - Hands",
+          "curated_set_name": "Database Morph Anno 014 - BDOR Rose Noir - Hands",
+          "curated_osp": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\bodyslide_plan\\Anno\\SliderSets\\DatabaseMorph_014.osp",
+          "author_osp": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\SliderSets\\BDOR Rose Noir.osp",
+          "author_set_ordinal": 2,
+          "output_stem": "meshes/armor/bdor/rose noir/hand",
+          "generated_paths": [
+            "meshes/armor/bdor/rose noir/hand_0.nif",
+            "meshes/armor/bdor/rose noir/hand_1.nif"
+          ],
+          "repair_meshes": [
+            "meshes/armor/bdor/rose noir/hand_0.nif",
+            "meshes/armor/bdor/rose noir/hand_1.nif"
+          ],
+          "plugins": [
+            "BDOR Rose Noir.esp"
+          ],
+          "group": "Database Morph Repair - Anno",
+          "resolved_family": "CBBE_3BA",
+          "source_saved_output_choice": null,
+          "zap_defaults_preserved": [],
+          "inputs": [
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/bdor rose noir/bdor rose noir - hands.nif",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\BDOR Rose Noir\\BDOR Rose Noir - Hands.nif",
+              "mod_id": 28,
+              "mod_name": "clothes pack",
+              "bytes": 862322,
+              "roles": [
+                "SourceFile"
+              ]
+            },
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/bdor rose noir/bdor rose noir - hands.osd",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\BDOR Rose Noir\\BDOR Rose Noir - Hands.osd",
+              "mod_id": 28,
+              "mod_name": "clothes pack",
+              "bytes": 268046,
+              "roles": [
+                "SliderData"
+              ]
+            }
+          ]
+        },
+        {
+          "pack": "Anno",
+          "original_set_name": "Ebony Armor Kai Boots CBBE 3BA",
+          "curated_set_name": "Database Morph Anno 015 - Ebony Armor Kai Boots CBBE 3BA",
+          "curated_osp": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\bodyslide_plan\\Anno\\SliderSets\\DatabaseMorph_015.osp",
+          "author_osp": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【服装】 乌木甲-Ebony Armor Kai\\CalienteTools\\BodySlide\\SliderSets\\Ebony Armor Kai Boots CBBE 3BA.osp",
+          "author_set_ordinal": 0,
+          "output_stem": "meshes/armor/goma/ebonykai/boots",
+          "generated_paths": [
+            "meshes/armor/goma/ebonykai/boots_0.nif",
+            "meshes/armor/goma/ebonykai/boots_1.nif"
+          ],
+          "repair_meshes": [
+            "meshes/armor/goma/ebonykai/boots_0.nif",
+            "meshes/armor/goma/ebonykai/boots_1.nif"
+          ],
+          "plugins": [
+            "EbonyArmorKai.esp"
+          ],
+          "group": "Database Morph Repair - Anno",
+          "resolved_family": "CBBE_3BA",
+          "source_saved_output_choice": "Ebony Armor Kai Boots CBBE 3BA",
+          "zap_defaults_preserved": [],
+          "inputs": [
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/ebony armor kai boots cbbe 3ba/ebony armor kai boots cbbe 3ba.nif",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【服装】 乌木甲-Ebony Armor Kai\\CalienteTools\\BodySlide\\ShapeData\\Ebony Armor Kai Boots CBBE 3BA\\Ebony Armor Kai Boots CBBE 3BA.nif",
+              "mod_id": 365,
+              "mod_name": "【服装】 乌木甲-Ebony Armor Kai",
+              "bytes": 108979,
+              "roles": [
+                "SourceFile"
+              ]
+            },
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/ebony armor kai boots cbbe 3ba/ebony armor kai boots cbbe 3ba.osd",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【服装】 乌木甲-Ebony Armor Kai\\CalienteTools\\BodySlide\\ShapeData\\Ebony Armor Kai Boots CBBE 3BA\\Ebony Armor Kai Boots CBBE 3BA.osd",
+              "mod_id": 365,
+              "mod_name": "【服装】 乌木甲-Ebony Armor Kai",
+              "bytes": 156588,
+              "roles": [
+                "SliderData"
+              ]
+            }
+          ]
+        },
+        {
+          "pack": "Anno",
+          "original_set_name": "Ebony Armor Kai CBBE 3BA",
+          "curated_set_name": "Database Morph Anno 016 - Ebony Armor Kai CBBE 3BA",
+          "curated_osp": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\bodyslide_plan\\Anno\\SliderSets\\DatabaseMorph_016.osp",
+          "author_osp": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【服装】 乌木甲-Ebony Armor Kai\\CalienteTools\\BodySlide\\SliderSets\\Ebony Armor Kai CBBE 3BA.osp",
+          "author_set_ordinal": 0,
+          "output_stem": "meshes/armor/goma/ebonykai/cuirass",
+          "generated_paths": [
+            "meshes/armor/goma/ebonykai/cuirass_0.nif",
+            "meshes/armor/goma/ebonykai/cuirass_1.nif"
+          ],
+          "repair_meshes": [
+            "meshes/armor/goma/ebonykai/cuirass_0.nif",
+            "meshes/armor/goma/ebonykai/cuirass_1.nif"
+          ],
+          "plugins": [
+            "EbonyArmorKai.esp"
+          ],
+          "group": "Database Morph Repair - Anno",
+          "resolved_family": "CBBE_3BA",
+          "source_saved_output_choice": "Ebony Armor Kai CBBE 3BA",
+          "zap_defaults_preserved": [
+            {
+              "name": "Zap Pauldrons",
+              "small": "0",
+              "big": "0",
+              "hidden": null
+            },
+            {
+              "name": "Zap Collar",
+              "small": "0",
+              "big": "0",
+              "hidden": null
+            },
+            {
+              "name": "Zap Belt",
+              "small": "0",
+              "big": "0",
+              "hidden": null
+            },
+            {
+              "name": "Zap Tassets",
+              "small": "0",
+              "big": "0",
+              "hidden": null
+            },
+            {
+              "name": "Zap Leggings",
+              "small": "0",
+              "big": "0",
+              "hidden": null
+            },
+            {
+              "name": "Zap Arms",
+              "small": "0",
+              "big": "0",
+              "hidden": null
+            },
+            {
+              "name": "Zap Corset",
+              "small": "0",
+              "big": "0",
+              "hidden": null
+            },
+            {
+              "name": "Zap Panty",
+              "small": "0",
+              "big": "0",
+              "hidden": null
+            },
+            {
+              "name": "Zap Bra",
+              "small": "0",
+              "big": "0",
+              "hidden": null
+            }
+          ],
+          "inputs": [
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/ebony armor kai cbbe 3ba/ebony armor kai cbbe 3ba.nif",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【服装】 乌木甲-Ebony Armor Kai\\CalienteTools\\BodySlide\\ShapeData\\Ebony Armor Kai CBBE 3BA\\Ebony Armor Kai CBBE 3BA.nif",
+              "mod_id": 365,
+              "mod_name": "【服装】 乌木甲-Ebony Armor Kai",
+              "bytes": 2593185,
+              "roles": [
+                "SourceFile"
+              ]
+            },
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/ebony armor kai cbbe 3ba/ebony armor kai cbbe 3ba.osd",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【服装】 乌木甲-Ebony Armor Kai\\CalienteTools\\BodySlide\\ShapeData\\Ebony Armor Kai CBBE 3BA\\Ebony Armor Kai CBBE 3BA.osd",
+              "mod_id": 365,
+              "mod_name": "【服装】 乌木甲-Ebony Armor Kai",
+              "bytes": 11167157,
+              "roles": [
+                "SliderData"
+              ]
+            }
+          ]
+        },
+        {
+          "pack": "Anno",
+          "original_set_name": "Ebony Armor Kai Gauntlets CBBE 3BA",
+          "curated_set_name": "Database Morph Anno 017 - Ebony Armor Kai Gauntlets CBBE 3BA",
+          "curated_osp": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\bodyslide_plan\\Anno\\SliderSets\\DatabaseMorph_017.osp",
+          "author_osp": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【服装】 乌木甲-Ebony Armor Kai\\CalienteTools\\BodySlide\\SliderSets\\Ebony Armor Kai Gauntlets CBBE 3BA.osp",
+          "author_set_ordinal": 0,
+          "output_stem": "meshes/armor/goma/ebonykai/gauntlets",
+          "generated_paths": [
+            "meshes/armor/goma/ebonykai/gauntlets_0.nif",
+            "meshes/armor/goma/ebonykai/gauntlets_1.nif"
+          ],
+          "repair_meshes": [
+            "meshes/armor/goma/ebonykai/gauntlets_0.nif",
+            "meshes/armor/goma/ebonykai/gauntlets_1.nif"
+          ],
+          "plugins": [
+            "EbonyArmorKai.esp"
+          ],
+          "group": "Database Morph Repair - Anno",
+          "resolved_family": "CBBE_3BA",
+          "source_saved_output_choice": "Ebony Armor Kai Gauntlets CBBE 3BA",
+          "zap_defaults_preserved": [],
+          "inputs": [
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/ebony armor kai gauntlets cbbe 3ba/ebony armor kai gauntlets cbbe 3ba.nif",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【服装】 乌木甲-Ebony Armor Kai\\CalienteTools\\BodySlide\\ShapeData\\Ebony Armor Kai Gauntlets CBBE 3BA\\Ebony Armor Kai Gauntlets CBBE 3BA.nif",
+              "mod_id": 365,
+              "mod_name": "【服装】 乌木甲-Ebony Armor Kai",
+              "bytes": 142205,
+              "roles": [
+                "SourceFile"
+              ]
+            },
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/ebony armor kai gauntlets cbbe 3ba/ebony armor kai gauntlets cbbe 3ba.osd",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【服装】 乌木甲-Ebony Armor Kai\\CalienteTools\\BodySlide\\ShapeData\\Ebony Armor Kai Gauntlets CBBE 3BA\\Ebony Armor Kai Gauntlets CBBE 3BA.osd",
+              "mod_id": 365,
+              "mod_name": "【服装】 乌木甲-Ebony Armor Kai",
+              "bytes": 38581,
+              "roles": [
+                "SliderData"
+              ]
+            }
+          ]
+        },
+        {
+          "pack": "Anno",
+          "original_set_name": "BDO Reborn Nereid Main",
+          "curated_set_name": "Database Morph Anno 018 - BDO Reborn Nereid Main",
+          "curated_osp": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\bodyslide_plan\\Anno\\SliderSets\\DatabaseMorph_018.osp",
+          "author_osp": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\SliderSets\\BDO Reborn Nereid Main.osp",
+          "author_set_ordinal": 0,
+          "output_stem": "meshes/bdo reborn nereid/c_main",
+          "generated_paths": [
+            "meshes/bdo reborn nereid/c_main_0.nif",
+            "meshes/bdo reborn nereid/c_main_1.nif"
+          ],
+          "repair_meshes": [
+            "meshes/bdo reborn nereid/c_main_0.nif",
+            "meshes/bdo reborn nereid/c_main_1.nif"
+          ],
+          "plugins": [
+            "[Kirax] BDO Reborn Nereid.esp"
+          ],
+          "group": "Database Morph Repair - Anno",
+          "resolved_family": "CBBE_3BA",
+          "source_saved_output_choice": null,
+          "zap_defaults_preserved": [],
+          "inputs": [
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/bdo reborn nereid main/c_main.nif",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\BDO Reborn Nereid Main\\C_Main.nif",
+              "mod_id": 28,
+              "mod_name": "clothes pack",
+              "bytes": 4082064,
+              "roles": [
+                "SourceFile"
+              ]
+            },
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/bdo reborn nereid main/c_main.osd",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\BDO Reborn Nereid Main\\C_Main.osd",
+              "mod_id": 28,
+              "mod_name": "clothes pack",
+              "bytes": 15309654,
+              "roles": [
+                "SliderData"
+              ]
+            }
+          ]
+        },
+        {
+          "pack": "Anno",
+          "original_set_name": "BDO Reborn Selaine Main",
+          "curated_set_name": "Database Morph Anno 019 - BDO Reborn Selaine Main",
+          "curated_osp": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\bodyslide_plan\\Anno\\SliderSets\\DatabaseMorph_019.osp",
+          "author_osp": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\SliderSets\\BDO Reborn Selaine Main.osp",
+          "author_set_ordinal": 0,
+          "output_stem": "meshes/bdo reborn selaine/s_main",
+          "generated_paths": [
+            "meshes/bdo reborn selaine/s_main_0.nif",
+            "meshes/bdo reborn selaine/s_main_1.nif"
+          ],
+          "repair_meshes": [
+            "meshes/bdo reborn selaine/s_main_0.nif",
+            "meshes/bdo reborn selaine/s_main_1.nif"
+          ],
+          "plugins": [
+            "[Kirax] BDO Reborn Selaine.esp"
+          ],
+          "group": "Database Morph Repair - Anno",
+          "resolved_family": "CBBE_3BA",
+          "source_saved_output_choice": null,
+          "zap_defaults_preserved": [],
+          "inputs": [
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/bdo reborn selaine main/s_main.nif",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\BDO Reborn Selaine Main\\S_Main.nif",
+              "mod_id": 28,
+              "mod_name": "clothes pack",
+              "bytes": 3691131,
+              "roles": [
+                "SourceFile"
+              ]
+            },
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/bdo reborn selaine main/s_main.osd",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\BDO Reborn Selaine Main\\S_Main.osd",
+              "mod_id": 28,
+              "mod_name": "clothes pack",
+              "bytes": 13824327,
+              "roles": [
+                "SliderData"
+              ]
+            }
+          ]
+        },
+        {
+          "pack": "Anno",
+          "original_set_name": "BDO Reborn Sephia Main",
+          "curated_set_name": "Database Morph Anno 020 - BDO Reborn Sephia Main",
+          "curated_osp": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\bodyslide_plan\\Anno\\SliderSets\\DatabaseMorph_020.osp",
+          "author_osp": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\SliderSets\\BDO Reborn Sephia Main.osp",
+          "author_set_ordinal": 0,
+          "output_stem": "meshes/bdo reborn sephia/se_main",
+          "generated_paths": [
+            "meshes/bdo reborn sephia/se_main_0.nif",
+            "meshes/bdo reborn sephia/se_main_1.nif"
+          ],
+          "repair_meshes": [
+            "meshes/bdo reborn sephia/se_main_0.nif",
+            "meshes/bdo reborn sephia/se_main_1.nif"
+          ],
+          "plugins": [
+            "[Kirax] BDO Reborn Sephia.esp"
+          ],
+          "group": "Database Morph Repair - Anno",
+          "resolved_family": "CBBE_3BA",
+          "source_saved_output_choice": null,
+          "zap_defaults_preserved": [],
+          "inputs": [
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/bdo reborn sephia main/se_main.nif",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\BDO Reborn Sephia Main\\SE_Main.nif",
+              "mod_id": 28,
+              "mod_name": "clothes pack",
+              "bytes": 3830412,
+              "roles": [
+                "SourceFile"
+              ]
+            },
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/bdo reborn sephia main/se_main.osd",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\BDO Reborn Sephia Main\\SE_Main.osd",
+              "mod_id": 28,
+              "mod_name": "clothes pack",
+              "bytes": 15796059,
+              "roles": [
+                "SliderData"
+              ]
+            }
+          ]
+        },
+        {
+          "pack": "Anno",
+          "original_set_name": "fangfeizhuzhi DRESS",
+          "curated_set_name": "Database Morph Anno 021 - fangfeizhuzhi DRESS",
+          "curated_osp": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\bodyslide_plan\\Anno\\SliderSets\\DatabaseMorph_021.osp",
+          "author_osp": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\SliderSets\\fangfeizhuzhi DRESS.osp",
+          "author_set_ordinal": 0,
+          "output_stem": "meshes/fangfeizhuzhi/dress",
+          "generated_paths": [
+            "meshes/fangfeizhuzhi/dress_0.nif",
+            "meshes/fangfeizhuzhi/dress_1.nif"
+          ],
+          "repair_meshes": [
+            "meshes/fangfeizhuzhi/dress_0.nif",
+            "meshes/fangfeizhuzhi/dress_1.nif"
+          ],
+          "plugins": [
+            "(lilyrim)fangfeizhuzhi.esp"
+          ],
+          "group": "Database Morph Repair - Anno",
+          "resolved_family": "CBBE_3BA",
+          "source_saved_output_choice": null,
+          "zap_defaults_preserved": [],
+          "inputs": [
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/fangfeizhuzhi dress/fangfeizhuzhi dress.nif",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\fangfeizhuzhi DRESS\\fangfeizhuzhi DRESS.nif",
+              "mod_id": 28,
+              "mod_name": "clothes pack",
+              "bytes": 13841424,
+              "roles": [
+                "SourceFile"
+              ]
+            },
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/fangfeizhuzhi dress/fangfeizhuzhi dress.osd",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\fangfeizhuzhi DRESS\\fangfeizhuzhi DRESS.osd",
+              "mod_id": 28,
+              "mod_name": "clothes pack",
+              "bytes": 41802069,
+              "roles": [
+                "SliderData"
+              ]
+            }
+          ]
+        },
+        {
+          "pack": "Anno",
+          "original_set_name": "[Grimlook33] Mai Shiranu S2 Pants",
+          "curated_set_name": "Database Morph Anno 022 - [Grimlook33] Mai Shiranu S2 Pants",
+          "curated_osp": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\bodyslide_plan\\Anno\\SliderSets\\DatabaseMorph_022.osp",
+          "author_osp": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\SliderSets\\[Grimlook33] Mai Shiranui.osp",
+          "author_set_ordinal": 3,
+          "output_stem": "meshes/grimlook33/mai shiranu s2/pants",
+          "generated_paths": [
+            "meshes/grimlook33/mai shiranu s2/pants_0.nif",
+            "meshes/grimlook33/mai shiranu s2/pants_1.nif"
+          ],
+          "repair_meshes": [
+            "meshes/grimlook33/mai shiranu s2/pants_0.nif",
+            "meshes/grimlook33/mai shiranu s2/pants_1.nif"
+          ],
+          "plugins": [
+            "[Grimlook33] Mai Shiranu Skin 2.esp"
+          ],
+          "group": "Database Morph Repair - Anno",
+          "resolved_family": "CBBE_3BA",
+          "source_saved_output_choice": null,
+          "zap_defaults_preserved": [],
+          "inputs": [
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/[grimlook33] mai shiranu s2/[grimlook33] mai shiranu s2 pants.nif",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\[Grimlook33] Mai Shiranu S2\\[Grimlook33] Mai Shiranu S2 Pants.nif",
+              "mod_id": 28,
+              "mod_name": "clothes pack",
+              "bytes": 2925692,
+              "roles": [
+                "SourceFile"
+              ]
+            },
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/[grimlook33] mai shiranu s2/[grimlook33] mai shiranu s2 pants.osd",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\[Grimlook33] Mai Shiranu S2\\[Grimlook33] Mai Shiranu S2 Pants.osd",
+              "mod_id": 28,
+              "mod_name": "clothes pack",
+              "bytes": 3335701,
+              "roles": [
+                "SliderData"
+              ]
+            }
+          ]
+        },
+        {
+          "pack": "Anno",
+          "original_set_name": "[Grimlook33] Mai Shiranu S2 Jacket",
+          "curated_set_name": "Database Morph Anno 023 - [Grimlook33] Mai Shiranu S2 Jacket",
+          "curated_osp": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\bodyslide_plan\\Anno\\SliderSets\\DatabaseMorph_023.osp",
+          "author_osp": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\SliderSets\\[Grimlook33] Mai Shiranui.osp",
+          "author_set_ordinal": 2,
+          "output_stem": "meshes/grimlook33/mai shiranu s2/top",
+          "generated_paths": [
+            "meshes/grimlook33/mai shiranu s2/top_0.nif",
+            "meshes/grimlook33/mai shiranu s2/top_1.nif"
+          ],
+          "repair_meshes": [
+            "meshes/grimlook33/mai shiranu s2/top_0.nif",
+            "meshes/grimlook33/mai shiranu s2/top_1.nif"
+          ],
+          "plugins": [
+            "[Grimlook33] Mai Shiranu Skin 2.esp"
+          ],
+          "group": "Database Morph Repair - Anno",
+          "resolved_family": "CBBE_3BA",
+          "source_saved_output_choice": null,
+          "zap_defaults_preserved": [],
+          "inputs": [
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/[grimlook33] mai shiranu s2/[grimlook33] mai shiranu s2 jacket.nif",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\[Grimlook33] Mai Shiranu S2\\[Grimlook33] Mai Shiranu S2 Jacket.nif",
+              "mod_id": 28,
+              "mod_name": "clothes pack",
+              "bytes": 2695690,
+              "roles": [
+                "SourceFile"
+              ]
+            },
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/[grimlook33] mai shiranu s2/[grimlook33] mai shiranu s2 jacket.osd",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\[Grimlook33] Mai Shiranu S2\\[Grimlook33] Mai Shiranu S2 Jacket.osd",
+              "mod_id": 28,
+              "mod_name": "clothes pack",
+              "bytes": 10638291,
+              "roles": [
+                "SliderData"
+              ]
+            }
+          ]
+        },
+        {
+          "pack": "Anno",
+          "original_set_name": "hongluanzhuojin dress",
+          "curated_set_name": "Database Morph Anno 024 - hongluanzhuojin dress",
+          "curated_osp": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\bodyslide_plan\\Anno\\SliderSets\\DatabaseMorph_024.osp",
+          "author_osp": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\SliderSets\\hongluanzhuojin dress.osp",
+          "author_set_ordinal": 0,
+          "output_stem": "meshes/hongluanzhuojin/dress",
+          "generated_paths": [
+            "meshes/hongluanzhuojin/dress_0.nif",
+            "meshes/hongluanzhuojin/dress_1.nif"
+          ],
+          "repair_meshes": [
+            "meshes/hongluanzhuojin/dress_0.nif",
+            "meshes/hongluanzhuojin/dress_1.nif"
+          ],
+          "plugins": [
+            "(lilyrim)hongluanzhuojin.esp"
+          ],
+          "group": "Database Morph Repair - Anno",
+          "resolved_family": "CBBE_3BA",
+          "source_saved_output_choice": null,
+          "zap_defaults_preserved": [],
+          "inputs": [
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/hongluanzhuojin dress/hongluanzhuojin dress.nif",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\hongluanzhuojin dress\\hongluanzhuojin dress.nif",
+              "mod_id": 28,
+              "mod_name": "clothes pack",
+              "bytes": 8498878,
+              "roles": [
+                "SourceFile"
+              ]
+            },
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/hongluanzhuojin dress/hongluanzhuojin dress.osd",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\hongluanzhuojin dress\\hongluanzhuojin dress.osd",
+              "mod_id": 28,
+              "mod_name": "clothes pack",
+              "bytes": 21385109,
+              "roles": [
+                "SliderData"
+              ]
+            }
+          ]
+        },
+        {
+          "pack": "Anno",
+          "original_set_name": "lingzhuyinyue dress f 1",
+          "curated_set_name": "Database Morph Anno 025 - lingzhuyinyue dress f 1",
+          "curated_osp": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\bodyslide_plan\\Anno\\SliderSets\\DatabaseMorph_025.osp",
+          "author_osp": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\SliderSets\\lingzhuyinyue dress f 1.osp",
+          "author_set_ordinal": 0,
+          "output_stem": "meshes/lingzhuyinyue/dressf1",
+          "generated_paths": [
+            "meshes/lingzhuyinyue/dressf1_0.nif",
+            "meshes/lingzhuyinyue/dressf1_1.nif"
+          ],
+          "repair_meshes": [
+            "meshes/lingzhuyinyue/dressf1_0.nif",
+            "meshes/lingzhuyinyue/dressf1_1.nif"
+          ],
+          "plugins": [
+            "(lilyrim)lingzhuyinyue.esp"
+          ],
+          "group": "Database Morph Repair - Anno",
+          "resolved_family": "CBBE_3BA",
+          "source_saved_output_choice": null,
+          "zap_defaults_preserved": [],
+          "inputs": [
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/lingzhuyinyue dress f 1/lingzhuyinyue dress f 1.nif",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\lingzhuyinyue dress f 1\\lingzhuyinyue dress f 1.nif",
+              "mod_id": 28,
+              "mod_name": "clothes pack",
+              "bytes": 10070001,
+              "roles": [
+                "SourceFile"
+              ]
+            },
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/lingzhuyinyue dress f 1/lingzhuyinyue dress f 1.osd",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\lingzhuyinyue dress f 1\\lingzhuyinyue dress f 1.osd",
+              "mod_id": 28,
+              "mod_name": "clothes pack",
+              "bytes": 29456243,
+              "roles": [
+                "SliderData"
+              ]
+            }
+          ]
+        },
+        {
+          "pack": "Anno",
+          "original_set_name": "lingzhuyinyue dress f 2",
+          "curated_set_name": "Database Morph Anno 026 - lingzhuyinyue dress f 2",
+          "curated_osp": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\bodyslide_plan\\Anno\\SliderSets\\DatabaseMorph_026.osp",
+          "author_osp": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\SliderSets\\lingzhuyinyue dress f 2.osp",
+          "author_set_ordinal": 0,
+          "output_stem": "meshes/lingzhuyinyue/dressf2",
+          "generated_paths": [
+            "meshes/lingzhuyinyue/dressf2_0.nif",
+            "meshes/lingzhuyinyue/dressf2_1.nif"
+          ],
+          "repair_meshes": [
+            "meshes/lingzhuyinyue/dressf2_0.nif",
+            "meshes/lingzhuyinyue/dressf2_1.nif"
+          ],
+          "plugins": [
+            "(lilyrim)lingzhuyinyue.esp"
+          ],
+          "group": "Database Morph Repair - Anno",
+          "resolved_family": "CBBE_3BA",
+          "source_saved_output_choice": null,
+          "zap_defaults_preserved": [],
+          "inputs": [
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/lingzhuyinyue dress f 2/lingzhuyinyue dress f 2.nif",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\lingzhuyinyue dress f 2\\lingzhuyinyue dress f 2.nif",
+              "mod_id": 28,
+              "mod_name": "clothes pack",
+              "bytes": 12702730,
+              "roles": [
+                "SourceFile"
+              ]
+            },
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/lingzhuyinyue dress f 2/lingzhuyinyue dress f 2.osd",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\lingzhuyinyue dress f 2\\lingzhuyinyue dress f 2.osd",
+              "mod_id": 28,
+              "mod_name": "clothes pack",
+              "bytes": 37900592,
+              "roles": [
+                "SliderData"
+              ]
+            }
+          ]
+        },
+        {
+          "pack": "Anno",
+          "original_set_name": "LoA 002 Hands",
+          "curated_set_name": "Database Morph Anno 027 - LoA 002 Hands",
+          "curated_osp": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\bodyslide_plan\\Anno\\SliderSets\\DatabaseMorph_027.osp",
+          "author_osp": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\SliderSets\\LoA 002 Hands.osp",
+          "author_set_ordinal": 0,
+          "output_stem": "meshes/loa 002/002_hands",
+          "generated_paths": [
+            "meshes/loa 002/002_hands_0.nif",
+            "meshes/loa 002/002_hands_1.nif"
+          ],
+          "repair_meshes": [
+            "meshes/loa 002/002_hands_0.nif",
+            "meshes/loa 002/002_hands_1.nif"
+          ],
+          "plugins": [
+            "[Kirax] LoA Elgacia.esp"
+          ],
+          "group": "Database Morph Repair - Anno",
+          "resolved_family": "CBBE_3BA",
+          "source_saved_output_choice": null,
+          "zap_defaults_preserved": [],
+          "inputs": [
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/loa 002 hands/loa 002 hands.nif",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\LoA 002 Hands\\LoA 002 Hands.nif",
+              "mod_id": 28,
+              "mod_name": "clothes pack",
+              "bytes": 754160,
+              "roles": [
+                "SourceFile"
+              ]
+            },
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/cbbe/cbbe hands.osd",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\女性身形-Caliente's Beautiful Bodies Enhancer\\CalienteTools\\BodySlide\\ShapeData\\CBBE\\CBBE Hands.osd",
+              "mod_id": 992,
+              "mod_name": "女性身形-Caliente's Beautiful Bodies Enhancer",
+              "bytes": 5307,
+              "roles": [
+                "SliderData"
+              ]
+            },
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/loa 002 hands/loa 002 hands.osd",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\LoA 002 Hands\\LoA 002 Hands.osd",
+              "mod_id": 28,
+              "mod_name": "clothes pack",
+              "bytes": 23496,
+              "roles": [
+                "SliderData"
+              ]
+            }
+          ]
+        },
+        {
+          "pack": "Anno",
+          "original_set_name": "LoA 002 Main",
+          "curated_set_name": "Database Morph Anno 028 - LoA 002 Main",
+          "curated_osp": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\bodyslide_plan\\Anno\\SliderSets\\DatabaseMorph_028.osp",
+          "author_osp": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\SliderSets\\LoA 002 Main.osp",
+          "author_set_ordinal": 0,
+          "output_stem": "meshes/loa 002/002_main",
+          "generated_paths": [
+            "meshes/loa 002/002_main_0.nif",
+            "meshes/loa 002/002_main_1.nif"
+          ],
+          "repair_meshes": [
+            "meshes/loa 002/002_main_0.nif",
+            "meshes/loa 002/002_main_1.nif"
+          ],
+          "plugins": [
+            "[Kirax] LoA Elgacia.esp"
+          ],
+          "group": "Database Morph Repair - Anno",
+          "resolved_family": "CBBE_3BA",
+          "source_saved_output_choice": null,
+          "zap_defaults_preserved": [],
+          "inputs": [
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/loa 002 main/loa 002 main.nif",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\LoA 002 Main\\LoA 002 Main.nif",
+              "mod_id": 28,
+              "mod_name": "clothes pack",
+              "bytes": 3039919,
+              "roles": [
+                "SourceFile"
+              ]
+            },
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/se 3bbb amazing/se 3bbb body amazing v2.osd",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\物理身形-CBBE 3BA\\CalienteTools\\BodySlide\\ShapeData\\SE 3BBB Amazing\\SE 3BBB Body Amazing v2.osd",
+              "mod_id": 1255,
+              "mod_name": "物理身形-CBBE 3BA",
+              "bytes": 8815319,
+              "roles": [
+                "SliderData"
+              ]
+            },
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/loa 002 main/loa 002 main.osd",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\LoA 002 Main\\LoA 002 Main.osd",
+              "mod_id": 28,
+              "mod_name": "clothes pack",
+              "bytes": 3710680,
+              "roles": [
+                "SliderData"
+              ]
+            }
+          ]
+        },
+        {
+          "pack": "Anno",
+          "original_set_name": "LoA Sorceress Eternal Skin Alt Main",
+          "curated_set_name": "Database Morph Anno 029 - LoA Sorceress Eternal Skin Alt Main",
+          "curated_osp": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\bodyslide_plan\\Anno\\SliderSets\\DatabaseMorph_029.osp",
+          "author_osp": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\SliderSets\\LoA Sorceress Eternal Skin Alt Main.osp",
+          "author_set_ordinal": 0,
+          "output_stem": "meshes/loa sorceress eternal/alt/se_main",
+          "generated_paths": [
+            "meshes/loa sorceress eternal/alt/se_main_0.nif",
+            "meshes/loa sorceress eternal/alt/se_main_1.nif"
+          ],
+          "repair_meshes": [
+            "meshes/loa sorceress eternal/alt/se_main_0.nif",
+            "meshes/loa sorceress eternal/alt/se_main_1.nif"
+          ],
+          "plugins": [
+            "[Kirax] LoA Sorceress Eternal Skin.esp"
+          ],
+          "group": "Database Morph Repair - Anno",
+          "resolved_family": "CBBE_3BA",
+          "source_saved_output_choice": null,
+          "zap_defaults_preserved": [],
+          "inputs": [
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/loa sorceress eternal skin alt main/loa sorceress eternal skin alt main.nif",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\LoA Sorceress Eternal Skin Alt Main\\LoA Sorceress Eternal Skin Alt Main.nif",
+              "mod_id": 28,
+              "mod_name": "clothes pack",
+              "bytes": 3868590,
+              "roles": [
+                "SourceFile"
+              ]
+            },
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/loa sorceress eternal skin alt main/loa sorceress eternal skin alt main.osd",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\LoA Sorceress Eternal Skin Alt Main\\LoA Sorceress Eternal Skin Alt Main.osd",
+              "mod_id": 28,
+              "mod_name": "clothes pack",
+              "bytes": 14804054,
+              "roles": [
+                "SliderData"
+              ]
+            }
+          ]
+        },
+        {
+          "pack": "Anno",
+          "original_set_name": "LoA Sorceress Eternal Skin Main",
+          "curated_set_name": "Database Morph Anno 030 - LoA Sorceress Eternal Skin Main",
+          "curated_osp": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\bodyslide_plan\\Anno\\SliderSets\\DatabaseMorph_030.osp",
+          "author_osp": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\SliderSets\\LoA Sorceress Eternal Skin Main.osp",
+          "author_set_ordinal": 0,
+          "output_stem": "meshes/loa sorceress eternal/se_main",
+          "generated_paths": [
+            "meshes/loa sorceress eternal/se_main_0.nif",
+            "meshes/loa sorceress eternal/se_main_1.nif"
+          ],
+          "repair_meshes": [
+            "meshes/loa sorceress eternal/se_main_0.nif",
+            "meshes/loa sorceress eternal/se_main_1.nif"
+          ],
+          "plugins": [
+            "[Kirax] LoA Sorceress Eternal Skin.esp"
+          ],
+          "group": "Database Morph Repair - Anno",
+          "resolved_family": "CBBE_3BA",
+          "source_saved_output_choice": null,
+          "zap_defaults_preserved": [],
+          "inputs": [
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/loa sorceress eternal skin main/loa sorceress eternal skin main.nif",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\LoA Sorceress Eternal Skin Main\\LoA Sorceress Eternal Skin Main.nif",
+              "mod_id": 28,
+              "mod_name": "clothes pack",
+              "bytes": 3868558,
+              "roles": [
+                "SourceFile"
+              ]
+            },
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/loa sorceress eternal skin main/loa sorceress eternal skin main.osd",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\LoA Sorceress Eternal Skin Main\\LoA Sorceress Eternal Skin Main.osd",
+              "mod_id": 28,
+              "mod_name": "clothes pack",
+              "bytes": 14804054,
+              "roles": [
+                "SliderData"
+              ]
+            }
+          ]
+        },
+        {
+          "pack": "Anno",
+          "original_set_name": "SSE_MELTALLIC_Bunny",
+          "curated_set_name": "Database Morph Anno 031 - SSE_MELTALLIC_Bunny",
+          "curated_osp": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\bodyslide_plan\\Anno\\SliderSets\\DatabaseMorph_031.osp",
+          "author_osp": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\SliderSets\\SSE_MELTALLIC_Bunny.osp",
+          "author_set_ordinal": 0,
+          "output_stem": "meshes/meltallic_bunny/sse_meltallic_bunny",
+          "generated_paths": [
+            "meshes/meltallic_bunny/sse_meltallic_bunny_0.nif",
+            "meshes/meltallic_bunny/sse_meltallic_bunny_1.nif"
+          ],
+          "repair_meshes": [
+            "meshes/meltallic_bunny/sse_meltallic_bunny_0.nif",
+            "meshes/meltallic_bunny/sse_meltallic_bunny_1.nif"
+          ],
+          "plugins": [
+            "(SSE) MELTALLIC Bunny.esp"
+          ],
+          "group": "Database Morph Repair - Anno",
+          "resolved_family": "CBBE_3BA",
+          "source_saved_output_choice": null,
+          "zap_defaults_preserved": [],
+          "inputs": [
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/sse_meltallic_bunny/sse_meltallic_bunny.nif",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\SSE_MELTALLIC_Bunny\\SSE_MELTALLIC_Bunny.nif",
+              "mod_id": 28,
+              "mod_name": "clothes pack",
+              "bytes": 3764921,
+              "roles": [
+                "SourceFile"
+              ]
+            },
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/sse_meltallic_bunny/sse_meltallic_bunny.osd",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\SSE_MELTALLIC_Bunny\\SSE_MELTALLIC_Bunny.osd",
+              "mod_id": 28,
+              "mod_name": "clothes pack",
+              "bytes": 15825689,
+              "roles": [
+                "SliderData"
+              ]
+            }
+          ]
+        },
+        {
+          "pack": "Anno",
+          "original_set_name": "SSE_MELTALLIC_Bunny_02",
+          "curated_set_name": "Database Morph Anno 032 - SSE_MELTALLIC_Bunny_02",
+          "curated_osp": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\bodyslide_plan\\Anno\\SliderSets\\DatabaseMorph_032.osp",
+          "author_osp": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\SliderSets\\SSE_MELTALLIC_Bunny.osp",
+          "author_set_ordinal": 8,
+          "output_stem": "meshes/meltallic_bunny/sse_meltallic_bunny_02",
+          "generated_paths": [
+            "meshes/meltallic_bunny/sse_meltallic_bunny_02_0.nif",
+            "meshes/meltallic_bunny/sse_meltallic_bunny_02_1.nif"
+          ],
+          "repair_meshes": [
+            "meshes/meltallic_bunny/sse_meltallic_bunny_02_0.nif",
+            "meshes/meltallic_bunny/sse_meltallic_bunny_02_1.nif"
+          ],
+          "plugins": [
+            "(SSE) MELTALLIC Bunny.esp"
+          ],
+          "group": "Database Morph Repair - Anno",
+          "resolved_family": "CBBE_3BA",
+          "source_saved_output_choice": null,
+          "zap_defaults_preserved": [],
+          "inputs": [
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/sse_meltallic_bunny/sse_meltallic_bunny_02.nif",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\SSE_MELTALLIC_Bunny\\SSE_MELTALLIC_Bunny_02.nif",
+              "mod_id": 28,
+              "mod_name": "clothes pack",
+              "bytes": 3484657,
+              "roles": [
+                "SourceFile"
+              ]
+            },
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/sse_meltallic_bunny/sse_meltallic_bunny_02.osd",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\SSE_MELTALLIC_Bunny\\SSE_MELTALLIC_Bunny_02.osd",
+              "mod_id": 28,
+              "mod_name": "clothes pack",
+              "bytes": 14634086,
+              "roles": [
+                "SliderData"
+              ]
+            }
+          ]
+        },
+        {
+          "pack": "Anno",
+          "original_set_name": "SSE_MELTALLIC_Bunny_Heart",
+          "curated_set_name": "Database Morph Anno 033 - SSE_MELTALLIC_Bunny_Heart",
+          "curated_osp": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\bodyslide_plan\\Anno\\SliderSets\\DatabaseMorph_033.osp",
+          "author_osp": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\SliderSets\\SSE_MELTALLIC_Bunny.osp",
+          "author_set_ordinal": 7,
+          "output_stem": "meshes/meltallic_bunny/sse_meltallic_bunny_heart",
+          "generated_paths": [
+            "meshes/meltallic_bunny/sse_meltallic_bunny_heart_0.nif",
+            "meshes/meltallic_bunny/sse_meltallic_bunny_heart_1.nif"
+          ],
+          "repair_meshes": [
+            "meshes/meltallic_bunny/sse_meltallic_bunny_heart_0.nif",
+            "meshes/meltallic_bunny/sse_meltallic_bunny_heart_1.nif"
+          ],
+          "plugins": [
+            "(SSE) MELTALLIC Bunny.esp"
+          ],
+          "group": "Database Morph Repair - Anno",
+          "resolved_family": "CBBE_3BA",
+          "source_saved_output_choice": null,
+          "zap_defaults_preserved": [],
+          "inputs": [
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/sse_meltallic_bunny/sse_meltallic_bunny_heart.nif",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\SSE_MELTALLIC_Bunny\\SSE_MELTALLIC_Bunny_Heart.nif",
+              "mod_id": 28,
+              "mod_name": "clothes pack",
+              "bytes": 2068721,
+              "roles": [
+                "SourceFile"
+              ]
+            },
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/sse_meltallic_bunny/sse_meltallic_bunny_heart.osd",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\SSE_MELTALLIC_Bunny\\SSE_MELTALLIC_Bunny_Heart.osd",
+              "mod_id": 28,
+              "mod_name": "clothes pack",
+              "bytes": 9117485,
+              "roles": [
+                "SliderData"
+              ]
+            }
+          ]
+        },
+        {
+          "pack": "Anno",
+          "original_set_name": "OVR Sorceress Aegir Main",
+          "curated_set_name": "Database Morph Anno 034 - OVR Sorceress Aegir Main",
+          "curated_osp": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\bodyslide_plan\\Anno\\SliderSets\\DatabaseMorph_034.osp",
+          "author_osp": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\SliderSets\\OVR Sorceress Aegir Main.osp",
+          "author_set_ordinal": 0,
+          "output_stem": "meshes/ovr sorceress aegir/ae_main",
+          "generated_paths": [
+            "meshes/ovr sorceress aegir/ae_main_0.nif",
+            "meshes/ovr sorceress aegir/ae_main_1.nif"
+          ],
+          "repair_meshes": [
+            "meshes/ovr sorceress aegir/ae_main_0.nif",
+            "meshes/ovr sorceress aegir/ae_main_1.nif"
+          ],
+          "plugins": [
+            "[Kirax] OVR Sorceress Aegir.esp"
+          ],
+          "group": "Database Morph Repair - Anno",
+          "resolved_family": "CBBE_3BA",
+          "source_saved_output_choice": null,
+          "zap_defaults_preserved": [],
+          "inputs": [
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/ovr sorceress aegir main/ovr sorceress aegir main.nif",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\OVR Sorceress Aegir Main\\OVR Sorceress Aegir Main.nif",
+              "mod_id": 28,
+              "mod_name": "clothes pack",
+              "bytes": 3280195,
+              "roles": [
+                "SourceFile"
+              ]
+            },
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/ovr sorceress aegir main/ovr sorceress aegir main.osd",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\OVR Sorceress Aegir Main\\OVR Sorceress Aegir Main.osd",
+              "mod_id": 28,
+              "mod_name": "clothes pack",
+              "bytes": 13437023,
+              "roles": [
+                "SliderData"
+              ]
+            }
+          ]
+        },
+        {
+          "pack": "Anno",
+          "original_set_name": "Igraine Boots CBBE 3BA",
+          "curated_set_name": "Database Morph Anno 035 - Igraine Boots CBBE 3BA",
+          "curated_osp": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\bodyslide_plan\\Anno\\SliderSets\\DatabaseMorph_035.osp",
+          "author_osp": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【服装】 贵族小裙子 SC - Order1886 - Igraine\\CalienteTools\\BodySlide\\SliderSets\\Igraine Knight CBBE 3BA.osp",
+          "author_set_ordinal": 1,
+          "output_stem": "meshes/sc/4_ports/21_order1886/igraine/knight/bootsf",
+          "generated_paths": [
+            "meshes/sc/4_ports/21_order1886/igraine/knight/bootsf_0.nif",
+            "meshes/sc/4_ports/21_order1886/igraine/knight/bootsf_1.nif"
+          ],
+          "repair_meshes": [
+            "meshes/sc/4_ports/21_order1886/igraine/knight/bootsf_0.nif",
+            "meshes/sc/4_ports/21_order1886/igraine/knight/bootsf_1.nif"
+          ],
+          "plugins": [
+            "SC_Order1886_Igraine.esp"
+          ],
+          "group": "Database Morph Repair - Anno",
+          "resolved_family": "CBBE_3BA",
+          "source_saved_output_choice": null,
+          "zap_defaults_preserved": [],
+          "inputs": [
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/igraine knight cbbe 3ba/bootsf.nif",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【服装】 贵族小裙子 SC - Order1886 - Igraine\\CalienteTools\\BodySlide\\ShapeData\\Igraine Knight CBBE 3BA\\BootsF.nif",
+              "mod_id": 385,
+              "mod_name": "【服装】 贵族小裙子 SC - Order1886 - Igraine",
+              "bytes": 424387,
+              "roles": [
+                "SourceFile"
+              ]
+            },
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/igraine knight cbbe 3ba/bootsf.osd",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【服装】 贵族小裙子 SC - Order1886 - Igraine\\CalienteTools\\BodySlide\\ShapeData\\Igraine Knight CBBE 3BA\\BootsF.osd",
+              "mod_id": 385,
+              "mod_name": "【服装】 贵族小裙子 SC - Order1886 - Igraine",
+              "bytes": 631263,
+              "roles": [
+                "SliderData"
+              ]
+            }
+          ]
+        },
+        {
+          "pack": "Anno",
+          "original_set_name": "Igraine Armor CBBE 3BA",
+          "curated_set_name": "Database Morph Anno 036 - Igraine Armor CBBE 3BA",
+          "curated_osp": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\bodyslide_plan\\Anno\\SliderSets\\DatabaseMorph_036.osp",
+          "author_osp": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【服装】 贵族小裙子 SC - Order1886 - Igraine\\CalienteTools\\BodySlide\\SliderSets\\Igraine Knight CBBE 3BA.osp",
+          "author_set_ordinal": 0,
+          "output_stem": "meshes/sc/4_ports/21_order1886/igraine/knight/f",
+          "generated_paths": [
+            "meshes/sc/4_ports/21_order1886/igraine/knight/f_0.nif",
+            "meshes/sc/4_ports/21_order1886/igraine/knight/f_1.nif"
+          ],
+          "repair_meshes": [
+            "meshes/sc/4_ports/21_order1886/igraine/knight/f_0.nif",
+            "meshes/sc/4_ports/21_order1886/igraine/knight/f_1.nif"
+          ],
+          "plugins": [
+            "SC_Order1886_Igraine.esp"
+          ],
+          "group": "Database Morph Repair - Anno",
+          "resolved_family": "CBBE_3BA",
+          "source_saved_output_choice": "Igraine Armor CBBE 3BA",
+          "zap_defaults_preserved": [],
+          "inputs": [
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/igraine knight cbbe 3ba/f.nif",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【服装】 贵族小裙子 SC - Order1886 - Igraine\\CalienteTools\\BodySlide\\ShapeData\\Igraine Knight CBBE 3BA\\F.nif",
+              "mod_id": 385,
+              "mod_name": "【服装】 贵族小裙子 SC - Order1886 - Igraine",
+              "bytes": 1805256,
+              "roles": [
+                "SourceFile"
+              ]
+            },
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/igraine knight cbbe 3ba/f.osd",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【服装】 贵族小裙子 SC - Order1886 - Igraine\\CalienteTools\\BodySlide\\ShapeData\\Igraine Knight CBBE 3BA\\F.osd",
+              "mod_id": 385,
+              "mod_name": "【服装】 贵族小裙子 SC - Order1886 - Igraine",
+              "bytes": 4170172,
+              "roles": [
+                "SliderData"
+              ]
+            }
+          ]
+        },
+        {
+          "pack": "Anno",
+          "original_set_name": "Igraine Hands CBBE 3BA",
+          "curated_set_name": "Database Morph Anno 037 - Igraine Hands CBBE 3BA",
+          "curated_osp": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\bodyslide_plan\\Anno\\SliderSets\\DatabaseMorph_037.osp",
+          "author_osp": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【服装】 贵族小裙子 SC - Order1886 - Igraine\\CalienteTools\\BodySlide\\SliderSets\\Igraine Knight CBBE 3BA.osp",
+          "author_set_ordinal": 3,
+          "output_stem": "meshes/sc/4_ports/21_order1886/igraine/knight/handsf",
+          "generated_paths": [
+            "meshes/sc/4_ports/21_order1886/igraine/knight/handsf_0.nif",
+            "meshes/sc/4_ports/21_order1886/igraine/knight/handsf_1.nif"
+          ],
+          "repair_meshes": [
+            "meshes/sc/4_ports/21_order1886/igraine/knight/handsf_0.nif",
+            "meshes/sc/4_ports/21_order1886/igraine/knight/handsf_1.nif"
+          ],
+          "plugins": [
+            "SC_Order1886_Igraine.esp"
+          ],
+          "group": "Database Morph Repair - Anno",
+          "resolved_family": "CBBE_3BA",
+          "source_saved_output_choice": null,
+          "zap_defaults_preserved": [],
+          "inputs": [
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/igraine knight cbbe 3ba/handsf.nif",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【服装】 贵族小裙子 SC - Order1886 - Igraine\\CalienteTools\\BodySlide\\ShapeData\\Igraine Knight CBBE 3BA\\HandsF.nif",
+              "mod_id": 385,
+              "mod_name": "【服装】 贵族小裙子 SC - Order1886 - Igraine",
+              "bytes": 348614,
+              "roles": [
+                "SourceFile"
+              ]
+            },
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/igraine knight cbbe 3ba/handsf.osd",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【服装】 贵族小裙子 SC - Order1886 - Igraine\\CalienteTools\\BodySlide\\ShapeData\\Igraine Knight CBBE 3BA\\HandsF.osd",
+              "mod_id": 385,
+              "mod_name": "【服装】 贵族小裙子 SC - Order1886 - Igraine",
+              "bytes": 4399,
+              "roles": [
+                "SliderData"
+              ]
+            }
+          ]
+        },
+        {
+          "pack": "Anno",
+          "original_set_name": "SSE_3BA_Green_Nun_Feet",
+          "curated_set_name": "Database Morph Anno 038 - SSE_3BA_Green_Nun_Feet",
+          "curated_osp": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\bodyslide_plan\\Anno\\SliderSets\\DatabaseMorph_038.osp",
+          "author_osp": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【服装】 露臀裙子 Green Nun CBBE 3BA\\CalienteTools\\BodySlide\\SliderSets\\SSE_3BA_Green_Nun.osp",
+          "author_set_ordinal": 5,
+          "output_stem": "meshes/sse_3ba_green_nun/sse_3ba_green_nun_feet",
+          "generated_paths": [
+            "meshes/sse_3ba_green_nun/sse_3ba_green_nun_feet_0.nif",
+            "meshes/sse_3ba_green_nun/sse_3ba_green_nun_feet_1.nif"
+          ],
+          "repair_meshes": [
+            "meshes/sse_3ba_green_nun/sse_3ba_green_nun_feet_0.nif",
+            "meshes/sse_3ba_green_nun/sse_3ba_green_nun_feet_1.nif"
+          ],
+          "plugins": [
+            "SSE_3BA_Green_Nun.esp"
+          ],
+          "group": "Database Morph Repair - Anno",
+          "resolved_family": "CBBE_3BA",
+          "source_saved_output_choice": null,
+          "zap_defaults_preserved": [],
+          "inputs": [
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/sse_3ba_green_nun/sse_3ba_green_nun_feet.nif",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【服装】 露臀裙子 Green Nun CBBE 3BA\\CalienteTools\\BodySlide\\ShapeData\\SSE_3BA_Green_Nun\\SSE_3BA_Green_Nun_Feet.nif",
+              "mod_id": 391,
+              "mod_name": "【服装】 露臀裙子 Green Nun CBBE 3BA",
+              "bytes": 2143812,
+              "roles": [
+                "SourceFile"
+              ]
+            },
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/sse_3ba_green_nun/sse_3ba_green_nun_feet.osd",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【服装】 露臀裙子 Green Nun CBBE 3BA\\CalienteTools\\BodySlide\\ShapeData\\SSE_3BA_Green_Nun\\SSE_3BA_Green_Nun_Feet.osd",
+              "mod_id": 391,
+              "mod_name": "【服装】 露臀裙子 Green Nun CBBE 3BA",
+              "bytes": 89757,
+              "roles": [
+                "SliderData"
+              ]
+            }
+          ]
+        },
+        {
+          "pack": "Anno",
+          "original_set_name": "hanyiqinghua Female.ver dress",
+          "curated_set_name": "Database Morph Anno 039 - hanyiqinghua Female.ver dress",
+          "curated_osp": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\bodyslide_plan\\Anno\\SliderSets\\DatabaseMorph_039.osp",
+          "author_osp": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\SliderSets\\hanyiqinghua Female.ver dress.osp",
+          "author_set_ordinal": 0,
+          "output_stem": "meshes/takuya/hanyiqinghua/dress",
+          "generated_paths": [
+            "meshes/takuya/hanyiqinghua/dress_0.nif",
+            "meshes/takuya/hanyiqinghua/dress_1.nif"
+          ],
+          "repair_meshes": [
+            "meshes/takuya/hanyiqinghua/dress_0.nif",
+            "meshes/takuya/hanyiqinghua/dress_1.nif"
+          ],
+          "plugins": [
+            "hanyiqinghua.esp"
+          ],
+          "group": "Database Morph Repair - Anno",
+          "resolved_family": "CBBE_3BA",
+          "source_saved_output_choice": null,
+          "zap_defaults_preserved": [],
+          "inputs": [
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/hanyiqinghua female.ver dress/hanyiqinghua female.ver dress.nif",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\hanyiqinghua Female.ver dress\\hanyiqinghua Female.ver dress.nif",
+              "mod_id": 28,
+              "mod_name": "clothes pack",
+              "bytes": 12125480,
+              "roles": [
+                "SourceFile"
+              ]
+            },
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/hanyiqinghua female.ver dress/hanyiqinghua female.ver dress.osd",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\hanyiqinghua Female.ver dress\\hanyiqinghua Female.ver dress.osd",
+              "mod_id": 28,
+              "mod_name": "clothes pack",
+              "bytes": 34841003,
+              "roles": [
+                "SliderData"
+              ]
+            }
+          ]
+        },
+        {
+          "pack": "Anno",
+          "original_set_name": "mingzhuang-tm_11",
+          "curated_set_name": "Database Morph Anno 040 - mingzhuang-tm_11",
+          "curated_osp": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\bodyslide_plan\\Anno\\SliderSets\\DatabaseMorph_040.osp",
+          "author_osp": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\SliderSets\\mingzhuang-tm_11.osp",
+          "author_set_ordinal": 0,
+          "output_stem": "meshes/td-mz/mingzhuang-tm",
+          "generated_paths": [
+            "meshes/td-mz/mingzhuang-tm_0.nif",
+            "meshes/td-mz/mingzhuang-tm_1.nif"
+          ],
+          "repair_meshes": [
+            "meshes/td-mz/mingzhuang-tm_0.nif",
+            "meshes/td-mz/mingzhuang-tm_1.nif"
+          ],
+          "plugins": [
+            "cj-mingzhuang.esp"
+          ],
+          "group": "Database Morph Repair - Anno",
+          "resolved_family": "CBBE_3BA",
+          "source_saved_output_choice": null,
+          "zap_defaults_preserved": [],
+          "inputs": [
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/mingzhuang-tm_11/mingzhuang-tm_11.nif",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\mingzhuang-tm_11\\mingzhuang-tm_11.nif",
+              "mod_id": 28,
+              "mod_name": "clothes pack",
+              "bytes": 3998265,
+              "roles": [
+                "SourceFile"
+              ]
+            },
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/mingzhuang-tm_11/mingzhuang-tm_11.osd",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\mingzhuang-tm_11\\mingzhuang-tm_11.osd",
+              "mod_id": 28,
+              "mod_name": "clothes pack",
+              "bytes": 12462213,
+              "roles": [
+                "SliderData"
+              ]
+            }
+          ]
+        },
+        {
+          "pack": "Anno",
+          "original_set_name": "mingzhuang-tm xiezi",
+          "curated_set_name": "Database Morph Anno 041 - mingzhuang-tm xiezi",
+          "curated_osp": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\bodyslide_plan\\Anno\\SliderSets\\DatabaseMorph_041.osp",
+          "author_osp": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\SliderSets\\mingzhuang-tm xiezi.osp",
+          "author_set_ordinal": 0,
+          "output_stem": "meshes/td-mz/mz-xiezi",
+          "generated_paths": [
+            "meshes/td-mz/mz-xiezi_0.nif",
+            "meshes/td-mz/mz-xiezi_1.nif"
+          ],
+          "repair_meshes": [
+            "meshes/td-mz/mz-xiezi_0.nif",
+            "meshes/td-mz/mz-xiezi_1.nif"
+          ],
+          "plugins": [
+            "cj-mingzhuang.esp"
+          ],
+          "group": "Database Morph Repair - Anno",
+          "resolved_family": "CBBE_3BA",
+          "source_saved_output_choice": null,
+          "zap_defaults_preserved": [],
+          "inputs": [
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/mingzhuang-tm xiezi/mingzhuang-tm xiezi.nif",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\mingzhuang-tm xiezi\\mingzhuang-tm xiezi.nif",
+              "mod_id": 28,
+              "mod_name": "clothes pack",
+              "bytes": 910231,
+              "roles": [
+                "SourceFile"
+              ]
+            },
+            {
+              "pack": "Anno",
+              "path_key": "calientetools/bodyslide/shapedata/mingzhuang-tm xiezi/mingzhuang-tm xiezi.osd",
+              "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\mingzhuang-tm xiezi\\mingzhuang-tm xiezi.osd",
+              "mod_id": 28,
+              "mod_name": "clothes pack",
+              "bytes": 8898446,
+              "roles": [
+                "SliderData"
+              ]
+            }
+          ]
+        }
+      ],
+      "private_config_sha256": "1882e3a0b976c56becf3b5e8a3ebeb54bc8e3333add1e1bde2d2b96ebd71430d",
+      "tool_sha256": "c30a50d634e88fe26a2a185a082db7db587ba1846248f2ff2538933c2ddee24f"
+    },
+    {
+      "pack": "Burida",
+      "tool": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\tools\\BodySlideMorph\\Burida",
+      "project": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\inputs\\BodySlideMorph\\Burida",
+      "output": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\Burida",
+      "command": [
+        "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\tools\\BodySlideMorph\\Burida\\BodySlide x64.exe",
+        "-gbuild",
+        "Database Morph Repair - Burida",
+        "-p",
+        "- Zeroed Sliders -",
+        "-tri",
+        "-t",
+        "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\outputs\\BodySlideMorph\\Burida"
+      ],
+      "expected_projects": [
+        {
+          "pack": "Burida",
+          "original_set_name": "[SE] Fashion Witch Boots (3BA)",
+          "curated_set_name": "Database Morph Burida 042 - [SE] Fashion Witch Boots (3BA)",
+          "curated_osp": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\bodyslide_plan\\Burida\\SliderSets\\DatabaseMorph_042.osp",
+          "author_osp": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\mods\\CAENARVON衣服整合\\CalienteTools\\BodySlide\\SliderSets\\[SE] Fashion Witch Set 3BA.osp",
+          "author_set_ordinal": 0,
+          "output_stem": "meshes/thebottomhoodofsteel/fashionwitchset/fw_boots",
+          "generated_paths": [
+            "meshes/thebottomhoodofsteel/fashionwitchset/fw_boots_0.nif",
+            "meshes/thebottomhoodofsteel/fashionwitchset/fw_boots_1.nif"
+          ],
+          "repair_meshes": [
+            "meshes/thebottomhoodofsteel/fashionwitchset/fw_boots_0.nif",
+            "meshes/thebottomhoodofsteel/fashionwitchset/fw_boots_1.nif"
+          ],
+          "plugins": [
+            "FashionWtich Set.esp"
+          ],
+          "group": "Database Morph Repair - Burida",
+          "resolved_family": "CBBE_3BA",
+          "source_saved_output_choice": null,
+          "zap_defaults_preserved": [],
+          "inputs": [
+            {
+              "pack": "Burida",
+              "path_key": "calientetools/bodyslide/shapedata/[se] fashion witch boots (3ba)/[se] fashion witch boots (3ba).nif",
+              "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\mods\\CAENARVON衣服整合\\CalienteTools\\BodySlide\\ShapeData\\[SE] Fashion Witch Boots (3BA)\\[SE] Fashion Witch Boots (3BA).nif",
+              "mod_id": 2002,
+              "mod_name": "CAENARVON衣服整合",
+              "bytes": 355452,
+              "roles": [
+                "SourceFile"
+              ]
+            },
+            {
+              "pack": "Burida",
+              "path_key": "calientetools/bodyslide/shapedata/[se] fashion witch boots (3ba)/[se] fashion witch boots (3ba).osd",
+              "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\mods\\CAENARVON衣服整合\\CalienteTools\\BodySlide\\ShapeData\\[SE] Fashion Witch Boots (3BA)\\[SE] Fashion Witch Boots (3BA).osd",
+              "mod_id": 2002,
+              "mod_name": "CAENARVON衣服整合",
+              "bytes": 14148,
+              "roles": [
+                "SliderData"
+              ]
+            }
+          ]
+        },
+        {
+          "pack": "Burida",
+          "original_set_name": "[SE] Fashion Witch Bracelet (3BA)",
+          "curated_set_name": "Database Morph Burida 043 - [SE] Fashion Witch Bracelet (3BA)",
+          "curated_osp": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\bodyslide_plan\\Burida\\SliderSets\\DatabaseMorph_043.osp",
+          "author_osp": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\mods\\CAENARVON衣服整合\\CalienteTools\\BodySlide\\SliderSets\\[SE] Fashion Witch Set 3BA.osp",
+          "author_set_ordinal": 1,
+          "output_stem": "meshes/thebottomhoodofsteel/fashionwitchset/fw_bracelet",
+          "generated_paths": [
+            "meshes/thebottomhoodofsteel/fashionwitchset/fw_bracelet_0.nif",
+            "meshes/thebottomhoodofsteel/fashionwitchset/fw_bracelet_1.nif"
+          ],
+          "repair_meshes": [
+            "meshes/thebottomhoodofsteel/fashionwitchset/fw_bracelet_0.nif",
+            "meshes/thebottomhoodofsteel/fashionwitchset/fw_bracelet_1.nif"
+          ],
+          "plugins": [
+            "FashionWtich Set.esp"
+          ],
+          "group": "Database Morph Repair - Burida",
+          "resolved_family": "CBBE_3BA",
+          "source_saved_output_choice": null,
+          "zap_defaults_preserved": [],
+          "inputs": [
+            {
+              "pack": "Burida",
+              "path_key": "calientetools/bodyslide/shapedata/[se] fashion witch bracelet (3ba)/[se] fashion witch bracelet (3ba).nif",
+              "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\mods\\CAENARVON衣服整合\\CalienteTools\\BodySlide\\ShapeData\\[SE] Fashion Witch Bracelet (3BA)\\[SE] Fashion Witch Bracelet (3BA).nif",
+              "mod_id": 2002,
+              "mod_name": "CAENARVON衣服整合",
+              "bytes": 33467,
+              "roles": [
+                "SourceFile"
+              ]
+            },
+            {
+              "pack": "Burida",
+              "path_key": "calientetools/bodyslide/shapedata/[se] fashion witch bracelet (3ba)/[se] fashion witch bracelet (3ba).osd",
+              "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\mods\\CAENARVON衣服整合\\CalienteTools\\BodySlide\\ShapeData\\[SE] Fashion Witch Bracelet (3BA)\\[SE] Fashion Witch Bracelet (3BA).osd",
+              "mod_id": 2002,
+              "mod_name": "CAENARVON衣服整合",
+              "bytes": 13585,
+              "roles": [
+                "SliderData"
+              ]
+            }
+          ]
+        },
+        {
+          "pack": "Burida",
+          "original_set_name": "[SE] Fashion Witch Bracelet Chain (3BA)",
+          "curated_set_name": "Database Morph Burida 044 - [SE] Fashion Witch Bracelet Chain (3BA)",
+          "curated_osp": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\bodyslide_plan\\Burida\\SliderSets\\DatabaseMorph_044.osp",
+          "author_osp": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\mods\\CAENARVON衣服整合\\CalienteTools\\BodySlide\\SliderSets\\[SE] Fashion Witch Set 3BA.osp",
+          "author_set_ordinal": 2,
+          "output_stem": "meshes/thebottomhoodofsteel/fashionwitchset/fw_braceletchain",
+          "generated_paths": [
+            "meshes/thebottomhoodofsteel/fashionwitchset/fw_braceletchain_0.nif",
+            "meshes/thebottomhoodofsteel/fashionwitchset/fw_braceletchain_1.nif"
+          ],
+          "repair_meshes": [
+            "meshes/thebottomhoodofsteel/fashionwitchset/fw_braceletchain_0.nif",
+            "meshes/thebottomhoodofsteel/fashionwitchset/fw_braceletchain_1.nif"
+          ],
+          "plugins": [
+            "FashionWtich Set.esp"
+          ],
+          "group": "Database Morph Repair - Burida",
+          "resolved_family": "CBBE_3BA",
+          "source_saved_output_choice": null,
+          "zap_defaults_preserved": [],
+          "inputs": [
+            {
+              "pack": "Burida",
+              "path_key": "calientetools/bodyslide/shapedata/[se] fashion witch bracelet chain (3ba)/[se] fashion witch bracelet chain (3ba).nif",
+              "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\mods\\CAENARVON衣服整合\\CalienteTools\\BodySlide\\ShapeData\\[SE] Fashion Witch Bracelet Chain (3BA)\\[SE] Fashion Witch Bracelet Chain (3BA).nif",
+              "mod_id": 2002,
+              "mod_name": "CAENARVON衣服整合",
+              "bytes": 254282,
+              "roles": [
+                "SourceFile"
+              ]
+            },
+            {
+              "pack": "Burida",
+              "path_key": "calientetools/bodyslide/shapedata/[se] fashion witch bracelet chain (3ba)/[se] fashion witch bracelet chain (3ba).osd",
+              "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\mods\\CAENARVON衣服整合\\CalienteTools\\BodySlide\\ShapeData\\[SE] Fashion Witch Bracelet Chain (3BA)\\[SE] Fashion Witch Bracelet Chain (3BA).osd",
+              "mod_id": 2002,
+              "mod_name": "CAENARVON衣服整合",
+              "bytes": 36578,
+              "roles": [
+                "SliderData"
+              ]
+            }
+          ]
+        },
+        {
+          "pack": "Burida",
+          "original_set_name": "[SE] Fashion Witch Dress (3BA)",
+          "curated_set_name": "Database Morph Burida 045 - [SE] Fashion Witch Dress (3BA)",
+          "curated_osp": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\bodyslide_plan\\Burida\\SliderSets\\DatabaseMorph_045.osp",
+          "author_osp": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\mods\\CAENARVON衣服整合\\CalienteTools\\BodySlide\\SliderSets\\[SE] Fashion Witch Set 3BA.osp",
+          "author_set_ordinal": 3,
+          "output_stem": "meshes/thebottomhoodofsteel/fashionwitchset/fw_dress",
+          "generated_paths": [
+            "meshes/thebottomhoodofsteel/fashionwitchset/fw_dress_0.nif",
+            "meshes/thebottomhoodofsteel/fashionwitchset/fw_dress_1.nif"
+          ],
+          "repair_meshes": [
+            "meshes/thebottomhoodofsteel/fashionwitchset/fw_dress_0.nif",
+            "meshes/thebottomhoodofsteel/fashionwitchset/fw_dress_1.nif"
+          ],
+          "plugins": [
+            "FashionWtich Set.esp"
+          ],
+          "group": "Database Morph Repair - Burida",
+          "resolved_family": "CBBE_3BA",
+          "source_saved_output_choice": null,
+          "zap_defaults_preserved": [],
+          "inputs": [
+            {
+              "pack": "Burida",
+              "path_key": "calientetools/bodyslide/shapedata/[se] fashion witch dress (3ba)/[se] fashion witch dress (3ba).nif",
+              "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\mods\\CAENARVON衣服整合\\CalienteTools\\BodySlide\\ShapeData\\[SE] Fashion Witch Dress (3BA)\\[SE] Fashion Witch Dress (3BA).nif",
+              "mod_id": 2002,
+              "mod_name": "CAENARVON衣服整合",
+              "bytes": 3805468,
+              "roles": [
+                "SourceFile"
+              ]
+            },
+            {
+              "pack": "Burida",
+              "path_key": "calientetools/bodyslide/shapedata/[se] fashion witch dress (3ba)/[se] fashion witch dress (3ba).osd",
+              "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\mods\\CAENARVON衣服整合\\CalienteTools\\BodySlide\\ShapeData\\[SE] Fashion Witch Dress (3BA)\\[SE] Fashion Witch Dress (3BA).osd",
+              "mod_id": 2002,
+              "mod_name": "CAENARVON衣服整合",
+              "bytes": 16818997,
+              "roles": [
+                "SliderData"
+              ]
+            },
+            {
+              "pack": "Burida",
+              "path_key": "calientetools/bodyslide/shapedata/se 3bbb amazing/se 3bbb body amazing v2.osd",
+              "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\mods\\CBBE 3BA\\CalienteTools\\BodySlide\\ShapeData\\SE 3BBB Amazing\\SE 3BBB Body Amazing v2.osd",
+              "mod_id": 2020,
+              "mod_name": "CBBE 3BA",
+              "bytes": 8815319,
+              "roles": [
+                "SliderData"
+              ]
+            }
+          ]
+        },
+        {
+          "pack": "Burida",
+          "original_set_name": "[SE] Fashion Witch Heels (3BA)",
+          "curated_set_name": "Database Morph Burida 046 - [SE] Fashion Witch Heels (3BA)",
+          "curated_osp": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\bodyslide_plan\\Burida\\SliderSets\\DatabaseMorph_046.osp",
+          "author_osp": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\mods\\CAENARVON衣服整合\\CalienteTools\\BodySlide\\SliderSets\\[SE] Fashion Witch Set 3BA.osp",
+          "author_set_ordinal": 4,
+          "output_stem": "meshes/thebottomhoodofsteel/fashionwitchset/fw_heels",
+          "generated_paths": [
+            "meshes/thebottomhoodofsteel/fashionwitchset/fw_heels_0.nif",
+            "meshes/thebottomhoodofsteel/fashionwitchset/fw_heels_1.nif"
+          ],
+          "repair_meshes": [
+            "meshes/thebottomhoodofsteel/fashionwitchset/fw_heels_0.nif",
+            "meshes/thebottomhoodofsteel/fashionwitchset/fw_heels_1.nif"
+          ],
+          "plugins": [
+            "FashionWtich Set.esp"
+          ],
+          "group": "Database Morph Repair - Burida",
+          "resolved_family": "CBBE_3BA",
+          "source_saved_output_choice": null,
+          "zap_defaults_preserved": [],
+          "inputs": [
+            {
+              "pack": "Burida",
+              "path_key": "calientetools/bodyslide/shapedata/[se] fashion witch heels (3ba)/[se] fashion witch heels (3ba).nif",
+              "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\mods\\CAENARVON衣服整合\\CalienteTools\\BodySlide\\ShapeData\\[SE] Fashion Witch Heels (3BA)\\[SE] Fashion Witch Heels (3BA).nif",
+              "mod_id": 2002,
+              "mod_name": "CAENARVON衣服整合",
+              "bytes": 1789424,
+              "roles": [
+                "SourceFile"
+              ]
+            },
+            {
+              "pack": "Burida",
+              "path_key": "calientetools/bodyslide/shapedata/[se] fashion witch heels (3ba)/[se] fashion witch heels (3ba).osd",
+              "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\mods\\CAENARVON衣服整合\\CalienteTools\\BodySlide\\ShapeData\\[SE] Fashion Witch Heels (3BA)\\[SE] Fashion Witch Heels (3BA).osd",
+              "mod_id": 2002,
+              "mod_name": "CAENARVON衣服整合",
+              "bytes": 62098,
+              "roles": [
+                "SliderData"
+              ]
+            }
+          ]
+        },
+        {
+          "pack": "Burida",
+          "original_set_name": "[SE] Fashion Witch Nails (3BA)",
+          "curated_set_name": "Database Morph Burida 047 - [SE] Fashion Witch Nails (3BA)",
+          "curated_osp": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\bodyslide_plan\\Burida\\SliderSets\\DatabaseMorph_047.osp",
+          "author_osp": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\mods\\CAENARVON衣服整合\\CalienteTools\\BodySlide\\SliderSets\\[SE] Fashion Witch Set 3BA.osp",
+          "author_set_ordinal": 5,
+          "output_stem": "meshes/thebottomhoodofsteel/fashionwitchset/fw_nail",
+          "generated_paths": [
+            "meshes/thebottomhoodofsteel/fashionwitchset/fw_nail_0.nif",
+            "meshes/thebottomhoodofsteel/fashionwitchset/fw_nail_1.nif"
+          ],
+          "repair_meshes": [
+            "meshes/thebottomhoodofsteel/fashionwitchset/fw_nail_0.nif",
+            "meshes/thebottomhoodofsteel/fashionwitchset/fw_nail_1.nif"
+          ],
+          "plugins": [
+            "FashionWtich Set.esp"
+          ],
+          "group": "Database Morph Repair - Burida",
+          "resolved_family": "CBBE_3BA",
+          "source_saved_output_choice": null,
+          "zap_defaults_preserved": [],
+          "inputs": [
+            {
+              "pack": "Burida",
+              "path_key": "calientetools/bodyslide/shapedata/[se] fashion witch nails (3ba)/[se] fashion witch nails (3ba).nif",
+              "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\mods\\CAENARVON衣服整合\\CalienteTools\\BodySlide\\ShapeData\\[SE] Fashion Witch Nails (3BA)\\[SE] Fashion Witch Nails (3BA).nif",
+              "mod_id": 2002,
+              "mod_name": "CAENARVON衣服整合",
+              "bytes": 887235,
+              "roles": [
+                "SourceFile"
+              ]
+            },
+            {
+              "pack": "Burida",
+              "path_key": "calientetools/bodyslide/shapedata/[se] fashion witch nails (3ba)/[se] fashion witch nails (3ba).osd",
+              "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\mods\\CAENARVON衣服整合\\CalienteTools\\BodySlide\\ShapeData\\[SE] Fashion Witch Nails (3BA)\\[SE] Fashion Witch Nails (3BA).osd",
+              "mod_id": 2002,
+              "mod_name": "CAENARVON衣服整合",
+              "bytes": 12874,
+              "roles": [
+                "SliderData"
+              ]
+            }
+          ]
+        }
+      ],
+      "private_config_sha256": "847f35799420f194fafcddb57308a83672142acd43e6e2f398469e80a4b12fa6",
+      "tool_sha256": "c30a50d634e88fe26a2a185a082db7db587ba1846248f2ff2538933c2ddee24f"
+    }
+  ],
+  "plan_sha256": "88a1d0e96a1337df2932414ee29d0c6d1baf8e944385c2debf99c4b27ae5e2f7",
+  "inputs_manifest_sha256": "863a0a7ab90ab5d87ce094a1150b256f1d23043e90601ef6948d3b59208aa29f",
+  "scope": "Only 47 reviewed dedicated item projects. Keep author slider/zap defaults. Fresh output, all original tools/config/data remain unchanged."
+}

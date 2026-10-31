@@ -1,0 +1,838 @@
+{
+  "utc": "2026-10-31T04:50:51.748068+00:00",
+  "status": "MATERIALIZED_PENDING_JOINT_COMPATIBILITY_AND_RESOURCE_VALIDATION",
+  "features": [
+    {
+      "feature": "Wyrmstooth",
+      "plugins": [
+        {
+          "name": "Wyrmstooth.esp",
+          "pack": "Anno",
+          "source_mod_id": 1641,
+          "source_mod": "龙之牙-Wyrmstooth",
+          "source_path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\龙之牙-Wyrmstooth\\Wyrmstooth.esp",
+          "snapshot_path": "E:\\stock\\Skyrim collection\\Database\\xedit_runs\\Anno\\Data\\Wyrmstooth.esp",
+          "sha256": "59b7aa67f4b2434d62fbafe27b97fb4053b0aa3693a4e768bcb6ae8e3213aea9",
+          "masters": [
+            "Skyrim.esm",
+            "Update.esm"
+          ],
+          "record_count": 103223,
+          "is_light": false,
+          "native_reported_errors": 0,
+          "diagnostic_families": {},
+          "validated_replacement": null,
+          "selected_source": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\龙之牙-Wyrmstooth\\Wyrmstooth.esp",
+          "selected_sha256": "59b7aa67f4b2434d62fbafe27b97fb4053b0aa3693a4e768bcb6ae8e3213aea9",
+          "layer": "F01 Wyrmstooth",
+          "feature": "Wyrmstooth"
+        },
+        {
+          "name": "DBM_Wyrmstooth_Patch.esp",
+          "pack": "Anno",
+          "source_mod_id": 1666,
+          "source_mod": "龙裔艺术馆补丁-Legacy of the Dragonborn Patches (Official)",
+          "source_path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\龙裔艺术馆补丁-Legacy of the Dragonborn Patches (Official)\\DBM_Wyrmstooth_Patch.esp",
+          "snapshot_path": "E:\\stock\\Skyrim collection\\Database\\xedit_runs\\Anno\\Data\\DBM_Wyrmstooth_Patch.esp",
+          "sha256": "8609205dfb8f93d691db32be4743bfdd9dc1c5dffa769e5a708deba1f3f146fb",
+          "masters": [
+            "Skyrim.esm",
+            "Update.esm",
+            "Dawnguard.esm",
+            "HearthFires.esm",
+            "Dragonborn.esm",
+            "_ResourcePack.esl",
+            "LegacyoftheDragonborn.esm",
+            "Wyrmstooth.esp"
+          ],
+          "record_count": 268,
+          "is_light": true,
+          "native_reported_errors": 0,
+          "diagnostic_families": {},
+          "validated_replacement": null,
+          "selected_source": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\龙裔艺术馆补丁-Legacy of the Dragonborn Patches (Official)\\DBM_Wyrmstooth_Patch.esp",
+          "selected_sha256": "8609205dfb8f93d691db32be4743bfdd9dc1c5dffa769e5a708deba1f3f146fb",
+          "layer": "F01 Wyrmstooth",
+          "feature": "Wyrmstooth"
+        },
+        {
+          "name": "LOTD_TCC_Wyrmstooth.esp",
+          "pack": "Anno",
+          "source_mod_id": 80,
+          "source_mod": "Legacy of the Dragonborn - The Curators Companion",
+          "source_path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\Legacy of the Dragonborn - The Curators Companion\\LOTD_TCC_Wyrmstooth.esp",
+          "snapshot_path": "E:\\stock\\Skyrim collection\\Database\\xedit_runs\\Anno\\Data\\LOTD_TCC_Wyrmstooth.esp",
+          "sha256": "34cbdea2bf5d54f1a7afb0d8f897261a6d3f32ef2a40468c8f5d93e74a9a89fd",
+          "masters": [
+            "Skyrim.esm",
+            "Update.esm",
+            "Dawnguard.esm",
+            "HearthFires.esm",
+            "Dragonborn.esm",
+            "LegacyoftheDragonborn.esm",
+            "Wyrmstooth.esp",
+            "DBM_Wyrmstooth_Patch.esp",
+            "DBM_RelicNotifications.esp"
+          ],
+          "record_count": 11,
+          "is_light": true,
+          "native_reported_errors": 0,
+          "diagnostic_families": {},
+          "validated_replacement": null,
+          "selected_source": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\Legacy of the Dragonborn - The Curators Companion\\LOTD_TCC_Wyrmstooth.esp",
+          "selected_sha256": "34cbdea2bf5d54f1a7afb0d8f897261a6d3f32ef2a40468c8f5d93e74a9a89fd",
+          "layer": "F01 Wyrmstooth",
+          "feature": "Wyrmstooth"
+        }
+      ]
+    },
+    {
+      "feature": "The Forgotten City",
+      "plugins": [
+        {
+          "name": "ForgottenCity.esp",
+          "pack": "Anno",
+          "source_mod_id": 137,
+          "source_mod": "The Forgotten City",
+          "source_path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\The Forgotten City\\ForgottenCity.esp",
+          "snapshot_path": "E:\\stock\\Skyrim collection\\Database\\xedit_runs\\Anno\\Data\\ForgottenCity.esp",
+          "sha256": "25e4dc1cf2763523bfec6ac3dcb08c83d4c1fe54be719865688c38122eda34f2",
+          "masters": [
+            "Skyrim.esm"
+          ],
+          "record_count": 11108,
+          "is_light": false,
+          "native_reported_errors": 0,
+          "diagnostic_families": {},
+          "validated_replacement": null,
+          "selected_source": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\The Forgotten City\\ForgottenCity.esp",
+          "selected_sha256": "25e4dc1cf2763523bfec6ac3dcb08c83d4c1fe54be719865688c38122eda34f2",
+          "layer": "F02 The Forgotten City",
+          "feature": "The Forgotten City"
+        },
+        {
+          "name": "Forgotten City Music Fix.esp",
+          "pack": "Anno",
+          "source_mod_id": 1510,
+          "source_mod": "遗忘之城音频修复-The Forgotten City Music Bug Fixer",
+          "source_path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\遗忘之城音频修复-The Forgotten City Music Bug Fixer\\Forgotten City Music Fix.esp",
+          "snapshot_path": "E:\\stock\\Skyrim collection\\Database\\xedit_runs\\Anno\\Data\\Forgotten City Music Fix.esp",
+          "sha256": "831fd5a977abe7fa09e419b7e75188e1700c450ff33cfac05251b0f786816370",
+          "masters": [
+            "Skyrim.esm"
+          ],
+          "record_count": 5,
+          "is_light": true,
+          "native_reported_errors": 0,
+          "diagnostic_families": {},
+          "validated_replacement": null,
+          "selected_source": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\遗忘之城音频修复-The Forgotten City Music Bug Fixer\\Forgotten City Music Fix.esp",
+          "selected_sha256": "831fd5a977abe7fa09e419b7e75188e1700c450ff33cfac05251b0f786816370",
+          "layer": "F02 The Forgotten City",
+          "feature": "The Forgotten City"
+        },
+        {
+          "name": "DBM_ForgottenCity_Patch.esp",
+          "pack": "Anno",
+          "source_mod_id": 1666,
+          "source_mod": "龙裔艺术馆补丁-Legacy of the Dragonborn Patches (Official)",
+          "source_path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\龙裔艺术馆补丁-Legacy of the Dragonborn Patches (Official)\\DBM_ForgottenCity_Patch.esp",
+          "snapshot_path": "E:\\stock\\Skyrim collection\\Database\\xedit_runs\\Anno\\Data\\DBM_ForgottenCity_Patch.esp",
+          "sha256": "537f1e02d106184efc54dae3bbaf14214f846f6c855d0ae5fd6b6c79b4dcf123",
+          "masters": [
+            "Skyrim.esm",
+            "Update.esm",
+            "Dawnguard.esm",
+            "HearthFires.esm",
+            "Dragonborn.esm",
+            "LegacyoftheDragonborn.esm",
+            "ForgottenCity.esp"
+          ],
+          "record_count": 121,
+          "is_light": true,
+          "native_reported_errors": 0,
+          "diagnostic_families": {},
+          "validated_replacement": null,
+          "selected_source": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\龙裔艺术馆补丁-Legacy of the Dragonborn Patches (Official)\\DBM_ForgottenCity_Patch.esp",
+          "selected_sha256": "537f1e02d106184efc54dae3bbaf14214f846f6c855d0ae5fd6b6c79b4dcf123",
+          "layer": "F02 The Forgotten City",
+          "feature": "The Forgotten City"
+        }
+      ]
+    },
+    {
+      "feature": "World In Painting / Zero Hall / UF6",
+      "plugins": [
+        {
+          "name": "[LongShou]WorldInPainting_ZeroHall.esp",
+          "pack": "Anno",
+          "source_mod_id": 291,
+          "source_mod": "【地点】画中世界 - 零号画展厅(龙霄宫的一幅画进去).7z",
+          "source_path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【地点】画中世界 - 零号画展厅(龙霄宫的一幅画进去).7z\\[LongShou]WorldInPainting_ZeroHall.esp",
+          "snapshot_path": "E:\\stock\\Skyrim collection\\Database\\xedit_runs\\Anno\\Data\\[LongShou]WorldInPainting_ZeroHall.esp",
+          "sha256": "105e0bf084ec5bf5fb968406480a057c67daf35fc4a361589ea5fd6955f4a724",
+          "masters": [
+            "Skyrim.esm",
+            "Update.esm"
+          ],
+          "record_count": 44,
+          "is_light": false,
+          "native_reported_errors": 0,
+          "diagnostic_families": {},
+          "validated_replacement": null,
+          "selected_source": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【地点】画中世界 - 零号画展厅(龙霄宫的一幅画进去).7z\\[LongShou]WorldInPainting_ZeroHall.esp",
+          "selected_sha256": "105e0bf084ec5bf5fb968406480a057c67daf35fc4a361589ea5fd6955f4a724",
+          "layer": "F03 World In Painting - Zero Hall - UF6",
+          "feature": "World In Painting / Zero Hall / UF6"
+        },
+        {
+          "name": "[longshou]UF6.esp",
+          "pack": "Anno",
+          "source_mod_id": 290,
+          "source_mod": "【地点】画中世界 - 画中世界01 - 天际未来城（画中画）.7z",
+          "source_path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【地点】画中世界 - 画中世界01 - 天际未来城（画中画）.7z\\[longshou]UF6.esp",
+          "snapshot_path": "E:\\stock\\Skyrim collection\\Database\\xedit_runs\\Anno\\Data\\[longshou]UF6.esp",
+          "sha256": "aa7c4d56f3c746e66d0a3dc79c83336f7c45a6fb33ded9d37b5144c1c8a9f55b",
+          "masters": [
+            "Skyrim.esm",
+            "Update.esm",
+            "Dragonborn.esm",
+            "[LongShou]WorldInPainting_ZeroHall.esp"
+          ],
+          "record_count": 375,
+          "is_light": true,
+          "native_reported_errors": 21,
+          "diagnostic_families": {
+            "Compact brightness variant versus full light master": 21
+          },
+          "validated_replacement": {
+            "pack": "Anno",
+            "plugin": "[longshou]UF6.esp",
+            "source_snapshot": "E:\\stock\\Skyrim collection\\Database\\xedit_runs\\Anno\\Data\\[longshou]UF6.esp",
+            "source_sha256": "aa7c4d56f3c746e66d0a3dc79c83336f7c45a6fb33ded9d37b5144c1c8a9f55b",
+            "candidate": "E:\\stock\\Skyrim collection\\Database\\repairs\\Anno\\fixed\\[longshou]UF6.esp",
+            "candidate_sha256": "37472e17e48101ec53fa6046385cbc29068db4b244bbfbd5bfbd2a7c5256783d",
+            "candidate_size": 63183
+          },
+          "selected_source": "E:\\stock\\Skyrim collection\\Database\\repairs\\Anno\\fixed\\[longshou]UF6.esp",
+          "selected_sha256": "37472e17e48101ec53fa6046385cbc29068db4b244bbfbd5bfbd2a7c5256783d",
+          "layer": "F03 World In Painting - Zero Hall - UF6",
+          "feature": "World In Painting / Zero Hall / UF6"
+        }
+      ]
+    },
+    {
+      "feature": "Glenmoril",
+      "plugins": [
+        {
+          "name": "Glenmoril.esm",
+          "pack": "Anno",
+          "source_mod_id": 59,
+          "source_mod": "Glenmoril - English Translation SE",
+          "source_path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\Glenmoril - English Translation SE\\Glenmoril.esm",
+          "snapshot_path": "E:\\stock\\Skyrim collection\\Database\\xedit_runs\\Anno\\Data\\Glenmoril.esm",
+          "sha256": "b1e649406bfebf9485db799d285b1620b07fe776394b32a03e291fa05e862761",
+          "masters": [
+            "Skyrim.esm",
+            "Update.esm",
+            "Dawnguard.esm",
+            "Dragonborn.esm"
+          ],
+          "record_count": 144307,
+          "is_light": false,
+          "native_reported_errors": 0,
+          "diagnostic_families": {},
+          "validated_replacement": null,
+          "selected_source": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\Glenmoril - English Translation SE\\Glenmoril.esm",
+          "selected_sha256": "b1e649406bfebf9485db799d285b1620b07fe776394b32a03e291fa05e862761",
+          "layer": "F04 Glenmoril",
+          "feature": "Glenmoril"
+        }
+      ]
+    },
+    {
+      "feature": "Moon and Star",
+      "plugins": [
+        {
+          "name": "MoonAndStar_MAS.esp",
+          "pack": "Anno",
+          "source_mod_id": 88,
+          "source_mod": "Moon and Star",
+          "source_path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\Moon and Star\\MoonAndStar_MAS.esp",
+          "snapshot_path": "E:\\stock\\Skyrim collection\\Database\\xedit_runs\\Anno\\Data\\MoonAndStar_MAS.esp",
+          "sha256": "ac87eb9afdef9ed9490fabc4af2b4b1f4f3bc5cfd7b49c0785d867458ac36ad7",
+          "masters": [
+            "Skyrim.esm",
+            "Update.esm"
+          ],
+          "record_count": 4909,
+          "is_light": false,
+          "native_reported_errors": 4,
+          "diagnostic_families": {
+            "Referenced record absent in full selected load order": 4
+          },
+          "validated_replacement": null,
+          "selected_source": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\moonstar_cleanup_candidate\\MoonAndStar_MAS.esp",
+          "selected_sha256": "6182033b97b4fd106f2d8ecfe8174defef1788ca4e9f4dc059534b8d57ffb90e",
+          "layer": "F05 Moon and Star",
+          "feature": "Moon and Star"
+        }
+      ]
+    },
+    {
+      "feature": "Forgotten Magic Redone",
+      "plugins": [
+        {
+          "name": "ForgottenMagic_Redone.esp",
+          "pack": "Anno",
+          "source_mod_id": 751,
+          "source_mod": "【魔法】被遗忘的魔法-Forgotten Magic Redone SE",
+          "source_path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【魔法】被遗忘的魔法-Forgotten Magic Redone SE\\ForgottenMagic_Redone.esp",
+          "snapshot_path": "E:\\stock\\Skyrim collection\\Database\\xedit_runs\\Anno\\Data\\ForgottenMagic_Redone.esp",
+          "sha256": "c8df195c3b5e23db3f7dcd0d689c21bce0e28323c3463381571216db55e8e6b4",
+          "masters": [
+            "Skyrim.esm",
+            "Update.esm"
+          ],
+          "record_count": 1044,
+          "is_light": false,
+          "native_reported_errors": 0,
+          "diagnostic_families": {},
+          "validated_replacement": null,
+          "selected_source": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【魔法】被遗忘的魔法-Forgotten Magic Redone SE\\ForgottenMagic_Redone.esp",
+          "selected_sha256": "c8df195c3b5e23db3f7dcd0d689c21bce0e28323c3463381571216db55e8e6b4",
+          "layer": "F06 Forgotten Magic Redone",
+          "feature": "Forgotten Magic Redone"
+        }
+      ]
+    },
+    {
+      "feature": "SofiaFollower.esp",
+      "plugins": [
+        {
+          "name": "SofiaFollower.esp",
+          "pack": "Anno",
+          "source_mod_id": 127,
+          "source_mod": "Sofia Follower v.2.51 (BSA)",
+          "source_path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\Sofia Follower v.2.51 (BSA)\\SofiaFollower.esp",
+          "snapshot_path": "E:\\stock\\Skyrim collection\\Database\\xedit_runs\\Anno\\Data\\SofiaFollower.esp",
+          "sha256": "8c70186252d0a4415e1ff02584b87adca4c685a4fc4d2dec94c09040ef3ec3c9",
+          "masters": [
+            "Skyrim.esm",
+            "Update.esm"
+          ],
+          "record_count": 1741,
+          "is_light": false,
+          "native_reported_errors": 0,
+          "diagnostic_families": {},
+          "validated_replacement": null,
+          "selected_source": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\Sofia Follower v.2.51 (BSA)\\SofiaFollower.esp",
+          "selected_sha256": "8c70186252d0a4415e1ff02584b87adca4c685a4fc4d2dec94c09040ef3ec3c9",
+          "layer": "F07 SofiaFollower.esp",
+          "feature": "SofiaFollower.esp"
+        }
+      ]
+    },
+    {
+      "feature": "HothFollower.esp",
+      "plugins": [
+        {
+          "name": "HothFollower.esp",
+          "pack": "Anno",
+          "source_mod_id": 64,
+          "source_mod": "Hoth",
+          "source_path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\Hoth\\HothFollower.esp",
+          "snapshot_path": "E:\\stock\\Skyrim collection\\Database\\xedit_runs\\Anno\\Data\\HothFollower.esp",
+          "sha256": "0071a7200fdc42e8bf37dd20b87fb93109656fa55b2373f3404e029a2e9d9095",
+          "masters": [
+            "Skyrim.esm",
+            "Update.esm"
+          ],
+          "record_count": 343,
+          "is_light": false,
+          "native_reported_errors": 0,
+          "diagnostic_families": {},
+          "validated_replacement": null,
+          "selected_source": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\Hoth\\HothFollower.esp",
+          "selected_sha256": "0071a7200fdc42e8bf37dd20b87fb93109656fa55b2373f3404e029a2e9d9095",
+          "layer": "F08 HothFollower.esp",
+          "feature": "HothFollower.esp"
+        }
+      ]
+    },
+    {
+      "feature": "BenDoonSSE.esp",
+      "plugins": [
+        {
+          "name": "BenDoonSSE.esp",
+          "pack": "Anno",
+          "source_mod_id": 14,
+          "source_mod": "BenDoonSSE.V1.7 - VR Friendlier",
+          "source_path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\BenDoonSSE.V1.7 - VR Friendlier\\BenDoonSSE.esp",
+          "snapshot_path": "E:\\stock\\Skyrim collection\\Database\\xedit_runs\\Anno\\Data\\BenDoonSSE.esp",
+          "sha256": "afd1e978edaffe14adb8083686a184ace484de253c89fd73d7091ac7a7d27878",
+          "masters": [
+            "Skyrim.esm",
+            "Update.esm"
+          ],
+          "record_count": 3208,
+          "is_light": false,
+          "native_reported_errors": 0,
+          "diagnostic_families": {},
+          "validated_replacement": null,
+          "selected_source": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\BenDoonSSE.V1.7 - VR Friendlier\\BenDoonSSE.esp",
+          "selected_sha256": "afd1e978edaffe14adb8083686a184ace484de253c89fd73d7091ac7a7d27878",
+          "layer": "F09 BenDoonSSE.esp",
+          "feature": "BenDoonSSE.esp"
+        }
+      ]
+    }
+  ],
+  "plugins": [
+    {
+      "name": "Wyrmstooth.esp",
+      "pack": "Anno",
+      "source_mod_id": 1641,
+      "source_mod": "龙之牙-Wyrmstooth",
+      "source_path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\龙之牙-Wyrmstooth\\Wyrmstooth.esp",
+      "snapshot_path": "E:\\stock\\Skyrim collection\\Database\\xedit_runs\\Anno\\Data\\Wyrmstooth.esp",
+      "sha256": "59b7aa67f4b2434d62fbafe27b97fb4053b0aa3693a4e768bcb6ae8e3213aea9",
+      "masters": [
+        "Skyrim.esm",
+        "Update.esm"
+      ],
+      "record_count": 103223,
+      "is_light": false,
+      "native_reported_errors": 0,
+      "diagnostic_families": {},
+      "validated_replacement": null,
+      "selected_source": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\龙之牙-Wyrmstooth\\Wyrmstooth.esp",
+      "selected_sha256": "59b7aa67f4b2434d62fbafe27b97fb4053b0aa3693a4e768bcb6ae8e3213aea9",
+      "layer": "F01 Wyrmstooth",
+      "feature": "Wyrmstooth"
+    },
+    {
+      "name": "DBM_Wyrmstooth_Patch.esp",
+      "pack": "Anno",
+      "source_mod_id": 1666,
+      "source_mod": "龙裔艺术馆补丁-Legacy of the Dragonborn Patches (Official)",
+      "source_path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\龙裔艺术馆补丁-Legacy of the Dragonborn Patches (Official)\\DBM_Wyrmstooth_Patch.esp",
+      "snapshot_path": "E:\\stock\\Skyrim collection\\Database\\xedit_runs\\Anno\\Data\\DBM_Wyrmstooth_Patch.esp",
+      "sha256": "8609205dfb8f93d691db32be4743bfdd9dc1c5dffa769e5a708deba1f3f146fb",
+      "masters": [
+        "Skyrim.esm",
+        "Update.esm",
+        "Dawnguard.esm",
+        "HearthFires.esm",
+        "Dragonborn.esm",
+        "_ResourcePack.esl",
+        "LegacyoftheDragonborn.esm",
+        "Wyrmstooth.esp"
+      ],
+      "record_count": 268,
+      "is_light": true,
+      "native_reported_errors": 0,
+      "diagnostic_families": {},
+      "validated_replacement": null,
+      "selected_source": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\龙裔艺术馆补丁-Legacy of the Dragonborn Patches (Official)\\DBM_Wyrmstooth_Patch.esp",
+      "selected_sha256": "8609205dfb8f93d691db32be4743bfdd9dc1c5dffa769e5a708deba1f3f146fb",
+      "layer": "F01 Wyrmstooth",
+      "feature": "Wyrmstooth"
+    },
+    {
+      "name": "LOTD_TCC_Wyrmstooth.esp",
+      "pack": "Anno",
+      "source_mod_id": 80,
+      "source_mod": "Legacy of the Dragonborn - The Curators Companion",
+      "source_path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\Legacy of the Dragonborn - The Curators Companion\\LOTD_TCC_Wyrmstooth.esp",
+      "snapshot_path": "E:\\stock\\Skyrim collection\\Database\\xedit_runs\\Anno\\Data\\LOTD_TCC_Wyrmstooth.esp",
+      "sha256": "34cbdea2bf5d54f1a7afb0d8f897261a6d3f32ef2a40468c8f5d93e74a9a89fd",
+      "masters": [
+        "Skyrim.esm",
+        "Update.esm",
+        "Dawnguard.esm",
+        "HearthFires.esm",
+        "Dragonborn.esm",
+        "LegacyoftheDragonborn.esm",
+        "Wyrmstooth.esp",
+        "DBM_Wyrmstooth_Patch.esp",
+        "DBM_RelicNotifications.esp"
+      ],
+      "record_count": 11,
+      "is_light": true,
+      "native_reported_errors": 0,
+      "diagnostic_families": {},
+      "validated_replacement": null,
+      "selected_source": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\Legacy of the Dragonborn - The Curators Companion\\LOTD_TCC_Wyrmstooth.esp",
+      "selected_sha256": "34cbdea2bf5d54f1a7afb0d8f897261a6d3f32ef2a40468c8f5d93e74a9a89fd",
+      "layer": "F01 Wyrmstooth",
+      "feature": "Wyrmstooth"
+    },
+    {
+      "name": "ForgottenCity.esp",
+      "pack": "Anno",
+      "source_mod_id": 137,
+      "source_mod": "The Forgotten City",
+      "source_path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\The Forgotten City\\ForgottenCity.esp",
+      "snapshot_path": "E:\\stock\\Skyrim collection\\Database\\xedit_runs\\Anno\\Data\\ForgottenCity.esp",
+      "sha256": "25e4dc1cf2763523bfec6ac3dcb08c83d4c1fe54be719865688c38122eda34f2",
+      "masters": [
+        "Skyrim.esm"
+      ],
+      "record_count": 11108,
+      "is_light": false,
+      "native_reported_errors": 0,
+      "diagnostic_families": {},
+      "validated_replacement": null,
+      "selected_source": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\The Forgotten City\\ForgottenCity.esp",
+      "selected_sha256": "25e4dc1cf2763523bfec6ac3dcb08c83d4c1fe54be719865688c38122eda34f2",
+      "layer": "F02 The Forgotten City",
+      "feature": "The Forgotten City"
+    },
+    {
+      "name": "Forgotten City Music Fix.esp",
+      "pack": "Anno",
+      "source_mod_id": 1510,
+      "source_mod": "遗忘之城音频修复-The Forgotten City Music Bug Fixer",
+      "source_path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\遗忘之城音频修复-The Forgotten City Music Bug Fixer\\Forgotten City Music Fix.esp",
+      "snapshot_path": "E:\\stock\\Skyrim collection\\Database\\xedit_runs\\Anno\\Data\\Forgotten City Music Fix.esp",
+      "sha256": "831fd5a977abe7fa09e419b7e75188e1700c450ff33cfac05251b0f786816370",
+      "masters": [
+        "Skyrim.esm"
+      ],
+      "record_count": 5,
+      "is_light": true,
+      "native_reported_errors": 0,
+      "diagnostic_families": {},
+      "validated_replacement": null,
+      "selected_source": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\遗忘之城音频修复-The Forgotten City Music Bug Fixer\\Forgotten City Music Fix.esp",
+      "selected_sha256": "831fd5a977abe7fa09e419b7e75188e1700c450ff33cfac05251b0f786816370",
+      "layer": "F02 The Forgotten City",
+      "feature": "The Forgotten City"
+    },
+    {
+      "name": "DBM_ForgottenCity_Patch.esp",
+      "pack": "Anno",
+      "source_mod_id": 1666,
+      "source_mod": "龙裔艺术馆补丁-Legacy of the Dragonborn Patches (Official)",
+      "source_path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\龙裔艺术馆补丁-Legacy of the Dragonborn Patches (Official)\\DBM_ForgottenCity_Patch.esp",
+      "snapshot_path": "E:\\stock\\Skyrim collection\\Database\\xedit_runs\\Anno\\Data\\DBM_ForgottenCity_Patch.esp",
+      "sha256": "537f1e02d106184efc54dae3bbaf14214f846f6c855d0ae5fd6b6c79b4dcf123",
+      "masters": [
+        "Skyrim.esm",
+        "Update.esm",
+        "Dawnguard.esm",
+        "HearthFires.esm",
+        "Dragonborn.esm",
+        "LegacyoftheDragonborn.esm",
+        "ForgottenCity.esp"
+      ],
+      "record_count": 121,
+      "is_light": true,
+      "native_reported_errors": 0,
+      "diagnostic_families": {},
+      "validated_replacement": null,
+      "selected_source": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\龙裔艺术馆补丁-Legacy of the Dragonborn Patches (Official)\\DBM_ForgottenCity_Patch.esp",
+      "selected_sha256": "537f1e02d106184efc54dae3bbaf14214f846f6c855d0ae5fd6b6c79b4dcf123",
+      "layer": "F02 The Forgotten City",
+      "feature": "The Forgotten City"
+    },
+    {
+      "name": "[LongShou]WorldInPainting_ZeroHall.esp",
+      "pack": "Anno",
+      "source_mod_id": 291,
+      "source_mod": "【地点】画中世界 - 零号画展厅(龙霄宫的一幅画进去).7z",
+      "source_path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【地点】画中世界 - 零号画展厅(龙霄宫的一幅画进去).7z\\[LongShou]WorldInPainting_ZeroHall.esp",
+      "snapshot_path": "E:\\stock\\Skyrim collection\\Database\\xedit_runs\\Anno\\Data\\[LongShou]WorldInPainting_ZeroHall.esp",
+      "sha256": "105e0bf084ec5bf5fb968406480a057c67daf35fc4a361589ea5fd6955f4a724",
+      "masters": [
+        "Skyrim.esm",
+        "Update.esm"
+      ],
+      "record_count": 44,
+      "is_light": false,
+      "native_reported_errors": 0,
+      "diagnostic_families": {},
+      "validated_replacement": null,
+      "selected_source": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【地点】画中世界 - 零号画展厅(龙霄宫的一幅画进去).7z\\[LongShou]WorldInPainting_ZeroHall.esp",
+      "selected_sha256": "105e0bf084ec5bf5fb968406480a057c67daf35fc4a361589ea5fd6955f4a724",
+      "layer": "F03 World In Painting - Zero Hall - UF6",
+      "feature": "World In Painting / Zero Hall / UF6"
+    },
+    {
+      "name": "[longshou]UF6.esp",
+      "pack": "Anno",
+      "source_mod_id": 290,
+      "source_mod": "【地点】画中世界 - 画中世界01 - 天际未来城（画中画）.7z",
+      "source_path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【地点】画中世界 - 画中世界01 - 天际未来城（画中画）.7z\\[longshou]UF6.esp",
+      "snapshot_path": "E:\\stock\\Skyrim collection\\Database\\xedit_runs\\Anno\\Data\\[longshou]UF6.esp",
+      "sha256": "aa7c4d56f3c746e66d0a3dc79c83336f7c45a6fb33ded9d37b5144c1c8a9f55b",
+      "masters": [
+        "Skyrim.esm",
+        "Update.esm",
+        "Dragonborn.esm",
+        "[LongShou]WorldInPainting_ZeroHall.esp"
+      ],
+      "record_count": 375,
+      "is_light": true,
+      "native_reported_errors": 21,
+      "diagnostic_families": {
+        "Compact brightness variant versus full light master": 21
+      },
+      "validated_replacement": {
+        "pack": "Anno",
+        "plugin": "[longshou]UF6.esp",
+        "source_snapshot": "E:\\stock\\Skyrim collection\\Database\\xedit_runs\\Anno\\Data\\[longshou]UF6.esp",
+        "source_sha256": "aa7c4d56f3c746e66d0a3dc79c83336f7c45a6fb33ded9d37b5144c1c8a9f55b",
+        "candidate": "E:\\stock\\Skyrim collection\\Database\\repairs\\Anno\\fixed\\[longshou]UF6.esp",
+        "candidate_sha256": "37472e17e48101ec53fa6046385cbc29068db4b244bbfbd5bfbd2a7c5256783d",
+        "candidate_size": 63183
+      },
+      "selected_source": "E:\\stock\\Skyrim collection\\Database\\repairs\\Anno\\fixed\\[longshou]UF6.esp",
+      "selected_sha256": "37472e17e48101ec53fa6046385cbc29068db4b244bbfbd5bfbd2a7c5256783d",
+      "layer": "F03 World In Painting - Zero Hall - UF6",
+      "feature": "World In Painting / Zero Hall / UF6"
+    },
+    {
+      "name": "Glenmoril.esm",
+      "pack": "Anno",
+      "source_mod_id": 59,
+      "source_mod": "Glenmoril - English Translation SE",
+      "source_path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\Glenmoril - English Translation SE\\Glenmoril.esm",
+      "snapshot_path": "E:\\stock\\Skyrim collection\\Database\\xedit_runs\\Anno\\Data\\Glenmoril.esm",
+      "sha256": "b1e649406bfebf9485db799d285b1620b07fe776394b32a03e291fa05e862761",
+      "masters": [
+        "Skyrim.esm",
+        "Update.esm",
+        "Dawnguard.esm",
+        "Dragonborn.esm"
+      ],
+      "record_count": 144307,
+      "is_light": false,
+      "native_reported_errors": 0,
+      "diagnostic_families": {},
+      "validated_replacement": null,
+      "selected_source": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\Glenmoril - English Translation SE\\Glenmoril.esm",
+      "selected_sha256": "b1e649406bfebf9485db799d285b1620b07fe776394b32a03e291fa05e862761",
+      "layer": "F04 Glenmoril",
+      "feature": "Glenmoril"
+    },
+    {
+      "name": "MoonAndStar_MAS.esp",
+      "pack": "Anno",
+      "source_mod_id": 88,
+      "source_mod": "Moon and Star",
+      "source_path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\Moon and Star\\MoonAndStar_MAS.esp",
+      "snapshot_path": "E:\\stock\\Skyrim collection\\Database\\xedit_runs\\Anno\\Data\\MoonAndStar_MAS.esp",
+      "sha256": "ac87eb9afdef9ed9490fabc4af2b4b1f4f3bc5cfd7b49c0785d867458ac36ad7",
+      "masters": [
+        "Skyrim.esm",
+        "Update.esm"
+      ],
+      "record_count": 4909,
+      "is_light": false,
+      "native_reported_errors": 4,
+      "diagnostic_families": {
+        "Referenced record absent in full selected load order": 4
+      },
+      "validated_replacement": null,
+      "selected_source": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\moonstar_cleanup_candidate\\MoonAndStar_MAS.esp",
+      "selected_sha256": "6182033b97b4fd106f2d8ecfe8174defef1788ca4e9f4dc059534b8d57ffb90e",
+      "layer": "F05 Moon and Star",
+      "feature": "Moon and Star"
+    },
+    {
+      "name": "ForgottenMagic_Redone.esp",
+      "pack": "Anno",
+      "source_mod_id": 751,
+      "source_mod": "【魔法】被遗忘的魔法-Forgotten Magic Redone SE",
+      "source_path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【魔法】被遗忘的魔法-Forgotten Magic Redone SE\\ForgottenMagic_Redone.esp",
+      "snapshot_path": "E:\\stock\\Skyrim collection\\Database\\xedit_runs\\Anno\\Data\\ForgottenMagic_Redone.esp",
+      "sha256": "c8df195c3b5e23db3f7dcd0d689c21bce0e28323c3463381571216db55e8e6b4",
+      "masters": [
+        "Skyrim.esm",
+        "Update.esm"
+      ],
+      "record_count": 1044,
+      "is_light": false,
+      "native_reported_errors": 0,
+      "diagnostic_families": {},
+      "validated_replacement": null,
+      "selected_source": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【魔法】被遗忘的魔法-Forgotten Magic Redone SE\\ForgottenMagic_Redone.esp",
+      "selected_sha256": "c8df195c3b5e23db3f7dcd0d689c21bce0e28323c3463381571216db55e8e6b4",
+      "layer": "F06 Forgotten Magic Redone",
+      "feature": "Forgotten Magic Redone"
+    },
+    {
+      "name": "SofiaFollower.esp",
+      "pack": "Anno",
+      "source_mod_id": 127,
+      "source_mod": "Sofia Follower v.2.51 (BSA)",
+      "source_path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\Sofia Follower v.2.51 (BSA)\\SofiaFollower.esp",
+      "snapshot_path": "E:\\stock\\Skyrim collection\\Database\\xedit_runs\\Anno\\Data\\SofiaFollower.esp",
+      "sha256": "8c70186252d0a4415e1ff02584b87adca4c685a4fc4d2dec94c09040ef3ec3c9",
+      "masters": [
+        "Skyrim.esm",
+        "Update.esm"
+      ],
+      "record_count": 1741,
+      "is_light": false,
+      "native_reported_errors": 0,
+      "diagnostic_families": {},
+      "validated_replacement": null,
+      "selected_source": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\Sofia Follower v.2.51 (BSA)\\SofiaFollower.esp",
+      "selected_sha256": "8c70186252d0a4415e1ff02584b87adca4c685a4fc4d2dec94c09040ef3ec3c9",
+      "layer": "F07 SofiaFollower.esp",
+      "feature": "SofiaFollower.esp"
+    },
+    {
+      "name": "HothFollower.esp",
+      "pack": "Anno",
+      "source_mod_id": 64,
+      "source_mod": "Hoth",
+      "source_path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\Hoth\\HothFollower.esp",
+      "snapshot_path": "E:\\stock\\Skyrim collection\\Database\\xedit_runs\\Anno\\Data\\HothFollower.esp",
+      "sha256": "0071a7200fdc42e8bf37dd20b87fb93109656fa55b2373f3404e029a2e9d9095",
+      "masters": [
+        "Skyrim.esm",
+        "Update.esm"
+      ],
+      "record_count": 343,
+      "is_light": false,
+      "native_reported_errors": 0,
+      "diagnostic_families": {},
+      "validated_replacement": null,
+      "selected_source": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\Hoth\\HothFollower.esp",
+      "selected_sha256": "0071a7200fdc42e8bf37dd20b87fb93109656fa55b2373f3404e029a2e9d9095",
+      "layer": "F08 HothFollower.esp",
+      "feature": "HothFollower.esp"
+    },
+    {
+      "name": "BenDoonSSE.esp",
+      "pack": "Anno",
+      "source_mod_id": 14,
+      "source_mod": "BenDoonSSE.V1.7 - VR Friendlier",
+      "source_path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\BenDoonSSE.V1.7 - VR Friendlier\\BenDoonSSE.esp",
+      "snapshot_path": "E:\\stock\\Skyrim collection\\Database\\xedit_runs\\Anno\\Data\\BenDoonSSE.esp",
+      "sha256": "afd1e978edaffe14adb8083686a184ace484de253c89fd73d7091ac7a7d27878",
+      "masters": [
+        "Skyrim.esm",
+        "Update.esm"
+      ],
+      "record_count": 3208,
+      "is_light": false,
+      "native_reported_errors": 0,
+      "diagnostic_families": {},
+      "validated_replacement": null,
+      "selected_source": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\BenDoonSSE.V1.7 - VR Friendlier\\BenDoonSSE.esp",
+      "selected_sha256": "afd1e978edaffe14adb8083686a184ace484de253c89fd73d7091ac7a7d27878",
+      "layer": "F09 BenDoonSSE.esp",
+      "feature": "BenDoonSSE.esp"
+    }
+  ],
+  "layers": [
+    "F01 Wyrmstooth",
+    "F02 The Forgotten City",
+    "F03 World In Painting - Zero Hall - UF6",
+    "F04 Glenmoril",
+    "F05 Moon and Star",
+    "F06 Forgotten Magic Redone",
+    "F07 SofiaFollower.esp",
+    "F08 HothFollower.esp",
+    "F09 BenDoonSSE.esp"
+  ],
+  "source_mods": [
+    {
+      "feature": "Wyrmstooth",
+      "id": 1641,
+      "source": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\龙之牙-Wyrmstooth",
+      "layer": "F01 Wyrmstooth"
+    },
+    {
+      "feature": "The Forgotten City",
+      "id": 137,
+      "source": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\The Forgotten City",
+      "layer": "F02 The Forgotten City"
+    },
+    {
+      "feature": "The Forgotten City",
+      "id": 1510,
+      "source": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\遗忘之城音频修复-The Forgotten City Music Bug Fixer",
+      "layer": "F02 The Forgotten City"
+    },
+    {
+      "feature": "World In Painting / Zero Hall / UF6",
+      "id": 291,
+      "source": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【地点】画中世界 - 零号画展厅(龙霄宫的一幅画进去).7z",
+      "layer": "F03 World In Painting - Zero Hall - UF6"
+    },
+    {
+      "feature": "World In Painting / Zero Hall / UF6",
+      "id": 290,
+      "source": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【地点】画中世界 - 画中世界01 - 天际未来城（画中画）.7z",
+      "layer": "F03 World In Painting - Zero Hall - UF6"
+    },
+    {
+      "feature": "Glenmoril",
+      "id": 1163,
+      "source": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\格伦茉莉-GLENMORIL",
+      "layer": "F04 Glenmoril"
+    },
+    {
+      "feature": "Glenmoril",
+      "id": 59,
+      "source": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\Glenmoril - English Translation SE",
+      "layer": "F04 Glenmoril"
+    },
+    {
+      "feature": "Moon and Star",
+      "id": 88,
+      "source": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\Moon and Star",
+      "layer": "F05 Moon and Star"
+    },
+    {
+      "feature": "Forgotten Magic Redone",
+      "id": 751,
+      "source": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【魔法】被遗忘的魔法-Forgotten Magic Redone SE",
+      "layer": "F06 Forgotten Magic Redone"
+    },
+    {
+      "feature": "SofiaFollower.esp",
+      "id": 127,
+      "source": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\Sofia Follower v.2.51 (BSA)",
+      "layer": "F07 SofiaFollower.esp"
+    },
+    {
+      "feature": "HothFollower.esp",
+      "id": 64,
+      "source": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\Hoth",
+      "layer": "F08 HothFollower.esp"
+    },
+    {
+      "feature": "BenDoonSSE.esp",
+      "id": 14,
+      "source": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\BenDoonSSE.V1.7 - VR Friendlier",
+      "layer": "F09 BenDoonSSE.esp"
+    }
+  ],
+  "resource_repairs": [
+    {
+      "source": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\remaining_base_semantics\\seq_candidate\\seq\\BenDoonSSE.seq",
+      "relative": "seq/BenDoonSSE.seq",
+      "reason": "xEdit fixed file FormIDs of exact enabled SGE quests; primary-source verified SEQ layout"
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\remaining_base_semantics\\seq_candidate\\seq\\ForgottenMagic_Redone.seq",
+      "relative": "seq/ForgottenMagic_Redone.seq",
+      "reason": "xEdit fixed file FormIDs of exact enabled SGE quests; primary-source verified SEQ layout"
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\validation\\moonstar_author_compile\\output\\MASLuckOfTheEmperorScript.pex",
+      "relative": "scripts/MASLuckOfTheEmperorScript.pex",
+      "reason": "Unmodified 421-byte included author PSC compiled successfully, PEX decompiled and properties/events/GetValue/SetValue independently checked"
+    }
+  ],
+  "source_manifest_sha256": "74cddb1f7d2849be35668c0fdd805b6679e17043214b329734c5ce709b5a7aee",
+  "preflight_sha256": "2f30d6cdd9d6327012a835228d2b2da805e2a5c40dc13856839e713874bba946",
+  "known_upstream_resource_issues": "See research/wyrmstooth_restoration and research/remaining_base_semantics; author records preserved, no invented script behavior."
+}

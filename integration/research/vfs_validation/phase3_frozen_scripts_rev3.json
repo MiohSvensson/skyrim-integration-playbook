@@ -1,0 +1,37 @@
+{
+  "status": "FROZEN_AFTER_QUEST_ALL_FEATURE_AND_TYPED_EFFECT_SHADER_EXTENSION",
+  "scripts": [
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\vfs_common.py",
+      "sha256": "e72e21d30b72cf9945e6bce429e31fcdde3cf409c4d98f9578d22ffb3fdda1ce"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\prepare_vfs_expectations.py",
+      "sha256": "2a325f97ecb5b0c08ca6fc91ef514c5757ae3f3bd40a907117273d073f564820"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\probe_resource_graph.py",
+      "sha256": "0617d1b365da0a14754fccbfc1491760156d8d8cf2cbdfb63b6d96bee9a72645"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\probe_vfs_full.py",
+      "sha256": "87f15b7e26bf8faa7993cafad637b72dfcc450640dd2ef502839f8abb7b7b8e3"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\probe_vfs.py",
+      "sha256": "ef969c8f5a817e220764b8adf9f6264d6b2f5bff8f49a2dccfa77bc909eb4c69"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\quest_resource_seeds.py",
+      "sha256": "25237d0a30a6e15d0d95f96de8a08820bbe369c7a80cb30b2e97cdae839e3913"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\external_nif_refs.py",
+      "sha256": "f1f0bc7ad327295ff62ed08f599f9d165cdbbc5d4ee757e28ed452d9d33d5416"
+    }
+  ],
+  "prior_freezes_retained": [
+    "phase3_frozen_scripts.json",
+    "phase3_quest_extension_revision.json"
+  ]
+}

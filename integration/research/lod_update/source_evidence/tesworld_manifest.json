@@ -1,0 +1,20 @@
+{
+  "commit": "763aee7622b336e05bf33893a372e3382b2431a4",
+  "files": [
+    {
+      "url": "https://raw.githubusercontent.com/panthuncia/TESWorld/763aee7622b336e05bf33893a372e3382b2431a4/src/plugins/Plugins.cpp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\lod_update\\source_evidence\\Plugins.cpp",
+      "sha256": "966c4703bdcf132e9fd1a7db4a8cc6a62a98538c5f33e911df816860fd408f4d"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/panthuncia/TESWorld/763aee7622b336e05bf33893a372e3382b2431a4/include/tesworld/Plugins.h",
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\lod_update\\source_evidence\\Plugins.h",
+      "sha256": "2ddbb62b4be03518f6c7587f02aa950a4bade6c6155abe50221348fda8d206cd"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/panthuncia/TESWorld/763aee7622b336e05bf33893a372e3382b2431a4/tests/PluginsTests.cpp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\lod_update\\source_evidence\\PluginsTests.cpp",
+      "sha256": "352873b057a2ff9dc2c6961c1be2a7dac2a146a1274d164c48059b4c5366a5c4"
+    }
+  ]
+}

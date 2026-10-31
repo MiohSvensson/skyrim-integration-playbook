@@ -1,0 +1,32 @@
+{
+  "status": "FROZEN_STATIC_PREPARATION_NO_DRIVER_EXECUTED",
+  "files": [
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\synthesis_final\\catalogue_official_replay.py",
+      "sha256": "c8742d8b56501223c68540ea8d4f2fea5d5044e5258da585a26e9caf21e879e1"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\synthesis_final\\prepare_replay.py",
+      "sha256": "c4311a9a1a0673260f163da6822a08330418787c45459a3688187d9c754b2aab"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\synthesis_final\\run_official_replay.py",
+      "sha256": "ff8f507cf22b40a2fe71bb48a5c22da46778ec843423d64acb7f1cb25d4bd9ff"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\synthesis_final\\official_replay_catalogue.json",
+      "sha256": "1e045ff88a06f2d2c5efb10321e8a5fec45f4e1ba91cb8fd3a6599a9a0f5ca56"
+    }
+  ],
+  "catalogue_driver_count": 6,
+  "compiled_runtime_files": 946,
+  "verified_argv_changes": "Only host executable resolution and five path argument values; all other tokens byte-for-byte recorded GUI host options.",
+  "seed_header_only_verified": true,
+  "dynamic_next_gates": [
+    "Prepare against final Unified Build expectations and private sidecar winner.",
+    "Actual MO2 injection and sidecar FileID guard.",
+    "Six driver exit0/stage output headers and own ID validity.",
+    "Final semantic comparison and xEdit diagnostics.",
+    "Final complete MO2 VFS and resources."
+  ]
+}

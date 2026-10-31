@@ -1,0 +1,68 @@
+# Default-deny: this is a control-plane/playbook repository, not an asset mirror.
+*
+
+# Allow traversal only into first-party control/research paths. Opening every
+# directory would let nested third-party .gitignore files override this policy.
+!/integration/
+!/integration/research/
+!/integration/research/**/
+!/rootcause/
+
+# Repository guide and runbook.
+!.gitignore
+!README.md
+!PLAYBOOK.md
+
+# Existing top-level research notes and the isolated xEdit launcher.
+!/*.md
+!/啟動xEdit.ps1
+
+# Integration control plane: scripts, decisions, state, and catalog.
+!/integration/*.py
+!/integration/*.md
+!/integration/*.json
+!/integration/*.csv
+
+# First-party research code and documentation.
+!/integration/research/**/*.py
+!/integration/research/**/*.pas
+!/integration/research/**/*.md
+
+# Current evidence indexes and bounded receipts.
+!/integration/research/**/*manifest*.json
+!/integration/research/**/*delivery*.json
+!/integration/research/**/*frozen*.json
+!/integration/research/**/accepted.json
+!/integration/research/**/source_preflight.json
+!/integration/research/verified_patch_install/validation_*.json
+!/integration/research/feature_conflicts/candidate/review_recheck_v14.json
+!/integration/research/catalog_decision_review/postapply/configuration_rebase_postapply_verified.json
+!/integration/research/plugin_integration/navi_unresolved_audit/final_navi_key_audit.json
+!/integration/research/plugin_integration/navi_unresolved_audit/stock_orphan_parent_absence_v6.json
+
+# Installer dependency outside the main integration directory.
+!/rootcause/plugin_binary.py
+
+# Third-party source snapshots, tool binaries, generated runs, and bulky history.
+/integration/research/**/primary_sources/
+/integration/research/**/author_source_cache/
+/integration/research/**/source_4_1_5f/
+/integration/research/**/tools/
+/integration/research/**/pg_runs/
+/integration/research/**/version_freezes/
+/integration/research/**/native_nifly/
+/integration/research/**/cache/
+/integration/research/runtime_layout/lod_update/FasterNGIO_1.6/
+/integration/research/plugin_integration/xedit_settings/xeInit_f5c00f3.pas
+/integration/research/lod_update/batches/
+/integration/research/verified_patch_install/fixtures/
+
+# Decompiled assemblies and generated bulk reports are local evidence, not handoff source.
+/integration/features_preflight.json
+/integration/research/**/asm/
+/integration/research/**/assembly/
+/integration/research/remaining_base_semantics/scripts/
+/integration/research/**/active_configuration_manifest.json
+/integration/research/**/bulk_manifest.json
+/integration/research/**/manifest_used.json
+/integration/research/**/gear_builder_manifest*.json

@@ -1,0 +1,135 @@
+{
+  "utc": "2026-10-31T13:35:37.851317+00:00",
+  "status": "PASS_RESEARCH_FIXTURES_AND_READONLY_PROFILE_PREFLIGHT",
+  "installer_sha256": "5b6be65b71f09de53a73c175016477364c609328d7b22cb11a217b86df314eb1",
+  "cases": [
+    {
+      "case": "byte-preserved BOM/comments/stars/mixed-newlines/builtin-modlist/activation",
+      "passed": true
+    },
+    {
+      "case": "duplicate activation rejected",
+      "passed": true
+    },
+    {
+      "case": "duplicate mod rows rejected",
+      "passed": true
+    },
+    {
+      "case": "master topology valid",
+      "passed": true
+    },
+    {
+      "case": "master inversion rejected",
+      "passed": true
+    },
+    {
+      "case": "missing master rejected",
+      "passed": true
+    },
+    {
+      "case": "full slot overflow rejected",
+      "passed": true
+    },
+    {
+      "case": "light slot overflow rejected",
+      "passed": true
+    },
+    {
+      "case": "explicit SHA-bound binary pass",
+      "passed": true
+    },
+    {
+      "case": "reject false-pass",
+      "passed": true
+    },
+    {
+      "case": "reject truthy-string-pass",
+      "passed": true
+    },
+    {
+      "case": "reject missing-candidate-sha",
+      "passed": true
+    },
+    {
+      "case": "reject wrong-candidate-sha",
+      "passed": true
+    },
+    {
+      "case": "reject source-only-preflight",
+      "passed": true
+    },
+    {
+      "case": "reject failed-leaf",
+      "passed": true
+    },
+    {
+      "case": "reject errors-even-with-pass",
+      "passed": true
+    },
+    {
+      "case": "changed independent-verifier source rejected",
+      "passed": true
+    },
+    {
+      "case": "explicit navigation binary pass",
+      "passed": true
+    },
+    {
+      "case": "navigation source preflight rejected",
+      "passed": true
+    },
+    {
+      "case": "candidate own ID ESL-safe",
+      "passed": true
+    },
+    {
+      "case": "candidate own ID ESL overflow rejected",
+      "passed": true
+    },
+    {
+      "case": "actual failed v9 producer rejected",
+      "passed": true
+    },
+    {
+      "case": "both actual profiles read-only planning/topology/consistent activation-loadorder",
+      "passed": true
+    },
+    {
+      "case": "seven private atomic copies and journal replacements succeed but acceptance remains false",
+      "passed": true,
+      "fixture": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\verified_patch_install\\fixtures\\9090b813c2e84c0e84511e65ebc09e92\\success",
+      "atomic_calls": 7,
+      "journal_rows": 7
+    },
+    {
+      "case": "injected second-copy failure restores exact prior bytes and journal rows",
+      "passed": true,
+      "fixture": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\verified_patch_install\\fixtures\\9090b813c2e84c0e84511e65ebc09e92\\rollback",
+      "atomic_calls": 3,
+      "journal_rows": 6
+    }
+  ],
+  "actual_profile_previews": [
+    {
+      "profile": "Unified Skyrim",
+      "slots": {
+        "full": 147,
+        "light": 931
+      },
+      "relocated_derived_suffix": [
+        "dyndolod.esp",
+        "synthesis - patch.esp"
+      ]
+    },
+    {
+      "profile": "Unified Build",
+      "slots": {
+        "full": 144,
+        "light": 931
+      },
+      "relocated_derived_suffix": []
+    }
+  ],
+  "limits": "No real runtime/profile/journal mutation. Fixture I/O exercises explicitly bypass producer guards; those gates are separately checked. No actual candidate installed or accepted."
+}

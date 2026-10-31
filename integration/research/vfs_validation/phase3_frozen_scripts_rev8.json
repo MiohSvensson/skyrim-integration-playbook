@@ -1,0 +1,133 @@
+{
+  "status": "FROZEN_V2_EXACT_AUTHOR_FC_LIMITATION_AND_CONDITIONAL_GLEN_TYPED_GUARDS",
+  "utc": "2026-10-31T13:07:53.238207+00:00",
+  "previous_freeze": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\phase3_frozen_scripts_rev7.json",
+  "scripts_and_contracts": [
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\vfs_common.py",
+      "sha256": "e72e21d30b72cf9945e6bce429e31fcdde3cf409c4d98f9578d22ffb3fdda1ce",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\frozen\\rev8\\vfs_common.py.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\prepare_vfs_expectations.py",
+      "sha256": "82a05f3b9dffc0b449a3d75d5ca9d4ffb47970bf2a3c94d3404e80fcd1228766",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\frozen\\rev8\\prepare_vfs_expectations.py.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\probe_vfs.py",
+      "sha256": "ef969c8f5a817e220764b8adf9f6264d6b2f5bff8f49a2dccfa77bc909eb4c69",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\frozen\\rev8\\probe_vfs.py.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\probe_resource_graph.py",
+      "sha256": "80d6f3616331fdedd9bcf3262ea71935407621b7ff31dbe85ed8b79410633c73",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\frozen\\rev8\\probe_resource_graph.py.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\probe_vfs_full.py",
+      "sha256": "4a3b89ba6c7be4123c8fdd44c3d960fe9e8d0c7005f8e35d783ec5659bd71a9f",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\frozen\\rev8\\probe_vfs_full.py.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\quest_resource_seeds.py",
+      "sha256": "cf25761f9bd8c03c4b2dd03a3a736e7440437bc70bfdcaf242e46ab7d85d0b43",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\frozen\\rev8\\quest_resource_seeds.py.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\bounded_quest_exceptions.py",
+      "sha256": "1d50f7048622df3cf3fd30b38904e5367d43d3c8e796b64b4f7611b5d09ec384",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\frozen\\rev8\\bounded_quest_exceptions.py.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\external_nif_refs.py",
+      "sha256": "f1f0bc7ad327295ff62ed08f599f9d165cdbbc5d4ee757e28ed452d9d33d5416",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\frozen\\rev8\\external_nif_refs.py.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\nif_resource_inventory.py",
+      "sha256": "a6f06370f7692f1d200469892116d73b016ee948347a2743efb62c8076a9b97b",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\frozen\\rev8\\nif_resource_inventory.py.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\supplemental_import\\supplemental_import_plan.json",
+      "sha256": "9098579e7698316259b1760d83dddbcec9f1acc939bc96521ce6283e4c736148",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\frozen\\rev8\\supplemental_import_plan.json.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\supplemental_import\\quest_resource_exceptions.json",
+      "sha256": "18a6af462053c3e678e1f4167839a2853c83e83757e291ad4ec29036d518c8ea",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\frozen\\rev8\\quest_resource_exceptions.json.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\supplemental_import\\BoundedQuestConsumerAudit.pas",
+      "sha256": "e27cc0ec050718b8f16de22f088631a933ccac1b54724ca32478ab587fc08d5e",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\frozen\\rev8\\BoundedQuestConsumerAudit.pas.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\supplemental_import\\bounded_contract_verification.json",
+      "sha256": "4d6223f21d75ddbb25124db35546da49c9b56c9c89717a7fcb5bbc45acf2c579",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\frozen\\rev8\\bounded_contract_verification.json.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\supplemental_import\\build_quest_exception_manifest.py",
+      "sha256": "387fe752aba1650dc37048162da7ef51ac8c3c11e14a76968c742e3186f20285",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\frozen\\rev8\\build_quest_exception_manifest.py.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\supplemental_import\\verify_bounded_contract.py",
+      "sha256": "c33993a6190d843f6a2f4092c109c7d01b4c6ca243d8c88a4dd629ee2004fe63",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\frozen\\rev8\\verify_bounded_contract.py.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\forgotten_city_author_compare\\author_compare.json",
+      "sha256": "f534995f3d6f197a0a83a3db1113f095188dcda1e19310403828f4ae46b8c672",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\frozen\\rev8\\author_compare.json.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\forgotten_city_author_compare\\compare_author_package.py",
+      "sha256": "b5f96184ba0a3ae525130f238eb66ec33630fa3ee4a4b0cc6445b2e8b38d4b91",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\frozen\\rev8\\compare_author_package.py.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\supplemental_import\\glen_female_branch_evidence.json",
+      "sha256": "b4988fada29c2f6366bd3ea333d725a1c070bc28e3f8f0d6fb5fe3c2b0d90592",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\frozen\\rev8\\glen_female_branch_evidence.json.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\supplemental_import\\glen_script_race_consumers.json",
+      "sha256": "d2dd8e5d503f477dd4a6c7962ccb6459b640045db3bdfeb65f074dadc865b748",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\frozen\\rev8\\glen_script_race_consumers.json.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\supplemental_import\\shaderbox_material_semantics_evidence.json",
+      "sha256": "d68abf60c3b0e3a5420c799f7fced7593c46bad44bd40689f9dbf493d78f6503",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\frozen\\rev8\\shaderbox_material_semantics_evidence.json.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\supplemental_import\\material_reference_image_comparison.json",
+      "sha256": "089ae7f3226f72f8ba60907644642952a67e881e479184578997961347b2c09f",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\frozen\\rev8\\material_reference_image_comparison.json.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\supplemental_import\\material_ensure_loaded_reference_anno.json",
+      "sha256": "6e56a6656ee64f0182a096485681723b57be585d90037d6d90fba77c76a2a833",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\frozen\\rev8\\material_ensure_loaded_reference_anno.json.frozen.txt"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\supplemental_import\\shaderbox_stock_material_evidence.json",
+      "sha256": "c6c7a41d8d99fd99248825bfeec2881f056f98d47b23bc75a1d9f0eff629637c",
+      "frozen_source_copy": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\frozen\\rev8\\shaderbox_stock_material_evidence.json.frozen.txt"
+    }
+  ],
+  "bounded_cases": 11,
+  "missing_alternative_paths": 13,
+  "source_only_verified_cases": 3,
+  "requires_actual_final_QEX_or_RSRC_cases": 8,
+  "changes": [
+    "FC motif is exact author-proved NOT_REPAIRED; full original ZIP and both canonical BSAs match source, exact SNDR plus INFO response5 TRDT guard.",
+    "Glen female branch requires actual full-context typed ARMA/skin/RACE/NPC plus closed NPC-template descendants, nonplayable flags, all male source payloads and author source script evidence.",
+    "Glen material requires final typed MATO/STAT consumers plus SinglePass1/noDNAM, source-preserved payloads, fixed reference-image machine bytes, matching selected/reference PE sections and pinned stock evidence; selected packed text/runtime remains unverified.",
+    "All new/unmatched paths, kinds, requesters, fields, alternatives or missing typed evidence remain fatal. No runtime/profile change or new probe run."
+  ],
+  "verification": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\supplemental_import\\bounded_contract_verification.json"
+}

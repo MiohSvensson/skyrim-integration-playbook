@@ -1,0 +1,15 @@
+# Whole-source read-only lighting schema preflight
+
+`run_preflight.py` uses the frozen `../lighting_schema.py` without modifying it. It reads only private, single-link copies named in the exact frozen source audit. The 101 path-and-SHA exclusions are recorded unchanged; the other 3741 are each attempted. It does not execute a recipe, judge source normal unit lengths, normalize geometry, resave a NIF, launch a native helper, or start a GUI/game/MO2/PG.
+
+Each `entries.jsonl` record includes original/source-reference hashes, schema block and shape counts, actual shape and shader block IDs, every real scene-child ordinal path, flags/descriptors, exact array counts and hashes, and a hash of the complete in-memory lighting snapshot. The complete arrays are not duplicated on disk. The snapshot hash uses UTF-8 JSON with sorted keys, compact separators, and `allow_nan=False`.
+
+Pairing uses actual child paths and a one-to-one shape-block witness. Names are compared only after the path is paired; no name-key map or deduplication is used. Shared pointers with different path lists are reported explicitly. No source nonunit-normal quality restriction is applied.
+
+The official parser raises on unknown block classes, but it can also log a block-size recovery seek or an EOF mismatch and return a parsed object. `audit_diagnostics.py` must run after the first runner completes. It preserves the original results and writes `summary_strict.json` and `failures_strict.json`, promoting every captured parser diagnostic/output to explicit review. The strict summary is the acceptance report; a normal return from `snapshot()` alone is insufficient.
+
+Reports are source coverage evidence only. They do not validate an actual PG output or grant any recipe/material change. Existing source exclusions remain unrepaired and untouched.
+
+The completed run attempted all 3741 candidates in 722 seconds. Original raw reports retain nine reviews: six LE83 inputs with pre-existing tangent NaN values, and three inputs whose shared shape has multiple child paths. `investigate_nonfinite.py` records the six paths and every exact typed NaN location; its tagged reporting hash never grants numeric validity. `postprocess_source_review.py` proves the three path-list versus semicolon-joined canonical-key representations against each exact reference node, one to one by shape block, with no name deduplication. It preserves all original run reports. Read `final_source_review.json` together with `source_numeric_summary.json` for the final source finding.
+
+The 3741 candidates contain 10447 shapes. No parser diagnostics, unknown block or unresolved schema/path/count disagreement remains. Six source tangent-NaN paths remain unapproved for PG and require a separate decision. UV2 and LAND flags are absent. EyeData is present on 179 `BSDynamicTriShape` shapes in 172 inputs; the frozen lighting snapshot does not include EyeData arrays, so the parent adapter must separately validate those bytes and any exact pinned-author dynamic derivation. These flag counts are for the 3741 selected candidates, excluding the prior 101 exact exclusions.

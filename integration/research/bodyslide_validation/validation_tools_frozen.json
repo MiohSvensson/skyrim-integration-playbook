@@ -1,0 +1,15 @@
+{
+  "status": "FROZEN_AFTER_ALL47_STATIC_VALIDATION",
+  "files": [
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\bodyslide_validation\\nif_tri.py",
+      "sha256": "ec6fcdea75839e842ef67e4cc8b6b989aa74b9361cbb4762ce2a69029c30c81f",
+      "bytes": 6473
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\bodyslide_validation\\validate_morph_outputs.py",
+      "sha256": "0e0ce8767e7991c9d7e23ae3d056a36730a615aa53102bf0bfe416014ae2660a",
+      "bytes": 5924
+    }
+  ]
+}

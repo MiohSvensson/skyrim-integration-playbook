@@ -1,0 +1,59 @@
+{
+  "status": "BINARY_VERIFIER_ONLY_FROZEN_SOFIA_LAYOUT",
+  "pascal_producer_version": "v13 unchanged",
+  "source_scope": "SHA-guarded SofiaFollower.esp QUST00AA58 with outer and alias local Object Format2; no general mixed-format claim",
+  "files": [
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_conflicts\\verify_compatibility_v14.py",
+      "sha256": "2578e6a4a23b42f7afbb53bb8c4f86d0a9e9cf5449b2cc2cfb772be8e2936b97"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_conflicts\\quest_vmad_tail.py",
+      "sha256": "4994a8f5d1f6b95be61157fcb7301f3f3b8473ec94c47dcfdd65cb47e8a9d550"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_conflicts\\audit_quest_vmad_tail.py",
+      "sha256": "15601e560bc37a5987ed339823380529e1d4d5b625ee068bc86da35fd94d3a67"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_conflicts\\quest_vmad_tail_audit_v14.json",
+      "sha256": "559512ba87d7d8179a0ca2c6d8fea0078b6414346776019b0d1e73faee94e44a"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_conflicts\\candidate\\feature_binary_verified_v14_readonly.json",
+      "sha256": "ef5dfa699f08d75eb3b02a8563efd3085a7c72ab065ac3117760c6e6cfd238cb"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_conflicts\\draft_version_manifest.v13.json",
+      "sha256": "5aa9286539408e0383f386629f742f25585d2468768d549a6361c28f9714376d"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_conflicts\\analyze_fields.py",
+      "sha256": "a4b619b03c1589fde861622fef3a34d3f957bc18a175c94f3690426cf2142492"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_conflicts\\vmad_audit.py",
+      "sha256": "f425c63f20bc7ba02ef34da47e55a5320c63ce3fd5625ed4fb6a52ab7b31e447"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_conflicts\\build_compat_plan.py",
+      "sha256": "3fb38de54e260fb171859b2d0c9133e2fdc873633e6d5e96a1956f625c023f7f"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_conflicts\\comparator_scope.py",
+      "sha256": "3e79c555d617c25efb12adf3742bf88a5b849ced432fe995f6d9735d07184812"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_conflicts\\placement_contract.py",
+      "sha256": "1d360921649a24f07380831860ffbb5c1c25b642f552015b6b4b656b219dee80"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_conflicts\\compat_patch_plan.json",
+      "sha256": "5fff01e42239ed0d48535de1eb6bae8b0f9225017f6d38c3ba5457b18de4090e"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_conflicts\\physical_placement_contract.json",
+      "sha256": "8ebe5c0b260fc4e8ebe9a9a91986f8c0fc144ad98383d57a12e75ab0c9c1ff7a"
+    }
+  ]
+}

@@ -1,0 +1,1171 @@
+{
+  "input_file_count": 97,
+  "logical_bytes": 578351994,
+  "files": [
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/catwoman/catwoman - arkham city catsuit 1st person.nif",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\Catwoman\\Catwoman - Arkham City Catsuit 1st Person.nif",
+      "mod_id": 28,
+      "mod_name": "clothes pack",
+      "bytes": 84865,
+      "roles": [
+        "SourceFile"
+      ],
+      "sha256": "715d3c15f61032727763fe245ccda5955195f0e123112e4c2c3a92836004cb33"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/catwoman/catwoman - arkham city catsuit 1st person.osd",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\Catwoman\\Catwoman - Arkham City Catsuit 1st Person.osd",
+      "mod_id": 28,
+      "mod_name": "clothes pack",
+      "bytes": 132461,
+      "roles": [
+        "SliderData"
+      ],
+      "sha256": "0514d2806fef3bf0b9dfbc00b6a4a4e35288c8a23bfb9bf4b3d25198118881a3"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/catwoman/catwoman - arkham city catsuit.nif",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\Catwoman\\Catwoman - Arkham City Catsuit.nif",
+      "mod_id": 28,
+      "mod_name": "clothes pack",
+      "bytes": 562455,
+      "roles": [
+        "SourceFile"
+      ],
+      "sha256": "9becd4433d810243b41d47afb6d8635f89ac210da5ed98d658557402b31d2726"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/catwoman/catwoman - arkham city catsuit.osd",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\Catwoman\\Catwoman - Arkham City Catsuit.osd",
+      "mod_id": 28,
+      "mod_name": "clothes pack",
+      "bytes": 1898718,
+      "roles": [
+        "SliderData"
+      ],
+      "sha256": "f2d2aa9f1ff46801f03f703573a36006ac22c02868047e3a902a1dc392758704"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/catwoman/catwoman - arkham knight catsuit 1st person.nif",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\Catwoman\\Catwoman - Arkham Knight Catsuit 1st Person.nif",
+      "mod_id": 28,
+      "mod_name": "clothes pack",
+      "bytes": 90885,
+      "roles": [
+        "SourceFile"
+      ],
+      "sha256": "eb2f2ce235e92fc31dd5367a58c8da58fc10cfdc3771efc50cd2bd0b428e9263"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/catwoman/catwoman - arkham knight catsuit 1st person.osd",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\Catwoman\\Catwoman - Arkham Knight Catsuit 1st Person.osd",
+      "mod_id": 28,
+      "mod_name": "clothes pack",
+      "bytes": 128974,
+      "roles": [
+        "SliderData"
+      ],
+      "sha256": "67749c0cd8f75e54fbf1791efefc8af3242530580d98210cd39a3f4801232190"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/catwoman/catwoman - arkham knight catsuit.nif",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\Catwoman\\Catwoman - Arkham Knight Catsuit.nif",
+      "mod_id": 28,
+      "mod_name": "clothes pack",
+      "bytes": 888112,
+      "roles": [
+        "SourceFile"
+      ],
+      "sha256": "658d6bb37ee1b997abb6e8319de93280a7b645f735ffa0bf3f858901fbc0e228"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/catwoman/catwoman - arkham knight catsuit.osd",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\Catwoman\\Catwoman - Arkham Knight Catsuit.osd",
+      "mod_id": 28,
+      "mod_name": "clothes pack",
+      "bytes": 3571461,
+      "roles": [
+        "SliderData"
+      ],
+      "sha256": "95b74fafcff1a34cf53940de10e1eb8311f82a03cdeb985be68332548e915934"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/catwoman/catwoman - injustice catsuit.nif",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\Catwoman\\Catwoman - Injustice Catsuit.nif",
+      "mod_id": 28,
+      "mod_name": "clothes pack",
+      "bytes": 591094,
+      "roles": [
+        "SourceFile"
+      ],
+      "sha256": "e038bfcd423733b64cf0ece7f8ec4f7aebc933db0c3170673fe6a10ac3e2de23"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/catwoman/catwoman - injustice catsuit.osd",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\Catwoman\\Catwoman - Injustice Catsuit.osd",
+      "mod_id": 28,
+      "mod_name": "clothes pack",
+      "bytes": 1832171,
+      "roles": [
+        "SliderData"
+      ],
+      "sha256": "18b59d221d81b40f942c601b6c08ba85e0c470ab96605024b2a22fee24506181"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/catwoman/catwoman - catsuit.nif",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\Catwoman\\Catwoman - Catsuit.nif",
+      "mod_id": 28,
+      "mod_name": "clothes pack",
+      "bytes": 2219634,
+      "roles": [
+        "SourceFile"
+      ],
+      "sha256": "2452cbc50c942dfbe7aba70259688b00ad0610ba0e335d2bba746a63439917a2"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/catwoman/catwoman - catsuit.osd",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\Catwoman\\Catwoman - Catsuit.osd",
+      "mod_id": 28,
+      "mod_name": "clothes pack",
+      "bytes": 13410901,
+      "roles": [
+        "SliderData"
+      ],
+      "sha256": "14fb5980465d5e3d80b6705348e5bc7755aad1492e7e3102213dc4a052fae69a"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/bdor chic lua/bdor chic lua cloak.nif",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【服装】 银鳞甲 [SE] BDOR Chic Lua\\CalienteTools\\BodySlide\\ShapeData\\BDOR Chic Lua\\BDOR Chic Lua Cloak.nif",
+      "mod_id": 387,
+      "mod_name": "【服装】 银鳞甲 [SE] BDOR Chic Lua",
+      "bytes": 3185196,
+      "roles": [
+        "SourceFile"
+      ],
+      "sha256": "491bf257a224d344d1f177c49dd18f2bfbbc4ff61b64e91cdfb6c9d68c7e9c31"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/bdor chic lua/bdor chic lua cloak.osd",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【服装】 银鳞甲 [SE] BDOR Chic Lua\\CalienteTools\\BodySlide\\ShapeData\\BDOR Chic Lua\\BDOR Chic Lua Cloak.osd",
+      "mod_id": 387,
+      "mod_name": "【服装】 银鳞甲 [SE] BDOR Chic Lua",
+      "bytes": 6852475,
+      "roles": [
+        "SliderData"
+      ],
+      "sha256": "3fbdc7f1cafc5ebc3376a52cd491f8e8936167e694b5cc0816f3020c4242e9b5"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/bdor chic lua/bdor chic lua hand.nif",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【服装】 银鳞甲 [SE] BDOR Chic Lua\\CalienteTools\\BodySlide\\ShapeData\\BDOR Chic Lua\\BDOR Chic Lua Hand.nif",
+      "mod_id": 387,
+      "mod_name": "【服装】 银鳞甲 [SE] BDOR Chic Lua",
+      "bytes": 1120907,
+      "roles": [
+        "SourceFile"
+      ],
+      "sha256": "5ef8e45813429d550a1616308f5402e98445c2084267d70dedfa8a93217e4f1e"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/bdor chic lua/bdor chic lua hand.osd",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【服装】 银鳞甲 [SE] BDOR Chic Lua\\CalienteTools\\BodySlide\\ShapeData\\BDOR Chic Lua\\BDOR Chic Lua Hand.osd",
+      "mod_id": 387,
+      "mod_name": "【服装】 银鳞甲 [SE] BDOR Chic Lua",
+      "bytes": 241906,
+      "roles": [
+        "SliderData"
+      ],
+      "sha256": "82147942395adebc690ae6e4eae06d42e257fc445be51645260ab65a76d7913b"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/bdor ars magna/bdor ars magna hands.nif",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\BDOR Ars Magna\\BDOR Ars Magna Hands.nif",
+      "mod_id": 28,
+      "mod_name": "clothes pack",
+      "bytes": 1012326,
+      "roles": [
+        "SourceFile"
+      ],
+      "sha256": "d3e409a08b9cfa4d8b6b70d7f4cdfac4c5ae6887c33e8a501a848b41c0a0412b"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/bdor ars magna/bdor ars magna hands.osd",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\BDOR Ars Magna\\BDOR Ars Magna Hands.osd",
+      "mod_id": 28,
+      "mod_name": "clothes pack",
+      "bytes": 382565,
+      "roles": [
+        "SliderData"
+      ],
+      "sha256": "048bf353993edfa1534c38d5dad72be5b14320ca535052e8bfae24e2c6a27ade"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/cbbe/cbbe hands.osd",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\女性身形-Caliente's Beautiful Bodies Enhancer\\CalienteTools\\BodySlide\\ShapeData\\CBBE\\CBBE Hands.osd",
+      "mod_id": 992,
+      "mod_name": "女性身形-Caliente's Beautiful Bodies Enhancer",
+      "bytes": 5307,
+      "roles": [
+        "SliderData"
+      ],
+      "sha256": "3c5041cb2e942579c8b9a13973b9a8ed581f13bbd9213443b0eaf4179a5edaf8"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/bdor night stalker/bdor night stalker - body.nif",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\BDOR Night Stalker\\BDOR Night Stalker - Body.nif",
+      "mod_id": 28,
+      "mod_name": "clothes pack",
+      "bytes": 5843973,
+      "roles": [
+        "SourceFile"
+      ],
+      "sha256": "1b0231af28e4e1b4d40fa3180056ef2ac446156254744a0cf8fdb8cbd19a6f6d"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/bdor night stalker/bdor night stalker - body.osd",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\BDOR Night Stalker\\BDOR Night Stalker - Body.osd",
+      "mod_id": 28,
+      "mod_name": "clothes pack",
+      "bytes": 19056117,
+      "roles": [
+        "SliderData"
+      ],
+      "sha256": "6e40cf669346ba8fa8b46d6dc309b45758dce99eb73e8dae9e1ac78ffe5c0d7c"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/bdor night stalker/bdor night stalker - hands.nif",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\BDOR Night Stalker\\BDOR Night Stalker - Hands.nif",
+      "mod_id": 28,
+      "mod_name": "clothes pack",
+      "bytes": 1474989,
+      "roles": [
+        "SourceFile"
+      ],
+      "sha256": "71e9ca7f7ed2201bd543206bb5f103674678b157d3dad7f9ac0290c1c7895db7"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/bdor night stalker/bdor night stalker - hands.osd",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\BDOR Night Stalker\\BDOR Night Stalker - Hands.osd",
+      "mod_id": 28,
+      "mod_name": "clothes pack",
+      "bytes": 1237741,
+      "roles": [
+        "SliderData"
+      ],
+      "sha256": "c9084ce393ed3121fcf102eb3f74802ae222aa9cf723b047610b39b09beac593"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/bdor poetica/bdor poetica - hands.nif",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【服装】 休闲蓝服装 [SE] BDOR Poetica\\CalienteTools\\BodySlide\\ShapeData\\BDOR Poetica\\BDOR Poetica - Hands.nif",
+      "mod_id": 366,
+      "mod_name": "【服装】 休闲蓝服装 [SE] BDOR Poetica",
+      "bytes": 780275,
+      "roles": [
+        "SourceFile"
+      ],
+      "sha256": "744672e0584884db6d99e782896d4171cbb688fe0e226bff79433cb975127640"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/bdor poetica/bdor poetica - hands.osd",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【服装】 休闲蓝服装 [SE] BDOR Poetica\\CalienteTools\\BodySlide\\ShapeData\\BDOR Poetica\\BDOR Poetica - Hands.osd",
+      "mod_id": 366,
+      "mod_name": "【服装】 休闲蓝服装 [SE] BDOR Poetica",
+      "bytes": 38501,
+      "roles": [
+        "SliderData"
+      ],
+      "sha256": "1060e741b641da2e9a49e473b92f5dce8bfe79a41883bc21f3fb44b18a4eaa38"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/bdor rose noir/bdor rose noir - body.nif",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\BDOR Rose Noir\\BDOR Rose Noir - Body.nif",
+      "mod_id": 28,
+      "mod_name": "clothes pack",
+      "bytes": 2291876,
+      "roles": [
+        "SourceFile"
+      ],
+      "sha256": "bdf370319e110947056249cd73b501c99b7904637529d1a754a4286006afe12a"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/bdor rose noir/bdor rose noir - body.osd",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\BDOR Rose Noir\\BDOR Rose Noir - Body.osd",
+      "mod_id": 28,
+      "mod_name": "clothes pack",
+      "bytes": 7239147,
+      "roles": [
+        "SliderData"
+      ],
+      "sha256": "5d07bc9676061291fd189ce5460545d3e4b1904da1e762f36cdbe800dfc8d365"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/bdor rose noir/bdor rose noir - hands.nif",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\BDOR Rose Noir\\BDOR Rose Noir - Hands.nif",
+      "mod_id": 28,
+      "mod_name": "clothes pack",
+      "bytes": 862322,
+      "roles": [
+        "SourceFile"
+      ],
+      "sha256": "20173dff8085300f33dfc107a06f4727d17eee97d775fef191461637801c84f9"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/bdor rose noir/bdor rose noir - hands.osd",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\BDOR Rose Noir\\BDOR Rose Noir - Hands.osd",
+      "mod_id": 28,
+      "mod_name": "clothes pack",
+      "bytes": 268046,
+      "roles": [
+        "SliderData"
+      ],
+      "sha256": "d1949601ac4bdbe2b4b380498c86e24f82cf2e31f05bf9f1e81860f71f8421f2"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/ebony armor kai boots cbbe 3ba/ebony armor kai boots cbbe 3ba.nif",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【服装】 乌木甲-Ebony Armor Kai\\CalienteTools\\BodySlide\\ShapeData\\Ebony Armor Kai Boots CBBE 3BA\\Ebony Armor Kai Boots CBBE 3BA.nif",
+      "mod_id": 365,
+      "mod_name": "【服装】 乌木甲-Ebony Armor Kai",
+      "bytes": 108979,
+      "roles": [
+        "SourceFile"
+      ],
+      "sha256": "26403ae6677b68ac3b5ce6df9488a5a30fd3d9b23c7695d44c215b779dd32697"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/ebony armor kai boots cbbe 3ba/ebony armor kai boots cbbe 3ba.osd",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【服装】 乌木甲-Ebony Armor Kai\\CalienteTools\\BodySlide\\ShapeData\\Ebony Armor Kai Boots CBBE 3BA\\Ebony Armor Kai Boots CBBE 3BA.osd",
+      "mod_id": 365,
+      "mod_name": "【服装】 乌木甲-Ebony Armor Kai",
+      "bytes": 156588,
+      "roles": [
+        "SliderData"
+      ],
+      "sha256": "692e64230adaf27742e24f69edcf85bef44328bbb67cc0434b875625ff7f5899"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/ebony armor kai cbbe 3ba/ebony armor kai cbbe 3ba.nif",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【服装】 乌木甲-Ebony Armor Kai\\CalienteTools\\BodySlide\\ShapeData\\Ebony Armor Kai CBBE 3BA\\Ebony Armor Kai CBBE 3BA.nif",
+      "mod_id": 365,
+      "mod_name": "【服装】 乌木甲-Ebony Armor Kai",
+      "bytes": 2593185,
+      "roles": [
+        "SourceFile"
+      ],
+      "sha256": "5576f31640e8affc1eb9789aa01a784be01a84ffaab103133c4ed34b4f6184da"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/ebony armor kai cbbe 3ba/ebony armor kai cbbe 3ba.osd",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【服装】 乌木甲-Ebony Armor Kai\\CalienteTools\\BodySlide\\ShapeData\\Ebony Armor Kai CBBE 3BA\\Ebony Armor Kai CBBE 3BA.osd",
+      "mod_id": 365,
+      "mod_name": "【服装】 乌木甲-Ebony Armor Kai",
+      "bytes": 11167157,
+      "roles": [
+        "SliderData"
+      ],
+      "sha256": "70dc6ff05fec1455711df481771c9f49807e7b91521b3f85060d0763ef3659c9"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/ebony armor kai gauntlets cbbe 3ba/ebony armor kai gauntlets cbbe 3ba.nif",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【服装】 乌木甲-Ebony Armor Kai\\CalienteTools\\BodySlide\\ShapeData\\Ebony Armor Kai Gauntlets CBBE 3BA\\Ebony Armor Kai Gauntlets CBBE 3BA.nif",
+      "mod_id": 365,
+      "mod_name": "【服装】 乌木甲-Ebony Armor Kai",
+      "bytes": 142205,
+      "roles": [
+        "SourceFile"
+      ],
+      "sha256": "b0686354fd504fa3c89404d09e8f5f15dae0169ef43ed714526fd7fe840addb7"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/ebony armor kai gauntlets cbbe 3ba/ebony armor kai gauntlets cbbe 3ba.osd",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【服装】 乌木甲-Ebony Armor Kai\\CalienteTools\\BodySlide\\ShapeData\\Ebony Armor Kai Gauntlets CBBE 3BA\\Ebony Armor Kai Gauntlets CBBE 3BA.osd",
+      "mod_id": 365,
+      "mod_name": "【服装】 乌木甲-Ebony Armor Kai",
+      "bytes": 38581,
+      "roles": [
+        "SliderData"
+      ],
+      "sha256": "ab445f80fbaee931b3b0137d8fea53db66de922c0e121c8490919fbf37462f91"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/bdo reborn nereid main/c_main.nif",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\BDO Reborn Nereid Main\\C_Main.nif",
+      "mod_id": 28,
+      "mod_name": "clothes pack",
+      "bytes": 4082064,
+      "roles": [
+        "SourceFile"
+      ],
+      "sha256": "ffe8d1d14aaa221a4c599c69e38f69f829489cb4fd679db9620ecb4643895280"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/bdo reborn nereid main/c_main.osd",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\BDO Reborn Nereid Main\\C_Main.osd",
+      "mod_id": 28,
+      "mod_name": "clothes pack",
+      "bytes": 15309654,
+      "roles": [
+        "SliderData"
+      ],
+      "sha256": "12e6a6d64ddd2e4294a9eef65516fb53b49488dadbf430414ff2e6fce90509af"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/bdo reborn selaine main/s_main.nif",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\BDO Reborn Selaine Main\\S_Main.nif",
+      "mod_id": 28,
+      "mod_name": "clothes pack",
+      "bytes": 3691131,
+      "roles": [
+        "SourceFile"
+      ],
+      "sha256": "944f70463b13be32ac30062575f806b46f569e4daf258aca322b9857ceee3f48"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/bdo reborn selaine main/s_main.osd",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\BDO Reborn Selaine Main\\S_Main.osd",
+      "mod_id": 28,
+      "mod_name": "clothes pack",
+      "bytes": 13824327,
+      "roles": [
+        "SliderData"
+      ],
+      "sha256": "383fc96e78c0947725b593da0a5f6f0ee24e7ba0d5a68053a99de3b0761615d4"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/bdo reborn sephia main/se_main.nif",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\BDO Reborn Sephia Main\\SE_Main.nif",
+      "mod_id": 28,
+      "mod_name": "clothes pack",
+      "bytes": 3830412,
+      "roles": [
+        "SourceFile"
+      ],
+      "sha256": "b58fe787fdce8c0ce28d95a7ecb6b9083286745caa1d9d7b2672c614fec872dd"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/bdo reborn sephia main/se_main.osd",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\BDO Reborn Sephia Main\\SE_Main.osd",
+      "mod_id": 28,
+      "mod_name": "clothes pack",
+      "bytes": 15796059,
+      "roles": [
+        "SliderData"
+      ],
+      "sha256": "779724c11a7c3382d4498c1284aac26e72a1c69a6010c5a9f8160fac7bc55f82"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/fangfeizhuzhi dress/fangfeizhuzhi dress.nif",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\fangfeizhuzhi DRESS\\fangfeizhuzhi DRESS.nif",
+      "mod_id": 28,
+      "mod_name": "clothes pack",
+      "bytes": 13841424,
+      "roles": [
+        "SourceFile"
+      ],
+      "sha256": "f5b6ecf494f758c80fa4daea61b172629ccd754efda382e0c60e64bf0f068739"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/fangfeizhuzhi dress/fangfeizhuzhi dress.osd",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\fangfeizhuzhi DRESS\\fangfeizhuzhi DRESS.osd",
+      "mod_id": 28,
+      "mod_name": "clothes pack",
+      "bytes": 41802069,
+      "roles": [
+        "SliderData"
+      ],
+      "sha256": "d2312e2cef6405436f3cc90818d3f5fac8091b23f0c0806e8cb8b92cbb5fadcb"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/[grimlook33] mai shiranu s2/[grimlook33] mai shiranu s2 pants.nif",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\[Grimlook33] Mai Shiranu S2\\[Grimlook33] Mai Shiranu S2 Pants.nif",
+      "mod_id": 28,
+      "mod_name": "clothes pack",
+      "bytes": 2925692,
+      "roles": [
+        "SourceFile"
+      ],
+      "sha256": "9ea1074ca8f81cbc6deb8dd6a739149e5d69e2087cd244ef38e68dacb03dcec5"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/[grimlook33] mai shiranu s2/[grimlook33] mai shiranu s2 pants.osd",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\[Grimlook33] Mai Shiranu S2\\[Grimlook33] Mai Shiranu S2 Pants.osd",
+      "mod_id": 28,
+      "mod_name": "clothes pack",
+      "bytes": 3335701,
+      "roles": [
+        "SliderData"
+      ],
+      "sha256": "2a82289aa23b63f78580e4913e2d8e05e6b48da0e5944a54699a568919ee7a7c"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/[grimlook33] mai shiranu s2/[grimlook33] mai shiranu s2 jacket.nif",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\[Grimlook33] Mai Shiranu S2\\[Grimlook33] Mai Shiranu S2 Jacket.nif",
+      "mod_id": 28,
+      "mod_name": "clothes pack",
+      "bytes": 2695690,
+      "roles": [
+        "SourceFile"
+      ],
+      "sha256": "622a28be09cbecc9359e736514fd0505ad5bc6a4ec3b4348b763e83e26cb09d1"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/[grimlook33] mai shiranu s2/[grimlook33] mai shiranu s2 jacket.osd",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\[Grimlook33] Mai Shiranu S2\\[Grimlook33] Mai Shiranu S2 Jacket.osd",
+      "mod_id": 28,
+      "mod_name": "clothes pack",
+      "bytes": 10638291,
+      "roles": [
+        "SliderData"
+      ],
+      "sha256": "a6f11ba45ccf7b5e227ed39e72753bf5b107f9324e9d411bbbb595fc8974451f"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/hongluanzhuojin dress/hongluanzhuojin dress.nif",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\hongluanzhuojin dress\\hongluanzhuojin dress.nif",
+      "mod_id": 28,
+      "mod_name": "clothes pack",
+      "bytes": 8498878,
+      "roles": [
+        "SourceFile"
+      ],
+      "sha256": "fbf8dd317fde02fa246bf25009a020d96054adf77b8c5d880f488a36db387060"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/hongluanzhuojin dress/hongluanzhuojin dress.osd",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\hongluanzhuojin dress\\hongluanzhuojin dress.osd",
+      "mod_id": 28,
+      "mod_name": "clothes pack",
+      "bytes": 21385109,
+      "roles": [
+        "SliderData"
+      ],
+      "sha256": "4d38eaf4422801d1a9305c34afd9f626f4d6f09b189848ee673ac67043489489"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/lingzhuyinyue dress f 1/lingzhuyinyue dress f 1.nif",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\lingzhuyinyue dress f 1\\lingzhuyinyue dress f 1.nif",
+      "mod_id": 28,
+      "mod_name": "clothes pack",
+      "bytes": 10070001,
+      "roles": [
+        "SourceFile"
+      ],
+      "sha256": "002d823fd0497f5a435ad950566e2ee6e607094951119f520df8f8da2912d34a"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/lingzhuyinyue dress f 1/lingzhuyinyue dress f 1.osd",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\lingzhuyinyue dress f 1\\lingzhuyinyue dress f 1.osd",
+      "mod_id": 28,
+      "mod_name": "clothes pack",
+      "bytes": 29456243,
+      "roles": [
+        "SliderData"
+      ],
+      "sha256": "a0cf7f3bf825f465efc918fa038f24bacb52561744c0e2a56c5f6ac7dc3bf47a"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/lingzhuyinyue dress f 2/lingzhuyinyue dress f 2.nif",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\lingzhuyinyue dress f 2\\lingzhuyinyue dress f 2.nif",
+      "mod_id": 28,
+      "mod_name": "clothes pack",
+      "bytes": 12702730,
+      "roles": [
+        "SourceFile"
+      ],
+      "sha256": "b58b5ccc7bc3f9982df4025a7209b72fdfd00fecd27f488ab92d8e94c7acd221"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/lingzhuyinyue dress f 2/lingzhuyinyue dress f 2.osd",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\lingzhuyinyue dress f 2\\lingzhuyinyue dress f 2.osd",
+      "mod_id": 28,
+      "mod_name": "clothes pack",
+      "bytes": 37900592,
+      "roles": [
+        "SliderData"
+      ],
+      "sha256": "75d32ea2c75fd252831bafee42238bc2b67a0fc5779056b56cc6a1e7816ee0d9"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/loa 002 hands/loa 002 hands.nif",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\LoA 002 Hands\\LoA 002 Hands.nif",
+      "mod_id": 28,
+      "mod_name": "clothes pack",
+      "bytes": 754160,
+      "roles": [
+        "SourceFile"
+      ],
+      "sha256": "aaf0d24f81e1bfea8c07a961ce1a247e78d8437121dbcb5e57d7f2639636fe23"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/loa 002 hands/loa 002 hands.osd",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\LoA 002 Hands\\LoA 002 Hands.osd",
+      "mod_id": 28,
+      "mod_name": "clothes pack",
+      "bytes": 23496,
+      "roles": [
+        "SliderData"
+      ],
+      "sha256": "f822ca278a52987e39a9230b29b8c39ca3d44f7f90ebc81913c891cf8a774963"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/loa 002 main/loa 002 main.nif",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\LoA 002 Main\\LoA 002 Main.nif",
+      "mod_id": 28,
+      "mod_name": "clothes pack",
+      "bytes": 3039919,
+      "roles": [
+        "SourceFile"
+      ],
+      "sha256": "b109262e6311b371468ae9175fdb7ed413a3248305070ab9af520dd42a5c5aba"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/se 3bbb amazing/se 3bbb body amazing v2.osd",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\物理身形-CBBE 3BA\\CalienteTools\\BodySlide\\ShapeData\\SE 3BBB Amazing\\SE 3BBB Body Amazing v2.osd",
+      "mod_id": 1255,
+      "mod_name": "物理身形-CBBE 3BA",
+      "bytes": 8815319,
+      "roles": [
+        "SliderData"
+      ],
+      "sha256": "5b30e46af95ea15ff4b4d0e0442e689acef163b1f3111e13802df9ceb7df9f4d"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/loa 002 main/loa 002 main.osd",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\LoA 002 Main\\LoA 002 Main.osd",
+      "mod_id": 28,
+      "mod_name": "clothes pack",
+      "bytes": 3710680,
+      "roles": [
+        "SliderData"
+      ],
+      "sha256": "d4b8b982130a325b09fc3bfb8411c624e0bf0443f50f9ba61338003d2abee824"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/loa sorceress eternal skin alt main/loa sorceress eternal skin alt main.nif",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\LoA Sorceress Eternal Skin Alt Main\\LoA Sorceress Eternal Skin Alt Main.nif",
+      "mod_id": 28,
+      "mod_name": "clothes pack",
+      "bytes": 3868590,
+      "roles": [
+        "SourceFile"
+      ],
+      "sha256": "3b52683a36563fec95c3e35b945ebaceace1d7653d88dcd251f233a0c7fe65b3"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/loa sorceress eternal skin alt main/loa sorceress eternal skin alt main.osd",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\LoA Sorceress Eternal Skin Alt Main\\LoA Sorceress Eternal Skin Alt Main.osd",
+      "mod_id": 28,
+      "mod_name": "clothes pack",
+      "bytes": 14804054,
+      "roles": [
+        "SliderData"
+      ],
+      "sha256": "fa7aaf99d14bd078f09a8f5f5fd678346660f66fe511e6e8bc2500ebddcd7ba4"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/loa sorceress eternal skin main/loa sorceress eternal skin main.nif",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\LoA Sorceress Eternal Skin Main\\LoA Sorceress Eternal Skin Main.nif",
+      "mod_id": 28,
+      "mod_name": "clothes pack",
+      "bytes": 3868558,
+      "roles": [
+        "SourceFile"
+      ],
+      "sha256": "9186b8344fab7d1f15da63eb5e551055f36ce555d00e40dab6a52b88f3839511"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/loa sorceress eternal skin main/loa sorceress eternal skin main.osd",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\LoA Sorceress Eternal Skin Main\\LoA Sorceress Eternal Skin Main.osd",
+      "mod_id": 28,
+      "mod_name": "clothes pack",
+      "bytes": 14804054,
+      "roles": [
+        "SliderData"
+      ],
+      "sha256": "86e5ebd5e20566dc3d7a354703a1f4b3b77bfde4a35d90731077efef9ff1135c"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/sse_meltallic_bunny/sse_meltallic_bunny.nif",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\SSE_MELTALLIC_Bunny\\SSE_MELTALLIC_Bunny.nif",
+      "mod_id": 28,
+      "mod_name": "clothes pack",
+      "bytes": 3764921,
+      "roles": [
+        "SourceFile"
+      ],
+      "sha256": "126fc89db1f612833e7a156e18d80e4b0c3423f1b64f452b159a58f526e866a0"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/sse_meltallic_bunny/sse_meltallic_bunny.osd",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\SSE_MELTALLIC_Bunny\\SSE_MELTALLIC_Bunny.osd",
+      "mod_id": 28,
+      "mod_name": "clothes pack",
+      "bytes": 15825689,
+      "roles": [
+        "SliderData"
+      ],
+      "sha256": "13a73fbf528835c3858b0b6edca4be4b963bb1db11a1f254c1e17171a3191ef8"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/sse_meltallic_bunny/sse_meltallic_bunny_02.nif",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\SSE_MELTALLIC_Bunny\\SSE_MELTALLIC_Bunny_02.nif",
+      "mod_id": 28,
+      "mod_name": "clothes pack",
+      "bytes": 3484657,
+      "roles": [
+        "SourceFile"
+      ],
+      "sha256": "cfd8c9048d54effd5313b7f05443be581b9fa289a375581e421bcd5996203101"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/sse_meltallic_bunny/sse_meltallic_bunny_02.osd",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\SSE_MELTALLIC_Bunny\\SSE_MELTALLIC_Bunny_02.osd",
+      "mod_id": 28,
+      "mod_name": "clothes pack",
+      "bytes": 14634086,
+      "roles": [
+        "SliderData"
+      ],
+      "sha256": "b57686b976f50252980cdfacc340dfa83899d10e517adc53994c35f10a9f480a"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/sse_meltallic_bunny/sse_meltallic_bunny_heart.nif",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\SSE_MELTALLIC_Bunny\\SSE_MELTALLIC_Bunny_Heart.nif",
+      "mod_id": 28,
+      "mod_name": "clothes pack",
+      "bytes": 2068721,
+      "roles": [
+        "SourceFile"
+      ],
+      "sha256": "07384f309ff2a4d28a333e6b003456d58efc3af0c20e3a92209d4dc7311d7c21"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/sse_meltallic_bunny/sse_meltallic_bunny_heart.osd",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\SSE_MELTALLIC_Bunny\\SSE_MELTALLIC_Bunny_Heart.osd",
+      "mod_id": 28,
+      "mod_name": "clothes pack",
+      "bytes": 9117485,
+      "roles": [
+        "SliderData"
+      ],
+      "sha256": "ebd3b0fceaf10c7c0c0a8e92f52dd950bb351494a0c0f37ee71e05eca2b8536e"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/ovr sorceress aegir main/ovr sorceress aegir main.nif",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\OVR Sorceress Aegir Main\\OVR Sorceress Aegir Main.nif",
+      "mod_id": 28,
+      "mod_name": "clothes pack",
+      "bytes": 3280195,
+      "roles": [
+        "SourceFile"
+      ],
+      "sha256": "5c48b49a2988c645364619468b2fa269f85bed5908ab1cfba37fae6db3e7bef3"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/ovr sorceress aegir main/ovr sorceress aegir main.osd",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\OVR Sorceress Aegir Main\\OVR Sorceress Aegir Main.osd",
+      "mod_id": 28,
+      "mod_name": "clothes pack",
+      "bytes": 13437023,
+      "roles": [
+        "SliderData"
+      ],
+      "sha256": "e4c64ea7e0903832b2260d427ecc19793cf9e1c6e0400dacb04d3959586e90ca"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/igraine knight cbbe 3ba/bootsf.nif",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【服装】 贵族小裙子 SC - Order1886 - Igraine\\CalienteTools\\BodySlide\\ShapeData\\Igraine Knight CBBE 3BA\\BootsF.nif",
+      "mod_id": 385,
+      "mod_name": "【服装】 贵族小裙子 SC - Order1886 - Igraine",
+      "bytes": 424387,
+      "roles": [
+        "SourceFile"
+      ],
+      "sha256": "35b0ca4a50486e7ad7873404565f0e9a5b455fbe6cde8b31ddf5468df755c964"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/igraine knight cbbe 3ba/bootsf.osd",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【服装】 贵族小裙子 SC - Order1886 - Igraine\\CalienteTools\\BodySlide\\ShapeData\\Igraine Knight CBBE 3BA\\BootsF.osd",
+      "mod_id": 385,
+      "mod_name": "【服装】 贵族小裙子 SC - Order1886 - Igraine",
+      "bytes": 631263,
+      "roles": [
+        "SliderData"
+      ],
+      "sha256": "a5723b87b4756b7216c4c913e58f8277de82233ce68dea2ad45d895617fc8c9b"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/igraine knight cbbe 3ba/f.nif",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【服装】 贵族小裙子 SC - Order1886 - Igraine\\CalienteTools\\BodySlide\\ShapeData\\Igraine Knight CBBE 3BA\\F.nif",
+      "mod_id": 385,
+      "mod_name": "【服装】 贵族小裙子 SC - Order1886 - Igraine",
+      "bytes": 1805256,
+      "roles": [
+        "SourceFile"
+      ],
+      "sha256": "071b3df1d9769fd6ed89017b02a97d501033ac38f5d4dbcac82e82e46c89ff6d"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/igraine knight cbbe 3ba/f.osd",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【服装】 贵族小裙子 SC - Order1886 - Igraine\\CalienteTools\\BodySlide\\ShapeData\\Igraine Knight CBBE 3BA\\F.osd",
+      "mod_id": 385,
+      "mod_name": "【服装】 贵族小裙子 SC - Order1886 - Igraine",
+      "bytes": 4170172,
+      "roles": [
+        "SliderData"
+      ],
+      "sha256": "2ee79f95b5f1d7a04d30b50fe0f4dbcd68ed60967e930f14e8c3fecb1b3a9f65"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/igraine knight cbbe 3ba/handsf.nif",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【服装】 贵族小裙子 SC - Order1886 - Igraine\\CalienteTools\\BodySlide\\ShapeData\\Igraine Knight CBBE 3BA\\HandsF.nif",
+      "mod_id": 385,
+      "mod_name": "【服装】 贵族小裙子 SC - Order1886 - Igraine",
+      "bytes": 348614,
+      "roles": [
+        "SourceFile"
+      ],
+      "sha256": "1397122df98a064f24057e60f50f8d183c715fa2b660d73e010f6af4a7d1ba02"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/igraine knight cbbe 3ba/handsf.osd",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【服装】 贵族小裙子 SC - Order1886 - Igraine\\CalienteTools\\BodySlide\\ShapeData\\Igraine Knight CBBE 3BA\\HandsF.osd",
+      "mod_id": 385,
+      "mod_name": "【服装】 贵族小裙子 SC - Order1886 - Igraine",
+      "bytes": 4399,
+      "roles": [
+        "SliderData"
+      ],
+      "sha256": "2c7d5df15b88f809108eb92aa6684e7ea131ae061311dd16af07973d2f5f0bed"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/sse_3ba_green_nun/sse_3ba_green_nun_feet.nif",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【服装】 露臀裙子 Green Nun CBBE 3BA\\CalienteTools\\BodySlide\\ShapeData\\SSE_3BA_Green_Nun\\SSE_3BA_Green_Nun_Feet.nif",
+      "mod_id": 391,
+      "mod_name": "【服装】 露臀裙子 Green Nun CBBE 3BA",
+      "bytes": 2143812,
+      "roles": [
+        "SourceFile"
+      ],
+      "sha256": "34d827d444ba1e0476dcfc9388937ecd34ffa96bc7cff892d209629c703102f3"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/sse_3ba_green_nun/sse_3ba_green_nun_feet.osd",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【服装】 露臀裙子 Green Nun CBBE 3BA\\CalienteTools\\BodySlide\\ShapeData\\SSE_3BA_Green_Nun\\SSE_3BA_Green_Nun_Feet.osd",
+      "mod_id": 391,
+      "mod_name": "【服装】 露臀裙子 Green Nun CBBE 3BA",
+      "bytes": 89757,
+      "roles": [
+        "SliderData"
+      ],
+      "sha256": "13d071dd59b76c0268823b52463b0cf077b06a047c5638c5b622b9f7f8051be5"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/hanyiqinghua female.ver dress/hanyiqinghua female.ver dress.nif",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\hanyiqinghua Female.ver dress\\hanyiqinghua Female.ver dress.nif",
+      "mod_id": 28,
+      "mod_name": "clothes pack",
+      "bytes": 12125480,
+      "roles": [
+        "SourceFile"
+      ],
+      "sha256": "086c144780478914e9d9437869c4289eed464e14960d9fc7f16d5c383b665c12"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/hanyiqinghua female.ver dress/hanyiqinghua female.ver dress.osd",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\hanyiqinghua Female.ver dress\\hanyiqinghua Female.ver dress.osd",
+      "mod_id": 28,
+      "mod_name": "clothes pack",
+      "bytes": 34841003,
+      "roles": [
+        "SliderData"
+      ],
+      "sha256": "5ea884dd21b4ce91e2e65f2539c46781fe499d5d0db6a8671acc6ef5781386d6"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/mingzhuang-tm_11/mingzhuang-tm_11.nif",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\mingzhuang-tm_11\\mingzhuang-tm_11.nif",
+      "mod_id": 28,
+      "mod_name": "clothes pack",
+      "bytes": 3998265,
+      "roles": [
+        "SourceFile"
+      ],
+      "sha256": "291fa2473f4dd5f5ae792c0116bf8d5ba6c4a23cac2584b2e779c0cd54e5af26"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/mingzhuang-tm_11/mingzhuang-tm_11.osd",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\mingzhuang-tm_11\\mingzhuang-tm_11.osd",
+      "mod_id": 28,
+      "mod_name": "clothes pack",
+      "bytes": 12462213,
+      "roles": [
+        "SliderData"
+      ],
+      "sha256": "3d2445d130479735f61bd8841ffcee026f2279bb450953899ee9a607bdc00608"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/mingzhuang-tm xiezi/mingzhuang-tm xiezi.nif",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\mingzhuang-tm xiezi\\mingzhuang-tm xiezi.nif",
+      "mod_id": 28,
+      "mod_name": "clothes pack",
+      "bytes": 910231,
+      "roles": [
+        "SourceFile"
+      ],
+      "sha256": "b60d59211d4988344b32aacecba792d1f5e6cea8c935bd5838ba8458e7d51430"
+    },
+    {
+      "pack": "Anno",
+      "path_key": "calientetools/bodyslide/shapedata/mingzhuang-tm xiezi/mingzhuang-tm xiezi.osd",
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\clothes pack\\CalienteTools\\Bodyslide\\ShapeData\\mingzhuang-tm xiezi\\mingzhuang-tm xiezi.osd",
+      "mod_id": 28,
+      "mod_name": "clothes pack",
+      "bytes": 8898446,
+      "roles": [
+        "SliderData"
+      ],
+      "sha256": "c058e6f27b039eb519a1f9905190f79de385998544339e1faf6b9ee81134f0a9"
+    },
+    {
+      "pack": "Burida",
+      "path_key": "calientetools/bodyslide/shapedata/[se] fashion witch boots (3ba)/[se] fashion witch boots (3ba).nif",
+      "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\mods\\CAENARVON衣服整合\\CalienteTools\\BodySlide\\ShapeData\\[SE] Fashion Witch Boots (3BA)\\[SE] Fashion Witch Boots (3BA).nif",
+      "mod_id": 2002,
+      "mod_name": "CAENARVON衣服整合",
+      "bytes": 355452,
+      "roles": [
+        "SourceFile"
+      ],
+      "sha256": "24d19547ab6fc267f51e4fb00b1c5893e0a2fd42a53cd28dbfda4af6ff165f43"
+    },
+    {
+      "pack": "Burida",
+      "path_key": "calientetools/bodyslide/shapedata/[se] fashion witch boots (3ba)/[se] fashion witch boots (3ba).osd",
+      "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\mods\\CAENARVON衣服整合\\CalienteTools\\BodySlide\\ShapeData\\[SE] Fashion Witch Boots (3BA)\\[SE] Fashion Witch Boots (3BA).osd",
+      "mod_id": 2002,
+      "mod_name": "CAENARVON衣服整合",
+      "bytes": 14148,
+      "roles": [
+        "SliderData"
+      ],
+      "sha256": "f6f67929b320cc26c950178a2746214b376b2528554620e01202a29d26ef2030"
+    },
+    {
+      "pack": "Burida",
+      "path_key": "calientetools/bodyslide/shapedata/[se] fashion witch bracelet (3ba)/[se] fashion witch bracelet (3ba).nif",
+      "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\mods\\CAENARVON衣服整合\\CalienteTools\\BodySlide\\ShapeData\\[SE] Fashion Witch Bracelet (3BA)\\[SE] Fashion Witch Bracelet (3BA).nif",
+      "mod_id": 2002,
+      "mod_name": "CAENARVON衣服整合",
+      "bytes": 33467,
+      "roles": [
+        "SourceFile"
+      ],
+      "sha256": "5b1e0fc66a096eb7f31fff3f63e946dbc1f65cb50fd32b0ef82cd9491d043cf7"
+    },
+    {
+      "pack": "Burida",
+      "path_key": "calientetools/bodyslide/shapedata/[se] fashion witch bracelet (3ba)/[se] fashion witch bracelet (3ba).osd",
+      "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\mods\\CAENARVON衣服整合\\CalienteTools\\BodySlide\\ShapeData\\[SE] Fashion Witch Bracelet (3BA)\\[SE] Fashion Witch Bracelet (3BA).osd",
+      "mod_id": 2002,
+      "mod_name": "CAENARVON衣服整合",
+      "bytes": 13585,
+      "roles": [
+        "SliderData"
+      ],
+      "sha256": "f4b2b0562694d60b39cd9ab253c6fbee9c3ed6c5bf9f5e71536163abb3f25bfc"
+    },
+    {
+      "pack": "Burida",
+      "path_key": "calientetools/bodyslide/shapedata/[se] fashion witch bracelet chain (3ba)/[se] fashion witch bracelet chain (3ba).nif",
+      "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\mods\\CAENARVON衣服整合\\CalienteTools\\BodySlide\\ShapeData\\[SE] Fashion Witch Bracelet Chain (3BA)\\[SE] Fashion Witch Bracelet Chain (3BA).nif",
+      "mod_id": 2002,
+      "mod_name": "CAENARVON衣服整合",
+      "bytes": 254282,
+      "roles": [
+        "SourceFile"
+      ],
+      "sha256": "aefc2ca4a49042787e24eafc7205557e862c3c2ac6c007033eb16c4078f08099"
+    },
+    {
+      "pack": "Burida",
+      "path_key": "calientetools/bodyslide/shapedata/[se] fashion witch bracelet chain (3ba)/[se] fashion witch bracelet chain (3ba).osd",
+      "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\mods\\CAENARVON衣服整合\\CalienteTools\\BodySlide\\ShapeData\\[SE] Fashion Witch Bracelet Chain (3BA)\\[SE] Fashion Witch Bracelet Chain (3BA).osd",
+      "mod_id": 2002,
+      "mod_name": "CAENARVON衣服整合",
+      "bytes": 36578,
+      "roles": [
+        "SliderData"
+      ],
+      "sha256": "b5113b9fd4d10ca9465d0b42a9e89a3bfa903bd11bdbef9a4f946d95db2a97d4"
+    },
+    {
+      "pack": "Burida",
+      "path_key": "calientetools/bodyslide/shapedata/[se] fashion witch dress (3ba)/[se] fashion witch dress (3ba).nif",
+      "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\mods\\CAENARVON衣服整合\\CalienteTools\\BodySlide\\ShapeData\\[SE] Fashion Witch Dress (3BA)\\[SE] Fashion Witch Dress (3BA).nif",
+      "mod_id": 2002,
+      "mod_name": "CAENARVON衣服整合",
+      "bytes": 3805468,
+      "roles": [
+        "SourceFile"
+      ],
+      "sha256": "2c2fd581cf1e1c624e905694d273ba80fbdf5420c173aa5abbfd9734fd4116a7"
+    },
+    {
+      "pack": "Burida",
+      "path_key": "calientetools/bodyslide/shapedata/[se] fashion witch dress (3ba)/[se] fashion witch dress (3ba).osd",
+      "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\mods\\CAENARVON衣服整合\\CalienteTools\\BodySlide\\ShapeData\\[SE] Fashion Witch Dress (3BA)\\[SE] Fashion Witch Dress (3BA).osd",
+      "mod_id": 2002,
+      "mod_name": "CAENARVON衣服整合",
+      "bytes": 16818997,
+      "roles": [
+        "SliderData"
+      ],
+      "sha256": "36364dcba3a4df9db0ee5070d566bc91ffc2597b0846187585d45a9d10837b56"
+    },
+    {
+      "pack": "Burida",
+      "path_key": "calientetools/bodyslide/shapedata/se 3bbb amazing/se 3bbb body amazing v2.osd",
+      "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\mods\\CBBE 3BA\\CalienteTools\\BodySlide\\ShapeData\\SE 3BBB Amazing\\SE 3BBB Body Amazing v2.osd",
+      "mod_id": 2020,
+      "mod_name": "CBBE 3BA",
+      "bytes": 8815319,
+      "roles": [
+        "SliderData"
+      ],
+      "sha256": "5b30e46af95ea15ff4b4d0e0442e689acef163b1f3111e13802df9ceb7df9f4d"
+    },
+    {
+      "pack": "Burida",
+      "path_key": "calientetools/bodyslide/shapedata/[se] fashion witch heels (3ba)/[se] fashion witch heels (3ba).nif",
+      "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\mods\\CAENARVON衣服整合\\CalienteTools\\BodySlide\\ShapeData\\[SE] Fashion Witch Heels (3BA)\\[SE] Fashion Witch Heels (3BA).nif",
+      "mod_id": 2002,
+      "mod_name": "CAENARVON衣服整合",
+      "bytes": 1789424,
+      "roles": [
+        "SourceFile"
+      ],
+      "sha256": "9ae0b2e5f2f2a114342404ff28fda466bf9b60f0d287e20212d34bdb4f019300"
+    },
+    {
+      "pack": "Burida",
+      "path_key": "calientetools/bodyslide/shapedata/[se] fashion witch heels (3ba)/[se] fashion witch heels (3ba).osd",
+      "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\mods\\CAENARVON衣服整合\\CalienteTools\\BodySlide\\ShapeData\\[SE] Fashion Witch Heels (3BA)\\[SE] Fashion Witch Heels (3BA).osd",
+      "mod_id": 2002,
+      "mod_name": "CAENARVON衣服整合",
+      "bytes": 62098,
+      "roles": [
+        "SliderData"
+      ],
+      "sha256": "66a349fb9b1258ecbcce810b33b59eed0d293877a01c7f01d498a99e11f67342"
+    },
+    {
+      "pack": "Burida",
+      "path_key": "calientetools/bodyslide/shapedata/[se] fashion witch nails (3ba)/[se] fashion witch nails (3ba).nif",
+      "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\mods\\CAENARVON衣服整合\\CalienteTools\\BodySlide\\ShapeData\\[SE] Fashion Witch Nails (3BA)\\[SE] Fashion Witch Nails (3BA).nif",
+      "mod_id": 2002,
+      "mod_name": "CAENARVON衣服整合",
+      "bytes": 887235,
+      "roles": [
+        "SourceFile"
+      ],
+      "sha256": "79f308d97860c301f4befcaf0bbe7dbb056f8af81fdd287e67fb7790a1253e63"
+    },
+    {
+      "pack": "Burida",
+      "path_key": "calientetools/bodyslide/shapedata/[se] fashion witch nails (3ba)/[se] fashion witch nails (3ba).osd",
+      "path": "E:\\stock\\Skyrim collection\\Burida\\File Mod Skyrim SE\\mods\\CAENARVON衣服整合\\CalienteTools\\BodySlide\\ShapeData\\[SE] Fashion Witch Nails (3BA)\\[SE] Fashion Witch Nails (3BA).osd",
+      "mod_id": 2002,
+      "mod_name": "CAENARVON衣服整合",
+      "bytes": 12874,
+      "roles": [
+        "SliderData"
+      ],
+      "sha256": "bc9e5132c20c2c11526f37cb2e9ec4cb6daecaebc993238990f4bf55dd2c1633"
+    }
+  ],
+  "scope": "Source-only input hashes; no source mutation and no build executed."
+}

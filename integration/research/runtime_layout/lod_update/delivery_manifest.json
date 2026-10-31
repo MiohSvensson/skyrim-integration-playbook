@@ -1,0 +1,50 @@
+{
+  "status": "READ_ONLY_RESEARCH_DELIVERY_WITH_CPU_CLI_HELP_PROBE_ONLY",
+  "game_started": false,
+  "GUI_started": false,
+  "generation_executed": false,
+  "source_files_modified": false,
+  "all_work_under_Database": true,
+  "files": [
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\runtime_layout\\lod_update\\README.md",
+      "sha256": "20bb31fef0bae5119143150a24fa1358caa56e4fa82da68c0f61cfb9e9fd17e4"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\runtime_layout\\lod_update\\scope_inventory.json",
+      "sha256": "4fd30be06dd1d33934a6c7843a3593dc0d65aaed6aa4783c708508a44b152a71"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\runtime_layout\\lod_update\\generation_plan.json",
+      "sha256": "eb61ad54e9753983fca0139f90935a7f3f0e7962bbf35bcc699b64cf62dcc993"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\runtime_layout\\lod_update\\offline_grass_plan.json",
+      "sha256": "bea392f32301b14ed4a26cc5055c29d9995ef719d06feb0da5eb437932b87f2c"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\runtime_layout\\lod_update\\verify_cgid.py",
+      "sha256": "998fefa88278d5793b66ddd6a4aad4a61d267419d1b0501fda57f52d631ddae4"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\runtime_layout\\lod_update\\primary_source_manifest.json",
+      "sha256": "a4d1937a7952f76f3f5fe1f73216794f307b6df28f9ea5d9d4c1fe047318e2c9"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\runtime_layout\\lod_update\\existing_cache_schema_samples.json",
+      "sha256": "c9255eb9ebdad0f104f3832f97a57c698a3e359a45c1af27aaa705bf3f20494f"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\runtime_layout\\lod_update\\existing_Tamriel_cache_schema_samples.json",
+      "sha256": "0135fa0aa6c41d5141eecc66178fc87670186e05763df58d709014167c017f50"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\runtime_layout\\lod_update\\FasterNGIO_1.6\\manifest.json",
+      "sha256": "9f07bfed5b6a4b270f76e9c2a3dd911abec124f78def191374200c5748843874"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\runtime_layout\\lod_update\\FasterNGIO_1.6\\help_probe.json",
+      "sha256": "362d80ae3cfdd1138f70e366acf6b4998547aa6b3a6af2dc125aba9ebd09643e"
+    }
+  ]
+}

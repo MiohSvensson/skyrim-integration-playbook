@@ -1,0 +1,66 @@
+{
+  "utc": "2026-10-31T14:56:52.106510+00:00",
+  "status": "SOURCE_PREFLIGHT_PASS",
+  "sources": {
+    "vanilla": {
+      "path": "E:\\stock\\Skyrim collection\\Database\\repairs\\consistent_stock\\Data\\Skyrim.esm",
+      "sha256": "06a9881f6ab277afd2a82e71f8a3719183b7031db4d9c78a7f40c08e1e4ffa91"
+    },
+    "Glen": {
+      "path": "E:\\stock\\Skyrim collection\\Database\\xedit_runs\\Anno\\Data\\Glenmoril.esm",
+      "sha256": "b1e649406bfebf9485db799d285b1620b07fe776394b32a03e291fa05e862761"
+    },
+    "AK": {
+      "path": "E:\\stock\\Skyrim collection\\Database\\xedit_runs\\TuLED\\Data\\AKSkyrimUnderground.esm",
+      "sha256": "7f61c019dd24f1ef93c091183366fee873c3e4a2407ab35973a46f3d24c259c2"
+    },
+    "AncientLand": {
+      "path": "E:\\stock\\Skyrim collection\\Database\\xedit_runs\\TuLED\\Data\\AncientLand2.esp",
+      "sha256": "3fd60f011d6c155d397c1c1981dabb1c68fd0844df7673d856915ca6ad0d6213"
+    },
+    "RedBag": {
+      "path": "E:\\stock\\Skyrim collection\\Database\\xedit_runs\\TuLED\\Data\\RedBag's Falkreath.esp",
+      "sha256": "d544f3eab3bd60cf44de3df1decb842406cb3c15bbb59873e258b157ef1e8bcd"
+    }
+  },
+  "cases": [
+    {
+      "id": "skyrim.esm|016F5D",
+      "base": "AKSkyrimUnderground.esm",
+      "mapping": [
+        {
+          "source_triangle": 502,
+          "base_triangle": 502,
+          "door": "glenmoril.esm|0122F4"
+        }
+      ]
+    },
+    {
+      "id": "skyrim.esm|0EC466",
+      "base": "AncientLand2.esp",
+      "mapping": [
+        {
+          "source_triangle": 34,
+          "base_triangle": 34,
+          "door": "glenmoril.esm|014C1D"
+        }
+      ]
+    },
+    {
+      "id": "skyrim.esm|0EC469",
+      "base": "RedBag's Falkreath.esp",
+      "mapping": [
+        {
+          "source_triangle": 116,
+          "base_triangle": 116,
+          "door": "glenmoril.esm|0073D4"
+        },
+        {
+          "source_triangle": 325,
+          "base_triangle": 86,
+          "door": "glenmoril.esm|017737"
+        }
+      ]
+    }
+  ]
+}

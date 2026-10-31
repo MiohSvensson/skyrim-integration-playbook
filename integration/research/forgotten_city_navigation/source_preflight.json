@@ -1,0 +1,18 @@
+{
+  "utc": "2026-10-31T15:07:06.454481+00:00",
+  "status": "SOURCE_PREFLIGHT_PASS",
+  "sources": {
+    "vanilla": {
+      "path": "E:\\stock\\Skyrim collection\\Database\\repairs\\consistent_stock\\Data\\Skyrim.esm",
+      "sha256": "06a9881f6ab277afd2a82e71f8a3719183b7031db4d9c78a7f40c08e1e4ffa91"
+    },
+    "feature": {
+      "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\The Forgotten City\\ForgottenCity.esp",
+      "sha256": "25e4dc1cf2763523bfec6ac3dcb08c83d4c1fe54be719865688c38122eda34f2"
+    },
+    "USSEP": {
+      "path": "E:\\stock\\Skyrim collection\\Database\\xedit_runs\\TuLED\\Data\\Unofficial Skyrim Special Edition Patch.esp",
+      "sha256": "c42820ca1fb31d11254f4478a3f1725db1fc547822ac06f8c74d9edf2d442eac"
+    }
+  }
+}

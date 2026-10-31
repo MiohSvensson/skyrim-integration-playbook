@@ -1,0 +1,135 @@
+{
+  "frozen_utc": "2026-10-31T14:17:16.112840+00:00",
+  "schema": 1,
+  "version": "v13",
+  "authority": "Latest research authoring freeze. Explicit older exact PAS freezes are preserved in version_freezes/v9, v10, v11 and v12.",
+  "change": "Only Hoth exact FLST03B4A5 allows the pinned RArray signature LNAM alongside FormIDs. Final merged base fields, forwarded fields, source-authored quest records and special union/redirect/record-set assertions collect all scoped failures and require one zero-failure summary before export. Source/copy/mutation preconditions, strict MHDT, normal-schema gate, all43guards and18 physical placement contracts remain unchanged.",
+  "provenance": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_conflicts\\source_4_1_5f\\provenance.json",
+  "files": [
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_conflicts\\DatabaseFeatureCompatibilityDraft.pas",
+      "sha256": "9a4d8b11f24a533c484d52977202d28b5aa59751f78ddaa405b3d841af140472"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_conflicts\\DatabaseQuestFeatureCompatibilityDraft.pas",
+      "sha256": "d6a4005f1f7d9651af9176a3866df8dbf38ad320aa8e332632b4fcc87fc67360"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_conflicts\\DatabaseVerifyFeatureCompatibilityDraft.pas",
+      "sha256": "a45c7e2f935dff02786b7c90cc554fcd2ba84bf54feb6eeecc490975de4572be"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_conflicts\\DatabaseVerifyQuestFeatureCompatibilityDraft.pas",
+      "sha256": "579bad7e645924d01e2a9bd1b7fe636111d80b46bd8d739a53e01af2e6b809f5"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_conflicts\\compatibility_template.pas",
+      "sha256": "be3218fc5fce7c3cc33c5890b04b9ebeaaa21ed7ddf6c9133dafd2409208f16b"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_conflicts\\compat_patch_plan.json",
+      "sha256": "5fff01e42239ed0d48535de1eb6bae8b0f9225017f6d38c3ba5457b18de4090e"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_conflicts\\quest_extension_plan.json",
+      "sha256": "d52b6bf3d2f9f217f541b01a245d90f439dcee93add836a6598f4637b2b7df96"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_conflicts\\pascal_api_audit.json",
+      "sha256": "a7d02e12112c993ba549c2ae04506a7e39b77d38b51052369ec956a31e633f1e"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_conflicts\\copy_contract_audit.json",
+      "sha256": "38f329922adc9c7eba6de1164b14c4230466f60e3e6a7174608469bf84377730"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_conflicts\\ctda_none_bytes_evidence.json",
+      "sha256": "0be888cb1ad0452cf0e273ee38b0fe185881c9d497d009e8afa857d27c386c03"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_conflicts\\native_byte_vector_evidence.json",
+      "sha256": "113fb2c091d9038853598d9dcb3d2ce094c42fa5542943462b3e70401cbb24d0"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_conflicts\\semantic_exception_contract.json",
+      "sha256": "cbbae597199f7d2de0bd99b062a4329e14823ef337074308c836ae36ee74cfae"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_conflicts\\semantic_native_value_audit.json",
+      "sha256": "b7a6bc11835dcadc8e9a5ff8a240dade114884da588910add2096fa6403e2238"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_conflicts\\cis_semantic_validation.json",
+      "sha256": "2af163076f6dd91bddb73b0421c77342b012cfc56fa5618954395aea580312bf"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_conflicts\\analyze_fields.py",
+      "sha256": "a4b619b03c1589fde861622fef3a34d3f957bc18a175c94f3690426cf2142492"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_conflicts\\verify_compatibility.py",
+      "sha256": "978b71df33fffe3f3a63b0b3f32db1a0a168e5c093ed1faf071f3aab414f83da"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_conflicts\\verify_quest_extension.py",
+      "sha256": "416b76c454cc5fb6fc2ced702ed9283b5614ea01deff9129962ca356dbe26642"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_conflicts\\DatabaseComparatorSelfAuditDraft.pas",
+      "sha256": "d47ccd15135b35568f7e8da1d7f77742588ead8e4520379ebee0e74315181ee2"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_conflicts\\comparator_self_audit_manifest.json",
+      "sha256": "4456c322d4b42b3f06f496a6694a6591d97e69ab9bce01e0d193f3a57f58fe95"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_conflicts\\comparator_self_audit_scope.json",
+      "sha256": "2d6f8d217e44ff128a2323832ca1a6731b209e4ba5064d8c40f1c90caa0a6992"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_conflicts\\empty_container_evidence.json",
+      "sha256": "b116954f698749b7d37a95f2396802743cf7a820b6daacb0bca3b7c48ee7f473"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_conflicts\\physical_placement_contract.json",
+      "sha256": "8ebe5c0b260fc4e8ebe9a9a91986f8c0fc144ad98383d57a12e75ab0c9c1ff7a"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_conflicts\\placement_contract.py",
+      "sha256": "1d360921649a24f07380831860ffbb5c1c25b642f552015b6b4b656b219dee80"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_conflicts\\persistent_placement_audit.json",
+      "sha256": "257f46b9e2fb85a3a9cc4d935df86b86a171f360dc4b14236d253fb43c226500"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_conflicts\\placement_contract_validation.json",
+      "sha256": "cafc272251368f2142aac4071ed1a0f76cc6c139338ca6f758c4fcdf36e1dd15"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_conflicts\\comparator_runtime_coverage.json",
+      "sha256": "b14201f4abd093c2196e4bd056d3091d90301cecaeee7c3bd6e7ecedded06f65"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_conflicts\\build_compat_plan.py",
+      "sha256": "3fb38de54e260fb171859b2d0c9133e2fdc873633e6d5e96a1956f625c023f7f"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_conflicts\\build_quest_extension.py",
+      "sha256": "0b52660b76ade0e41c1a580122d846a8f6e73598e3cd920dd05f6210f39f43e9"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_conflicts\\comparator_scope.py",
+      "sha256": "3e79c555d617c25efb12adf3742bf88a5b849ced432fe995f6d9735d07184812"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_conflicts\\audit_post_assertions.py",
+      "sha256": "7e20da65af4340b85d991917acb3e495662f2a61957e8aec86fe1f7024b08ef3"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_conflicts\\post_assertion_collection_audit.json",
+      "sha256": "59b4649a849d34fee54833dd4adc474abe4f329668f31352f6b020269e85ab54"
+    }
+  ],
+  "contract": "Research authoring freeze only. Parent owns actual compilation/execution, exported candidate verification and final runtime-profile checks. These are never evidence that a failed autosaved partial candidate completed."
+}

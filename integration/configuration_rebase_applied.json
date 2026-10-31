@@ -1,0 +1,35 @@
+{
+  "utc": "2026-10-31T14:35:56.752427+00:00",
+  "status": "APPLIED_PRIVATE_FOUR_VALUE_REBASE",
+  "plan": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\catalog_decision_review\\configuration_rebase\\config_rebase_plan.json",
+  "plan_sha256": "89ed07c5d29abe5315ca00645e3fe84b6df0f0fc908d7fc5108b5f46f4492360",
+  "destinations": [
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\Game\\ReShade.ini",
+      "sha256": "0f46697ae5601498b6eeecab8332388d26e0276303c575bd079af8794bdda53b",
+      "nlink": 1
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\ZZ86 Verified stale script assignments\\SKSE\\Plugins\\CrashLogger.ini",
+      "sha256": "e766936676882fb17d26c0aa69710468494b70ed58d5832f84453f7acf6a3fe8",
+      "nlink": 1
+    }
+  ],
+  "root_backup": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\validation\\configuration_rebase\\backups\\ReShade.ini.1fa6393e14e9b923f2090c2f323aa46fdd2753015983df53c308db9b602a68a5.before",
+  "previous_root_journal_mapping": {
+    "id": 491431,
+    "unit_id": "game_root_payload",
+    "relative_path": "TuLED/File Mod Skyrim SE/mods/Reshade/Root/ReShade.ini",
+    "destination": "Game/ReShade.ini",
+    "dest_key": "game/reshade.ini",
+    "size_bytes": 2787,
+    "mtime_ns": 1763812575093214900,
+    "storage": "private",
+    "status": "materialized",
+    "sha256": "1fa6393e14e9b923f2090c2f323aa46fdd2753015983df53c308db9b602a68a5",
+    "error": null,
+    "source": "E:\\stock\\Skyrim collection"
+  },
+  "original_controls_unchanged": 145,
+  "game_started": false
+}

@@ -1,0 +1,59 @@
+{
+  "status": "DRAFT_V6_NOT_XEDIT_COMPILED_OR_EXECUTED",
+  "authoritative_revision": 6,
+  "helper_source": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\navmesh_patch\\DatabaseBoundedNavmeshDraft.pas",
+  "helper_sha256": "180a89474ee10da27f4696b147f5a72765811fbc859ab460ff29845d9b349d2e",
+  "files": [
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\glen_region_navigation\\DatabaseGlenmorilNavigationDraft.pas",
+      "sha256": "c8599ebaec0d7078371e3a390a1ea9a7aec8395431f7dd834f10cbce98008223"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\glen_region_navigation\\DatabaseVerifyGlenmorilNavigationDraft.pas",
+      "sha256": "693e64b10799e5b3ec6533dd85b93bd72b11af449936078dbb41a9cf6c48ba6b"
+    }
+  ],
+  "authoritative_overlay": {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\navi_unresolved_audit\\stock_orphan_lookup_fix_manifest_v6.json",
+    "sha256": "7f210b9a4fb6eb155c5e34d78cbc4d5cabdfc6c730e880441d0fd4afb3f9d31d"
+  },
+  "baseline_generator_current": false,
+  "source_preflight_status": "SOURCE_PREFLIGHT_PASS",
+  "expected_override_records": 8,
+  "own_records": 0,
+  "added_door_connections": 4,
+  "supersedes": "navmesh_patch AK-only draft",
+  "parent_copy_policy": {
+    "WRLD_omit_allowed": [
+      "RNAM/Large References",
+      "OFST"
+    ],
+    "WRLD_MHDT": "strict exact typed",
+    "CELL_ignored": "XCLW only when Interior DATA bit is set",
+    "other_fields": "strict presence and typed canonical equality"
+  },
+  "supplementary_files": [
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\glen_region_navigation\\verify_navigation_candidate.py",
+      "sha256": "09f0149fcc54d66e2ef195938836a3ddb4d3c5d9cf56110db7eea4c6b9c41c58"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\glen_region_navigation\\source_preflight.json",
+      "sha256": "0e476bc00655b56ccf54b2e50863e28d25297ba901427b977c4e4794ad9a8c97"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\glen_region_navigation\\comparison.json",
+      "sha256": "cc8597b05ae2a1ceec82524bacb3d54db59fc6152268cf1eb183ccb78448c66e"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\glen_region_navigation\\README.md",
+      "sha256": "bb86d9f9ccb6e38674015a3c3cf47e2ad2c66bc25450eb7638466d4c14b87aa8"
+    }
+  ],
+  "header_iteration_policy": {
+    "top_level": "all indices 0..ElementCount-1; exclude exact BaseName Record Header",
+    "header": "separate strict named fields; only derived Data Size value ignored; canonical FormID and exact VCS1/2/FormVersion APIs",
+    "errors": "canonical origin/object, source+destination file, FullPath, native values",
+    "schema_source_sha256": "3633352c78091dbd139f4b99294ee3b15bfbff5403ec83d50d5c3e8daa4922e3"
+  }
+}

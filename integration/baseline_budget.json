@@ -1,0 +1,23 @@
+{
+  "utc": "2026-10-31T03:24:34.438501+00:00",
+  "free_bytes": 121541816320,
+  "reserve_bytes": 34359738368,
+  "pending_private_bytes": 3955104205,
+  "pending_files": 491328,
+  "metadata_allowance_bytes": 2012479488,
+  "fits_preflight": true,
+  "rows": [
+    {
+      "storage": "private",
+      "status": "planned",
+      "files": 46882,
+      "bytes": 3955104205
+    },
+    {
+      "storage": "shared",
+      "status": "planned",
+      "files": 444446,
+      "bytes": 486128051710
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\LOTD_author_original\\wg_0.nif",
+    "source_archive": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\[LED]Legacy of the Dragonborn v6.10.0\\LegacyoftheDragonborn.bsa",
+    "source_member": "meshes/mwl/wg_0.nif",
+    "sha256": "456e9bd472b4b7356255eaee1055390e913d551474b72ec298325c76a5bcbef2",
+    "header": [
+      335675399,
+      1,
+      12,
+      47,
+      82
+    ],
+    "bytes": 347081
+  },
+  {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\LOTD_author_original\\wg_1.nif",
+    "source_archive": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\[LED]Legacy of the Dragonborn v6.10.0\\LegacyoftheDragonborn.bsa",
+    "source_member": "meshes/mwl/wg_1.nif",
+    "sha256": "409f1044c8a05e0d9b01c452fd15f672e7a6988167cb17ae5579ba9b29949d94",
+    "header": [
+      335675399,
+      1,
+      12,
+      47,
+      82
+    ],
+    "bytes": 347085
+  }
+]

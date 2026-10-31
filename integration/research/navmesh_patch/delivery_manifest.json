@@ -1,0 +1,55 @@
+{
+  "status": "DRAFT_AND_READ_ONLY_EVIDENCE_ONLY_NO_ESP_CREATED",
+  "files": [
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\navmesh_patch\\DatabaseBoundedNavmeshDraft.pas",
+      "bytes": 27555,
+      "sha256": "4425f45534aa9e884944c9a24cff42820a44f41e34ac145dafc97d92f17a95e1"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\navmesh_patch\\DatabaseVerifyBoundedNavmeshDraft.pas",
+      "bytes": 28183,
+      "sha256": "ffdff56dc0a50922a216bd1a908507c25d79af56ed413f02adebf093e6a209b3"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\navmesh_patch\\verify_candidate.py",
+      "bytes": 16606,
+      "sha256": "3e816307a20acabc5ec8331273d4d21d4929fa9ab4987f513cc7855ca65e948c"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\navmesh_patch\\audit_source_navigation.py",
+      "bytes": 2373,
+      "sha256": "a7c0e7aa49c824fd51759dc21bbccc5e3b57c532258f26c49de239244ce476f7"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\navmesh_patch\\README.md",
+      "bytes": 8141,
+      "sha256": "f62b6a54efb8a02f0d0e96e73245ece60ced74b32b71275ce2a2204d60ba1c44"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\navmesh_patch\\expected_changes.json",
+      "bytes": 11285,
+      "sha256": "15d215fb71aae95f3cc2ed9619351ce031e8ef1ecd713d3d24a7c31957d3fbf3"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\navmesh_patch\\navi_source_audit.json",
+      "bytes": 3398,
+      "sha256": "b7b5b972ff854119c818a265ff2838d862d8fefaacadcd6c63940e1597a86794"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\navmesh_patch\\nvpp_source_audit.json",
+      "bytes": 1406,
+      "sha256": "2eb921d7c58b677e2a09a9f74479ad20e150a2207025da517030652cbd0a7d80"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\navmesh_patch\\source_preflight.json",
+      "bytes": 1521,
+      "sha256": "723548e991e513e83de749f54d364396e7ce1883dd4fb165c55586e7eb0e411a"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\navmesh_patch\\source_preflight_consistent_stock.json",
+      "bytes": 1529,
+      "sha256": "48d9d9b5d0314569996e8b2516f099c87bd8c07e1df541c27ff1f4740070548b"
+    }
+  ]
+}

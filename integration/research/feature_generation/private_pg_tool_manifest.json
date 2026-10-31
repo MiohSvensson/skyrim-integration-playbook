@@ -1,0 +1,487 @@
+{
+  "status": "STAGED_PRIVATE_NOT_EXECUTED",
+  "source_version": "0.9.9.5",
+  "source_commit": "bf2333af2077384102bd250969ede87eb4c99367",
+  "destination": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\tools\\PGPatcher-0.9.9.5-private",
+  "private_namespace": {
+    "TXST_owner": "DBPatcher.esp",
+    "override_plugins": "DB_<n>.esp",
+    "EDID_prefix": "DB_"
+  },
+  "files": [
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\PGPatcher-0.9.9\\PGPatcher\\0Harmony.dll",
+      "destination": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\tools\\PGPatcher-0.9.9.5-private\\0Harmony.dll",
+      "bytes": 2060800,
+      "source_sha256": "4b5f44764316c833a3b1d184ba6f1df275c86a181cc595ec403a01049d1d6fb5",
+      "destination_sha256": "4b5f44764316c833a3b1d184ba6f1df275c86a181cc595ec403a01049d1d6fb5"
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\PGPatcher-0.9.9\\PGPatcher\\boost_locale-vc143-mt-x64-1_86.dll",
+      "destination": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\tools\\PGPatcher-0.9.9.5-private\\boost_locale-vc143-mt-x64-1_86.dll",
+      "bytes": 450048,
+      "source_sha256": "dac45e055f2f05611b6b4436191ae55e4928a4322052e57a49ac7d33e7a61e75",
+      "destination_sha256": "dac45e055f2f05611b6b4436191ae55e4928a4322052e57a49ac7d33e7a61e75"
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\PGPatcher-0.9.9\\PGPatcher\\cpptrace.dll",
+      "destination": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\tools\\PGPatcher-0.9.9.5-private\\cpptrace.dll",
+      "bytes": 223744,
+      "source_sha256": "4e53cd4e02851eb858a6a5044a21db0add2ab29b8b66832c0fa0b218d73a1b10",
+      "destination_sha256": "4e53cd4e02851eb858a6a5044a21db0add2ab29b8b66832c0fa0b218d73a1b10"
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\PGPatcher-0.9.9\\PGPatcher\\DynamicData.dll",
+      "destination": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\tools\\PGPatcher-0.9.9.5-private\\DynamicData.dll",
+      "bytes": 971264,
+      "source_sha256": "c965256a48536d553bba4d10c44595d8c559d75cb76e258dea01f93f6fdf047b",
+      "destination_sha256": "c965256a48536d553bba4d10c44595d8c559d75cb76e258dea01f93f6fdf047b"
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\PGPatcher-0.9.9\\PGPatcher\\FluentResults.dll",
+      "destination": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\tools\\PGPatcher-0.9.9.5-private\\FluentResults.dll",
+      "bytes": 60416,
+      "source_sha256": "bef62110c889afbb46a2cb3cbf2a9a1b5879047b5abab701436f65056d6c735d",
+      "destination_sha256": "bef62110c889afbb46a2cb3cbf2a9a1b5879047b5abab701436f65056d6c735d"
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\PGPatcher-0.9.9\\PGPatcher\\fmt.dll",
+      "destination": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\tools\\PGPatcher-0.9.9.5-private\\fmt.dll",
+      "bytes": 130048,
+      "source_sha256": "7600fc6f421cfdcc0d4c73191b844be76a453174d0bd3a5e6f00f0357c19330b",
+      "destination_sha256": "7600fc6f421cfdcc0d4c73191b844be76a453174d0bd3a5e6f00f0357c19330b"
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\PGPatcher-0.9.9\\PGPatcher\\GameFinder.Common.dll",
+      "destination": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\tools\\PGPatcher-0.9.9.5-private\\GameFinder.Common.dll",
+      "bytes": 11776,
+      "source_sha256": "b530b61a055b3b69f6e167f6c94d8e36922b45645573669cbc8e1c017f7baec7",
+      "destination_sha256": "b530b61a055b3b69f6e167f6c94d8e36922b45645573669cbc8e1c017f7baec7"
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\PGPatcher-0.9.9\\PGPatcher\\GameFinder.RegistryUtils.dll",
+      "destination": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\tools\\PGPatcher-0.9.9.5-private\\GameFinder.RegistryUtils.dll",
+      "bytes": 10240,
+      "source_sha256": "db8b4a537ec163b84cbb98c566cf588747d439da8e672c54b788b6e7db83ad01",
+      "destination_sha256": "db8b4a537ec163b84cbb98c566cf588747d439da8e672c54b788b6e7db83ad01"
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\PGPatcher-0.9.9\\PGPatcher\\GameFinder.StoreHandlers.GOG.dll",
+      "destination": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\tools\\PGPatcher-0.9.9.5-private\\GameFinder.StoreHandlers.GOG.dll",
+      "bytes": 15360,
+      "source_sha256": "8d47f79b9012b04933b1a94f9c7bf5a1fdd81943b57c27fe3d78e670d79ab431",
+      "destination_sha256": "8d47f79b9012b04933b1a94f9c7bf5a1fdd81943b57c27fe3d78e670d79ab431"
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\PGPatcher-0.9.9\\PGPatcher\\GameFinder.StoreHandlers.Steam.dll",
+      "destination": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\tools\\PGPatcher-0.9.9.5-private\\GameFinder.StoreHandlers.Steam.dll",
+      "bytes": 96768,
+      "source_sha256": "85b0ce2a1fc3917e30b06877daa28f4c49e1366874bb001fdf8e0dcc8f811cd6",
+      "destination_sha256": "85b0ce2a1fc3917e30b06877daa28f4c49e1366874bb001fdf8e0dcc8f811cd6"
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\PGPatcher-0.9.9\\PGPatcher\\GameFinder.StoreHandlers.Xbox.dll",
+      "destination": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\tools\\PGPatcher-0.9.9.5-private\\GameFinder.StoreHandlers.Xbox.dll",
+      "bytes": 22528,
+      "source_sha256": "00bb14569555d4ac5ceade5555d1a24995ec100e57ac74311f13f199bb98c799",
+      "destination_sha256": "00bb14569555d4ac5ceade5555d1a24995ec100e57ac74311f13f199bb98c799"
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\PGPatcher-0.9.9\\PGPatcher\\GameFinder.Wine.dll",
+      "destination": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\tools\\PGPatcher-0.9.9.5-private\\GameFinder.Wine.dll",
+      "bytes": 21504,
+      "source_sha256": "4295e81b22db848c6005cea1305dd6dbfc7bed82a8133a085e1671559f9258b4",
+      "destination_sha256": "4295e81b22db848c6005cea1305dd6dbfc7bed82a8133a085e1671559f9258b4"
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\PGPatcher-0.9.9\\PGPatcher\\Google.FlatBuffers.dll",
+      "destination": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\tools\\PGPatcher-0.9.9.5-private\\Google.FlatBuffers.dll",
+      "bytes": 29696,
+      "source_sha256": "bfbd4a06b6c4ee0390d098f3f77467459dd3823a7a8c1e22b5b6aebd1953f432",
+      "destination_sha256": "bfbd4a06b6c4ee0390d098f3f77467459dd3823a7a8c1e22b5b6aebd1953f432"
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\PGPatcher-0.9.9\\PGPatcher\\ICSharpCode.SharpZipLib.dll",
+      "destination": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\tools\\PGPatcher-0.9.9.5-private\\ICSharpCode.SharpZipLib.dll",
+      "bytes": 258048,
+      "source_sha256": "32ea2d0ce3512e74f1c7ad82591fe67e6b8939d76a8a4ff9c93ead030131e71c",
+      "destination_sha256": "32ea2d0ce3512e74f1c7ad82591fe67e6b8939d76a8a4ff9c93ead030131e71c"
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\PGPatcher-0.9.9\\PGPatcher\\INIFileParser.dll",
+      "destination": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\tools\\PGPatcher-0.9.9.5-private\\INIFileParser.dll",
+      "bytes": 30720,
+      "source_sha256": "8cf56be6ee819711b776493fb0b5bc44d37c1656954e0e979a51554e52b62392",
+      "destination_sha256": "8cf56be6ee819711b776493fb0b5bc44d37c1656954e0e979a51554e52b62392"
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\PGPatcher-0.9.9\\PGPatcher\\jpeg62.dll",
+      "destination": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\tools\\PGPatcher-0.9.9.5-private\\jpeg62.dll",
+      "bytes": 685056,
+      "source_sha256": "5f2c6db38809c75d0d5682474e611ecaf379c574c3993849df63682f8295e413",
+      "destination_sha256": "5f2c6db38809c75d0d5682474e611ecaf379c574c3993849df63682f8295e413"
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\PGPatcher-0.9.9\\PGPatcher\\K4os.Compression.LZ4.dll",
+      "destination": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\tools\\PGPatcher-0.9.9.5-private\\K4os.Compression.LZ4.dll",
+      "bytes": 70656,
+      "source_sha256": "e282aadc2353b864fe95cd5fb525a1a093d99a30a5bf2530b7ab831d56179816",
+      "destination_sha256": "e282aadc2353b864fe95cd5fb525a1a093d99a30a5bf2530b7ab831d56179816"
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\PGPatcher-0.9.9\\PGPatcher\\K4os.Compression.LZ4.Streams.dll",
+      "destination": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\tools\\PGPatcher-0.9.9.5-private\\K4os.Compression.LZ4.Streams.dll",
+      "bytes": 84992,
+      "source_sha256": "b146cf3c769000cd5e4458cfed5da3c0e838b7b2da6dbe6dad458cd5a0e3ce41",
+      "destination_sha256": "b146cf3c769000cd5e4458cfed5da3c0e838b7b2da6dbe6dad458cd5a0e3ce41"
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\PGPatcher-0.9.9\\PGPatcher\\K4os.Hash.xxHash.dll",
+      "destination": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\tools\\PGPatcher-0.9.9.5-private\\K4os.Hash.xxHash.dll",
+      "bytes": 13312,
+      "source_sha256": "19d73fa58c1f6c12c61f30eaad91881bd06f50caf4b462b061bc1b45d0a577cd",
+      "destination_sha256": "19d73fa58c1f6c12c61f30eaad91881bd06f50caf4b462b061bc1b45d0a577cd"
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\PGPatcher-0.9.9\\PGPatcher\\liblzma.dll",
+      "destination": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\tools\\PGPatcher-0.9.9.5-private\\liblzma.dll",
+      "bytes": 187904,
+      "source_sha256": "bc3f0c1262df1065746defca8a773efe4a316fbf2ce603da0559d6ad04bd93c3",
+      "destination_sha256": "bc3f0c1262df1065746defca8a773efe4a316fbf2ce603da0559d6ad04bd93c3"
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\PGPatcher-0.9.9\\PGPatcher\\libpng16.dll",
+      "destination": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\tools\\PGPatcher-0.9.9.5-private\\libpng16.dll",
+      "bytes": 200192,
+      "source_sha256": "a6c9bf82928c0f941efe42791d33e5f0a2986ac232bed078b1d9634ee8936082",
+      "destination_sha256": "a6c9bf82928c0f941efe42791d33e5f0a2986ac232bed078b1d9634ee8936082"
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\PGPatcher-0.9.9\\PGPatcher\\Loqui.dll",
+      "destination": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\tools\\PGPatcher-0.9.9.5-private\\Loqui.dll",
+      "bytes": 51712,
+      "source_sha256": "48f290a12a428e09c8a265b6b0cf76249a3225d55fc681b12bece7a79910b4d2",
+      "destination_sha256": "48f290a12a428e09c8a265b6b0cf76249a3225d55fc681b12bece7a79910b4d2"
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\PGPatcher-0.9.9\\PGPatcher\\lz4.dll",
+      "destination": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\tools\\PGPatcher-0.9.9.5-private\\lz4.dll",
+      "bytes": 127488,
+      "source_sha256": "150caadf365a15bce8e66019cd6ebfebe8b4f024e9107586ec2d791e88d63b97",
+      "destination_sha256": "150caadf365a15bce8e66019cd6ebfebe8b4f024e9107586ec2d791e88d63b97"
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\PGPatcher-0.9.9\\PGPatcher\\Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+      "destination": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\tools\\PGPatcher-0.9.9.5-private\\Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+      "bytes": 64288,
+      "source_sha256": "4e594bffd358313910cf45acce035d2ebc129fea8591de8ba40c3ba7e458b26b",
+      "destination_sha256": "4e594bffd358313910cf45acce035d2ebc129fea8591de8ba40c3ba7e458b26b"
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\PGPatcher-0.9.9\\PGPatcher\\Microsoft.Extensions.Logging.Abstractions.dll",
+      "destination": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\tools\\PGPatcher-0.9.9.5-private\\Microsoft.Extensions.Logging.Abstractions.dll",
+      "bytes": 62064,
+      "source_sha256": "c3e73ec5f2e1f10200c25ba1ba0c8f73cb0fbc09a6202fd44f19ee813ece89da",
+      "destination_sha256": "c3e73ec5f2e1f10200c25ba1ba0c8f73cb0fbc09a6202fd44f19ee813ece89da"
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\PGPatcher-0.9.9\\PGPatcher\\miniz.dll",
+      "destination": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\tools\\PGPatcher-0.9.9.5-private\\miniz.dll",
+      "bytes": 91136,
+      "source_sha256": "00d76ff2b2dcd7a715f0e22fb79571b622ad148de11c472be22e830008c0fc35",
+      "destination_sha256": "00d76ff2b2dcd7a715f0e22fb79571b622ad148de11c472be22e830008c0fc35"
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\PGPatcher-0.9.9\\PGPatcher\\Mutagen.Bethesda.Core.dll",
+      "destination": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\tools\\PGPatcher-0.9.9.5-private\\Mutagen.Bethesda.Core.dll",
+      "bytes": 1672192,
+      "source_sha256": "40d4b012fb27f563e7d83e3fc92f93bd77a7cb94c376348af9c62a759843a321",
+      "destination_sha256": "40d4b012fb27f563e7d83e3fc92f93bd77a7cb94c376348af9c62a759843a321"
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\PGPatcher-0.9.9\\PGPatcher\\Mutagen.Bethesda.Kernel.dll",
+      "destination": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\tools\\PGPatcher-0.9.9.5-private\\Mutagen.Bethesda.Kernel.dll",
+      "bytes": 18432,
+      "source_sha256": "bf55f2e4ebba2002ecbb435b37ad835b38372bca1151fe3612ca881e0afe331d",
+      "destination_sha256": "bf55f2e4ebba2002ecbb435b37ad835b38372bca1151fe3612ca881e0afe331d"
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\PGPatcher-0.9.9\\PGPatcher\\Mutagen.Bethesda.Skyrim.dll",
+      "destination": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\tools\\PGPatcher-0.9.9.5-private\\Mutagen.Bethesda.Skyrim.dll",
+      "bytes": 21856256,
+      "source_sha256": "6d8ef8af28755b244143281c38427fc8ecdffc6a2d8c26492eddca982a4df5b1",
+      "destination_sha256": "6d8ef8af28755b244143281c38427fc8ecdffc6a2d8c26492eddca982a4df5b1"
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\PGPatcher-0.9.9\\PGPatcher\\NexusMods.Paths.dll",
+      "destination": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\tools\\PGPatcher-0.9.9.5-private\\NexusMods.Paths.dll",
+      "bytes": 201728,
+      "source_sha256": "f5e0102ca5102168dc48d85321c92cf1a2848aa50efefb426a614477ba0794fc",
+      "destination_sha256": "f5e0102ca5102168dc48d85321c92cf1a2848aa50efefb426a614477ba0794fc"
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\PGPatcher-0.9.9\\PGPatcher\\Noggog.CSharpExt.dll",
+      "destination": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\tools\\PGPatcher-0.9.9.5-private\\Noggog.CSharpExt.dll",
+      "bytes": 476160,
+      "source_sha256": "1aef1d7efcb72361f04214851df3d6f2576346ea3bbe50a5c82c62ee544abbde",
+      "destination_sha256": "1aef1d7efcb72361f04214851df3d6f2576346ea3bbe50a5c82c62ee544abbde"
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\PGPatcher-0.9.9\\PGPatcher\\OneOf.dll",
+      "destination": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\tools\\PGPatcher-0.9.9.5-private\\OneOf.dll",
+      "bytes": 101376,
+      "source_sha256": "2f0c32cb83ae0a12e9bcde8e86eced54bb56a78eaac6dbafd3add6b8292de577",
+      "destination_sha256": "2f0c32cb83ae0a12e9bcde8e86eced54bb56a78eaac6dbafd3add6b8292de577"
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\PGPatcher-0.9.9\\PGPatcher\\pcre2-16.dll",
+      "destination": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\tools\\PGPatcher-0.9.9.5-private\\pcre2-16.dll",
+      "bytes": 521728,
+      "source_sha256": "5731cfdb4f5b706286b4af82d5d8f5410b3ea9db20082e889d863bea797a628c",
+      "destination_sha256": "5731cfdb4f5b706286b4af82d5d8f5410b3ea9db20082e889d863bea797a628c"
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\PGPatcher-0.9.9\\PGPatcher\\PGLib.dll",
+      "destination": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\tools\\PGPatcher-0.9.9.5-private\\PGLib.dll",
+      "bytes": 14633984,
+      "source_sha256": "8be53a9dd83bd60bdcf8a5e4b4e1d94cbdcac25ffea17437f3996038c420ddff",
+      "destination_sha256": "8be53a9dd83bd60bdcf8a5e4b4e1d94cbdcac25ffea17437f3996038c420ddff"
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\PGPatcher-0.9.9\\PGPatcher\\PGMutagen.dll",
+      "destination": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\tools\\PGPatcher-0.9.9.5-private\\PGMutagen.dll",
+      "bytes": 49664,
+      "source_sha256": "b1e38f18fbaf5954918795657ee6c2060d5818779288ced5c0a3fd394340e1ed",
+      "destination_sha256": "6730914275893e7a07fe5673a6835f17f8ee3193c29fe7e997a1b96a8f1e42cc",
+      "namespace_isolation_ledger": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\PGMutagen_namespace_ledger.json"
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\PGPatcher-0.9.9\\PGPatcher\\PGMutagen.runtimeconfig.json",
+      "destination": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\tools\\PGPatcher-0.9.9.5-private\\PGMutagen.runtimeconfig.json",
+      "bytes": 375,
+      "source_sha256": "2fa0b19e9ba0d01bf6fc57c18cbd4b03f808c229ac05316e321b62824c1aea9c",
+      "destination_sha256": "2fa0b19e9ba0d01bf6fc57c18cbd4b03f808c229ac05316e321b62824c1aea9c"
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\PGPatcher-0.9.9\\PGPatcher\\PGMutagenNE.dll",
+      "destination": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\tools\\PGPatcher-0.9.9.5-private\\PGMutagenNE.dll",
+      "bytes": 1098752,
+      "source_sha256": "ad1eb437cf9e87b60c9f36231303f864d9fba4745b61b19e605d757a33735f64",
+      "destination_sha256": "ad1eb437cf9e87b60c9f36231303f864d9fba4745b61b19e605d757a33735f64"
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\PGPatcher-0.9.9\\PGPatcher\\PGMutagenWrapper.dll",
+      "destination": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\tools\\PGPatcher-0.9.9.5-private\\PGMutagenWrapper.dll",
+      "bytes": 656384,
+      "source_sha256": "b5d6dfa8d67d6782881563d526764c6a1e867150171b2d925105f3d4010325c9",
+      "destination_sha256": "b5d6dfa8d67d6782881563d526764c6a1e867150171b2d925105f3d4010325c9"
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\PGPatcher-0.9.9\\PGPatcher\\PGPatcher.exe",
+      "destination": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\tools\\PGPatcher-0.9.9.5-private\\PGPatcher.exe",
+      "bytes": 2647040,
+      "source_sha256": "ecc44b982a07abf7d5852191c63530deb631dacee40d2417ea5df1be38e0ce6c",
+      "destination_sha256": "ecc44b982a07abf7d5852191c63530deb631dacee40d2417ea5df1be38e0ce6c"
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\PGPatcher-0.9.9\\PGPatcher\\pgtools.exe",
+      "destination": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\tools\\PGPatcher-0.9.9.5-private\\pgtools.exe",
+      "bytes": 1334272,
+      "source_sha256": "3bbbe53e7f408ee5e74a98352b34f8fef2333c2fdb24f2c693bed59f08e77df7",
+      "destination_sha256": "3bbbe53e7f408ee5e74a98352b34f8fef2333c2fdb24f2c693bed59f08e77df7"
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\PGPatcher-0.9.9\\PGPatcher\\Reloaded.Memory.dll",
+      "destination": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\tools\\PGPatcher-0.9.9.5-private\\Reloaded.Memory.dll",
+      "bytes": 101376,
+      "source_sha256": "73e7ddb4be85a4f5a04b94e14d72d28179d44d8a1d8c4a6382f80d3c5bd9f749",
+      "destination_sha256": "73e7ddb4be85a4f5a04b94e14d72d28179d44d8a1d8c4a6382f80d3c5bd9f749"
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\PGPatcher-0.9.9\\PGPatcher\\reproc++.dll",
+      "destination": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\tools\\PGPatcher-0.9.9.5-private\\reproc++.dll",
+      "bytes": 19968,
+      "source_sha256": "6d401d6024a23db0efd42731d020074138201a0a60b309a2c4f1483df6ed9c17",
+      "destination_sha256": "6d401d6024a23db0efd42731d020074138201a0a60b309a2c4f1483df6ed9c17"
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\PGPatcher-0.9.9\\PGPatcher\\reproc.dll",
+      "destination": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\tools\\PGPatcher-0.9.9.5-private\\reproc.dll",
+      "bytes": 29184,
+      "source_sha256": "f659cdb15fcc92d816afac40a7db82e4466c9481d77372bdd904629f6c21f6d5",
+      "destination_sha256": "f659cdb15fcc92d816afac40a7db82e4466c9481d77372bdd904629f6c21f6d5"
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\PGPatcher-0.9.9\\PGPatcher\\spdlog.dll",
+      "destination": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\tools\\PGPatcher-0.9.9.5-private\\spdlog.dll",
+      "bytes": 368640,
+      "source_sha256": "a585087f984806d65f251736d9e474728cc7d844410c70ebd0743177961cd0dd",
+      "destination_sha256": "a585087f984806d65f251736d9e474728cc7d844410c70ebd0743177961cd0dd"
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\PGPatcher-0.9.9\\PGPatcher\\StrongInject.dll",
+      "destination": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\tools\\PGPatcher-0.9.9.5-private\\StrongInject.dll",
+      "bytes": 24064,
+      "source_sha256": "60082998d23d8421a42111c2c69628b70fff8f31c9adc7477344634251f6afa0",
+      "destination_sha256": "60082998d23d8421a42111c2c69628b70fff8f31c9adc7477344634251f6afa0"
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\PGPatcher-0.9.9\\PGPatcher\\System.Collections.Immutable.dll",
+      "destination": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\tools\\PGPatcher-0.9.9.5-private\\System.Collections.Immutable.dll",
+      "bytes": 251168,
+      "source_sha256": "3b45fe9593f41bbc62b61a7b0176b54360a1a5b9c08628b7f734732ea3c59bd4",
+      "destination_sha256": "3b45fe9593f41bbc62b61a7b0176b54360a1a5b9c08628b7f734732ea3c59bd4"
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\PGPatcher-0.9.9\\PGPatcher\\System.IO.Abstractions.dll",
+      "destination": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\tools\\PGPatcher-0.9.9.5-private\\System.IO.Abstractions.dll",
+      "bytes": 5120,
+      "source_sha256": "74ce169c01a108d313c4d213a9847efe30266ad901331eb9156be1b8ef22dd29",
+      "destination_sha256": "74ce169c01a108d313c4d213a9847efe30266ad901331eb9156be1b8ef22dd29"
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\PGPatcher-0.9.9\\PGPatcher\\System.IO.Pipelines.dll",
+      "destination": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\tools\\PGPatcher-0.9.9.5-private\\System.IO.Pipelines.dll",
+      "bytes": 79512,
+      "source_sha256": "ebe139e495de76299dc357356c3b558382bb5ee5a355655389f1fc4297f35d26",
+      "destination_sha256": "ebe139e495de76299dc357356c3b558382bb5ee5a355655389f1fc4297f35d26"
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\PGPatcher-0.9.9\\PGPatcher\\System.Linq.Async.dll",
+      "destination": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\tools\\PGPatcher-0.9.9.5-private\\System.Linq.Async.dll",
+      "bytes": 1117816,
+      "source_sha256": "17a104f5630899d8b4af909b93c8791621d0bc08de880cc30f4bf4a5578735d0",
+      "destination_sha256": "17a104f5630899d8b4af909b93c8791621d0bc08de880cc30f4bf4a5578735d0"
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\PGPatcher-0.9.9\\PGPatcher\\System.Reactive.dll",
+      "destination": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\tools\\PGPatcher-0.9.9.5-private\\System.Reactive.dll",
+      "bytes": 1344592,
+      "source_sha256": "626b01d9a0a19edaf345f2fb1cbf549d4f8cb725c06ea7898133f0bcd65449c3",
+      "destination_sha256": "626b01d9a0a19edaf345f2fb1cbf549d4f8cb725c06ea7898133f0bcd65449c3"
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\PGPatcher-0.9.9\\PGPatcher\\System.Text.Encoding.CodePages.dll",
+      "destination": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\tools\\PGPatcher-0.9.9.5-private\\System.Text.Encoding.CodePages.dll",
+      "bytes": 740640,
+      "source_sha256": "31758cb9b8ed9004b8f455189e8806532d3d43c083bceee2c0fd75cf0a2f0622",
+      "destination_sha256": "31758cb9b8ed9004b8f455189e8806532d3d43c083bceee2c0fd75cf0a2f0622"
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\PGPatcher-0.9.9\\PGPatcher\\TestableIO.System.IO.Abstractions.dll",
+      "destination": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\tools\\PGPatcher-0.9.9.5-private\\TestableIO.System.IO.Abstractions.dll",
+      "bytes": 6144,
+      "source_sha256": "a2e39e18f624c473482c6312bdbe0f6f6f9250e1f369d7c27394c50c9056b7ec",
+      "destination_sha256": "a2e39e18f624c473482c6312bdbe0f6f6f9250e1f369d7c27394c50c9056b7ec"
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\PGPatcher-0.9.9\\PGPatcher\\TestableIO.System.IO.Abstractions.Wrappers.dll",
+      "destination": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\tools\\PGPatcher-0.9.9.5-private\\TestableIO.System.IO.Abstractions.Wrappers.dll",
+      "bytes": 53248,
+      "source_sha256": "cd505db2197ee7ca21295e88c4c44ba8f4816ee7c4cb4ad6561466be2224d05e",
+      "destination_sha256": "cd505db2197ee7ca21295e88c4c44ba8f4816ee7c4cb4ad6561466be2224d05e"
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\PGPatcher-0.9.9\\PGPatcher\\Testably.Abstractions.FileSystem.Interface.dll",
+      "destination": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\tools\\PGPatcher-0.9.9.5-private\\Testably.Abstractions.FileSystem.Interface.dll",
+      "bytes": 27648,
+      "source_sha256": "45951c913bdc7b43c00f870ca0405496ee0e284a7faedf5f843190e56a338854",
+      "destination_sha256": "45951c913bdc7b43c00f870ca0405496ee0e284a7faedf5f843190e56a338854"
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\PGPatcher-0.9.9\\PGPatcher\\tiff.dll",
+      "destination": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\tools\\PGPatcher-0.9.9.5-private\\tiff.dll",
+      "bytes": 467968,
+      "source_sha256": "63f4106709848fca62eb2d04d0ed93037dc95d47e740b02f26ea251081148475",
+      "destination_sha256": "63f4106709848fca62eb2d04d0ed93037dc95d47e740b02f26ea251081148475"
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\PGPatcher-0.9.9\\PGPatcher\\ValveKeyValue.dll",
+      "destination": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\tools\\PGPatcher-0.9.9.5-private\\ValveKeyValue.dll",
+      "bytes": 75264,
+      "source_sha256": "ea53e2544bfcfb7ad10edb006ae4d1ffbcd76be8caf93b2753f2b0c2f575ce84",
+      "destination_sha256": "ea53e2544bfcfb7ad10edb006ae4d1ffbcd76be8caf93b2753f2b0c2f575ce84"
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\PGPatcher-0.9.9\\PGPatcher\\wxbase32u_vc_x64_custom.dll",
+      "destination": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\tools\\PGPatcher-0.9.9.5-private\\wxbase32u_vc_x64_custom.dll",
+      "bytes": 2678784,
+      "source_sha256": "b3faf0d685512d380612c4074f87e88b126f87560b58b0835ccc7f35b9501b54",
+      "destination_sha256": "b3faf0d685512d380612c4074f87e88b126f87560b58b0835ccc7f35b9501b54"
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\PGPatcher-0.9.9\\PGPatcher\\wxmsw32u_core_vc_x64_custom.dll",
+      "destination": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\tools\\PGPatcher-0.9.9.5-private\\wxmsw32u_core_vc_x64_custom.dll",
+      "bytes": 7666688,
+      "source_sha256": "803885da1b49fa9eea81e14d231ae9092b8247f7a92b8e0fcb585f8942980c27",
+      "destination_sha256": "803885da1b49fa9eea81e14d231ae9092b8247f7a92b8e0fcb585f8942980c27"
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\PGPatcher-0.9.9\\PGPatcher\\zlib1.dll",
+      "destination": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\tools\\PGPatcher-0.9.9.5-private\\zlib1.dll",
+      "bytes": 90112,
+      "source_sha256": "c526e3ad10222ef4eb240384f34e90f85fde6779882098231395afa2fffa8d0d",
+      "destination_sha256": "c526e3ad10222ef4eb240384f34e90f85fde6779882098231395afa2fffa8d0d"
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\PGPatcher-0.9.9\\PGPatcher\\assets\\dynamic1pxcubemap_black.dds",
+      "destination": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\tools\\PGPatcher-0.9.9.5-private\\assets\\dynamic1pxcubemap_black.dds",
+      "bytes": 152,
+      "source_sha256": "de37d3199bbda79fef1b702495eaa30ffc11ba4089e67afa1a5ead1442ee55e6",
+      "destination_sha256": "de37d3199bbda79fef1b702495eaa30ffc11ba4089e67afa1a5ead1442ee55e6"
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\PGPatcher-0.9.9\\PGPatcher\\cshaders\\ConvertToHDR.hlsl",
+      "destination": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\tools\\PGPatcher-0.9.9.5-private\\cshaders\\ConvertToHDR.hlsl",
+      "bytes": 436,
+      "source_sha256": "be42de146b9ce87b399093042badc72156c8451036472f634b4b7cfffa19a488",
+      "destination_sha256": "be42de146b9ce87b399093042badc72156c8451036472f634b4b7cfffa19a488"
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\PGPatcher-0.9.9\\PGPatcher\\cshaders\\CountAlphaValues.hlsl",
+      "destination": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\tools\\PGPatcher-0.9.9.5-private\\cshaders\\CountAlphaValues.hlsl",
+      "bytes": 568,
+      "source_sha256": "940be52092abb3a5dab1bc79a0d1d4573d157a80a9ab9605451fd36f34d2bc71",
+      "destination_sha256": "940be52092abb3a5dab1bc79a0d1d4573d157a80a9ab9605451fd36f34d2bc71"
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\PGPatcher-0.9.9\\PGPatcher\\cshaders\\ParallaxToCM.hlsl",
+      "destination": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\tools\\PGPatcher-0.9.9.5-private\\cshaders\\ParallaxToCM.hlsl",
+      "bytes": 374,
+      "source_sha256": "9d76893c2426195cfc46d40a6f558abe12594f0778fa5e6483335ed65923bbcf",
+      "destination_sha256": "9d76893c2426195cfc46d40a6f558abe12594f0778fa5e6483335ed65923bbcf"
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\PGPatcher-0.9.9\\PGPatcher\\cshaders\\SSSFix.hlsl",
+      "destination": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\tools\\PGPatcher-0.9.9.5-private\\cshaders\\SSSFix.hlsl",
+      "bytes": 1200,
+      "source_sha256": "21abb7d010857b3ebf1d557228cde9c0776b6eec8b0863a1e4b4adf788d32ac8",
+      "destination_sha256": "21abb7d010857b3ebf1d557228cde9c0776b6eec8b0863a1e4b4adf788d32ac8"
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\PGPatcher-0.9.9\\PGPatcher\\resources\\runningparallaxgen.gif",
+      "destination": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\tools\\PGPatcher-0.9.9.5-private\\resources\\runningparallaxgen.gif",
+      "bytes": 26735,
+      "source_sha256": "35c31a36c2e4eeea827ead8277743e3517efe9bcd66998888052ec52601e2269",
+      "destination_sha256": "35c31a36c2e4eeea827ead8277743e3517efe9bcd66998888052ec52601e2269"
+    },
+    {
+      "source": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\PGPatcher-0.9.9\\PGPatcher\\runtimes\\win\\lib\\net8.0\\System.Text.Encoding.CodePages.dll",
+      "destination": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\tools\\PGPatcher-0.9.9.5-private\\runtimes\\win\\lib\\net8.0\\System.Text.Encoding.CodePages.dll",
+      "bytes": 742160,
+      "source_sha256": "6253ee666a0d84aa5c08e2369b390f74bc44ebe6a17fe67cb25fe2a360b2b0ef",
+      "destination_sha256": "6253ee666a0d84aa5c08e2369b390f74bc44ebe6a17fe67cb25fe2a360b2b0ef"
+    }
+  ],
+  "skipped_nonruntime": [
+    "PGLib.pdb",
+    "PGMutagen.pdb",
+    "PGMutagenWrapper.pdb",
+    "PGPatcher.pdb",
+    "pgtools.pdb"
+  ],
+  "original_managed_evidence": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\upstream_binaries\\PGMutagen.original.dll",
+  "original_managed_sha256": "b1e38f18fbaf5954918795657ee6c2060d5818779288ced5c0a3fd394340e1ed",
+  "patched_managed_sha256": "6730914275893e7a07fe5673a6835f17f8ee3193c29fe7e997a1b96a8f1e42cc",
+  "net8_manifest": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\cache\\net8\\manifest.json"
+}

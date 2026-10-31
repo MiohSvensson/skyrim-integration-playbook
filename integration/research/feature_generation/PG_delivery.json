@@ -1,0 +1,27 @@
+{
+  "status": "PREPARATION_ONLY_FORMAL_RUN_BLOCKED_DATABASE_ONLY_OS_CACHE",
+  "previous_delivery_manifest_sha256": "ffba41c53d31b888edd4b46c2e0685a0e5045236c93fd38dc62d648e1683c644",
+  "artifacts": {
+    "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\prepare_pg_run.py": "0ffc0ca1cd5f06c990da9faddbf4dbf36c80c6f627d7ddb0ad90a3a0d82deadc",
+    "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\pg_child.py": "0c78650e33f357f23b9ff8c50b9978d391aaf5d49630d9d0dd5abd06a18cf940",
+    "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\prepare_pg_verifier.py": "74fd299c56252410b6ec5be1265513cdebc0a2555c47995e7df4743e412235ee",
+    "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\pg_metadata_verifier_body.pas": "ff487beb429b1dc688b3a742cb0ba1755112b72d13d9d55cfd690cda2a548cb7",
+    "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\PG_verifier_fixture.json": "43a145d0da31b193764e7d535e7046593d50de41100ae5f51898fc4f26e9a726",
+    "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\PG_execution.md": "264b29f88d45606b72d586390477c123516248edb05bfe4da2cc88d090543eb1",
+    "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\private_pg_tool_manifest.json": "329df568cf0c749c906c2018b110dcbfbbc221be9fcc24a9b40ec20746ae4e51",
+    "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\PGMutagen_namespace_ledger.json": "c05e5a2c2351f062448ee5a1678f9d6a98e2add34e5722d051277f09ebc221c5",
+    "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\pbr_texture_closure.json": "f799a49778f03b267d6d77db42e529b205944b6a1ccd95a7e5b2e38fed0f3c57",
+    "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\runtime_renderer_settings.json": "0052527a23a43c7170b3c8b60beb9e156e235403d0724785f0c1c825a33726dc",
+    "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\black_texture_actual.json": "6ce92d34332e10ba750cedb3e382e1ce146e426c504a9dd86a1623b5aee257ea",
+    "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\pg_nif_reader.py": "ec513533833e55ef33121a90f972ff8482f69c374455545c87a1944a626c565d",
+    "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\pg_nif_validate.py": "12717a5ef7ac12b95d8d701779eb77554ec1aaf86e990563b21d1a3e9549d06f",
+    "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\PG_NIF_verifier_fixture.json": "85883a423aaba056a0347b0e1966b7af7bdd959f402921fbb5f3c6eab4cef1d5"
+  },
+  "phase": "Preparation and read-only preflight only. Formal --run-tool is blocked until OS driver-cache containment inside the run is implemented and verified.",
+  "database_only_guard": "The child rejects every current manifest with an external OS driver-cache boundary before starting PG. No global GPU/security/privacy changes are permitted.",
+  "source_files_changed": true,
+  "source_packs_changed": false,
+  "profile_changed": false,
+  "game_started": false,
+  "NIF_workflow": "Before any future unblocked PG run: pg_nif_validate.py freeze --run RUN. After successful actual PG: verify --run RUN. No input hardlinks, no runtime activation. Geometry strict; material changes recorded pending rule/TXST/texture closure."
+}

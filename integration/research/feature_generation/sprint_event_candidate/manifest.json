@@ -1,0 +1,439 @@
+{
+  "status": "PRIVATE_SINGLE_STRING_PEX_CANDIDATE_PROVEN_NOT_DEPLOYED",
+  "source": {
+    "kind": "bsa",
+    "archive": "Glenmoril.bsa",
+    "archive_physical": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\F04 Glenmoril\\Glenmoril.bsa",
+    "archive_sha256": "5ca876697e5d39084fad6942080d847d221393582c6f0723f552845d7317c931",
+    "metadata_archive_id": 784,
+    "entry": "scripts/ghsprintspellscript.pex",
+    "sha256": "03cb865de8b28696f254fcd01cc3849e076c09d5cc05015f7b36207bc30d0d67",
+    "bytes": 1813,
+    "provider": "F04 Glenmoril",
+    "order": 69
+  },
+  "source_sha256": "03cb865de8b28696f254fcd01cc3849e076c09d5cc05015f7b36207bc30d0d67",
+  "candidate_sha256": "ed6175d49a9ded5c9bc02f1c24516c777481db209ddaa794c990de4b397f698e",
+  "source_bytes": 1813,
+  "candidate_bytes": 1812,
+  "candidate_path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\sprint_event_candidate\\candidate\\Scripts\\GHSprintSpellScript.pex",
+  "script_name": "GHSprintSpellScript",
+  "string_table_index": 43,
+  "string_count": 57,
+  "old_literal": "ShoutSprintLongStart\t",
+  "new_literal": "ShoutSprintLongStart",
+  "changed_length_prefix": {
+    "offset": 606,
+    "before": 21,
+    "after": 20
+  },
+  "unchanged_typed_body_sha256": "65a6244c8e59294e54ae5a26870980e7a77eb599c040153d2aedf7fe4a3980af",
+  "original_body_offset": 810,
+  "candidate_body_offset": 809,
+  "all_other_string_entries_exact": true,
+  "all_properties_variables_states_functions_instructions_debug_bytes_exact": true,
+  "full_author_disassembly_only_one_literal_difference": true,
+  "author_parser_source": {
+    "author": "Orvid/Champollion",
+    "tag": "v1.3.2",
+    "commit": "108bb84fb960884639560c04cd67143ba0a9608f",
+    "files": [
+      {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\primary_sources\\Champollion\\FileReader.cpp",
+        "url": "https://raw.githubusercontent.com/Orvid/Champollion/108bb84fb960884639560c04cd67143ba0a9608f/Pex/FileReader.cpp",
+        "sha256": "38827cc729467ed353959db7d5baccc3465191ff5967adbb1f47a2dd4b3e301c"
+      },
+      {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\primary_sources\\Champollion\\FileReader.hpp",
+        "url": "https://raw.githubusercontent.com/Orvid/Champollion/108bb84fb960884639560c04cd67143ba0a9608f/Pex/FileReader.hpp",
+        "sha256": "6260e690897e43d13fdc807f43e39cc66aabdfd2e0f35605e567aefa6b2d8a8a"
+      },
+      {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\primary_sources\\Champollion\\Instruction.cpp",
+        "url": "https://raw.githubusercontent.com/Orvid/Champollion/108bb84fb960884639560c04cd67143ba0a9608f/Pex/Instruction.cpp",
+        "sha256": "257d9e811a5eadca7b2162889520a7827f4ccfa39f6b383d3cb489e1c2adb032"
+      },
+      {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\primary_sources\\Champollion\\Instruction.hpp",
+        "url": "https://raw.githubusercontent.com/Orvid/Champollion/108bb84fb960884639560c04cd67143ba0a9608f/Pex/Instruction.hpp",
+        "sha256": "bd5117fe6511cf0eb609a52ca5b64bae60204650bc360193291a5513c8aeab3f"
+      }
+    ]
+  },
+  "actual_correct_event_graphs": [
+    {
+      "path_key": "meshes/actors/character/behaviors/0_master.hkx",
+      "location": {
+        "kind": "loose",
+        "provider": "T5388 Pandora Output",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T5388 Pandora Output\\meshes\\actors\\character\\behaviors\\0_master.hkx",
+        "sha256": "df0d3dea00228c0f5e7906a5f13819d3727ae8be623ca620a7b76d2d4a82d21b"
+      },
+      "xml": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\hkx_xml\\final_0.xml",
+      "xml_sha256": "191d831b36caf430403c1c4f497be1893eef51b573becd3c6c1f740aa125a9dc"
+    },
+    {
+      "path_key": "meshes/actors/character/_1stperson/behaviors/0_master.hkx",
+      "location": {
+        "kind": "loose",
+        "provider": "T5388 Pandora Output",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T5388 Pandora Output\\meshes\\actors\\character\\_1stperson\\behaviors\\0_master.hkx",
+        "sha256": "1ef42a9120ff0bfa33daec4613838dd9e09e6340c9fb2e3da97b5528a26c2963"
+      },
+      "xml": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\hkx_xml\\final_2.xml",
+      "xml_sha256": "d15066596cf31ac9c3fcc7e37fbfdec5813520d6ebf5149630aa729b70e0fca2"
+    },
+    {
+      "path_key": "meshes/actors/character/behaviors/shoutmounted_behavior.hkx",
+      "location": {
+        "kind": "loose",
+        "provider": "T5388 Pandora Output",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T5388 Pandora Output\\meshes\\actors\\character\\behaviors\\shoutmounted_behavior.hkx",
+        "sha256": "2a9a2b3530e9710c52d2bc9c8fdcb4134fd3052f4659dc67fa1b1d9173bf47a7"
+      },
+      "xml": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\hkx_xml\\closure_2a9a2b3530e9710c52d2bc9c8fdcb4134fd3052f4659dc67fa1b1d9173bf47a7.xml",
+      "xml_sha256": "e992831c65e6c4eff75f51ed162f83279eb0173965b430691735c5372832f45e"
+    },
+    {
+      "path_key": "meshes/actors/character/behaviors/shout_behavior.hkx",
+      "location": {
+        "kind": "loose",
+        "provider": "T5388 Pandora Output",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T5388 Pandora Output\\meshes\\actors\\character\\behaviors\\shout_behavior.hkx",
+        "sha256": "a1ee2d5518a52e03945634945fd529856b3c9755cb0fbae3a573335efae9337a"
+      },
+      "xml": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\hkx_xml\\closure_a1ee2d5518a52e03945634945fd529856b3c9755cb0fbae3a573335efae9337a.xml",
+      "xml_sha256": "bdc9863888efc85b7224ee5da5af82c5527e06c53c67a9a517ae384fe3876ea6"
+    },
+    {
+      "path_key": "meshes/actors/character/behaviors/mco_attack.hkx",
+      "location": {
+        "kind": "loose",
+        "provider": "T4188 ADXP MCO 1.6.0.6 Bug Fixes",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T4188 ADXP MCO 1.6.0.6 Bug Fixes\\meshes\\actors\\character\\behaviors\\mco_attack.hkx",
+        "sha256": "9dc07238f292f7325ad4c16290961b4d3e7e9c4076ddee6063f8b22926708682"
+      },
+      "xml": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\hkx_xml\\closure_9dc07238f292f7325ad4c16290961b4d3e7e9c4076ddee6063f8b22926708682.xml",
+      "xml_sha256": "785461244cf7e0add2087eefd28140fe040e801907af54b5227088b955817d0b"
+    },
+    {
+      "path_key": "meshes/actors/character/behaviors/mco_powerattack.hkx",
+      "location": {
+        "kind": "loose",
+        "provider": "T4188 ADXP MCO 1.6.0.6 Bug Fixes",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T4188 ADXP MCO 1.6.0.6 Bug Fixes\\meshes\\actors\\character\\behaviors\\mco_powerattack.hkx",
+        "sha256": "b298ec0bca31ac53ae6ee1ce17b9205ec380b0e6d99d299f98740dbbe87ee596"
+      },
+      "xml": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\hkx_xml\\closure_b298ec0bca31ac53ae6ee1ce17b9205ec380b0e6d99d299f98740dbbe87ee596.xml",
+      "xml_sha256": "274eedc9aac34007ba670bb7e0cc9df215bc4c88b32a0c8b49b7b0dd28cf5a4a"
+    },
+    {
+      "path_key": "meshes/actors/character/behaviors/mco_sprintattack.hkx",
+      "location": {
+        "kind": "loose",
+        "provider": "T4188 ADXP MCO 1.6.0.6 Bug Fixes",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T4188 ADXP MCO 1.6.0.6 Bug Fixes\\meshes\\actors\\character\\behaviors\\mco_sprintattack.hkx",
+        "sha256": "cb96c9975262dcc7ef715cc935d8df86ddfc431e512fb7123291149f18862d3d"
+      },
+      "xml": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\hkx_xml\\closure_cb96c9975262dcc7ef715cc935d8df86ddfc431e512fb7123291149f18862d3d.xml",
+      "xml_sha256": "64907b24336f76fb24644289c6c777fa899a807343d1509c3b68993b3c0e7276"
+    },
+    {
+      "path_key": "meshes/actors/character/behaviors/mco_sprintpowerattack.hkx",
+      "location": {
+        "kind": "loose",
+        "provider": "T4188 ADXP MCO 1.6.0.6 Bug Fixes",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T4188 ADXP MCO 1.6.0.6 Bug Fixes\\meshes\\actors\\character\\behaviors\\mco_sprintpowerattack.hkx",
+        "sha256": "1cb1c81a366c0c563d937887649fb7cd9d25d05475e50e1c6f8a5547aa500e72"
+      },
+      "xml": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\hkx_xml\\closure_1cb1c81a366c0c563d937887649fb7cd9d25d05475e50e1c6f8a5547aa500e72.xml",
+      "xml_sha256": "7e1aa36056596fed20542eda94fa8283fca81221bf81945bb37a95efcc78c4e9"
+    },
+    {
+      "path_key": "meshes/actors/character/behaviors/mco_weaponart.hkx",
+      "location": {
+        "kind": "loose",
+        "provider": "T4188 ADXP MCO 1.6.0.6 Bug Fixes",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T4188 ADXP MCO 1.6.0.6 Bug Fixes\\meshes\\actors\\character\\behaviors\\mco_weaponart.hkx",
+        "sha256": "830aca9972e8a28a78b4bdda52a427f2a6731c39b800f6cab0ec28c5b51185d4"
+      },
+      "xml": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\hkx_xml\\closure_830aca9972e8a28a78b4bdda52a427f2a6731c39b800f6cab0ec28c5b51185d4.xml",
+      "xml_sha256": "832c80ac364a8f3b2637cd6d502a85fe67a2f6d85de1ec37d043de5f7b9a1f91"
+    },
+    {
+      "path_key": "meshes/actors/character/_1stperson/behaviors/shout_behavior.hkx",
+      "location": {
+        "kind": "bsa",
+        "archive": "Skyrim - Animations.bsa",
+        "archive_physical": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\ZZ80 Consistent stock data\\Skyrim - Animations.bsa",
+        "archive_sha256": "d91c3e6c2adf8ec96886bc9b2ba1a1a5044465735b8d7401b22c4e10542ceddd",
+        "metadata_archive_id": 39,
+        "entry": "meshes/actors/character/_1stperson/behaviors/shout_behavior.hkx",
+        "sha256": "11675837bb94fd0febb1c6417e2b42df62e118324ff1c12ea3909f02ab040363",
+        "bytes": 66688,
+        "provider": "ZZ80 Consistent stock data",
+        "order": 3
+      },
+      "xml": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\hkx_xml\\closure_11675837bb94fd0febb1c6417e2b42df62e118324ff1c12ea3909f02ab040363.xml",
+      "xml_sha256": "605846f1bcdd7328d0f2cffe9dcce71d6f0193d34785216d62d6e22979e5c155"
+    },
+    {
+      "path_key": "meshes/actors/character/behaviors/mco_transitionnormaltopower1.hkx",
+      "location": {
+        "kind": "loose",
+        "provider": "T4270 Attack MCO-DXP",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T4270 Attack MCO-DXP\\meshes\\actors\\character\\behaviors\\mco_transitionnormaltopower1.hkx",
+        "sha256": "50927991c10b0cd657564a7a8abb314906178e5efd70849ed388a8bf9edff32f"
+      },
+      "xml": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\hkx_xml\\closure_50927991c10b0cd657564a7a8abb314906178e5efd70849ed388a8bf9edff32f.xml",
+      "xml_sha256": "c2f11c629aeaf65ef83eb6291e79d1da35a42c1d491371b903533c5e974a7cf8"
+    },
+    {
+      "path_key": "meshes/actors/character/behaviors/mco_transitionnormaltopower10.hkx",
+      "location": {
+        "kind": "loose",
+        "provider": "T4270 Attack MCO-DXP",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T4270 Attack MCO-DXP\\meshes\\actors\\character\\behaviors\\mco_transitionnormaltopower10.hkx",
+        "sha256": "36c8637efafafd0783bd6952c801a9d4d36a553d135bd96e315589118bbf3938"
+      },
+      "xml": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\hkx_xml\\closure_36c8637efafafd0783bd6952c801a9d4d36a553d135bd96e315589118bbf3938.xml",
+      "xml_sha256": "deb1b4c599a66b702e4e0bfde0f5e656045a9b2b733116b0b11411e55cb06605"
+    },
+    {
+      "path_key": "meshes/actors/character/behaviors/mco_transitionnormaltopower2.hkx",
+      "location": {
+        "kind": "loose",
+        "provider": "T4270 Attack MCO-DXP",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T4270 Attack MCO-DXP\\meshes\\actors\\character\\behaviors\\mco_transitionnormaltopower2.hkx",
+        "sha256": "f91d6665e8b789d5202badd0f51b4995e8fc9fed16dabc69b5635a6435acc5d2"
+      },
+      "xml": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\hkx_xml\\closure_f91d6665e8b789d5202badd0f51b4995e8fc9fed16dabc69b5635a6435acc5d2.xml",
+      "xml_sha256": "2e77dc413dc022e3c9056ed6df9dce18d676272e59005100938e37e4a2e5d87c"
+    },
+    {
+      "path_key": "meshes/actors/character/behaviors/mco_transitionnormaltopower3.hkx",
+      "location": {
+        "kind": "loose",
+        "provider": "T4270 Attack MCO-DXP",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T4270 Attack MCO-DXP\\meshes\\actors\\character\\behaviors\\mco_transitionnormaltopower3.hkx",
+        "sha256": "11be7faeafb3584b767cde69634e8270195f0feb2eb484b332ce51883f821dd9"
+      },
+      "xml": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\hkx_xml\\closure_11be7faeafb3584b767cde69634e8270195f0feb2eb484b332ce51883f821dd9.xml",
+      "xml_sha256": "acdfc35dd9c2b1d4e15301d169e6916f5319abf35700d1f7c50d2172704880c0"
+    },
+    {
+      "path_key": "meshes/actors/character/behaviors/mco_transitionnormaltopower4.hkx",
+      "location": {
+        "kind": "loose",
+        "provider": "T4270 Attack MCO-DXP",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T4270 Attack MCO-DXP\\meshes\\actors\\character\\behaviors\\mco_transitionnormaltopower4.hkx",
+        "sha256": "dc4bba1373ea88b9e661f2fb4cd749d340c34d2e82a04cf261af35def55db1ac"
+      },
+      "xml": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\hkx_xml\\closure_dc4bba1373ea88b9e661f2fb4cd749d340c34d2e82a04cf261af35def55db1ac.xml",
+      "xml_sha256": "fb76adba74076773035bf1972779ed47e9516ba621ba9a5ab5c8c5fbfd938290"
+    },
+    {
+      "path_key": "meshes/actors/character/behaviors/mco_transitionnormaltopower5.hkx",
+      "location": {
+        "kind": "loose",
+        "provider": "T4270 Attack MCO-DXP",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T4270 Attack MCO-DXP\\meshes\\actors\\character\\behaviors\\mco_transitionnormaltopower5.hkx",
+        "sha256": "d5ea4ce8a23605010d42d13890aa5a3a4a07bb0eed37d487cb1c255f585959b6"
+      },
+      "xml": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\hkx_xml\\closure_d5ea4ce8a23605010d42d13890aa5a3a4a07bb0eed37d487cb1c255f585959b6.xml",
+      "xml_sha256": "d8bbb605ff315824d8fe87c2e4ab09911df3d2af0e71f248895e61753d549136"
+    },
+    {
+      "path_key": "meshes/actors/character/behaviors/mco_transitionnormaltopower6.hkx",
+      "location": {
+        "kind": "loose",
+        "provider": "T4270 Attack MCO-DXP",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T4270 Attack MCO-DXP\\meshes\\actors\\character\\behaviors\\mco_transitionnormaltopower6.hkx",
+        "sha256": "97f9938e54b3ba219b897857a8893f6f50b272f219c3a9e524c3dff545629b22"
+      },
+      "xml": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\hkx_xml\\closure_97f9938e54b3ba219b897857a8893f6f50b272f219c3a9e524c3dff545629b22.xml",
+      "xml_sha256": "720a4e1cee8cc50a3f72b4d094872a2b8d681a70ca810eea53b8e9b30de71258"
+    },
+    {
+      "path_key": "meshes/actors/character/behaviors/mco_transitionnormaltopower7.hkx",
+      "location": {
+        "kind": "loose",
+        "provider": "T4270 Attack MCO-DXP",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T4270 Attack MCO-DXP\\meshes\\actors\\character\\behaviors\\mco_transitionnormaltopower7.hkx",
+        "sha256": "156df1e3f8da7222881a33ab6fae3115b8517041d1aa71e73788fbc59107e9b4"
+      },
+      "xml": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\hkx_xml\\closure_156df1e3f8da7222881a33ab6fae3115b8517041d1aa71e73788fbc59107e9b4.xml",
+      "xml_sha256": "d527d6c7994a655636e9472080d1235947e704ac863fd729b4709a488be868c1"
+    },
+    {
+      "path_key": "meshes/actors/character/behaviors/mco_transitionnormaltopower8.hkx",
+      "location": {
+        "kind": "loose",
+        "provider": "T4270 Attack MCO-DXP",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T4270 Attack MCO-DXP\\meshes\\actors\\character\\behaviors\\mco_transitionnormaltopower8.hkx",
+        "sha256": "1292e233ceb328bd7f30ecfb4a24142ec1bf89d9b376c30ffb397af0701107f8"
+      },
+      "xml": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\hkx_xml\\closure_1292e233ceb328bd7f30ecfb4a24142ec1bf89d9b376c30ffb397af0701107f8.xml",
+      "xml_sha256": "a1f8b92a2ffb328309b5de258c990d254e0cb4271935951e16c3b2a4986e700a"
+    },
+    {
+      "path_key": "meshes/actors/character/behaviors/mco_transitionnormaltopower9.hkx",
+      "location": {
+        "kind": "loose",
+        "provider": "T4270 Attack MCO-DXP",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T4270 Attack MCO-DXP\\meshes\\actors\\character\\behaviors\\mco_transitionnormaltopower9.hkx",
+        "sha256": "a20f2741ae0372aa3b1bffbfefd9590f0e2aacd5d34eefd34d23c829eb2a94dd"
+      },
+      "xml": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\hkx_xml\\closure_a20f2741ae0372aa3b1bffbfefd9590f0e2aacd5d34eefd34d23c829eb2a94dd.xml",
+      "xml_sha256": "8d96d65fba1648166aa308fd31dea2c6d7c6821e90047869f94214750efb626c"
+    },
+    {
+      "path_key": "meshes/actors/character/behaviors/mco_transitionpowertonormal1.hkx",
+      "location": {
+        "kind": "loose",
+        "provider": "T4270 Attack MCO-DXP",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T4270 Attack MCO-DXP\\meshes\\actors\\character\\behaviors\\mco_transitionpowertonormal1.hkx",
+        "sha256": "4dc7f461b2831bfcb92b679c4046c3677738dc5327df3ae76f38b6989e1b8a81"
+      },
+      "xml": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\hkx_xml\\closure_4dc7f461b2831bfcb92b679c4046c3677738dc5327df3ae76f38b6989e1b8a81.xml",
+      "xml_sha256": "bdd96ac94cdc5d8761f74de3fc881f5c67910dba63e3950e9c07c10d0af4f8bb"
+    },
+    {
+      "path_key": "meshes/actors/character/behaviors/mco_transitionpowertonormal10.hkx",
+      "location": {
+        "kind": "loose",
+        "provider": "T4270 Attack MCO-DXP",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T4270 Attack MCO-DXP\\meshes\\actors\\character\\behaviors\\mco_transitionpowertonormal10.hkx",
+        "sha256": "f7c924c974622ec0d639a7b24a2f5cf48e6cb054041968f3153d82c90f404ad7"
+      },
+      "xml": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\hkx_xml\\closure_f7c924c974622ec0d639a7b24a2f5cf48e6cb054041968f3153d82c90f404ad7.xml",
+      "xml_sha256": "a756ea516efa7f8b5c4124418544ef707914eb94259cb739ca126e8dfe3c0ce2"
+    },
+    {
+      "path_key": "meshes/actors/character/behaviors/mco_transitionpowertonormal2.hkx",
+      "location": {
+        "kind": "loose",
+        "provider": "T4270 Attack MCO-DXP",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T4270 Attack MCO-DXP\\meshes\\actors\\character\\behaviors\\mco_transitionpowertonormal2.hkx",
+        "sha256": "faa8ae949a7ee635488a1d861fb86c2694156c8b8d78010a5f05a20f033186f6"
+      },
+      "xml": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\hkx_xml\\closure_faa8ae949a7ee635488a1d861fb86c2694156c8b8d78010a5f05a20f033186f6.xml",
+      "xml_sha256": "1d071012300458ed35b15ddcd2ba7daeb213137f9e2fc8c0e8c4b90a5b5f788d"
+    },
+    {
+      "path_key": "meshes/actors/character/behaviors/mco_transitionpowertonormal3.hkx",
+      "location": {
+        "kind": "loose",
+        "provider": "T4270 Attack MCO-DXP",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T4270 Attack MCO-DXP\\meshes\\actors\\character\\behaviors\\mco_transitionpowertonormal3.hkx",
+        "sha256": "aa7991f09381c6699bb01c6cec0ad9b4d54cbbc53546f28a5317a24dc7d66224"
+      },
+      "xml": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\hkx_xml\\closure_aa7991f09381c6699bb01c6cec0ad9b4d54cbbc53546f28a5317a24dc7d66224.xml",
+      "xml_sha256": "f9827a6ca274323110b227a922ca82badaa49a1d92cdb179b12962f158448eb9"
+    },
+    {
+      "path_key": "meshes/actors/character/behaviors/mco_transitionpowertonormal4.hkx",
+      "location": {
+        "kind": "loose",
+        "provider": "T4270 Attack MCO-DXP",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T4270 Attack MCO-DXP\\meshes\\actors\\character\\behaviors\\mco_transitionpowertonormal4.hkx",
+        "sha256": "e0f0a33bb8c1ca5ccc6a0cb4182a4ddc55845c1da3c3ee0acdcb6d525ddb1f2e"
+      },
+      "xml": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\hkx_xml\\closure_e0f0a33bb8c1ca5ccc6a0cb4182a4ddc55845c1da3c3ee0acdcb6d525ddb1f2e.xml",
+      "xml_sha256": "d4876403220fab79d049c71468d5493225ceb746bccef981b30faece0dd3a319"
+    },
+    {
+      "path_key": "meshes/actors/character/behaviors/mco_transitionpowertonormal5.hkx",
+      "location": {
+        "kind": "loose",
+        "provider": "T4270 Attack MCO-DXP",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T4270 Attack MCO-DXP\\meshes\\actors\\character\\behaviors\\mco_transitionpowertonormal5.hkx",
+        "sha256": "84d07d015d2f77454509f7599e6533126e19e0cb6c4d72ed74193b905ddd5926"
+      },
+      "xml": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\hkx_xml\\closure_84d07d015d2f77454509f7599e6533126e19e0cb6c4d72ed74193b905ddd5926.xml",
+      "xml_sha256": "144b8c0134e32ab9a87baf8eb5359f418f2b9a70f5e3612ee957e0d64922cb51"
+    },
+    {
+      "path_key": "meshes/actors/character/behaviors/mco_transitionpowertonormal6.hkx",
+      "location": {
+        "kind": "loose",
+        "provider": "T4270 Attack MCO-DXP",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T4270 Attack MCO-DXP\\meshes\\actors\\character\\behaviors\\mco_transitionpowertonormal6.hkx",
+        "sha256": "6dd6bc3a0487b186bc7983d32df2a9a6963b9ae0cc880dc568b09493ca8b0c6e"
+      },
+      "xml": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\hkx_xml\\closure_6dd6bc3a0487b186bc7983d32df2a9a6963b9ae0cc880dc568b09493ca8b0c6e.xml",
+      "xml_sha256": "2193aa2b34e75af9b7cfc09d34eaf6b20040d7e7b5fb367f064e41a2db38ded8"
+    },
+    {
+      "path_key": "meshes/actors/character/behaviors/mco_transitionpowertonormal7.hkx",
+      "location": {
+        "kind": "loose",
+        "provider": "T4270 Attack MCO-DXP",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T4270 Attack MCO-DXP\\meshes\\actors\\character\\behaviors\\mco_transitionpowertonormal7.hkx",
+        "sha256": "2628cbf2e0653d84875292c422339a717c93744299331c6830d0e87f7b159c83"
+      },
+      "xml": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\hkx_xml\\closure_2628cbf2e0653d84875292c422339a717c93744299331c6830d0e87f7b159c83.xml",
+      "xml_sha256": "d85c33edb8c512a116067eff0da70e650f7a92abcfce234feee7208124359d66"
+    },
+    {
+      "path_key": "meshes/actors/character/behaviors/mco_transitionpowertonormal8.hkx",
+      "location": {
+        "kind": "loose",
+        "provider": "T4270 Attack MCO-DXP",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T4270 Attack MCO-DXP\\meshes\\actors\\character\\behaviors\\mco_transitionpowertonormal8.hkx",
+        "sha256": "067dc7026ab4cb33dee1e46c435582416f258bffc76b2d3fe6cf3c3b2d05f9ce"
+      },
+      "xml": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\hkx_xml\\closure_067dc7026ab4cb33dee1e46c435582416f258bffc76b2d3fe6cf3c3b2d05f9ce.xml",
+      "xml_sha256": "272ff991dff1f501e8b81d9080e5325fe4eca6199d0a37a99aec16c688c7de32"
+    },
+    {
+      "path_key": "meshes/actors/character/behaviors/mco_transitionpowertonormal9.hkx",
+      "location": {
+        "kind": "loose",
+        "provider": "T4270 Attack MCO-DXP",
+        "physical_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T4270 Attack MCO-DXP\\meshes\\actors\\character\\behaviors\\mco_transitionpowertonormal9.hkx",
+        "sha256": "e7fced057f1065265a4044acd9b8bd79ff704d53f848a58bc75e5b0c71abf22b"
+      },
+      "xml": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\hkx_xml\\closure_e7fced057f1065265a4044acd9b8bd79ff704d53f848a58bc75e5b0c71abf22b.xml",
+      "xml_sha256": "81721c56002a0316704fe543ec57e317da8598ca02ca3c99da3e8bb9624bed5d"
+    }
+  ],
+  "VMAD_final_winners": [
+    {
+      "canonical": "glenmoril.esm|01497A",
+      "signature": "MGEF",
+      "editor_id": "zzzGHMgESprintShock",
+      "plugin": "Glenmoril.esm",
+      "provider": "F04 Glenmoril",
+      "plugin_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\F04 Glenmoril\\Glenmoril.esm",
+      "plugin_sha256": "b1e649406bfebf9485db799d285b1620b07fe776394b32a03e291fa05e862761",
+      "script_attached": true
+    }
+  ],
+  "VMAD_override_chains": {
+    "glenmoril.esm|01497A": [
+      {
+        "canonical": "glenmoril.esm|01497A",
+        "signature": "MGEF",
+        "editor_id": "zzzGHMgESprintShock",
+        "plugin": "Glenmoril.esm",
+        "provider": "F04 Glenmoril",
+        "plugin_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\F04 Glenmoril\\Glenmoril.esm",
+        "plugin_sha256": "b1e649406bfebf9485db799d285b1620b07fe776394b32a03e291fa05e862761",
+        "script_attached": true
+      }
+    ]
+  },
+  "context": "OnEffectStart distance512..768 branch uses Long between Short/Medium/Longest; correct Long event exists in actual final human/firstperson/master/shout tables, trailingTAB event does not.",
+  "profile_control_sha256": {
+    "plugins.txt": "ef0a74fbf9111f3356049571f552249e96b39431eec95c1a07c70abe3848e5d7",
+    "modlist.txt": "9b98269687834ab17dc43207b214a5eb8f603a020183cf7c2be12ffe1eb9249a",
+    "loadorder.txt": "e4dbfbe3e3b512f57084cb828563900985a6d97b59910f914ea198ff46086d6a"
+  },
+  "native_execution_tested": false,
+  "deployment": "Parent may install exactly this one private script in a new output layer after review; do not edit BSA/source or regenerate Pandora.",
+  "typed_VMAD_attachment_proof": {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\sprint_event_candidate\\consumer_typed.json",
+    "sha256": "e5c9273135860f661ea80b82d9112283697aaa82770717ca165d39d76e59031d"
+  }
+}

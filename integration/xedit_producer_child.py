@@ -1,0 +1,61 @@
+"""MO2-only xEdit producer/typed reload verifier, with explicit completion marker."""
+import configparser,ctypes,json,os,subprocess,sys,time
+from pathlib import Path
+from materialize import BASE,TARGET,sha,utc
+
+task=Path(sys.argv[1]).resolve(strict=True)
+assert task.is_relative_to(TARGET/'validation')
+kernel=ctypes.WinDLL('kernel32')
+kernel.GetModuleHandleW.argtypes=[ctypes.c_wchar_p]
+kernel.GetModuleHandleW.restype=ctypes.c_void_p
+assert kernel.GetModuleHandleW('usvfs_x64.dll'), 'Actual MO2 VFS required'
+prepared=json.loads((task/'prepared.json').read_text('utf-8'))
+normal_settings=None
+if prepared.get('normal_records_option') is not None:
+    assert sha(__file__)==prepared['harness_sha256']['xedit_producer_child.py'],'Frozen harness changed before dispatch'
+    settings_path=Path(prepared['normal_records_ini'])
+    assert settings_path.resolve()==TARGET/'tools/xedit/SSEScript.ini'
+    ini=configparser.ConfigParser();ini.read_string(settings_path.read_text('utf-8-sig'))
+    assert ini.get('Options','SimpleRecords').strip()=='0','Actual VFS tool INI no longer uses verified numeric0'
+    normal_settings={'path':str(settings_path),'sha256':sha(settings_path),'SimpleRecords':'0'}
+assert sha(prepared['script'])==prepared['script_sha256']
+for name,digest in prepared.get('profile_controls',{}).items():
+    assert sha(Path(prepared['profile'])/name)==digest,'Profile drift before launch: '+name
+command=json.loads((task/'xedit_command.json').read_text('utf-8'))
+assert Path(command[0]).resolve()==TARGET/'tools/xedit/SSEEdit64.exe'
+assert '-nofixup' in command
+log=task/'logs/xedit.log'
+assert not log.exists()
+(task/'child_started.json').write_text(json.dumps({'utc':utc(),'usvfs':True,'pid':os.getpid(),'normal_records_config':normal_settings})+'\n',encoding='utf-8')
+started=time.monotonic()
+process=subprocess.Popen(command,cwd=Path(command[0]).parent)
+(task/'xedit_pid.json').write_text(json.dumps({'pid':process.pid})+'\n',encoding='utf-8')
+code=process.wait()
+inputs=json.loads((task/'input_inventory.json').read_text('utf-8'))
+changed_inputs=[r['name'] for r in inputs['plugins'] if sha(r['path'])!=r['sha256']]
+changed_controls=[name for name,digest in prepared.get('profile_controls',{}).items() if sha(Path(prepared['profile'])/name)!=digest]
+autosave=None
+patch_name=prepared.get('patch_name')
+if patch_name:
+    saved=TARGET/'overwrite'/patch_name
+    if saved.exists():
+        assert saved.is_file() and saved.resolve().is_relative_to((TARGET/'overwrite').resolve())
+        assert saved.stat().st_nlink==1
+        quarantine=task/'autosave'/patch_name
+        quarantine.parent.mkdir(exist_ok=False)
+        autosave={'source':str(saved),'quarantined':str(quarantine),'sha256':sha(saved),
+                  'disposition':'Script-mode automatic save is isolated; only explicitly exported and independently verified candidate can be installed.'}
+        saved.rename(quarantine)
+content=log.read_text('utf-8-sig',errors='replace') if log.exists() else ''
+candidate=Path(prepared['candidate']) if prepared['candidate'] else None
+passed=code==0 and not changed_inputs and not changed_controls and prepared['pass_marker'] in content and (candidate is None or candidate.is_file())
+result={'utc':utc(),'status':'PASS' if passed else 'FAIL','usvfs':True,'return_code':code,
+        'seconds':round(time.monotonic()-started,1),'pass_marker':prepared['pass_marker'],
+        'marker_seen':prepared['pass_marker'] in content,'log_sha256':sha(log) if log.exists() else None,
+        'candidate_sha256':sha(candidate) if candidate and candidate.exists() else None}
+result['changed_input_plugins']=changed_inputs
+result['changed_profile_controls']=changed_controls
+result['isolated_script_autosave']=autosave
+(task/'result.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+print(json.dumps(result,ensure_ascii=False),flush=True)
+raise SystemExit(0 if passed else 1)

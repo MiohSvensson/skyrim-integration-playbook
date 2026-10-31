@@ -1,0 +1,2236 @@
+{
+  "schema": "skyrim.final_navi_key_audit.v1",
+  "status": "EXACT_ONE_PREEXISTING_STOCK_ORPHAN_IDENTIFIED_NO_RECORD_REPAIR",
+  "task": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\validation\\fc_navigation_v2",
+  "input_inventory": {
+    "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\validation\\fc_navigation_v2\\input_inventory.json",
+    "sha256": "6378543cd1614361a59b46d7f703b38340c163c94ab1c9ac96310c6410ff7b70"
+  },
+  "file_map": {
+    "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\validation\\fc_navigation_v2\\file_map.json",
+    "sha256": "9e55845cf620ff53948182cc44097218098b6406b76623cb2ab4f07ad62a52cd"
+  },
+  "plugin_count": 1075,
+  "counts": {
+    "records": 2435098,
+    "NAVM_records": 29246,
+    "unique_NAVM": 27012,
+    "NAVI_overrides": 64,
+    "absent_NVMI_keys": 1,
+    "deleted_NAVM_source_rows": 70,
+    "unique_deleted_NAVM_keys": 68
+  },
+  "all_input_plugin_SHA_verified": true,
+  "all_NVMI_layouts_and_unique_keys_binary_parsed": true,
+  "orphan": {
+    "source_plugin": "Skyrim.esm",
+    "source_file_sha256": "06a9881f6ab277afd2a82e71f8a3719183b7031db4d9c78a7f40c08e1e4ffa91",
+    "source_file_crc32": "66212483",
+    "navi_identity": "skyrim.esm|012FB4",
+    "NVMI_ordinal_in_serialized_file": 4479,
+    "NVMI_bytes": 49,
+    "NVMI_payload_sha256": "8a220fa216d44545e8367bde7fd0d3fe7bcd43b1598f7eb131aa99d4fe3a7304",
+    "NVMI_payload_hex": "378e020000000000a0fd53c525e18e434e176f4300000000000000000000000000000000003ca0e9a500000000348e0200",
+    "NVMI_model": {
+      "navmesh": "skyrim.esm|028E37",
+      "category": 0,
+      "xyz_preferred_merge_hex": "a0fd53c525e18e434e176f4300000000",
+      "edges": [],
+      "preferred_edges": [],
+      "doors": [],
+      "is_island": 0,
+      "island_hex": "",
+      "pathing": {
+        "crc": 2783551548,
+        "world": "NULL",
+        "cell_or_coords": "skyrim.esm|028E34"
+      }
+    },
+    "first_XYZ_floats": [
+      -3391.8515625,
+      285.7589416503906,
+      239.09103393554688
+    ]
+  },
+  "any_loaded_record_of_any_signature_at_orphan_identity": [],
+  "other_references_to_orphan": [],
+  "source_summary": [
+    {
+      "plugin": "Skyrim.esm",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\ZZ80 Consistent stock data\\Skyrim.esm",
+      "sha256": "06a9881f6ab277afd2a82e71f8a3719183b7031db4d9c78a7f40c08e1e4ffa91",
+      "load_index": 0,
+      "record": {
+        "signature": "NAVI",
+        "id": "skyrim.esm|012FB4",
+        "offset": 13393698,
+        "size": 2703614,
+        "flags": 0,
+        "vcs1": 3696904,
+        "form_version": 40,
+        "vcs2": 14
+      },
+      "payload_sha256": "4f6395998c9dd38942e293cad4d4d89a829d843bf4ee306c96767bc53d731c6f",
+      "nvmi_count": 15462,
+      "NULL_keys": [],
+      "absent_NAVM_keys": [
+        "skyrim.esm|028E37"
+      ],
+      "final_deleted_NAVM_keys": [
+        "skyrim.esm|1087AB",
+        "skyrim.esm|108883",
+        "skyrim.esm|10391D",
+        "skyrim.esm|108632",
+        "skyrim.esm|1088E6",
+        "skyrim.esm|108733",
+        "skyrim.esm|108824",
+        "skyrim.esm|1087A9",
+        "skyrim.esm|1085C3",
+        "skyrim.esm|1086BE",
+        "skyrim.esm|106EAA",
+        "skyrim.esm|1085C7",
+        "skyrim.esm|10888A",
+        "skyrim.esm|108738",
+        "skyrim.esm|1087A4",
+        "skyrim.esm|0F9457",
+        "skyrim.esm|108636",
+        "skyrim.esm|1085C6",
+        "skyrim.esm|1085C5",
+        "skyrim.esm|1088E9",
+        "skyrim.esm|10881D",
+        "skyrim.esm|101F2A",
+        "skyrim.esm|1088EA",
+        "skyrim.esm|1087A6",
+        "skyrim.esm|108634",
+        "skyrim.esm|103910",
+        "skyrim.esm|108731",
+        "skyrim.esm|1088EB",
+        "skyrim.esm|108885",
+        "skyrim.esm|1087AD",
+        "skyrim.esm|108737",
+        "skyrim.esm|10872F",
+        "skyrim.esm|0CB4F3",
+        "skyrim.esm|1088E7",
+        "skyrim.esm|108633",
+        "skyrim.esm|1085CB",
+        "skyrim.esm|1086BD",
+        "skyrim.esm|1086B6",
+        "skyrim.esm|108638",
+        "skyrim.esm|1087AA",
+        "skyrim.esm|108739",
+        "skyrim.esm|10872D",
+        "skyrim.esm|108730",
+        "skyrim.esm|1088E5",
+        "skyrim.esm|1086B4",
+        "skyrim.esm|1087A8",
+        "skyrim.esm|108732",
+        "skyrim.esm|10881A",
+        "skyrim.esm|103929",
+        "skyrim.esm|1087AE",
+        "skyrim.esm|1088E8",
+        "skyrim.esm|1085C4",
+        "skyrim.esm|0FFE7F",
+        "skyrim.esm|0F9455",
+        "skyrim.esm|0EA18D",
+        "skyrim.esm|1086AD",
+        "skyrim.esm|108637",
+        "skyrim.esm|1086B5",
+        "skyrim.esm|032D8B",
+        "skyrim.esm|108736",
+        "skyrim.esm|10881E",
+        "skyrim.esm|1086B8",
+        "skyrim.esm|1085CC",
+        "skyrim.esm|1087AC",
+        "skyrim.esm|0F0660",
+        "skyrim.esm|10863E",
+        "skyrim.esm|105A71",
+        "skyrim.esm|1087A7"
+      ]
+    },
+    {
+      "plugin": "Update.esm",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\ZZ80 Consistent stock data\\Update.esm",
+      "sha256": "71e0b3a9573ee758a7b546c31c8e34a78c8f1e145d5831299bca4c2a0e3336f4",
+      "load_index": 1,
+      "record": {
+        "signature": "NAVI",
+        "id": "skyrim.esm|012FB4",
+        "offset": 1216042,
+        "size": 71105,
+        "flags": 0,
+        "vcs1": 3549829,
+        "form_version": 44,
+        "vcs2": 15
+      },
+      "payload_sha256": "2e5f0f9fd1f5a5bce21e6784a72e08a047ada45c639ca9194a8668aaf4465594",
+      "nvmi_count": 251,
+      "NULL_keys": [],
+      "absent_NAVM_keys": [],
+      "final_deleted_NAVM_keys": []
+    },
+    {
+      "plugin": "Dawnguard.esm",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\ZZ80 Consistent stock data\\Dawnguard.esm",
+      "sha256": "92c5d2c407e9f1e753c82ea40799bad8e2d61a1b64f58b5cc3b4521b57c5ae1d",
+      "load_index": 2,
+      "record": {
+        "signature": "NAVI",
+        "id": "skyrim.esm|012FB4",
+        "offset": 1692749,
+        "size": 337607,
+        "flags": 0,
+        "vcs1": 3549777,
+        "form_version": 44,
+        "vcs2": 10
+      },
+      "payload_sha256": "8a90c9dcfb7945d075843b206f26095205a5f64da80c0f22ab7b2b45ad75be1b",
+      "nvmi_count": 1873,
+      "NULL_keys": [],
+      "absent_NAVM_keys": [],
+      "final_deleted_NAVM_keys": [
+        "skyrim.esm|0CB4F3"
+      ]
+    },
+    {
+      "plugin": "HearthFires.esm",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\ZZ80 Consistent stock data\\HearthFires.esm",
+      "sha256": "b330c76f976a7e681f5ca86a3a01479e5b82ef08ec7ede73719f835f4b509460",
+      "load_index": 3,
+      "record": {
+        "signature": "NAVI",
+        "id": "skyrim.esm|012FB4",
+        "offset": 452567,
+        "size": 49176,
+        "flags": 0,
+        "vcs1": 4813080,
+        "form_version": 43,
+        "vcs2": 12
+      },
+      "payload_sha256": "5079e81dd3fd5cb9293d7655a39833f78d4b52b584335539380ae60568d863a6",
+      "nvmi_count": 132,
+      "NULL_keys": [],
+      "absent_NAVM_keys": [],
+      "final_deleted_NAVM_keys": []
+    },
+    {
+      "plugin": "Dragonborn.esm",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\ZZ80 Consistent stock data\\Dragonborn.esm",
+      "sha256": "2ecc393bb93660e36364cd8e48d58b8ce7ee1791b1218863918d04b83ad38429",
+      "load_index": 4,
+      "record": {
+        "signature": "NAVI",
+        "id": "skyrim.esm|012FB4",
+        "offset": 2099859,
+        "size": 289924,
+        "flags": 0,
+        "vcs1": 3549778,
+        "form_version": 44,
+        "vcs2": 2
+      },
+      "payload_sha256": "467b3778d32d605ca306d7391c597b7c720f85cb3cd082348462ac0aac8d195b",
+      "nvmi_count": 1732,
+      "NULL_keys": [],
+      "absent_NAVM_keys": [],
+      "final_deleted_NAVM_keys": []
+    },
+    {
+      "plugin": "Unofficial Skyrim Special Edition Patch.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T5955 Unofficial Skyrim Special Edition Patch\\Unofficial Skyrim Special Edition Patch.esp",
+      "sha256": "c42820ca1fb31d11254f4478a3f1725db1fc547822ac06f8c74d9edf2d442eac",
+      "load_index": 5,
+      "record": {
+        "signature": "NAVI",
+        "id": "skyrim.esm|012FB4",
+        "offset": 4629931,
+        "size": 162644,
+        "flags": 0,
+        "vcs1": 0,
+        "form_version": 44,
+        "vcs2": 2
+      },
+      "payload_sha256": "7a263a47758bc157b50edcea9aaa8ed10e839c4e2116e1656acba6070f67d237",
+      "nvmi_count": 730,
+      "NULL_keys": [],
+      "absent_NAVM_keys": [],
+      "final_deleted_NAVM_keys": []
+    },
+    {
+      "plugin": "Navigator-NavFixes.esl",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T5274 Navigator - Navmesh Fixes\\Navigator-NavFixes.esl",
+      "sha256": "f7bbf83a20c3b257006679e4122fea5b2d7d11cd456788b84abfe5e4c4a3def6",
+      "load_index": 6,
+      "record": {
+        "signature": "NAVI",
+        "id": "skyrim.esm|012FB4",
+        "offset": 3589,
+        "size": 116909,
+        "flags": 0,
+        "vcs1": 0,
+        "form_version": 44,
+        "vcs2": 4
+      },
+      "payload_sha256": "e24f854d54fede28b58b7de95467d29553d49451db59a808a7fef20fc13c5c72",
+      "nvmi_count": 737,
+      "NULL_keys": [],
+      "absent_NAVM_keys": [],
+      "final_deleted_NAVM_keys": []
+    },
+    {
+      "plugin": "LegacyoftheDragonborn.esm",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6269 [LED]Legacy of the Dragonborn v6.10.0\\LegacyoftheDragonborn.esm",
+      "sha256": "f1c2c23fef57605f90fe475533067176f682a6b2dbbd02a0ddd16e2d7d875d55",
+      "load_index": 11,
+      "record": {
+        "signature": "NAVI",
+        "id": "skyrim.esm|012FB4",
+        "offset": 8520730,
+        "size": 113907,
+        "flags": 0,
+        "vcs1": 0,
+        "form_version": 44,
+        "vcs2": 2
+      },
+      "payload_sha256": "9f860352c5d89d7f638079e3cdd37b95701b0da41a1bbf70ef69a1f7f6178f07",
+      "nvmi_count": 551,
+      "NULL_keys": [],
+      "absent_NAVM_keys": [],
+      "final_deleted_NAVM_keys": []
+    },
+    {
+      "plugin": "LOTD_HUB.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6243 [LED]Hall of Forgotten 2.4.26\\LOTD_HUB.esp",
+      "sha256": "d8f9ba854c6109b79e0c48f26f095736b5ea14ec71d84d83db4677cd99abfe36",
+      "load_index": 12,
+      "record": {
+        "signature": "NAVI",
+        "id": "skyrim.esm|012FB4",
+        "offset": 592032,
+        "size": 29354,
+        "flags": 0,
+        "vcs1": 0,
+        "form_version": 44,
+        "vcs2": 0
+      },
+      "payload_sha256": "e92cd01d0b317ac2e67c4575ea6519a604732ba7b11e5e978bb532b19c7c7ac7",
+      "nvmi_count": 42,
+      "NULL_keys": [],
+      "absent_NAVM_keys": [],
+      "final_deleted_NAVM_keys": []
+    },
+    {
+      "plugin": "EVGAnimatedTraversal.esl",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T4698 EVG Animated Traversal\\EVGAnimatedTraversal.esl",
+      "sha256": "8f798e56734914c88cc849d3be6c9a0c70733d81bddb46dfe6a1823f60778125",
+      "load_index": 28,
+      "record": {
+        "signature": "NAVI",
+        "id": "skyrim.esm|012FB4",
+        "offset": 14775,
+        "size": 27897,
+        "flags": 0,
+        "vcs1": 0,
+        "form_version": 44,
+        "vcs2": 2
+      },
+      "payload_sha256": "f5091af29d31ef7c7c003b3f8f735268aba3e012427ec28c6c81d755f5a79db0",
+      "nvmi_count": 17,
+      "NULL_keys": [],
+      "absent_NAVM_keys": [],
+      "final_deleted_NAVM_keys": []
+    },
+    {
+      "plugin": "Sailable Ship.esm",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6323 [LED]Sailable Ship\\Sailable Ship.esm",
+      "sha256": "58ad94b393c96db74f32a07688136e7f82568daecc0971a45667e2c1ef08e0f1",
+      "load_index": 43,
+      "record": {
+        "signature": "NAVI",
+        "id": "skyrim.esm|012FB4",
+        "offset": 115935,
+        "size": 27873,
+        "flags": 0,
+        "vcs1": 0,
+        "form_version": 44,
+        "vcs2": 0
+      },
+      "payload_sha256": "9aa9ec7cdb258a998bec50b42675bd94f0618349d68e87f4d70e157262263f9e",
+      "nvmi_count": 19,
+      "NULL_keys": [],
+      "absent_NAVM_keys": [],
+      "final_deleted_NAVM_keys": []
+    },
+    {
+      "plugin": "ZaZAnimationPack.esm",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6118 ZAZ Animation Pack\\ZaZAnimationPack.esm",
+      "sha256": "3528d309126a348e95b0ef3afa548a78a0158c7a4a8f636125b840d99bfec181",
+      "load_index": 57,
+      "record": {
+        "signature": "NAVI",
+        "id": "skyrim.esm|012FB4",
+        "offset": 631648,
+        "size": 26656,
+        "flags": 0,
+        "vcs1": 0,
+        "form_version": 44,
+        "vcs2": 14
+      },
+      "payload_sha256": "b148b887e11278056800dcb756dcc6195beaea64445d6cf8e288b93ef7cb3014",
+      "nvmi_count": 12,
+      "NULL_keys": [],
+      "absent_NAVM_keys": [],
+      "final_deleted_NAVM_keys": []
+    },
+    {
+      "plugin": "Interesting Roads.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T5001 Interesting Roads\\Interesting Roads.esp",
+      "sha256": "01e53dfdf7f6f0fc532a3c7414cc8b95c255b6d09e99b5d5fdd1da9514097e0d",
+      "load_index": 75,
+      "record": {
+        "signature": "NAVI",
+        "id": "skyrim.esm|012FB4",
+        "offset": 7843,
+        "size": 31524,
+        "flags": 0,
+        "vcs1": 0,
+        "form_version": 44,
+        "vcs2": 0
+      },
+      "payload_sha256": "963ac80fc53ba7626cf123a57e9a0b3fbd438acb79c29a8029bc7541bd14a785",
+      "nvmi_count": 56,
+      "NULL_keys": [],
+      "absent_NAVM_keys": [],
+      "final_deleted_NAVM_keys": []
+    },
+    {
+      "plugin": "Vigilant.esm",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6006 VIGILANT - English Translation SE (Voiced)\\Vigilant.esm",
+      "sha256": "ef5a96368ef86c5479631d12d959e685c0072c4fc0fd50c2ddf00df8385b6c1f",
+      "load_index": 86,
+      "record": {
+        "signature": "NAVI",
+        "id": "skyrim.esm|012FB4",
+        "offset": 2799668,
+        "size": 125007,
+        "flags": 0,
+        "vcs1": 0,
+        "form_version": 44,
+        "vcs2": 14
+      },
+      "payload_sha256": "5ea2e867d93c2faa16b48d312b8bdbd6cf4ac84f7ab2bcacb212618f623d5b54",
+      "nvmi_count": 897,
+      "NULL_keys": [],
+      "absent_NAVM_keys": [],
+      "final_deleted_NAVM_keys": []
+    },
+    {
+      "plugin": "Unslaad.esm",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T5957 Unslaad Voiced - English Addon SE\\Unslaad.esm",
+      "sha256": "a8ceea2f8496ae7c9a8c1d28d6f7044239aecf47617ed40535852b2fec7d885e",
+      "load_index": 87,
+      "record": {
+        "signature": "NAVI",
+        "id": "skyrim.esm|012FB4",
+        "offset": 1288842,
+        "size": 72238,
+        "flags": 0,
+        "vcs1": 0,
+        "form_version": 44,
+        "vcs2": 15
+      },
+      "payload_sha256": "5cd21c1b46b058fa2073ed2231aa4053d64e736ceed58b96e0a68e997ab918c0",
+      "nvmi_count": 440,
+      "NULL_keys": [],
+      "absent_NAVM_keys": [],
+      "final_deleted_NAVM_keys": []
+    },
+    {
+      "plugin": "DAc0da.esm",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T4479 DAc0da - English Translation SE\\DAc0da.esm",
+      "sha256": "212ae0035592d3e39e19cc41ae745e9cc951bb6120b0087b3ed36fb0083b9874",
+      "load_index": 88,
+      "record": {
+        "signature": "NAVI",
+        "id": "skyrim.esm|012FB4",
+        "offset": 1139969,
+        "size": 89205,
+        "flags": 0,
+        "vcs1": 0,
+        "form_version": 44,
+        "vcs2": 0
+      },
+      "payload_sha256": "76a2859877e54916563c4565b8dffccaf1d4d13f2cf33464fa83668f2a98fd94",
+      "nvmi_count": 483,
+      "NULL_keys": [],
+      "absent_NAVM_keys": [],
+      "final_deleted_NAVM_keys": []
+    },
+    {
+      "plugin": "Wyrmstooth.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\F01 Wyrmstooth\\Wyrmstooth.esp",
+      "sha256": "59b7aa67f4b2434d62fbafe27b97fb4053b0aa3693a4e768bcb6ae8e3213aea9",
+      "load_index": 89,
+      "record": {
+        "signature": "NAVI",
+        "id": "skyrim.esm|012FB4",
+        "offset": 482507,
+        "size": 263411,
+        "flags": 0,
+        "vcs1": 0,
+        "form_version": 44,
+        "vcs2": 15
+      },
+      "payload_sha256": "88044953acd16b75de9e599171677c966ef827e594fb89e1f70413c1161ad240",
+      "nvmi_count": 2683,
+      "NULL_keys": [],
+      "absent_NAVM_keys": [],
+      "final_deleted_NAVM_keys": []
+    },
+    {
+      "plugin": "Glenmoril.esm",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\F04 Glenmoril\\Glenmoril.esm",
+      "sha256": "b1e649406bfebf9485db799d285b1620b07fe776394b32a03e291fa05e862761",
+      "load_index": 90,
+      "record": {
+        "signature": "NAVI",
+        "id": "skyrim.esm|012FB4",
+        "offset": 4060143,
+        "size": 135344,
+        "flags": 0,
+        "vcs1": 0,
+        "form_version": 44,
+        "vcs2": 15
+      },
+      "payload_sha256": "6ff9fd27939d2fce342162cefeae91406017cca3ba2e58651977cab3d76746b0",
+      "nvmi_count": 1000,
+      "NULL_keys": [],
+      "absent_NAVM_keys": [],
+      "final_deleted_NAVM_keys": []
+    },
+    {
+      "plugin": "AKSkyrimUnderground.esm",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T5713 Skyrim Underground - esm\\AKSkyrimUnderground.esm",
+      "sha256": "7f61c019dd24f1ef93c091183366fee873c3e4a2407ab35973a46f3d24c259c2",
+      "load_index": 91,
+      "record": {
+        "signature": "NAVI",
+        "id": "skyrim.esm|012FB4",
+        "offset": 552728,
+        "size": 75414,
+        "flags": 0,
+        "vcs1": 0,
+        "form_version": 44,
+        "vcs2": 0
+      },
+      "payload_sha256": "3b880d927de67a2927669360fbe1f3a7889d77296e1a919409a7fe67cac66eab",
+      "nvmi_count": 338,
+      "NULL_keys": [],
+      "absent_NAVM_keys": [],
+      "final_deleted_NAVM_keys": []
+    },
+    {
+      "plugin": "Whiterun Imperial Camp Fixes.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6074 Whiterun Imperial Camp Fixes\\Whiterun Imperial Camp Fixes.esp",
+      "sha256": "a0fd6f034d9b15c2d341c4479e966913eb0c5b08a97c89a9d7a0ec1b345d4ccf",
+      "load_index": 113,
+      "record": {
+        "signature": "NAVI",
+        "id": "skyrim.esm|012FB4",
+        "offset": 121,
+        "size": 26701,
+        "flags": 0,
+        "vcs1": 0,
+        "form_version": 44,
+        "vcs2": 2
+      },
+      "payload_sha256": "1e7b66f06a9555d9c6a26fc40b3360596a92ed7558a5c4dc90e7290a96e48da7",
+      "nvmi_count": 11,
+      "NULL_keys": [],
+      "absent_NAVM_keys": [],
+      "final_deleted_NAVM_keys": []
+    },
+    {
+      "plugin": "Ashe - Fire and Blood.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T4261 Ashe - Crystal Heart\\Ashe - Fire and Blood.esp",
+      "sha256": "25af8fa6795363310b873a81d0bb3b1c4569e7b2aaca038430ab23c7b0d23e97",
+      "load_index": 242,
+      "record": {
+        "signature": "NAVI",
+        "id": "skyrim.esm|012FB4",
+        "offset": 196758,
+        "size": 32368,
+        "flags": 0,
+        "vcs1": 0,
+        "form_version": 44,
+        "vcs2": 2
+      },
+      "payload_sha256": "db157c4b5584dd3e722155f7925ff4bca6ad0838f142909681ba4ea90b97a9c0",
+      "nvmi_count": 56,
+      "NULL_keys": [],
+      "absent_NAVM_keys": [],
+      "final_deleted_NAVM_keys": []
+    },
+    {
+      "plugin": "Inigo.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6251 [LED]INIGO\\Inigo.esp",
+      "sha256": "55549786ad2190cde531c47fc00e1131640047d727d85013f47eb1b4b2f063f8",
+      "load_index": 251,
+      "record": {
+        "signature": "NAVI",
+        "id": "skyrim.esm|012FB4",
+        "offset": 112116,
+        "size": 31634,
+        "flags": 0,
+        "vcs1": 0,
+        "form_version": 44,
+        "vcs2": 15
+      },
+      "payload_sha256": "552e4b45e7215f8efff0af396dedb5f44ca58fd7304afc46fb603f1d712ca086",
+      "nvmi_count": 46,
+      "NULL_keys": [],
+      "absent_NAVM_keys": [],
+      "final_deleted_NAVM_keys": []
+    },
+    {
+      "plugin": "0Kaidan.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6261 [LED]Kaidan 2.1.1 Reface Korean\\0Kaidan.esp",
+      "sha256": "097f3b8660e659970c638cd33b751822b563c3e0b45b372156e051166cc979a7",
+      "load_index": 252,
+      "record": {
+        "signature": "NAVI",
+        "id": "skyrim.esm|012FB4",
+        "offset": 49500,
+        "size": 32473,
+        "flags": 0,
+        "vcs1": 0,
+        "form_version": 44,
+        "vcs2": 4
+      },
+      "payload_sha256": "28f2d0995685ee4976c6542116d12fb66d35249d23ff699d576dd0875c0836a8",
+      "nvmi_count": 39,
+      "NULL_keys": [],
+      "absent_NAVM_keys": [],
+      "final_deleted_NAVM_keys": []
+    },
+    {
+      "plugin": "018Auri.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T5784 Song Of The Green 2.2\\018Auri.esp",
+      "sha256": "396e43d1da80350a2b9e05c48dd1a424b4a07942d14132ebf1f8e470a704dbde",
+      "load_index": 259,
+      "record": {
+        "signature": "NAVI",
+        "id": "skyrim.esm|012FB4",
+        "offset": 28514,
+        "size": 28176,
+        "flags": 0,
+        "vcs1": 0,
+        "form_version": 44,
+        "vcs2": 2
+      },
+      "payload_sha256": "b1b0255d6b2ec39beb238df79b45d209f4f442622fd23c1a4c9af6b31f8c83cc",
+      "nvmi_count": 20,
+      "NULL_keys": [],
+      "absent_NAVM_keys": [],
+      "final_deleted_NAVM_keys": []
+    },
+    {
+      "plugin": "BPUFXelzazFollower.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6393 [LED]Xelzaz Follower Core 1.13.2\\BPUFXelzazFollower.esp",
+      "sha256": "a47357f4cffd735e0666dc918942c4bb48ffb7a4d16857c626d530ac05004e8b",
+      "load_index": 265,
+      "record": {
+        "signature": "NAVI",
+        "id": "skyrim.esm|012FB4",
+        "offset": 115550,
+        "size": 28401,
+        "flags": 0,
+        "vcs1": 0,
+        "form_version": 44,
+        "vcs2": 2
+      },
+      "payload_sha256": "367f8c2e9187690dc642307ffab9258db7227de0811ffddbea8f062da55a1a81",
+      "nvmi_count": 19,
+      "NULL_keys": [],
+      "absent_NAVM_keys": [],
+      "final_deleted_NAVM_keys": []
+    },
+    {
+      "plugin": "GomaPeroLand.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T4842 GomaPeroLand\\GomaPeroLand.esp",
+      "sha256": "8a0847434d4a44588b8f02021bbd54f61b8816e397c56d0a6e64579527482a01",
+      "load_index": 340,
+      "record": {
+        "signature": "NAVI",
+        "id": "skyrim.esm|012FB4",
+        "offset": 147906,
+        "size": 89392,
+        "flags": 0,
+        "vcs1": 0,
+        "form_version": 44,
+        "vcs2": 14
+      },
+      "payload_sha256": "ffefa8b4d417e3ab453fda5a963dc2b4f9d66b2cff3bee32e5487fa6b1895b65",
+      "nvmi_count": 366,
+      "NULL_keys": [],
+      "absent_NAVM_keys": [],
+      "final_deleted_NAVM_keys": []
+    },
+    {
+      "plugin": "The Modern Scrolls.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T4171 Addon Modern Scrolls SE 5.4\\The Modern Scrolls.esp",
+      "sha256": "08b1d64f58e91964833f8bd04529964cab6e70138a33ab9ea632f2f9aef15fcb",
+      "load_index": 341,
+      "record": {
+        "signature": "NAVI",
+        "id": "skyrim.esm|012FB4",
+        "offset": 1125436,
+        "size": 85656,
+        "flags": 0,
+        "vcs1": 0,
+        "form_version": 44,
+        "vcs2": 0
+      },
+      "payload_sha256": "d584d2f84e1b8815a10897bfa9153ee2cd00e9b5d0ae9ad917381aea3baf6e5e",
+      "nvmi_count": 558,
+      "NULL_keys": [],
+      "absent_NAVM_keys": [],
+      "final_deleted_NAVM_keys": []
+    },
+    {
+      "plugin": "ModernScroll-Addon.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T5890 The Modern Scrolls Addon\\ModernScroll-Addon.esp",
+      "sha256": "79d51cc05156a16a7de2d97d0381b08e2218a890b72c785905aa69638176c00e",
+      "load_index": 342,
+      "record": {
+        "signature": "NAVI",
+        "id": "skyrim.esm|012FB4",
+        "offset": 1524,
+        "size": 26782,
+        "flags": 0,
+        "vcs1": 0,
+        "form_version": 44,
+        "vcs2": 0
+      },
+      "payload_sha256": "1e977ce69dbb72d3df5eb1bc454d52a3586fb5fc96a97720aeacf5ae274d5844",
+      "nvmi_count": 14,
+      "NULL_keys": [],
+      "absent_NAVM_keys": [],
+      "final_deleted_NAVM_keys": []
+    },
+    {
+      "plugin": "KuroneSoulTomb.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T5087 Kurone Soul Tomb\\KuroneSoulTomb.esp",
+      "sha256": "dc3b859734377c02e20ad47df1ff5ca1ae1800f01d59ed9100afd024fb6aefa2",
+      "load_index": 344,
+      "record": {
+        "signature": "NAVI",
+        "id": "skyrim.esm|012FB4",
+        "offset": 188572,
+        "size": 28941,
+        "flags": 0,
+        "vcs1": 0,
+        "form_version": 44,
+        "vcs2": 14
+      },
+      "payload_sha256": "9b229fd75e028a6074d21c7e0102f540e9e77dfb4f67a9a11dacf4042abfd8e1",
+      "nvmi_count": 23,
+      "NULL_keys": [],
+      "absent_NAVM_keys": [],
+      "final_deleted_NAVM_keys": []
+    },
+    {
+      "plugin": "Undriel_Ebongrove.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T4630 Ebongrove - Player Home\\Undriel_Ebongrove.esp",
+      "sha256": "5d11bf70f61a81d3208aca3073f9f6af122963e6a9c1b961e498f4326fcf6d57",
+      "load_index": 347,
+      "record": {
+        "signature": "NAVI",
+        "id": "skyrim.esm|012FB4",
+        "offset": 77551,
+        "size": 33220,
+        "flags": 0,
+        "vcs1": 0,
+        "form_version": 44,
+        "vcs2": 12
+      },
+      "payload_sha256": "117377973ca8716affe5fa0b9dd1d84fe15e2c0428cf0e5338d4afb2ea6b6c57",
+      "nvmi_count": 44,
+      "NULL_keys": [],
+      "absent_NAVM_keys": [],
+      "final_deleted_NAVM_keys": []
+    },
+    {
+      "plugin": "GostedDimensionalRift.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\ZZ86 Verified stale script assignments\\GostedDimensionalRift.esp",
+      "sha256": "51e7371177a2c81904729fc965e5cbe6eccd4b7d986047de17a2b023a15977a3",
+      "load_index": 348,
+      "record": {
+        "signature": "NAVI",
+        "id": "skyrim.esm|012FB4",
+        "offset": 149868,
+        "size": 63545,
+        "flags": 0,
+        "vcs1": 0,
+        "form_version": 44,
+        "vcs2": 0
+      },
+      "payload_sha256": "0a134a2c3efbed295ae898db9470a879f16f6d467ad52e6c25060a8dd9f41944",
+      "nvmi_count": 187,
+      "NULL_keys": [],
+      "absent_NAVM_keys": [],
+      "final_deleted_NAVM_keys": []
+    },
+    {
+      "plugin": "GostedDimensionalBarrel.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T4512 Dimensional Barrel\\GostedDimensionalBarrel.esp",
+      "sha256": "5e5a23ce47430e23d09cc04c27ab6d144cb2dd222c4c237b7e2b77c45b1f0000",
+      "load_index": 349,
+      "record": {
+        "signature": "NAVI",
+        "id": "skyrim.esm|012FB4",
+        "offset": 50547,
+        "size": 26569,
+        "flags": 0,
+        "vcs1": 0,
+        "form_version": 44,
+        "vcs2": 0
+      },
+      "payload_sha256": "49bd5b668a9e4b0d8fdd0501b15402f432d365577edced423ddb39b74575ac93",
+      "nvmi_count": 11,
+      "NULL_keys": [],
+      "absent_NAVM_keys": [],
+      "final_deleted_NAVM_keys": []
+    },
+    {
+      "plugin": "mihailseagull.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6328 [LED]seagulls (se-ae) Kor\\mihailseagull.esp",
+      "sha256": "7d872c03b07303757d013ea587fce351085c0cfda1a63a261ed3c6212f7da7af",
+      "load_index": 460,
+      "record": {
+        "signature": "NAVI",
+        "id": "skyrim.esm|012FB4",
+        "offset": 3000,
+        "size": 47533,
+        "flags": 0,
+        "vcs1": 0,
+        "form_version": 44,
+        "vcs2": 0
+      },
+      "payload_sha256": "b2992504367e918cb74e854ca7577f8bcbcd2694664cac0c0d34c85437be4cbf",
+      "nvmi_count": 101,
+      "NULL_keys": [],
+      "absent_NAVM_keys": [],
+      "final_deleted_NAVM_keys": []
+    },
+    {
+      "plugin": "AncientLand2.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T4218 Ancient Land\\AncientLand2.esp",
+      "sha256": "3fd60f011d6c155d397c1c1981dabb1c68fd0844df7673d856915ca6ad0d6213",
+      "load_index": 475,
+      "record": {
+        "signature": "NAVI",
+        "id": "skyrim.esm|012FB4",
+        "offset": 501,
+        "size": 42011,
+        "flags": 0,
+        "vcs1": 0,
+        "form_version": 44,
+        "vcs2": 0
+      },
+      "payload_sha256": "1320c9087e8dcb5a81aae5e04ecda85025df663ab6ae0be17520d04f7dc3c63a",
+      "nvmi_count": 117,
+      "NULL_keys": [],
+      "absent_NAVM_keys": [],
+      "final_deleted_NAVM_keys": []
+    },
+    {
+      "plugin": "Man Those Borders!.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T5151 Man Those Borders\\Man Those Borders!.esp",
+      "sha256": "c2db843b1aaf38eb9a1191ebcb975a8d685a175a30e89860bfce48891847b45b",
+      "load_index": 476,
+      "record": {
+        "signature": "NAVI",
+        "id": "skyrim.esm|012FB4",
+        "offset": 6300,
+        "size": 39357,
+        "flags": 0,
+        "vcs1": 0,
+        "form_version": 44,
+        "vcs2": 2
+      },
+      "payload_sha256": "a6a5ccda070bcb74861a888bda8d061d79de68acda2f758af3272806baf95e57",
+      "nvmi_count": 97,
+      "NULL_keys": [],
+      "absent_NAVM_keys": [],
+      "final_deleted_NAVM_keys": []
+    },
+    {
+      "plugin": "AtronachStoneRecovered.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6322 [LED]Ryn's Atronach Stone\\AtronachStoneRecovered.esp",
+      "sha256": "922056b19e1316567be936bfc81819a431de9babdd1f56e941ca01a6720bd52b",
+      "load_index": 507,
+      "record": {
+        "signature": "NAVI",
+        "id": "skyrim.esm|012FB4",
+        "offset": 3069,
+        "size": 33670,
+        "flags": 0,
+        "vcs1": 0,
+        "form_version": 44,
+        "vcs2": 2
+      },
+      "payload_sha256": "e45ae3c545f4325c2217bb7c9d2c3d259208773b4745bb2719ae0029679f3d65",
+      "nvmi_count": 48,
+      "NULL_keys": [],
+      "absent_NAVM_keys": [],
+      "final_deleted_NAVM_keys": []
+    },
+    {
+      "plugin": "RedBag's Falkreath.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6311 [LED]RedBag's Falkreath\\RedBag's Falkreath.esp",
+      "sha256": "d544f3eab3bd60cf44de3df1decb842406cb3c15bbb59873e258b157ef1e8bcd",
+      "load_index": 510,
+      "record": {
+        "signature": "NAVI",
+        "id": "skyrim.esm|012FB4",
+        "offset": 60428,
+        "size": 41689,
+        "flags": 0,
+        "vcs1": 0,
+        "form_version": 44,
+        "vcs2": 2
+      },
+      "payload_sha256": "dad252df8f6066f61a1797f8d7730867466614fd9c9bcba79c7009255a778ff1",
+      "nvmi_count": 91,
+      "NULL_keys": [],
+      "absent_NAVM_keys": [],
+      "final_deleted_NAVM_keys": []
+    },
+    {
+      "plugin": "RedBag's Falkreath - Pinewatch Addon.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6314 [LED]RedBag's Falkreath - Pinewatch Addon - Kor\\RedBag's Falkreath - Pinewatch Addon.esp",
+      "sha256": "fed6802c84c4d798e7927f9c39695a4059769944c11a705b106b8a82a6944806",
+      "load_index": 511,
+      "record": {
+        "signature": "NAVI",
+        "id": "skyrim.esm|012FB4",
+        "offset": 1075,
+        "size": 29092,
+        "flags": 0,
+        "vcs1": 0,
+        "form_version": 44,
+        "vcs2": 2
+      },
+      "payload_sha256": "76c1e2980af260437b71ea0f1863a856deb8c50c3baa8f000d51d90eaf2b39fe",
+      "nvmi_count": 26,
+      "NULL_keys": [],
+      "absent_NAVM_keys": [],
+      "final_deleted_NAVM_keys": []
+    },
+    {
+      "plugin": "Yggdrasil Trees.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6396 [LED]Yggdrasil - Floating Tree Redux - Kor\\Yggdrasil Trees.esp",
+      "sha256": "8fee066496243accf21a3bf28e69c85dfa352e0d474151a6facece05c47e2db0",
+      "load_index": 513,
+      "record": {
+        "signature": "NAVI",
+        "id": "skyrim.esm|012FB4",
+        "offset": 8426,
+        "size": 29313,
+        "flags": 0,
+        "vcs1": 0,
+        "form_version": 44,
+        "vcs2": 0
+      },
+      "payload_sha256": "fde9df9dde2bd3e3dc034a7c5ab1b8dde61cc760fdbffc7d296c5dab64dceee3",
+      "nvmi_count": 19,
+      "NULL_keys": [],
+      "absent_NAVM_keys": [],
+      "final_deleted_NAVM_keys": []
+    },
+    {
+      "plugin": "Apocalypse - Magic of Skyrim.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T4243 Apocalypse - CHS - With Light\\Apocalypse - Magic of Skyrim.esp",
+      "sha256": "cee59700757e0b02eb4a9680ea2d0582a718aa017dc64187f673f076658fc0c4",
+      "load_index": 608,
+      "record": {
+        "signature": "NAVI",
+        "id": "skyrim.esm|012FB4",
+        "offset": 748238,
+        "size": 26771,
+        "flags": 0,
+        "vcs1": 0,
+        "form_version": 44,
+        "vcs2": 14
+      },
+      "payload_sha256": "101a23b438d1e5a4b1e1747778faf53cb5650f7af9452e84e3458b88d624246a",
+      "nvmi_count": 13,
+      "NULL_keys": [],
+      "absent_NAVM_keys": [],
+      "final_deleted_NAVM_keys": []
+    },
+    {
+      "plugin": "Odin - Skyrim Magic Overhaul.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T5363 Odin - Skyrim Magic Overhaul\\Odin - Skyrim Magic Overhaul.esp",
+      "sha256": "d3023da4e28c445d9af8dcfafa9405287126492d9b49a58ce47af11608beb38f",
+      "load_index": 609,
+      "record": {
+        "signature": "NAVI",
+        "id": "skyrim.esm|012FB4",
+        "offset": 562903,
+        "size": 26569,
+        "flags": 0,
+        "vcs1": 0,
+        "form_version": 44,
+        "vcs2": 0
+      },
+      "payload_sha256": "6ebeb17793849e38f1839b4116218700f343e81e129778d3692d989543c15537",
+      "nvmi_count": 11,
+      "NULL_keys": [],
+      "absent_NAVM_keys": [],
+      "final_deleted_NAVM_keys": []
+    },
+    {
+      "plugin": "The Amazing World of Bikini Armors REMASTERED.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T5865 TAWOBA Remastered\\The Amazing World of Bikini Armors REMASTERED.esp",
+      "sha256": "8a5027373c7df37370a6fd98ac1cb08f18402dfd2d049d98bd0c983b3131472d",
+      "load_index": 650,
+      "record": {
+        "signature": "NAVI",
+        "id": "skyrim.esm|012FB4",
+        "offset": 464093,
+        "size": 26577,
+        "flags": 0,
+        "vcs1": 0,
+        "form_version": 44,
+        "vcs2": 0
+      },
+      "payload_sha256": "49835234f390a03b75459ca9dbc974751523a878a196860eecbe58be1d8d6d33",
+      "nvmi_count": 11,
+      "NULL_keys": [],
+      "absent_NAVM_keys": [],
+      "final_deleted_NAVM_keys": []
+    },
+    {
+      "plugin": "NewArmoury.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T4222 Animated Armoury\\NewArmoury.esp",
+      "sha256": "32f1ed9ffed5276a1c4b4461bcc2da1cf5014889b26b25ad2bae2f4e5b8e6beb",
+      "load_index": 661,
+      "record": {
+        "signature": "NAVI",
+        "id": "skyrim.esm|012FB4",
+        "offset": 177347,
+        "size": 32060,
+        "flags": 0,
+        "vcs1": 0,
+        "form_version": 44,
+        "vcs2": 0
+      },
+      "payload_sha256": "f199cb159e466e0fee3c1c048e561636574123fc18a2ed82d5b71db2117e6e87",
+      "nvmi_count": 40,
+      "NULL_keys": [],
+      "absent_NAVM_keys": [],
+      "final_deleted_NAVM_keys": []
+    },
+    {
+      "plugin": "icebladeofthemonarch.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6163 [LED]Artifacts - The Ice Blade of the Monarch [군주의 빙검]\\icebladeofthemonarch.esp",
+      "sha256": "de1fcbbfc3b6eb5197e5eb9c784b0a75bac77f11caefe9e6be292035636d6a4e",
+      "load_index": 720,
+      "record": {
+        "signature": "NAVI",
+        "id": "skyrim.esm|012FB4",
+        "offset": 28389,
+        "size": 26577,
+        "flags": 0,
+        "vcs1": 0,
+        "form_version": 44,
+        "vcs2": 14
+      },
+      "payload_sha256": "52e886b451ca2cf01397c1c4e4c36167b4285b58aa31d5d2f57ebfcb9dee1581",
+      "nvmi_count": 11,
+      "NULL_keys": [],
+      "absent_NAVM_keys": [],
+      "final_deleted_NAVM_keys": []
+    },
+    {
+      "plugin": "WZOblivionArtifacts.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6299 [LED]Oblivion Artifact Pack [오블 유물]\\WZOblivionArtifacts.esp",
+      "sha256": "98e70cfaa2a585c91005053fd36892efd4e5684e83b7940db5ba3f2481b504cc",
+      "load_index": 721,
+      "record": {
+        "signature": "NAVI",
+        "id": "skyrim.esm|012FB4",
+        "offset": 169529,
+        "size": 28332,
+        "flags": 0,
+        "vcs1": 0,
+        "form_version": 44,
+        "vcs2": 0
+      },
+      "payload_sha256": "a3aa52782be464ae6dd948556d0e9d36e8820c851e75cda9f5509cf02aa21423",
+      "nvmi_count": 26,
+      "NULL_keys": [],
+      "absent_NAVM_keys": [],
+      "final_deleted_NAVM_keys": []
+    },
+    {
+      "plugin": "Demon Slayer Armor.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6208 [LED]Demon Slayer Armor Mashup [마족 학살자]\\Demon Slayer Armor.esp",
+      "sha256": "fd697a3d3c590a876d975fc3b2281a24ba89ec7b473e0c13d296e4d0bf90c871",
+      "load_index": 730,
+      "record": {
+        "signature": "NAVI",
+        "id": "skyrim.esm|012FB4",
+        "offset": 62839,
+        "size": 30707,
+        "flags": 0,
+        "vcs1": 0,
+        "form_version": 44,
+        "vcs2": 2
+      },
+      "payload_sha256": "778880407872ada46067bbb1b24c0af4878be04dc47b95fdad1d1fc92f1731b8",
+      "nvmi_count": 33,
+      "NULL_keys": [],
+      "absent_NAVM_keys": [],
+      "final_deleted_NAVM_keys": []
+    },
+    {
+      "plugin": "Valenwood Ranger Armor.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6377 [LED]Valenwood Ranger Armor [발렌우드 레인저]\\Valenwood Ranger Armor.esp",
+      "sha256": "e004fa0187296e70212d5fe78e3041cb8e1d3b3d58a0074297e98b2b88d0afea",
+      "load_index": 743,
+      "record": {
+        "signature": "NAVI",
+        "id": "skyrim.esm|012FB4",
+        "offset": 4432,
+        "size": 26577,
+        "flags": 0,
+        "vcs1": 0,
+        "form_version": 44,
+        "vcs2": 2
+      },
+      "payload_sha256": "cffcde090cc761ab27016f34e15f57af7dd2982a1b8868a5c6814b6e016dc0c9",
+      "nvmi_count": 11,
+      "NULL_keys": [],
+      "absent_NAVM_keys": [],
+      "final_deleted_NAVM_keys": []
+    },
+    {
+      "plugin": "Honeypopcorn Skyrim Overhaul.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T4175 ADVG 1st #03 Honeypopcorn Skyrim Overhaul - PSI Rework\\Honeypopcorn Skyrim Overhaul.esp",
+      "sha256": "26e3ba78bf55c68519a95522654754fccfa21f03ba33108d220e8f6f6d9ca0a2",
+      "load_index": 767,
+      "record": {
+        "signature": "NAVI",
+        "id": "skyrim.esm|012FB4",
+        "offset": 907405,
+        "size": 27006,
+        "flags": 0,
+        "vcs1": 0,
+        "form_version": 44,
+        "vcs2": 4
+      },
+      "payload_sha256": "4fcfa90451788dfd1a56f03766a4f7d69d8be998f0b4733bba880544b8066fbd",
+      "nvmi_count": 14,
+      "NULL_keys": [],
+      "absent_NAVM_keys": [],
+      "final_deleted_NAVM_keys": []
+    },
+    {
+      "plugin": "AKSkyrimUnderground_AddOn.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T5712 Skyrim Underground - Add-On\\AKSkyrimUnderground_AddOn.esp",
+      "sha256": "4c221d4cbd8e25af483a4d4fa837d193923af70db5ce638602c51b367b486456",
+      "load_index": 779,
+      "record": {
+        "signature": "NAVI",
+        "id": "skyrim.esm|012FB4",
+        "offset": 252861,
+        "size": 31481,
+        "flags": 0,
+        "vcs1": 0,
+        "form_version": 44,
+        "vcs2": 0
+      },
+      "payload_sha256": "b93b1fda91a1c8f5587c4e0efa61af50fc947b913fd06f13f8a1aaea76d0bf9d",
+      "nvmi_count": 33,
+      "NULL_keys": [],
+      "absent_NAVM_keys": [],
+      "final_deleted_NAVM_keys": []
+    },
+    {
+      "plugin": "Darkend.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6204 [LED]Darkend Unofficial Quest AddonKR - 아무로\\Darkend.esp",
+      "sha256": "ec7a7ce3c7ced82ce3df7197d10c8aa94085e9fd8cc34672408694c6180d2720",
+      "load_index": 820,
+      "record": {
+        "signature": "NAVI",
+        "id": "skyrim.esm|012FB4",
+        "offset": 744220,
+        "size": 86251,
+        "flags": 0,
+        "vcs1": 0,
+        "form_version": 44,
+        "vcs2": 4
+      },
+      "payload_sha256": "267e58adc6fe5780b0227c4284ae5417bc5b6a14fbbb1672b5b694342dc0fce6",
+      "nvmi_count": 385,
+      "NULL_keys": [],
+      "absent_NAVM_keys": [],
+      "final_deleted_NAVM_keys": []
+    },
+    {
+      "plugin": "NarrativeLoot Complete.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6295 [LED]Narrative Loot [더 많은 잡동사니]\\NarrativeLoot Complete.esp",
+      "sha256": "422c553f208d0442b8df0285bd2e2b2b15965d85d1f198f3f0ad18dcc9bbe79d",
+      "load_index": 841,
+      "record": {
+        "signature": "NAVI",
+        "id": "skyrim.esm|012FB4",
+        "offset": 811245,
+        "size": 29043,
+        "flags": 0,
+        "vcs1": 0,
+        "form_version": 44,
+        "vcs2": 0
+      },
+      "payload_sha256": "58325da36c47028da04692c2ccc6317e64b831abb495c2f474a24de707356231",
+      "nvmi_count": 27,
+      "NULL_keys": [],
+      "absent_NAVM_keys": [],
+      "final_deleted_NAVM_keys": []
+    },
+    {
+      "plugin": "ForgottenArt.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6237 [LED]Forgotten Art 2.5\\ForgottenArt.esp",
+      "sha256": "9c36e6131fec3ef6751fee3deec04d5002e3546d98db63d527acef2a7018d0ab",
+      "load_index": 844,
+      "record": {
+        "signature": "NAVI",
+        "id": "skyrim.esm|012FB4",
+        "offset": 293291,
+        "size": 26577,
+        "flags": 0,
+        "vcs1": 0,
+        "form_version": 44,
+        "vcs2": 4
+      },
+      "payload_sha256": "759907abf293b6a93b75dc0a6a15d903e757591719a1bd243d04be41674a86b2",
+      "nvmi_count": 11,
+      "NULL_keys": [],
+      "absent_NAVM_keys": [],
+      "final_deleted_NAVM_keys": []
+    },
+    {
+      "plugin": "AlternatePerspective.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6142 [LED] Alternate Perspective 4.1 - Kor\\AlternatePerspective.esp",
+      "sha256": "35b7c6ae076e8299cd22059c27dfe0e13998dc772255e6d6d049fc18585ddada",
+      "load_index": 952,
+      "record": {
+        "signature": "NAVI",
+        "id": "skyrim.esm|012FB4",
+        "offset": 42539,
+        "size": 34822,
+        "flags": 0,
+        "vcs1": 0,
+        "form_version": 44,
+        "vcs2": 2
+      },
+      "payload_sha256": "9ce657772cea0b5b25fc4e20944df320ebca9f00126963c91d54dd0588dfa499",
+      "nvmi_count": 82,
+      "NULL_keys": [],
+      "absent_NAVM_keys": [],
+      "final_deleted_NAVM_keys": []
+    },
+    {
+      "plugin": "InnBath.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T5662 Simple Inn Bath - Free ESL-Flagged Version\\InnBath.esp",
+      "sha256": "fe26604d68d500a254666dea7ed37fc9814c6ed3a6924a0fecc2de98ad594b43",
+      "load_index": 956,
+      "record": {
+        "signature": "NAVI",
+        "id": "skyrim.esm|012FB4",
+        "offset": 1491,
+        "size": 26569,
+        "flags": 0,
+        "vcs1": 0,
+        "form_version": 44,
+        "vcs2": 9
+      },
+      "payload_sha256": "a8ceea054da957cf4ae793d9768f609a13437d9ef9972e26018fedb8c08ac6db",
+      "nvmi_count": 11,
+      "NULL_keys": [],
+      "absent_NAVM_keys": [],
+      "final_deleted_NAVM_keys": []
+    },
+    {
+      "plugin": "LED-Ruins.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T6399 [LED][Custom] Amonsul\\LED-Ruins.esp",
+      "sha256": "5564222e934eba877bd4f8d75b8e645bfa32b68bbe9b94cf99529a345987f00f",
+      "load_index": 991,
+      "record": {
+        "signature": "NAVI",
+        "id": "skyrim.esm|012FB4",
+        "offset": 6633,
+        "size": 27711,
+        "flags": 0,
+        "vcs1": 0,
+        "form_version": 44,
+        "vcs2": 14
+      },
+      "payload_sha256": "c790951ae80695921a4297ac228485184fb47d40fa7cf0babbad87dca44faf98",
+      "nvmi_count": 17,
+      "NULL_keys": [],
+      "absent_NAVM_keys": [],
+      "final_deleted_NAVM_keys": []
+    },
+    {
+      "plugin": "ForgottenCity.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\F02 The Forgotten City\\ForgottenCity.esp",
+      "sha256": "25e4dc1cf2763523bfec6ac3dcb08c83d4c1fe54be719865688c38122eda34f2",
+      "load_index": 1050,
+      "record": {
+        "signature": "NAVI",
+        "id": "skyrim.esm|012FB4",
+        "offset": 276629,
+        "size": 36041,
+        "flags": 0,
+        "vcs1": 0,
+        "form_version": 44,
+        "vcs2": 14
+      },
+      "payload_sha256": "dadd7902b621c6fa3b318cef8e6de428f0dbc057a8ca1e9fcc4a600ba44d47ad",
+      "nvmi_count": 63,
+      "NULL_keys": [],
+      "absent_NAVM_keys": [],
+      "final_deleted_NAVM_keys": []
+    },
+    {
+      "plugin": "[LongShou]WorldInPainting_ZeroHall.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\F03 World In Painting - Zero Hall - UF6\\[LongShou]WorldInPainting_ZeroHall.esp",
+      "sha256": "105e0bf084ec5bf5fb968406480a057c67daf35fc4a361589ea5fd6955f4a724",
+      "load_index": 1053,
+      "record": {
+        "signature": "NAVI",
+        "id": "skyrim.esm|012FB4",
+        "offset": 1685,
+        "size": 26577,
+        "flags": 0,
+        "vcs1": 0,
+        "form_version": 44,
+        "vcs2": 7
+      },
+      "payload_sha256": "06abc19d1880ec83fbef0ea141fe0f1251ee4e1650188180b3e5d1ec5bb88dc4",
+      "nvmi_count": 11,
+      "NULL_keys": [],
+      "absent_NAVM_keys": [],
+      "final_deleted_NAVM_keys": []
+    },
+    {
+      "plugin": "[longshou]UF6.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\F03 World In Painting - Zero Hall - UF6\\[longshou]UF6.esp",
+      "sha256": "37472e17e48101ec53fa6046385cbc29068db4b244bbfbd5bfbd2a7c5256783d",
+      "load_index": 1054,
+      "record": {
+        "signature": "NAVI",
+        "id": "skyrim.esm|012FB4",
+        "offset": 12705,
+        "size": 26577,
+        "flags": 0,
+        "vcs1": 0,
+        "form_version": 44,
+        "vcs2": 7
+      },
+      "payload_sha256": "06d05e861865623b9818221cfd4e511a2d8dcf7becd04a5b66095b9b6e43a68a",
+      "nvmi_count": 11,
+      "NULL_keys": [],
+      "absent_NAVM_keys": [],
+      "final_deleted_NAVM_keys": []
+    },
+    {
+      "plugin": "MoonAndStar_MAS.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\F05 Moon and Star\\MoonAndStar_MAS.esp",
+      "sha256": "6182033b97b4fd106f2d8ecfe8174defef1788ca4e9f4dc059534b8d57ffb90e",
+      "load_index": 1055,
+      "record": {
+        "signature": "NAVI",
+        "id": "skyrim.esm|012FB4",
+        "offset": 104602,
+        "size": 56242,
+        "flags": 0,
+        "vcs1": 0,
+        "form_version": 44,
+        "vcs2": 15
+      },
+      "payload_sha256": "03592305ae1c5cc324574a392d81071d70ffcab8f0f6cd6cf2df8848a383a12b",
+      "nvmi_count": 144,
+      "NULL_keys": [],
+      "absent_NAVM_keys": [],
+      "final_deleted_NAVM_keys": [
+        "skyrim.esm|0FFE7F"
+      ]
+    },
+    {
+      "plugin": "SofiaFollower.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\F07 SofiaFollower.esp\\SofiaFollower.esp",
+      "sha256": "8c70186252d0a4415e1ff02584b87adca4c685a4fc4d2dec94c09040ef3ec3c9",
+      "load_index": 1057,
+      "record": {
+        "signature": "NAVI",
+        "id": "skyrim.esm|012FB4",
+        "offset": 16458,
+        "size": 26569,
+        "flags": 0,
+        "vcs1": 0,
+        "form_version": 44,
+        "vcs2": 15
+      },
+      "payload_sha256": "ccd1b2579f2ab62cccb8a9c2164340bd58b37c38810e74ab8d8d872892ccbd69",
+      "nvmi_count": 11,
+      "NULL_keys": [],
+      "absent_NAVM_keys": [],
+      "final_deleted_NAVM_keys": []
+    },
+    {
+      "plugin": "BenDoonSSE.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\F09 BenDoonSSE.esp\\BenDoonSSE.esp",
+      "sha256": "afd1e978edaffe14adb8083686a184ace484de253c89fd73d7091ac7a7d27878",
+      "load_index": 1059,
+      "record": {
+        "signature": "NAVI",
+        "id": "skyrim.esm|012FB4",
+        "offset": 22940,
+        "size": 26640,
+        "flags": 0,
+        "vcs1": 0,
+        "form_version": 44,
+        "vcs2": 15
+      },
+      "payload_sha256": "3d59b875968f11b0a5fa76ac3d66266284349e5d240b48b56acfb2e8e86c4e1a",
+      "nvmi_count": 12,
+      "NULL_keys": [],
+      "absent_NAVM_keys": [],
+      "final_deleted_NAVM_keys": []
+    },
+    {
+      "plugin": "KuroneSoulTomb_EX1.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T5087 Kurone Soul Tomb\\KuroneSoulTomb_EX1.esp",
+      "sha256": "24227319b0363c010b88b8a49772b06e5fefb9d76925b465db1eec6aec3c2528",
+      "load_index": 1063,
+      "record": {
+        "signature": "NAVI",
+        "id": "skyrim.esm|012FB4",
+        "offset": 29979,
+        "size": 27390,
+        "flags": 0,
+        "vcs1": 0,
+        "form_version": 44,
+        "vcs2": 14
+      },
+      "payload_sha256": "bcc9f690e0e384a2205bf8eb1ad53fdaeaa60dfd1301e2e720c023793741f0c6",
+      "nvmi_count": 20,
+      "NULL_keys": [],
+      "absent_NAVM_keys": [],
+      "final_deleted_NAVM_keys": []
+    },
+    {
+      "plugin": "KuroneSoulTomb_EX2.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T5087 Kurone Soul Tomb\\KuroneSoulTomb_EX2.esp",
+      "sha256": "468a5e449968ab579fe20af0a13ea1d556486985f260a6bdbc954a68c84cd65b",
+      "load_index": 1064,
+      "record": {
+        "signature": "NAVI",
+        "id": "skyrim.esm|012FB4",
+        "offset": 43723,
+        "size": 26783,
+        "flags": 0,
+        "vcs1": 0,
+        "form_version": 44,
+        "vcs2": 14
+      },
+      "payload_sha256": "dc748b4bf4504705a01191239c36e65289ab89dfbd3152b7ff5bc6b705841bf5",
+      "nvmi_count": 13,
+      "NULL_keys": [],
+      "absent_NAVM_keys": [],
+      "final_deleted_NAVM_keys": []
+    },
+    {
+      "plugin": "KuroneSoulTomb_EX3.esp",
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T5087 Kurone Soul Tomb\\KuroneSoulTomb_EX3.esp",
+      "sha256": "66e4c6845cbdc2cc96994d7810943864513c7b0fd05288bc2a77f328e7572646",
+      "load_index": 1065,
+      "record": {
+        "signature": "NAVI",
+        "id": "skyrim.esm|012FB4",
+        "offset": 22893,
+        "size": 26807,
+        "flags": 0,
+        "vcs1": 0,
+        "form_version": 44,
+        "vcs2": 14
+      },
+      "payload_sha256": "f5340a8cac18bc207b31a532405809d96b9f2fedf4d6d3bef89f4c41699a0a55",
+      "nvmi_count": 13,
+      "NULL_keys": [],
+      "absent_NAVM_keys": [],
+      "final_deleted_NAVM_keys": []
+    }
+  ],
+  "deleted_source_rows": [
+    {
+      "source_plugin": "Skyrim.esm",
+      "identity": "skyrim.esm|1087AB",
+      "final_winner": {
+        "plugin": "Dawnguard.esm",
+        "flags": 67108896,
+        "raw_form_id": "001087AB"
+      }
+    },
+    {
+      "source_plugin": "Skyrim.esm",
+      "identity": "skyrim.esm|108883",
+      "final_winner": {
+        "plugin": "Dawnguard.esm",
+        "flags": 67108896,
+        "raw_form_id": "00108883"
+      }
+    },
+    {
+      "source_plugin": "Skyrim.esm",
+      "identity": "skyrim.esm|10391D",
+      "final_winner": {
+        "plugin": "Update.esm",
+        "flags": 32,
+        "raw_form_id": "0010391D"
+      }
+    },
+    {
+      "source_plugin": "Skyrim.esm",
+      "identity": "skyrim.esm|108632",
+      "final_winner": {
+        "plugin": "Dawnguard.esm",
+        "flags": 67108896,
+        "raw_form_id": "00108632"
+      }
+    },
+    {
+      "source_plugin": "Skyrim.esm",
+      "identity": "skyrim.esm|1088E6",
+      "final_winner": {
+        "plugin": "Dawnguard.esm",
+        "flags": 67108896,
+        "raw_form_id": "001088E6"
+      }
+    },
+    {
+      "source_plugin": "Skyrim.esm",
+      "identity": "skyrim.esm|108733",
+      "final_winner": {
+        "plugin": "Dawnguard.esm",
+        "flags": 67108896,
+        "raw_form_id": "00108733"
+      }
+    },
+    {
+      "source_plugin": "Skyrim.esm",
+      "identity": "skyrim.esm|108824",
+      "final_winner": {
+        "plugin": "Dawnguard.esm",
+        "flags": 67108896,
+        "raw_form_id": "00108824"
+      }
+    },
+    {
+      "source_plugin": "Skyrim.esm",
+      "identity": "skyrim.esm|1087A9",
+      "final_winner": {
+        "plugin": "Dawnguard.esm",
+        "flags": 67108896,
+        "raw_form_id": "001087A9"
+      }
+    },
+    {
+      "source_plugin": "Skyrim.esm",
+      "identity": "skyrim.esm|1085C3",
+      "final_winner": {
+        "plugin": "Dawnguard.esm",
+        "flags": 67108896,
+        "raw_form_id": "001085C3"
+      }
+    },
+    {
+      "source_plugin": "Skyrim.esm",
+      "identity": "skyrim.esm|1086BE",
+      "final_winner": {
+        "plugin": "Dawnguard.esm",
+        "flags": 67108896,
+        "raw_form_id": "001086BE"
+      }
+    },
+    {
+      "source_plugin": "Skyrim.esm",
+      "identity": "skyrim.esm|106EAA",
+      "final_winner": {
+        "plugin": "Update.esm",
+        "flags": 32,
+        "raw_form_id": "00106EAA"
+      }
+    },
+    {
+      "source_plugin": "Skyrim.esm",
+      "identity": "skyrim.esm|1085C7",
+      "final_winner": {
+        "plugin": "Dawnguard.esm",
+        "flags": 67108896,
+        "raw_form_id": "001085C7"
+      }
+    },
+    {
+      "source_plugin": "Skyrim.esm",
+      "identity": "skyrim.esm|10888A",
+      "final_winner": {
+        "plugin": "Dawnguard.esm",
+        "flags": 67108896,
+        "raw_form_id": "0010888A"
+      }
+    },
+    {
+      "source_plugin": "Skyrim.esm",
+      "identity": "skyrim.esm|108738",
+      "final_winner": {
+        "plugin": "Dawnguard.esm",
+        "flags": 67108896,
+        "raw_form_id": "00108738"
+      }
+    },
+    {
+      "source_plugin": "Skyrim.esm",
+      "identity": "skyrim.esm|1087A4",
+      "final_winner": {
+        "plugin": "Dawnguard.esm",
+        "flags": 67108896,
+        "raw_form_id": "001087A4"
+      }
+    },
+    {
+      "source_plugin": "Skyrim.esm",
+      "identity": "skyrim.esm|0F9457",
+      "final_winner": {
+        "plugin": "Dawnguard.esm",
+        "flags": 32,
+        "raw_form_id": "000F9457"
+      }
+    },
+    {
+      "source_plugin": "Skyrim.esm",
+      "identity": "skyrim.esm|108636",
+      "final_winner": {
+        "plugin": "Dawnguard.esm",
+        "flags": 67108896,
+        "raw_form_id": "00108636"
+      }
+    },
+    {
+      "source_plugin": "Skyrim.esm",
+      "identity": "skyrim.esm|1085C6",
+      "final_winner": {
+        "plugin": "Dawnguard.esm",
+        "flags": 67108896,
+        "raw_form_id": "001085C6"
+      }
+    },
+    {
+      "source_plugin": "Skyrim.esm",
+      "identity": "skyrim.esm|1085C5",
+      "final_winner": {
+        "plugin": "Dawnguard.esm",
+        "flags": 67108896,
+        "raw_form_id": "001085C5"
+      }
+    },
+    {
+      "source_plugin": "Skyrim.esm",
+      "identity": "skyrim.esm|1088E9",
+      "final_winner": {
+        "plugin": "Dawnguard.esm",
+        "flags": 67108896,
+        "raw_form_id": "001088E9"
+      }
+    },
+    {
+      "source_plugin": "Skyrim.esm",
+      "identity": "skyrim.esm|10881D",
+      "final_winner": {
+        "plugin": "Dawnguard.esm",
+        "flags": 67108896,
+        "raw_form_id": "0010881D"
+      }
+    },
+    {
+      "source_plugin": "Skyrim.esm",
+      "identity": "skyrim.esm|101F2A",
+      "final_winner": {
+        "plugin": "HearthFires.esm",
+        "flags": 32,
+        "raw_form_id": "00101F2A"
+      }
+    },
+    {
+      "source_plugin": "Skyrim.esm",
+      "identity": "skyrim.esm|1088EA",
+      "final_winner": {
+        "plugin": "Dawnguard.esm",
+        "flags": 67108896,
+        "raw_form_id": "001088EA"
+      }
+    },
+    {
+      "source_plugin": "Skyrim.esm",
+      "identity": "skyrim.esm|1087A6",
+      "final_winner": {
+        "plugin": "Dawnguard.esm",
+        "flags": 67108896,
+        "raw_form_id": "001087A6"
+      }
+    },
+    {
+      "source_plugin": "Skyrim.esm",
+      "identity": "skyrim.esm|108634",
+      "final_winner": {
+        "plugin": "Dawnguard.esm",
+        "flags": 67108896,
+        "raw_form_id": "00108634"
+      }
+    },
+    {
+      "source_plugin": "Skyrim.esm",
+      "identity": "skyrim.esm|103910",
+      "final_winner": {
+        "plugin": "Dawnguard.esm",
+        "flags": 32,
+        "raw_form_id": "00103910"
+      }
+    },
+    {
+      "source_plugin": "Skyrim.esm",
+      "identity": "skyrim.esm|108731",
+      "final_winner": {
+        "plugin": "Dawnguard.esm",
+        "flags": 67108896,
+        "raw_form_id": "00108731"
+      }
+    },
+    {
+      "source_plugin": "Skyrim.esm",
+      "identity": "skyrim.esm|1088EB",
+      "final_winner": {
+        "plugin": "Dawnguard.esm",
+        "flags": 67108896,
+        "raw_form_id": "001088EB"
+      }
+    },
+    {
+      "source_plugin": "Skyrim.esm",
+      "identity": "skyrim.esm|108885",
+      "final_winner": {
+        "plugin": "Dawnguard.esm",
+        "flags": 67108896,
+        "raw_form_id": "00108885"
+      }
+    },
+    {
+      "source_plugin": "Skyrim.esm",
+      "identity": "skyrim.esm|1087AD",
+      "final_winner": {
+        "plugin": "Dawnguard.esm",
+        "flags": 67108896,
+        "raw_form_id": "001087AD"
+      }
+    },
+    {
+      "source_plugin": "Skyrim.esm",
+      "identity": "skyrim.esm|108737",
+      "final_winner": {
+        "plugin": "Dawnguard.esm",
+        "flags": 67108896,
+        "raw_form_id": "00108737"
+      }
+    },
+    {
+      "source_plugin": "Skyrim.esm",
+      "identity": "skyrim.esm|10872F",
+      "final_winner": {
+        "plugin": "Dawnguard.esm",
+        "flags": 67108896,
+        "raw_form_id": "0010872F"
+      }
+    },
+    {
+      "source_plugin": "Skyrim.esm",
+      "identity": "skyrim.esm|0CB4F3",
+      "final_winner": {
+        "plugin": "HearthFires.esm",
+        "flags": 32,
+        "raw_form_id": "000CB4F3"
+      }
+    },
+    {
+      "source_plugin": "Skyrim.esm",
+      "identity": "skyrim.esm|1088E7",
+      "final_winner": {
+        "plugin": "Dawnguard.esm",
+        "flags": 67108896,
+        "raw_form_id": "001088E7"
+      }
+    },
+    {
+      "source_plugin": "Skyrim.esm",
+      "identity": "skyrim.esm|108633",
+      "final_winner": {
+        "plugin": "Dawnguard.esm",
+        "flags": 67108896,
+        "raw_form_id": "00108633"
+      }
+    },
+    {
+      "source_plugin": "Skyrim.esm",
+      "identity": "skyrim.esm|1085CB",
+      "final_winner": {
+        "plugin": "Dawnguard.esm",
+        "flags": 67108896,
+        "raw_form_id": "001085CB"
+      }
+    },
+    {
+      "source_plugin": "Skyrim.esm",
+      "identity": "skyrim.esm|1086BD",
+      "final_winner": {
+        "plugin": "Dawnguard.esm",
+        "flags": 67108896,
+        "raw_form_id": "001086BD"
+      }
+    },
+    {
+      "source_plugin": "Skyrim.esm",
+      "identity": "skyrim.esm|1086B6",
+      "final_winner": {
+        "plugin": "Dawnguard.esm",
+        "flags": 67108896,
+        "raw_form_id": "001086B6"
+      }
+    },
+    {
+      "source_plugin": "Skyrim.esm",
+      "identity": "skyrim.esm|108638",
+      "final_winner": {
+        "plugin": "Dawnguard.esm",
+        "flags": 67108896,
+        "raw_form_id": "00108638"
+      }
+    },
+    {
+      "source_plugin": "Skyrim.esm",
+      "identity": "skyrim.esm|1087AA",
+      "final_winner": {
+        "plugin": "Dawnguard.esm",
+        "flags": 67108896,
+        "raw_form_id": "001087AA"
+      }
+    },
+    {
+      "source_plugin": "Skyrim.esm",
+      "identity": "skyrim.esm|108739",
+      "final_winner": {
+        "plugin": "Dawnguard.esm",
+        "flags": 67108896,
+        "raw_form_id": "00108739"
+      }
+    },
+    {
+      "source_plugin": "Skyrim.esm",
+      "identity": "skyrim.esm|10872D",
+      "final_winner": {
+        "plugin": "Dawnguard.esm",
+        "flags": 67108896,
+        "raw_form_id": "0010872D"
+      }
+    },
+    {
+      "source_plugin": "Skyrim.esm",
+      "identity": "skyrim.esm|108730",
+      "final_winner": {
+        "plugin": "Dawnguard.esm",
+        "flags": 67108896,
+        "raw_form_id": "00108730"
+      }
+    },
+    {
+      "source_plugin": "Skyrim.esm",
+      "identity": "skyrim.esm|1088E5",
+      "final_winner": {
+        "plugin": "Dawnguard.esm",
+        "flags": 67108896,
+        "raw_form_id": "001088E5"
+      }
+    },
+    {
+      "source_plugin": "Skyrim.esm",
+      "identity": "skyrim.esm|1086B4",
+      "final_winner": {
+        "plugin": "Dawnguard.esm",
+        "flags": 67108896,
+        "raw_form_id": "001086B4"
+      }
+    },
+    {
+      "source_plugin": "Skyrim.esm",
+      "identity": "skyrim.esm|1087A8",
+      "final_winner": {
+        "plugin": "Dawnguard.esm",
+        "flags": 67108896,
+        "raw_form_id": "001087A8"
+      }
+    },
+    {
+      "source_plugin": "Skyrim.esm",
+      "identity": "skyrim.esm|108732",
+      "final_winner": {
+        "plugin": "Dawnguard.esm",
+        "flags": 67108896,
+        "raw_form_id": "00108732"
+      }
+    },
+    {
+      "source_plugin": "Skyrim.esm",
+      "identity": "skyrim.esm|10881A",
+      "final_winner": {
+        "plugin": "Dawnguard.esm",
+        "flags": 67108896,
+        "raw_form_id": "0010881A"
+      }
+    },
+    {
+      "source_plugin": "Skyrim.esm",
+      "identity": "skyrim.esm|103929",
+      "final_winner": {
+        "plugin": "Update.esm",
+        "flags": 32,
+        "raw_form_id": "00103929"
+      }
+    },
+    {
+      "source_plugin": "Skyrim.esm",
+      "identity": "skyrim.esm|1087AE",
+      "final_winner": {
+        "plugin": "Dawnguard.esm",
+        "flags": 67108896,
+        "raw_form_id": "001087AE"
+      }
+    },
+    {
+      "source_plugin": "Skyrim.esm",
+      "identity": "skyrim.esm|1088E8",
+      "final_winner": {
+        "plugin": "Dawnguard.esm",
+        "flags": 67108896,
+        "raw_form_id": "001088E8"
+      }
+    },
+    {
+      "source_plugin": "Skyrim.esm",
+      "identity": "skyrim.esm|1085C4",
+      "final_winner": {
+        "plugin": "Dawnguard.esm",
+        "flags": 67108896,
+        "raw_form_id": "001085C4"
+      }
+    },
+    {
+      "source_plugin": "Skyrim.esm",
+      "identity": "skyrim.esm|0FFE7F",
+      "final_winner": {
+        "plugin": "Dawnguard.esm",
+        "flags": 32,
+        "raw_form_id": "000FFE7F"
+      }
+    },
+    {
+      "source_plugin": "Skyrim.esm",
+      "identity": "skyrim.esm|0F9455",
+      "final_winner": {
+        "plugin": "Dawnguard.esm",
+        "flags": 32,
+        "raw_form_id": "000F9455"
+      }
+    },
+    {
+      "source_plugin": "Skyrim.esm",
+      "identity": "skyrim.esm|0EA18D",
+      "final_winner": {
+        "plugin": "HearthFires.esm",
+        "flags": 32,
+        "raw_form_id": "000EA18D"
+      }
+    },
+    {
+      "source_plugin": "Skyrim.esm",
+      "identity": "skyrim.esm|1086AD",
+      "final_winner": {
+        "plugin": "Dawnguard.esm",
+        "flags": 67108896,
+        "raw_form_id": "001086AD"
+      }
+    },
+    {
+      "source_plugin": "Skyrim.esm",
+      "identity": "skyrim.esm|108637",
+      "final_winner": {
+        "plugin": "Dawnguard.esm",
+        "flags": 67108896,
+        "raw_form_id": "00108637"
+      }
+    },
+    {
+      "source_plugin": "Skyrim.esm",
+      "identity": "skyrim.esm|1086B5",
+      "final_winner": {
+        "plugin": "Dawnguard.esm",
+        "flags": 67108896,
+        "raw_form_id": "001086B5"
+      }
+    },
+    {
+      "source_plugin": "Skyrim.esm",
+      "identity": "skyrim.esm|032D8B",
+      "final_winner": {
+        "plugin": "Dragonborn.esm",
+        "flags": 32,
+        "raw_form_id": "00032D8B"
+      }
+    },
+    {
+      "source_plugin": "Skyrim.esm",
+      "identity": "skyrim.esm|108736",
+      "final_winner": {
+        "plugin": "Dawnguard.esm",
+        "flags": 67108896,
+        "raw_form_id": "00108736"
+      }
+    },
+    {
+      "source_plugin": "Skyrim.esm",
+      "identity": "skyrim.esm|10881E",
+      "final_winner": {
+        "plugin": "Dawnguard.esm",
+        "flags": 67108896,
+        "raw_form_id": "0010881E"
+      }
+    },
+    {
+      "source_plugin": "Skyrim.esm",
+      "identity": "skyrim.esm|1086B8",
+      "final_winner": {
+        "plugin": "Dawnguard.esm",
+        "flags": 67108896,
+        "raw_form_id": "001086B8"
+      }
+    },
+    {
+      "source_plugin": "Skyrim.esm",
+      "identity": "skyrim.esm|1085CC",
+      "final_winner": {
+        "plugin": "Dawnguard.esm",
+        "flags": 67108896,
+        "raw_form_id": "001085CC"
+      }
+    },
+    {
+      "source_plugin": "Skyrim.esm",
+      "identity": "skyrim.esm|1087AC",
+      "final_winner": {
+        "plugin": "Dawnguard.esm",
+        "flags": 67108896,
+        "raw_form_id": "001087AC"
+      }
+    },
+    {
+      "source_plugin": "Skyrim.esm",
+      "identity": "skyrim.esm|0F0660",
+      "final_winner": {
+        "plugin": "HearthFires.esm",
+        "flags": 32,
+        "raw_form_id": "000F0660"
+      }
+    },
+    {
+      "source_plugin": "Skyrim.esm",
+      "identity": "skyrim.esm|10863E",
+      "final_winner": {
+        "plugin": "Dawnguard.esm",
+        "flags": 67108896,
+        "raw_form_id": "0010863E"
+      }
+    },
+    {
+      "source_plugin": "Skyrim.esm",
+      "identity": "skyrim.esm|105A71",
+      "final_winner": {
+        "plugin": "HearthFires.esm",
+        "flags": 32,
+        "raw_form_id": "00105A71"
+      }
+    },
+    {
+      "source_plugin": "Skyrim.esm",
+      "identity": "skyrim.esm|1087A7",
+      "final_winner": {
+        "plugin": "Dawnguard.esm",
+        "flags": 67108896,
+        "raw_form_id": "001087A7"
+      }
+    },
+    {
+      "source_plugin": "Dawnguard.esm",
+      "identity": "skyrim.esm|0CB4F3",
+      "final_winner": {
+        "plugin": "HearthFires.esm",
+        "flags": 32,
+        "raw_form_id": "000CB4F3"
+      }
+    },
+    {
+      "source_plugin": "MoonAndStar_MAS.esp",
+      "identity": "skyrim.esm|0FFE7F",
+      "final_winner": {
+        "plugin": "Dawnguard.esm",
+        "flags": 32,
+        "raw_form_id": "000FFE7F"
+      }
+    }
+  ],
+  "final_NAVI_source": {
+    "plugin": "KuroneSoulTomb_EX3.esp",
+    "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T5087 Kurone Soul Tomb\\KuroneSoulTomb_EX3.esp",
+    "sha256": "66e4c6845cbdc2cc96994d7810943864513c7b0fd05288bc2a77f328e7572646",
+    "payload_sha256": "f5340a8cac18bc207b31a532405809d96b9f2fedf4d6d3bef89f4c41699a0a55"
+  },
+  "final_NAVI_keys": [
+    {
+      "identity": "skyrim.esm|0A3F44",
+      "NAVM_winner": {
+        "plugin": "Skyrim.esm",
+        "flags": 262144,
+        "raw_form_id": "000A3F44"
+      }
+    },
+    {
+      "identity": "skyrim.esm|105E9A",
+      "NAVM_winner": {
+        "plugin": "Skyrim.esm",
+        "flags": 262144,
+        "raw_form_id": "00105E9A"
+      }
+    },
+    {
+      "identity": "skyrim.esm|1030CB",
+      "NAVM_winner": {
+        "plugin": "Unofficial Skyrim Special Edition Patch.esp",
+        "flags": 262144,
+        "raw_form_id": "001030CB"
+      }
+    },
+    {
+      "identity": "skyrim.esm|079BBF",
+      "NAVM_winner": {
+        "plugin": "Unofficial Skyrim Special Edition Patch.esp",
+        "flags": 262144,
+        "raw_form_id": "00079BBF"
+      }
+    },
+    {
+      "identity": "skyrim.esm|103120",
+      "NAVM_winner": {
+        "plugin": "GostedDimensionalRift.esp",
+        "flags": 262144,
+        "raw_form_id": "00103120"
+      }
+    },
+    {
+      "identity": "skyrim.esm|0E88CC",
+      "NAVM_winner": {
+        "plugin": "Skyrim.esm",
+        "flags": 262144,
+        "raw_form_id": "000E88CC"
+      }
+    },
+    {
+      "identity": "skyrim.esm|10377B",
+      "NAVM_winner": {
+        "plugin": "GostedDimensionalRift.esp",
+        "flags": 262144,
+        "raw_form_id": "0010377B"
+      }
+    },
+    {
+      "identity": "skyrim.esm|098776",
+      "NAVM_winner": {
+        "plugin": "AlternatePerspective.esp",
+        "flags": 262144,
+        "raw_form_id": "00098776"
+      }
+    },
+    {
+      "identity": "kuronesoultomb_ex3.esp|0000CA",
+      "NAVM_winner": {
+        "plugin": "KuroneSoulTomb_EX3.esp",
+        "flags": 262144,
+        "raw_form_id": "080000CA"
+      }
+    },
+    {
+      "identity": "kuronesoultomb_ex3.esp|0000AC",
+      "NAVM_winner": {
+        "plugin": "KuroneSoulTomb_EX3.esp",
+        "flags": 262144,
+        "raw_form_id": "080000AC"
+      }
+    },
+    {
+      "identity": "kuronesoultomb.esp|0001D4",
+      "NAVM_winner": {
+        "plugin": "KuroneSoulTomb_EX3.esp",
+        "flags": 262144,
+        "raw_form_id": "050001D4"
+      }
+    },
+    {
+      "identity": "skyrim.esm|100F4B",
+      "NAVM_winner": {
+        "plugin": "Skyrim.esm",
+        "flags": 262144,
+        "raw_form_id": "00100F4B"
+      }
+    },
+    {
+      "identity": "skyrim.esm|0B87DF",
+      "NAVM_winner": {
+        "plugin": "Skyrim.esm",
+        "flags": 262144,
+        "raw_form_id": "000B87DF"
+      }
+    }
+  ],
+  "FC_targets_intersect_orphan": false,
+  "predicted_abort": "InfoFor starts with the Skyrim.esm NAVI, so its sole absent028E37 key aborts before checking override entries. Existing native log reported only a generic nil; this binary audit identifies the only absence, not a newly observed native key log.",
+  "bounded_algorithm": [
+    "Only for original Skyrim.esm NAVI012FB4, exact fileSHA06a988...ffa91/CRC66212483 and exact NVMI key028E37/payload8a220f...a7304 may an unresolved key be ignored for target lookup.",
+    "Never ignore a matching target; keep duplicate target checking. All other nil keys stop. Shared/target classification returnsFalse only for this same guarded original source row.",
+    "Do not remove/change the orphan or any unrelated source entry. The final Kurone NAVI has13 keys, all resolve and none are deleted, so this lookup exception does not import the orphan into new outputs.",
+    "Retain strict complete binary equality for all nontarget NVMI/NVPP/NVSI and scalar fields, plus typed xEdit reload and Check diagnostics."
+  ],
+  "limitations": [
+    "Header/typed-schema binary lookup does not replace final native LinksTo validation.",
+    "Deleted existing records are recorded separately and are not treated as missing/nil.",
+    "This audit does not repair the upstream orphan, mutate any plugin/profile, or start any application."
+  ],
+  "seconds": 4.492
+}

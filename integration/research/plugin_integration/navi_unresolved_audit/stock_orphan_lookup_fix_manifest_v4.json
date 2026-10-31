@@ -1,0 +1,153 @@
+{
+  "schema": "skyrim.bounded_navi_orphan_lookup_fix.v2",
+  "utc": "2026-10-31T14:19:28.709225+00:00",
+  "revision": 4,
+  "status": "AUTHORING_V4_EXACT_SINGLE_WITNESS_AND_DIAGNOSTICS_NATIVE_EXECUTION_PENDING",
+  "previous_manifest": {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\navi_unresolved_audit\\stock_orphan_lookup_fix_manifest.json",
+    "sha256": "4ea8fff76504ce4e6335cfd112885dfcfcbd507cb854e32e1514555af44a03b2"
+  },
+  "source_orphan_audit": {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\navi_unresolved_audit\\final_navi_key_audit.json",
+    "sha256": "639c926a8c6ee2491c70147c42c3aaeba71d9006f53d14eb23ef408a3bd841a8"
+  },
+  "files": [
+    {
+      "before": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\forgotten_city_navigation\\DatabaseForgottenCityNavigationDraft.pas",
+        "sha256": "305ea6e6bc9fe9cf5c7c9717331d6ceda58e1082955d7ad54874d9a56e6d9c6b"
+      },
+      "frozen_before": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\navi_unresolved_audit\\frozen\\stock_orphan_v3\\DatabaseForgottenCityNavigationDraft.pas.frozen.txt",
+        "sha256": "305ea6e6bc9fe9cf5c7c9717331d6ceda58e1082955d7ad54874d9a56e6d9c6b"
+      },
+      "after": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\forgotten_city_navigation\\DatabaseForgottenCityNavigationDraft.pas",
+        "sha256": "a2835466abd66053be6220053f7f08ccbc4709630aa2cb478e7e7ec10402a71a"
+      }
+    },
+    {
+      "before": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\forgotten_city_navigation\\DatabaseVerifyForgottenCityNavigationDraft.pas",
+        "sha256": "084558518153eb09c42fceb0e23f7cf4e2f1ab75ae9362e406dcb44eca283d61"
+      },
+      "frozen_before": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\navi_unresolved_audit\\frozen\\stock_orphan_v3\\DatabaseVerifyForgottenCityNavigationDraft.pas.frozen.txt",
+        "sha256": "084558518153eb09c42fceb0e23f7cf4e2f1ab75ae9362e406dcb44eca283d61"
+      },
+      "after": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\forgotten_city_navigation\\DatabaseVerifyForgottenCityNavigationDraft.pas",
+        "sha256": "ff8e72166d5dc0b50aa4290a29fde0eb1bff50bb62f18224ed781f79fa0bbf04"
+      }
+    },
+    {
+      "before": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\glen_region_navigation\\DatabaseGlenmorilNavigationDraft.pas",
+        "sha256": "c50747db55596f1dae24143f9f5289fc5ce07537c8b4367780063741352f1dd8"
+      },
+      "frozen_before": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\navi_unresolved_audit\\frozen\\stock_orphan_v3\\DatabaseGlenmorilNavigationDraft.pas.frozen.txt",
+        "sha256": "c50747db55596f1dae24143f9f5289fc5ce07537c8b4367780063741352f1dd8"
+      },
+      "after": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\glen_region_navigation\\DatabaseGlenmorilNavigationDraft.pas",
+        "sha256": "eb437a99de85bb88a9f36268d2d29beb4bba0733037bd22dc8cb21f976191389"
+      }
+    },
+    {
+      "before": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\glen_region_navigation\\DatabaseVerifyGlenmorilNavigationDraft.pas",
+        "sha256": "6b6d3e7c21255fc284b30c4caac1ccfdb1f89ef307d67bd5244992fba4168671"
+      },
+      "frozen_before": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\navi_unresolved_audit\\frozen\\stock_orphan_v3\\DatabaseVerifyGlenmorilNavigationDraft.pas.frozen.txt",
+        "sha256": "6b6d3e7c21255fc284b30c4caac1ccfdb1f89ef307d67bd5244992fba4168671"
+      },
+      "after": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\glen_region_navigation\\DatabaseVerifyGlenmorilNavigationDraft.pas",
+        "sha256": "887610069ba094825c352cffc878cc7e81861326dbf7a719b1d80648a4a7ffc1"
+      }
+    }
+  ],
+  "patcher": {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\navi_unresolved_audit\\apply_stock_orphan_single_witness_v4.py",
+    "sha256": "ef8cbe29cfc164809c42b22305756040a34a85cad1eacfc516062a0056f4e701"
+  },
+  "diff": {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\plugin_integration\\navi_unresolved_audit\\stock_orphan_single_witness_v4.diff",
+    "sha256": "47150ef4d78f097a55481871f79a393fe49b879aa88c55b089bbaf0dc2063274"
+  },
+  "pinned_source_evidence": [
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_conflicts\\source_4_1_5f\\wbInterface.pas",
+      "lines": [
+        71,
+        16324,
+        16329,
+        16643,
+        16645,
+        16689,
+        16703
+      ],
+      "finding": "Default wbFloatDigits6 substituted for negative default digits; ToNativeValue returns ToValue after RoundToEx.",
+      "sha256": "d4fc435ff634cdbd30fc7f191e81c0c13974e0a08fb0dd29d134ad2bfe0feb7c"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_conflicts\\source_4_1_5f\\xejviScriptAdapterMisc.pas",
+      "lines": [
+        793,
+        795,
+        2077
+      ],
+      "finding": "Author-provided WriteSingle casts Variant to Single then writes4bytes; explicitly registered in actual4.1.5f script API.",
+      "sha256": "a291499831ef7c5385e526fd730e471bf791a3696294f2968b1e437f58cd7965"
+    }
+  ],
+  "exact_single_witnesses": [
+    {
+      "original_f32": -3391.8515625,
+      "original_as_integer_ratio": [
+        -434157,
+        128
+      ],
+      "rounded_native_model": -3391.851562,
+      "native_equals_original_literal": false,
+      "strict_WriteSingle_LE_hex": "a0fd53c5",
+      "same_exact_serialized_Single": true
+    },
+    {
+      "original_f32": 285.7589416503906,
+      "original_as_integer_ratio": [
+        9363749,
+        32768
+      ],
+      "rounded_native_model": 285.758942,
+      "native_equals_original_literal": false,
+      "strict_WriteSingle_LE_hex": "25e18e43",
+      "same_exact_serialized_Single": true
+    },
+    {
+      "original_f32": 239.09103393554688,
+      "original_as_integer_ratio": [
+        7834535,
+        32768
+      ],
+      "rounded_native_model": 239.091034,
+      "native_equals_original_literal": false,
+      "strict_WriteSingle_LE_hex": "4e176f43",
+      "same_exact_serialized_Single": true
+    }
+  ],
+  "native_vector_comparators_unchanged": true,
+  "unchanged_constraints": [
+    "Exact source Skyrim.esm SHA+injected VFS CRC, originalNAVICanonicalID, soleorphanNativeID, all12NVMI fields/counts/merge bytes/pathing values, no output copy allowance.",
+    "Other nil keys/duplicate targets/missing requested targets remain fatal.",
+    "Full nontarget NAVI binary/typed preservation and Check diagnostics still required."
+  ],
+  "diagnostic_policy": "Log native value/display/Variant/DefType/ElementType/canonical record/fullpath and decimal-literal Variant, then exact actual/literal/expected Single bytes. CRC-only and full-typed-pass messages are distinct.",
+  "limits": [
+    "No v3 dispatched/runtime/profile/plugin/source-float bytes changed.",
+    "Jv literal VarType is not inferred until actual v4 log. Source-native rounding is independently present in pinned code; direct literal checks are replaced by strict serialized-Single-byte checks with zero tolerance.",
+    "Root must fresh-run builder, independent binary after-check and installed fresh typed reload."
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "utc": "2026-10-31T04:51:34.902373+00:00",
+  "profile": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\profiles\\Unified Build",
+  "disabled_plugins": [
+    "DynDOLOD.esm",
+    "DynDOLOD.esp",
+    "Synthesis - Patch.esp"
+  ],
+  "disabled_mods": [
+    "T4621 DynDOLOD Output (상)",
+    "T5861 Synthesis Patch (1.01)"
+  ],
+  "active_plugin_count": 1074,
+  "purpose": "Full active source context for compatibility/nav producers; old generated patch/LOD plugins and their dependent closure excluded."
+}

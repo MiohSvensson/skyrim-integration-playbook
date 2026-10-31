@@ -1,0 +1,36 @@
+{
+  "status": "BOUNDED_CODE_FROZEN_NO_NEW_VFS_RUN",
+  "scripts": [
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\vfs_common.py",
+      "bytes": 12200,
+      "sha256": "e72e21d30b72cf9945e6bce429e31fcdde3cf409c4d98f9578d22ffb3fdda1ce"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\prepare_vfs_expectations.py",
+      "bytes": 9318,
+      "sha256": "2a325f97ecb5b0c08ca6fc91ef514c5757ae3f3bd40a907117273d073f564820"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\probe_resource_graph.py",
+      "bytes": 13096,
+      "sha256": "730d43974b0d31e1ef8362119ff1e88ec0deef963e5594dbff2e2ee3f6cd72d9"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\probe_vfs_full.py",
+      "bytes": 2277,
+      "sha256": "87f15b7e26bf8faa7993cafad637b72dfcc450640dd2ef502839f8abb7b7b8e3"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\probe_vfs.py",
+      "bytes": 8819,
+      "sha256": "ef969c8f5a817e220764b8adf9f6264d6b2f5bff8f49a2dccfa77bc909eb4c69"
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\quest_resource_seeds.py",
+      "bytes": 21103,
+      "sha256": "8910dacc0798dcab1f3bdc436a25a55cf1c03243c39dcc765c46cae52a35d389"
+    }
+  ],
+  "exception_evidence_sha256": "8f4cf8d5ecccb547cef34d19df8eca529462cef5601635061bcfe922e300cd1d"
+}

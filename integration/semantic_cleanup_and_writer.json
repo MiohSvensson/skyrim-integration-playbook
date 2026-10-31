@@ -1,0 +1,22 @@
+{
+  "utc": "2026-10-31T12:04:12.428585+00:00",
+  "status": "MATERIALIZED_PENDING_FINAL_NATIVE_AND_VFS_VALIDATION",
+  "rift": {
+    "layer": "ZZ86 Verified stale script assignments",
+    "source_provider": "T4513 Dimensional Rift Home",
+    "before_sha256": "0992512fc1f93fac4735394bbe76dade3f5141c2620ffc7d808e84081393ad4b",
+    "after_sha256": "51e7371177a2c81904729fc965e5cbe6eccd4b7d986047de17a2b023a15977a3",
+    "evidence": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\remaining_base_semantics\\rift_stale_property_evidence.json",
+    "evidence_sha256": "ef4ab88c53ac8f680872eb81374382c352219d1500bff8bc4adffb7bea3359ba",
+    "script_sha256": "5ed6d4988d8a17d9c7d2a279fa913462c1df880215ef5f089a589a8f7a8f38f6",
+    "script_archive_provider": "T4513 Dimensional Rift Home",
+    "script_archive_sha256": "b158a064422fa2807fbf0f41180d3a68c8f08dd8cb71da823111fa2e48f81f52"
+  },
+  "private_sidecar": {
+    "layer": "ZZ88 Private synthesis sidecar workspace",
+    "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\ZZ88 Private synthesis sidecar workspace\\skse\\plugins\\experience\\races\\GeneratedExperiencePatch.ini",
+    "source_provider": "T5861 Synthesis Patch (1.01)",
+    "initial_sha256": "ed2c32fa1b846118dd9f2027d5a05b7de7650e543786acb1da38679e013d7f76",
+    "final_action": "Disable this workspace layer after capturing and installing the final generated sidecar; preserve its small rollback evidence."
+  }
+}

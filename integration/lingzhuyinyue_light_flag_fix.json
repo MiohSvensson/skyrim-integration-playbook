@@ -1,0 +1,18 @@
+{
+  "utc": "2026-10-31T04:09:45.202282+00:00",
+  "plugin": "(lilyrim)lingzhuyinyue.esp",
+  "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\ZZ70 Imported equipment\\(lilyrim)lingzhuyinyue.esp",
+  "provider": "ZZ70 Imported equipment",
+  "source_sha256": "0e21ff4e8a8cd5cc5347f0e70fb9b2aef9941df9d7ed18170e7ceea19883edb4",
+  "candidate_sha256": "3697675629204f50369c6c9623fbe27455f03c4ed037fafb6cefa85dc1b4c9d5",
+  "old_header_flags": 512,
+  "new_header_flags": 0,
+  "changed_byte_offsets": [
+    9
+  ],
+  "all_record_payloads_and_FormIDs_unchanged": true,
+  "reason": "Eight authored own ObjectIDs 0012CC-0012D3 exceed the light 12-bit range. Use one full slot; no compaction or renumbering.",
+  "failure_evidence": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\validation\\equipment_stage\\result.json",
+  "status": "FULL_CONTEXT_XEDIT_PASS",
+  "validation": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\validation\\equipment_repaired\\result.json"
+}

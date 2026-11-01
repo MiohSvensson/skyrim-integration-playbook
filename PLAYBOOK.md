@@ -9,12 +9,14 @@ Last reviewed: 2026-10-31. Base: TuLED. Work remains active; static integration 
 - Physical resolution reports no missing plugins or masters and remains within slot limits.
 - Feature and quest compatibility patches have independent binary and fresh typed-reload acceptance.
 - The 6,495-row source catalog is refreshed as work in progress, with zero stale rows and zero linkage issues; 1,721 alternatives remain pending.
-- FC and Glen navigation are at the v6 draft/source-preflight stage, not compiled or installed.
+- FC has an independently binary-verified candidate and a fresh diagnostic-profile typed reload; its full producer and production installation are still pending. Glen navigation remains pending.
 - Formal Synthesis, PG, and final LOD generation remain pending.
 
 A pre-navigation MO2 child proved actual `usvfs_x64` injection and all 411,248 current runtime-path FileID/size winners in `pre_navigation_vfs_r2_probe_files.json`. That run is not an aggregate pass: MO2 moved its generated `modlist.txt` comment, and two Igraine hand textures remain unresolved. `mo2_controls.py` now canonicalizes only that exact comment with journal backup/rollback; no final all-resource VFS or in-game proof exists.
 
-`run_mo2_child.py` and `prepare_xedit_producer.py` normalize the selected profile before freezing its controls. Keep all child script arguments absolute; the wrapper also resolves `integration/...` arguments to avoid the pre-injection launch failure seen with a relative child path.
+`run_mo2_child.py` and `prepare_xedit_producer.py` normalize the selected profile before freezing its controls. Keep all child script arguments absolute; the wrapper also resolves `integration/...` arguments to avoid the pre-injection launch failure seen with a relative child path. The wrapper propagates a logged child's nonzero exit even when MO2 itself returns zero.
+
+MO2 may discover installed diagnostic mods that a cloned profile omitted. It adds them disabled. The producer admits only explicitly allowlisted disabled additions in their exact expected order; any enabled-mod or plugin/loadorder change fails. Use `--allow-mo2-disabled-mod "ZZ90 FC diagnostic 2" --allow-mo2-disabled-mod "ZZ90 FC diagnostic"` only for those existing diagnostic layers, not as a general bypass. See `integration/research/plugin_integration/xedit_settings/control_audit_proof_v1.json`.
 
 ## Authoritative handoff files
 
@@ -51,7 +53,7 @@ The MO2/xEdit harness proves the complete native plugin sequence, including xEdi
 
 ## 1. Forgotten City navigation
 
-Use the current diagnostic PAS files, not the historical v6 baseline or `generate_drafts.py`. FC still has a `TwbContainer.BeforeDestruction` assertion during full-builder cleanup. Its independently verified candidate is not installed or accepted while the producer fails.
+Use the current diagnostic PAS files, not the historical v6 baseline or `generate_drafts.py`. The current verifier's split comparison helpers and script-scoped triangle references passed against the binary-verified candidate in `FC Diagnostic 2`. That is diagnostic evidence only: port the same fix to the full producer, then require a producer pass, independent binary verification, rev4 installation, and a fresh production-profile typed reload before acceptance.
 
 1. Run the corrected source preflight documented in `integration/research/forgotten_city_navigation/README.md`.
 2. Prepare a fresh xEdit producer against `Unified Build` and execute it through the actual MO2 VFS.

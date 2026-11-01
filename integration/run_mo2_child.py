@@ -16,7 +16,7 @@ from mo2_controls import normalize_profile
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--profile', default='Unified Skyrim', choices=['Unified Skyrim', 'Unified Build'])
+    parser.add_argument('--profile', default='Unified Skyrim', choices=['Unified Skyrim', 'Unified Build', 'FC Diagnostic', 'FC Diagnostic 2'])
     parser.add_argument('task_name')
     parser.add_argument('script')
     parser.add_argument('arguments', nargs=argparse.REMAINDER)
@@ -50,9 +50,15 @@ def main():
         child = subprocess.Popen(command, cwd=exe.parent, env=env, stdout=output, stderr=subprocess.STDOUT)
         print(json.dumps({'pid': child.pid, 'task': str(task)}), flush=True)
         code = child.wait()
-    (task/'mo2_exit.json').write_text(json.dumps({'utc': utc(), 'return_code': code})+'\n', encoding='utf-8')
-    print('MO2 exit', code, flush=True)
-    sys.exit(code)
+    child_code = None
+    if script.name == 'logged_child.py':
+        bootstrap = json.loads((task/'bootstrap_exit.json').read_text('utf-8'))
+        child_code = bootstrap['return_code']
+        if not isinstance(child_code, int) or isinstance(child_code, bool):
+            raise ValueError('Logged child returned an invalid exit code')
+    (task/'mo2_exit.json').write_text(json.dumps({'utc': utc(), 'return_code': code, 'child_return_code': child_code})+'\n', encoding='utf-8')
+    print('MO2 exit', code, 'child exit', child_code, flush=True)
+    sys.exit(code or (child_code or 0))
 
 
 if __name__ == '__main__':

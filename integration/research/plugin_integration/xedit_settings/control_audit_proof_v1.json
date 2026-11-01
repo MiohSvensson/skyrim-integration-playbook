@@ -1,0 +1,57 @@
+{
+  "schema": "skyrim.mo2_control_audit.proof.v1",
+  "utc": "2026-11-01T02:06:51Z",
+  "status": "PASS_EXPLICIT_DISABLED_DIAGNOSTIC_RECONCILIATION_AND_CHILD_EXIT_PROPAGATION",
+  "code": {
+    "integration/mo2_controls.py": "85ecfc451f522e3219f0c379ac64dd1179655eb387c80eefb083507196a81a40",
+    "integration/prepare_xedit_producer.py": "d58e705d6db5ef4679f27f6c3e78b4cfeac062c4e59fa85bf6eac711cba3a37e",
+    "integration/xedit_producer_child.py": "815343873b631858b6cc307f9d0825f672915805d191e3ba040d767f2fc87f08",
+    "integration/run_mo2_child.py": "92e36ee3eaa77f111496633f846e50afa98eac3388322b29f25327e8c0d4c031",
+    "integration/research/profile_control_normalization/validate_controls.py": "6525edaf1e1afc1ba58e3fa3716da2aa6f4080f0a2680d2ec05b45543b2f1b01"
+  },
+  "fixture_result": "PASS_MO2_COMMENT_AND_JOURNAL_ROLLBACK",
+  "fixture_guards": [
+    "Exact bytes, exact generated-comment relocation, and journal rollback pass",
+    "Only explicitly allowed disabled diagnostic additions in the specified order are accepted",
+    "Enabled-mod changes, unexpected mod additions, and plugins.txt changes are rejected"
+  ],
+  "allowed_disabled_mods": [
+    "ZZ90 FC diagnostic 2",
+    "ZZ90 FC diagnostic"
+  ],
+  "real_probes": [
+    {
+      "task": "UnifiedSkyrim/validation/triangle_lifetime_probe_v2",
+      "result_sha256": "cf75a9ec292b9cc9faf468a156cebe1767d7bae907f5a288f8ce4be46508f29e",
+      "status": "PASS",
+      "profile_plugins": 1076,
+      "native_entries": 1077,
+      "changed_input_plugins": [],
+      "changed_profile_controls": []
+    },
+    {
+      "task": "UnifiedSkyrim/validation/triangle_flag_probe_v1",
+      "script_sha256": "6102dd7c83b7fe1a5c81b06b9de646e42003cfae39e14e2afbef442944104a00",
+      "result_sha256": "1b6d069783556402d9297f7cffc7a8e9f6afe9bfc4c7a26c31d8e4aa401cab55",
+      "status": "PASS",
+      "flag_native_value": 2048,
+      "scope": "Triangle and flag interfaces survive direct native reads; not a full FC producer pass"
+    },
+    {
+      "task": "UnifiedSkyrim/validation/control_reject_probe_v1",
+      "log_sha256": "4baf871e525a7e3f7f17d5fd6c1393008f0d9023807081dee7f3ceebcb5e860f",
+      "expected_child_exit": 1,
+      "actual_child_exit": 1,
+      "mo2_exit": 0,
+      "wrapper_exit": 1,
+      "xedit_launched": false,
+      "scope": "Deliberate generated-manifest mismatch; no production control was edited"
+    }
+  ],
+  "known_expected_mo2_change": "MO2 inserts the two named installed diagnostic mods as disabled rows at the top of the Unified Build modlist. The enabled mod sequence and plugin/loadorder controls remain byte-identical.",
+  "limits": [
+    "This is not an FC producer, production installation, or in-game acceptance",
+    "No Skyrim game process was launched",
+    "No original mod pack was modified"
+  ]
+}

@@ -76,8 +76,38 @@ def main():
         raise AssertionError('Duplicate generated comment not rejected')
     root = Path(__file__).resolve().parent / 'fixtures' / uuid.uuid4().hex
     root.mkdir(parents=True)
+    expected = m.canonical_modlist(source)
+    additions = ['ZZ90 FC diagnostic 2', 'ZZ90 FC diagnostic']
+    eol = b'\r\n' if expected.startswith(m.COMMENT + b'\r\n') else b'\n'
+    prefix = expected.splitlines(keepends=True)[0]
+    permitted = prefix + b''.join(b'-' + name.encode() + eol for name in additions) + expected[len(prefix):]
+    assert m.reconcile_modlist(expected, permitted, additions)['status'] == 'APPROVED_MO2_DISABLED_ADDITIONS_ONLY'
+    for unauthorized in [permitted.replace(b'-ZZ90 FC diagnostic 2', b'+ZZ90 FC diagnostic 2'),
+                         permitted.replace(b'FC diagnostic 2', b'FC diagnostic 3'),
+                         expected.replace(b'+ZZ87', b'-ZZ87'),
+                         m.COMMENT + eol + b'-ZZ90 FC diagnostic\r\n' + expected[len(m.COMMENT)+2:]]:
+        try:
+            m.reconcile_modlist(expected, unauthorized, additions)
+        except ValueError:
+            pass
+        else:
+            raise AssertionError('Unauthorized modlist change was accepted')
     try:
         results = [fixture(root / 'normal', source), fixture(root / 'rollback', source, fail=True)]
+        audit_root = root / 'audit'
+        profile = audit_root / 'runtime/profiles/Unified Build'
+        profile.mkdir(parents=True)
+        (profile / 'modlist.txt').write_bytes(permitted)
+        (profile / 'plugins.txt').write_bytes(b'Skyrim.esm\r\n')
+        snapshot = audit_root / 'modlist.prepared.txt'
+        snapshot.write_bytes(expected)
+        mat.TARGET = audit_root / 'runtime'
+        pins = {'modlist.txt': mat.sha(snapshot), 'plugins.txt': mat.sha(profile / 'plugins.txt')}
+        audit = m.audit_profile_controls(profile, pins, snapshot, additions)
+        assert not audit['changed_controls'] and audit['reconciled_controls']['modlist.txt']['added_disabled_mods'] == additions
+        (profile / 'plugins.txt').write_bytes(b'Unexpected.esp\r\n')
+        assert m.audit_profile_controls(profile, pins, snapshot, additions)['changed_controls'] == ['plugins.txt']
+        results.append('EXPLICIT_DISABLED_ADDITIONS_AND_UNAUTHORIZED_DRIFT_GUARDS')
     finally:
         mat.TARGET, mat.DB, mat.RESERVE = original
     receipt = {'status': 'PASS_MO2_COMMENT_AND_JOURNAL_ROLLBACK', 'checks': results,

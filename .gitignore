@@ -37,6 +37,7 @@
 !/integration/research/verified_patch_install/validation_*.json
 !/integration/research/feature_conflicts/candidate/review_recheck_v14.json
 !/integration/research/catalog_decision_review/postapply/configuration_rebase_postapply_verified.json
+!/integration/research/plugin_integration/xedit_settings/control_audit_proof_v1.json
 !/integration/research/plugin_integration/navi_unresolved_audit/final_navi_key_audit.json
 !/integration/research/plugin_integration/navi_unresolved_audit/stock_orphan_parent_absence_v6.json
 

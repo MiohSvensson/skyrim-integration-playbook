@@ -13,8 +13,9 @@ ap.add_argument('task_name')
 ap.add_argument('script')
 ap.add_argument('pass_marker')
 ap.add_argument('--candidate')
-ap.add_argument('--profile', choices=['Unified Build', 'Unified Skyrim'], default='Unified Build')
+ap.add_argument('--profile', choices=['Unified Build', 'Unified Skyrim', 'FC Diagnostic', 'FC Diagnostic 2'], default='Unified Build')
 ap.add_argument('--timeout-seconds', type=int, default=3600)
+ap.add_argument('--allow-mo2-disabled-mod', action='append', default=[], choices=['ZZ90 FC diagnostic', 'ZZ90 FC diagnostic 2'])
 args=ap.parse_args()
 assert 30 <= args.timeout_seconds <= 86400
 assert re.fullmatch('[A-Za-z0-9_]+',args.task_name)
@@ -30,7 +31,7 @@ assert settings_parser.get('Options','SimpleRecords').strip()=='0', 'Use experim
 harness_dir=task/'harness'
 harness_dir.mkdir()
 harness_files={}
-for filename in ['prepare_xedit_producer.py','xedit_producer_child.py','xedit_dialogs.py','native_xedit_context.py','logged_child.py']:
+for filename in ['prepare_xedit_producer.py','xedit_producer_child.py','xedit_dialogs.py','native_xedit_context.py','logged_child.py','mo2_controls.py']:
     p=BASE/'integration'/filename
     (harness_dir/(filename+'.frozen.txt')).write_bytes(p.read_bytes())
     harness_files[filename]=sha(p)
@@ -55,6 +56,12 @@ if patch_name:
     assert Path(patch_name).name==patch_name and not (TARGET/'overwrite'/patch_name).exists()
 profile=TARGET/'profiles'/args.profile
 control_normalization=normalize_profile(profile,task/'control_normalization')
+assert len(set(args.allow_mo2_disabled_mod)) == len(args.allow_mo2_disabled_mod)
+modlist_rows=(profile/'modlist.txt').read_text('utf-8-sig').splitlines()
+for mod in args.allow_mo2_disabled_mod:
+    assert (TARGET/'mods'/mod).is_dir(), 'Approved disabled mod must have a private mod directory'
+    matching=[row for row in modlist_rows if row[1:].casefold()==mod.casefold()]
+    assert len(matching) <= 1 and (not matching or matching[0]=='-'+mod), 'Only MO2-disabled diagnostic entries may be reconciled'
 runtime.PROFILE=profile
 before=runtime.inventory()
 assert not before['missing_plugins'] and not before['missing_masters']
@@ -70,9 +77,12 @@ manifest={'utc':utc(),'source_script':str(source),'source_script_sha256':sha(sou
           'normal_records_ini':str(settings),'normal_records_option':'0','harness_sha256':harness_files,
           'patch_name':patch_name,
           'profile':str(profile),'control_normalization':control_normalization,
+          'allowed_mo2_disabled_mods':args.allow_mo2_disabled_mod,
+          'expected_modlist_snapshot':str(task/'modlist.prepared.txt'),
           'pass_marker':args.pass_marker,'candidate':str(candidate) if candidate else None,
           'context_plugins':len(before['plugins']),'xedit_timeout_seconds':args.timeout_seconds,'game_not_selected':True}
-manifest['profile_controls']={name:sha(profile/name) for name in ['modlist.txt','plugins.txt','loadorder.txt','Skyrim.ini','SkyrimCustom.ini','initweaks.ini','archives.txt','settings.ini'] if (profile/name).is_file()}
+manifest['profile_controls']={name:sha(profile/name) for name in ['modlist.txt','plugins.txt','loadorder.txt','Skyrim.ini','SkyrimCustom.ini','skyrimprefs.ini','initweaks.ini','archives.txt','settings.ini'] if (profile/name).is_file()}
+(task/'modlist.prepared.txt').write_bytes((profile/'modlist.txt').read_bytes())
 (task/'prepared.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 (task/'xedit_command.json').write_text(json.dumps(command,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 (task/'input_inventory.json').write_text(json.dumps(before,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')

@@ -10,6 +10,7 @@ from pathlib import Path
 from materialize import BASE,TARGET,sha,utc
 import xedit_dialogs
 import native_xedit_context
+import mo2_controls
 
 task=Path(sys.argv[1]).resolve(strict=True)
 assert task.is_relative_to(TARGET/'validation')
@@ -23,14 +24,19 @@ if prepared.get('normal_records_option') is not None:
     assert sha(__file__)==prepared['harness_sha256']['xedit_producer_child.py'],'Frozen harness changed before dispatch'
     assert sha(xedit_dialogs.__file__)==prepared['harness_sha256']['xedit_dialogs.py'],'Frozen dialog helper changed before dispatch'
     assert sha(native_xedit_context.__file__)==prepared['harness_sha256']['native_xedit_context.py'],'Frozen native-context helper changed before dispatch'
+    assert sha(mo2_controls.__file__)==prepared['harness_sha256']['mo2_controls.py'],'Frozen control audit changed before dispatch'
     settings_path=Path(prepared['normal_records_ini'])
     assert settings_path.resolve()==TARGET/'tools/xedit/SSEScript.ini'
     ini=configparser.ConfigParser();ini.read_string(settings_path.read_text('utf-8-sig'))
     assert ini.get('Options','SimpleRecords').strip()=='0','Actual VFS tool INI no longer uses verified numeric0'
     normal_settings={'path':str(settings_path),'sha256':sha(settings_path),'SimpleRecords':'0'}
 assert sha(prepared['script'])==prepared['script_sha256']
-for name,digest in prepared.get('profile_controls',{}).items():
-    assert sha(Path(prepared['profile'])/name)==digest,'Profile drift before launch: '+name
+def control_audit():
+    return mo2_controls.audit_profile_controls(prepared['profile'],prepared.get('profile_controls',{}),
+        prepared.get('expected_modlist_snapshot',task/'modlist.prepared.txt'),prepared.get('allowed_mo2_disabled_mods',[]))
+before_controls=control_audit()
+(task/'profile_control_before.json').write_text(json.dumps(before_controls,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+assert not before_controls['changed_controls'],'Profile drift before launch: '+','.join(before_controls['changed_controls'])
 command=json.loads((task/'xedit_command.json').read_text('utf-8'))
 assert Path(command[0]).resolve()==TARGET/'tools/xedit/SSEEdit64.exe'
 assert '-nofixup' in command
@@ -53,7 +59,8 @@ try:
 finally:
     watcher.stop()
 changed_inputs=[r['name'] for r in inputs['plugins'] if sha(r['path'])!=r['sha256']]
-changed_controls=[name for name,digest in prepared.get('profile_controls',{}).items() if sha(Path(prepared['profile'])/name)!=digest]
+after_controls=control_audit()
+changed_controls=after_controls['changed_controls']
 autosave=None
 patch_name=prepared.get('patch_name')
 if patch_name:
@@ -74,6 +81,7 @@ result={'utc':utc(),'status':'PASS' if passed else 'FAIL','usvfs':True,'return_c
         'marker_seen':loaded_context['marker_seen'],'log_sha256':loaded_context['log_sha256'],
         'candidate_sha256':sha(candidate) if candidate and candidate.exists() else None,
         'native_loaded_context':loaded_context,
+        'profile_control_audit':after_controls,
         'native_progress':native_xedit_context.read_log(prepared['progress_file']) if prepared.get('progress_file') else None}
 result['changed_input_plugins']=changed_inputs
 result['changed_profile_controls']=changed_controls

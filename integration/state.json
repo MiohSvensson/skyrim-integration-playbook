@@ -45,6 +45,10 @@
       "status": "ACCEPTED_STATIC_TYPED_RELOAD_FINAL_VFS_PENDING"
     },
     {
+      "evidence": "integration/research/vfs_validation/igraine_material_r1/accepted.json",
+      "status": "IGRAINE_RESOURCE_REPAIR_VERIFIED"
+    },
+    {
       "evidence": "integration/research/feature_conflicts/candidate/review_recheck_v14.json",
       "status": "CURRENT_RESOLVED_MAP_BINARY_RECHECK_PASS"
     }
@@ -58,10 +62,11 @@
     "verify_original_controls_unchanged_after_all_remaining_writers",
     "finalize_database_catalog_launchers_and_maintenance_docs"
   ],
-  "updated_utc": "2026-11-01T03:29:31Z",
+  "updated_utc": "2026-11-01T03:43:57Z",
   "completed": [
     "FC4_navigation_binary_install_and_dual_fresh_typed_reload_accepted",
     "Glen8_navigation_binary_install_and_fresh_typed_reload_accepted",
+    "Igraine_two_private_textures_actual_MO2_FileID_and_SHA_verified",
     "base_selection_TuLED",
     "full_491328_file_baseline_view",
     "private_mutable_runtime_and_clean_MO2",
@@ -137,7 +142,7 @@
       "FC one response motif sound missing, FUZ voice itself present"
     ],
     "next_required": [
-      "Close bounded resource gaps, including the two audited Igraine private texture copies and actual VFS proof",
+      "Close remaining bounded grass, sound, Glen mesh and Moon and Star resource questions",
       "Final Synthesis with all gameplay inputs and master budget checks",
       "Fresh PG against final Synthesis context; typed records, NIF and resource closure before deployment",
       "Affected terrain/TexGen/DynDOLOD/offline grass and final occlusion in verified batch order",

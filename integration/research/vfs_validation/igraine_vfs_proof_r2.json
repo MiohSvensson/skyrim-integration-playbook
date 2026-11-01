@@ -1,0 +1,44 @@
+{
+  "schema": "skyrim.igraine_vfs_proof.v1",
+  "utc": "2026-11-01T03:42:53.273661+00:00",
+  "status": "PASS_TWO_IGRAINE_RUNTIME_RESOURCES",
+  "usvfs": true,
+  "installation_receipt": {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\igraine_material_r1\\installed.json",
+    "sha256": "d22858eda04bbe68c6273da2f23b5ebfa87a72418affe3b80b0e5c5ea65a9aa9"
+  },
+  "resources": [
+    {
+      "relative_path": "textures/SC/4_Ports/21_Order1886/Igraine/Knight/Hands_F_m.dds",
+      "runtime_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\Game\\Data\\textures\\SC\\4_Ports\\21_Order1886\\Igraine\\Knight\\Hands_F_m.dds",
+      "runtime_file_id": "1D3EBF999BE7FE1F:1aae2b00000002000000000000000000",
+      "installed_file_id": "1D3EBF999BE7FE1F:1aae2b00000002000000000000000000",
+      "sha256": "1c5f854333b695638858f1a4ca75ec1e917ed39c4e0c371dd41ef55ca5d86e44",
+      "bytes": 699192
+    },
+    {
+      "relative_path": "textures/SC/4_Ports/21_Order1886/Igraine/Knight/quicksilver_e.dds",
+      "runtime_path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\Game\\Data\\textures\\SC\\4_Ports\\21_Order1886\\Igraine\\Knight\\quicksilver_e.dds",
+      "runtime_file_id": "1D3EBF999BE7FE1F:1bae2b00000002000000000000000000",
+      "installed_file_id": "1D3EBF999BE7FE1F:1bae2b00000002000000000000000000",
+      "sha256": "4e67563091799fc034c12748b9ce50b4e02302dd58e5b286b068cd31751ed077",
+      "bytes": 4304
+    }
+  ],
+  "mesh_sha256": "94003fee159c22d12491414f1c75f1832668ef8c6b8ee06277fca6108ab9c493",
+  "texture_slots": [
+    "textures\\SC\\4_Ports\\21_Order1886\\Igraine\\Knight\\Hands_F.dds",
+    "textures\\SC\\4_Ports\\21_Order1886\\Igraine\\Knight\\Hands_F_n.dds",
+    "",
+    "",
+    "textures\\SC\\4_Ports\\21_Order1886\\Igraine\\Knight\\quicksilver_e.dds",
+    "textures\\SC\\4_Ports\\21_Order1886\\Igraine\\Knight\\Hands_F_m.dds",
+    "",
+    "",
+    ""
+  ],
+  "controls_unchanged": true,
+  "original_packs_modified": false,
+  "game_launched": false,
+  "scope": "Targeted two-resource closure only; not a full resource graph or in-game proof"
+}

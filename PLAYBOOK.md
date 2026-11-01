@@ -81,7 +81,7 @@ Resolve or explicitly disposition every known gap before final resource closure:
 - Forgotten City response-motif sound;
 - Glen female `DwarvenSoldier.nif` and `shaderbox.nif`;
 - Moon and Star BS82 asset contract and 35 affected LAND records.
-- Igraine hand material: `integration/research/vfs_validation/audit_igraine_material.py` proves the authored BodySlide source, matching generated texture slots, environment-map shader, exact author mask, and stock-identical cubemap. The manifest stages two private files for the existing ZZ83 layer; installation and actual VFS closure remain pending.
+- Igraine hand material is closed by two private files in the existing ZZ83 layer: the exact author mask and stock-identical environment cubemap. `integration/research/vfs_validation/igraine_material_r1/accepted.json` records actual MO2 FileID/hash proof, unchanged mesh/controls, and rollback-tested installation. This is targeted closure, not a full resource graph or in-game material test.
 
 Use author assets or typed evidence. Do not invent resources or delete references only to suppress diagnostics.
 

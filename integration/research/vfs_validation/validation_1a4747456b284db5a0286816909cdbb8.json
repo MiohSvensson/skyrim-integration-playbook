@@ -1,0 +1,9 @@
+{
+  "status": "PASS_TWO_PRIVATE_COPIES_AND_EXACT_ROLLBACK",
+  "fixture": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\fixtures\\1a4747456b284db5a0286816909cdbb8",
+  "production_files_modified": false,
+  "checks": [
+    "private bytes and journal rows",
+    "second-copy rollback removes both files and unit rows"
+  ]
+}

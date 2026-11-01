@@ -1,0 +1,45 @@
+{
+  "schema": "skyrim.igraine_repair.delivery.v1",
+  "utc": "2026-11-01T03:43:57Z",
+  "status": "IGRAINE_RESOURCE_REPAIR_VERIFIED",
+  "source_audit": {
+    "manifest": "integration/research/vfs_validation/igraine_material_manifest.json",
+    "sha256": "1b82bac88148ad43a887b8e16b4cf2fc80a8604216e75cc445fced2b45d22f9d",
+    "shader": "BSLSP_ENVMAP with environment mapping and matching source/generated parameters"
+  },
+  "code": {
+    "install_igraine_material.py": "ea2aeabed9b0ebb802e5d3ceb9ad0b7ac93f4b0af40f47047a604d102ad2fda1",
+    "validate_igraine_material.py": "966281d2e3ef062e08a7b48afc7c1bbc4c9a43db7047056dac77ce67bfee6fcc",
+    "verify_igraine_vfs.py": "ed3735ddb3662cc00853c527a8254bceedd28c1b1ae419f25488df940107730f"
+  },
+  "fixture_verification": {
+    "report": "integration/research/vfs_validation/validation_1a4747456b284db5a0286816909cdbb8.json",
+    "sha256": "2b57816796a0dea766b396a231d6bf706ff812dda8f4949f18722586eb7f7f08",
+    "status": "PASS_TWO_PRIVATE_COPIES_AND_EXACT_ROLLBACK",
+    "production_files_modified": false
+  },
+  "installation": {
+    "unit": "igraine_material_v1",
+    "receipt": "integration/research/vfs_validation/igraine_material_r1/installed.json",
+    "receipt_sha256": "d22858eda04bbe68c6273da2f23b5ebfa87a72418affe3b80b0e5c5ea65a9aa9",
+    "private_materialized_files": 2,
+    "journal_integrity": "ok",
+    "profile_controls_changed": false
+  },
+  "actual_MO2_VFS": {
+    "task": "UnifiedSkyrim/validation/igraine_material_vfs_r2",
+    "report": "integration/research/vfs_validation/igraine_vfs_proof_r2.json",
+    "report_sha256": "ef3ffe62c2275e6f4ee14f6bd353b46b39a09b7107aa69881eb308444a368acd",
+    "status": "PASS_TWO_IGRAINE_RUNTIME_RESOURCES",
+    "native_file_IDs_match_private_files": true,
+    "hashes_match_private_files": true,
+    "mesh_and_texture_slots_unchanged": true
+  },
+  "acceptance": {
+    "receipt": "integration/research/vfs_validation/igraine_material_r1/accepted.json",
+    "sha256": "8b23d93a04944dc1448dfce63eefcff4e26212cb4bcd2315af730ba10794c498"
+  },
+  "original_packs_modified": false,
+  "game_launched": false,
+  "scope": "Targeted two-resource closure only; full resource closure and in-game material appearance remain unverified"
+}

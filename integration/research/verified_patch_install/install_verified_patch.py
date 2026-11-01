@@ -37,6 +37,7 @@ DERIVED = {'synthesis - patch.esp', 'dyndolod.esp', 'occlusion.esp'}
 COMPATIBILITY_PRIORITY = {
     'database feature compatibility.esp': 10,
     'database quest feature compatibility.esp': 20,
+    'database god of war script format.esp': 25,
     'database forgotten city ussep navigation.esp': 30,
     'database glenmoril underground door compatibility.esp': 40,
     'database glenmoril navigation compatibility.esp': 50,

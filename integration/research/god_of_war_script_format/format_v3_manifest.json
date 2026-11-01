@@ -1,0 +1,66 @@
+{
+  "schema": "skyrim.god_of_war_script_format.acceptance.v3",
+  "utc": "2026-11-01T05:19:34Z",
+  "status": "ACCEPTED_STATIC_TYPED_RELOAD_FINAL_VFS_PENDING",
+  "root_cause": "Mutagen supports VMAD object formats 1 and 2. Two God of War MGEF records use object format 0, although their direct object property bytes already match format 2: unused=0, alias=-1, and an unchanged spell FormID.",
+  "candidate": {
+    "name": "Database God of War Script Format.esp",
+    "path": "UnifiedSkyrim/mods/ZZ87 Verified compatibility patches/Database God of War Script Format.esp",
+    "sha256": "0165d9a448382dba4ba90a46f36e09fad22f255b586a7f9e02aed11609796721",
+    "size_bytes": 780,
+    "records": [
+      {"signature": "MGEF", "raw_form_id": "03000881", "source_format": 0, "candidate_format": 2},
+      {"signature": "MGEF", "raw_form_id": "030008A7", "source_format": 0, "candidate_format": 2}
+    ],
+    "own_records": 0,
+    "changed_offsets_per_VMAD": [2, 3],
+    "script_flags_property_metadata_and_other_payload_preserved": true,
+    "empty_keyword_array_preserved": true
+  },
+  "source": {
+    "path": "UnifiedSkyrim/mods/ZZ84 Bounded katana support/God of War.esp",
+    "sha256": "24916470123ad3cf8d4ac05fa7ee4d7b2eb2390f0a24733c94cdbc9440682e3b",
+    "original_packs_modified": false
+  },
+  "producer": {
+    "task": "UnifiedSkyrim/validation/gow_script_format_binary_v3",
+    "result_sha256": "cd893b16976cd20b923af73fd0f06fe1a338441a73b5af5f5a3a7e7f3b4c4a95",
+    "kind": "Bounded raw VMAD writer inside actual MO2 VFS, not an xEdit module-loader claim",
+    "script": "integration/research/god_of_war_script_format/produce_script_format.py",
+    "script_sha256": "d6b5c154282716d5c3986c68104778ab3ba1260a9012ab81a43ca94874516e06",
+    "reason": "xEdit's copy operation changed an empty keyword array and default fields; the raw producer preserves the exact source field set and metadata instead",
+    "all_1078_input_hashes_and_controls_checked": true
+  },
+  "binary_verification": {
+    "report": "integration/research/god_of_war_script_format/binary_v3.json",
+    "sha256": "d912a474aea7db01a42262316df981580a4fe945b235c512fa2087f2c074dc96",
+    "verifier_sha256": "e3e982f48265912705cf35700d343d4dd1b159bbd6532430741f2b96d2885de3",
+    "status": "BINARY_PASS_TYPED_RELOAD_REQUIRED"
+  },
+  "installation": {
+    "prepared_sha256": "600e823e0c0fec44709361bd6a12d1b2450e041ed22c6c48777d159badd1ca02",
+    "receipt_sha256": "e1d8b602fe753af775c777f702cb941810f99d2d024dbf634f1d44af54664608"
+  },
+  "fresh_typed_reload": {
+    "task": "UnifiedSkyrim/validation/gow_script_format_reload_v2",
+    "result_sha256": "cacc13085519f7c234ca6b6a7f63061771cdb0ff64422afade7905a454389c7a",
+    "pass_marker": "GOW_SCRIPT_FORMAT_RELOAD_TYPED_PASS",
+    "source_sha256": "3828e7c38c099e9617267f88f879b6aa72f799fdee18c90fb3df6cfab64c4748",
+    "native_plugin_order_sha256": "bfb6a5f121fac4c8204b64d9ef1b361eba3f52ce7d39b0aaefc6fabe2bef982c"
+  },
+  "acceptance": {
+    "receipt": "integration/research/verified_patch_install/runs/gow_script_format_v3/accepted.json",
+    "sha256": "bece6c34b4668b2a28af6dff2beb5e1e0250b6bf88e38aaef1af236be3ce9a11",
+    "compatibility_priority": 25
+  },
+  "profiles": {
+    "Unified Build": {"plugins": 1079, "full": 144, "light": 935},
+    "Unified Skyrim": {"plugins": 1082, "full": 147, "light": 935}
+  },
+  "previous_Synthesis_failure": "final_v7 stopped in AOSISCSoundPatcher on this VMAD object-format limitation; no generated output was deployed and the Experience sidecar was restored",
+  "game_launched": false,
+  "limits": [
+    "Static integration acceptance only; no in-game spell or script test occurred",
+    "Synthesis, final VFS/resource closure, PG and LOD remain separate gates"
+  ]
+}

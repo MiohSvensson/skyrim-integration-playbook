@@ -4,10 +4,10 @@ Last reviewed: 2026-11-01. Base: TuLED. Work remains active; static integration 
 
 ## Current checkpoint
 
-- Final profile: 1,081 plugins; 147 full and 934 light.
-- Build profile: 1,078 plugins; 144 full and 934 light.
+- Final profile: 1,082 plugins; 147 full and 935 light.
+- Build profile: 1,079 plugins; 144 full and 935 light.
 - Physical resolution reports no missing plugins or masters and remains within slot limits.
-- Feature, quest, FC, and Glen compatibility patches have independent binary and fresh typed-reload acceptance.
+- Feature, quest, FC, Glen, and God of War format compatibility patches have independent binary and fresh typed-reload acceptance.
 - The 6,495-row source catalog is refreshed as work in progress, with zero stale rows and zero linkage issues; 1,721 alternatives remain pending.
 - FC v12 and Glen v7 are accepted for static integration. Bounded resource dispositions are documented; six-stage Synthesis is next, with final VFS and generation still pending.
 - Formal Synthesis, PG, and final LOD generation remain pending.
@@ -72,6 +72,8 @@ Glen v7 is accepted for static integration after the same producer â†’ binary â†
 - Three NAVMs, four added door connections, eight existing overrides, and zero own records are verified.
 - The combined checker reports `STATIC_BINARY_AND_TYPED_RELOAD_PASS`; final VFS/resource checks and in-game validation remain separate.
 - Do not enable the superseded AK-only candidate.
+
+God of War prerequisite: the first Synthesis replay stopped on two MGEF records using unsupported VMAD object format 0. `integration/research/god_of_war_script_format/format_v3_manifest.json` records the accepted 780-byte, two-record patch that changes only object format 0 to 2, preserving spell references, script/property data, metadata, and the source empty keyword array. The raw VFS producer, independent binary check, rev4 installation, and fresh typed reload all pass. Earlier failed candidates and the failed replay were not deployed.
 
 ## 3. Close bounded resource questions
 

@@ -62,7 +62,7 @@ def main():
             source = m.edit_plugin_order(source, n, {'synthesis - patch.esp'}, True, active)
             active.add(n)
         entries = [k for k, _, prefix in m.Lines(source).names() if prefix == '*']
-        assert entries == ['a.esm', *known, 'synthesis - patch.esp']
+        assert entries == ['a.esm', *[name for name in known if name in active], 'synthesis - patch.esp']
         assert b'# preserved\r\n' in source and b'Disabled.esp\n' in source
     check('stable feature quest FC Underground Glen priority independent of install sequence', stable_compatibility_order)
     h = {'a.esm': {'masters': [], 'is_light': False}, 'b.esp': {'masters': ['A.esm'], 'is_light': True}}

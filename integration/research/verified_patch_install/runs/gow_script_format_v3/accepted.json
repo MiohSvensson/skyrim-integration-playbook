@@ -1,0 +1,23 @@
+{
+  "utc": "2026-11-01T05:18:52.041609+00:00",
+  "status": "ACCEPTED_STATIC_TYPED_RELOAD_FINAL_VFS_PENDING",
+  "accepted": true,
+  "candidate": {
+    "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\ZZ87 Verified compatibility patches\\Database God of War Script Format.esp",
+    "sha256": "0165d9a448382dba4ba90a46f36e09fad22f255b586a7f9e02aed11609796721",
+    "size_bytes": 780
+  },
+  "installation": {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\verified_patch_install\\runs\\gow_script_format_v3\\installed.json",
+    "sha256": "e1d8b602fe753af775c777f702cb941810f99d2d024dbf634f1d44af54664608",
+    "size_bytes": 2425
+  },
+  "reload_task": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\validation\\gow_script_format_reload_v2",
+  "reload_result": {
+    "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\validation\\gow_script_format_reload_v2\\result.json",
+    "sha256": "cacc13085519f7c234ca6b6a7f63061771cdb0ff64422afade7905a454389c7a",
+    "size_bytes": 1281
+  },
+  "auxiliary_reload": null,
+  "limits": "Static typed reload acceptance only. Final full VFS/resource/Synthesis/LOD audits remain separate; no game launch."
+}

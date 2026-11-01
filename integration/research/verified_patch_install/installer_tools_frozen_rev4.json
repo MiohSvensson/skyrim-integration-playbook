@@ -1,22 +1,22 @@
 {
   "schema": "skyrim.verified_patch_installer.freeze.v1",
-  "utc": "2026-11-01T03:17:39Z",
+  "utc": "2026-11-01T05:19:34Z",
   "revision": 4,
   "status": "CRASH_RECOVERY_PROFILE_CONTROL_AND_FC_COMPANION_GATE_VERIFIED",
   "files": [
     {
       "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\verified_patch_install\\install_verified_patch.py",
-      "sha256": "942490904e540c9e493cf6a484d4b16e272a791763e61e112b25029910a94df7",
-      "size_bytes": 46150
+      "sha256": "df52536d5afd26c76c585aefca80a47b2e5bf75697f12fb8fcb672ff5934693e",
+      "size_bytes": 46275
     },
     {
       "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\verified_patch_install\\validate_installer.py",
-      "sha256": "f470ff9d9f07f9929faac2e0b0de2c556fbf388ad6a8be62250713f7f1498b86",
-      "size_bytes": 15440
+      "sha256": "2b8e9ee63cf7f1fceb4af4a607f489deaf02e2ff6f40a6f5fd902092154442c7",
+      "size_bytes": 15476
     },
     {
-      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\verified_patch_install\\validation_a621acc8faeb4d55bea650aac39a7ff4.json",
-      "sha256": "06093212ea66339f38b9e75befc0d8f6e0f8da19711ecf156113065bdcd48454",
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\verified_patch_install\\validation_e4d3ccd5857f43feaa2e6d0630959e28.json",
+      "sha256": "4403ad7aba0e4e97021a75c2241d7d22748667d20524332a70e5b80dbd484614",
       "size_bytes": 4779
     }
   ],
@@ -76,7 +76,19 @@
       "missing_auxiliary_reload_rejected": true,
       "status": "ACCEPTED_STATIC_TYPED_RELOAD_FINAL_VFS_PENDING"
     },
-    "scope": "All 29 crash/rollback checks mutate only research fixtures. FC preparation, installation, dual fresh reloads and acceptance have separate immutable receipts."
+    "gow_acceptance": {
+      "receipt": "integration/research/verified_patch_install/runs/gow_script_format_v3/accepted.json",
+      "sha256": "bece6c34b4668b2a28af6dff2beb5e1e0250b6bf88e38aaef1af236be3ce9a11",
+      "reload": "UnifiedSkyrim/validation/gow_script_format_reload_v2",
+      "status": "ACCEPTED_STATIC_TYPED_RELOAD_FINAL_VFS_PENDING"
+    },
+    "glen_acceptance": {
+      "receipt": "integration/research/verified_patch_install/runs/glen_v7/accepted.json",
+      "sha256": "984dab576385329260b8d3e13d9a866bd2ae924bc20c9c6bd553be5e41e39219",
+      "reload": "UnifiedSkyrim/validation/glen_navigation_v7_reload_r1",
+      "status": "ACCEPTED_STATIC_TYPED_RELOAD_FINAL_VFS_PENDING"
+    },
+    "scope": "All 29 crash/rollback checks mutate only research fixtures. FC, God of War and Glen preparation, installation and typed-reload acceptance have separate immutable receipts."
   },
   "limits": [
     "Legacy rev3 interrupted attempts lack original_file_rows and still require manual inspection; rev4 does not guess their original journal state.",

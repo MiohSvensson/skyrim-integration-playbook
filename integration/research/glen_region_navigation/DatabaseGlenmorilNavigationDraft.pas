@@ -1,10 +1,10 @@
 unit UserScript;
-// DRAFT: requires exact-source preflight and normal xEdit4.1.5f definitions.
+// Bounded producer: independent binary and fresh typed-reload gates are required.
 // Supersedes the earlier AK-only draft; do not load both candidates together.
 const
  VERIFY_ONLY = False;
  PATCH_NAME = 'Database Glenmoril Navigation Compatibility.esp';
- OUTPUT_FILE = 'E:\stock\Skyrim collection\Database\integration\research\glen_region_navigation\candidate\Database Glenmoril Navigation Compatibility.esp';
+ OUTPUT_FILE = 'E:\stock\Skyrim collection\Database\integration\research\glen_region_navigation\candidate_v7\Database Glenmoril Navigation Compatibility.esp';
 
 var stockOrphanGuardChecked, stockOrphanTreeDumped: Boolean;
 
@@ -705,7 +705,7 @@ begin
   b:=ElementByIndex(base,i);
   if BaseName(b)<>'Record Header' then begin
    a:=UniqueTop(copyNav,FieldToken(b));Need(Assigned(a),'NAVM field missing'+ComparisonContext(a,b));
-   if BaseName(b)<>'NVNM' then AssertTree(a,b,'Preserve NAVM non-NVNM field');
+   if FieldToken(b)<>'NVNM' then AssertTree(a,b,'Preserve NAVM non-NVNM field');
   end;
  end;
  CompareOtherNVNM(copyNav,base,False);
@@ -855,7 +855,7 @@ begin
    cellMaster:=ParentCell(baseNav,ParentID(c));cellSource:=WinnerExcludingPatch(cellMaster);cellCopy:=CopyOverride(cellSource,patchFile);
    navCopy:=CopyOverride(baseNav,patchFile);AssertUnchangedRecord(navCopy,baseNav,'Initial exact selected base NAVM');
    baseNavi:=RecordByFormID(baseFile,LoadOrderFormIDtoFileFormID(baseFile,GetLoadOrderFormID(naviMaster)),True);baseInfo:=InfoFor(baseNavi,masterNav);sourceInfo:=InfoFor(glenNavi,masterNav);
-   existing:=InfoFor(naviCopy,masterNav);if Assigned(existing) then Remove(existing);
+   existing:=InfoFor(naviCopy,masterNav);if Assigned(existing) then begin Remove(existing);existing:=nil;end;
    copyInfo:=ElementAssign(Req(naviCopy,'Navmesh Infos'),HighInteger,baseInfo,False);Need(Assigned(copyInfo),'Base NVMI forwarding failed');RemapInfoReferences(copyInfo,baseInfo);
    for d:=0 to NewDoorCount(c)-1 do begin
     mapped:=UniqueFace(sourceNav,baseNav,c,d);entry:=SourceDoor(sourceNav,c,d);refRecord:=LinksTo(Req(entry,'Door Ref'));
@@ -868,24 +868,27 @@ begin
  end;
  naviCopy:=RecordByFormID(patchFile,LoadOrderFormIDtoFileFormID(patchFile,GetLoadOrderFormID(naviMaster)),True);
  worldCopy:=RecordByFormID(patchFile,LoadOrderFormIDtoFileFormID(patchFile,GetLoadOrderFormID(worldMaster)),True);
- for c:=0 to 2 do begin
-  baseFile:=ReqFile(BaseNameFor(c));masterNav:=RecordByFormID(stock,TargetID(c),False);
-  sourceNav:=RecordByFormID(glen,LoadOrderFormIDtoFileFormID(glen,GetLoadOrderFormID(masterNav)),True);
-  baseNav:=RecordByFormID(baseFile,LoadOrderFormIDtoFileFormID(baseFile,GetLoadOrderFormID(masterNav)),True);
-  navCopy:=RecordByFormID(patchFile,LoadOrderFormIDtoFileFormID(patchFile,GetLoadOrderFormID(masterNav)),True);
-  cellMaster:=ParentCell(baseNav,ParentID(c));cellSource:=WinnerExcludingPatch(cellMaster);
-  cellCopy:=RecordByFormID(patchFile,LoadOrderFormIDtoFileFormID(patchFile,GetLoadOrderFormID(cellMaster)),True);
-  AddMessage('GLEN_NAV_CELL_SOURCE|'+IntToHex(ParentID(c),6)+'|'+GetFileName(GetFile(cellSource)));
-  AssertUnchangedRecord(cellCopy,cellSource,'Preserve final parent CELL');AssertDoorState(navCopy,baseNav,sourceNav,c);
-  baseNavi:=RecordByFormID(baseFile,LoadOrderFormIDtoFileFormID(baseFile,GetLoadOrderFormID(naviMaster)),True);baseInfo:=InfoFor(baseNavi,masterNav);sourceInfo:=InfoFor(glenNavi,masterNav);copyInfo:=InfoFor(naviCopy,masterNav);
-  AssertInfoDoorState(copyInfo,baseInfo,sourceInfo,sourceNav,c);
-  Need(Check(navCopy)='','NAVM diagnostics: '+Check(navCopy));Need(Check(cellCopy)='','CELL diagnostics: '+Check(cellCopy));
+ if VERIFY_ONLY then begin
+  for c:=0 to 2 do begin
+   baseFile:=ReqFile(BaseNameFor(c));masterNav:=RecordByFormID(stock,TargetID(c),False);
+   sourceNav:=RecordByFormID(glen,LoadOrderFormIDtoFileFormID(glen,GetLoadOrderFormID(masterNav)),True);
+   baseNav:=RecordByFormID(baseFile,LoadOrderFormIDtoFileFormID(baseFile,GetLoadOrderFormID(masterNav)),True);
+   navCopy:=RecordByFormID(patchFile,LoadOrderFormIDtoFileFormID(patchFile,GetLoadOrderFormID(masterNav)),True);
+   cellMaster:=ParentCell(baseNav,ParentID(c));cellSource:=WinnerExcludingPatch(cellMaster);
+   cellCopy:=RecordByFormID(patchFile,LoadOrderFormIDtoFileFormID(patchFile,GetLoadOrderFormID(cellMaster)),True);
+   AddMessage('GLEN_NAV_CELL_SOURCE|'+IntToHex(ParentID(c),6)+'|'+GetFileName(GetFile(cellSource)));
+   AssertUnchangedRecord(cellCopy,cellSource,'Preserve final parent CELL');AssertDoorState(navCopy,baseNav,sourceNav,c);
+   baseNavi:=RecordByFormID(baseFile,LoadOrderFormIDtoFileFormID(baseFile,GetLoadOrderFormID(naviMaster)),True);baseInfo:=InfoFor(baseNavi,masterNav);sourceInfo:=InfoFor(glenNavi,masterNav);copyInfo:=InfoFor(naviCopy,masterNav);
+   AssertInfoDoorState(copyInfo,baseInfo,sourceInfo,sourceNav,c);
+   Need(Check(navCopy)='','NAVM diagnostics: '+Check(navCopy));Need(Check(cellCopy)='','CELL diagnostics: '+Check(cellCopy));
+  end;
+  AssertUnchangedRecord(worldCopy,worldSource,'Preserve final WRLD');AssertNaviRest(naviCopy,naviSource);AssertOtherInfos(naviCopy,naviSource);
+  Need(Check(naviCopy)='','NAVI diagnostics: '+Check(naviCopy));Need(Check(worldCopy)='','WRLD diagnostics: '+Check(worldCopy));
  end;
- AssertUnchangedRecord(worldCopy,worldSource,'Preserve final WRLD');AssertNaviRest(naviCopy,naviSource);AssertOtherInfos(naviCopy,naviSource);AssertAllowedRecords(patchFile,worldMaster,naviMaster);
- Need(Check(naviCopy)='','NAVI diagnostics: '+Check(naviCopy));Need(Check(worldCopy)='','WRLD diagnostics: '+Check(worldCopy));
+ AssertAllowedRecords(patchFile,worldMaster,naviMaster);
  AddMessage('GLEN_NAV_NAVI_SOURCE|'+GetFileName(GetFile(naviSource)));AddMessage('GLEN_NAV_WRLD_SOURCE|'+GetFileName(GetFile(worldSource)));
  if VERIFY_ONLY then Need(SameText(GetFileName(GetFile(WinningOverride(naviMaster))),PATCH_NAME),'Patch is not final NAVI winner')
  else begin ForceDirectories(ExtractFilePath(OUTPUT_FILE));stream:=TFileStream.Create(OUTPUT_FILE,fmCreate);try FileWriteToStream(patchFile,stream,0);finally stream.Free;end;AddMessage('GLEN_NAV_CANDIDATE_EXPORTED|'+OUTPUT_FILE);end;
- if VERIFY_ONLY then AddMessage('GLEN_NAV_RELOAD_TYPED_PASS|NAVM=3|DOORS_ADDED=4|OWN=0') else AddMessage('GLEN_NAV_INMEMORY_TYPED_PASS|NAVM=3|DOORS_ADDED=4|OWN=0');Result:=0;
+ if VERIFY_ONLY then AddMessage('GLEN_NAV_RELOAD_TYPED_PASS|NAVM=3|DOORS_ADDED=4|OWN=0') else AddMessage('GLEN_NAV_PRODUCER_PASS|NAVM=3|CELL=3|WRLD=1|NAVI=1|OWN=0|RELOAD_REQUIRED=1');Result:=0;
 end;
 end.

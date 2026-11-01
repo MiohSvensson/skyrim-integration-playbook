@@ -4,12 +4,12 @@ Last reviewed: 2026-11-01. Base: TuLED. Work remains active; static integration 
 
 ## Current checkpoint
 
-- Final profile: 1,080 plugins; 147 full and 933 light.
-- Build profile: 1,077 plugins; 144 full and 933 light.
+- Final profile: 1,081 plugins; 147 full and 934 light.
+- Build profile: 1,078 plugins; 144 full and 934 light.
 - Physical resolution reports no missing plugins or masters and remains within slot limits.
-- Feature, quest, and FC compatibility patches have independent binary and fresh typed-reload acceptance.
+- Feature, quest, FC, and Glen compatibility patches have independent binary and fresh typed-reload acceptance.
 - The 6,495-row source catalog is refreshed as work in progress, with zero stale rows and zero linkage issues; 1,721 alternatives remain pending.
-- FC v12 has completed producer, binary, rev4 installation, and dual fresh typed-reload acceptance. Glen navigation is next.
+- FC v12 and Glen v7 are accepted for static integration. Resource closure is next; final VFS and generation remain pending.
 - Formal Synthesis, PG, and final LOD generation remain pending.
 
 A pre-navigation MO2 child proved actual `usvfs_x64` injection and all 411,248 current runtime-path FileID/size winners in `pre_navigation_vfs_r2_probe_files.json`. That run is not an aggregate pass: MO2 moved its generated `modlist.txt` comment, and two Igraine hand textures remain unresolved. `mo2_controls.py` now canonicalizes only that exact comment with journal backup/rollback; no final all-resource VFS or in-game proof exists.
@@ -66,10 +66,11 @@ Stop if any source, NAVM winner, parent CELL/WRLD, NAVI witness, or record set c
 
 ## 2. Glenmoril navigation
 
-Repeat the same producer → binary → install → fresh reload → accept chain after FC acceptance.
+Glen v7 is accepted for static integration after the same producer → binary → install → fresh reload → accept chain. See `integration/research/glen_region_navigation/navigation_v7_manifest.json` and `integration/research/verified_patch_install/runs/glen_v7/accepted.json`.
 
-- Preserve FC and all unrelated NAVI/NVPP/NVSI entries.
-- Require three NAVMs, four added door connections, eight existing overrides, and zero own records.
+- FC and all unrelated NAVI/NVPP/NVSI entries are preserved.
+- Three NAVMs, four added door connections, eight existing overrides, and zero own records are verified.
+- The combined checker reports `STATIC_BINARY_AND_TYPED_RELOAD_PASS`; final VFS/resource checks and in-game validation remain separate.
 - Do not enable the superseded AK-only candidate.
 
 ## 3. Close bounded resource questions

@@ -1,8 +1,8 @@
 # Glenmoril bounded navigation composition
 
-Status: exact-source static composition and source preflight passed. The Pascal builder and verifier are frozen drafts for xEdit 4.1.5f normal definitions; they have not been compiled or executed here. No plugin was created by this research task. No game, GUI, MO2, source plugin, or shared script directory was opened for writing.
+Status: **v7 static integration accepted**. The bounded producer, independent binary checker, rev4 private installation, fresh read-only xEdit verifier and combined binary/typed-log checker all passed in the actual MO2 VFS. No game was launched and no original mod pack was modified. Final VFS/resource and generation checks remain separate.
 
-The current PAS files are the **v6 exact-source orphan-guard revision**, pinned by `../plugin_integration/navi_unresolved_audit/stock_orphan_lookup_fix_manifest_v6.json`. `generate_drafts.py` and the older header/native-vector receipts are historical baseline evidence only. Do not rerun that generator over the current drafts; it would remove the v4–v6 fixes. Start any further revision from the v6 frozen copies.
+Use the current v7 PAS files and `navigation_v7_manifest.json`. The v6 orphan-guard sources and manifest are historical evidence. `generate_drafts.py` and older baseline generators must not overwrite the current files. The builder exports only the bounded patch; full deep checks run read-only after a fresh reload, avoiding xEdit interface-destruction failures after mutation.
 
 This **single candidate supersedes the earlier AK-only candidate** in `../navmesh_patch`. Do not enable both. It adds four authored door connections across three NAVMs:
 
@@ -40,9 +40,9 @@ The FC verifier requires FC to be the final NAVI winner, so its original winner 
 - `comparison.json`: exact original source SHA-256, profile witness, face coordinates/bytes, all mappings, complete component proofs, expected triangle hashes, expected Door Triangles and source/base NVMI.
 - `analyze.py`: source-only repeatable comparison; writes only its research report.
 - `source_preflight.json`: independent file hashes, face mappings and component proof repeated successfully.
-- `DatabaseGlenmorilNavigationDraft.pas`: standalone builder draft.
-- `DatabaseVerifyGlenmorilNavigationDraft.pas`: standalone fresh-reload verifier draft.
-- `verify_navigation_candidate.py`: read-only source/candidate checker; does not construct binary plugins.
-- `draft_manifest.json`: draft file SHA-256 and common helper provenance.
+- `DatabaseGlenmorilNavigationDraft.pas`: bounded producer, executed successfully in the full FC-installed MO2 context.
+- `DatabaseVerifyGlenmorilNavigationDraft.pas`: read-only fresh-reload verifier, passed after rev4 installation.
+- `verify_navigation_candidate.py`: read-only source/candidate checker; reports `STATIC_BINARY_AND_TYPED_RELOAD_PASS` for the installed candidate and fresh log.
+- `navigation_v7_manifest.json`: current accepted source/result chain. `draft_manifest.json` and v6 manifests are historical.
 
 Exact schema/API evidence is pinned in `../navmesh_patch/source_4_1_5f/` at xedit-4.1.5f commit `f5c00f3fa3ee39511185515802647246c807f759`. Normal Door Triangle fields are `Triangle before door`, `CRC Hash`, `Door Ref`; `XTEL\Door` is the registered typed teleport field. No binary offsets are used to mutate a plugin, and no raw local FormID is blindly copied across plugin namespaces.

@@ -1,10 +1,10 @@
 unit UserScript;
-// DRAFT: requires exact-source preflight and normal xEdit4.1.5f definitions.
+// Read-only fresh-process verifier for the bounded Glen candidate.
 // Supersedes the earlier AK-only draft; do not load both candidates together.
 const
  VERIFY_ONLY = True;
  PATCH_NAME = 'Database Glenmoril Navigation Compatibility.esp';
- OUTPUT_FILE = 'E:\stock\Skyrim collection\Database\integration\research\glen_region_navigation\candidate\Database Glenmoril Navigation Compatibility.esp';
+ OUTPUT_FILE = 'E:\stock\Skyrim collection\Database\integration\research\glen_region_navigation\candidate_v7\Database Glenmoril Navigation Compatibility.esp';
 
 var stockOrphanGuardChecked, stockOrphanTreeDumped: Boolean;
 
@@ -705,7 +705,7 @@ begin
   b:=ElementByIndex(base,i);
   if BaseName(b)<>'Record Header' then begin
    a:=UniqueTop(copyNav,FieldToken(b));Need(Assigned(a),'NAVM field missing'+ComparisonContext(a,b));
-   if BaseName(b)<>'NVNM' then AssertTree(a,b,'Preserve NAVM non-NVNM field');
+   if FieldToken(b)<>'NVNM' then AssertTree(a,b,'Preserve NAVM non-NVNM field');
   end;
  end;
  CompareOtherNVNM(copyNav,base,False);
@@ -855,7 +855,7 @@ begin
    cellMaster:=ParentCell(baseNav,ParentID(c));cellSource:=WinnerExcludingPatch(cellMaster);cellCopy:=CopyOverride(cellSource,patchFile);
    navCopy:=CopyOverride(baseNav,patchFile);AssertUnchangedRecord(navCopy,baseNav,'Initial exact selected base NAVM');
    baseNavi:=RecordByFormID(baseFile,LoadOrderFormIDtoFileFormID(baseFile,GetLoadOrderFormID(naviMaster)),True);baseInfo:=InfoFor(baseNavi,masterNav);sourceInfo:=InfoFor(glenNavi,masterNav);
-   existing:=InfoFor(naviCopy,masterNav);if Assigned(existing) then Remove(existing);
+   existing:=InfoFor(naviCopy,masterNav);if Assigned(existing) then begin Remove(existing);existing:=nil;end;
    copyInfo:=ElementAssign(Req(naviCopy,'Navmesh Infos'),HighInteger,baseInfo,False);Need(Assigned(copyInfo),'Base NVMI forwarding failed');RemapInfoReferences(copyInfo,baseInfo);
    for d:=0 to NewDoorCount(c)-1 do begin
     mapped:=UniqueFace(sourceNav,baseNav,c,d);entry:=SourceDoor(sourceNav,c,d);refRecord:=LinksTo(Req(entry,'Door Ref'));

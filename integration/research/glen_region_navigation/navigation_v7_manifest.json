@@ -1,0 +1,73 @@
+{
+  "schema": "skyrim.glen_navigation.acceptance.v7",
+  "utc": "2026-11-01T03:29:31Z",
+  "status": "ACCEPTED_STATIC_TYPED_RELOAD_FINAL_VFS_PENDING",
+  "candidate": {
+    "name": "Database Glenmoril Navigation Compatibility.esp",
+    "path": "UnifiedSkyrim/mods/ZZ87 Verified compatibility patches/Database Glenmoril Navigation Compatibility.esp",
+    "sha256": "3ed86b708c926855771e2f731e1e24776535cf6997a07380d0245b2fb3feb57d",
+    "size_bytes": 103971,
+    "NAVM_overrides": 3,
+    "CELL_overrides": 3,
+    "WRLD_overrides": 1,
+    "NAVI_overrides": 1,
+    "own_records": 0,
+    "added_door_connections": 4,
+    "preserves_FC_and_unrelated_NVMI_NVPP_NVSI": true,
+    "nonordinal_door_mapping": "Glen triangle 325 maps to RedBag triangle 86"
+  },
+  "source_preflight": {
+    "report": "integration/research/glen_region_navigation/source_preflight_v7.json",
+    "sha256": "747a6cb27e369e9aceb64b90d81651302878dcc9450fc244047bc23f97c9de21",
+    "status": "SOURCE_PREFLIGHT_PASS"
+  },
+  "producer": {
+    "task": "UnifiedSkyrim/validation/glen_navigation_v7_r1",
+    "result_sha256": "8bfc475707abc258d60b5a7ff7a4629375fa47b958a8c58bce7bf2ad6e885e3f",
+    "pass_marker": "GLEN_NAV_PRODUCER_PASS",
+    "scope": "Bounded producer export followed by independent and fresh-process verification",
+    "executed_builder_sha256": "26eb3ba3069bf2b2dc7c6243905a72ab6b0b6941d3bac406afbc1bcf3a76b6b6",
+    "current_builder_sha256": "90298ecfe79fc91f886295589c99296587d0800e0a0d9fe9318fd762b9469a92",
+    "current_builder_change": "Comment-only header update after execution",
+    "executed_verifier_sha256": "c7096b35a92cfe8522efed3e1903a064334336ecb713b611398ff9d1f1ddc7cd",
+    "current_verifier_sha256": "34c8bf2e3e18c601916e7271dd2a58d9dcb220e8e92aad3e6111763e7a3342b1",
+    "current_verifier_change": "Header documentation and unused export-path update after execution"
+  },
+  "prior_winner": "UnifiedSkyrim/mods/ZZ87 Verified compatibility patches/Database Forgotten City USSEP Navigation.esp",
+  "binary_verification": {
+    "report": "integration/research/glen_region_navigation/binary_v7.json",
+    "sha256": "b20de1063018a3895d9bfcab3e44890b0641a9b83af3125cb585926f31a26af4",
+    "status": "BINARY_PASS_TYPED_RELOAD_REQUIRED"
+  },
+  "installation": {
+    "prepared": "integration/research/verified_patch_install/runs/glen_v7/prepared.json",
+    "prepared_sha256": "7620c7436cb72e3f2af100eff1bead4bf83e3fb68a0bcf41760f72daadd87763",
+    "receipt": "integration/research/verified_patch_install/runs/glen_v7/installed.json",
+    "receipt_sha256": "a8dac5c427827a434f41b7b36f60a0e9d26d7528e1ce8837dd82c134ab33e24c"
+  },
+  "fresh_typed_reload": {
+    "task": "UnifiedSkyrim/validation/glen_navigation_v7_reload_r1",
+    "result_sha256": "6ed75937761956a85d1e567b0cfe2329137ba8174d0baa241ac44ee5766bc239",
+    "pass_marker": "GLEN_NAV_RELOAD_TYPED_PASS",
+    "native_plugin_order_sha256": "93d443949d96aee8cfecb22fac1116176335c24e6c4e82d29e871c369c8fcbff"
+  },
+  "combined_binary_and_typed_log": {
+    "report": "integration/research/glen_region_navigation/verified_v7.json",
+    "sha256": "070bdb46644c304523442d2293a4746b642e2813592fb2336cc3958f44568792",
+    "status": "STATIC_BINARY_AND_TYPED_RELOAD_PASS"
+  },
+  "acceptance": {
+    "receipt": "integration/research/verified_patch_install/runs/glen_v7/accepted.json",
+    "sha256": "984dab576385329260b8d3e13d9a866bd2ae924bc20c9c6bd553be5e41e39219"
+  },
+  "profiles": {
+    "Unified Build": {"plugins": 1078, "full": 144, "light": 934},
+    "Unified Skyrim": {"plugins": 1081, "full": 147, "light": 934}
+  },
+  "original_packs_modified": false,
+  "game_launched": false,
+  "limits": [
+    "Static integration acceptance only; no in-game navigation test occurred",
+    "Final VFS/resource closure, Synthesis, PG and LOD generation remain separate gates"
+  ]
+}

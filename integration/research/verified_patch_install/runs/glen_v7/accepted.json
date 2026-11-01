@@ -1,0 +1,23 @@
+{
+  "utc": "2026-11-01T03:28:40.667755+00:00",
+  "status": "ACCEPTED_STATIC_TYPED_RELOAD_FINAL_VFS_PENDING",
+  "accepted": true,
+  "candidate": {
+    "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\ZZ87 Verified compatibility patches\\Database Glenmoril Navigation Compatibility.esp",
+    "sha256": "3ed86b708c926855771e2f731e1e24776535cf6997a07380d0245b2fb3feb57d",
+    "size_bytes": 103971
+  },
+  "installation": {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\verified_patch_install\\runs\\glen_v7\\installed.json",
+    "sha256": "a8dac5c427827a434f41b7b36f60a0e9d26d7528e1ce8837dd82c134ab33e24c",
+    "size_bytes": 2435
+  },
+  "reload_task": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\validation\\glen_navigation_v7_reload_r1",
+  "reload_result": {
+    "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\validation\\glen_navigation_v7_reload_r1\\result.json",
+    "sha256": "6ed75937761956a85d1e567b0cfe2329137ba8174d0baa241ac44ee5766bc239",
+    "size_bytes": 1235
+  },
+  "auxiliary_reload": null,
+  "limits": "Static typed reload acceptance only. Final full VFS/resource/Synthesis/LOD audits remain separate; no game launch."
+}

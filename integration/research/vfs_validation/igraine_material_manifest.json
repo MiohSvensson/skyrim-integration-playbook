@@ -1,0 +1,73 @@
+{
+  "schema": "skyrim.igraine_material_audit.v1",
+  "status": "READY_FOR_PRIVATE_RESOURCE_INSTALL",
+  "authored_preset": {
+    "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【服装】 贵族小裙子 SC - Order1886 - Igraine\\CalienteTools\\BodySlide\\SliderSets\\Igraine Knight CBBE 3BA.osp",
+    "sha256": "a3eb98cf01cfb9b82c97256442637a27f798f3a79c98586cbc9760faa8c4b7a1",
+    "bytes": 290931
+  },
+  "authored_mesh": {
+    "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【服装】 贵族小裙子 SC - Order1886 - Igraine\\CalienteTools\\BodySlide\\ShapeData\\Igraine Knight CBBE 3BA\\HandsF.nif",
+    "sha256": "1397122df98a064f24057e60f50f8d183c715fa2b660d73e010f6af4a7d1ba02",
+    "bytes": 348614
+  },
+  "runtime_morph": {
+    "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\ZZ83 Verified generated item and quest assets\\meshes\\sc\\4_ports\\21_order1886\\igraine\\knight\\handsf_0.nif",
+    "sha256": "94003fee159c22d12491414f1c75f1832668ef8c6b8ee06277fca6108ab9c493",
+    "bytes": 348717
+  },
+  "texture_slots": [
+    "textures\\SC\\4_Ports\\21_Order1886\\Igraine\\Knight\\Hands_F.dds",
+    "textures\\SC\\4_Ports\\21_Order1886\\Igraine\\Knight\\Hands_F_n.dds",
+    "",
+    "",
+    "textures\\SC\\4_Ports\\21_Order1886\\Igraine\\Knight\\quicksilver_e.dds",
+    "textures\\SC\\4_Ports\\21_Order1886\\Igraine\\Knight\\Hands_F_m.dds",
+    "",
+    "",
+    ""
+  ],
+  "shader": {
+    "shape_count": 1,
+    "shader_type": 1,
+    "shader_flags_1": "0x82400383",
+    "shader_flags_2": "0x8011",
+    "environment_mapping": true,
+    "environment_map_scale": 0.800000011920929
+  },
+  "shader_meaning": "BSLSP_ENVMAP=1; SLSF1_ENVIRONMENT_MAPPING=1<<7; source and generated morph are identical",
+  "nifly_dll": {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\primary_sources\\PyNifly\\addon\\io_scene_nifly\\NiflyDLL.dll",
+    "sha256": "c31df4a16430911f8961d0d963f525b695b94857c39c55bb79b50b346c030062",
+    "bytes": 1939456
+  },
+  "nifdefs": {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\primary_sources\\PyNifly\\addon\\io_scene_nifly\\pyn\\nifdefs.py",
+    "sha256": "dd652e53fed1e3af7936ffd5f17c351863e76da2a5cda1c320698fbc0ed11741",
+    "bytes": 59747
+  },
+  "private_resource_mapping": [
+    {
+      "source": {
+        "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\【服装】 贵族小裙子 SC - Order1886 - Igraine\\textures\\SC\\4_Ports\\21_Order1886\\Igraine\\Knight\\Hands_F_m.dds",
+        "sha256": "1c5f854333b695638858f1a4ca75ec1e917ed39c4e0c371dd41ef55ca5d86e44",
+        "bytes": 699192
+      },
+      "destination": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\ZZ83 Verified generated item and quest assets\\textures\\SC\\4_Ports\\21_Order1886\\Igraine\\Knight\\Hands_F_m.dds",
+      "basis": "Exact authored mask present in the source package"
+    },
+    {
+      "source": {
+        "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\头环材质替换-JS Vanilla Circlets\\textures\\johnskyrim\\vanillacirclets\\cubes\\quicksilver_e.dds",
+        "sha256": "4e67563091799fc034c12748b9ce50b4e02302dd58e5b286b068cd31751ed077",
+        "bytes": 4304
+      },
+      "destination": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\ZZ83 Verified generated item and quest assets\\textures\\SC\\4_Ports\\21_Order1886\\Igraine\\Knight\\quicksilver_e.dds",
+      "basis": "Byte-identical to official stock Skyrim - Textures3.bsa textures/cubemaps/ore_quicksilver_e.dds; explicit typed environment-map repair, not an invented texture"
+    }
+  ],
+  "candidate_bytes_absent_before_install": true,
+  "original_packs_modified": false,
+  "mesh_or_controls_modified": false,
+  "required_next": "Install only these two private resource copies into the already-active ZZ83 layer, then run an actual MO2 VFS/resource closure probe. No in-game proof is implied."
+}

@@ -80,6 +80,7 @@ Resolve or explicitly disposition every known gap before final resource closure:
 - Forgotten City response-motif sound;
 - Glen female `DwarvenSoldier.nif` and `shaderbox.nif`;
 - Moon and Star BS82 asset contract and 35 affected LAND records.
+- Igraine hand material: `integration/research/vfs_validation/audit_igraine_material.py` proves the authored BodySlide source, matching generated texture slots, environment-map shader, exact author mask, and stock-identical cubemap. The manifest stages two private files for the existing ZZ83 layer; installation and actual VFS closure remain pending.
 
 Use author assets or typed evidence. Do not invent resources or delete references only to suppress diagnostics.
 

@@ -9,7 +9,7 @@ Last reviewed: 2026-11-01. Base: TuLED. Work remains active; static integration 
 - Physical resolution reports no missing plugins or masters and remains within slot limits.
 - Feature, quest, FC, and Glen compatibility patches have independent binary and fresh typed-reload acceptance.
 - The 6,495-row source catalog is refreshed as work in progress, with zero stale rows and zero linkage issues; 1,721 alternatives remain pending.
-- FC v12 and Glen v7 are accepted for static integration. Resource closure is next; final VFS and generation remain pending.
+- FC v12 and Glen v7 are accepted for static integration. Bounded resource dispositions are documented; six-stage Synthesis is next, with final VFS and generation still pending.
 - Formal Synthesis, PG, and final LOD generation remain pending.
 
 A pre-navigation MO2 child proved actual `usvfs_x64` injection and all 411,248 current runtime-path FileID/size winners in `pre_navigation_vfs_r2_probe_files.json`. That run is not an aggregate pass: MO2 moved its generated `modlist.txt` comment, and two Igraine hand textures remain unresolved. `mo2_controls.py` now canonicalizes only that exact comment with journal backup/rollback; no final all-resource VFS or in-game proof exists.
@@ -83,7 +83,7 @@ Resolve or explicitly disposition every known gap before final resource closure:
 - Moon and Star BS82 asset contract and 35 affected LAND records.
 - Igraine hand material is closed by two private files in the existing ZZ83 layer: the exact author mask and stock-identical environment cubemap. `integration/research/vfs_validation/igraine_material_r1/accepted.json` records actual MO2 FileID/hash proof, unchanged mesh/controls, and rollback-tested installation. This is targeted closure, not a full resource graph or in-game material test.
 
-Use author assets or typed evidence. Do not invent resources or delete references only to suppress diagnostics.
+Use author assets or typed evidence. Do not invent resources or delete references only to suppress diagnostics. `integration/research/supplemental_import/resource_limitations_manifest.json` records the current dispositions: nine exact grass omissions, an unrepaired FC motif, Glen's statically unused female-model branch and stock material stub, and two retained Moon and Star BS82 meshes. The typed full-context audit has eight male Glen NPCs, no female consumer, and a non-player race; raw source payloads and the FC response's sound FormID match exactly. These are explicit source limitations, not a zero-gap or in-game claim. Recheck them during final QEX, VFS, and whole-world grass/LOD.
 
 ## 4. Final Synthesis
 

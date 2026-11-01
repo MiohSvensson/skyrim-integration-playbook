@@ -13,7 +13,7 @@ import struct
 from vfs_common import BASE, digest, key
 
 CONTRACT = BASE / 'integration/research/feature_generation/moonstar_conversion/effective_bs82_contract.json'
-CONTRACT_SHA = 'fec8674d8eb2ddab1f38120c968493cd8e1b5708285866a2aa2d5c00c796bdca'
+CONTRACT_SHA = '0fa0b6f710fbf777af3eb3f1095c67649eb9295633e5fe63730480d3394d23a8'
 ASSETS = {
     'meshes/mwl/wg_0.nif': '3182b43fd2f42132907f22743d43fac5588f9bfcdbfb20bf556cefa26bddb0ed',
     'meshes/mwl/wg_1.nif': '9cdb6d3d6b8b34b85ff08720ed1e31a56d2ca0b2afa39f87c1655bf85d0c3f27',

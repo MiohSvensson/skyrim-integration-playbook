@@ -49,12 +49,15 @@
       "status": "IGRAINE_RESOURCE_REPAIR_VERIFIED"
     },
     {
+      "evidence": "integration/research/supplemental_import/resource_limitations_manifest.json",
+      "status": "STATIC_DISPOSITION_PASS_SOURCE_LIMITATIONS_NOT_REPAIRED"
+    },
+    {
       "evidence": "integration/research/feature_conflicts/candidate/review_recheck_v14.json",
       "status": "CURRENT_RESOLVED_MAP_BINARY_RECHECK_PASS"
     }
   ],
   "remaining": [
-    "close_or_explicitly_disposition_bounded_upstream_resource_gaps",
     "rebuild_final_Synthesis_with_all_gameplay_inputs",
     "implement_and_verify_Database_only_PG_driver_cache_containment_then_run_and_validate_PG",
     "regenerate_affected_grass_terrain_TexGen_DynDOLOD_and_occlusion_without_game",
@@ -62,11 +65,12 @@
     "verify_original_controls_unchanged_after_all_remaining_writers",
     "finalize_database_catalog_launchers_and_maintenance_docs"
   ],
-  "updated_utc": "2026-11-01T03:43:57Z",
+  "updated_utc": "2026-11-01T04:44:31Z",
   "completed": [
     "FC4_navigation_binary_install_and_dual_fresh_typed_reload_accepted",
     "Glen8_navigation_binary_install_and_fresh_typed_reload_accepted",
     "Igraine_two_private_textures_actual_MO2_FileID_and_SHA_verified",
+    "bounded_resource_dispositions_typed_and_raw_verified_source_limitations_retained",
     "base_selection_TuLED",
     "full_491328_file_baseline_view",
     "private_mutable_runtime_and_clean_MO2",
@@ -136,13 +140,13 @@
     "smoke_v2_ready": "research/lod_update/faster_ngio_child.py uses Win32 FileID + long-path SHA",
     "synthesis_ready": "research/synthesis_final/replay_tools_frozen_rev3.json",
     "final_vfs_tools": "research/vfs_validation/phase3_frozen_scripts_rev9.json",
-    "source_new_gaps": [
-      "Glen female DwarvenSoldier.nif (male NPC chain being audited)",
-      "Glen shaderbox.nif MATO common stock stub; runtime ignored not yet proven",
-      "FC one response motif sound missing, FUZ voice itself present"
+    "documented_source_limitations": [
+      "Glen female model branch unused by eight male NPCs and non-player race in the current static context; no female alias",
+      "Glen shaderbox.nif retained as an exact stock material/preview stub; no substitute material mesh",
+      "FC response motif remains an active unrepaired source-audio limitation; no synthesized or aliased audio"
     ],
     "next_required": [
-      "Close remaining bounded grass, sound, Glen mesh and Moon and Star resource questions",
+      "Run six-stage Synthesis with all gameplay inputs and master budget checks",
       "Final Synthesis with all gameplay inputs and master budget checks",
       "Fresh PG against final Synthesis context; typed records, NIF and resource closure before deployment",
       "Affected terrain/TexGen/DynDOLOD/offline grass and final occlusion in verified batch order",
@@ -155,7 +159,7 @@
     "grass_bulk_inspect002": "PASS eight worlds inspected, nine bounded upstream gaps",
     "quest27": "ACCEPTED: binary43guards27recordsPASS and freshreloadPASS; research/verified_patch_install/runs/quest_v10/accepted.json",
     "feature154": "ACCEPTED: v14 resolved-map binary PASS and fresh typed reload PASS; current recheck research/feature_conflicts/candidate/review_recheck_v14.json; final VFS pending",
-    "moon_nif": "CAO candidates rejected; original typed47blocks valid, 2exacteffectiveBS82 asset contract under review",
+    "moon_nif": "EXACT_TWO_EFFECTIVE_ORIGINAL_BS82_FORMAT_EXCEPTIONS_NOT_REPAIRED; refreshed contract 0fa0b6f710fbf777af3eb3f1095c67649eb9295633e5fe63730480d3394d23a8; CAO rejected, original meshes retained; 35 LAND handled in whole-world grass/LOD",
     "normal_xedit": "ACTUAL_PROVEN SimpleRecords=0; textfalseignored. See plugin_integration/xedit_settings/settings_rootcause.json",
     "current_native_source": "research/feature_conflicts/draft_version_manifest.v13.json",
     "current_feature_binary_verifier": "research/feature_conflicts/verify_compatibility_v14.py; verify_compatibility.py remains frozen v13 evidence and is not the accepted-candidate verifier",

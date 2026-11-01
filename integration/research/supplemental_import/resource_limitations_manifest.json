@@ -1,0 +1,83 @@
+{
+  "schema": "skyrim.bounded_resource_dispositions.v1",
+  "status": "STATIC_DISPOSITION_PASS_SOURCE_LIMITATIONS_NOT_REPAIRED",
+  "typed_consumer_task": {
+    "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\validation\\resource_consumers_v11",
+    "result_sha256": "12505bd3c7a5762c22b0fdfa9173d499f318aab957f739949cfce671ba5b1c95",
+    "native_plugin_order_sha256": "93d443949d96aee8cfecb22fac1116176335c24e6c4e82d29e871c369c8fcbff"
+  },
+  "consumer_script": {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\supplemental_import\\DatabaseResourceConsumerAudit.pas",
+    "sha256": "9c1aafe585c14691e21a7e009bee34c05fbe230e374eff25423ae0bfc6515df2",
+    "bytes": 5254
+  },
+  "raw_record_guards": [
+    {
+      "signature": "MATO",
+      "raw_form_id": "0400C8CD",
+      "decompressed_payload_sha256": "296e7ea7e2768e3f3e19929dfec2fbe33a006e4a3803ea8c6e4db864b821672a"
+    },
+    {
+      "signature": "ARMA",
+      "raw_form_id": "0400F5DF",
+      "decompressed_payload_sha256": "d3b1e34e5ff1ec03d77cc6994b10fde9a605f69d71a3273469969cfe7c4fb010"
+    },
+    {
+      "signature": "SNDR",
+      "raw_form_id": "010E2673",
+      "decompressed_payload_sha256": "f348e3b881c7259bd84f8b8d191578b98d2f895b2dbcefc1cfceb0947faef87b"
+    },
+    {
+      "signature": "INFO",
+      "raw_form_id": "010C38B4",
+      "decompressed_payload_sha256": "eb18701789cecc3fb7c8338729e8f33e57103852acb55cf7ef3cf22d6ab04f99"
+    }
+  ],
+  "source_limitations": [
+    {
+      "case": "nine grass-source omissions",
+      "disposition": "Retain only exact GRAS/world/LTEX omission contracts; never substitute similar models. Whole-world regeneration and final graph remain required.",
+      "evidence": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\lod_update\\known_missing_grass.json",
+        "sha256": "7da9cb2a3fcd6d57a565bb3453b5ab04ae07b8a678c3c60790fd4f518367d951",
+        "bytes": 6652
+      }
+    },
+    {
+      "case": "Glen female DwarvenSoldier.nif",
+      "disposition": "Source female branch is unused by the current eight male NPC consumers and non-player race. Do not create a female alias; dynamic or future female use is not certified.",
+      "typed_consumers": "RACE=1, MALE_NPC=8, FEMALE_NPC=0, playable race mask=0"
+    },
+    {
+      "case": "Glen shaderbox.nif MATO stub",
+      "disposition": "Retain exact authored material payload and missing stock preview model; do not substitute a snow/sand mesh.",
+      "stock_evidence": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\supplemental_import\\shaderbox_stock_material_evidence.json",
+        "sha256": "c6c7a41d8d99fd99248825bfeec2881f056f98d47b23bc75a1d9f0eff629637c",
+        "bytes": 12317
+      }
+    },
+    {
+      "case": "Forgotten City response motif",
+      "disposition": "Exact response TRDT sound link and descriptor remain, but the authored motif WAV/XWM is unrepaired. Retain an explicit active source-audio limitation; do not synthesize or alias audio.",
+      "evidence": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\supplemental_import\\new_feature_resource_gap_evidence.json",
+        "sha256": "7b7c24f9c9b16b9be84a407c8a0a0b9a611300b8b951876b02bc5691d91da96e",
+        "bytes": 13206
+      }
+    },
+    {
+      "case": "Moon and Star BS82 meshes",
+      "disposition": "Keep the two exact original BS82 meshes and reject CAO resaving. Their 35 LAND changes require whole-Tamriel grass/LOD handling, not a mesh conversion.",
+      "evidence": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\moonstar_conversion\\effective_bs82_contract.json",
+        "sha256": "0fa0b6f710fbf777af3eb3f1095c67649eb9295633e5fe63730480d3394d23a8",
+        "bytes": 34502
+      }
+    }
+  ],
+  "original_packs_modified": false,
+  "game_launched": false,
+  "no_alias_or_invented_asset": true,
+  "required_next": "Proceed to six-stage Synthesis. Recheck source limitations in final QEX, full VFS/resource closure and whole-world grass/LOD; this is not a zero-gap or in-game claim."
+}

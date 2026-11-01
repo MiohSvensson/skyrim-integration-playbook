@@ -1,0 +1,20 @@
+{
+  "schema": "skyrim.moonstar_bs82.disposition.v1",
+  "status": "EXACT_TWO_EFFECTIVE_ORIGINAL_BS82_FORMAT_EXCEPTIONS_NOT_REPAIRED",
+  "previous_contract_sha256": "fec8674d8eb2ddab1f38120c968493cd8e1b5708285866a2aa2d5c00c796bdca",
+  "current_contract_sha256": "0fa0b6f710fbf777af3eb3f1095c67649eb9295633e5fe63730480d3394d23a8",
+  "refresh_comparison": {
+    "different_top_level_fields": ["profile_controls"],
+    "source_mesh_hashes_unchanged": true,
+    "historical_frozen_contract_retained": true
+  },
+  "assets": [
+    {"path": "meshes/mwl/wg_0.nif", "sha256": "3182b43fd2f42132907f22743d43fac5588f9bfcdbfb20bf556cefa26bddb0ed"},
+    {"path": "meshes/mwl/wg_1.nif", "sha256": "9cdb6d3d6b8b34b85ff08720ed1e31a56d2ca0b2afa39f87c1655bf85d0c3f27"}
+  ],
+  "disposition": "Retain the exact original BS82 assets in MoonAndStar_MAS.bsa. Typed author-library geometry, skinning, block tables, texture references and current archive/provider all match. CAO resaving is rejected; no SSE100 conversion is claimed.",
+  "land_scope": "The 35 changed LAND records require whole-Tamriel grass and LOD handling, not a mesh replacement.",
+  "native_runtime_verified": false,
+  "game_launched": false,
+  "original_packs_modified": false
+}

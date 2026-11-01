@@ -12,8 +12,10 @@ BASE = HERE.parents[2]
 COLLECTION = BASE.parent
 sys.path.insert(0, str(HERE))
 sys.path.insert(0, str(BASE / 'rootcause'))
+sys.path.insert(0, str(BASE / 'integration/research/synthesis_final'))
 from nif_resource_inventory import inventory
 from bsarch_readonly import extract_files
+from synthesis_arma_diff import source_key
 import vfs_common as vfs
 
 LAYER = BASE / 'UnifiedSkyrim/mods/ZZ83 Verified generated item and quest assets'
@@ -31,13 +33,24 @@ def pin(path):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--replay', required=True)
+    parser.add_argument('--arma-delta', required=True)
+    parser.add_argument('--input-models', required=True)
     parser.add_argument('--output', required=True)
     args = parser.parse_args()
     assert vfs.injected(), 'Actual usvfs injection required'
-    replay = json.loads(Path(args.replay).read_text('utf-8'))
+    replay_path = Path(args.replay).resolve(strict=True)
+    replay = json.loads(replay_path.read_text('utf-8'))
     candidate = Path(replay['final_plugin_candidate']['path']).resolve(strict=True)
     assert vfs.digest(candidate) == replay['final_plugin_candidate']['sha256']
-    _, records = __import__('plugin_binary').read(candidate)
+    delta_path = Path(args.arma_delta).resolve(strict=True)
+    armor_delta = json.loads(delta_path.read_text('utf-8'))
+    assert armor_delta['status'] == 'ARMA_DELTA_READY_FOR_SCOPED_RUNTIME_AUDIT'
+    assert armor_delta['candidate']['sha256'] == replay['final_plugin_candidate']['sha256']
+    assert armor_delta['replay_result_sha256'] == vfs.digest(replay_path)
+    affected = set(armor_delta['affected_source_keys'])
+    masters, records = __import__('plugin_binary').read(candidate)
+    records = [record for record in records if record['sig'] == 'ARMA' and source_key(masters, record) in affected]
+    assert {source_key(masters, record) for record in records} == affected
     mapping = []
     mapped = set()
     sources = {}
@@ -96,11 +109,19 @@ def main():
         sources[path] = result
         return result
 
+    from synthesis_source_models import SourceModels, origin
+    from synthesis_input_models import load_verified
+    input_fields, input_report = load_verified(args.input_models, delta_path, vfs.digest)
+    source_models = SourceModels(None, None, input_fields=input_fields)
     missing = []
     seen = set()
+    source_blockers = []
+    inherited_source_gaps = []
+    output = Path(args.output).resolve()
+    if not output.is_relative_to(HERE):
+        raise ValueError('Output must stay in vfs_validation')
     for record in records:
-        if record['sig'] != 'ARMA':
-            continue
+        source_fields = source_models.fields_for(masters, record)
         for tag, value in record['fields']:
             if tag not in ('MOD2', 'MOD3', 'MOD4', 'MOD5') or not value:
                 continue
@@ -117,7 +138,17 @@ def main():
             except OSError as exc:
                 if getattr(exc, 'winerror', None) not in (2, 3):
                     raise
-            source, basis = source_for(path)
+            try:
+                source, basis = source_for(path)
+            except ValueError as exc:
+                if origin(source_fields, tag, value) == 'inherited_unchanged':
+                    inherited_source_gaps.append({'path': path, 'source_key': source_key(masters, record), 'field': tag,
+                                                  'source_plugin': masters[record['fid'] >> 24],
+                                                  'disposition': 'INHERITED_UNCHANGED_SOURCE_GAP_RETAINED_NO_ALIAS',
+                                                  'scope': 'Not a new Synthesis dependency; final full resource disposition remains required'})
+                    continue
+                source_blockers.append({'path': path, 'source_key': source_key(masters, record), 'field': tag, 'error': str(exc)})
+                continue
             parsed = inventory(source)
             if not any('textures' in block for block in parsed['blocks']):
                 raise ValueError('Mesh has no typed texture set: ' + str(source))
@@ -142,21 +173,36 @@ def main():
                     except OSError as exc:
                         if getattr(exc, 'winerror', None) not in (2, 3):
                             raise
-                    texture_source, basis = source_for(texture_path)
+                    try:
+                        texture_source, basis = source_for(texture_path)
+                    except ValueError as exc:
+                        source_blockers.append({'path': texture_path, 'parent_mesh': path, 'error': str(exc)})
+                        continue
                     if texture_path not in mapped:
                         mapped.add(texture_path)
                         mapping.append({'source': pin(texture_source), 'destination': str(LAYER / texture_path), 'basis': basis})
                     missing.append({'path': texture_path, 'source': pin(texture_source), 'basis': basis})
+    if source_blockers:
+        report = {'schema': 'skyrim.generated_mesh_source_blocker.v1', 'status': 'GENERATED_SOURCE_CLOSURE_BLOCKED',
+                  'candidate': pin(candidate), 'arma_delta': pin(delta_path), 'affected_record_count': len(affected),
+                  'source_blockers': source_blockers, 'resolved_resource_count': len(mapping),
+                  'private_resource_mapping_not_approved': mapping, 'original_packs_modified': False, 'game_launched': False,
+                  'next': 'Resolve every listed exact-source gap or prove a bounded unused-source disposition before installation'}
+        with output.open('x', encoding='utf-8', newline='\n') as stream:
+            json.dump(report, stream, ensure_ascii=False, indent=2)
+            stream.write('\n')
+        raise ValueError('Generated source closure is blocked; see ' + str(output))
     report = {'schema': 'skyrim.generated_mesh_audit.v1', 'status': 'READY_FOR_PRIVATE_RESOURCE_INSTALL',
-              'candidate': pin(candidate), 'missing_model_count': sum(1 for row in missing if row['path'].startswith('meshes/') and 'source' in row),
+              'candidate': pin(candidate), 'arma_delta': pin(delta_path),
+              'input_models': pin(Path(args.input_models).resolve(strict=True)),
+              'affected_record_count': len(affected),
+              'missing_model_count': sum(1 for row in missing if row['path'].startswith('meshes/') and 'source' in row),
               'resource_count': len(mapping), 'resources': missing,
+              'inherited_source_gaps': inherited_source_gaps,
               'private_resource_mapping': mapping,
-              'basis': 'Exact author assets throughout; only the unnumbered default is explicitly derived from the author weight-0 mesh',
+              'basis': 'Exact author/stock assets for repaired paths; source-identical missing paths are retained separately, without gender or weight substitution',
               'original_packs_modified': False,
-              'next': 'Install only this exact private resource set into ZZ83, then repeat native Synthesis model closure'}
-    output = Path(args.output).resolve()
-    if not output.is_relative_to(HERE):
-        raise ValueError('Output must stay in vfs_validation')
+              'next': 'Install only this exact private resource set into ZZ83, then repeat native Synthesis model closure; inherited gaps still need final disposition'}
     with output.open('x', encoding='utf-8', newline='\n') as stream:
         json.dump(report, stream, ensure_ascii=False, indent=2)
         stream.write('\n')

@@ -1,0 +1,5419 @@
+{
+  "schema": "skyrim.synthesis.arma_delta.v1",
+  "status": "ARMA_DELTA_READY_FOR_SCOPED_RUNTIME_AUDIT",
+  "replay_result_sha256": "fdd144d74b323c02b2154ca244d9268fdd887cd08dc431e73f7de0a2f97b218a",
+  "candidate": {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\synthesis_final\\runs\\final_v8\\output\\06-Skyrim-RemoveLandscapeVertexColor\\Synthesis - Patch.esp",
+    "sha256": "5f8f491fc086631868ecd78fb4f19c09b76e9a8a4e3b0cb20d5156611cfc64a8"
+  },
+  "stage_outputs_verified": [
+    {
+      "index": 1,
+      "name": "Skyrim-DisableVanillaLoadingScreens",
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\synthesis_final\\runs\\final_v8\\output\\01-Skyrim-DisableVanillaLoadingScreens\\Synthesis - Patch.esp",
+      "sha256": "d2d24edb4b50bb11ee423b7daf624eaa016d8f1821e975a74007404202a9ba48",
+      "verified": true
+    },
+    {
+      "index": 2,
+      "name": "AOSISCSoundPatcher",
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\synthesis_final\\runs\\final_v8\\output\\02-AOSISCSoundPatcher\\Synthesis - Patch.esp",
+      "sha256": "8e331d93ba5015df2858415351124a01e58d15bdb73ae568ddbdd82a12a204b3",
+      "verified": true
+    },
+    {
+      "index": 3,
+      "name": "SynArmorAAFixMissingGenderWorldModel",
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\synthesis_final\\runs\\final_v8\\output\\03-SynArmorAAFixMissingGenderWorldModel\\Synthesis - Patch.esp",
+      "sha256": "813f6272e05efe5645671e543c9041179137480138b4444d7eabdc2dafb923e9",
+      "verified": true
+    },
+    {
+      "index": 4,
+      "name": "ExperienceMutagenPatcher",
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\synthesis_final\\runs\\final_v8\\output\\04-ExperienceMutagenPatcher\\Synthesis - Patch.esp",
+      "sha256": "813f6272e05efe5645671e543c9041179137480138b4444d7eabdc2dafb923e9",
+      "verified": true
+    },
+    {
+      "index": 5,
+      "name": "WaterForENBPatcher",
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\synthesis_final\\runs\\final_v8\\output\\05-WaterForENBPatcher\\Synthesis - Patch.esp",
+      "sha256": "076cf0a0bbe017318e4b995bda6f0e1b783ea00fb54c3a72642c4cca606ffbca",
+      "verified": true
+    },
+    {
+      "index": 6,
+      "name": "Skyrim-RemoveLandscapeVertexColor",
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\synthesis_final\\runs\\final_v8\\output\\06-Skyrim-RemoveLandscapeVertexColor\\Synthesis - Patch.esp",
+      "sha256": "5f8f491fc086631868ecd78fb4f19c09b76e9a8a4e3b0cb20d5156611cfc64a8",
+      "verified": true
+    }
+  ],
+  "identity": "Case-folded source plugin name plus the original 24-bit record object ID; no raw load-order FormID comparison",
+  "before_stage": "AOSISCSoundPatcher",
+  "after_stage": "SynArmorAAFixMissingGenderWorldModel",
+  "added_source_records": [
+    "(lilyrim)hongluanzhuojin.esp:000D6E",
+    "(lilyrim)hongluanzhuojin.esp:000D70",
+    "(lilyrim)hongluanzhuojin.esp:000D72",
+    "[ashtoreth] ahlanna armor.esp:000843",
+    "[ashtoreth] ahlanna armor.esp:000845",
+    "[ashtoreth] ahlanna armor.esp:000847",
+    "[ashtoreth] ahlanna armor.esp:000849",
+    "[ashtoreth] ahlanna armor.esp:00084B",
+    "[ashtoreth] ahlanna armor.esp:000D62",
+    "[ashtoreth] ahlanna armor.esp:000D64",
+    "[dint999] bdor_guardian_wintermgs.esp:000D64",
+    "[dint999] bdor_guardian_wintermgs.esp:000D68",
+    "[dint999] bdor_guardian_wintermgs.esp:000D6A",
+    "[dint999] bdor_guardian_wintermgs.esp:000D78",
+    "[dint999] bdor_guardian_wintermgs.esp:000D7A",
+    "[dint999] bdor_guardian_wintermgs.esp:000D7C",
+    "[dint999] bdor_guardian_wintermgs.esp:000D8A",
+    "[dint999] bdor_guardian_wintermgs.esp:000D8C",
+    "[dint999] bdor_guardian_wintermgs.esp:000D8E",
+    "[dint999] bdor_guardian_wintermgs.esp:000D96",
+    "[dint999] bdor_guardian_wintermgs.esp:000D98",
+    "[dint999] bdor_guardian_wintermgs.esp:000D9A",
+    "[elle] elven assasin.esp:00080F",
+    "[elle] elven assasin.esp:000811",
+    "[elle] elven assasin.esp:000827",
+    "[elle] elven assasin.esp:000829",
+    "[elle] elven assasin.esp:000835",
+    "[elle] elven assasin.esp:000837",
+    "[elle] elven assasin.esp:00084B",
+    "[elle] elven assasin.esp:00084D",
+    "[elle] elven assasin.esp:000857",
+    "[elle] elven assasin.esp:000859",
+    "[elle] elven assasin.esp:000D63",
+    "[elle] elven assasin.esp:000D65",
+    "[kirax] bdo reborn darkborne rose.esp:00095E",
+    "[kirax] bdo reborn darkborne rose.esp:00095F",
+    "[kirax] bdo reborn darkborne rose.esp:000962",
+    "[kirax] bdo reborn darkborne rose.esp:0009D2",
+    "[kirax] bdo reborn darkborne rose.esp:0009E0",
+    "[kirax] bdo reborn darkborne rose.esp:0009E1",
+    "[kirax] bdo reborn darkborne rose.esp:0009E3",
+    "[kirax] bdo reborn darkborne rose.esp:0009E6",
+    "[kirax] bdo reborn darkborne rose.esp:0009F5",
+    "[kirax] bdo reborn darkborne rose.esp:0009F6",
+    "[kirax] bdo reborn darkborne rose.esp:0009F8",
+    "[kirax] bdo reborn darkborne rose.esp:0009FB",
+    "[kirax] bdo reborn lethena.esp:00095E",
+    "[kirax] bdo reborn lethena.esp:000962",
+    "[kirax] bdo reborn nereid.esp:00095E",
+    "[kirax] bdo reborn nereid.esp:000962",
+    "[kirax] bdo reborn selaine.esp:00095E",
+    "[kirax] bdo reborn selaine.esp:000962",
+    "[kirax] bdo reborn sephia.esp:00095E",
+    "[kirax] bdo reborn sephia.esp:000962",
+    "[kirax] loa elgacia.esp:000804",
+    "[kirax] loa elgacia.esp:000806",
+    "[kirax] loa elgacia.esp:000808",
+    "[kirax] loa sorceress eternal skin.esp:000803",
+    "[kirax] loa sorceress eternal skin.esp:000842",
+    "[kirax] loa sorceress eternal skin.esp:000873",
+    "[kirax] loa sorceress eternal skin.esp:000874",
+    "[kirax] ovr sorceress aegir.esp:000803",
+    "[kirax] ovr sorceress aegir.esp:000842",
+    "[odd] ryanreos spartan hoplite.esp:000804",
+    "[odd] ryanreos spartan hoplite.esp:000806",
+    "[odd] ryanreos spartan hoplite.esp:000808",
+    "[odd] ryanreos spartan hoplite.esp:00080A",
+    "[odd] ryanreos spartan hoplite.esp:00080C",
+    "[odd] ryanreos spartan hoplite.esp:000836",
+    "[odd] ryanreos spartan hoplite.esp:00085A",
+    "[odd] ryanreos spartan hoplite.esp:00085B",
+    "[odd] ryanreos spartan hoplite.esp:000877",
+    "ae_tfd_bunny_dream_rascal.esp:000D70",
+    "ae_tfd_bunny_dream_rascal.esp:000D7B",
+    "ae_tfd_bunny_dream_rascal.esp:000D8B",
+    "alaristoauri.esp:000921",
+    "alaristoauri.esp:000922",
+    "asuras guard [armor].esp:00081F",
+    "asuras guard [armor].esp:000D62",
+    "asuras guard [armor].esp:000D63",
+    "asuras guard [armor].esp:000D64",
+    "asuras guard [armor].esp:000D67",
+    "asuras guard [armor].esp:000D73",
+    "bde_armor.esp:000D63",
+    "bde_armor.esp:000D64",
+    "bdor arditer.esp:000806",
+    "bdor arditer.esp:000809",
+    "bdor arditer.esp:00080C",
+    "bdor arditer.esp:00080F",
+    "bdor chic lua.esp:000800",
+    "bdor chic lua.esp:000806",
+    "bdor chic lua.esp:000809",
+    "corsair outfit.esp:0002D7",
+    "corsair outfit.esp:0002D9",
+    "corsair outfit.esp:000309",
+    "corsair outfit.esp:00030C",
+    "corsair outfit.esp:000312",
+    "corsair outfit.esp:000315",
+    "courageousknight.esp:0007C6",
+    "courageousknight.esp:0007C9",
+    "courageousknight.esp:0007D1",
+    "courageousknight.esp:0007D4",
+    "courageousknight.esp:00080F",
+    "courageousknight.esp:000810",
+    "dac0da.esm:000DB0",
+    "dark dreams.esl:000D6A",
+    "dark dreams.esl:000D6B",
+    "darkwitch.esp:000802",
+    "darkwitch.esp:000806",
+    "ddangeli.esp:000D62",
+    "ddangeli.esp:001838",
+    "ddangeli.esp:001843",
+    "ddangeli.esp:00287C",
+    "ddangeli.esp:00287D",
+    "ddangeli.esp:00287E",
+    "eldritchdisciple.esp:000807",
+    "eldritchdisciple.esp:000808",
+    "eldritchdisciple.esp:000837",
+    "eldritchdisciple.esp:00083A",
+    "eldritchdisciple.esp:000840",
+    "eldritchdisciple.esp:000843",
+    "elvenia armor.esp:000800",
+    "elvenia armor.esp:00083A",
+    "elvenia armor.esp:000D62",
+    "fashionwtich set.esp:000801",
+    "fashionwtich set.esp:000802",
+    "fashionwtich set.esp:000833",
+    "fashionwtich set.esp:000849",
+    "fashionwtich set.esp:00084A",
+    "fashionwtich set.esp:000853",
+    "h2135fantasyseries8 [se].esp:000838",
+    "h2135fantasyseries8 [se].esp:00083A",
+    "h2135fantasyseries8 [se].esp:000843",
+    "h2135fantasyseries8 [se].esp:000844",
+    "h2135fantasyseries8 [se].esp:000866",
+    "h2135fantasyseries8 [se].esp:000868",
+    "h2135fantasyseries8 [se].esp:000871",
+    "h2135fantasyseries8 [se].esp:000872",
+    "honeypopcorn skyrim overhaul.esp:D1997D",
+    "hoodu_follower.esp:000843",
+    "hoodu_follower.esp:000845",
+    "k101daegon.esp:23CE8C",
+    "k101daegon.esp:84F8BF",
+    "latex lover corset plus.esp:00092B",
+    "latex lover corset plus.esp:00092E",
+    "latex lover corset plus.esp:000937",
+    "latex lover corset plus.esp:000951",
+    "niel_follower.esp:000840",
+    "niel_follower.esp:000841",
+    "niel_follower.esp:000842",
+    "regaliaofthescorned.esp:00080C",
+    "regaliaofthescorned.esp:00080D",
+    "the adventurer's guild - armor - goblin slayer.esp:000874",
+    "the adventurer's guild - armor - goblin slayer.esp:000895",
+    "the adventurer's guild - armor - goblin slayer.esp:000896",
+    "the adventurer's guild - armor - goblin slayer.esp:000897",
+    "the adventurer's guild - armor - goblin slayer.esp:00089B",
+    "the adventurer's guild - armor - goblin slayer.esp:0008B8",
+    "the adventurer's guild - armor - goblin slayer.esp:0008B9",
+    "the adventurer's guild - armor - goblin slayer.esp:0008BA",
+    "the adventurer's guild - armor - goblin slayer.esp:0008BE",
+    "the adventurer's guild - armor - goblin slayer.esp:0008CE",
+    "the adventurer's guild - armor - goblin slayer.esp:0008CF",
+    "the adventurer's guild - armor - goblin slayer.esp:0008D0",
+    "the adventurer's guild - armor - goblin slayer.esp:0008D4",
+    "the adventurer's guild - armor - goblin slayer.esp:0008DC",
+    "the adventurer's guild - armor - goblin slayer.esp:0008DE",
+    "the adventurer's guild - armor - goblin slayer.esp:0008EC",
+    "the adventurer's guild - armor - goblin slayer.esp:0008F2",
+    "the adventurer's guild - armor - goblin slayer.esp:0008FA",
+    "the adventurer's guild - armor - goblin slayer.esp:0008FE",
+    "the adventurer's guild - armor - goblin slayer.esp:000903",
+    "the adventurer's guild - armor - goblin slayer.esp:000904",
+    "the adventurer's guild - armor - goblin slayer.esp:000907",
+    "the adventurer's guild - armor - goblin slayer.esp:000908",
+    "the adventurer's guild - armor - goblin slayer.esp:00090B",
+    "vertigo boots.esp:000806",
+    "vertigo boots.esp:000D98",
+    "vertigo boots.esp:000DA4",
+    "vertigo boots.esp:000DB6",
+    "vertigo boots.esp:000DB7",
+    "vertigo boots.esp:000DB8",
+    "zazanimationpack.esm:009FE2",
+    "zazanimationpack.esm:02ECB8",
+    "zazanimationpack.esm:031D39",
+    "zazanimationpack.esm:035337",
+    "zazanimationpack.esm:073F77",
+    "zazanimationpack.esm:073F79",
+    "zazanimationpack.esm:0795DA",
+    "zazanimationpack.esm:0795DB",
+    "zazanimationpack.esm:07A0A4",
+    "zazanimationpack.esm:07A0A5",
+    "zazanimationpack.esm:089F59"
+  ],
+  "removed_source_records": [],
+  "model_changes": [
+    {
+      "source_key": "(lilyrim)hongluanzhuojin.esp:000D6C",
+      "record": "C1000D6C",
+      "editor_id": "hongluanzhuojindress",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\Elven\\M\\CuirassLight_1.nif"
+    },
+    {
+      "source_key": "[ashtoreth] ahlanna armor.esp:00080D",
+      "record": "5900080D",
+      "editor_id": "00_AhlannaTopAAWhite",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\Studded\\Male\\body_1.nif"
+    },
+    {
+      "source_key": "[ashtoreth] ahlanna armor.esp:000814",
+      "record": "59000814",
+      "editor_id": "00_AhlannaTopAABlue",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\Studded\\Male\\body_1.nif"
+    },
+    {
+      "source_key": "[ashtoreth] ahlanna armor.esp:000819",
+      "record": "59000819",
+      "editor_id": "00_AhlannaTopAABrown",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\Studded\\Male\\body_1.nif"
+    },
+    {
+      "source_key": "[ashtoreth] ahlanna armor.esp:000820",
+      "record": "59000820",
+      "editor_id": "00_AhlannaTopAAPurple",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\Studded\\Male\\body_1.nif"
+    },
+    {
+      "source_key": "[ashtoreth] ahlanna armor.esp:000827",
+      "record": "59000827",
+      "editor_id": "00_AhlannaTopAAGold",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\Studded\\Male\\body_1.nif"
+    },
+    {
+      "source_key": "[ashtoreth] ahlanna armor.esp:000D63",
+      "record": "59000D63",
+      "editor_id": "00_AhlannaTopAA",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\Studded\\Male\\body_1.nif"
+    },
+    {
+      "source_key": "[dint999] bdor_guardian_wintermgs.esp:000D66",
+      "record": "7D000D66",
+      "editor_id": "_d_BDOR_WMGS_cuirass_originalAA",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\Elven\\M\\CuirassLight_1.nif"
+    },
+    {
+      "source_key": "[dint999] bdor_guardian_wintermgs.esp:000D84",
+      "record": "7D000D84",
+      "editor_id": "_d_BDOR_WMGS_cuirass_HairColorAA",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "armor\\[d] BDOr\\Guardian\\Winter Mountain Guardian Spirit\\cuirassHC_1.nif"
+    },
+    {
+      "source_key": "[dint999] bdor_guardian_wintermgs.esp:000D86",
+      "record": "7D000D86",
+      "editor_id": "_d_BDOR_WMGS_cuirass_blackAA",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\Elven\\M\\CuirassLight_1.nif"
+    },
+    {
+      "source_key": "[dint999] bdor_guardian_wintermgs.esp:000D88",
+      "record": "7D000D88",
+      "editor_id": "_d_BDOR_WMGS_cuirass_skyrimAA",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\Elven\\M\\CuirassLight_1.nif"
+    },
+    {
+      "source_key": "[elle] elven assasin.esp:000810",
+      "record": "7C000810",
+      "editor_id": "00EL_EADress1",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\Elven\\M\\CuirassLight_1.nif"
+    },
+    {
+      "source_key": "[elle] elven assasin.esp:000828",
+      "record": "7C000828",
+      "editor_id": "00EL_EADress2",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\Elven\\M\\CuirassLight_1.nif"
+    },
+    {
+      "source_key": "[elle] elven assasin.esp:000836",
+      "record": "7C000836",
+      "editor_id": "00EL_EADress3",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\Elven\\M\\CuirassLight_1.nif"
+    },
+    {
+      "source_key": "[elle] elven assasin.esp:00084C",
+      "record": "7C00084C",
+      "editor_id": "00EL_EADress5",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\Elven\\M\\CuirassLight_1.nif"
+    },
+    {
+      "source_key": "[elle] elven assasin.esp:000858",
+      "record": "7C000858",
+      "editor_id": "00EL_EADress6",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\Elven\\M\\CuirassLight_1.nif"
+    },
+    {
+      "source_key": "[elle] elven assasin.esp:000D64",
+      "record": "7C000D64",
+      "editor_id": "00EL_EADress4",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\Elven\\M\\CuirassLight_1.nif"
+    },
+    {
+      "source_key": "[kirax] bdo reborn darkborne rose.esp:000960",
+      "record": "75000960",
+      "editor_id": "BDORebornDBRoseMainAA",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\Daedric\\DaedricCuirass_1.nif"
+    },
+    {
+      "source_key": "[kirax] bdo reborn darkborne rose.esp:0009E2",
+      "record": "750009E2",
+      "editor_id": "BDORebornDBRoseAltMainAA",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\Daedric\\DaedricCuirass_1.nif"
+    },
+    {
+      "source_key": "[kirax] bdo reborn darkborne rose.esp:0009F7",
+      "record": "750009F7",
+      "editor_id": "BDORebornDBRoseAlt2MainAA",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\Daedric\\DaedricCuirass_1.nif"
+    },
+    {
+      "source_key": "[kirax] bdo reborn lethena.esp:000960",
+      "record": "7E000960",
+      "editor_id": "BDORLethenaMainAA",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\Daedric\\DaedricCuirass_1.nif"
+    },
+    {
+      "source_key": "[kirax] bdo reborn nereid.esp:000960",
+      "record": "C9000960",
+      "editor_id": "BDORNereidMainAA",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\Daedric\\DaedricCuirass_1.nif"
+    },
+    {
+      "source_key": "[kirax] bdo reborn selaine.esp:000960",
+      "record": "CA000960",
+      "editor_id": "BDORSelaineMainAA",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\Daedric\\DaedricCuirass_1.nif"
+    },
+    {
+      "source_key": "[kirax] bdo reborn sephia.esp:000960",
+      "record": "C8000960",
+      "editor_id": "BDORebornSephiaMainAA",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\Daedric\\DaedricCuirass_1.nif"
+    },
+    {
+      "source_key": "[kirax] loa elgacia.esp:000800",
+      "record": "C5000800",
+      "editor_id": "LoA002MainAA",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\Daedric\\DaedricCuirass_1.nif"
+    },
+    {
+      "source_key": "[kirax] loa sorceress eternal skin.esp:000800",
+      "record": "C4000800",
+      "editor_id": "LoASorcETMainAA",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\Daedric\\DaedricCuirass_1.nif"
+    },
+    {
+      "source_key": "[kirax] loa sorceress eternal skin.esp:000872",
+      "record": "C4000872",
+      "editor_id": "LoASorcETAltMainAA",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\Daedric\\DaedricCuirass_1.nif"
+    },
+    {
+      "source_key": "[kirax] ovr sorceress aegir.esp:000800",
+      "record": "CB000800",
+      "editor_id": "OVRAegirSMainAA",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\Daedric\\DaedricCuirass_1.nif"
+    },
+    {
+      "source_key": "ae_fallen_princess.esp:000D63",
+      "record": "E7000D63",
+      "editor_id": "AE_Fallen_princess_BodyAA",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\Studded\\Male\\body_1.nif"
+    },
+    {
+      "source_key": "alaristoauri.esp:000920",
+      "record": "38000920",
+      "editor_id": "0_Goddess_War_bra1Auri",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\Elven\\M\\CuirassLight_1.nif"
+    },
+    {
+      "source_key": "asuras guard [armor].esp:000D61",
+      "record": "89000D61",
+      "editor_id": "aaaAsurasCombinedAA",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\Glass\\M\\Cuirass_1.nif"
+    },
+    {
+      "source_key": "bde_armor.esp:000D61",
+      "record": "8B000D61",
+      "editor_id": "aaaBDEcuirassAA",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\Ebony\\M\\Cuirass_1.nif"
+    },
+    {
+      "source_key": "bde_armor.esp:000D62",
+      "record": "8B000D62",
+      "editor_id": "aaaBDEcorsetAA",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\Hide\\M\\CuirassHeavy_1.nif"
+    },
+    {
+      "source_key": "bde_armor.esp:005E70",
+      "record": "8B005E70",
+      "editor_id": "aaaBDEcombinedAA",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\Ebony\\M\\Cuirass_1.nif"
+    },
+    {
+      "source_key": "bdor arditer.esp:000800",
+      "record": "6C000800",
+      "editor_id": "00BDORArdArmorAA",
+      "field": "MOD3",
+      "old_path": "",
+      "new_path": "Armor\\Studded\\Female\\body_1.nif"
+    },
+    {
+      "source_key": "black rose.esp:000809",
+      "record": "D3000809",
+      "editor_id": "0BlackRoseBody2",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\Studded\\Male\\body_1.nif"
+    },
+    {
+      "source_key": "black rose.esp:000D62",
+      "record": "D3000D62",
+      "editor_id": "0BlackRoseBody1",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\Studded\\Male\\body_1.nif"
+    },
+    {
+      "source_key": "corsair outfit.esp:0002DE",
+      "record": "800002DE",
+      "editor_id": "Corsair_Steel_CuirassAA",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\Hide\\M\\CuirassHeavy_1.nif"
+    },
+    {
+      "source_key": "corsair outfit.esp:000308",
+      "record": "80000308",
+      "editor_id": "Corsair_Ebony_CuirassAA",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\Hide\\M\\CuirassHeavy_1.nif"
+    },
+    {
+      "source_key": "corsair outfit.esp:000311",
+      "record": "80000311",
+      "editor_id": "Corsair_Gold_CuirassAA",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\Hide\\M\\CuirassHeavy_1.nif"
+    },
+    {
+      "source_key": "courageousknight.esp:0007C4",
+      "record": "810007C4",
+      "editor_id": "CourageousKnight_Gold_CuirassAA",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\NordPlate\\NordCuirassM_1.nif"
+    },
+    {
+      "source_key": "courageousknight.esp:0007CF",
+      "record": "810007CF",
+      "editor_id": "CourageousKnight_Rusty_CuirassAA",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\NordPlate\\NordCuirassM_1.nif"
+    },
+    {
+      "source_key": "courageousknight.esp:00081A",
+      "record": "8100081A",
+      "editor_id": "CourageousKnight_Steel_CuirassAA",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\NordPlate\\NordCuirassM_1.nif"
+    },
+    {
+      "source_key": "dac0da.esm:000DAC",
+      "record": "27000DAC",
+      "editor_id": "zDcdZurinTorosAA",
+      "field": "MOD3",
+      "old_path": "",
+      "new_path": "Armor\\Ebony\\F\\Cuirass_1.nif"
+    },
+    {
+      "source_key": "dac0da.esm:000DAD",
+      "record": "27000DAD",
+      "editor_id": "zDcdZurinHandsAA",
+      "field": "MOD3",
+      "old_path": "",
+      "new_path": "Armor\\Ebony\\F\\Gauntlets_1.nif"
+    },
+    {
+      "source_key": "dark dreams.esl:000D61",
+      "record": "14000D61",
+      "editor_id": "AADDbra",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\Ebony\\M\\Cuirass_1.nif"
+    },
+    {
+      "source_key": "dark dreams.esl:000D6C",
+      "record": "14000D6C",
+      "editor_id": "AADDFull",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\Ebony\\M\\Cuirass_1.nif"
+    },
+    {
+      "source_key": "darkwitch.esp:000800",
+      "record": "5C000800",
+      "editor_id": "HedgeWitchDressAA",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\Hide\\M\\CuirassHeavy_1.nif"
+    },
+    {
+      "source_key": "eldritchdisciple.esp:00080D",
+      "record": "8200080D",
+      "editor_id": "EldritchDisciple_Steel_CuirassAA",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\Orcish\\cuirassM_1.nif"
+    },
+    {
+      "source_key": "eldritchdisciple.esp:000836",
+      "record": "82000836",
+      "editor_id": "EldritchDisciple_Ebony_CuirassAA",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\Orcish\\cuirassM_1.nif"
+    },
+    {
+      "source_key": "eldritchdisciple.esp:00083F",
+      "record": "8200083F",
+      "editor_id": "EldritchDisciple_Gold_CuirassAA",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\Orcish\\cuirassM_1.nif"
+    },
+    {
+      "source_key": "elvenia armor.esp:000802",
+      "record": "77000802",
+      "editor_id": "0ElveniaBody",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\Elven\\M\\CuirassLight_1.nif"
+    },
+    {
+      "source_key": "elvenia armor.esp:00082D",
+      "record": "7700082D",
+      "editor_id": "0ElveniaBraBodysuit",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\Elven\\M\\CuirassLight_1.nif"
+    },
+    {
+      "source_key": "fashionwtich set.esp:000800",
+      "record": "D9000800",
+      "editor_id": "aaFWDress",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\Hide\\M\\CuirassHeavy_1.nif"
+    },
+    {
+      "source_key": "fashionwtich set.esp:000847",
+      "record": "D9000847",
+      "editor_id": "aaFWDressLace",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\Hide\\M\\CuirassHeavy_1.nif"
+    },
+    {
+      "source_key": "fashionwtich set.esp:000848",
+      "record": "D9000848",
+      "editor_id": "aaFWDressCross",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\Hide\\M\\CuirassHeavy_1.nif"
+    },
+    {
+      "source_key": "h2135fantasyseries8 [se].esp:000834",
+      "record": "70000834",
+      "editor_id": "H2135FS8CuirassBLAA",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\NordPlate\\NordCuirassM_1.nif"
+    },
+    {
+      "source_key": "h2135fantasyseries8 [se].esp:00083E",
+      "record": "7000083E",
+      "editor_id": "H2135FS8ADDBreastplateBLAA",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\NordPlate\\NordCuirassM_1.nif"
+    },
+    {
+      "source_key": "h2135fantasyseries8 [se].esp:000841",
+      "record": "70000841",
+      "editor_id": "H2135FS8ADDCMTopBLAA",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\NordPlate\\NordCuirassM_1.nif"
+    },
+    {
+      "source_key": "h2135fantasyseries8 [se].esp:000862",
+      "record": "70000862",
+      "editor_id": "H2135FS8CuirassWHAA",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\NordPlate\\NordCuirassM_1.nif"
+    },
+    {
+      "source_key": "h2135fantasyseries8 [se].esp:00086C",
+      "record": "7000086C",
+      "editor_id": "H2135FS8ADDBreastplateWHAA",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\NordPlate\\NordCuirassM_1.nif"
+    },
+    {
+      "source_key": "h2135fantasyseries8 [se].esp:00086F",
+      "record": "7000086F",
+      "editor_id": "H2135FS8ADDCMTopWHAA",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\NordPlate\\NordCuirassM_1.nif"
+    },
+    {
+      "source_key": "h2135fantasyseries8 [se].esp:0009A7",
+      "record": "700009A7",
+      "editor_id": "H2135FS8CuirassCMBLAA",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\NordPlate\\NordCuirassM_1.nif"
+    },
+    {
+      "source_key": "h2135fantasyseries8 [se].esp:0009A8",
+      "record": "700009A8",
+      "editor_id": "H2135FS8ADDBreastplateCMBLAA",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\NordPlate\\NordCuirassM_1.nif"
+    },
+    {
+      "source_key": "h2135fantasyseries8 [se].esp:0009A9",
+      "record": "700009A9",
+      "editor_id": "H2135FS8CuirassCMWHAA",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\NordPlate\\NordCuirassM_1.nif"
+    },
+    {
+      "source_key": "h2135fantasyseries8 [se].esp:0009BA",
+      "record": "700009BA",
+      "editor_id": "H2135FS8ADDBreastplateCMWHAA",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\NordPlate\\NordCuirassM_1.nif"
+    },
+    {
+      "source_key": "h2135fantasyseries8 [se].esp:0009DE",
+      "record": "700009DE",
+      "editor_id": "H2135FS8CuirassCMBLRealisticAA",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\NordPlate\\NordCuirassM_1.nif"
+    },
+    {
+      "source_key": "h2135fantasyseries8 [se].esp:0009E1",
+      "record": "700009E1",
+      "editor_id": "H2135FS8CuirassCMWHRealisticAA",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\NordPlate\\NordCuirassM_1.nif"
+    },
+    {
+      "source_key": "h2135fantasyseries8 [se].esp:0009E5",
+      "record": "700009E5",
+      "editor_id": "H2135FS8CuirassWHRealisticAA",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\NordPlate\\NordCuirassM_1.nif"
+    },
+    {
+      "source_key": "h2135fantasyseries8 [se].esp:0009E6",
+      "record": "700009E6",
+      "editor_id": "H2135FS8CuirassBLRealisticAA",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\NordPlate\\NordCuirassM_1.nif"
+    },
+    {
+      "source_key": "h2135fantasyseries8 [se].esp:0009EA",
+      "record": "700009EA",
+      "editor_id": "H2135FS8ADDBreastplateCMBLRealisticAA",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\NordPlate\\NordCuirassM_1.nif"
+    },
+    {
+      "source_key": "h2135fantasyseries8 [se].esp:0009ED",
+      "record": "700009ED",
+      "editor_id": "H2135FS8ADDBreastplateCMWHRealisticAA",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\NordPlate\\NordCuirassM_1.nif"
+    },
+    {
+      "source_key": "h2135fantasyseries8 [se].esp:0009EE",
+      "record": "700009EE",
+      "editor_id": "H2135FS8ADDBreastplateBLRealisticAA",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\NordPlate\\NordCuirassM_1.nif"
+    },
+    {
+      "source_key": "h2135fantasyseries8 [se].esp:0009F1",
+      "record": "700009F1",
+      "editor_id": "H2135FS8ADDBreastplateWHRealisticAA",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\NordPlate\\NordCuirassM_1.nif"
+    },
+    {
+      "source_key": "honeypopcorn skyrim overhaul.esp:D19980",
+      "record": "A0D19980",
+      "editor_id": "00hsochaintopAA",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\Steel\\CuirassLight_1.nif"
+    },
+    {
+      "source_key": "honeypopcorn skyrim overhaul.esp:D19981",
+      "record": "A0D19981",
+      "editor_id": "00hsochaintop2AA",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\Steel\\CuirassLight_1.nif"
+    },
+    {
+      "source_key": "hoodu_follower.esp:00084F",
+      "record": "3400084F",
+      "editor_id": "a0WaywardKnightSetArmorSC0AA_Hoodu",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\NordPlate\\NordCuirassM_1.nif"
+    },
+    {
+      "source_key": "k101daegon.esp:23CE8A",
+      "record": "2F23CE8A",
+      "editor_id": "k101DaegonCuirassAA",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\Elven\\M\\CuirassLight_1.nif"
+    },
+    {
+      "source_key": "k101daegon.esp:84F8C0",
+      "record": "2F84F8C0",
+      "editor_id": "k101DaegonCuirassAARoyal",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\Elven\\M\\CuirassLight_1.nif"
+    },
+    {
+      "source_key": "regaliaofthescorned.esp:000800",
+      "record": "93000800",
+      "editor_id": "aaaScornedVestAA",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\Elven\\M\\CuirassLight_1.nif"
+    },
+    {
+      "source_key": "regaliaofthescorned.esp:000801",
+      "record": "93000801",
+      "editor_id": "aaaRegaliaOfTheScornedtAA",
+      "field": "MOD2",
+      "old_path": "",
+      "new_path": "Armor\\Glass\\M\\Cuirass_1.nif"
+    },
+    {
+      "source_key": "the modern scrolls.esp:005FDB",
+      "record": "3F005FDB",
+      "editor_id": "0_GipsyDanger02",
+      "field": "MOD3",
+      "old_path": "",
+      "new_path": "Armor\\Daedric\\DaedricHelmetF_1.nif"
+    },
+    {
+      "source_key": "(lilyrim)hongluanzhuojin.esp:000D6E",
+      "record": "C1000D6E",
+      "editor_id": "hongluanzhuojinhair",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "hongluanzhuojin\\hair.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "(lilyrim)hongluanzhuojin.esp:000D6E",
+      "record": "C1000D6E",
+      "editor_id": "hongluanzhuojinhair",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "hongluanzhuojin\\hair.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "(lilyrim)hongluanzhuojin.esp:000D70",
+      "record": "C1000D70",
+      "editor_id": "hongluanzhuojinhand",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Elven\\M\\Gauntlets_0.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "(lilyrim)hongluanzhuojin.esp:000D70",
+      "record": "C1000D70",
+      "editor_id": "hongluanzhuojinhand",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "hongluanzhuojin\\hand_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "(lilyrim)hongluanzhuojin.esp:000D72",
+      "record": "C1000D72",
+      "editor_id": "hongluanzhuojinheels",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Elven\\M\\Boots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "(lilyrim)hongluanzhuojin.esp:000D72",
+      "record": "C1000D72",
+      "editor_id": "hongluanzhuojinheels",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "hongluanzhuojin\\heels_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[ashtoreth] ahlanna armor.esp:000843",
+      "record": "59000843",
+      "editor_id": "00_AhlannaGlovesAABlue",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Studded\\Male\\gloves_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[ashtoreth] ahlanna armor.esp:000843",
+      "record": "59000843",
+      "editor_id": "00_AhlannaGlovesAABlue",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "[Ashtoreth] Ahlanna Gloves\\[Ashtoreth] Ahlanna Gloves_Blue_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[ashtoreth] ahlanna armor.esp:000843",
+      "record": "59000843",
+      "editor_id": "00_AhlannaGlovesAABlue",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "[Ashtoreth] Ahlanna Gloves\\[Ashtoreth] Ahlanna Gloves_Blue_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[ashtoreth] ahlanna armor.esp:000845",
+      "record": "59000845",
+      "editor_id": "00_AhlannaGlovesAABrown",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Studded\\Male\\gloves_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[ashtoreth] ahlanna armor.esp:000845",
+      "record": "59000845",
+      "editor_id": "00_AhlannaGlovesAABrown",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "[Ashtoreth] Ahlanna Gloves\\[Ashtoreth] Ahlanna Gloves_Brown_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[ashtoreth] ahlanna armor.esp:000845",
+      "record": "59000845",
+      "editor_id": "00_AhlannaGlovesAABrown",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "[Ashtoreth] Ahlanna Gloves\\[Ashtoreth] Ahlanna Gloves_Brown_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[ashtoreth] ahlanna armor.esp:000847",
+      "record": "59000847",
+      "editor_id": "00_AhlannaGlovesAAGold",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Studded\\Male\\gloves_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[ashtoreth] ahlanna armor.esp:000847",
+      "record": "59000847",
+      "editor_id": "00_AhlannaGlovesAAGold",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "[Ashtoreth] Ahlanna Gloves\\[Ashtoreth] Ahlanna Gloves_Gold_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[ashtoreth] ahlanna armor.esp:000847",
+      "record": "59000847",
+      "editor_id": "00_AhlannaGlovesAAGold",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "[Ashtoreth] Ahlanna Gloves\\[Ashtoreth] Ahlanna Gloves_Gold_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[ashtoreth] ahlanna armor.esp:000849",
+      "record": "59000849",
+      "editor_id": "00_AhlannaGlovesAAPurple",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Studded\\Male\\gloves_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[ashtoreth] ahlanna armor.esp:000849",
+      "record": "59000849",
+      "editor_id": "00_AhlannaGlovesAAPurple",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "[Ashtoreth] Ahlanna Gloves\\[Ashtoreth] Ahlanna Gloves_Purple_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[ashtoreth] ahlanna armor.esp:000849",
+      "record": "59000849",
+      "editor_id": "00_AhlannaGlovesAAPurple",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "[Ashtoreth] Ahlanna Gloves\\[Ashtoreth] Ahlanna Gloves_Purple_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[ashtoreth] ahlanna armor.esp:00084B",
+      "record": "5900084B",
+      "editor_id": "00_AhlannaGlovesAAWhite",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Studded\\Male\\gloves_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[ashtoreth] ahlanna armor.esp:00084B",
+      "record": "5900084B",
+      "editor_id": "00_AhlannaGlovesAAWhite",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "[Ashtoreth] Ahlanna Gloves\\[Ashtoreth] Ahlanna Gloves_White_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[ashtoreth] ahlanna armor.esp:00084B",
+      "record": "5900084B",
+      "editor_id": "00_AhlannaGlovesAAWhite",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "[Ashtoreth] Ahlanna Gloves\\[Ashtoreth] Ahlanna Gloves_White_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[ashtoreth] ahlanna armor.esp:000D62",
+      "record": "59000D62",
+      "editor_id": "00_AhlannaBootsAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Studded\\Male\\boots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[ashtoreth] ahlanna armor.esp:000D62",
+      "record": "59000D62",
+      "editor_id": "00_AhlannaBootsAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "[Ashtoreth] Ahlanna Boots\\[Ashtoreth] Ahlanna Boots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[ashtoreth] ahlanna armor.esp:000D64",
+      "record": "59000D64",
+      "editor_id": "00_AhlannaGlovesAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Studded\\Male\\gloves_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[ashtoreth] ahlanna armor.esp:000D64",
+      "record": "59000D64",
+      "editor_id": "00_AhlannaGlovesAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "[Ashtoreth] Ahlanna Gloves\\[Ashtoreth] Ahlanna Gloves_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[ashtoreth] ahlanna armor.esp:000D64",
+      "record": "59000D64",
+      "editor_id": "00_AhlannaGlovesAA",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "[Ashtoreth] Ahlanna Gloves\\[Ashtoreth] Ahlanna Gloves_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[dint999] bdor_guardian_wintermgs.esp:000D64",
+      "record": "7D000D64",
+      "editor_id": "_d_BDOR_WMGS_boots_originalAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Elven\\M\\Boots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[dint999] bdor_guardian_wintermgs.esp:000D64",
+      "record": "7D000D64",
+      "editor_id": "_d_BDOR_WMGS_boots_originalAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "armor\\[d] BDOr\\Guardian\\Winter Mountain Guardian Spirit\\boots1_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[dint999] bdor_guardian_wintermgs.esp:000D68",
+      "record": "7D000D68",
+      "editor_id": "_d_BDOR_WMGS_gloves_originalAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Elven\\M\\Gauntlets_0.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[dint999] bdor_guardian_wintermgs.esp:000D68",
+      "record": "7D000D68",
+      "editor_id": "_d_BDOR_WMGS_gloves_originalAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "armor\\[d] BDOr\\Guardian\\Winter Mountain Guardian Spirit\\gloves1_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[dint999] bdor_guardian_wintermgs.esp:000D68",
+      "record": "7D000D68",
+      "editor_id": "_d_BDOR_WMGS_gloves_originalAA",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "armor\\[d] BDOr\\Guardian\\Winter Mountain Guardian Spirit\\gloves1_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[dint999] bdor_guardian_wintermgs.esp:000D6A",
+      "record": "7D000D6A",
+      "editor_id": "_d_BDOR_WMGS_hood_originalAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Elven\\M\\Helmet_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[dint999] bdor_guardian_wintermgs.esp:000D6A",
+      "record": "7D000D6A",
+      "editor_id": "_d_BDOR_WMGS_hood_originalAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "armor\\[d] BDOr\\Guardian\\Winter Mountain Guardian Spirit\\hood1_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[dint999] bdor_guardian_wintermgs.esp:000D78",
+      "record": "7D000D78",
+      "editor_id": "_d_BDOR_WMGS_boots_skyrimAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Elven\\M\\Boots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[dint999] bdor_guardian_wintermgs.esp:000D78",
+      "record": "7D000D78",
+      "editor_id": "_d_BDOR_WMGS_boots_skyrimAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "armor\\[d] BDOr\\Guardian\\Winter Mountain Guardian Spirit\\boots3_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[dint999] bdor_guardian_wintermgs.esp:000D7A",
+      "record": "7D000D7A",
+      "editor_id": "_d_BDOR_WMGS_boots_blackAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Elven\\M\\Boots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[dint999] bdor_guardian_wintermgs.esp:000D7A",
+      "record": "7D000D7A",
+      "editor_id": "_d_BDOR_WMGS_boots_blackAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "armor\\[d] BDOr\\Guardian\\Winter Mountain Guardian Spirit\\boots2_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[dint999] bdor_guardian_wintermgs.esp:000D7C",
+      "record": "7D000D7C",
+      "editor_id": "_d_BDOR_WMGS_boots_HCAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Elven\\M\\Boots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[dint999] bdor_guardian_wintermgs.esp:000D7C",
+      "record": "7D000D7C",
+      "editor_id": "_d_BDOR_WMGS_boots_HCAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "armor\\[d] BDOr\\Guardian\\Winter Mountain Guardian Spirit\\bootsHC_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[dint999] bdor_guardian_wintermgs.esp:000D8A",
+      "record": "7D000D8A",
+      "editor_id": "_d_BDOR_WMGS_gloves_HCAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Elven\\M\\Gauntlets_0.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[dint999] bdor_guardian_wintermgs.esp:000D8A",
+      "record": "7D000D8A",
+      "editor_id": "_d_BDOR_WMGS_gloves_HCAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "armor\\[d] BDOr\\Guardian\\Winter Mountain Guardian Spirit\\glovesHC_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[dint999] bdor_guardian_wintermgs.esp:000D8A",
+      "record": "7D000D8A",
+      "editor_id": "_d_BDOR_WMGS_gloves_HCAA",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "armor\\[d] BDOr\\Guardian\\Winter Mountain Guardian Spirit\\glovesHC_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[dint999] bdor_guardian_wintermgs.esp:000D8C",
+      "record": "7D000D8C",
+      "editor_id": "_d_BDOR_WMGS_gloves_blackAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Elven\\M\\Gauntlets_0.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[dint999] bdor_guardian_wintermgs.esp:000D8C",
+      "record": "7D000D8C",
+      "editor_id": "_d_BDOR_WMGS_gloves_blackAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "armor\\[d] BDOr\\Guardian\\Winter Mountain Guardian Spirit\\gloves2_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[dint999] bdor_guardian_wintermgs.esp:000D8C",
+      "record": "7D000D8C",
+      "editor_id": "_d_BDOR_WMGS_gloves_blackAA",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "armor\\[d] BDOr\\Guardian\\Winter Mountain Guardian Spirit\\gloves2_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[dint999] bdor_guardian_wintermgs.esp:000D8E",
+      "record": "7D000D8E",
+      "editor_id": "_d_BDOR_WMGS_gloves_skyrimAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Elven\\M\\Gauntlets_0.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[dint999] bdor_guardian_wintermgs.esp:000D8E",
+      "record": "7D000D8E",
+      "editor_id": "_d_BDOR_WMGS_gloves_skyrimAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "armor\\[d] BDOr\\Guardian\\Winter Mountain Guardian Spirit\\gloves3_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[dint999] bdor_guardian_wintermgs.esp:000D8E",
+      "record": "7D000D8E",
+      "editor_id": "_d_BDOR_WMGS_gloves_skyrimAA",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "armor\\[d] BDOr\\Guardian\\Winter Mountain Guardian Spirit\\gloves3_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[dint999] bdor_guardian_wintermgs.esp:000D96",
+      "record": "7D000D96",
+      "editor_id": "_d_BDOR_WMGS_hood_HCAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Elven\\M\\Helmet_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[dint999] bdor_guardian_wintermgs.esp:000D96",
+      "record": "7D000D96",
+      "editor_id": "_d_BDOR_WMGS_hood_HCAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "armor\\[d] BDOr\\Guardian\\Winter Mountain Guardian Spirit\\hoodHC_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[dint999] bdor_guardian_wintermgs.esp:000D98",
+      "record": "7D000D98",
+      "editor_id": "_d_BDOR_WMGS_hood_blackAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Elven\\M\\Helmet_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[dint999] bdor_guardian_wintermgs.esp:000D98",
+      "record": "7D000D98",
+      "editor_id": "_d_BDOR_WMGS_hood_blackAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "armor\\[d] BDOr\\Guardian\\Winter Mountain Guardian Spirit\\hood2_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[dint999] bdor_guardian_wintermgs.esp:000D9A",
+      "record": "7D000D9A",
+      "editor_id": "_d_BDOR_WMGS_hood_skyrimAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Elven\\M\\Helmet_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[dint999] bdor_guardian_wintermgs.esp:000D9A",
+      "record": "7D000D9A",
+      "editor_id": "_d_BDOR_WMGS_hood_skyrimAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "armor\\[d] BDOr\\Guardian\\Winter Mountain Guardian Spirit\\hood3_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[elle] elven assasin.esp:00080F",
+      "record": "7C00080F",
+      "editor_id": "00EL_EABoots1",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Elven\\M\\Boots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[elle] elven assasin.esp:00080F",
+      "record": "7C00080F",
+      "editor_id": "00EL_EABoots1",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "armor\\[ELLE] Elven Assasin\\Boots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[elle] elven assasin.esp:000811",
+      "record": "7C000811",
+      "editor_id": "00EL_EAGloves1",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Elven\\M\\Gauntlets_0.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[elle] elven assasin.esp:000811",
+      "record": "7C000811",
+      "editor_id": "00EL_EAGloves1",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "armor\\[ELLE] Elven Assasin\\Gloves_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[elle] elven assasin.esp:000811",
+      "record": "7C000811",
+      "editor_id": "00EL_EAGloves1",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "armor\\[ELLE] Elven Assasin\\Gloves_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[elle] elven assasin.esp:000827",
+      "record": "7C000827",
+      "editor_id": "00EL_EABoots2",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Elven\\M\\Boots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[elle] elven assasin.esp:000827",
+      "record": "7C000827",
+      "editor_id": "00EL_EABoots2",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "armor\\[ELLE] Elven Assasin\\Boots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[elle] elven assasin.esp:000829",
+      "record": "7C000829",
+      "editor_id": "00EL_EAGloves2",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Elven\\M\\Gauntlets_0.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[elle] elven assasin.esp:000829",
+      "record": "7C000829",
+      "editor_id": "00EL_EAGloves2",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "armor\\[ELLE] Elven Assasin\\Gloves_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[elle] elven assasin.esp:000829",
+      "record": "7C000829",
+      "editor_id": "00EL_EAGloves2",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "armor\\[ELLE] Elven Assasin\\Gloves_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[elle] elven assasin.esp:000835",
+      "record": "7C000835",
+      "editor_id": "00EL_EABoots3",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Elven\\M\\Boots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[elle] elven assasin.esp:000835",
+      "record": "7C000835",
+      "editor_id": "00EL_EABoots3",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "armor\\[ELLE] Elven Assasin\\Boots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[elle] elven assasin.esp:000837",
+      "record": "7C000837",
+      "editor_id": "00EL_EAGloves3",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Elven\\M\\Gauntlets_0.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[elle] elven assasin.esp:000837",
+      "record": "7C000837",
+      "editor_id": "00EL_EAGloves3",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "armor\\[ELLE] Elven Assasin\\Gloves_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[elle] elven assasin.esp:000837",
+      "record": "7C000837",
+      "editor_id": "00EL_EAGloves3",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "armor\\[ELLE] Elven Assasin\\Gloves_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[elle] elven assasin.esp:00084B",
+      "record": "7C00084B",
+      "editor_id": "00EL_EABoots5",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Elven\\M\\Boots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[elle] elven assasin.esp:00084B",
+      "record": "7C00084B",
+      "editor_id": "00EL_EABoots5",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "armor\\[ELLE] Elven Assasin\\Boots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[elle] elven assasin.esp:00084D",
+      "record": "7C00084D",
+      "editor_id": "00EL_EAGloves5",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Elven\\M\\Gauntlets_0.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[elle] elven assasin.esp:00084D",
+      "record": "7C00084D",
+      "editor_id": "00EL_EAGloves5",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "armor\\[ELLE] Elven Assasin\\Gloves_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[elle] elven assasin.esp:00084D",
+      "record": "7C00084D",
+      "editor_id": "00EL_EAGloves5",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "armor\\[ELLE] Elven Assasin\\Gloves_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[elle] elven assasin.esp:000857",
+      "record": "7C000857",
+      "editor_id": "00EL_EABoots6",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Elven\\M\\Boots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[elle] elven assasin.esp:000857",
+      "record": "7C000857",
+      "editor_id": "00EL_EABoots6",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "armor\\[ELLE] Elven Assasin\\Boots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[elle] elven assasin.esp:000859",
+      "record": "7C000859",
+      "editor_id": "00EL_EAGloves6",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Elven\\M\\Gauntlets_0.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[elle] elven assasin.esp:000859",
+      "record": "7C000859",
+      "editor_id": "00EL_EAGloves6",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "armor\\[ELLE] Elven Assasin\\Gloves_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[elle] elven assasin.esp:000859",
+      "record": "7C000859",
+      "editor_id": "00EL_EAGloves6",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "armor\\[ELLE] Elven Assasin\\Gloves_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[elle] elven assasin.esp:000D63",
+      "record": "7C000D63",
+      "editor_id": "00EL_EABoots4",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Elven\\M\\Boots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[elle] elven assasin.esp:000D63",
+      "record": "7C000D63",
+      "editor_id": "00EL_EABoots4",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "armor\\[ELLE] Elven Assasin\\Boots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[elle] elven assasin.esp:000D65",
+      "record": "7C000D65",
+      "editor_id": "00EL_EAGloves4",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Elven\\M\\Gauntlets_0.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[elle] elven assasin.esp:000D65",
+      "record": "7C000D65",
+      "editor_id": "00EL_EAGloves4",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "armor\\[ELLE] Elven Assasin\\Gloves_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[elle] elven assasin.esp:000D65",
+      "record": "7C000D65",
+      "editor_id": "00EL_EAGloves4",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "armor\\[ELLE] Elven Assasin\\Gloves_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[kirax] bdo reborn darkborne rose.esp:00095E",
+      "record": "7500095E",
+      "editor_id": "BDORebornDBRoseHandsAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Daedric\\DaedricGauntlets_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[kirax] bdo reborn darkborne rose.esp:00095E",
+      "record": "7500095E",
+      "editor_id": "BDORebornDBRoseHandsAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "BDO Reborn Darkborne Rose\\DR_Hands_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[kirax] bdo reborn darkborne rose.esp:00095F",
+      "record": "7500095F",
+      "editor_id": "BDORebornDBRoseHelmAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Daedric\\DaedricHelmet_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[kirax] bdo reborn darkborne rose.esp:00095F",
+      "record": "7500095F",
+      "editor_id": "BDORebornDBRoseHelmAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "BDO Reborn Darkborne Rose\\DR_Helm.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[kirax] bdo reborn darkborne rose.esp:000962",
+      "record": "75000962",
+      "editor_id": "BDORebornDBRoseShoesAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Daedric\\DaedricBoots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[kirax] bdo reborn darkborne rose.esp:000962",
+      "record": "75000962",
+      "editor_id": "BDORebornDBRoseShoesAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "BDO Reborn Darkborne Rose\\DR_Shoes_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[kirax] bdo reborn darkborne rose.esp:0009D2",
+      "record": "750009D2",
+      "editor_id": "BDORebornDBRoseHandsAltAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Daedric\\DaedricGauntlets_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[kirax] bdo reborn darkborne rose.esp:0009D2",
+      "record": "750009D2",
+      "editor_id": "BDORebornDBRoseHandsAltAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "BDO Reborn Darkborne Rose\\DR_HandsAlt_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[kirax] bdo reborn darkborne rose.esp:0009E0",
+      "record": "750009E0",
+      "editor_id": "BDORebornDBRoseAltHandsAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Daedric\\DaedricGauntlets_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[kirax] bdo reborn darkborne rose.esp:0009E0",
+      "record": "750009E0",
+      "editor_id": "BDORebornDBRoseAltHandsAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "BDO Reborn Darkborne Rose\\Alt\\DR_Hands_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[kirax] bdo reborn darkborne rose.esp:0009E1",
+      "record": "750009E1",
+      "editor_id": "BDORebornDBRoseAltHelmAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Daedric\\DaedricHelmet_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[kirax] bdo reborn darkborne rose.esp:0009E1",
+      "record": "750009E1",
+      "editor_id": "BDORebornDBRoseAltHelmAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "BDO Reborn Darkborne Rose\\Alt\\DR_Helm.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[kirax] bdo reborn darkborne rose.esp:0009E3",
+      "record": "750009E3",
+      "editor_id": "BDORebornDBRoseAltShoesAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Daedric\\DaedricBoots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[kirax] bdo reborn darkborne rose.esp:0009E3",
+      "record": "750009E3",
+      "editor_id": "BDORebornDBRoseAltShoesAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "BDO Reborn Darkborne Rose\\Alt\\DR_Shoes_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[kirax] bdo reborn darkborne rose.esp:0009E6",
+      "record": "750009E6",
+      "editor_id": "BDORebornDBRoseAltHandsAltAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Daedric\\DaedricGauntlets_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[kirax] bdo reborn darkborne rose.esp:0009E6",
+      "record": "750009E6",
+      "editor_id": "BDORebornDBRoseAltHandsAltAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "BDO Reborn Darkborne Rose\\Alt\\DR_HandsAlt_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[kirax] bdo reborn darkborne rose.esp:0009F5",
+      "record": "750009F5",
+      "editor_id": "BDORebornDBRoseAlt2HandsAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Daedric\\DaedricGauntlets_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[kirax] bdo reborn darkborne rose.esp:0009F5",
+      "record": "750009F5",
+      "editor_id": "BDORebornDBRoseAlt2HandsAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "BDO Reborn Darkborne Rose\\Alt2\\DR_Hands_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[kirax] bdo reborn darkborne rose.esp:0009F6",
+      "record": "750009F6",
+      "editor_id": "BDORebornDBRoseAlt2HelmAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Daedric\\DaedricHelmet_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[kirax] bdo reborn darkborne rose.esp:0009F6",
+      "record": "750009F6",
+      "editor_id": "BDORebornDBRoseAlt2HelmAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "BDO Reborn Darkborne Rose\\Alt2\\DR_Helm.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[kirax] bdo reborn darkborne rose.esp:0009F8",
+      "record": "750009F8",
+      "editor_id": "BDORebornDBRoseAlt2ShoesAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Daedric\\DaedricBoots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[kirax] bdo reborn darkborne rose.esp:0009F8",
+      "record": "750009F8",
+      "editor_id": "BDORebornDBRoseAlt2ShoesAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "BDO Reborn Darkborne Rose\\Alt2\\DR_Shoes_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[kirax] bdo reborn darkborne rose.esp:0009FB",
+      "record": "750009FB",
+      "editor_id": "BDORebornDBRoseAlt2HandsAlt2AA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Daedric\\DaedricGauntlets_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[kirax] bdo reborn darkborne rose.esp:0009FB",
+      "record": "750009FB",
+      "editor_id": "BDORebornDBRoseAlt2HandsAlt2AA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "BDO Reborn Darkborne Rose\\Alt2\\DR_HandsAlt_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[kirax] bdo reborn lethena.esp:00095E",
+      "record": "7E00095E",
+      "editor_id": "BDORLethenaHandsAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Daedric\\DaedricGauntlets_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[kirax] bdo reborn lethena.esp:00095E",
+      "record": "7E00095E",
+      "editor_id": "BDORLethenaHandsAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "BDO Reborn Lethena\\LE_Hands_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[kirax] bdo reborn lethena.esp:000962",
+      "record": "7E000962",
+      "editor_id": "BDORLethenaShoesAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Daedric\\DaedricBoots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[kirax] bdo reborn lethena.esp:000962",
+      "record": "7E000962",
+      "editor_id": "BDORLethenaShoesAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "BDO Reborn Lethena\\LE_Shoes_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[kirax] bdo reborn nereid.esp:00095E",
+      "record": "C900095E",
+      "editor_id": "BDORNereidHandsAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Daedric\\DaedricGauntlets_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[kirax] bdo reborn nereid.esp:00095E",
+      "record": "C900095E",
+      "editor_id": "BDORNereidHandsAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "BDO Reborn Nereid\\C_Hands_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[kirax] bdo reborn nereid.esp:000962",
+      "record": "C9000962",
+      "editor_id": "BDORNereidShoesAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Daedric\\DaedricBoots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[kirax] bdo reborn nereid.esp:000962",
+      "record": "C9000962",
+      "editor_id": "BDORNereidShoesAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "BDO Reborn Nereid\\C_Shoes_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[kirax] bdo reborn selaine.esp:00095E",
+      "record": "CA00095E",
+      "editor_id": "BDORSelaineHandsAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Daedric\\DaedricGauntlets_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[kirax] bdo reborn selaine.esp:00095E",
+      "record": "CA00095E",
+      "editor_id": "BDORSelaineHandsAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "BDO Reborn Selaine\\S_Hands_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[kirax] bdo reborn selaine.esp:000962",
+      "record": "CA000962",
+      "editor_id": "BDORSelaineShoesAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Daedric\\DaedricBoots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[kirax] bdo reborn selaine.esp:000962",
+      "record": "CA000962",
+      "editor_id": "BDORSelaineShoesAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "BDO Reborn Selaine\\S_Shoes_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[kirax] bdo reborn sephia.esp:00095E",
+      "record": "C800095E",
+      "editor_id": "BDORebornSephiaHandsAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Daedric\\DaedricGauntlets_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[kirax] bdo reborn sephia.esp:00095E",
+      "record": "C800095E",
+      "editor_id": "BDORebornSephiaHandsAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "BDO Reborn Sephia\\SE_Hands_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[kirax] bdo reborn sephia.esp:000962",
+      "record": "C8000962",
+      "editor_id": "BDORebornSephiaShoesAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Daedric\\DaedricBoots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[kirax] bdo reborn sephia.esp:000962",
+      "record": "C8000962",
+      "editor_id": "BDORebornSephiaShoesAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "BDO Reborn Sephia\\SE_Shoes_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[kirax] loa elgacia.esp:000804",
+      "record": "C5000804",
+      "editor_id": "LoA002HandsAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Daedric\\DaedricGauntlets_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[kirax] loa elgacia.esp:000804",
+      "record": "C5000804",
+      "editor_id": "LoA002HandsAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "LOA 002\\002_Hands_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[kirax] loa elgacia.esp:000806",
+      "record": "C5000806",
+      "editor_id": "LoA002HairAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "LOA 002\\002_Hair.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[kirax] loa elgacia.esp:000806",
+      "record": "C5000806",
+      "editor_id": "LoA002HairAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "LOA 002\\002_Hair.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[kirax] loa elgacia.esp:000808",
+      "record": "C5000808",
+      "editor_id": "LoA002ShoesAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Daedric\\DaedricBoots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[kirax] loa elgacia.esp:000808",
+      "record": "C5000808",
+      "editor_id": "LoA002ShoesAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "LOA 002\\002_Shoes_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[kirax] loa sorceress eternal skin.esp:000803",
+      "record": "C4000803",
+      "editor_id": "LoASorcETShoesAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Daedric\\DaedricBoots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[kirax] loa sorceress eternal skin.esp:000803",
+      "record": "C4000803",
+      "editor_id": "LoASorcETShoesAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "LoA Sorceress Eternal\\SE_Shoes_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[kirax] loa sorceress eternal skin.esp:000842",
+      "record": "C4000842",
+      "editor_id": "LoASorcETHandsAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Daedric\\DaedricGauntlets_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[kirax] loa sorceress eternal skin.esp:000842",
+      "record": "C4000842",
+      "editor_id": "LoASorcETHandsAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "LoA Sorceress Eternal\\SE_Hands_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[kirax] loa sorceress eternal skin.esp:000873",
+      "record": "C4000873",
+      "editor_id": "LoASorcETAltShoesAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Daedric\\DaedricBoots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[kirax] loa sorceress eternal skin.esp:000873",
+      "record": "C4000873",
+      "editor_id": "LoASorcETAltShoesAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "LoA Sorceress Eternal\\Alt\\SE_Shoes_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[kirax] loa sorceress eternal skin.esp:000874",
+      "record": "C4000874",
+      "editor_id": "LoASorcETAltHandsAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Daedric\\DaedricGauntlets_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[kirax] loa sorceress eternal skin.esp:000874",
+      "record": "C4000874",
+      "editor_id": "LoASorcETAltHandsAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "LoA Sorceress Eternal\\Alt\\SE_Hands_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[kirax] ovr sorceress aegir.esp:000803",
+      "record": "CB000803",
+      "editor_id": "OVRAegirSShoesAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Daedric\\DaedricBoots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[kirax] ovr sorceress aegir.esp:000803",
+      "record": "CB000803",
+      "editor_id": "OVRAegirSShoesAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "OVR Sorceress Aegir\\AE_Shoes_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[kirax] ovr sorceress aegir.esp:000842",
+      "record": "CB000842",
+      "editor_id": "OVRAegirSHandsAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Daedric\\DaedricGauntlets_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[kirax] ovr sorceress aegir.esp:000842",
+      "record": "CB000842",
+      "editor_id": "OVRAegirSHandsAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "OVR Sorceress Aegir\\AE_Hands_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[odd] ryanreos spartan hoplite.esp:000804",
+      "record": "7B000804",
+      "editor_id": "SpartanHoplitechest",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Studded\\Male\\body_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[odd] ryanreos spartan hoplite.esp:000804",
+      "record": "7B000804",
+      "editor_id": "SpartanHoplitechest",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "armor\\spartanhoplite\\chestRed_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[odd] ryanreos spartan hoplite.esp:000804",
+      "record": "7B000804",
+      "editor_id": "SpartanHoplitechest",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "armor\\spartanhoplite\\chestRed_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[odd] ryanreos spartan hoplite.esp:000806",
+      "record": "7B000806",
+      "editor_id": "SpartanHopliteglove",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Studded\\Male\\gloves_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[odd] ryanreos spartan hoplite.esp:000806",
+      "record": "7B000806",
+      "editor_id": "SpartanHopliteglove",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "armor\\spartanhoplite\\gloveRed1_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[odd] ryanreos spartan hoplite.esp:000806",
+      "record": "7B000806",
+      "editor_id": "SpartanHopliteglove",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "armor\\spartanhoplite\\gloveRed1_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[odd] ryanreos spartan hoplite.esp:000808",
+      "record": "7B000808",
+      "editor_id": "SpartanHopliteglove2",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Studded\\Male\\gloves_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[odd] ryanreos spartan hoplite.esp:000808",
+      "record": "7B000808",
+      "editor_id": "SpartanHopliteglove2",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "armor\\spartanhoplite\\gloveRed2_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[odd] ryanreos spartan hoplite.esp:000808",
+      "record": "7B000808",
+      "editor_id": "SpartanHopliteglove2",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "armor\\spartanhoplite\\gloveRed2_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[odd] ryanreos spartan hoplite.esp:00080A",
+      "record": "7B00080A",
+      "editor_id": "SpartanHopliteshoes",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Studded\\Male\\boots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[odd] ryanreos spartan hoplite.esp:00080A",
+      "record": "7B00080A",
+      "editor_id": "SpartanHopliteshoes",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "armor\\spartanhoplite\\shoesRed1_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[odd] ryanreos spartan hoplite.esp:00080A",
+      "record": "7B00080A",
+      "editor_id": "SpartanHopliteshoes",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "armor\\spartanhoplite\\shoesRed1_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[odd] ryanreos spartan hoplite.esp:00080C",
+      "record": "7B00080C",
+      "editor_id": "SpartanHopliteshoes2",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Studded\\Male\\boots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[odd] ryanreos spartan hoplite.esp:00080C",
+      "record": "7B00080C",
+      "editor_id": "SpartanHopliteshoes2",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "armor\\spartanhoplite\\shoesRed2_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[odd] ryanreos spartan hoplite.esp:00080C",
+      "record": "7B00080C",
+      "editor_id": "SpartanHopliteshoes2",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "armor\\spartanhoplite\\shoesRed2_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[odd] ryanreos spartan hoplite.esp:000836",
+      "record": "7B000836",
+      "editor_id": "SpartanHopliteWhitechest",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Studded\\Male\\body_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[odd] ryanreos spartan hoplite.esp:000836",
+      "record": "7B000836",
+      "editor_id": "SpartanHopliteWhitechest",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "armor\\SpartanHoplite\\chest_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[odd] ryanreos spartan hoplite.esp:000836",
+      "record": "7B000836",
+      "editor_id": "SpartanHopliteWhitechest",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "armor\\SpartanHoplite\\chest_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[odd] ryanreos spartan hoplite.esp:00085A",
+      "record": "7B00085A",
+      "editor_id": "SpartanHoplitechestwrap",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Studded\\Male\\body_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[odd] ryanreos spartan hoplite.esp:00085A",
+      "record": "7B00085A",
+      "editor_id": "SpartanHoplitechestwrap",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "armor\\spartanhoplite\\chestW_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[odd] ryanreos spartan hoplite.esp:00085A",
+      "record": "7B00085A",
+      "editor_id": "SpartanHoplitechestwrap",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "armor\\spartanhoplite\\chestW_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[odd] ryanreos spartan hoplite.esp:00085B",
+      "record": "7B00085B",
+      "editor_id": "SpartanHoplitechestwrapDarkBlue",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Studded\\Male\\body_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[odd] ryanreos spartan hoplite.esp:00085B",
+      "record": "7B00085B",
+      "editor_id": "SpartanHoplitechestwrapDarkBlue",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "armor\\spartanhoplite\\chestW_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[odd] ryanreos spartan hoplite.esp:00085B",
+      "record": "7B00085B",
+      "editor_id": "SpartanHoplitechestwrapDarkBlue",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "armor\\spartanhoplite\\chestW_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[odd] ryanreos spartan hoplite.esp:000877",
+      "record": "7B000877",
+      "editor_id": "SpartanHoplitechestwrapWhite",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Studded\\Male\\body_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[odd] ryanreos spartan hoplite.esp:000877",
+      "record": "7B000877",
+      "editor_id": "SpartanHoplitechestwrapWhite",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "armor\\spartanhoplite\\chestW_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "[odd] ryanreos spartan hoplite.esp:000877",
+      "record": "7B000877",
+      "editor_id": "SpartanHoplitechestwrapWhite",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "armor\\spartanhoplite\\chestW_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "ae_tfd_bunny_dream_rascal.esp:000D70",
+      "record": "E6000D70",
+      "editor_id": "AE_TFD_Bunny_Dream_Rascal_HeelAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Studded\\Male\\boots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "ae_tfd_bunny_dream_rascal.esp:000D70",
+      "record": "E6000D70",
+      "editor_id": "AE_TFD_Bunny_Dream_Rascal_HeelAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "AE_TFD_Bunny_Dream_Rascal\\AE_TFD_Bunny_Dream_Rascal_Heel_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "ae_tfd_bunny_dream_rascal.esp:000D7B",
+      "record": "E6000D7B",
+      "editor_id": "AE_TFD_Bunny_Dream_Rascal_HeelWAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Studded\\Male\\boots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "ae_tfd_bunny_dream_rascal.esp:000D7B",
+      "record": "E6000D7B",
+      "editor_id": "AE_TFD_Bunny_Dream_Rascal_HeelWAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "AE_TFD_Bunny_Dream_Rascal\\AE_TFD_Bunny_Dream_Rascal_HeelW_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "ae_tfd_bunny_dream_rascal.esp:000D8B",
+      "record": "E6000D8B",
+      "editor_id": "AE_TFD_Bunny_Dream_Rascal_HeelPAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Studded\\Male\\boots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "ae_tfd_bunny_dream_rascal.esp:000D8B",
+      "record": "E6000D8B",
+      "editor_id": "AE_TFD_Bunny_Dream_Rascal_HeelPAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "AE_TFD_Bunny_Dream_Rascal\\AE_TFD_Bunny_Dream_Rascal_HeelP_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "alaristoauri.esp:000921",
+      "record": "38000921",
+      "editor_id": "0_Goddess_War_glove1Auri",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Elven\\M\\Gauntlets_0.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "alaristoauri.esp:000921",
+      "record": "38000921",
+      "editor_id": "0_Goddess_War_glove1Auri",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "meshes\\ATA-armor\\Auri_GWGloves_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "alaristoauri.esp:000921",
+      "record": "38000921",
+      "editor_id": "0_Goddess_War_glove1Auri",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "meshes\\ATA-armor\\Auri_GWGloves_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "alaristoauri.esp:000922",
+      "record": "38000922",
+      "editor_id": "0_Goddess_War_boots1aAuri",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Elven\\M\\Boots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "alaristoauri.esp:000922",
+      "record": "38000922",
+      "editor_id": "0_Goddess_War_boots1aAuri",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "meshes\\ATA-armor\\Auri_GWBoots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "asuras guard [armor].esp:00081F",
+      "record": "8900081F",
+      "editor_id": "aaaAsurasHelmetNoMaskAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Glass\\M\\Helmet_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "asuras guard [armor].esp:00081F",
+      "record": "8900081F",
+      "editor_id": "aaaAsurasHelmetNoMaskAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "Goampuja\\AsurasGuard\\AsurasHelmetNoMask_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "asuras guard [armor].esp:000D62",
+      "record": "89000D62",
+      "editor_id": "aaaAsurasSabatonsAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Glass\\M\\Boots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "asuras guard [armor].esp:000D62",
+      "record": "89000D62",
+      "editor_id": "aaaAsurasSabatonsAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "Goampuja\\AsurasGuard\\AsurasSabatons_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "asuras guard [armor].esp:000D63",
+      "record": "89000D63",
+      "editor_id": "aaaAsurasVambracesAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Glass\\M\\Gauntlets_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "asuras guard [armor].esp:000D63",
+      "record": "89000D63",
+      "editor_id": "aaaAsurasVambracesAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "Goampuja\\AsurasGuard\\AsurasVambraces_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "asuras guard [armor].esp:000D64",
+      "record": "89000D64",
+      "editor_id": "aaaAsurasHelmetAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Glass\\M\\Helmet_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "asuras guard [armor].esp:000D64",
+      "record": "89000D64",
+      "editor_id": "aaaAsurasHelmetAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "Goampuja\\AsurasGuard\\AsurasHelmet_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "asuras guard [armor].esp:000D67",
+      "record": "89000D67",
+      "editor_id": "aaaAsurasHeelsAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Glass\\M\\Boots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "asuras guard [armor].esp:000D67",
+      "record": "89000D67",
+      "editor_id": "aaaAsurasHeelsAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "Goampuja\\AsurasGuard\\AsurasHeels_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "asuras guard [armor].esp:000D73",
+      "record": "89000D73",
+      "editor_id": "aaaAsurasBraAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Glass\\M\\Cuirass_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "asuras guard [armor].esp:000D73",
+      "record": "89000D73",
+      "editor_id": "aaaAsurasBraAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "Goampuja\\AsurasGuard\\AsurasBra_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "bde_armor.esp:000D63",
+      "record": "8B000D63",
+      "editor_id": "aaaBDEglovesAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Ebony\\M\\Gauntlets_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "bde_armor.esp:000D63",
+      "record": "8B000D63",
+      "editor_id": "aaaBDEglovesAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "armor\\GoasBDEarmor\\BDE_Gloves_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "bde_armor.esp:000D63",
+      "record": "8B000D63",
+      "editor_id": "aaaBDEglovesAA",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "armor\\GoasBDEarmor\\BDE_Gloves_1stP_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "bde_armor.esp:000D64",
+      "record": "8B000D64",
+      "editor_id": "aaaBDEbootsAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Ebony\\M\\Boots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "bde_armor.esp:000D64",
+      "record": "8B000D64",
+      "editor_id": "aaaBDEbootsAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "armor\\GoasBDEarmor\\BDE_Sabatons_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "bdor arditer.esp:000806",
+      "record": "6C000806",
+      "editor_id": "00BDORArdHandsAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "armor\\BDOR Arditer\\hands_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "bdor arditer.esp:000806",
+      "record": "6C000806",
+      "editor_id": "00BDORArdHandsAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "Armor\\Studded\\Female\\gloves_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "bdor arditer.esp:000806",
+      "record": "6C000806",
+      "editor_id": "00BDORArdHandsAA",
+      "field": "MOD4",
+      "old_path": null,
+      "new_path": "armor\\BDOR Arditer\\hands_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "bdor arditer.esp:000809",
+      "record": "6C000809",
+      "editor_id": "00BDORArdHelmAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "armor\\BDOR Arditer\\head_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "bdor arditer.esp:000809",
+      "record": "6C000809",
+      "editor_id": "00BDORArdHelmAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "Armor\\Studded\\Female\\helmet_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "bdor arditer.esp:00080C",
+      "record": "6C00080C",
+      "editor_id": "00BDORArdShoesAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "armor\\BDOR Arditer\\feet_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "bdor arditer.esp:00080C",
+      "record": "6C00080C",
+      "editor_id": "00BDORArdShoesAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "Armor\\Studded\\Female\\boots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "bdor arditer.esp:00080F",
+      "record": "6C00080F",
+      "editor_id": "00BDORArdHelmHAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "armor\\BDOR Arditer\\head_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "bdor arditer.esp:00080F",
+      "record": "6C00080F",
+      "editor_id": "00BDORArdHelmHAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "Armor\\Studded\\Female\\helmet_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "bdor chic lua.esp:000800",
+      "record": "BC000800",
+      "editor_id": "00BDORLuaArmorAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "armor\\BDOR Chic Lua\\body_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "bdor chic lua.esp:000800",
+      "record": "BC000800",
+      "editor_id": "00BDORLuaArmorAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "Armor\\Elven\\F\\Cuirass_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "bdor chic lua.esp:000800",
+      "record": "BC000800",
+      "editor_id": "00BDORLuaArmorAA",
+      "field": "MOD4",
+      "old_path": null,
+      "new_path": "Actors\\Character\\Character Assets\\1stPersonMaleBody_1.NIF",
+      "new_override_record": true
+    },
+    {
+      "source_key": "bdor chic lua.esp:000800",
+      "record": "BC000800",
+      "editor_id": "00BDORLuaArmorAA",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "Actors\\Character\\Character Assets\\1stPersonFemaleBody_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "bdor chic lua.esp:000806",
+      "record": "BC000806",
+      "editor_id": "00BDORLuaHandsAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "armor\\BDOR Chic Lua\\hand_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "bdor chic lua.esp:000806",
+      "record": "BC000806",
+      "editor_id": "00BDORLuaHandsAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "Armor\\Elven\\F\\Gauntlets_0.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "bdor chic lua.esp:000806",
+      "record": "BC000806",
+      "editor_id": "00BDORLuaHandsAA",
+      "field": "MOD4",
+      "old_path": null,
+      "new_path": "armor\\BDOR Chic Lua\\hand_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "bdor chic lua.esp:000809",
+      "record": "BC000809",
+      "editor_id": "00BDORLuaShoesAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "armor\\BDOR Chic Lua\\feet_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "bdor chic lua.esp:000809",
+      "record": "BC000809",
+      "editor_id": "00BDORLuaShoesAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "Armor\\Elven\\F\\Boots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "corsair outfit.esp:0002D7",
+      "record": "800002D7",
+      "editor_id": "Corsair_Steel_GauntletsAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Hide\\M\\GauntletsHeavy_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "corsair outfit.esp:0002D7",
+      "record": "800002D7",
+      "editor_id": "Corsair_Steel_GauntletsAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "armor\\Aokili\\CorsairOutfit\\Gauntlets_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "corsair outfit.esp:0002D7",
+      "record": "800002D7",
+      "editor_id": "Corsair_Steel_GauntletsAA",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "armor\\Aokili\\CorsairOutfit\\Gauntlets_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "corsair outfit.esp:0002D9",
+      "record": "800002D9",
+      "editor_id": "Corsair_Steel_BootsAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Hide\\M\\BootsHeavy_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "corsair outfit.esp:0002D9",
+      "record": "800002D9",
+      "editor_id": "Corsair_Steel_BootsAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "armor\\Aokili\\CorsairOutfit\\Boots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "corsair outfit.esp:0002D9",
+      "record": "800002D9",
+      "editor_id": "Corsair_Steel_BootsAA",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "armor\\Aokili\\CorsairOutfit\\Boots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "corsair outfit.esp:000309",
+      "record": "80000309",
+      "editor_id": "Corsair_Ebony_GauntletsAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Hide\\M\\GauntletsHeavy_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "corsair outfit.esp:000309",
+      "record": "80000309",
+      "editor_id": "Corsair_Ebony_GauntletsAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "armor\\Aokili\\CorsairOutfit\\Gauntlets_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "corsair outfit.esp:000309",
+      "record": "80000309",
+      "editor_id": "Corsair_Ebony_GauntletsAA",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "armor\\Aokili\\CorsairOutfit\\Gauntlets_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "corsair outfit.esp:00030C",
+      "record": "8000030C",
+      "editor_id": "Corsair_Ebony_BootsAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Hide\\M\\BootsHeavy_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "corsair outfit.esp:00030C",
+      "record": "8000030C",
+      "editor_id": "Corsair_Ebony_BootsAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "armor\\Aokili\\CorsairOutfit\\Boots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "corsair outfit.esp:00030C",
+      "record": "8000030C",
+      "editor_id": "Corsair_Ebony_BootsAA",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "armor\\Aokili\\CorsairOutfit\\Boots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "corsair outfit.esp:000312",
+      "record": "80000312",
+      "editor_id": "Corsair_Gold_GauntletsAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Hide\\M\\GauntletsHeavy_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "corsair outfit.esp:000312",
+      "record": "80000312",
+      "editor_id": "Corsair_Gold_GauntletsAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "armor\\Aokili\\CorsairOutfit\\Gauntlets_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "corsair outfit.esp:000312",
+      "record": "80000312",
+      "editor_id": "Corsair_Gold_GauntletsAA",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "armor\\Aokili\\CorsairOutfit\\Gauntlets_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "corsair outfit.esp:000315",
+      "record": "80000315",
+      "editor_id": "Corsair_Gold_BootsAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Hide\\M\\BootsHeavy_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "corsair outfit.esp:000315",
+      "record": "80000315",
+      "editor_id": "Corsair_Gold_BootsAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "armor\\Aokili\\CorsairOutfit\\Boots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "corsair outfit.esp:000315",
+      "record": "80000315",
+      "editor_id": "Corsair_Gold_BootsAA",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "armor\\Aokili\\CorsairOutfit\\Boots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "courageousknight.esp:0007C6",
+      "record": "810007C6",
+      "editor_id": "CourageousKnight_Gold_GauntletsAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\NordPlate\\NordGauntletsM_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "courageousknight.esp:0007C6",
+      "record": "810007C6",
+      "editor_id": "CourageousKnight_Gold_GauntletsAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "armor\\Aokili\\CourageousKnight\\Gauntlets_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "courageousknight.esp:0007C6",
+      "record": "810007C6",
+      "editor_id": "CourageousKnight_Gold_GauntletsAA",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "armor\\Aokili\\CourageousKnight\\Gauntlets_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "courageousknight.esp:0007C9",
+      "record": "810007C9",
+      "editor_id": "CourageousKnight_Gold_SabatonsAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\NordPlate\\NordBootsM_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "courageousknight.esp:0007C9",
+      "record": "810007C9",
+      "editor_id": "CourageousKnight_Gold_SabatonsAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "_pgpatcher_dups\\1\\armor\\aokili\\courageousknight\\sabatons_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "courageousknight.esp:0007C9",
+      "record": "810007C9",
+      "editor_id": "CourageousKnight_Gold_SabatonsAA",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "_pgpatcher_dups\\1\\armor\\aokili\\courageousknight\\sabatons_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "courageousknight.esp:0007D1",
+      "record": "810007D1",
+      "editor_id": "CourageousKnight_Rusty_GauntletsAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\NordPlate\\NordGauntletsM_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "courageousknight.esp:0007D1",
+      "record": "810007D1",
+      "editor_id": "CourageousKnight_Rusty_GauntletsAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "armor\\Aokili\\CourageousKnight\\Gauntlets_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "courageousknight.esp:0007D1",
+      "record": "810007D1",
+      "editor_id": "CourageousKnight_Rusty_GauntletsAA",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "armor\\Aokili\\CourageousKnight\\Gauntlets_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "courageousknight.esp:0007D4",
+      "record": "810007D4",
+      "editor_id": "CourageousKnight_Rusty_SabatonsAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\NordPlate\\NordBootsM_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "courageousknight.esp:0007D4",
+      "record": "810007D4",
+      "editor_id": "CourageousKnight_Rusty_SabatonsAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "_pgpatcher_dups\\1\\armor\\aokili\\courageousknight\\sabatons_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "courageousknight.esp:0007D4",
+      "record": "810007D4",
+      "editor_id": "CourageousKnight_Rusty_SabatonsAA",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "_pgpatcher_dups\\1\\armor\\aokili\\courageousknight\\sabatons_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "courageousknight.esp:00080F",
+      "record": "8100080F",
+      "editor_id": "CourageousKnight_Steel_SabatonsAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\NordPlate\\NordBootsM_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "courageousknight.esp:00080F",
+      "record": "8100080F",
+      "editor_id": "CourageousKnight_Steel_SabatonsAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "armor\\Aokili\\CourageousKnight\\Sabatons_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "courageousknight.esp:00080F",
+      "record": "8100080F",
+      "editor_id": "CourageousKnight_Steel_SabatonsAA",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "armor\\Aokili\\CourageousKnight\\Sabatons_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "courageousknight.esp:000810",
+      "record": "81000810",
+      "editor_id": "CourageousKnight_Steel_GauntletsAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\NordPlate\\NordGauntletsM_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "courageousknight.esp:000810",
+      "record": "81000810",
+      "editor_id": "CourageousKnight_Steel_GauntletsAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "armor\\Aokili\\CourageousKnight\\Gauntlets_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "courageousknight.esp:000810",
+      "record": "81000810",
+      "editor_id": "CourageousKnight_Steel_GauntletsAA",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "armor\\Aokili\\CourageousKnight\\Gauntlets_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "dac0da.esm:000DB0",
+      "record": "27000DB0",
+      "editor_id": "zDcdZurinFeetAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Actors\\Dac0da\\Cgt\\cavity\\za\\ZAFeet.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "dac0da.esm:000DB0",
+      "record": "27000DB0",
+      "editor_id": "zDcdZurinFeetAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "Armor\\Ebony\\F\\Boots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "dark dreams.esl:000D6A",
+      "record": "14000D6A",
+      "editor_id": "AADDBoots",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Ebony\\M\\Boots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "dark dreams.esl:000D6A",
+      "record": "14000D6A",
+      "editor_id": "AADDBoots",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "armor\\Dark Dreams\\DDBoots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "dark dreams.esl:000D6B",
+      "record": "14000D6B",
+      "editor_id": "AADDGloves",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Ebony\\M\\Gauntlets_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "dark dreams.esl:000D6B",
+      "record": "14000D6B",
+      "editor_id": "AADDGloves",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "armor\\Dark Dreams\\DDGloves_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "darkwitch.esp:000802",
+      "record": "5C000802",
+      "editor_id": "HedgeWitchGauntletsAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Hide\\M\\GauntletsHeavy_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "darkwitch.esp:000802",
+      "record": "5C000802",
+      "editor_id": "HedgeWitchGauntletsAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "armor\\hedgewitch\\gauntlet_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "darkwitch.esp:000806",
+      "record": "5C000806",
+      "editor_id": "HedgeWitchBootsAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Hide\\M\\BootsHeavy_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "darkwitch.esp:000806",
+      "record": "5C000806",
+      "editor_id": "HedgeWitchBootsAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "armor\\hedgewitch\\boots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "ddangeli.esp:000D62",
+      "record": "DB000D62",
+      "editor_id": "DDAngeli_body02_FeetAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Studded\\Male\\boots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "ddangeli.esp:000D62",
+      "record": "DB000D62",
+      "editor_id": "DDAngeli_body02_FeetAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "DDAngeli\\DDAngeli_body02 Feet_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "ddangeli.esp:001838",
+      "record": "DB001838",
+      "editor_id": "DDAngeli_body03_FeetAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Studded\\Male\\boots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "ddangeli.esp:001838",
+      "record": "DB001838",
+      "editor_id": "DDAngeli_body03_FeetAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "DDAngeli\\DDAngeli_body03 Feet_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "ddangeli.esp:001843",
+      "record": "DB001843",
+      "editor_id": "DDAngeli_body04_FeetAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Studded\\Male\\boots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "ddangeli.esp:001843",
+      "record": "DB001843",
+      "editor_id": "DDAngeli_body04_FeetAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "DDAngeli\\DDAngeli_body04_Feet_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "ddangeli.esp:00287C",
+      "record": "DB00287C",
+      "editor_id": "DDAngeli_body05_FeetAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Studded\\Male\\boots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "ddangeli.esp:00287C",
+      "record": "DB00287C",
+      "editor_id": "DDAngeli_body05_FeetAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "DDAngeli\\DDAngeli_body05_Feet_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "ddangeli.esp:00287D",
+      "record": "DB00287D",
+      "editor_id": "DDAngeli_body06_FeetAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Studded\\Male\\boots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "ddangeli.esp:00287D",
+      "record": "DB00287D",
+      "editor_id": "DDAngeli_body06_FeetAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "DDAngeli\\DDAngeli_body06_Feet_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "ddangeli.esp:00287E",
+      "record": "DB00287E",
+      "editor_id": "DDAngeli_body07_FeetAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Studded\\Male\\boots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "ddangeli.esp:00287E",
+      "record": "DB00287E",
+      "editor_id": "DDAngeli_body07_FeetAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "DDAngeli\\DDAngeli_body07_Feet_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "eldritchdisciple.esp:000807",
+      "record": "82000807",
+      "editor_id": "EldritchDisciple_Steel_GauntletsAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Orcish\\gauntletsm_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "eldritchdisciple.esp:000807",
+      "record": "82000807",
+      "editor_id": "EldritchDisciple_Steel_GauntletsAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "armor\\Aokili\\EldritchDisciple\\Gauntlets_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "eldritchdisciple.esp:000807",
+      "record": "82000807",
+      "editor_id": "EldritchDisciple_Steel_GauntletsAA",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "armor\\Aokili\\EldritchDisciple\\Gauntlets_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "eldritchdisciple.esp:000808",
+      "record": "82000808",
+      "editor_id": "EldritchDisciple_Steel_SabatonsAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Orcish\\bootsm_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "eldritchdisciple.esp:000808",
+      "record": "82000808",
+      "editor_id": "EldritchDisciple_Steel_SabatonsAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "armor\\Aokili\\EldritchDisciple\\Sabatons_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "eldritchdisciple.esp:000808",
+      "record": "82000808",
+      "editor_id": "EldritchDisciple_Steel_SabatonsAA",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "armor\\Aokili\\EldritchDisciple\\Sabatons_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "eldritchdisciple.esp:000837",
+      "record": "82000837",
+      "editor_id": "EldritchDisciple_Ebony_GauntletsAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Orcish\\gauntletsm_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "eldritchdisciple.esp:000837",
+      "record": "82000837",
+      "editor_id": "EldritchDisciple_Ebony_GauntletsAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "armor\\Aokili\\EldritchDisciple\\Gauntlets_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "eldritchdisciple.esp:000837",
+      "record": "82000837",
+      "editor_id": "EldritchDisciple_Ebony_GauntletsAA",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "armor\\Aokili\\EldritchDisciple\\Gauntlets_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "eldritchdisciple.esp:00083A",
+      "record": "8200083A",
+      "editor_id": "EldritchDisciple_Ebony_SabatonsAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Orcish\\bootsm_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "eldritchdisciple.esp:00083A",
+      "record": "8200083A",
+      "editor_id": "EldritchDisciple_Ebony_SabatonsAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "armor\\Aokili\\EldritchDisciple\\Sabatons_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "eldritchdisciple.esp:00083A",
+      "record": "8200083A",
+      "editor_id": "EldritchDisciple_Ebony_SabatonsAA",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "armor\\Aokili\\EldritchDisciple\\Sabatons_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "eldritchdisciple.esp:000840",
+      "record": "82000840",
+      "editor_id": "EldritchDisciple_Gold_GauntletsAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Orcish\\gauntletsm_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "eldritchdisciple.esp:000840",
+      "record": "82000840",
+      "editor_id": "EldritchDisciple_Gold_GauntletsAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "armor\\Aokili\\EldritchDisciple\\Gauntlets_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "eldritchdisciple.esp:000840",
+      "record": "82000840",
+      "editor_id": "EldritchDisciple_Gold_GauntletsAA",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "armor\\Aokili\\EldritchDisciple\\Gauntlets_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "eldritchdisciple.esp:000843",
+      "record": "82000843",
+      "editor_id": "EldritchDisciple_Gold_SabatonsAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Orcish\\bootsm_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "eldritchdisciple.esp:000843",
+      "record": "82000843",
+      "editor_id": "EldritchDisciple_Gold_SabatonsAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "armor\\Aokili\\EldritchDisciple\\Sabatons_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "eldritchdisciple.esp:000843",
+      "record": "82000843",
+      "editor_id": "EldritchDisciple_Gold_SabatonsAA",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "armor\\Aokili\\EldritchDisciple\\Sabatons_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "elvenia armor.esp:000800",
+      "record": "77000800",
+      "editor_id": "0ElveniaBoots",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Elven\\M\\Boots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "elvenia armor.esp:000800",
+      "record": "77000800",
+      "editor_id": "0ElveniaBoots",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "Putra\\Elvenia\\ElveniaBoots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "elvenia armor.esp:00083A",
+      "record": "7700083A",
+      "editor_id": "0ElveniaBootsThigh",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Elven\\M\\Boots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "elvenia armor.esp:00083A",
+      "record": "7700083A",
+      "editor_id": "0ElveniaBootsThigh",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "Putra\\Elvenia\\ElveniaThighBoots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "elvenia armor.esp:000D62",
+      "record": "77000D62",
+      "editor_id": "0ElveniaGauntlets",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Elven\\M\\Gauntlets_0.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "elvenia armor.esp:000D62",
+      "record": "77000D62",
+      "editor_id": "0ElveniaGauntlets",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "Putra\\Elvenia\\ElveniaGauntlets_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "fashionwtich set.esp:000801",
+      "record": "D9000801",
+      "editor_id": "aaFWNail",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Hide\\M\\GauntletsHeavy_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "fashionwtich set.esp:000801",
+      "record": "D9000801",
+      "editor_id": "aaFWNail",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "TheBottomhoodofsteel\\FashionWitchSet\\FW_Nail_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "fashionwtich set.esp:000801",
+      "record": "D9000801",
+      "editor_id": "aaFWNail",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "TheBottomhoodofsteel\\FashionWitchSet\\FW_Nail_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "fashionwtich set.esp:000802",
+      "record": "D9000802",
+      "editor_id": "aaFWBoots",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Hide\\M\\BootsHeavy_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "fashionwtich set.esp:000802",
+      "record": "D9000802",
+      "editor_id": "aaFWBoots",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "TheBottomhoodofsteel\\FashionWitchSet\\FW_Boots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "fashionwtich set.esp:000833",
+      "record": "D9000833",
+      "editor_id": "aaFWHeels",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Hide\\M\\BootsHeavy_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "fashionwtich set.esp:000833",
+      "record": "D9000833",
+      "editor_id": "aaFWHeels",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "TheBottomhoodofsteel\\FashionWitchSet\\FW_Heels_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "fashionwtich set.esp:000849",
+      "record": "D9000849",
+      "editor_id": "aaFWNailRed",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Hide\\M\\GauntletsHeavy_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "fashionwtich set.esp:000849",
+      "record": "D9000849",
+      "editor_id": "aaFWNailRed",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "TheBottomhoodofsteel\\FashionWitchSet\\FW_Nail_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "fashionwtich set.esp:000849",
+      "record": "D9000849",
+      "editor_id": "aaFWNailRed",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "TheBottomhoodofsteel\\FashionWitchSet\\FW_Nail_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "fashionwtich set.esp:00084A",
+      "record": "D900084A",
+      "editor_id": "aaFWNailPurple",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Hide\\M\\GauntletsHeavy_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "fashionwtich set.esp:00084A",
+      "record": "D900084A",
+      "editor_id": "aaFWNailPurple",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "TheBottomhoodofsteel\\FashionWitchSet\\FW_Nail_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "fashionwtich set.esp:00084A",
+      "record": "D900084A",
+      "editor_id": "aaFWNailPurple",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "TheBottomhoodofsteel\\FashionWitchSet\\FW_Nail_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "fashionwtich set.esp:000853",
+      "record": "D9000853",
+      "editor_id": "aaFWHeelsWAP",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Hide\\M\\BootsHeavy_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "fashionwtich set.esp:000853",
+      "record": "D9000853",
+      "editor_id": "aaFWHeelsWAP",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "TheBottomhoodofsteel\\FashionWitchSet\\FW_Heels_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "h2135fantasyseries8 [se].esp:000838",
+      "record": "70000838",
+      "editor_id": "H2135FS8GauntletsBLAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\NordPlate\\NordGauntletsM_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "h2135fantasyseries8 [se].esp:000838",
+      "record": "70000838",
+      "editor_id": "H2135FS8GauntletsBLAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "_pgpatcher_dups\\1\\harry2135\\fantasyseries8\\fs8_gauntlets_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "h2135fantasyseries8 [se].esp:000838",
+      "record": "70000838",
+      "editor_id": "H2135FS8GauntletsBLAA",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "_pgpatcher_dups\\1\\harry2135\\fantasyseries8\\fs8_gauntlets_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "h2135fantasyseries8 [se].esp:00083A",
+      "record": "7000083A",
+      "editor_id": "H2135FS8GreavesBLAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\NordPlate\\NordBootsM_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "h2135fantasyseries8 [se].esp:00083A",
+      "record": "7000083A",
+      "editor_id": "H2135FS8GreavesBLAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "_pgpatcher_dups\\1\\harry2135\\fantasyseries8\\fs8_greaves_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "h2135fantasyseries8 [se].esp:000843",
+      "record": "70000843",
+      "editor_id": "H2135FS8ADDGauntletsBLAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\NordPlate\\NordGauntletsM_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "h2135fantasyseries8 [se].esp:000843",
+      "record": "70000843",
+      "editor_id": "H2135FS8ADDGauntletsBLAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "_pgpatcher_dups\\1\\harry2135\\fantasyseries8\\fs8add_gauntlets_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "h2135fantasyseries8 [se].esp:000843",
+      "record": "70000843",
+      "editor_id": "H2135FS8ADDGauntletsBLAA",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "_pgpatcher_dups\\1\\harry2135\\fantasyseries8\\fs8add_gauntlets_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "h2135fantasyseries8 [se].esp:000844",
+      "record": "70000844",
+      "editor_id": "H2135FS8ADDGreavesBLAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\NordPlate\\NordBootsM_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "h2135fantasyseries8 [se].esp:000844",
+      "record": "70000844",
+      "editor_id": "H2135FS8ADDGreavesBLAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "_pgpatcher_dups\\1\\harry2135\\fantasyseries8\\fs8add_greaves_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "h2135fantasyseries8 [se].esp:000866",
+      "record": "70000866",
+      "editor_id": "H2135FS8GauntletsWHAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\NordPlate\\NordGauntletsM_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "h2135fantasyseries8 [se].esp:000866",
+      "record": "70000866",
+      "editor_id": "H2135FS8GauntletsWHAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "_pgpatcher_dups\\1\\harry2135\\fantasyseries8\\fs8_gauntlets_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "h2135fantasyseries8 [se].esp:000866",
+      "record": "70000866",
+      "editor_id": "H2135FS8GauntletsWHAA",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "_pgpatcher_dups\\1\\harry2135\\fantasyseries8\\fs8_gauntlets_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "h2135fantasyseries8 [se].esp:000868",
+      "record": "70000868",
+      "editor_id": "H2135FS8GreavesWHAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\NordPlate\\NordBootsM_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "h2135fantasyseries8 [se].esp:000868",
+      "record": "70000868",
+      "editor_id": "H2135FS8GreavesWHAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "_pgpatcher_dups\\1\\harry2135\\fantasyseries8\\fs8_greaves_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "h2135fantasyseries8 [se].esp:000871",
+      "record": "70000871",
+      "editor_id": "H2135FS8ADDGauntletsWHAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\NordPlate\\NordGauntletsM_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "h2135fantasyseries8 [se].esp:000871",
+      "record": "70000871",
+      "editor_id": "H2135FS8ADDGauntletsWHAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "_pgpatcher_dups\\1\\harry2135\\fantasyseries8\\fs8add_gauntlets_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "h2135fantasyseries8 [se].esp:000871",
+      "record": "70000871",
+      "editor_id": "H2135FS8ADDGauntletsWHAA",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "_pgpatcher_dups\\1\\harry2135\\fantasyseries8\\fs8add_gauntlets_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "h2135fantasyseries8 [se].esp:000872",
+      "record": "70000872",
+      "editor_id": "H2135FS8ADDGreavesWHAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\NordPlate\\NordBootsM_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "h2135fantasyseries8 [se].esp:000872",
+      "record": "70000872",
+      "editor_id": "H2135FS8ADDGreavesWHAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "_pgpatcher_dups\\1\\harry2135\\fantasyseries8\\fs8add_greaves_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "honeypopcorn skyrim overhaul.esp:D1997D",
+      "record": "A0D1997D",
+      "editor_id": "00hsochainhandsAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Steel\\Gauntlets_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "honeypopcorn skyrim overhaul.esp:D1997D",
+      "record": "A0D1997D",
+      "editor_id": "00hsochainhandsAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "armor\\hsochainhands_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "honeypopcorn skyrim overhaul.esp:D1997D",
+      "record": "A0D1997D",
+      "editor_id": "00hsochainhandsAA",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "armor\\hsochainhands_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "hoodu_follower.esp:000843",
+      "record": "34000843",
+      "editor_id": "a0WaywardKnightGauntletsAA_Hoodu",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\NordPlate\\NordGauntletsM_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "hoodu_follower.esp:000843",
+      "record": "34000843",
+      "editor_id": "a0WaywardKnightGauntletsAA_Hoodu",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "Clothing\\Hoodu\\gauntlets_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "hoodu_follower.esp:000845",
+      "record": "34000845",
+      "editor_id": "a0WaywardKnightSabatonsAA_Hoodu",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\NordPlate\\NordBootsM_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "hoodu_follower.esp:000845",
+      "record": "34000845",
+      "editor_id": "a0WaywardKnightSabatonsAA_Hoodu",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "Clothing\\Hoodu\\sabatons_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "k101daegon.esp:23CE8C",
+      "record": "2F23CE8C",
+      "editor_id": "k101DaegonBootsAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Elven\\M\\Boots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "k101daegon.esp:23CE8C",
+      "record": "2F23CE8C",
+      "editor_id": "k101DaegonBootsAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "k101daegonarmor\\boots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "k101daegon.esp:84F8BF",
+      "record": "2F84F8BF",
+      "editor_id": "k101DaegonBootsAARoyal",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Elven\\M\\Boots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "k101daegon.esp:84F8BF",
+      "record": "2F84F8BF",
+      "editor_id": "k101DaegonBootsAARoyal",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "k101daegonarmor\\DaegonRoyalBoots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "latex lover corset plus.esp:00092B",
+      "record": "D500092B",
+      "editor_id": "Latex_Lover_Corset_Plus_Binding_Gloves_AA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Studded\\Male\\gloves_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "latex lover corset plus.esp:00092B",
+      "record": "D500092B",
+      "editor_id": "Latex_Lover_Corset_Plus_Binding_Gloves_AA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "meshes\\Latex Lover Corset Plus\\Latex Lover Corset Plus Binding Gloves_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "latex lover corset plus.esp:00092B",
+      "record": "D500092B",
+      "editor_id": "Latex_Lover_Corset_Plus_Binding_Gloves_AA",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "meshes\\Latex Lover Corset Plus\\Latex Lover Corset Plus Binding Gloves_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "latex lover corset plus.esp:00092E",
+      "record": "D500092E",
+      "editor_id": "Latex_Lover_Corset_Plus_Gloves_AA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Studded\\Male\\gloves_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "latex lover corset plus.esp:00092E",
+      "record": "D500092E",
+      "editor_id": "Latex_Lover_Corset_Plus_Gloves_AA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "meshes\\Latex Lover Corset Plus\\Latex Lover Corset Plus Gloves_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "latex lover corset plus.esp:00092E",
+      "record": "D500092E",
+      "editor_id": "Latex_Lover_Corset_Plus_Gloves_AA",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "meshes\\Latex Lover Corset Plus\\Latex Lover Corset Plus Gloves_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "latex lover corset plus.esp:000937",
+      "record": "D5000937",
+      "editor_id": "Latex_Lover_Corset_Plus_Boots_AA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Studded\\Male\\boots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "latex lover corset plus.esp:000937",
+      "record": "D5000937",
+      "editor_id": "Latex_Lover_Corset_Plus_Boots_AA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "meshes\\Latex Lover Corset Plus\\Latex Lover Corset Plus Boots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "latex lover corset plus.esp:000937",
+      "record": "D5000937",
+      "editor_id": "Latex_Lover_Corset_Plus_Boots_AA",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "meshes\\Latex Lover Corset Plus\\Latex Lover Corset Plus Boots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "latex lover corset plus.esp:000951",
+      "record": "D5000951",
+      "editor_id": "Latex_Lover_Corset_Plus_Socks_AA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Studded\\Male\\boots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "latex lover corset plus.esp:000951",
+      "record": "D5000951",
+      "editor_id": "Latex_Lover_Corset_Plus_Socks_AA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "meshes\\Latex Lover Corset Plus\\Latex Lover Corset Plus Socks_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "latex lover corset plus.esp:000951",
+      "record": "D5000951",
+      "editor_id": "Latex_Lover_Corset_Plus_Socks_AA",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "meshes\\Latex Lover Corset Plus\\Latex Lover Corset Plus Socks_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "niel_follower.esp:000840",
+      "record": "31000840",
+      "editor_id": "VA_SabatonsAA_Niel",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Orcish\\bootsm_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "niel_follower.esp:000840",
+      "record": "31000840",
+      "editor_id": "VA_SabatonsAA_Niel",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "Clothing\\Niel\\VA_Sabatons_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "niel_follower.esp:000840",
+      "record": "31000840",
+      "editor_id": "VA_SabatonsAA_Niel",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "Clothing\\Niel\\VA_Sabatons_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "niel_follower.esp:000841",
+      "record": "31000841",
+      "editor_id": "VA_LeotardAA_Niel",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Orcish\\cuirassM_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "niel_follower.esp:000841",
+      "record": "31000841",
+      "editor_id": "VA_LeotardAA_Niel",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "Clothing\\Niel\\VA_Leotard_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "niel_follower.esp:000841",
+      "record": "31000841",
+      "editor_id": "VA_LeotardAA_Niel",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "Clothing\\Niel\\VA_Leotard_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "niel_follower.esp:000842",
+      "record": "31000842",
+      "editor_id": "VA_GauntletsAA_Niel",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Orcish\\gauntletsm_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "niel_follower.esp:000842",
+      "record": "31000842",
+      "editor_id": "VA_GauntletsAA_Niel",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "Clothing\\Niel\\VA_Gauntlets_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "regaliaofthescorned.esp:00080C",
+      "record": "9300080C",
+      "editor_id": "aaaScornedArmsAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Glass\\M\\Gauntlets_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "regaliaofthescorned.esp:00080C",
+      "record": "9300080C",
+      "editor_id": "aaaScornedArmsAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "armor\\RegaliaOfTheScorned\\RotsArms_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "regaliaofthescorned.esp:00080D",
+      "record": "9300080D",
+      "editor_id": "aaaScornedHeelsAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Glass\\M\\Boots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "regaliaofthescorned.esp:00080D",
+      "record": "9300080D",
+      "editor_id": "aaaScornedHeelsAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "armor\\RegaliaOfTheScorned\\rotsHeels_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "the adventurer's guild - armor - goblin slayer.esp:000874",
+      "record": "A7000874",
+      "editor_id": "Bride_body1cAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Elven\\M\\CuirassLight_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "the adventurer's guild - armor - goblin slayer.esp:000874",
+      "record": "A7000874",
+      "editor_id": "Bride_body1cAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "Coco_Cloths\\Deliciously_Bride\\body1_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "the adventurer's guild - armor - goblin slayer.esp:000874",
+      "record": "A7000874",
+      "editor_id": "Bride_body1cAA",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "Coco_Cloths\\Deliciously_Bride\\body1_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "the adventurer's guild - armor - goblin slayer.esp:000895",
+      "record": "A7000895",
+      "editor_id": "Bride_shoes1AA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Elven\\M\\Boots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "the adventurer's guild - armor - goblin slayer.esp:000895",
+      "record": "A7000895",
+      "editor_id": "Bride_shoes1AA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "Coco_Cloths\\Deliciously_Bride\\shoes_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "the adventurer's guild - armor - goblin slayer.esp:000896",
+      "record": "A7000896",
+      "editor_id": "Bride_body1aAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Elven\\M\\CuirassLight_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "the adventurer's guild - armor - goblin slayer.esp:000896",
+      "record": "A7000896",
+      "editor_id": "Bride_body1aAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "Coco_Cloths\\Deliciously_Bride\\body1_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "the adventurer's guild - armor - goblin slayer.esp:000896",
+      "record": "A7000896",
+      "editor_id": "Bride_body1aAA",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "Coco_Cloths\\Deliciously_Bride\\body1_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "the adventurer's guild - armor - goblin slayer.esp:000897",
+      "record": "A7000897",
+      "editor_id": "Bride_body1bAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Elven\\M\\CuirassLight_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "the adventurer's guild - armor - goblin slayer.esp:000897",
+      "record": "A7000897",
+      "editor_id": "Bride_body1bAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "Coco_Cloths\\Deliciously_Bride\\body1_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "the adventurer's guild - armor - goblin slayer.esp:000897",
+      "record": "A7000897",
+      "editor_id": "Bride_body1bAA",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "Coco_Cloths\\Deliciously_Bride\\body1_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "the adventurer's guild - armor - goblin slayer.esp:00089B",
+      "record": "A700089B",
+      "editor_id": "Bride_glove1AA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Elven\\M\\Gauntlets_0.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "the adventurer's guild - armor - goblin slayer.esp:00089B",
+      "record": "A700089B",
+      "editor_id": "Bride_glove1AA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "Coco_Cloths\\Deliciously_Bride\\glove_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "the adventurer's guild - armor - goblin slayer.esp:00089B",
+      "record": "A700089B",
+      "editor_id": "Bride_glove1AA",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "Coco_Cloths\\Deliciously_Bride\\glove_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "the adventurer's guild - armor - goblin slayer.esp:0008B8",
+      "record": "A70008B8",
+      "editor_id": "Bride_shoes2AA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Elven\\M\\Boots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "the adventurer's guild - armor - goblin slayer.esp:0008B8",
+      "record": "A70008B8",
+      "editor_id": "Bride_shoes2AA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "Coco_Cloths\\Deliciously_Bride\\shoes_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "the adventurer's guild - armor - goblin slayer.esp:0008B9",
+      "record": "A70008B9",
+      "editor_id": "Bride_body2aAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Elven\\M\\CuirassLight_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "the adventurer's guild - armor - goblin slayer.esp:0008B9",
+      "record": "A70008B9",
+      "editor_id": "Bride_body2aAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "Coco_Cloths\\Deliciously_Bride\\body2_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "the adventurer's guild - armor - goblin slayer.esp:0008B9",
+      "record": "A70008B9",
+      "editor_id": "Bride_body2aAA",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "Coco_Cloths\\Deliciously_Bride\\body2_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "the adventurer's guild - armor - goblin slayer.esp:0008BA",
+      "record": "A70008BA",
+      "editor_id": "Bride_body2bAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Elven\\M\\CuirassLight_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "the adventurer's guild - armor - goblin slayer.esp:0008BA",
+      "record": "A70008BA",
+      "editor_id": "Bride_body2bAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "Coco_Cloths\\Deliciously_Bride\\body2_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "the adventurer's guild - armor - goblin slayer.esp:0008BA",
+      "record": "A70008BA",
+      "editor_id": "Bride_body2bAA",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "Coco_Cloths\\Deliciously_Bride\\body2_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "the adventurer's guild - armor - goblin slayer.esp:0008BE",
+      "record": "A70008BE",
+      "editor_id": "Bride_glove2AA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Elven\\M\\Gauntlets_0.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "the adventurer's guild - armor - goblin slayer.esp:0008BE",
+      "record": "A70008BE",
+      "editor_id": "Bride_glove2AA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "Coco_Cloths\\Deliciously_Bride\\glove_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "the adventurer's guild - armor - goblin slayer.esp:0008BE",
+      "record": "A70008BE",
+      "editor_id": "Bride_glove2AA",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "Coco_Cloths\\Deliciously_Bride\\glove_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "the adventurer's guild - armor - goblin slayer.esp:0008CE",
+      "record": "A70008CE",
+      "editor_id": "Bride_shoes3AA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Elven\\M\\Boots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "the adventurer's guild - armor - goblin slayer.esp:0008CE",
+      "record": "A70008CE",
+      "editor_id": "Bride_shoes3AA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "_pgpatcher_dups\\1\\coco_cloths\\deliciously_bride\\shoes_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "the adventurer's guild - armor - goblin slayer.esp:0008CF",
+      "record": "A70008CF",
+      "editor_id": "Bride_body2dAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Elven\\M\\CuirassLight_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "the adventurer's guild - armor - goblin slayer.esp:0008CF",
+      "record": "A70008CF",
+      "editor_id": "Bride_body2dAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "Coco_Cloths\\Deliciously_Bride\\body2_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "the adventurer's guild - armor - goblin slayer.esp:0008CF",
+      "record": "A70008CF",
+      "editor_id": "Bride_body2dAA",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "Coco_Cloths\\Deliciously_Bride\\body2_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "the adventurer's guild - armor - goblin slayer.esp:0008D0",
+      "record": "A70008D0",
+      "editor_id": "Bride_body2eAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Elven\\M\\CuirassLight_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "the adventurer's guild - armor - goblin slayer.esp:0008D0",
+      "record": "A70008D0",
+      "editor_id": "Bride_body2eAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "Coco_Cloths\\Deliciously_Bride\\body2_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "the adventurer's guild - armor - goblin slayer.esp:0008D0",
+      "record": "A70008D0",
+      "editor_id": "Bride_body2eAA",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "Coco_Cloths\\Deliciously_Bride\\body2_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "the adventurer's guild - armor - goblin slayer.esp:0008D4",
+      "record": "A70008D4",
+      "editor_id": "Bride_glove3AA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Elven\\M\\Gauntlets_0.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "the adventurer's guild - armor - goblin slayer.esp:0008D4",
+      "record": "A70008D4",
+      "editor_id": "Bride_glove3AA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "Coco_Cloths\\Deliciously_Bride\\glove_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "the adventurer's guild - armor - goblin slayer.esp:0008D4",
+      "record": "A70008D4",
+      "editor_id": "Bride_glove3AA",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "Coco_Cloths\\Deliciously_Bride\\glove_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "the adventurer's guild - armor - goblin slayer.esp:0008DC",
+      "record": "A70008DC",
+      "editor_id": "Bride_shoes5AA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Elven\\M\\Boots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "the adventurer's guild - armor - goblin slayer.esp:0008DC",
+      "record": "A70008DC",
+      "editor_id": "Bride_shoes5AA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "_pgpatcher_dups\\2\\coco_cloths\\deliciously_bride\\shoes_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "the adventurer's guild - armor - goblin slayer.esp:0008DE",
+      "record": "A70008DE",
+      "editor_id": "Bride_glove5AA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Elven\\M\\Gauntlets_0.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "the adventurer's guild - armor - goblin slayer.esp:0008DE",
+      "record": "A70008DE",
+      "editor_id": "Bride_glove5AA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "Coco_Cloths\\Deliciously_Bride\\glove_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "the adventurer's guild - armor - goblin slayer.esp:0008DE",
+      "record": "A70008DE",
+      "editor_id": "Bride_glove5AA",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "Coco_Cloths\\Deliciously_Bride\\glove_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "the adventurer's guild - armor - goblin slayer.esp:0008EC",
+      "record": "A70008EC",
+      "editor_id": "Bride_shoes4AA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Elven\\M\\Boots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "the adventurer's guild - armor - goblin slayer.esp:0008EC",
+      "record": "A70008EC",
+      "editor_id": "Bride_shoes4AA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "Coco_Cloths\\Deliciously_Bride\\shoes_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "the adventurer's guild - armor - goblin slayer.esp:0008F2",
+      "record": "A70008F2",
+      "editor_id": "Bride_glove4AA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Elven\\M\\Gauntlets_0.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "the adventurer's guild - armor - goblin slayer.esp:0008F2",
+      "record": "A70008F2",
+      "editor_id": "Bride_glove4AA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "Coco_Cloths\\Deliciously_Bride\\glove_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "the adventurer's guild - armor - goblin slayer.esp:0008F2",
+      "record": "A70008F2",
+      "editor_id": "Bride_glove4AA",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "Coco_Cloths\\Deliciously_Bride\\glove_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "the adventurer's guild - armor - goblin slayer.esp:0008FA",
+      "record": "A70008FA",
+      "editor_id": "Bride_body2cAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Elven\\M\\CuirassLight_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "the adventurer's guild - armor - goblin slayer.esp:0008FA",
+      "record": "A70008FA",
+      "editor_id": "Bride_body2cAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "Coco_Cloths\\Deliciously_Bride\\body2_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "the adventurer's guild - armor - goblin slayer.esp:0008FA",
+      "record": "A70008FA",
+      "editor_id": "Bride_body2cAA",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "Coco_Cloths\\Deliciously_Bride\\body2_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "the adventurer's guild - armor - goblin slayer.esp:0008FE",
+      "record": "A70008FE",
+      "editor_id": "Bride_body1dAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Elven\\M\\CuirassLight_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "the adventurer's guild - armor - goblin slayer.esp:0008FE",
+      "record": "A70008FE",
+      "editor_id": "Bride_body1dAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "Coco_Cloths\\Deliciously_Bride\\body1_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "the adventurer's guild - armor - goblin slayer.esp:0008FE",
+      "record": "A70008FE",
+      "editor_id": "Bride_body1dAA",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "Coco_Cloths\\Deliciously_Bride\\body1_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "the adventurer's guild - armor - goblin slayer.esp:000903",
+      "record": "A7000903",
+      "editor_id": "Bride_body2SaAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Elven\\M\\CuirassLight_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "the adventurer's guild - armor - goblin slayer.esp:000903",
+      "record": "A7000903",
+      "editor_id": "Bride_body2SaAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "Coco_Cloths\\Deliciously_Bride\\body2_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "the adventurer's guild - armor - goblin slayer.esp:000903",
+      "record": "A7000903",
+      "editor_id": "Bride_body2SaAA",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "Coco_Cloths\\Deliciously_Bride\\body2_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "the adventurer's guild - armor - goblin slayer.esp:000904",
+      "record": "A7000904",
+      "editor_id": "Bride_body2SbAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Elven\\M\\CuirassLight_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "the adventurer's guild - armor - goblin slayer.esp:000904",
+      "record": "A7000904",
+      "editor_id": "Bride_body2SbAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "Coco_Cloths\\Deliciously_Bride\\body2_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "the adventurer's guild - armor - goblin slayer.esp:000904",
+      "record": "A7000904",
+      "editor_id": "Bride_body2SbAA",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "Coco_Cloths\\Deliciously_Bride\\body2_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "the adventurer's guild - armor - goblin slayer.esp:000907",
+      "record": "A7000907",
+      "editor_id": "Bride_body2SdAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Elven\\M\\CuirassLight_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "the adventurer's guild - armor - goblin slayer.esp:000907",
+      "record": "A7000907",
+      "editor_id": "Bride_body2SdAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "Coco_Cloths\\Deliciously_Bride\\body2_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "the adventurer's guild - armor - goblin slayer.esp:000907",
+      "record": "A7000907",
+      "editor_id": "Bride_body2SdAA",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "Coco_Cloths\\Deliciously_Bride\\body2_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "the adventurer's guild - armor - goblin slayer.esp:000908",
+      "record": "A7000908",
+      "editor_id": "Bride_body2SeAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Elven\\M\\CuirassLight_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "the adventurer's guild - armor - goblin slayer.esp:000908",
+      "record": "A7000908",
+      "editor_id": "Bride_body2SeAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "Coco_Cloths\\Deliciously_Bride\\body2_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "the adventurer's guild - armor - goblin slayer.esp:000908",
+      "record": "A7000908",
+      "editor_id": "Bride_body2SeAA",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "Coco_Cloths\\Deliciously_Bride\\body2_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "the adventurer's guild - armor - goblin slayer.esp:00090B",
+      "record": "A700090B",
+      "editor_id": "Bride_body2ScAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Elven\\M\\CuirassLight_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "the adventurer's guild - armor - goblin slayer.esp:00090B",
+      "record": "A700090B",
+      "editor_id": "Bride_body2ScAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "Coco_Cloths\\Deliciously_Bride\\body2_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "the adventurer's guild - armor - goblin slayer.esp:00090B",
+      "record": "A700090B",
+      "editor_id": "Bride_body2ScAA",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "Coco_Cloths\\Deliciously_Bride\\body2_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "vertigo boots.esp:000806",
+      "record": "B9000806",
+      "editor_id": "Vertigo_BootsAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Studded\\Male\\boots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "vertigo boots.esp:000806",
+      "record": "B9000806",
+      "editor_id": "Vertigo_BootsAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "Vertigo\\VBoots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "vertigo boots.esp:000D98",
+      "record": "B9000D98",
+      "editor_id": "Vertigo_BootsDarkAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Studded\\Male\\boots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "vertigo boots.esp:000D98",
+      "record": "B9000D98",
+      "editor_id": "Vertigo_BootsDarkAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "Vertigo\\VBoots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "vertigo boots.esp:000DA4",
+      "record": "B9000DA4",
+      "editor_id": "Vertigo_BootsPurpleAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Studded\\Male\\boots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "vertigo boots.esp:000DA4",
+      "record": "B9000DA4",
+      "editor_id": "Vertigo_BootsPurpleAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "Vertigo\\VBoots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "vertigo boots.esp:000DB6",
+      "record": "B9000DB6",
+      "editor_id": "Vertigo_BootsGreenAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Studded\\Male\\boots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "vertigo boots.esp:000DB6",
+      "record": "B9000DB6",
+      "editor_id": "Vertigo_BootsGreenAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "Vertigo\\VBoots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "vertigo boots.esp:000DB7",
+      "record": "B9000DB7",
+      "editor_id": "Vertigo_BootsBlueAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Studded\\Male\\boots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "vertigo boots.esp:000DB7",
+      "record": "B9000DB7",
+      "editor_id": "Vertigo_BootsBlueAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "Vertigo\\VBoots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "vertigo boots.esp:000DB8",
+      "record": "B9000DB8",
+      "editor_id": "Vertigo_BootsBlackAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Studded\\Male\\boots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "vertigo boots.esp:000DB8",
+      "record": "B9000DB8",
+      "editor_id": "Vertigo_BootsBlackAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "Vertigo\\VBoots_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "zazanimationpack.esm:009FE2",
+      "record": "1F009FE2",
+      "editor_id": "zbfBeltGSBDoggieAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Studded\\Male\\body_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "zazanimationpack.esm:009FE2",
+      "record": "1F009FE2",
+      "editor_id": "zbfBeltGSBDoggieAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "ZaZ-UltimateDataPack\\ZaZ - Accessories\\Restraints\\06ZAZ - GSBDoggieBelt\\DoggieBelt_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "zazanimationpack.esm:009FE2",
+      "record": "1F009FE2",
+      "editor_id": "zbfBeltGSBDoggieAA",
+      "field": "MOD4",
+      "old_path": null,
+      "new_path": "Clothes\\BeggarClothes\\1stPersontorsom_0.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "zazanimationpack.esm:009FE2",
+      "record": "1F009FE2",
+      "editor_id": "zbfBeltGSBDoggieAA",
+      "field": "MOD5",
+      "old_path": null,
+      "new_path": "Clothes\\BeggarClothes\\1stPersontorsof_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "zazanimationpack.esm:02ECB8",
+      "record": "1F02ECB8",
+      "editor_id": "zbfWaistRopeAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Studded\\Male\\body_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "zazanimationpack.esm:02ECB8",
+      "record": "1F02ECB8",
+      "editor_id": "zbfWaistRopeAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "ZaZ-UltimateDataPack\\ZaZ - Accessories\\Restraints\\07ZAZ - WaistRope01\\WaistRope01_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "zazanimationpack.esm:031D39",
+      "record": "1F031D39",
+      "editor_id": "zbfWaistRopeAA02",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Studded\\Male\\body_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "zazanimationpack.esm:031D39",
+      "record": "1F031D39",
+      "editor_id": "zbfWaistRopeAA02",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "ZaZ-UltimateDataPack\\ZaZ - Accessories\\Restraints\\07ZAZ - WaistRope02\\WaistRope02_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "zazanimationpack.esm:035337",
+      "record": "1F035337",
+      "editor_id": "zbfBodyBondageShibariAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Studded\\Male\\body_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "zazanimationpack.esm:035337",
+      "record": "1F035337",
+      "editor_id": "zbfBodyBondageShibariAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "ZaZ-UltimateDataPack\\ZaZ - Accessories\\Restraints\\015ZaZ - Shibari\\Shibari_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "zazanimationpack.esm:073F77",
+      "record": "1F073F77",
+      "editor_id": "zbfWaistAndBreastRopeAA",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Studded\\Male\\body_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "zazanimationpack.esm:073F77",
+      "record": "1F073F77",
+      "editor_id": "zbfWaistAndBreastRopeAA",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "ZaZ-UltimateDataPack\\ZaZ - Accessories\\Restraints\\08ZAZ - WaistRopeWithBreastRope01\\WaistRopeWithBreastRope01_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "zazanimationpack.esm:073F79",
+      "record": "1F073F79",
+      "editor_id": "zbfWaistAndBreastRopeBB",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Studded\\Male\\body_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "zazanimationpack.esm:073F79",
+      "record": "1F073F79",
+      "editor_id": "zbfWaistAndBreastRopeBB",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "ZaZ-UltimateDataPack\\ZaZ - Accessories\\Restraints\\09ZAZ - WaistRopeWithBreastRope02\\WaistRopeWithBreastRope02_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "zazanimationpack.esm:0795DA",
+      "record": "1F0795DA",
+      "editor_id": "zbfBreastRopeExtremeAA01",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Studded\\Male\\body_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "zazanimationpack.esm:0795DA",
+      "record": "1F0795DA",
+      "editor_id": "zbfBreastRopeExtremeAA01",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "ZaZ-UltimateDataPack\\ZaZ - Accessories\\Restraints\\011ZaZ - BreastRopeExtreme01\\BreastRopeExtreme01_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "zazanimationpack.esm:0795DB",
+      "record": "1F0795DB",
+      "editor_id": "zbfBreastRopeExtremeAA02",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Studded\\Male\\body_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "zazanimationpack.esm:0795DB",
+      "record": "1F0795DB",
+      "editor_id": "zbfBreastRopeExtremeAA02",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "ZaZ-UltimateDataPack\\ZaZ - Accessories\\Restraints\\012ZaZ - BreastRopeExtreme02\\BreastRopeExtreme02_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "zazanimationpack.esm:07A0A4",
+      "record": "1F07A0A4",
+      "editor_id": "zbfBreastRopeWithWaistRopeExtremeAA01",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Studded\\Male\\body_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "zazanimationpack.esm:07A0A4",
+      "record": "1F07A0A4",
+      "editor_id": "zbfBreastRopeWithWaistRopeExtremeAA01",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "ZaZ-UltimateDataPack\\ZaZ - Accessories\\Restraints\\013ZaZ - BreastRopeWithWaistRopeExtreme01\\BreastRopeWithWaistRopeExtreme01_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "zazanimationpack.esm:07A0A5",
+      "record": "1F07A0A5",
+      "editor_id": "zbfBreastRopeWithWaistRopeExtremeAA02",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Studded\\Male\\body_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "zazanimationpack.esm:07A0A5",
+      "record": "1F07A0A5",
+      "editor_id": "zbfBreastRopeWithWaistRopeExtremeAA02",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "ZaZ-UltimateDataPack\\ZaZ - Accessories\\Restraints\\014ZaZ - BreastRopeWithWaistRopeExtreme02\\BreastRopeWithWaistRopeExtreme02_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "zazanimationpack.esm:089F59",
+      "record": "1F089F59",
+      "editor_id": "zbfStraightJacket",
+      "field": "MOD2",
+      "old_path": null,
+      "new_path": "Armor\\Studded\\Male\\body_1.nif",
+      "new_override_record": true
+    },
+    {
+      "source_key": "zazanimationpack.esm:089F59",
+      "record": "1F089F59",
+      "editor_id": "zbfStraightJacket",
+      "field": "MOD3",
+      "old_path": null,
+      "new_path": "ZaZ-UltimateDataPack\\ZaZ - Accessories\\Restraints\\019ZaZ - StraightJacket\\StraightJacket_1.nif",
+      "new_override_record": true
+    }
+  ],
+  "affected_source_keys": [
+    "(lilyrim)hongluanzhuojin.esp:000D6C",
+    "(lilyrim)hongluanzhuojin.esp:000D6E",
+    "(lilyrim)hongluanzhuojin.esp:000D70",
+    "(lilyrim)hongluanzhuojin.esp:000D72",
+    "[ashtoreth] ahlanna armor.esp:00080D",
+    "[ashtoreth] ahlanna armor.esp:000814",
+    "[ashtoreth] ahlanna armor.esp:000819",
+    "[ashtoreth] ahlanna armor.esp:000820",
+    "[ashtoreth] ahlanna armor.esp:000827",
+    "[ashtoreth] ahlanna armor.esp:000843",
+    "[ashtoreth] ahlanna armor.esp:000845",
+    "[ashtoreth] ahlanna armor.esp:000847",
+    "[ashtoreth] ahlanna armor.esp:000849",
+    "[ashtoreth] ahlanna armor.esp:00084B",
+    "[ashtoreth] ahlanna armor.esp:000D62",
+    "[ashtoreth] ahlanna armor.esp:000D63",
+    "[ashtoreth] ahlanna armor.esp:000D64",
+    "[dint999] bdor_guardian_wintermgs.esp:000D64",
+    "[dint999] bdor_guardian_wintermgs.esp:000D66",
+    "[dint999] bdor_guardian_wintermgs.esp:000D68",
+    "[dint999] bdor_guardian_wintermgs.esp:000D6A",
+    "[dint999] bdor_guardian_wintermgs.esp:000D78",
+    "[dint999] bdor_guardian_wintermgs.esp:000D7A",
+    "[dint999] bdor_guardian_wintermgs.esp:000D7C",
+    "[dint999] bdor_guardian_wintermgs.esp:000D84",
+    "[dint999] bdor_guardian_wintermgs.esp:000D86",
+    "[dint999] bdor_guardian_wintermgs.esp:000D88",
+    "[dint999] bdor_guardian_wintermgs.esp:000D8A",
+    "[dint999] bdor_guardian_wintermgs.esp:000D8C",
+    "[dint999] bdor_guardian_wintermgs.esp:000D8E",
+    "[dint999] bdor_guardian_wintermgs.esp:000D96",
+    "[dint999] bdor_guardian_wintermgs.esp:000D98",
+    "[dint999] bdor_guardian_wintermgs.esp:000D9A",
+    "[elle] elven assasin.esp:00080F",
+    "[elle] elven assasin.esp:000810",
+    "[elle] elven assasin.esp:000811",
+    "[elle] elven assasin.esp:000827",
+    "[elle] elven assasin.esp:000828",
+    "[elle] elven assasin.esp:000829",
+    "[elle] elven assasin.esp:000835",
+    "[elle] elven assasin.esp:000836",
+    "[elle] elven assasin.esp:000837",
+    "[elle] elven assasin.esp:00084B",
+    "[elle] elven assasin.esp:00084C",
+    "[elle] elven assasin.esp:00084D",
+    "[elle] elven assasin.esp:000857",
+    "[elle] elven assasin.esp:000858",
+    "[elle] elven assasin.esp:000859",
+    "[elle] elven assasin.esp:000D63",
+    "[elle] elven assasin.esp:000D64",
+    "[elle] elven assasin.esp:000D65",
+    "[kirax] bdo reborn darkborne rose.esp:00095E",
+    "[kirax] bdo reborn darkborne rose.esp:00095F",
+    "[kirax] bdo reborn darkborne rose.esp:000960",
+    "[kirax] bdo reborn darkborne rose.esp:000962",
+    "[kirax] bdo reborn darkborne rose.esp:0009D2",
+    "[kirax] bdo reborn darkborne rose.esp:0009E0",
+    "[kirax] bdo reborn darkborne rose.esp:0009E1",
+    "[kirax] bdo reborn darkborne rose.esp:0009E2",
+    "[kirax] bdo reborn darkborne rose.esp:0009E3",
+    "[kirax] bdo reborn darkborne rose.esp:0009E6",
+    "[kirax] bdo reborn darkborne rose.esp:0009F5",
+    "[kirax] bdo reborn darkborne rose.esp:0009F6",
+    "[kirax] bdo reborn darkborne rose.esp:0009F7",
+    "[kirax] bdo reborn darkborne rose.esp:0009F8",
+    "[kirax] bdo reborn darkborne rose.esp:0009FB",
+    "[kirax] bdo reborn lethena.esp:00095E",
+    "[kirax] bdo reborn lethena.esp:000960",
+    "[kirax] bdo reborn lethena.esp:000962",
+    "[kirax] bdo reborn nereid.esp:00095E",
+    "[kirax] bdo reborn nereid.esp:000960",
+    "[kirax] bdo reborn nereid.esp:000962",
+    "[kirax] bdo reborn selaine.esp:00095E",
+    "[kirax] bdo reborn selaine.esp:000960",
+    "[kirax] bdo reborn selaine.esp:000962",
+    "[kirax] bdo reborn sephia.esp:00095E",
+    "[kirax] bdo reborn sephia.esp:000960",
+    "[kirax] bdo reborn sephia.esp:000962",
+    "[kirax] loa elgacia.esp:000800",
+    "[kirax] loa elgacia.esp:000804",
+    "[kirax] loa elgacia.esp:000806",
+    "[kirax] loa elgacia.esp:000808",
+    "[kirax] loa sorceress eternal skin.esp:000800",
+    "[kirax] loa sorceress eternal skin.esp:000803",
+    "[kirax] loa sorceress eternal skin.esp:000842",
+    "[kirax] loa sorceress eternal skin.esp:000872",
+    "[kirax] loa sorceress eternal skin.esp:000873",
+    "[kirax] loa sorceress eternal skin.esp:000874",
+    "[kirax] ovr sorceress aegir.esp:000800",
+    "[kirax] ovr sorceress aegir.esp:000803",
+    "[kirax] ovr sorceress aegir.esp:000842",
+    "[odd] ryanreos spartan hoplite.esp:000804",
+    "[odd] ryanreos spartan hoplite.esp:000806",
+    "[odd] ryanreos spartan hoplite.esp:000808",
+    "[odd] ryanreos spartan hoplite.esp:00080A",
+    "[odd] ryanreos spartan hoplite.esp:00080C",
+    "[odd] ryanreos spartan hoplite.esp:000836",
+    "[odd] ryanreos spartan hoplite.esp:00085A",
+    "[odd] ryanreos spartan hoplite.esp:00085B",
+    "[odd] ryanreos spartan hoplite.esp:000877",
+    "ae_fallen_princess.esp:000D63",
+    "ae_tfd_bunny_dream_rascal.esp:000D70",
+    "ae_tfd_bunny_dream_rascal.esp:000D7B",
+    "ae_tfd_bunny_dream_rascal.esp:000D8B",
+    "alaristoauri.esp:000920",
+    "alaristoauri.esp:000921",
+    "alaristoauri.esp:000922",
+    "asuras guard [armor].esp:00081F",
+    "asuras guard [armor].esp:000D61",
+    "asuras guard [armor].esp:000D62",
+    "asuras guard [armor].esp:000D63",
+    "asuras guard [armor].esp:000D64",
+    "asuras guard [armor].esp:000D67",
+    "asuras guard [armor].esp:000D73",
+    "bde_armor.esp:000D61",
+    "bde_armor.esp:000D62",
+    "bde_armor.esp:000D63",
+    "bde_armor.esp:000D64",
+    "bde_armor.esp:005E70",
+    "bdor arditer.esp:000800",
+    "bdor arditer.esp:000806",
+    "bdor arditer.esp:000809",
+    "bdor arditer.esp:00080C",
+    "bdor arditer.esp:00080F",
+    "bdor chic lua.esp:000800",
+    "bdor chic lua.esp:000806",
+    "bdor chic lua.esp:000809",
+    "black rose.esp:000809",
+    "black rose.esp:000D62",
+    "corsair outfit.esp:0002D7",
+    "corsair outfit.esp:0002D9",
+    "corsair outfit.esp:0002DE",
+    "corsair outfit.esp:000308",
+    "corsair outfit.esp:000309",
+    "corsair outfit.esp:00030C",
+    "corsair outfit.esp:000311",
+    "corsair outfit.esp:000312",
+    "corsair outfit.esp:000315",
+    "courageousknight.esp:0007C4",
+    "courageousknight.esp:0007C6",
+    "courageousknight.esp:0007C9",
+    "courageousknight.esp:0007CF",
+    "courageousknight.esp:0007D1",
+    "courageousknight.esp:0007D4",
+    "courageousknight.esp:00080F",
+    "courageousknight.esp:000810",
+    "courageousknight.esp:00081A",
+    "dac0da.esm:000DAC",
+    "dac0da.esm:000DAD",
+    "dac0da.esm:000DB0",
+    "dark dreams.esl:000D61",
+    "dark dreams.esl:000D6A",
+    "dark dreams.esl:000D6B",
+    "dark dreams.esl:000D6C",
+    "darkwitch.esp:000800",
+    "darkwitch.esp:000802",
+    "darkwitch.esp:000806",
+    "ddangeli.esp:000D62",
+    "ddangeli.esp:001838",
+    "ddangeli.esp:001843",
+    "ddangeli.esp:00287C",
+    "ddangeli.esp:00287D",
+    "ddangeli.esp:00287E",
+    "eldritchdisciple.esp:000807",
+    "eldritchdisciple.esp:000808",
+    "eldritchdisciple.esp:00080D",
+    "eldritchdisciple.esp:000836",
+    "eldritchdisciple.esp:000837",
+    "eldritchdisciple.esp:00083A",
+    "eldritchdisciple.esp:00083F",
+    "eldritchdisciple.esp:000840",
+    "eldritchdisciple.esp:000843",
+    "elvenia armor.esp:000800",
+    "elvenia armor.esp:000802",
+    "elvenia armor.esp:00082D",
+    "elvenia armor.esp:00083A",
+    "elvenia armor.esp:000D62",
+    "fashionwtich set.esp:000800",
+    "fashionwtich set.esp:000801",
+    "fashionwtich set.esp:000802",
+    "fashionwtich set.esp:000833",
+    "fashionwtich set.esp:000847",
+    "fashionwtich set.esp:000848",
+    "fashionwtich set.esp:000849",
+    "fashionwtich set.esp:00084A",
+    "fashionwtich set.esp:000853",
+    "h2135fantasyseries8 [se].esp:000834",
+    "h2135fantasyseries8 [se].esp:000838",
+    "h2135fantasyseries8 [se].esp:00083A",
+    "h2135fantasyseries8 [se].esp:00083E",
+    "h2135fantasyseries8 [se].esp:000841",
+    "h2135fantasyseries8 [se].esp:000843",
+    "h2135fantasyseries8 [se].esp:000844",
+    "h2135fantasyseries8 [se].esp:000862",
+    "h2135fantasyseries8 [se].esp:000866",
+    "h2135fantasyseries8 [se].esp:000868",
+    "h2135fantasyseries8 [se].esp:00086C",
+    "h2135fantasyseries8 [se].esp:00086F",
+    "h2135fantasyseries8 [se].esp:000871",
+    "h2135fantasyseries8 [se].esp:000872",
+    "h2135fantasyseries8 [se].esp:0009A7",
+    "h2135fantasyseries8 [se].esp:0009A8",
+    "h2135fantasyseries8 [se].esp:0009A9",
+    "h2135fantasyseries8 [se].esp:0009BA",
+    "h2135fantasyseries8 [se].esp:0009DE",
+    "h2135fantasyseries8 [se].esp:0009E1",
+    "h2135fantasyseries8 [se].esp:0009E5",
+    "h2135fantasyseries8 [se].esp:0009E6",
+    "h2135fantasyseries8 [se].esp:0009EA",
+    "h2135fantasyseries8 [se].esp:0009ED",
+    "h2135fantasyseries8 [se].esp:0009EE",
+    "h2135fantasyseries8 [se].esp:0009F1",
+    "honeypopcorn skyrim overhaul.esp:D1997D",
+    "honeypopcorn skyrim overhaul.esp:D19980",
+    "honeypopcorn skyrim overhaul.esp:D19981",
+    "hoodu_follower.esp:000843",
+    "hoodu_follower.esp:000845",
+    "hoodu_follower.esp:00084F",
+    "k101daegon.esp:23CE8A",
+    "k101daegon.esp:23CE8C",
+    "k101daegon.esp:84F8BF",
+    "k101daegon.esp:84F8C0",
+    "latex lover corset plus.esp:00092B",
+    "latex lover corset plus.esp:00092E",
+    "latex lover corset plus.esp:000937",
+    "latex lover corset plus.esp:000951",
+    "niel_follower.esp:000840",
+    "niel_follower.esp:000841",
+    "niel_follower.esp:000842",
+    "regaliaofthescorned.esp:000800",
+    "regaliaofthescorned.esp:000801",
+    "regaliaofthescorned.esp:00080C",
+    "regaliaofthescorned.esp:00080D",
+    "the adventurer's guild - armor - goblin slayer.esp:000874",
+    "the adventurer's guild - armor - goblin slayer.esp:000895",
+    "the adventurer's guild - armor - goblin slayer.esp:000896",
+    "the adventurer's guild - armor - goblin slayer.esp:000897",
+    "the adventurer's guild - armor - goblin slayer.esp:00089B",
+    "the adventurer's guild - armor - goblin slayer.esp:0008B8",
+    "the adventurer's guild - armor - goblin slayer.esp:0008B9",
+    "the adventurer's guild - armor - goblin slayer.esp:0008BA",
+    "the adventurer's guild - armor - goblin slayer.esp:0008BE",
+    "the adventurer's guild - armor - goblin slayer.esp:0008CE",
+    "the adventurer's guild - armor - goblin slayer.esp:0008CF",
+    "the adventurer's guild - armor - goblin slayer.esp:0008D0",
+    "the adventurer's guild - armor - goblin slayer.esp:0008D4",
+    "the adventurer's guild - armor - goblin slayer.esp:0008DC",
+    "the adventurer's guild - armor - goblin slayer.esp:0008DE",
+    "the adventurer's guild - armor - goblin slayer.esp:0008EC",
+    "the adventurer's guild - armor - goblin slayer.esp:0008F2",
+    "the adventurer's guild - armor - goblin slayer.esp:0008FA",
+    "the adventurer's guild - armor - goblin slayer.esp:0008FE",
+    "the adventurer's guild - armor - goblin slayer.esp:000903",
+    "the adventurer's guild - armor - goblin slayer.esp:000904",
+    "the adventurer's guild - armor - goblin slayer.esp:000907",
+    "the adventurer's guild - armor - goblin slayer.esp:000908",
+    "the adventurer's guild - armor - goblin slayer.esp:00090B",
+    "the modern scrolls.esp:005FDB",
+    "vertigo boots.esp:000806",
+    "vertigo boots.esp:000D98",
+    "vertigo boots.esp:000DA4",
+    "vertigo boots.esp:000DB6",
+    "vertigo boots.esp:000DB7",
+    "vertigo boots.esp:000DB8",
+    "zazanimationpack.esm:009FE2",
+    "zazanimationpack.esm:02ECB8",
+    "zazanimationpack.esm:031D39",
+    "zazanimationpack.esm:035337",
+    "zazanimationpack.esm:073F77",
+    "zazanimationpack.esm:073F79",
+    "zazanimationpack.esm:0795DA",
+    "zazanimationpack.esm:0795DB",
+    "zazanimationpack.esm:07A0A4",
+    "zazanimationpack.esm:07A0A5",
+    "zazanimationpack.esm:089F59"
+  ],
+  "game_launched": false,
+  "scope": "MOD2/MOD3 changes and every model in newly overridden ARMA records; inherited-only gaps remain separately inventoried"
+}

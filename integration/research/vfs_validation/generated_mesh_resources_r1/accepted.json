@@ -1,0 +1,183 @@
+{
+  "schema": "skyrim.generated_mesh_acceptance.v1",
+  "status": "GENERATED_MESH_RESOURCES_VERIFIED",
+  "accepted": true,
+  "proof": {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\generated_mesh_vfs_proof_r1.json",
+    "sha256": "66047937aefc40367837f84b0239ae4ed6aaff7d84798290aff306904cfc0e82"
+  },
+  "resources": [
+    {
+      "path": "meshes/armor/goasbdearmor/bdecombined1stp_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:93b82b00000002000000000000000000",
+      "installed_file_id": "1D3EBF999BE7FE1F:93b82b00000002000000000000000000",
+      "sha256": "f5af06679e483ee0ff16c659a35052d0e24860d1ac7afd06db57e9f333c94fbb",
+      "bytes": 1133070
+    },
+    {
+      "path": "textures/armor/g_bde_armortextures/arm_d.dds",
+      "runtime_file_id": "1D3EBF999BE7FE1F:95b82b00000002000000000000000000",
+      "installed_file_id": "1D3EBF999BE7FE1F:95b82b00000002000000000000000000",
+      "sha256": "8d2f7c61a733d3461d018c92f931dcf4ba26630176c738ad4d9d45a701f2fd55",
+      "bytes": 1398256
+    },
+    {
+      "path": "textures/armor/g_bde_armortextures/arm_n.dds",
+      "runtime_file_id": "1D3EBF999BE7FE1F:96b82b00000002000000000000000000",
+      "installed_file_id": "1D3EBF999BE7FE1F:96b82b00000002000000000000000000",
+      "sha256": "0db0c9c7035fe4cb2f52acf115c5d01a665e3c656e275d2ee2f15d1394b278a4",
+      "bytes": 1398256
+    },
+    {
+      "path": "textures/armor/g_bde_armortextures/cube2_e.dds",
+      "runtime_file_id": "1D3EBF999BE7FE1F:97b82b00000002000000000000000000",
+      "installed_file_id": "1D3EBF999BE7FE1F:97b82b00000002000000000000000000",
+      "sha256": "690ca454569b76f7fb789dd5009aaa30278a6c8355de8f67aeb4121f6fa1d9dd",
+      "bytes": 1048784
+    },
+    {
+      "path": "textures/armor/g_bde_armortextures/arm_e.dds",
+      "runtime_file_id": "1D3EBF999BE7FE1F:98b82b00000002000000000000000000",
+      "installed_file_id": "1D3EBF999BE7FE1F:98b82b00000002000000000000000000",
+      "sha256": "e43d830c79214a077cd74f3cb865235b47208842224da2c55c72232d7fd90c1e",
+      "bytes": 1398256
+    },
+    {
+      "path": "textures/armor/g_bde_armortextures/alc_d.dds",
+      "runtime_file_id": "1D3EBF999BE7FE1F:99b82b00000002000000000000000000",
+      "installed_file_id": "1D3EBF999BE7FE1F:99b82b00000002000000000000000000",
+      "sha256": "dbbba53973648bf7648bf46309e7bf7a14fbdcb178b6dbf8755a750130038b6e",
+      "bytes": 1398256
+    },
+    {
+      "path": "textures/armor/g_bde_armortextures/alc_n.dds",
+      "runtime_file_id": "1D3EBF999BE7FE1F:9ab82b00000002000000000000000000",
+      "installed_file_id": "1D3EBF999BE7FE1F:9ab82b00000002000000000000000000",
+      "sha256": "3da833e47fb4552650093ccff9dc373e5b8dfebf3a08bb82b503bfd9b13430c4",
+      "bytes": 1398256
+    },
+    {
+      "path": "textures/armor/g_bde_armortextures/chrome_e.dds",
+      "runtime_file_id": "1D3EBF999BE7FE1F:9bb82b00000002000000000000000000",
+      "installed_file_id": "1D3EBF999BE7FE1F:9bb82b00000002000000000000000000",
+      "sha256": "690ca454569b76f7fb789dd5009aaa30278a6c8355de8f67aeb4121f6fa1d9dd",
+      "bytes": 1048784
+    },
+    {
+      "path": "textures/armor/g_bde_armortextures/alc_e.dds",
+      "runtime_file_id": "1D3EBF999BE7FE1F:9cb82b00000002000000000000000000",
+      "installed_file_id": "1D3EBF999BE7FE1F:9cb82b00000002000000000000000000",
+      "sha256": "7c6985b0511d7d7d75bb300e8a4e7e5331395adcac8665b261f7f302d4fbd28a",
+      "bytes": 1398256
+    },
+    {
+      "path": "meshes/putra/elvenia/1stperson_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:9fb82b00000002000000000000000000",
+      "installed_file_id": "1D3EBF999BE7FE1F:9fb82b00000002000000000000000000",
+      "sha256": "d047e7a140edc4629afe36577fd04da4227beb0e5f423a94c24b42249ddfefa9",
+      "bytes": 2728509
+    },
+    {
+      "path": "textures/putra/elvenia/cube.dds",
+      "runtime_file_id": "1D3EBF999BE7FE1F:a2b82b00000002000000000000000000",
+      "installed_file_id": "1D3EBF999BE7FE1F:a2b82b00000002000000000000000000",
+      "sha256": "024ade0f536c28aa2bc5d60b83c287d24b0902ab607fcd53ead0a16e6631dc06",
+      "bytes": 131380
+    },
+    {
+      "path": "textures/putra/elvenia/m/helmet_d.dds",
+      "runtime_file_id": "1D3EBF999BE7FE1F:a4b82b00000002000000000000000000",
+      "installed_file_id": "1D3EBF999BE7FE1F:a4b82b00000002000000000000000000",
+      "sha256": "3427657f8879101442a6bb5d3d3021e80cb4986414099489d897c77f83bd0961",
+      "bytes": 4194452
+    },
+    {
+      "path": "textures/putra/elvenia/m/gauntlets_d.dds",
+      "runtime_file_id": "1D3EBF999BE7FE1F:a5b82b00000002000000000000000000",
+      "installed_file_id": "1D3EBF999BE7FE1F:a5b82b00000002000000000000000000",
+      "sha256": "5a0f4d7430b54cc9f1a076994c604d668922214cb6c9cc50d1b0842baa58f1b5",
+      "bytes": 4194452
+    },
+    {
+      "path": "meshes/actors/dac0da/cgt/cavity/za/zahands.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:abb82b00000002000000000000000000",
+      "installed_file_id": "1D3EBF999BE7FE1F:abb82b00000002000000000000000000",
+      "sha256": "05cd4fce87aeb8e7e5b059c82c118ad6914ddd352cf991e81c9114337dcad023",
+      "bytes": 340961
+    },
+    {
+      "path": "textures/actors/dac0da/cgt/cavity/e0bdwexuxq.dds",
+      "runtime_file_id": "1D3EBF999BE7FE1F:b0b82b00000002000000000000000000",
+      "installed_file_id": "1D3EBF999BE7FE1F:b0b82b00000002000000000000000000",
+      "sha256": "9cbc947bb148362a0a4cbb09b46a2a66d2725acbd0033d6a2322deb6087ca3bb",
+      "bytes": 5592580
+    },
+    {
+      "path": "textures/actors/dac0da/cgt/cavity/e0bdwexuvw.dds",
+      "runtime_file_id": "1D3EBF999BE7FE1F:b1b82b00000002000000000000000000",
+      "installed_file_id": "1D3EBF999BE7FE1F:b1b82b00000002000000000000000000",
+      "sha256": "26211cd79019214304fd0263b5f5824aa6d45a28cffcfd2310d3579d67a2e269",
+      "bytes": 5592580
+    },
+    {
+      "path": "textures/actors/dac0da/cgt/cavity/e0bdwexyvvlbwfbqvq.dds",
+      "runtime_file_id": "1D3EBF999BE7FE1F:b2b82b00000002000000000000000000",
+      "installed_file_id": "1D3EBF999BE7FE1F:b2b82b00000002000000000000000000",
+      "sha256": "60528d84cb299231fd7d7f9a7faf6c08f500aede173cca12deb641875514d67d",
+      "bytes": 5592580
+    },
+    {
+      "path": "textures/actors/dac0da/cgt/cavity/e0bdwexyvvlbwfbqxw.dds",
+      "runtime_file_id": "1D3EBF999BE7FE1F:b3b82b00000002000000000000000000",
+      "installed_file_id": "1D3EBF999BE7FE1F:b3b82b00000002000000000000000000",
+      "sha256": "0dd28c7d82b4e472c51440cd0f0a026fad6b3a92fc899e1baa39173faa2a227b",
+      "bytes": 5592580
+    },
+    {
+      "path": "meshes/actors/dac0da/cgt/cavity/za/zatorso.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:b4b82b00000002000000000000000000",
+      "installed_file_id": "1D3EBF999BE7FE1F:b4b82b00000002000000000000000000",
+      "sha256": "3aebd8f6e74c69d83c082994a1f246bf95f565f7779ea86219136ec342674920",
+      "bytes": 1433640
+    },
+    {
+      "path": "meshes/actors/dac0da/cgt/cavity/za/zatorso1stp.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:b5b82b00000002000000000000000000",
+      "installed_file_id": "1D3EBF999BE7FE1F:b5b82b00000002000000000000000000",
+      "sha256": "bc2823a3fa14b25db8bc8de7df77954cc213fd5b33ea594ce4bd81c5c4c25a63",
+      "bytes": 145456
+    },
+    {
+      "path": "meshes/actors/character/character assets/1stpersonmalebody_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:b8b82b00000002000000000000000000",
+      "installed_file_id": "1D3EBF999BE7FE1F:b8b82b00000002000000000000000000",
+      "sha256": "3f53ea0a9fa51d2e38e9bf5c2281af12acf576be357a88dd4fbe4cace6c1eb9c",
+      "bytes": 50739
+    },
+    {
+      "path": "meshes/actors/dac0da/cgt/cavity/za/zafeet.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:b9b82b00000002000000000000000000",
+      "installed_file_id": "1D3EBF999BE7FE1F:b9b82b00000002000000000000000000",
+      "sha256": "943b443e110d375e99489d004b4d0148f348cc28f5e738b45f2cebf634180eba",
+      "bytes": 267603
+    },
+    {
+      "path": "meshes/clothes/beggarclothes/1stpersontorsom_0.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:bcb82b00000002000000000000000000",
+      "installed_file_id": "1D3EBF999BE7FE1F:bcb82b00000002000000000000000000",
+      "sha256": "0737036cfcd29aeb7343430252c16c362af528f15c15d0c1f56a66fb1329332b",
+      "bytes": 48814
+    }
+  ],
+  "inherited_source_gaps": [
+    {
+      "path": "meshes/_pgpatcher_dups/1/clothing/hoodu/setarmors_1.nif",
+      "source_key": "hoodu_follower.esp:00084F",
+      "field": "MOD3",
+      "source_plugin": "Hoodu_Follower.esp",
+      "disposition": "INHERITED_UNCHANGED_SOURCE_GAP_RETAINED_NO_ALIAS",
+      "scope": "Not a new Synthesis dependency; final full resource disposition remains required"
+    }
+  ],
+  "scope": "Exact 23 files, eight mesh material closures and retained inherited-gap proof; not final all-resource or in-game acceptance"
+}

@@ -19,9 +19,14 @@ def main():
     parser.add_argument('--replay', required=True)
     parser.add_argument('--diagnostic-receipt', required=True)
     parser.add_argument('--task', required=True)
+    parser.add_argument('--arma-delta', required=True)
+    parser.add_argument('--input-models', required=True)
     parser.add_argument('--output', required=True)
     args = parser.parse_args()
     assert vfs.injected(), 'Actual usvfs injection is required'
+    output = Path(args.output).resolve()
+    if not output.is_relative_to(HERE):
+        raise ValueError('Validation report must stay in synthesis_final')
     replay_path = Path(args.replay).resolve(strict=True)
     replay = json.loads(replay_path.read_text('utf-8'))
     assert replay['status'] == 'REPLAY_COMPLETED_OUTPUT_NOT_DEPLOYED_NEEDS_SEMANTIC_AND_XEDIT_VALIDATION'
@@ -29,6 +34,14 @@ def main():
     receipt_path = Path(args.diagnostic_receipt).resolve(strict=True)
     receipt = json.loads(receipt_path.read_text('utf-8'))
     assert receipt['status'] == 'DIAGNOSTIC_PROFILE_READY_NOT_PRODUCTION_INSTALLATION'
+    delta_path = Path(args.arma_delta).resolve(strict=True)
+    armor_delta = json.loads(delta_path.read_text('utf-8'))
+    assert armor_delta['schema'] == 'skyrim.synthesis.arma_delta.v1'
+    assert armor_delta['status'] == 'ARMA_DELTA_READY_FOR_SCOPED_RUNTIME_AUDIT'
+    assert armor_delta['replay_result_sha256'] == vfs.digest(replay_path)
+    assert armor_delta['candidate']['sha256'] == replay['final_plugin_candidate']['sha256']
+    assert not armor_delta['removed_source_records']
+    affected = set(armor_delta['affected_source_keys'])
     task = Path(args.task).resolve(strict=True)
     result = json.loads((task / 'result.json').read_text('utf-8'))
     prepared = json.loads((task / 'prepared.json').read_text('utf-8'))
@@ -55,14 +68,25 @@ def main():
     assert not (records[0]['flags'] & 0x200), 'Synthesis must remain a full plugin'
     for record in records[1:]:
         assert (record['fid'] >> 24) < len(masters), ('Own record outside allowed override scope', record['fid'])
+    from synthesis_source_models import SourceModels, origin
+    from synthesis_input_models import load_verified
+    input_fields, input_report = load_verified(args.input_models, delta_path, vfs.digest)
+    source_models = SourceModels(None, None, input_fields=input_fields)
     model_checks = []
     missing = []
+    seen_affected = set()
     for record in records:
         if record['sig'] != 'ARMA':
             continue
+        key = f'{masters[record["fid"] >> 24].casefold()}:{record["fid"] & 0xffffff:06X}'
+        source_fields = None
+        if key in affected:
+            seen_affected.add(key)
+            source_fields = source_models.fields_for(masters, record)
         for tag, value in record['fields']:
             if tag not in ('MOD2', 'MOD3', 'MOD4', 'MOD5') or not value:
                 continue
+            source_origin = origin(source_fields, tag, value) if source_fields is not None else 'outside_synthesis_scope'
             path = vfs.asset_key(value.rstrip(b'\0').decode('utf-8'), kind='model')
             if not path:
                 raise ValueError('Unsafe or unsupported ARMA model path: ' + value.decode('utf-8', errors='replace'))
@@ -72,42 +96,59 @@ def main():
             except OSError as exc:
                 if getattr(exc, 'winerror', None) not in (2, 3):
                     raise
-                missing.append({'record': f'{record["fid"]:08X}', 'field': tag, 'path': path})
+                missing.append({'source_key': key, 'record': f'{record["fid"]:08X}', 'field': tag, 'path': path, 'origin': source_origin})
                 continue
-            model_checks.append({'record': f'{record["fid"]:08X}', 'field': tag, 'path': path, 'file_id': identity})
-    if missing:
-        raise ValueError('Missing generated ARMA models: ' + json.dumps(missing))
+            if key in affected:
+                model_checks.append({'source_key': key, 'record': f'{record["fid"]:08X}', 'field': tag, 'path': path, 'origin': source_origin, 'file_id': identity})
+    assert seen_affected == affected, 'Final candidate lost an affected ARMA source record'
     checked_log = (task / 'logs/xedit.log').read_text('utf-8-sig', errors='replace')
     assert f'SYNTHESIS_NATIVE_CHECKED|{len(records) - 1}|ERRORS=0' in checked_log
     assert 'SYNTHESIS_NATIVE_CHECK_PASS' in checked_log
-    report = {
-        'schema': 'skyrim.synthesis_candidate.validation.v1',
-        'status': 'SYNTHESIS_CANDIDATE_STATIC_PASS_PENDING_INSTALLATION',
+    generated_missing = [row for row in missing if row['origin'] == 'changed_by_synthesis']
+    inherited_missing = [row for row in missing if row['origin'] != 'changed_by_synthesis']
+    common = {
         'candidate': {'path': str(candidate), 'sha256': vfs.digest(candidate), 'bytes': candidate.stat().st_size,
                       'records': len(records) - 1, 'masters': len(masters), 'full_plugin': True, 'own_records': 0},
-        'record_signatures': dict(collections.Counter(record['sig'] for record in records[1:])),
-        'stages': [{'index': row['index'], 'name': row['name'], 'return_code': row['return_code'],
-                    'output_sha256': row['output']['sha256']} for row in replay['stages']],
         'native_check': {'task': str(task), 'result_sha256': vfs.digest(task / 'result.json'),
                          'records': len(records) - 1, 'diagnostics': 0,
                          'native_plugin_order_sha256': result['native_loaded_context']['order_sha256']},
-        'armor_model_references': model_checks,
-        'armor_model_reference_count': len(model_checks),
-        'sidecar': {'path': str(sidecar), 'sha256': vfs.digest(sidecar), 'original_restored': True,
-                    'original_sha256': replay['original_sidecar_sha256']},
+        'affected_arma_record_count': len(affected),
+        'available_affected_model_reference_count': len(model_checks),
+        'generated_missing_references': generated_missing,
+        'inherited_missing_reference_count': len(inherited_missing),
+        'inherited_missing_references': inherited_missing,
+        'arma_delta_sha256': vfs.digest(delta_path),
+        'input_models': {'path': str(Path(args.input_models).resolve()), 'sha256': vfs.digest(args.input_models),
+                         'native_task': input_report['native_task']},
         'diagnostic_receipt_sha256': vfs.digest(receipt_path),
         'replay_result_sha256': vfs.digest(replay_path),
-        'original_packs_modified': False, 'game_launched': False,
-        'next': 'Install the reviewed generated plugin and captured sidecar with rollback, disable the temporary ZZ88 workspace, then repeat the actual VFS checks before acceptance.'
+        'original_packs_modified': False, 'game_launched': False
     }
-    output = Path(args.output).resolve()
-    if not output.is_relative_to(HERE):
-        raise ValueError('Validation report must stay in synthesis_final')
+    if generated_missing:
+        report = {'schema': 'skyrim.synthesis_candidate.generated_arma_resource_blocker.v1',
+                  'status': 'SYNTHESIS_GENERATED_ARMA_RESOURCE_BLOCKER', **common,
+                  'scope': 'Generated ARMA dependencies block installation; inherited-only gaps require separate final disposition'}
+        with output.open('x', encoding='utf-8', newline='\n') as stream:
+            json.dump(report, stream, ensure_ascii=False, indent=2)
+            stream.write('\n')
+        raise ValueError('Missing generated ARMA models; see ' + str(output))
+    report = {
+        'schema': 'skyrim.synthesis_candidate.validation.v2',
+        'status': 'SYNTHESIS_CANDIDATE_SCOPED_STATIC_PASS_PENDING_INSTALLATION', **common,
+        'record_signatures': dict(collections.Counter(record['sig'] for record in records[1:])),
+        'stages': [{'index': row['index'], 'name': row['name'], 'return_code': row['return_code'],
+                    'output_sha256': row['output']['sha256']} for row in replay['stages']],
+        'armor_model_references': model_checks,
+        'sidecar': {'path': str(sidecar), 'sha256': vfs.digest(sidecar), 'original_restored': True,
+                    'original_sha256': replay['original_sidecar_sha256']},
+        'next': 'Install the reviewed plugin and captured sidecar, then repeat native and actual VFS checks. Inherited-only gaps still require final consumer/resource disposition.'
+    }
     with output.open('x', encoding='utf-8', newline='\n') as stream:
         json.dump(report, stream, ensure_ascii=False, indent=2)
         stream.write('\n')
     print(json.dumps({'status': report['status'], 'records': len(records) - 1,
-                      'masters': len(masters), 'model_references': len(model_checks), 'report': str(output)}, indent=2))
+                      'masters': len(masters), 'affected_model_references': len(model_checks),
+                      'inherited_missing_references': len(inherited_missing), 'report': str(output)}, indent=2))
 
 
 if __name__ == '__main__':

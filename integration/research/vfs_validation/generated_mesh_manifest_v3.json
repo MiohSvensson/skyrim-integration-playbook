@@ -1,0 +1,1469 @@
+{
+  "schema": "skyrim.generated_mesh_audit.v1",
+  "status": "READY_FOR_PRIVATE_RESOURCE_INSTALL",
+  "candidate": {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\synthesis_final\\runs\\final_v8\\output\\06-Skyrim-RemoveLandscapeVertexColor\\Synthesis - Patch.esp",
+    "sha256": "5f8f491fc086631868ecd78fb4f19c09b76e9a8a4e3b0cb20d5156611cfc64a8",
+    "bytes": 72559932
+  },
+  "arma_delta": {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\synthesis_final\\synthesis_v8_arma_delta_manifest.json",
+    "sha256": "71cb18f6c671070a53e3544a14e493f16c02a97f25b8c730e06dd06aa1123527",
+    "bytes": 178592
+  },
+  "input_models": {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\synthesis_final\\synthesis_input_models_manifest.json",
+    "sha256": "3a846400b3ae045e0bedd767e56a56b1877931d93d07876eb75f435daae51cc7",
+    "bytes": 55124
+  },
+  "affected_record_count": 275,
+  "missing_model_count": 8,
+  "resource_count": 23,
+  "resources": [
+    {
+      "path": "meshes/armor/studded/male/body_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:0bf74800000001000000000000000000"
+    },
+    {
+      "path": "meshes/ae_fallen_princess/ae_fallen_princess_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:8adf0c00000010000000000000000000"
+    },
+    {
+      "path": "meshes/armor/hide/m/cuirassheavy_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:83064900000001000000000000000000"
+    },
+    {
+      "path": "meshes/thebottomhoodofsteel/fashionwitchset/fw_dress_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:1cc12a00000008000000000000000000"
+    },
+    {
+      "path": "meshes/n8k/black rose/body2_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:2aed2400000002000000000000000000"
+    },
+    {
+      "path": "meshes/n8k/black rose/body1_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:27ed2400000002000000000000000000"
+    },
+    {
+      "path": "meshes/armor/daedric/daedriccuirass_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:58074900000001000000000000000000"
+    },
+    {
+      "path": "meshes/ovr sorceress aegir/ae_main_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:f0c02a00000008000000000000000000"
+    },
+    {
+      "path": "meshes/bdo reborn selaine/s_main_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:b8c02a00000008000000000000000000"
+    },
+    {
+      "path": "meshes/bdo reborn nereid/c_main_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:b4c02a00000008000000000000000000"
+    },
+    {
+      "path": "meshes/bdo reborn sephia/se_main_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:bcc02a00000008000000000000000000"
+    },
+    {
+      "path": "meshes/loa 002/002_main_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:dac02a00000008000000000000000000"
+    },
+    {
+      "path": "meshes/loa sorceress eternal/se_main_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:e2c02a00000008000000000000000000"
+    },
+    {
+      "path": "meshes/loa sorceress eternal/alt/se_main_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:dfc02a00000008000000000000000000"
+    },
+    {
+      "path": "meshes/armor/elven/m/cuirasslight_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:9d064900000001000000000000000000"
+    },
+    {
+      "path": "meshes/hongluanzhuojin/dress_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:ccc02a00000008000000000000000000"
+    },
+    {
+      "path": "meshes/armor/nordplate/nordcuirassm_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:32434900000001000000000000000000"
+    },
+    {
+      "path": "meshes/_pgpatcher_dups/1/harry2135/fantasyseries8/fs8add_chainmail_top_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:551e4900000001000000000000000000"
+    },
+    {
+      "path": "meshes/armor/aokili/courageousknight/cuirass_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:d66e1800000003000000000000000000"
+    },
+    {
+      "path": "meshes/armor/orcish/cuirassm_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:ab064900000001000000000000000000"
+    },
+    {
+      "path": "meshes/armor/aokili/eldritchdisciple/cuirass_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:43064900000001000000000000000000"
+    },
+    {
+      "path": "meshes/_pgpatcher_dups/1/harry2135/fantasyseries8/fs8_cuirasscm_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:e91d4900000001000000000000000000"
+    },
+    {
+      "path": "meshes/_pgpatcher_dups/1/harry2135/fantasyseries8/fs8_cuirasscmrealistic_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:f01d4900000001000000000000000000"
+    },
+    {
+      "path": "meshes/armor/aokili/corsairoutfit/cuirass_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:3f064900000001000000000000000000"
+    },
+    {
+      "path": "meshes/_pgpatcher_dups/1/harry2135/fantasyseries8/fs8_cuirass_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:e31d4900000001000000000000000000"
+    },
+    {
+      "path": "meshes/_pgpatcher_dups/1/harry2135/fantasyseries8/fs8_cuirassrealistic_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:f41d4900000001000000000000000000"
+    },
+    {
+      "path": "meshes/_pgpatcher_dups/1/harry2135/fantasyseries8/fs8add_breastplate_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:341e4900000001000000000000000000"
+    },
+    {
+      "path": "meshes/_pgpatcher_dups/1/harry2135/fantasyseries8/fs8add_breastplaterealistic_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:441e4900000001000000000000000000"
+    },
+    {
+      "path": "meshes/_pgpatcher_dups/1/harry2135/fantasyseries8/fs8add_breastplatecm_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:3b1e4900000001000000000000000000"
+    },
+    {
+      "path": "meshes/_pgpatcher_dups/1/harry2135/fantasyseries8/fs8add_breastplatecmrealistic_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:401e4900000001000000000000000000"
+    },
+    {
+      "path": "meshes/armor/ebony/m/cuirass_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:3a064900000001000000000000000000"
+    },
+    {
+      "path": "meshes/armor/dark dreams/ddbra_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:86701800000003000000000000000000"
+    },
+    {
+      "path": "meshes/armor/dark dreams/ddfull_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:89701800000003000000000000000000"
+    },
+    {
+      "path": "meshes/armor/steel/cuirasslight_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:a2064900000001000000000000000000"
+    },
+    {
+      "path": "meshes/armor/hsochaintop_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:6afd1700000003000000000000000000"
+    },
+    {
+      "path": "meshes/armor/hsochaintop2_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:68fd1700000003000000000000000000"
+    },
+    {
+      "path": "meshes/armor/regaliaofthescorned/rotstop_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:db721800000003000000000000000000"
+    },
+    {
+      "path": "meshes/actors/character/character assets/1stpersonfemalebody_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:3fd9020000000e000000000000000000"
+    },
+    {
+      "path": "meshes/armor/glass/m/cuirass_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:49064900000001000000000000000000"
+    },
+    {
+      "path": "meshes/armor/regaliaofthescorned/rotscombined_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:0e524900000001000000000000000000"
+    },
+    {
+      "path": "meshes/armor/goasbdearmor/bde_top_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:64711800000003000000000000000000"
+    },
+    {
+      "path": "meshes/armor/goasbdearmor/bde_breastplate_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:3a711800000003000000000000000000"
+    },
+    {
+      "path": "meshes/armor/goasbdearmor/bde_combined_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:3d711800000003000000000000000000"
+    },
+    {
+      "path": "meshes/armor/goasbdearmor/bdecombined1stp_1.nif",
+      "source": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\generated_mesh_sources\\meshes\\armor\\goasbdearmor\\bdecombined1stp_1.nif",
+        "sha256": "f5af06679e483ee0ff16c659a35052d0e24860d1ac7afd06db57e9f333c94fbb",
+        "bytes": 1133070
+      },
+      "basis": "Exact archive-backed author asset: E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\[LED]Bladedancer's Edge [블레이드 댄서]\\BDE_Armor.bsa",
+      "mesh_sha256": "f5af06679e483ee0ff16c659a35052d0e24860d1ac7afd06db57e9f333c94fbb"
+    },
+    {
+      "path": "textures/armor/g_bde_armortextures/arm_d.dds",
+      "source": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\generated_mesh_sources\\textures\\armor\\g_bde_armortextures\\arm_d.dds",
+        "sha256": "8d2f7c61a733d3461d018c92f931dcf4ba26630176c738ad4d9d45a701f2fd55",
+        "bytes": 1398256
+      },
+      "basis": "Exact archive-backed author asset: E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\[LED]Bladedancer's Edge [블레이드 댄서]\\BDE_Armor.bsa"
+    },
+    {
+      "path": "textures/armor/g_bde_armortextures/arm_n.dds",
+      "source": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\generated_mesh_sources\\textures\\armor\\g_bde_armortextures\\arm_n.dds",
+        "sha256": "0db0c9c7035fe4cb2f52acf115c5d01a665e3c656e275d2ee2f15d1394b278a4",
+        "bytes": 1398256
+      },
+      "basis": "Exact archive-backed author asset: E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\[LED]Bladedancer's Edge [블레이드 댄서]\\BDE_Armor.bsa"
+    },
+    {
+      "path": "textures/armor/g_bde_armortextures/cube2_e.dds",
+      "source": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\generated_mesh_sources\\textures\\armor\\g_bde_armortextures\\cube2_e.dds",
+        "sha256": "690ca454569b76f7fb789dd5009aaa30278a6c8355de8f67aeb4121f6fa1d9dd",
+        "bytes": 1048784
+      },
+      "basis": "Exact archive-backed author asset: E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\[LED]Bladedancer's Edge [블레이드 댄서]\\BDE_Armor.bsa"
+    },
+    {
+      "path": "textures/armor/g_bde_armortextures/arm_e.dds",
+      "source": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\generated_mesh_sources\\textures\\armor\\g_bde_armortextures\\arm_e.dds",
+        "sha256": "e43d830c79214a077cd74f3cb865235b47208842224da2c55c72232d7fd90c1e",
+        "bytes": 1398256
+      },
+      "basis": "Exact archive-backed author asset: E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\[LED]Bladedancer's Edge [블레이드 댄서]\\BDE_Armor.bsa"
+    },
+    {
+      "path": "textures/armor/g_bde_armortextures/alc_d.dds",
+      "source": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\generated_mesh_sources\\textures\\armor\\g_bde_armortextures\\alc_d.dds",
+        "sha256": "dbbba53973648bf7648bf46309e7bf7a14fbdcb178b6dbf8755a750130038b6e",
+        "bytes": 1398256
+      },
+      "basis": "Exact archive-backed author asset: E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\[LED]Bladedancer's Edge [블레이드 댄서]\\BDE_Armor.bsa"
+    },
+    {
+      "path": "textures/armor/g_bde_armortextures/alc_n.dds",
+      "source": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\generated_mesh_sources\\textures\\armor\\g_bde_armortextures\\alc_n.dds",
+        "sha256": "3da833e47fb4552650093ccff9dc373e5b8dfebf3a08bb82b503bfd9b13430c4",
+        "bytes": 1398256
+      },
+      "basis": "Exact archive-backed author asset: E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\[LED]Bladedancer's Edge [블레이드 댄서]\\BDE_Armor.bsa"
+    },
+    {
+      "path": "textures/armor/g_bde_armortextures/chrome_e.dds",
+      "source": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\generated_mesh_sources\\textures\\armor\\g_bde_armortextures\\chrome_e.dds",
+        "sha256": "690ca454569b76f7fb789dd5009aaa30278a6c8355de8f67aeb4121f6fa1d9dd",
+        "bytes": 1048784
+      },
+      "basis": "Exact archive-backed author asset: E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\[LED]Bladedancer's Edge [블레이드 댄서]\\BDE_Armor.bsa"
+    },
+    {
+      "path": "textures/armor/g_bde_armortextures/alc_e.dds",
+      "source": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\generated_mesh_sources\\textures\\armor\\g_bde_armortextures\\alc_e.dds",
+        "sha256": "7c6985b0511d7d7d75bb300e8a4e7e5331395adcac8665b261f7f302d4fbd28a",
+        "bytes": 1398256
+      },
+      "basis": "Exact archive-backed author asset: E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\[LED]Bladedancer's Edge [블레이드 댄서]\\BDE_Armor.bsa"
+    },
+    {
+      "path": "textures/actors/character/female/femalebody_1.dds",
+      "runtime_file_id": "1D3EBF999BE7FE1F:77cb1900000002000000000000000000"
+    },
+    {
+      "path": "textures/actors/character/female/femalebody_1_msn.dds",
+      "runtime_file_id": "1D3EBF999BE7FE1F:78cb1900000002000000000000000000"
+    },
+    {
+      "path": "textures/actors/character/female/femalebody_1_sk.dds",
+      "runtime_file_id": "1D3EBF999BE7FE1F:7acb1900000002000000000000000000"
+    },
+    {
+      "path": "textures/actors/character/female/femalebody_1_s.dds",
+      "runtime_file_id": "1D3EBF999BE7FE1F:79cb1900000002000000000000000000"
+    },
+    {
+      "path": "meshes/goampuja/asurasguard/asurascombined_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:c4871800000003000000000000000000"
+    },
+    {
+      "path": "meshes/bdo reborn lethena/le_main_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:96354900000001000000000000000000"
+    },
+    {
+      "path": "meshes/armor/[d] bdor/guardian/winter mountain guardian spirit/cuirasshc_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:a2791800000003000000000000000000"
+    },
+    {
+      "path": "meshes/armor/[d] bdor/guardian/winter mountain guardian spirit/cuirass3_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:9f791800000003000000000000000000"
+    },
+    {
+      "path": "meshes/armor/[d] bdor/guardian/winter mountain guardian spirit/cuirass1_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:99791800000003000000000000000000"
+    },
+    {
+      "path": "meshes/armor/[d] bdor/guardian/winter mountain guardian spirit/cuirass2_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:9c791800000003000000000000000000"
+    },
+    {
+      "path": "meshes/armor/[elle] elven assasin/dress_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:ed7a1800000003000000000000000000"
+    },
+    {
+      "path": "meshes/putra/elvenia/elveniabra_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:368a1800000003000000000000000000"
+    },
+    {
+      "path": "meshes/putra/elvenia/1stperson_1.nif",
+      "source": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\generated_mesh_sources\\meshes\\putra\\elvenia\\1stperson_1.nif",
+        "sha256": "d047e7a140edc4629afe36577fd04da4227beb0e5f423a94c24b42249ddfefa9",
+        "bytes": 2728509
+      },
+      "basis": "Exact archive-backed author asset: E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\Elvenia Armor CBBE 3BA\\Elvenia Armor.bsa",
+      "mesh_sha256": "d047e7a140edc4629afe36577fd04da4227beb0e5f423a94c24b42249ddfefa9"
+    },
+    {
+      "path": "textures/putra/elvenia/m/cuirass_d.dds",
+      "runtime_file_id": "1D3EBF999BE7FE1F:46d81c00000002000000000000000000"
+    },
+    {
+      "path": "textures/putra/elvenia/m/cuirass_n.dds",
+      "runtime_file_id": "1D3EBF999BE7FE1F:48d81c00000002000000000000000000"
+    },
+    {
+      "path": "textures/putra/elvenia/cube.dds",
+      "source": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\generated_mesh_sources\\textures\\putra\\elvenia\\cube.dds",
+        "sha256": "024ade0f536c28aa2bc5d60b83c287d24b0902ab607fcd53ead0a16e6631dc06",
+        "bytes": 131380
+      },
+      "basis": "Exact archive-backed author asset: E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\Elvenia Armor CBBE 3BA\\Elvenia Armor - Textures.bsa"
+    },
+    {
+      "path": "textures/putra/elvenia/m/cuirass_m.dds",
+      "runtime_file_id": "1D3EBF999BE7FE1F:47d81c00000002000000000000000000"
+    },
+    {
+      "path": "textures/putra/elvenia/m/helmet_d.dds",
+      "source": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\generated_mesh_sources\\textures\\putra\\elvenia\\m\\helmet_d.dds",
+        "sha256": "3427657f8879101442a6bb5d3d3021e80cb4986414099489d897c77f83bd0961",
+        "bytes": 4194452
+      },
+      "basis": "Exact archive-backed author asset: E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\Elvenia Armor CBBE 3BA\\Elvenia Armor - Textures.bsa"
+    },
+    {
+      "path": "textures/putra/elvenia/m/helmet_n.dds",
+      "runtime_file_id": "1D3EBF999BE7FE1F:4cd81c00000002000000000000000000"
+    },
+    {
+      "path": "textures/putra/elvenia/m/helmet_m.dds",
+      "runtime_file_id": "1D3EBF999BE7FE1F:4bd81c00000002000000000000000000"
+    },
+    {
+      "path": "textures/putra/elvenia/m/gauntlets_d.dds",
+      "source": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\generated_mesh_sources\\textures\\putra\\elvenia\\m\\gauntlets_d.dds",
+        "sha256": "5a0f4d7430b54cc9f1a076994c604d668922214cb6c9cc50d1b0842baa58f1b5",
+        "bytes": 4194452
+      },
+      "basis": "Exact archive-backed author asset: E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\Elvenia Armor CBBE 3BA\\Elvenia Armor - Textures.bsa"
+    },
+    {
+      "path": "textures/putra/elvenia/m/gauntlets_n.dds",
+      "runtime_file_id": "1D3EBF999BE7FE1F:4ad81c00000002000000000000000000"
+    },
+    {
+      "path": "textures/putra/elvenia/m/gauntlets_m.dds",
+      "runtime_file_id": "1D3EBF999BE7FE1F:49d81c00000002000000000000000000"
+    },
+    {
+      "path": "meshes/putra/elvenia/elveniabrabodysuit_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:348a1800000003000000000000000000"
+    },
+    {
+      "path": "meshes/bdo reborn darkborne rose/dr_main_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:1e104900000001000000000000000000"
+    },
+    {
+      "path": "meshes/bdo reborn darkborne rose/alt/dr_main_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:1f104900000001000000000000000000"
+    },
+    {
+      "path": "meshes/bdo reborn darkborne rose/alt2/dr_main_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:20104900000001000000000000000000"
+    },
+    {
+      "path": "meshes/armor/bdor arditer/body_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:26701800000003000000000000000000"
+    },
+    {
+      "path": "meshes/armor/studded/female/body_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:0cf74800000001000000000000000000"
+    },
+    {
+      "path": "meshes/armor/bdor arditer/1st/body_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:04411800000003000000000000000000"
+    },
+    {
+      "path": "meshes/armor/hedgewitch/dress_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:9d711800000003000000000000000000"
+    },
+    {
+      "path": "meshes/armor/hedgewitch/1stdress_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:a5f71800000003000000000000000000"
+    },
+    {
+      "path": "meshes/[ashtoreth] ahlanna top/[ashtoreth] ahlanna top_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:588b1800000003000000000000000000"
+    },
+    {
+      "path": "meshes/gipsy danger armor.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:c6681200000007000000000000000000"
+    },
+    {
+      "path": "meshes/armor/daedric/daedrichelmetf_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:68074900000001000000000000000000"
+    },
+    {
+      "path": "meshes/1stgipsy.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:15671200000007000000000000000000"
+    },
+    {
+      "path": "meshes/ata-armor/auri_gwbikini_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:bd101b00000004000000000000000000"
+    },
+    {
+      "path": "meshes/_pgpatcher_dups/1/clothing/hoodu/1st_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:0ae64800000001000000000000000000"
+    },
+    {
+      "path": "meshes/k101daegonarmor/count_femalebodynoplate_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:60e41800000003000000000000000000"
+    },
+    {
+      "path": "meshes/k101daegonarmor/daegonroyalarmor_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:8e074900000001000000000000000000"
+    },
+    {
+      "path": "meshes/actors/dac0da/cgt/cavity/za/zahands.nif",
+      "source": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\generated_mesh_sources\\meshes\\actors\\dac0da\\cgt\\cavity\\za\\zahands.nif",
+        "sha256": "05cd4fce87aeb8e7e5b059c82c118ad6914ddd352cf991e81c9114337dcad023",
+        "bytes": 340961
+      },
+      "basis": "Exact archive-backed author asset: E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\DAc0da\\DAc0da.bsa",
+      "mesh_sha256": "05cd4fce87aeb8e7e5b059c82c118ad6914ddd352cf991e81c9114337dcad023"
+    },
+    {
+      "path": "textures/actors/dac0da/cgt/cavity/e0bdwexuxq.dds",
+      "source": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\generated_mesh_sources\\textures\\actors\\dac0da\\cgt\\cavity\\e0bdwexuxq.dds",
+        "sha256": "9cbc947bb148362a0a4cbb09b46a2a66d2725acbd0033d6a2322deb6087ca3bb",
+        "bytes": 5592580
+      },
+      "basis": "Exact archive-backed author asset: E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\DAc0da\\DAc0da.bsa"
+    },
+    {
+      "path": "textures/actors/dac0da/cgt/cavity/e0bdwexuvw.dds",
+      "source": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\generated_mesh_sources\\textures\\actors\\dac0da\\cgt\\cavity\\e0bdwexuvw.dds",
+        "sha256": "26211cd79019214304fd0263b5f5824aa6d45a28cffcfd2310d3579d67a2e269",
+        "bytes": 5592580
+      },
+      "basis": "Exact archive-backed author asset: E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\DAc0da\\DAc0da.bsa"
+    },
+    {
+      "path": "textures/actors/dac0da/cgt/cavity/e0bdwexyvvlbwfbqvq.dds",
+      "source": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\generated_mesh_sources\\textures\\actors\\dac0da\\cgt\\cavity\\e0bdwexyvvlbwfbqvq.dds",
+        "sha256": "60528d84cb299231fd7d7f9a7faf6c08f500aede173cca12deb641875514d67d",
+        "bytes": 5592580
+      },
+      "basis": "Exact archive-backed author asset: E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\DAc0da\\DAc0da.bsa"
+    },
+    {
+      "path": "textures/actors/dac0da/cgt/cavity/e0bdwexyvvlbwfbqxw.dds",
+      "source": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\generated_mesh_sources\\textures\\actors\\dac0da\\cgt\\cavity\\e0bdwexyvvlbwfbqxw.dds",
+        "sha256": "0dd28c7d82b4e472c51440cd0f0a026fad6b3a92fc899e1baa39173faa2a227b",
+        "bytes": 5592580
+      },
+      "basis": "Exact archive-backed author asset: E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\DAc0da\\DAc0da.bsa"
+    },
+    {
+      "path": "meshes/armor/ebony/f/gauntlets_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:8f234900000001000000000000000000"
+    },
+    {
+      "path": "meshes/actors/dac0da/cgt/cavity/za/zatorso.nif",
+      "source": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\generated_mesh_sources\\meshes\\actors\\dac0da\\cgt\\cavity\\za\\zatorso.nif",
+        "sha256": "3aebd8f6e74c69d83c082994a1f246bf95f565f7779ea86219136ec342674920",
+        "bytes": 1433640
+      },
+      "basis": "Exact archive-backed author asset: E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\DAc0da\\DAc0da.bsa",
+      "mesh_sha256": "3aebd8f6e74c69d83c082994a1f246bf95f565f7779ea86219136ec342674920"
+    },
+    {
+      "path": "meshes/armor/ebony/f/cuirass_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:4b064900000001000000000000000000"
+    },
+    {
+      "path": "meshes/actors/dac0da/cgt/cavity/za/zatorso1stp.nif",
+      "source": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\generated_mesh_sources\\meshes\\actors\\dac0da\\cgt\\cavity\\za\\zatorso1stp.nif",
+        "sha256": "bc2823a3fa14b25db8bc8de7df77954cc213fd5b33ea594ce4bd81c5c4c25a63",
+        "bytes": 145456
+      },
+      "basis": "Exact archive-backed author asset: E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\DAc0da\\DAc0da.bsa",
+      "mesh_sha256": "bc2823a3fa14b25db8bc8de7df77954cc213fd5b33ea594ce4bd81c5c4c25a63"
+    },
+    {
+      "path": "meshes/goampuja/asurasguard/asurasbra_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:bb871800000003000000000000000000"
+    },
+    {
+      "path": "meshes/armor/spartanhoplite/chestw_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:ac781800000003000000000000000000"
+    },
+    {
+      "path": "meshes/armor/spartanhoplite/chestred_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:a9781800000003000000000000000000"
+    },
+    {
+      "path": "meshes/armor/spartanhoplite/chest_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:ae781800000003000000000000000000"
+    },
+    {
+      "path": "meshes/armor/studded/male/boots_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:45f84800000001000000000000000000"
+    },
+    {
+      "path": "meshes/ae_tfd_bunny_dream_rascal/ae_tfd_bunny_dream_rascal_heel_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:08e00c00000011000000000000000000"
+    },
+    {
+      "path": "meshes/ae_tfd_bunny_dream_rascal/ae_tfd_bunny_dream_rascal_heelw_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:06e00c00000010000000000000000000"
+    },
+    {
+      "path": "meshes/ae_tfd_bunny_dream_rascal/ae_tfd_bunny_dream_rascal_heelp_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:04e00c00000010000000000000000000"
+    },
+    {
+      "path": "meshes/ddangeli/ddangeli_body02 feet_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:28ff1a00000004000000000000000000"
+    },
+    {
+      "path": "meshes/ddangeli/ddangeli_body04_feet_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:3cff1a00000004000000000000000000"
+    },
+    {
+      "path": "meshes/ddangeli/ddangeli_body07_feet_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:56ff1a00000004000000000000000000"
+    },
+    {
+      "path": "meshes/ddangeli/ddangeli_body03 feet_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:32ff1a00000004000000000000000000"
+    },
+    {
+      "path": "meshes/ddangeli/ddangeli_body05_feet_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:46ff1a00000004000000000000000000"
+    },
+    {
+      "path": "meshes/ddangeli/ddangeli_body06_feet_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:4eff1a00000004000000000000000000"
+    },
+    {
+      "path": "meshes/armor/hide/m/gauntletsheavy_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:ee234900000001000000000000000000"
+    },
+    {
+      "path": "meshes/thebottomhoodofsteel/fashionwitchset/fw_nail_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:22c12a00000008000000000000000000"
+    },
+    {
+      "path": "meshes/armor/hide/m/bootsheavy_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:daf84800000001000000000000000000"
+    },
+    {
+      "path": "meshes/thebottomhoodofsteel/fashionwitchset/fw_boots_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:13c12a00000008000000000000000000"
+    },
+    {
+      "path": "meshes/thebottomhoodofsteel/fashionwitchset/fw_heels_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:1fc12a00000008000000000000000000"
+    },
+    {
+      "path": "meshes/armor/studded/male/gloves_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:5a254900000001000000000000000000"
+    },
+    {
+      "path": "meshes/latex lover corset plus/latex lover corset plus binding gloves_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:52ea2400000002000000000000000000"
+    },
+    {
+      "path": "meshes/latex lover corset plus/latex lover corset plus gloves_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:68ea2400000002000000000000000000"
+    },
+    {
+      "path": "meshes/latex lover corset plus/latex lover corset plus boots_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:5eea2400000002000000000000000000"
+    },
+    {
+      "path": "meshes/latex lover corset plus/latex lover corset plus socks_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:d4ea2400000002000000000000000000"
+    },
+    {
+      "path": "meshes/armor/daedric/daedricboots_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:4e074900000001000000000000000000"
+    },
+    {
+      "path": "meshes/ovr sorceress aegir/ae_shoes_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:5bf62400000002000000000000000000"
+    },
+    {
+      "path": "meshes/armor/daedric/daedricgauntlets_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:5c074900000001000000000000000000"
+    },
+    {
+      "path": "meshes/ovr sorceress aegir/ae_hands_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:56f62400000002000000000000000000"
+    },
+    {
+      "path": "meshes/bdo reborn selaine/s_hands_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:efba1400000006000000000000000000"
+    },
+    {
+      "path": "meshes/bdo reborn selaine/s_shoes_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:f5ba1400000006000000000000000000"
+    },
+    {
+      "path": "meshes/bdo reborn nereid/c_hands_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:79df2400000002000000000000000000"
+    },
+    {
+      "path": "meshes/bdo reborn nereid/c_shoes_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:7edf2400000002000000000000000000"
+    },
+    {
+      "path": "meshes/bdo reborn sephia/se_hands_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:f1ba1400000006000000000000000000"
+    },
+    {
+      "path": "meshes/bdo reborn sephia/se_shoes_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:e1ba1400000006000000000000000000"
+    },
+    {
+      "path": "meshes/loa 002/002_hands_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:d7c02a00000008000000000000000000"
+    },
+    {
+      "path": "meshes/loa 002/002_hair.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:21eb2400000002000000000000000000"
+    },
+    {
+      "path": "meshes/loa 002/002_shoes_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:27eb2400000002000000000000000000"
+    },
+    {
+      "path": "meshes/loa sorceress eternal/se_shoes_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:38eb2400000002000000000000000000"
+    },
+    {
+      "path": "meshes/loa sorceress eternal/se_hands_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:33eb2400000002000000000000000000"
+    },
+    {
+      "path": "meshes/loa sorceress eternal/alt/se_shoes_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:40eb2400000002000000000000000000"
+    },
+    {
+      "path": "meshes/loa sorceress eternal/alt/se_hands_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:3ceb2400000002000000000000000000"
+    },
+    {
+      "path": "meshes/hongluanzhuojin/hair.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:2ce82400000002000000000000000000"
+    },
+    {
+      "path": "meshes/armor/elven/m/gauntlets_0.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:5f234900000001000000000000000000"
+    },
+    {
+      "path": "meshes/hongluanzhuojin/hand_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:2fe82400000002000000000000000000"
+    },
+    {
+      "path": "meshes/armor/elven/m/boots_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:3bf84800000001000000000000000000"
+    },
+    {
+      "path": "meshes/hongluanzhuojin/heels_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:31e82400000002000000000000000000"
+    },
+    {
+      "path": "meshes/armor/bdor chic lua/body_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:3f251f00000002000000000000000000"
+    },
+    {
+      "path": "meshes/armor/elven/f/cuirass_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:47064900000001000000000000000000"
+    },
+    {
+      "path": "meshes/actors/character/character assets/1stpersonmalebody_1.nif",
+      "source": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\generated_mesh_sources\\meshes\\actors\\character\\character assets\\1stpersonmalebody_1.nif",
+        "sha256": "3f53ea0a9fa51d2e38e9bf5c2281af12acf576be357a88dd4fbe4cace6c1eb9c",
+        "bytes": 50739
+      },
+      "basis": "Exact archive-backed author asset: E:\\stock\\Skyrim collection\\TuLED\\STOCK GAME\\Skyrim Special Edition\\Data\\Skyrim - Meshes0.bsa",
+      "mesh_sha256": "3f53ea0a9fa51d2e38e9bf5c2281af12acf576be357a88dd4fbe4cace6c1eb9c"
+    },
+    {
+      "path": "textures/actors/character/male/malebody_1.dds",
+      "runtime_file_id": "1D3EBF999BE7FE1F:e6de1b00000002000000000000000000"
+    },
+    {
+      "path": "textures/actors/character/male/malebody_1_msn.dds",
+      "runtime_file_id": "1D3EBF999BE7FE1F:e7de1b00000002000000000000000000"
+    },
+    {
+      "path": "textures/actors/character/male/malebody_1_sk.dds",
+      "runtime_file_id": "1D3EBF999BE7FE1F:e9de1b00000002000000000000000000"
+    },
+    {
+      "path": "textures/actors/character/male/malebody_1_s.dds",
+      "runtime_file_id": "1D3EBF999BE7FE1F:e8de1b00000002000000000000000000"
+    },
+    {
+      "path": "meshes/armor/bdor chic lua/hand_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:8ec02a00000008000000000000000000"
+    },
+    {
+      "path": "meshes/armor/elven/f/gauntlets_0.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:61234900000001000000000000000000"
+    },
+    {
+      "path": "meshes/armor/bdor chic lua/feet_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:44251f00000002000000000000000000"
+    },
+    {
+      "path": "meshes/armor/elven/f/boots_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:4df84800000001000000000000000000"
+    },
+    {
+      "path": "meshes/vertigo/vboots_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:5c251f00000002000000000000000000"
+    },
+    {
+      "path": "meshes/armor/nordplate/nordgauntletsm_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:3b434900000001000000000000000000"
+    },
+    {
+      "path": "meshes/_pgpatcher_dups/1/harry2135/fantasyseries8/fs8add_gauntlets_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:601e4900000001000000000000000000"
+    },
+    {
+      "path": "meshes/armor/orcish/gauntletsm_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:17244900000001000000000000000000"
+    },
+    {
+      "path": "meshes/armor/aokili/eldritchdisciple/gauntlets_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:8e234900000001000000000000000000"
+    },
+    {
+      "path": "meshes/armor/orcish/bootsm_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:f8f84800000001000000000000000000"
+    },
+    {
+      "path": "meshes/armor/aokili/eldritchdisciple/sabatons_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:46554900000001000000000000000000"
+    },
+    {
+      "path": "meshes/armor/aokili/corsairoutfit/boots_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:53f84800000001000000000000000000"
+    },
+    {
+      "path": "meshes/armor/aokili/corsairoutfit/gauntlets_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:93234900000001000000000000000000"
+    },
+    {
+      "path": "meshes/armor/aokili/courageousknight/gauntlets_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:dc6e1800000003000000000000000000"
+    },
+    {
+      "path": "meshes/armor/nordplate/nordbootsm_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:2c434900000001000000000000000000"
+    },
+    {
+      "path": "meshes/_pgpatcher_dups/1/armor/aokili/courageousknight/sabatons_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:4a554900000001000000000000000000"
+    },
+    {
+      "path": "meshes/_pgpatcher_dups/1/coco_cloths/deliciously_bride/shoes_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:235a4900000001000000000000000000"
+    },
+    {
+      "path": "meshes/_pgpatcher_dups/2/coco_cloths/deliciously_bride/shoes_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:245a4900000001000000000000000000"
+    },
+    {
+      "path": "meshes/_pgpatcher_dups/1/harry2135/fantasyseries8/fs8_greaves_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:151e4900000001000000000000000000"
+    },
+    {
+      "path": "meshes/_pgpatcher_dups/1/harry2135/fantasyseries8/fs8_gauntlets_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:071e4900000001000000000000000000"
+    },
+    {
+      "path": "meshes/_pgpatcher_dups/1/harry2135/fantasyseries8/fs8add_greaves_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:661e4900000001000000000000000000"
+    },
+    {
+      "path": "meshes/armor/ebony/m/boots_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:41f84800000001000000000000000000"
+    },
+    {
+      "path": "meshes/armor/dark dreams/ddboots_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:d9084900000001000000000000000000"
+    },
+    {
+      "path": "meshes/armor/ebony/m/gauntlets_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:8d234900000001000000000000000000"
+    },
+    {
+      "path": "meshes/armor/dark dreams/ddgloves_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:8c701800000003000000000000000000"
+    },
+    {
+      "path": "meshes/coco_cloths/deliciously_bride/body1_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:960e1800000003000000000000000000"
+    },
+    {
+      "path": "meshes/coco_cloths/deliciously_bride/shoes_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:b10e1800000003000000000000000000"
+    },
+    {
+      "path": "meshes/coco_cloths/deliciously_bride/glove_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:9e0e1800000003000000000000000000"
+    },
+    {
+      "path": "meshes/coco_cloths/deliciously_bride/body2_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:980e1800000003000000000000000000"
+    },
+    {
+      "path": "meshes/armor/steel/gauntlets_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:98234900000001000000000000000000"
+    },
+    {
+      "path": "meshes/armor/hsochainhands_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:62fd1700000003000000000000000000"
+    },
+    {
+      "path": "meshes/armor/glass/m/boots_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:55f84800000001000000000000000000"
+    },
+    {
+      "path": "meshes/armor/regaliaofthescorned/rotsheels_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:c6721800000003000000000000000000"
+    },
+    {
+      "path": "meshes/armor/glass/m/gauntlets_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:8c234900000001000000000000000000"
+    },
+    {
+      "path": "meshes/armor/regaliaofthescorned/rotsarms_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:b4721800000003000000000000000000"
+    },
+    {
+      "path": "meshes/armor/goasbdearmor/bde_gloves_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:43711800000003000000000000000000"
+    },
+    {
+      "path": "meshes/armor/goasbdearmor/bde_gloves_1stp_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:46711800000003000000000000000000"
+    },
+    {
+      "path": "meshes/armor/goasbdearmor/bde_sabatons_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:5b711800000003000000000000000000"
+    },
+    {
+      "path": "meshes/armor/glass/m/helmet_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:5f2a4900000001000000000000000000"
+    },
+    {
+      "path": "meshes/goampuja/asurasguard/asurashelmetnomask_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:d4871800000003000000000000000000"
+    },
+    {
+      "path": "meshes/goampuja/asurasguard/asurashelmet_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:d6871800000003000000000000000000"
+    },
+    {
+      "path": "meshes/goampuja/asurasguard/asurasheels_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:d0871800000003000000000000000000"
+    },
+    {
+      "path": "meshes/goampuja/asurasguard/asurassabatons_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:e8871800000003000000000000000000"
+    },
+    {
+      "path": "meshes/goampuja/asurasguard/asurasvambraces_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:f1871800000003000000000000000000"
+    },
+    {
+      "path": "meshes/armor/aokili/courageousknight/sabatons_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:e56e1800000003000000000000000000"
+    },
+    {
+      "path": "meshes/bdo reborn lethena/le_hands_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:93354900000001000000000000000000"
+    },
+    {
+      "path": "meshes/bdo reborn lethena/le_shoes_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:9a354900000001000000000000000000"
+    },
+    {
+      "path": "meshes/armor/elven/m/helmet_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:562a4900000001000000000000000000"
+    },
+    {
+      "path": "meshes/armor/[d] bdor/guardian/winter mountain guardian spirit/hood3_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:c9791800000003000000000000000000"
+    },
+    {
+      "path": "meshes/armor/[d] bdor/guardian/winter mountain guardian spirit/boots1_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:81791800000003000000000000000000"
+    },
+    {
+      "path": "meshes/armor/[d] bdor/guardian/winter mountain guardian spirit/gloves1_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:ab791800000003000000000000000000"
+    },
+    {
+      "path": "meshes/armor/[d] bdor/guardian/winter mountain guardian spirit/hood1_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:c3791800000003000000000000000000"
+    },
+    {
+      "path": "meshes/armor/[d] bdor/guardian/winter mountain guardian spirit/hoodhc_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:cc791800000003000000000000000000"
+    },
+    {
+      "path": "meshes/armor/[d] bdor/guardian/winter mountain guardian spirit/gloveshc_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:b4791800000003000000000000000000"
+    },
+    {
+      "path": "meshes/armor/[d] bdor/guardian/winter mountain guardian spirit/gloves2_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:ae791800000003000000000000000000"
+    },
+    {
+      "path": "meshes/armor/[d] bdor/guardian/winter mountain guardian spirit/hood2_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:c6791800000003000000000000000000"
+    },
+    {
+      "path": "meshes/armor/[d] bdor/guardian/winter mountain guardian spirit/boots3_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:87791800000003000000000000000000"
+    },
+    {
+      "path": "meshes/armor/[d] bdor/guardian/winter mountain guardian spirit/gloves3_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:b1791800000003000000000000000000"
+    },
+    {
+      "path": "meshes/armor/[d] bdor/guardian/winter mountain guardian spirit/boots2_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:84791800000003000000000000000000"
+    },
+    {
+      "path": "meshes/armor/[d] bdor/guardian/winter mountain guardian spirit/bootshc_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:8a791800000003000000000000000000"
+    },
+    {
+      "path": "meshes/armor/[elle] elven assasin/boots_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:ea7a1800000003000000000000000000"
+    },
+    {
+      "path": "meshes/armor/[elle] elven assasin/gloves_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:f07a1800000003000000000000000000"
+    },
+    {
+      "path": "meshes/armor/spartanhoplite/glovered1_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:b7781800000003000000000000000000"
+    },
+    {
+      "path": "meshes/armor/spartanhoplite/glovered2_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:ba781800000003000000000000000000"
+    },
+    {
+      "path": "meshes/armor/spartanhoplite/shoesred1_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:d1781800000003000000000000000000"
+    },
+    {
+      "path": "meshes/armor/spartanhoplite/shoesred2_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:d4781800000003000000000000000000"
+    },
+    {
+      "path": "meshes/armor/bdor arditer/feet_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:2c701800000003000000000000000000"
+    },
+    {
+      "path": "meshes/armor/studded/female/boots_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:5bf84800000001000000000000000000"
+    },
+    {
+      "path": "meshes/bdo reborn darkborne rose/dr_shoes_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:24104900000001000000000000000000"
+    },
+    {
+      "path": "meshes/bdo reborn darkborne rose/alt/dr_shoes_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:26104900000001000000000000000000"
+    },
+    {
+      "path": "meshes/bdo reborn darkborne rose/alt2/dr_shoes_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:25104900000001000000000000000000"
+    },
+    {
+      "path": "meshes/putra/elvenia/elveniaboots_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:308a1800000003000000000000000000"
+    },
+    {
+      "path": "meshes/putra/elvenia/elveniathighboots_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:4b8a1800000003000000000000000000"
+    },
+    {
+      "path": "meshes/putra/elvenia/elveniagauntlets_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:3f8a1800000003000000000000000000"
+    },
+    {
+      "path": "meshes/bdo reborn darkborne rose/dr_hands_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:0e104900000001000000000000000000"
+    },
+    {
+      "path": "meshes/armor/daedric/daedrichelmet_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:66074900000001000000000000000000"
+    },
+    {
+      "path": "meshes/bdo reborn darkborne rose/dr_helm.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:16104900000001000000000000000000"
+    },
+    {
+      "path": "meshes/bdo reborn darkborne rose/dr_handsalt_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:14104900000001000000000000000000"
+    },
+    {
+      "path": "meshes/bdo reborn darkborne rose/alt/dr_hands_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:0c104900000001000000000000000000"
+    },
+    {
+      "path": "meshes/bdo reborn darkborne rose/alt/dr_helm.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:15104900000001000000000000000000"
+    },
+    {
+      "path": "meshes/bdo reborn darkborne rose/alt/dr_handsalt_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:13104900000001000000000000000000"
+    },
+    {
+      "path": "meshes/bdo reborn darkborne rose/alt2/dr_hands_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:0d104900000001000000000000000000"
+    },
+    {
+      "path": "meshes/bdo reborn darkborne rose/alt2/dr_helm.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:17104900000001000000000000000000"
+    },
+    {
+      "path": "meshes/bdo reborn darkborne rose/alt2/dr_handsalt_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:12104900000001000000000000000000"
+    },
+    {
+      "path": "meshes/armor/bdor arditer/hands_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:2f701800000003000000000000000000"
+    },
+    {
+      "path": "meshes/armor/studded/female/gloves_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:59254900000001000000000000000000"
+    },
+    {
+      "path": "meshes/armor/bdor arditer/head_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:67294900000001000000000000000000"
+    },
+    {
+      "path": "meshes/armor/studded/female/helmet_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:612a4900000001000000000000000000"
+    },
+    {
+      "path": "meshes/armor/hedgewitch/gauntlet_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:a0711800000003000000000000000000"
+    },
+    {
+      "path": "meshes/armor/hedgewitch/boots_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:97711800000003000000000000000000"
+    },
+    {
+      "path": "meshes/[ashtoreth] ahlanna gloves/[ashtoreth] ahlanna gloves_blue_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:6f101800000003000000000000000000"
+    },
+    {
+      "path": "meshes/[ashtoreth] ahlanna gloves/[ashtoreth] ahlanna gloves_brown_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:72101800000003000000000000000000"
+    },
+    {
+      "path": "meshes/[ashtoreth] ahlanna gloves/[ashtoreth] ahlanna gloves_gold_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:76101800000003000000000000000000"
+    },
+    {
+      "path": "meshes/[ashtoreth] ahlanna gloves/[ashtoreth] ahlanna gloves_purple_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:79101800000003000000000000000000"
+    },
+    {
+      "path": "meshes/[ashtoreth] ahlanna gloves/[ashtoreth] ahlanna gloves_white_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:7c101800000003000000000000000000"
+    },
+    {
+      "path": "meshes/[ashtoreth] ahlanna boots/[ashtoreth] ahlanna boots_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:4c8b1800000003000000000000000000"
+    },
+    {
+      "path": "meshes/[ashtoreth] ahlanna gloves/[ashtoreth] ahlanna gloves_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:4f8b1800000003000000000000000000"
+    },
+    {
+      "path": "meshes/ata-armor/auri_gwgloves_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:c9101b00000004000000000000000000"
+    },
+    {
+      "path": "meshes/ata-armor/auri_gwboots_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:c3101b00000004000000000000000000"
+    },
+    {
+      "path": "meshes/clothing/hoodu/sabatons_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:e3521e00000004000000000000000000"
+    },
+    {
+      "path": "meshes/clothing/hoodu/gauntlets_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:c5521e00000004000000000000000000"
+    },
+    {
+      "path": "meshes/clothing/niel/va_gauntlets_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:076e4900000001000000000000000000"
+    },
+    {
+      "path": "meshes/clothing/niel/va_leotard_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:096e4900000001000000000000000000"
+    },
+    {
+      "path": "meshes/clothing/niel/va_sabatons_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:0a6e4900000001000000000000000000"
+    },
+    {
+      "path": "meshes/k101daegonarmor/boots_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:5de41800000003000000000000000000"
+    },
+    {
+      "path": "meshes/k101daegonarmor/daegonroyalboots_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:69e41800000003000000000000000000"
+    },
+    {
+      "path": "meshes/actors/dac0da/cgt/cavity/za/zafeet.nif",
+      "source": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\generated_mesh_sources\\meshes\\actors\\dac0da\\cgt\\cavity\\za\\zafeet.nif",
+        "sha256": "943b443e110d375e99489d004b4d0148f348cc28f5e738b45f2cebf634180eba",
+        "bytes": 267603
+      },
+      "basis": "Exact archive-backed author asset: E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\DAc0da\\DAc0da.bsa",
+      "mesh_sha256": "943b443e110d375e99489d004b4d0148f348cc28f5e738b45f2cebf634180eba"
+    },
+    {
+      "path": "meshes/armor/ebony/f/boots_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:43f84800000001000000000000000000"
+    },
+    {
+      "path": "meshes/zaz-ultimatedatapack/zaz - accessories/restraints/07zaz - waistrope01/waistrope01_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:3d8b1800000003000000000000000000"
+    },
+    {
+      "path": "meshes/zaz-ultimatedatapack/zaz - accessories/restraints/07zaz - waistrope02/waistrope02_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:408b1800000003000000000000000000"
+    },
+    {
+      "path": "meshes/zaz-ultimatedatapack/zaz - accessories/restraints/015zaz - shibari/shibari_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:2e8b1800000003000000000000000000"
+    },
+    {
+      "path": "meshes/zaz-ultimatedatapack/zaz - accessories/restraints/09zaz - waistropewithbreastrope02/waistropewithbreastrope02_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:468b1800000003000000000000000000"
+    },
+    {
+      "path": "meshes/zaz-ultimatedatapack/zaz - accessories/restraints/08zaz - waistropewithbreastrope01/waistropewithbreastrope01_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:438b1800000003000000000000000000"
+    },
+    {
+      "path": "meshes/zaz-ultimatedatapack/zaz - accessories/restraints/012zaz - breastropeextreme02/breastropeextreme02_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:258b1800000003000000000000000000"
+    },
+    {
+      "path": "meshes/zaz-ultimatedatapack/zaz - accessories/restraints/011zaz - breastropeextreme01/breastropeextreme01_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:228b1800000003000000000000000000"
+    },
+    {
+      "path": "meshes/zaz-ultimatedatapack/zaz - accessories/restraints/014zaz - breastropewithwaistropeextreme02/breastropewithwaistropeextreme02_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:2b8b1800000003000000000000000000"
+    },
+    {
+      "path": "meshes/zaz-ultimatedatapack/zaz - accessories/restraints/013zaz - breastropewithwaistropeextreme01/breastropewithwaistropeextreme01_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:288b1800000003000000000000000000"
+    },
+    {
+      "path": "meshes/zaz-ultimatedatapack/zaz - accessories/restraints/06zaz - gsbdoggiebelt/doggiebelt_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:3a8b1800000003000000000000000000"
+    },
+    {
+      "path": "meshes/clothes/beggarclothes/1stpersontorsom_0.nif",
+      "source": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\generated_mesh_sources\\meshes\\clothes\\beggarclothes\\1stpersontorsom_0.nif",
+        "sha256": "0737036cfcd29aeb7343430252c16c362af528f15c15d0c1f56a66fb1329332b",
+        "bytes": 48814
+      },
+      "basis": "Exact archive-backed author asset: E:\\stock\\Skyrim collection\\TuLED\\STOCK GAME\\Skyrim Special Edition\\Data\\Skyrim - Meshes0.bsa",
+      "mesh_sha256": "0737036cfcd29aeb7343430252c16c362af528f15c15d0c1f56a66fb1329332b"
+    },
+    {
+      "path": "meshes/clothes/beggarclothes/1stpersontorsof_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:71811800000003000000000000000000"
+    },
+    {
+      "path": "meshes/zaz-ultimatedatapack/zaz - accessories/restraints/019zaz - straightjacket/straightjacket_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:378b1800000003000000000000000000"
+    }
+  ],
+  "inherited_source_gaps": [
+    {
+      "path": "meshes/_pgpatcher_dups/1/clothing/hoodu/setarmors_1.nif",
+      "source_key": "hoodu_follower.esp:00084F",
+      "field": "MOD3",
+      "source_plugin": "Hoodu_Follower.esp",
+      "disposition": "INHERITED_UNCHANGED_SOURCE_GAP_RETAINED_NO_ALIAS",
+      "scope": "Not a new Synthesis dependency; final full resource disposition remains required"
+    }
+  ],
+  "private_resource_mapping": [
+    {
+      "source": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\generated_mesh_sources\\meshes\\armor\\goasbdearmor\\bdecombined1stp_1.nif",
+        "sha256": "f5af06679e483ee0ff16c659a35052d0e24860d1ac7afd06db57e9f333c94fbb",
+        "bytes": 1133070
+      },
+      "destination": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\ZZ83 Verified generated item and quest assets\\meshes\\armor\\goasbdearmor\\bdecombined1stp_1.nif",
+      "basis": "Exact archive-backed author asset: E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\[LED]Bladedancer's Edge [블레이드 댄서]\\BDE_Armor.bsa"
+    },
+    {
+      "source": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\generated_mesh_sources\\textures\\armor\\g_bde_armortextures\\arm_d.dds",
+        "sha256": "8d2f7c61a733d3461d018c92f931dcf4ba26630176c738ad4d9d45a701f2fd55",
+        "bytes": 1398256
+      },
+      "destination": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\ZZ83 Verified generated item and quest assets\\textures\\armor\\g_bde_armortextures\\arm_d.dds",
+      "basis": "Exact archive-backed author asset: E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\[LED]Bladedancer's Edge [블레이드 댄서]\\BDE_Armor.bsa"
+    },
+    {
+      "source": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\generated_mesh_sources\\textures\\armor\\g_bde_armortextures\\arm_n.dds",
+        "sha256": "0db0c9c7035fe4cb2f52acf115c5d01a665e3c656e275d2ee2f15d1394b278a4",
+        "bytes": 1398256
+      },
+      "destination": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\ZZ83 Verified generated item and quest assets\\textures\\armor\\g_bde_armortextures\\arm_n.dds",
+      "basis": "Exact archive-backed author asset: E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\[LED]Bladedancer's Edge [블레이드 댄서]\\BDE_Armor.bsa"
+    },
+    {
+      "source": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\generated_mesh_sources\\textures\\armor\\g_bde_armortextures\\cube2_e.dds",
+        "sha256": "690ca454569b76f7fb789dd5009aaa30278a6c8355de8f67aeb4121f6fa1d9dd",
+        "bytes": 1048784
+      },
+      "destination": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\ZZ83 Verified generated item and quest assets\\textures\\armor\\g_bde_armortextures\\cube2_e.dds",
+      "basis": "Exact archive-backed author asset: E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\[LED]Bladedancer's Edge [블레이드 댄서]\\BDE_Armor.bsa"
+    },
+    {
+      "source": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\generated_mesh_sources\\textures\\armor\\g_bde_armortextures\\arm_e.dds",
+        "sha256": "e43d830c79214a077cd74f3cb865235b47208842224da2c55c72232d7fd90c1e",
+        "bytes": 1398256
+      },
+      "destination": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\ZZ83 Verified generated item and quest assets\\textures\\armor\\g_bde_armortextures\\arm_e.dds",
+      "basis": "Exact archive-backed author asset: E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\[LED]Bladedancer's Edge [블레이드 댄서]\\BDE_Armor.bsa"
+    },
+    {
+      "source": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\generated_mesh_sources\\textures\\armor\\g_bde_armortextures\\alc_d.dds",
+        "sha256": "dbbba53973648bf7648bf46309e7bf7a14fbdcb178b6dbf8755a750130038b6e",
+        "bytes": 1398256
+      },
+      "destination": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\ZZ83 Verified generated item and quest assets\\textures\\armor\\g_bde_armortextures\\alc_d.dds",
+      "basis": "Exact archive-backed author asset: E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\[LED]Bladedancer's Edge [블레이드 댄서]\\BDE_Armor.bsa"
+    },
+    {
+      "source": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\generated_mesh_sources\\textures\\armor\\g_bde_armortextures\\alc_n.dds",
+        "sha256": "3da833e47fb4552650093ccff9dc373e5b8dfebf3a08bb82b503bfd9b13430c4",
+        "bytes": 1398256
+      },
+      "destination": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\ZZ83 Verified generated item and quest assets\\textures\\armor\\g_bde_armortextures\\alc_n.dds",
+      "basis": "Exact archive-backed author asset: E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\[LED]Bladedancer's Edge [블레이드 댄서]\\BDE_Armor.bsa"
+    },
+    {
+      "source": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\generated_mesh_sources\\textures\\armor\\g_bde_armortextures\\chrome_e.dds",
+        "sha256": "690ca454569b76f7fb789dd5009aaa30278a6c8355de8f67aeb4121f6fa1d9dd",
+        "bytes": 1048784
+      },
+      "destination": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\ZZ83 Verified generated item and quest assets\\textures\\armor\\g_bde_armortextures\\chrome_e.dds",
+      "basis": "Exact archive-backed author asset: E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\[LED]Bladedancer's Edge [블레이드 댄서]\\BDE_Armor.bsa"
+    },
+    {
+      "source": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\generated_mesh_sources\\textures\\armor\\g_bde_armortextures\\alc_e.dds",
+        "sha256": "7c6985b0511d7d7d75bb300e8a4e7e5331395adcac8665b261f7f302d4fbd28a",
+        "bytes": 1398256
+      },
+      "destination": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\ZZ83 Verified generated item and quest assets\\textures\\armor\\g_bde_armortextures\\alc_e.dds",
+      "basis": "Exact archive-backed author asset: E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\[LED]Bladedancer's Edge [블레이드 댄서]\\BDE_Armor.bsa"
+    },
+    {
+      "source": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\generated_mesh_sources\\meshes\\putra\\elvenia\\1stperson_1.nif",
+        "sha256": "d047e7a140edc4629afe36577fd04da4227beb0e5f423a94c24b42249ddfefa9",
+        "bytes": 2728509
+      },
+      "destination": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\ZZ83 Verified generated item and quest assets\\meshes\\putra\\elvenia\\1stperson_1.nif",
+      "basis": "Exact archive-backed author asset: E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\Elvenia Armor CBBE 3BA\\Elvenia Armor.bsa"
+    },
+    {
+      "source": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\generated_mesh_sources\\textures\\putra\\elvenia\\cube.dds",
+        "sha256": "024ade0f536c28aa2bc5d60b83c287d24b0902ab607fcd53ead0a16e6631dc06",
+        "bytes": 131380
+      },
+      "destination": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\ZZ83 Verified generated item and quest assets\\textures\\putra\\elvenia\\cube.dds",
+      "basis": "Exact archive-backed author asset: E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\Elvenia Armor CBBE 3BA\\Elvenia Armor - Textures.bsa"
+    },
+    {
+      "source": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\generated_mesh_sources\\textures\\putra\\elvenia\\m\\helmet_d.dds",
+        "sha256": "3427657f8879101442a6bb5d3d3021e80cb4986414099489d897c77f83bd0961",
+        "bytes": 4194452
+      },
+      "destination": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\ZZ83 Verified generated item and quest assets\\textures\\putra\\elvenia\\m\\helmet_d.dds",
+      "basis": "Exact archive-backed author asset: E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\Elvenia Armor CBBE 3BA\\Elvenia Armor - Textures.bsa"
+    },
+    {
+      "source": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\generated_mesh_sources\\textures\\putra\\elvenia\\m\\gauntlets_d.dds",
+        "sha256": "5a0f4d7430b54cc9f1a076994c604d668922214cb6c9cc50d1b0842baa58f1b5",
+        "bytes": 4194452
+      },
+      "destination": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\ZZ83 Verified generated item and quest assets\\textures\\putra\\elvenia\\m\\gauntlets_d.dds",
+      "basis": "Exact archive-backed author asset: E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\Elvenia Armor CBBE 3BA\\Elvenia Armor - Textures.bsa"
+    },
+    {
+      "source": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\generated_mesh_sources\\meshes\\actors\\dac0da\\cgt\\cavity\\za\\zahands.nif",
+        "sha256": "05cd4fce87aeb8e7e5b059c82c118ad6914ddd352cf991e81c9114337dcad023",
+        "bytes": 340961
+      },
+      "destination": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\ZZ83 Verified generated item and quest assets\\meshes\\actors\\dac0da\\cgt\\cavity\\za\\zahands.nif",
+      "basis": "Exact archive-backed author asset: E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\DAc0da\\DAc0da.bsa"
+    },
+    {
+      "source": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\generated_mesh_sources\\textures\\actors\\dac0da\\cgt\\cavity\\e0bdwexuxq.dds",
+        "sha256": "9cbc947bb148362a0a4cbb09b46a2a66d2725acbd0033d6a2322deb6087ca3bb",
+        "bytes": 5592580
+      },
+      "destination": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\ZZ83 Verified generated item and quest assets\\textures\\actors\\dac0da\\cgt\\cavity\\e0bdwexuxq.dds",
+      "basis": "Exact archive-backed author asset: E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\DAc0da\\DAc0da.bsa"
+    },
+    {
+      "source": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\generated_mesh_sources\\textures\\actors\\dac0da\\cgt\\cavity\\e0bdwexuvw.dds",
+        "sha256": "26211cd79019214304fd0263b5f5824aa6d45a28cffcfd2310d3579d67a2e269",
+        "bytes": 5592580
+      },
+      "destination": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\ZZ83 Verified generated item and quest assets\\textures\\actors\\dac0da\\cgt\\cavity\\e0bdwexuvw.dds",
+      "basis": "Exact archive-backed author asset: E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\DAc0da\\DAc0da.bsa"
+    },
+    {
+      "source": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\generated_mesh_sources\\textures\\actors\\dac0da\\cgt\\cavity\\e0bdwexyvvlbwfbqvq.dds",
+        "sha256": "60528d84cb299231fd7d7f9a7faf6c08f500aede173cca12deb641875514d67d",
+        "bytes": 5592580
+      },
+      "destination": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\ZZ83 Verified generated item and quest assets\\textures\\actors\\dac0da\\cgt\\cavity\\e0bdwexyvvlbwfbqvq.dds",
+      "basis": "Exact archive-backed author asset: E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\DAc0da\\DAc0da.bsa"
+    },
+    {
+      "source": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\generated_mesh_sources\\textures\\actors\\dac0da\\cgt\\cavity\\e0bdwexyvvlbwfbqxw.dds",
+        "sha256": "0dd28c7d82b4e472c51440cd0f0a026fad6b3a92fc899e1baa39173faa2a227b",
+        "bytes": 5592580
+      },
+      "destination": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\ZZ83 Verified generated item and quest assets\\textures\\actors\\dac0da\\cgt\\cavity\\e0bdwexyvvlbwfbqxw.dds",
+      "basis": "Exact archive-backed author asset: E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\DAc0da\\DAc0da.bsa"
+    },
+    {
+      "source": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\generated_mesh_sources\\meshes\\actors\\dac0da\\cgt\\cavity\\za\\zatorso.nif",
+        "sha256": "3aebd8f6e74c69d83c082994a1f246bf95f565f7779ea86219136ec342674920",
+        "bytes": 1433640
+      },
+      "destination": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\ZZ83 Verified generated item and quest assets\\meshes\\actors\\dac0da\\cgt\\cavity\\za\\zatorso.nif",
+      "basis": "Exact archive-backed author asset: E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\DAc0da\\DAc0da.bsa"
+    },
+    {
+      "source": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\generated_mesh_sources\\meshes\\actors\\dac0da\\cgt\\cavity\\za\\zatorso1stp.nif",
+        "sha256": "bc2823a3fa14b25db8bc8de7df77954cc213fd5b33ea594ce4bd81c5c4c25a63",
+        "bytes": 145456
+      },
+      "destination": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\ZZ83 Verified generated item and quest assets\\meshes\\actors\\dac0da\\cgt\\cavity\\za\\zatorso1stp.nif",
+      "basis": "Exact archive-backed author asset: E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\DAc0da\\DAc0da.bsa"
+    },
+    {
+      "source": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\generated_mesh_sources\\meshes\\actors\\character\\character assets\\1stpersonmalebody_1.nif",
+        "sha256": "3f53ea0a9fa51d2e38e9bf5c2281af12acf576be357a88dd4fbe4cace6c1eb9c",
+        "bytes": 50739
+      },
+      "destination": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\ZZ83 Verified generated item and quest assets\\meshes\\actors\\character\\character assets\\1stpersonmalebody_1.nif",
+      "basis": "Exact archive-backed author asset: E:\\stock\\Skyrim collection\\TuLED\\STOCK GAME\\Skyrim Special Edition\\Data\\Skyrim - Meshes0.bsa"
+    },
+    {
+      "source": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\generated_mesh_sources\\meshes\\actors\\dac0da\\cgt\\cavity\\za\\zafeet.nif",
+        "sha256": "943b443e110d375e99489d004b4d0148f348cc28f5e738b45f2cebf634180eba",
+        "bytes": 267603
+      },
+      "destination": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\ZZ83 Verified generated item and quest assets\\meshes\\actors\\dac0da\\cgt\\cavity\\za\\zafeet.nif",
+      "basis": "Exact archive-backed author asset: E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\DAc0da\\DAc0da.bsa"
+    },
+    {
+      "source": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\generated_mesh_sources\\meshes\\clothes\\beggarclothes\\1stpersontorsom_0.nif",
+        "sha256": "0737036cfcd29aeb7343430252c16c362af528f15c15d0c1f56a66fb1329332b",
+        "bytes": 48814
+      },
+      "destination": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\ZZ83 Verified generated item and quest assets\\meshes\\clothes\\beggarclothes\\1stpersontorsom_0.nif",
+      "basis": "Exact archive-backed author asset: E:\\stock\\Skyrim collection\\TuLED\\STOCK GAME\\Skyrim Special Edition\\Data\\Skyrim - Meshes0.bsa"
+    }
+  ],
+  "basis": "Exact author/stock assets for repaired paths; source-identical missing paths are retained separately, without gender or weight substitution",
+  "original_packs_modified": false,
+  "next": "Install only this exact private resource set into ZZ83, then repeat native Synthesis model closure; inherited gaps still need final disposition"
+}

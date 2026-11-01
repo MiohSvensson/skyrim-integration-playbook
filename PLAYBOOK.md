@@ -9,8 +9,8 @@ Last reviewed: 2026-11-01. Base: TuLED. Work remains active; static integration 
 - Physical resolution reports no missing plugins or masters and remains within slot limits.
 - Feature, quest, FC, Glen, and God of War format compatibility patches have independent binary and fresh typed-reload acceptance.
 - The 6,495-row source catalog is refreshed as work in progress, with zero stale rows and zero linkage issues; 1,721 alternatives remain pending.
-- FC v12 and Glen v7 are accepted for static integration. Bounded resource dispositions are documented; six-stage Synthesis is next, with final VFS and generation still pending.
-- Six-stage Synthesis replay completed, but acceptance is blocked by the exact VA_CuirassAA mesh source. No generated output is deployed. PG containment and final LOD remain pending.
+- FC v12 and Glen v7 are accepted for static integration. Six-stage Synthesis replay and scoped model validation are complete; production Synthesis remains pending.
+- Native pre-Synthesis capture covers 275 ARMA records and 1,100 model fields. Every model path changed by Synthesis resolves. A 23-file exact resource supplement is installed and VFS-verified. The plugin/sidecar are not deployed, and inherited resource gaps still require final disposition. PG containment and final LOD remain pending.
 
 A pre-navigation MO2 child proved actual `usvfs_x64` injection and all 411,248 current runtime-path FileID/size winners in `pre_navigation_vfs_r2_probe_files.json`. That run is not an aggregate pass: MO2 moved its generated `modlist.txt` comment, and two Igraine hand textures remain unresolved. `mo2_controls.py` now canonicalizes only that exact comment with journal backup/rollback; no final all-resource VFS or in-game proof exists.
 
@@ -96,6 +96,10 @@ Run after all gameplay/navigation patches are accepted.
 - Capture the Experience sidecar, install the final private copy, then disable temporary `ZZ88` workspace.
 - Replace old generated layers only after native checks, master/slot validation, and known-exception comparison.
 - Keep generated plugins after the compatibility block.
+
+Current validated candidate: `final_v8`, SHA-256 `5f8f491fc086631868ecd78fb4f19c09b76e9a8a4e3b0cb20d5156611cfc64a8`, 19,214 records, 240 masters, full plugin, no own records. Its native Check reported zero diagnostics. `synthesis_v8_arma_delta_manifest.json` identifies 275 affected ARMA records by source plugin and object ID, avoiding raw FormID renumbering after master insertion. `synthesis_input_models_manifest.json` binds the winning pre-Synthesis model context from `synthesis_input_models_v3`: 275 records and 1,100 fields, with no Synthesis plugin active in that input profile.
+
+The per-field audit finds no missing model path changed by Synthesis. `generated_mesh_manifest_v3.json` adds 23 exact stock/author files with rollback and crash-recovery coverage; `generated_mesh_resources_r1/accepted.json` verifies their actual MO2 FileIDs, hashes and mesh material closure. These are resource and scoped-candidate checks, not production Synthesis acceptance. The separate inherited census has 935 missing references across 714 paths, including Hoodu's copied PG duplicate. It remains pending final consumer/resource disposition; do not alias gender/weight variants or treat inherited gaps as newly generated dependencies.
 
 ## 5. PG containment and generation
 

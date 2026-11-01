@@ -1,7 +1,7 @@
 {
   "objective": "Build one reviewed Skyrim integration from Anno, Burida and TuLED without launching the game or making full pack backups",
   "status": "active",
-  "phase": "synthesis_source_closure_blocked",
+  "phase": "synthesis_production_installation_pending",
   "base_pack": "TuLED",
   "source_packs_unchanged": true,
   "game_launch_prohibited": true,
@@ -67,24 +67,39 @@
     {
       "evidence": "integration/research/synthesis_final/synthesis_v8_blocker_manifest.json",
       "status": "SYNTHESIS_SIX_STAGES_COMPLETE_SOURCE_CLOSURE_BLOCKED_NOT_DEPLOYED"
+    },
+    {
+      "evidence": "integration/research/synthesis_final/synthesis_input_models_manifest.json",
+      "status": "INPUT_MODEL_CONTEXT_VERIFIED"
+    },
+    {
+      "evidence": "integration/research/vfs_validation/generated_mesh_resources_r1/accepted.json",
+      "status": "GENERATED_MESH_RESOURCES_VERIFIED"
+    },
+    {
+      "evidence": "integration/research/synthesis_final/synthesis_v8_validation_manifest.json",
+      "status": "SYNTHESIS_CANDIDATE_SCOPED_STATIC_PASS_PENDING_INSTALLATION"
     }
   ],
   "remaining": [
-    "establish_exact_VA_CuirassAA_mesh_provenance_and_close_all_generated_Synthesis_resources",
-    "install_and_validate_reviewed_Synthesis_plugin_and_captured_sidecar_after_source_closure",
+    "install_reviewed_Synthesis_plugin_and_captured_sidecar_with_atomic_rollback",
+    "repeat_installed_Synthesis_native_and_actual_MO2_VFS_validation",
+    "disposition_inherited_ARMA_resource_gaps_and_complete_full_resource_closure",
     "implement_and_verify_Database_only_PG_driver_cache_containment_then_run_and_validate_PG",
     "regenerate_affected_grass_terrain_TexGen_DynDOLOD_and_occlusion_without_game",
     "run_full_final_native_xEdit_QEX_and_actual_MO2_VFS_resource_closure",
     "verify_original_controls_unchanged_after_all_remaining_writers",
     "finalize_database_catalog_launchers_and_maintenance_docs"
   ],
-  "updated_utc": "2026-11-01T06:43:45Z",
+  "updated_utc": "2026-11-01T12:48:21Z",
   "completed": [
     "FC4_navigation_binary_install_and_dual_fresh_typed_reload_accepted",
     "Glen8_navigation_binary_install_and_fresh_typed_reload_accepted",
     "GodOfWar_two_MGEF_object_format_binary_and_fresh_typed_reload_accepted",
     "Igraine_two_private_textures_actual_MO2_FileID_and_SHA_verified",
     "bounded_resource_dispositions_typed_and_raw_verified_source_limitations_retained",
+    "pre_Synthesis_275_ARMA_1100_model_fields_captured_and_changed_model_closure_passed",
+    "23_exact_mesh_texture_resources_installed_and_actual_MO2_VFS_verified",
     "base_selection_TuLED",
     "full_491328_file_baseline_view",
     "private_mutable_runtime_and_clean_MO2",
@@ -160,9 +175,8 @@
       "FC response motif remains an active unrepaired source-audio limitation; no synthesized or aliased audio"
     ],
     "next_required": [
-      "Recover exact male VA_CuirassAA author mesh/project or document an unrepairable source gap; never alias female or unrelated armor",
-      "Complete all ARMA MOD2/MOD3/MOD4/MOD5 source closure for final_v8 before production Synthesis installation",
       "Install the reviewed final_v8 plugin and captured Experience sidecar atomically, disable ZZ88 only after sidecar installation, and repeat native/VFS checks",
+      "Resolve or explicitly disposition inherited ARMA gaps during final consumer/resource closure; do not treat them as new Synthesis dependencies",
       "Fresh PG only after Synthesis acceptance and proof of Database-only per-process driver-cache containment; typed records, NIF and resource closure before deployment",
       "Affected terrain/TexGen/DynDOLOD/offline grass and final occlusion in verified batch order",
       "Full native Check+QEX final consumer proof",

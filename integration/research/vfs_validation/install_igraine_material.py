@@ -1,4 +1,4 @@
-"""Install exactly the two audited Igraine resources with private-copy rollback."""
+"""Install exact reviewed private resource sets with rollback."""
 import argparse
 import json
 import os
@@ -18,6 +18,16 @@ EXPECTED = {
     'textures/SC/4_Ports/21_Order1886/Igraine/Knight/Hands_F_m.dds',
     'textures/SC/4_Ports/21_Order1886/Igraine/Knight/quicksilver_e.dds',
 }
+RESOURCE_SCHEMAS = {
+    'igraine_material_v1': 'skyrim.igraine_material_audit.v1',
+    'hoth_cloak_v1': 'skyrim.hoth_cloak_resource_audit.v1',
+    'generated_mesh_resources_v1': 'skyrim.generated_mesh_audit.v1',
+}
+RECEIPT_SCHEMAS = {
+    'igraine_material_v1': 'skyrim.igraine_material_install.v1',
+    'hoth_cloak_v1': 'skyrim.hoth_cloak_install.v1',
+    'generated_mesh_resources_v1': 'skyrim.generated_mesh_resource_install.v1',
+}
 
 
 def pin(path):
@@ -33,14 +43,14 @@ def control_pins():
 
 def install(manifest_path=MANIFEST, job=None, copier=None, unit=UNIT, manifest_sha256=MANIFEST_SHA256, expected=None):
     copier = copier or mat.make_private
-    if unit not in {'igraine_material_v1', 'hoth_cloak_v1'}:
+    if unit not in RESOURCE_SCHEMAS:
         raise ValueError('Unsupported private resource installation unit')
     expected = EXPECTED if expected is None else expected
     manifest_path = Path(manifest_path).resolve(strict=True)
     if mat.sha(manifest_path) != manifest_sha256:
         raise ValueError('Reviewed resource manifest changed')
     report = json.loads(manifest_path.read_text('utf-8'))
-    if report.get('schema') not in {'skyrim.igraine_material_audit.v1', 'skyrim.hoth_cloak_resource_audit.v1'} or report.get('status') != 'READY_FOR_PRIVATE_RESOURCE_INSTALL':
+    if report.get('schema') != RESOURCE_SCHEMAS[unit] or report.get('status') != 'READY_FOR_PRIVATE_RESOURCE_INSTALL':
         raise ValueError('Typed resource source proof required')
     layer = mat.BASE / 'UnifiedSkyrim/mods' / LAYER
     mappings = []
@@ -48,7 +58,7 @@ def install(manifest_path=MANIFEST, job=None, copier=None, unit=UNIT, manifest_s
         source = Path(row['source']['path']).resolve(strict=True)
         destination = Path(row['destination']).resolve()
         if not source.is_file() or not destination.is_relative_to(layer):
-            raise ValueError('Unexpected Igraine source or destination')
+            raise ValueError('Unexpected private resource source or destination')
         relative = destination.relative_to(layer).as_posix()
         if relative not in expected or mat.sha(source) != row['source']['sha256'] or source.stat().st_size != row['source']['bytes']:
             raise ValueError('Resource source or target differs from the typed review')
@@ -60,17 +70,18 @@ def install(manifest_path=MANIFEST, job=None, copier=None, unit=UNIT, manifest_s
     job = Path(job).resolve() if job else HERE / 'igraine_material_r1'
     mat.within(job, HERE)
     if job.exists():
-        raise FileExistsError('Use a fresh Igraine installation receipt directory')
+        raise FileExistsError('Use a fresh private resource installation receipt directory')
     mat.assert_owned_tree()
     for row in mappings:
         target = mat.guard_destination(mat.TARGET / row['destination'])
         if target.exists():
-            raise FileExistsError('Refusing to replace an existing Igraine resource: ' + str(target))
+            raise FileExistsError('Refusing to replace an existing private resource: ' + str(target))
     if shutil.disk_usage(mat.BASE).free < mat.RESERVE + sum(row['bytes'] for row in mappings) + 65536:
         raise RuntimeError('Disk reserve would be crossed')
     controls = control_pins()
     job.mkdir(parents=True)
-    (job / 'install_started.json').write_text(json.dumps({'manifest': pin(manifest_path), 'controls': controls,
+    (job / 'install_started.json').write_text(json.dumps({'schema': 'skyrim.private_resource_install.started.v1',
+                                                         'unit': unit, 'manifest': pin(manifest_path), 'controls': controls,
                                                          'pid': os.getpid(), 'files': mappings}, ensure_ascii=False, indent=2, default=str) + '\n', encoding='utf-8')
     c = mat.connect()
     installed = []
@@ -94,7 +105,7 @@ def install(manifest_path=MANIFEST, job=None, copier=None, unit=UNIT, manifest_s
             raise RuntimeError('Profile controls changed during resource installation')
         if c.execute('pragma integrity_check').fetchone()[0] != 'ok':
             raise RuntimeError('Journal integrity check failed')
-        receipt = {'schema': 'skyrim.igraine_material_install.v1' if unit == UNIT else 'skyrim.hoth_cloak_install.v1',
+        receipt = {'schema': RECEIPT_SCHEMAS[unit],
                    'utc': mat.utc(), 'status': 'INSTALLED_PENDING_ACTUAL_VFS', 'accepted': False, 'unit': unit,
                    'manifest': pin(manifest_path), 'files': installed, 'controls': controls,
                    'original_packs_modified': False, 'game_launched': False}

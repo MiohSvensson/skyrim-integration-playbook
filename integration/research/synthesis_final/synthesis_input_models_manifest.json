@@ -1,0 +1,1668 @@
+{
+  "schema": "skyrim.synthesis.input_models.v1",
+  "status": "INPUT_MODEL_CONTEXT_VERIFIED",
+  "candidate_sha256": "5f8f491fc086631868ecd78fb4f19c09b76e9a8a4e3b0cb20d5156611cfc64a8",
+  "arma_delta_sha256": "71cb18f6c671070a53e3544a14e493f16c02a97f25b8c730e06dd06aa1123527",
+  "profile": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\profiles\\Unified Build",
+  "source_key_count": 275,
+  "model_field_count": 1100,
+  "source_fields": {
+    "(lilyrim)hongluanzhuojin.esp:000D6C": {
+      "MOD2": "",
+      "MOD3": "hongluanzhuojin\\dress_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "(lilyrim)hongluanzhuojin.esp:000D6E": {
+      "MOD2": "",
+      "MOD3": "hongluanzhuojin\\hair.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "(lilyrim)hongluanzhuojin.esp:000D70": {
+      "MOD2": "",
+      "MOD3": "hongluanzhuojin\\hand_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "(lilyrim)hongluanzhuojin.esp:000D72": {
+      "MOD2": "",
+      "MOD3": "hongluanzhuojin\\heels_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "[ashtoreth] ahlanna armor.esp:00080D": {
+      "MOD2": "",
+      "MOD3": "[Ashtoreth] Ahlanna Top\\[Ashtoreth] Ahlanna Top_1.nif",
+      "MOD4": "",
+      "MOD5": "[Ashtoreth] Ahlanna Top\\[Ashtoreth] Ahlanna Top_1.nif"
+    },
+    "[ashtoreth] ahlanna armor.esp:000814": {
+      "MOD2": "",
+      "MOD3": "[Ashtoreth] Ahlanna Top\\[Ashtoreth] Ahlanna Top_1.nif",
+      "MOD4": "",
+      "MOD5": "[Ashtoreth] Ahlanna Top\\[Ashtoreth] Ahlanna Top_1.nif"
+    },
+    "[ashtoreth] ahlanna armor.esp:000819": {
+      "MOD2": "",
+      "MOD3": "[Ashtoreth] Ahlanna Top\\[Ashtoreth] Ahlanna Top_1.nif",
+      "MOD4": "",
+      "MOD5": "[Ashtoreth] Ahlanna Top\\[Ashtoreth] Ahlanna Top_1.nif"
+    },
+    "[ashtoreth] ahlanna armor.esp:000820": {
+      "MOD2": "",
+      "MOD3": "[Ashtoreth] Ahlanna Top\\[Ashtoreth] Ahlanna Top_1.nif",
+      "MOD4": "",
+      "MOD5": "[Ashtoreth] Ahlanna Top\\[Ashtoreth] Ahlanna Top_1.nif"
+    },
+    "[ashtoreth] ahlanna armor.esp:000827": {
+      "MOD2": "",
+      "MOD3": "[Ashtoreth] Ahlanna Top\\[Ashtoreth] Ahlanna Top_1.nif",
+      "MOD4": "",
+      "MOD5": "[Ashtoreth] Ahlanna Top\\[Ashtoreth] Ahlanna Top_1.nif"
+    },
+    "[ashtoreth] ahlanna armor.esp:000843": {
+      "MOD2": "",
+      "MOD3": "[Ashtoreth] Ahlanna Gloves\\[Ashtoreth] Ahlanna Gloves_Blue_1.nif",
+      "MOD4": "",
+      "MOD5": "[Ashtoreth] Ahlanna Gloves\\[Ashtoreth] Ahlanna Gloves_Blue_1.nif"
+    },
+    "[ashtoreth] ahlanna armor.esp:000845": {
+      "MOD2": "",
+      "MOD3": "[Ashtoreth] Ahlanna Gloves\\[Ashtoreth] Ahlanna Gloves_Brown_1.nif",
+      "MOD4": "",
+      "MOD5": "[Ashtoreth] Ahlanna Gloves\\[Ashtoreth] Ahlanna Gloves_Brown_1.nif"
+    },
+    "[ashtoreth] ahlanna armor.esp:000847": {
+      "MOD2": "",
+      "MOD3": "[Ashtoreth] Ahlanna Gloves\\[Ashtoreth] Ahlanna Gloves_Gold_1.nif",
+      "MOD4": "",
+      "MOD5": "[Ashtoreth] Ahlanna Gloves\\[Ashtoreth] Ahlanna Gloves_Gold_1.nif"
+    },
+    "[ashtoreth] ahlanna armor.esp:000849": {
+      "MOD2": "",
+      "MOD3": "[Ashtoreth] Ahlanna Gloves\\[Ashtoreth] Ahlanna Gloves_Purple_1.nif",
+      "MOD4": "",
+      "MOD5": "[Ashtoreth] Ahlanna Gloves\\[Ashtoreth] Ahlanna Gloves_Purple_1.nif"
+    },
+    "[ashtoreth] ahlanna armor.esp:00084B": {
+      "MOD2": "",
+      "MOD3": "[Ashtoreth] Ahlanna Gloves\\[Ashtoreth] Ahlanna Gloves_White_1.nif",
+      "MOD4": "",
+      "MOD5": "[Ashtoreth] Ahlanna Gloves\\[Ashtoreth] Ahlanna Gloves_White_1.nif"
+    },
+    "[ashtoreth] ahlanna armor.esp:000D62": {
+      "MOD2": "",
+      "MOD3": "[Ashtoreth] Ahlanna Boots\\[Ashtoreth] Ahlanna Boots_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "[ashtoreth] ahlanna armor.esp:000D63": {
+      "MOD2": "",
+      "MOD3": "[Ashtoreth] Ahlanna Top\\[Ashtoreth] Ahlanna Top_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "[ashtoreth] ahlanna armor.esp:000D64": {
+      "MOD2": "",
+      "MOD3": "[Ashtoreth] Ahlanna Gloves\\[Ashtoreth] Ahlanna Gloves_1.nif",
+      "MOD4": "",
+      "MOD5": "[Ashtoreth] Ahlanna Gloves\\[Ashtoreth] Ahlanna Gloves_1.nif"
+    },
+    "[dint999] bdor_guardian_wintermgs.esp:000D64": {
+      "MOD2": "",
+      "MOD3": "armor\\[d] BDOr\\Guardian\\Winter Mountain Guardian Spirit\\boots1_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "[dint999] bdor_guardian_wintermgs.esp:000D66": {
+      "MOD2": "",
+      "MOD3": "armor\\[d] BDOr\\Guardian\\Winter Mountain Guardian Spirit\\cuirass1_1.nif",
+      "MOD4": "",
+      "MOD5": "armor\\[d] BDOr\\Guardian\\Winter Mountain Guardian Spirit\\cuirass1_1.nif"
+    },
+    "[dint999] bdor_guardian_wintermgs.esp:000D68": {
+      "MOD2": "",
+      "MOD3": "armor\\[d] BDOr\\Guardian\\Winter Mountain Guardian Spirit\\gloves1_1.nif",
+      "MOD4": "",
+      "MOD5": "armor\\[d] BDOr\\Guardian\\Winter Mountain Guardian Spirit\\gloves1_1.nif"
+    },
+    "[dint999] bdor_guardian_wintermgs.esp:000D6A": {
+      "MOD2": "",
+      "MOD3": "armor\\[d] BDOr\\Guardian\\Winter Mountain Guardian Spirit\\hood1_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "[dint999] bdor_guardian_wintermgs.esp:000D78": {
+      "MOD2": "",
+      "MOD3": "armor\\[d] BDOr\\Guardian\\Winter Mountain Guardian Spirit\\boots3_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "[dint999] bdor_guardian_wintermgs.esp:000D7A": {
+      "MOD2": "",
+      "MOD3": "armor\\[d] BDOr\\Guardian\\Winter Mountain Guardian Spirit\\boots2_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "[dint999] bdor_guardian_wintermgs.esp:000D7C": {
+      "MOD2": "",
+      "MOD3": "armor\\[d] BDOr\\Guardian\\Winter Mountain Guardian Spirit\\bootsHC_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "[dint999] bdor_guardian_wintermgs.esp:000D84": {
+      "MOD2": "",
+      "MOD3": "armor\\[d] BDOr\\Guardian\\Winter Mountain Guardian Spirit\\cuirassHC_1.nif",
+      "MOD4": "",
+      "MOD5": "armor\\[d] BDOr\\Guardian\\Winter Mountain Guardian Spirit\\cuirass3_1.nif"
+    },
+    "[dint999] bdor_guardian_wintermgs.esp:000D86": {
+      "MOD2": "",
+      "MOD3": "armor\\[d] BDOr\\Guardian\\Winter Mountain Guardian Spirit\\cuirass2_1.nif",
+      "MOD4": "",
+      "MOD5": "armor\\[d] BDOr\\Guardian\\Winter Mountain Guardian Spirit\\cuirass2_1.nif"
+    },
+    "[dint999] bdor_guardian_wintermgs.esp:000D88": {
+      "MOD2": "",
+      "MOD3": "armor\\[d] BDOr\\Guardian\\Winter Mountain Guardian Spirit\\cuirass3_1.nif",
+      "MOD4": "",
+      "MOD5": "armor\\[d] BDOr\\Guardian\\Winter Mountain Guardian Spirit\\cuirass3_1.nif"
+    },
+    "[dint999] bdor_guardian_wintermgs.esp:000D8A": {
+      "MOD2": "",
+      "MOD3": "armor\\[d] BDOr\\Guardian\\Winter Mountain Guardian Spirit\\glovesHC_1.nif",
+      "MOD4": "",
+      "MOD5": "armor\\[d] BDOr\\Guardian\\Winter Mountain Guardian Spirit\\glovesHC_1.nif"
+    },
+    "[dint999] bdor_guardian_wintermgs.esp:000D8C": {
+      "MOD2": "",
+      "MOD3": "armor\\[d] BDOr\\Guardian\\Winter Mountain Guardian Spirit\\gloves2_1.nif",
+      "MOD4": "",
+      "MOD5": "armor\\[d] BDOr\\Guardian\\Winter Mountain Guardian Spirit\\gloves2_1.nif"
+    },
+    "[dint999] bdor_guardian_wintermgs.esp:000D8E": {
+      "MOD2": "",
+      "MOD3": "armor\\[d] BDOr\\Guardian\\Winter Mountain Guardian Spirit\\gloves3_1.nif",
+      "MOD4": "",
+      "MOD5": "armor\\[d] BDOr\\Guardian\\Winter Mountain Guardian Spirit\\gloves3_1.nif"
+    },
+    "[dint999] bdor_guardian_wintermgs.esp:000D96": {
+      "MOD2": "",
+      "MOD3": "armor\\[d] BDOr\\Guardian\\Winter Mountain Guardian Spirit\\hoodHC_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "[dint999] bdor_guardian_wintermgs.esp:000D98": {
+      "MOD2": "",
+      "MOD3": "armor\\[d] BDOr\\Guardian\\Winter Mountain Guardian Spirit\\hood2_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "[dint999] bdor_guardian_wintermgs.esp:000D9A": {
+      "MOD2": "",
+      "MOD3": "armor\\[d] BDOr\\Guardian\\Winter Mountain Guardian Spirit\\hood3_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "[elle] elven assasin.esp:00080F": {
+      "MOD2": "",
+      "MOD3": "armor\\[ELLE] Elven Assasin\\Boots_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "[elle] elven assasin.esp:000810": {
+      "MOD2": "",
+      "MOD3": "armor\\[ELLE] Elven Assasin\\Dress_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "[elle] elven assasin.esp:000811": {
+      "MOD2": "",
+      "MOD3": "armor\\[ELLE] Elven Assasin\\Gloves_1.nif",
+      "MOD4": "",
+      "MOD5": "armor\\[ELLE] Elven Assasin\\Gloves_1.nif"
+    },
+    "[elle] elven assasin.esp:000827": {
+      "MOD2": "",
+      "MOD3": "armor\\[ELLE] Elven Assasin\\Boots_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "[elle] elven assasin.esp:000828": {
+      "MOD2": "",
+      "MOD3": "armor\\[ELLE] Elven Assasin\\Dress_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "[elle] elven assasin.esp:000829": {
+      "MOD2": "",
+      "MOD3": "armor\\[ELLE] Elven Assasin\\Gloves_1.nif",
+      "MOD4": "",
+      "MOD5": "armor\\[ELLE] Elven Assasin\\Gloves_1.nif"
+    },
+    "[elle] elven assasin.esp:000835": {
+      "MOD2": "",
+      "MOD3": "armor\\[ELLE] Elven Assasin\\Boots_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "[elle] elven assasin.esp:000836": {
+      "MOD2": "",
+      "MOD3": "armor\\[ELLE] Elven Assasin\\Dress_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "[elle] elven assasin.esp:000837": {
+      "MOD2": "",
+      "MOD3": "armor\\[ELLE] Elven Assasin\\Gloves_1.nif",
+      "MOD4": "",
+      "MOD5": "armor\\[ELLE] Elven Assasin\\Gloves_1.nif"
+    },
+    "[elle] elven assasin.esp:00084B": {
+      "MOD2": "",
+      "MOD3": "armor\\[ELLE] Elven Assasin\\Boots_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "[elle] elven assasin.esp:00084C": {
+      "MOD2": "",
+      "MOD3": "armor\\[ELLE] Elven Assasin\\Dress_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "[elle] elven assasin.esp:00084D": {
+      "MOD2": "",
+      "MOD3": "armor\\[ELLE] Elven Assasin\\Gloves_1.nif",
+      "MOD4": "",
+      "MOD5": "armor\\[ELLE] Elven Assasin\\Gloves_1.nif"
+    },
+    "[elle] elven assasin.esp:000857": {
+      "MOD2": "",
+      "MOD3": "armor\\[ELLE] Elven Assasin\\Boots_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "[elle] elven assasin.esp:000858": {
+      "MOD2": "",
+      "MOD3": "armor\\[ELLE] Elven Assasin\\Dress_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "[elle] elven assasin.esp:000859": {
+      "MOD2": "",
+      "MOD3": "armor\\[ELLE] Elven Assasin\\Gloves_1.nif",
+      "MOD4": "",
+      "MOD5": "armor\\[ELLE] Elven Assasin\\Gloves_1.nif"
+    },
+    "[elle] elven assasin.esp:000D63": {
+      "MOD2": "",
+      "MOD3": "armor\\[ELLE] Elven Assasin\\Boots_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "[elle] elven assasin.esp:000D64": {
+      "MOD2": "",
+      "MOD3": "armor\\[ELLE] Elven Assasin\\Dress_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "[elle] elven assasin.esp:000D65": {
+      "MOD2": "",
+      "MOD3": "armor\\[ELLE] Elven Assasin\\Gloves_1.nif",
+      "MOD4": "",
+      "MOD5": "armor\\[ELLE] Elven Assasin\\Gloves_1.nif"
+    },
+    "[kirax] bdo reborn darkborne rose.esp:00095E": {
+      "MOD2": "",
+      "MOD3": "BDO Reborn Darkborne Rose\\DR_Hands_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "[kirax] bdo reborn darkborne rose.esp:00095F": {
+      "MOD2": "",
+      "MOD3": "BDO Reborn Darkborne Rose\\DR_Helm.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "[kirax] bdo reborn darkborne rose.esp:000960": {
+      "MOD2": "",
+      "MOD3": "BDO Reborn Darkborne Rose\\DR_Main_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "[kirax] bdo reborn darkborne rose.esp:000962": {
+      "MOD2": "",
+      "MOD3": "BDO Reborn Darkborne Rose\\DR_Shoes_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "[kirax] bdo reborn darkborne rose.esp:0009D2": {
+      "MOD2": "",
+      "MOD3": "BDO Reborn Darkborne Rose\\DR_HandsAlt_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "[kirax] bdo reborn darkborne rose.esp:0009E0": {
+      "MOD2": "",
+      "MOD3": "BDO Reborn Darkborne Rose\\Alt\\DR_Hands_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "[kirax] bdo reborn darkborne rose.esp:0009E1": {
+      "MOD2": "",
+      "MOD3": "BDO Reborn Darkborne Rose\\Alt\\DR_Helm.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "[kirax] bdo reborn darkborne rose.esp:0009E2": {
+      "MOD2": "",
+      "MOD3": "BDO Reborn Darkborne Rose\\Alt\\DR_Main_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "[kirax] bdo reborn darkborne rose.esp:0009E3": {
+      "MOD2": "",
+      "MOD3": "BDO Reborn Darkborne Rose\\Alt\\DR_Shoes_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "[kirax] bdo reborn darkborne rose.esp:0009E6": {
+      "MOD2": "",
+      "MOD3": "BDO Reborn Darkborne Rose\\Alt\\DR_HandsAlt_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "[kirax] bdo reborn darkborne rose.esp:0009F5": {
+      "MOD2": "",
+      "MOD3": "BDO Reborn Darkborne Rose\\Alt2\\DR_Hands_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "[kirax] bdo reborn darkborne rose.esp:0009F6": {
+      "MOD2": "",
+      "MOD3": "BDO Reborn Darkborne Rose\\Alt2\\DR_Helm.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "[kirax] bdo reborn darkborne rose.esp:0009F7": {
+      "MOD2": "",
+      "MOD3": "BDO Reborn Darkborne Rose\\Alt2\\DR_Main_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "[kirax] bdo reborn darkborne rose.esp:0009F8": {
+      "MOD2": "",
+      "MOD3": "BDO Reborn Darkborne Rose\\Alt2\\DR_Shoes_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "[kirax] bdo reborn darkborne rose.esp:0009FB": {
+      "MOD2": "",
+      "MOD3": "BDO Reborn Darkborne Rose\\Alt2\\DR_HandsAlt_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "[kirax] bdo reborn lethena.esp:00095E": {
+      "MOD2": "",
+      "MOD3": "BDO Reborn Lethena\\LE_Hands_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "[kirax] bdo reborn lethena.esp:000960": {
+      "MOD2": "",
+      "MOD3": "BDO Reborn Lethena\\LE_Main_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "[kirax] bdo reborn lethena.esp:000962": {
+      "MOD2": "",
+      "MOD3": "BDO Reborn Lethena\\LE_Shoes_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "[kirax] bdo reborn nereid.esp:00095E": {
+      "MOD2": "",
+      "MOD3": "BDO Reborn Nereid\\C_Hands_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "[kirax] bdo reborn nereid.esp:000960": {
+      "MOD2": "",
+      "MOD3": "BDO Reborn Nereid\\C_Main_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "[kirax] bdo reborn nereid.esp:000962": {
+      "MOD2": "",
+      "MOD3": "BDO Reborn Nereid\\C_Shoes_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "[kirax] bdo reborn selaine.esp:00095E": {
+      "MOD2": "",
+      "MOD3": "BDO Reborn Selaine\\S_Hands_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "[kirax] bdo reborn selaine.esp:000960": {
+      "MOD2": "",
+      "MOD3": "BDO Reborn Selaine\\S_Main_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "[kirax] bdo reborn selaine.esp:000962": {
+      "MOD2": "",
+      "MOD3": "BDO Reborn Selaine\\S_Shoes_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "[kirax] bdo reborn sephia.esp:00095E": {
+      "MOD2": "",
+      "MOD3": "BDO Reborn Sephia\\SE_Hands_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "[kirax] bdo reborn sephia.esp:000960": {
+      "MOD2": "",
+      "MOD3": "BDO Reborn Sephia\\SE_Main_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "[kirax] bdo reborn sephia.esp:000962": {
+      "MOD2": "",
+      "MOD3": "BDO Reborn Sephia\\SE_Shoes_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "[kirax] loa elgacia.esp:000800": {
+      "MOD2": "",
+      "MOD3": "LOA 002\\002_Main_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "[kirax] loa elgacia.esp:000804": {
+      "MOD2": "",
+      "MOD3": "LOA 002\\002_Hands_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "[kirax] loa elgacia.esp:000806": {
+      "MOD2": "",
+      "MOD3": "LOA 002\\002_Hair.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "[kirax] loa elgacia.esp:000808": {
+      "MOD2": "",
+      "MOD3": "LOA 002\\002_Shoes_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "[kirax] loa sorceress eternal skin.esp:000800": {
+      "MOD2": "",
+      "MOD3": "LoA Sorceress Eternal\\SE_Main_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "[kirax] loa sorceress eternal skin.esp:000803": {
+      "MOD2": "",
+      "MOD3": "LoA Sorceress Eternal\\SE_Shoes_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "[kirax] loa sorceress eternal skin.esp:000842": {
+      "MOD2": "",
+      "MOD3": "LoA Sorceress Eternal\\SE_Hands_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "[kirax] loa sorceress eternal skin.esp:000872": {
+      "MOD2": "",
+      "MOD3": "LoA Sorceress Eternal\\Alt\\SE_Main_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "[kirax] loa sorceress eternal skin.esp:000873": {
+      "MOD2": "",
+      "MOD3": "LoA Sorceress Eternal\\Alt\\SE_Shoes_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "[kirax] loa sorceress eternal skin.esp:000874": {
+      "MOD2": "",
+      "MOD3": "LoA Sorceress Eternal\\Alt\\SE_Hands_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "[kirax] ovr sorceress aegir.esp:000800": {
+      "MOD2": "",
+      "MOD3": "OVR Sorceress Aegir\\AE_Main_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "[kirax] ovr sorceress aegir.esp:000803": {
+      "MOD2": "",
+      "MOD3": "OVR Sorceress Aegir\\AE_Shoes_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "[kirax] ovr sorceress aegir.esp:000842": {
+      "MOD2": "",
+      "MOD3": "OVR Sorceress Aegir\\AE_Hands_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "[odd] ryanreos spartan hoplite.esp:000804": {
+      "MOD2": "",
+      "MOD3": "armor\\spartanhoplite\\chestRed_1.nif",
+      "MOD4": "",
+      "MOD5": "armor\\spartanhoplite\\chestRed_1.nif"
+    },
+    "[odd] ryanreos spartan hoplite.esp:000806": {
+      "MOD2": "",
+      "MOD3": "armor\\spartanhoplite\\gloveRed1_1.nif",
+      "MOD4": "",
+      "MOD5": "armor\\spartanhoplite\\gloveRed1_1.nif"
+    },
+    "[odd] ryanreos spartan hoplite.esp:000808": {
+      "MOD2": "",
+      "MOD3": "armor\\spartanhoplite\\gloveRed2_1.nif",
+      "MOD4": "",
+      "MOD5": "armor\\spartanhoplite\\gloveRed2_1.nif"
+    },
+    "[odd] ryanreos spartan hoplite.esp:00080A": {
+      "MOD2": "",
+      "MOD3": "armor\\spartanhoplite\\shoesRed1_1.nif",
+      "MOD4": "",
+      "MOD5": "armor\\spartanhoplite\\shoesRed1_1.nif"
+    },
+    "[odd] ryanreos spartan hoplite.esp:00080C": {
+      "MOD2": "",
+      "MOD3": "armor\\spartanhoplite\\shoesRed2_1.nif",
+      "MOD4": "",
+      "MOD5": "armor\\spartanhoplite\\shoesRed2_1.nif"
+    },
+    "[odd] ryanreos spartan hoplite.esp:000836": {
+      "MOD2": "",
+      "MOD3": "armor\\SpartanHoplite\\chest_1.nif",
+      "MOD4": "",
+      "MOD5": "armor\\SpartanHoplite\\chest_1.nif"
+    },
+    "[odd] ryanreos spartan hoplite.esp:00085A": {
+      "MOD2": "",
+      "MOD3": "armor\\spartanhoplite\\chestW_1.nif",
+      "MOD4": "",
+      "MOD5": "armor\\spartanhoplite\\chestW_1.nif"
+    },
+    "[odd] ryanreos spartan hoplite.esp:00085B": {
+      "MOD2": "",
+      "MOD3": "armor\\spartanhoplite\\chestW_1.nif",
+      "MOD4": "",
+      "MOD5": "armor\\spartanhoplite\\chestW_1.nif"
+    },
+    "[odd] ryanreos spartan hoplite.esp:000877": {
+      "MOD2": "",
+      "MOD3": "armor\\spartanhoplite\\chestW_1.nif",
+      "MOD4": "",
+      "MOD5": "armor\\spartanhoplite\\chestW_1.nif"
+    },
+    "ae_fallen_princess.esp:000D63": {
+      "MOD2": "",
+      "MOD3": "AE_Fallen_princess\\AE_Fallen_princess_1.nif",
+      "MOD4": "",
+      "MOD5": "AE_Fallen_princess\\AE_Fallen_princess_1.nif"
+    },
+    "ae_tfd_bunny_dream_rascal.esp:000D70": {
+      "MOD2": "",
+      "MOD3": "AE_TFD_Bunny_Dream_Rascal\\AE_TFD_Bunny_Dream_Rascal_Heel_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "ae_tfd_bunny_dream_rascal.esp:000D7B": {
+      "MOD2": "",
+      "MOD3": "AE_TFD_Bunny_Dream_Rascal\\AE_TFD_Bunny_Dream_Rascal_HeelW_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "ae_tfd_bunny_dream_rascal.esp:000D8B": {
+      "MOD2": "",
+      "MOD3": "AE_TFD_Bunny_Dream_Rascal\\AE_TFD_Bunny_Dream_Rascal_HeelP_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "alaristoauri.esp:000920": {
+      "MOD2": "",
+      "MOD3": "meshes\\ATA-armor\\Auri_GWbikini_1.nif",
+      "MOD4": "",
+      "MOD5": "meshes\\ATA-armor\\Auri_GWbikini_1.nif"
+    },
+    "alaristoauri.esp:000921": {
+      "MOD2": "",
+      "MOD3": "meshes\\ATA-armor\\Auri_GWGloves_1.nif",
+      "MOD4": "",
+      "MOD5": "meshes\\ATA-armor\\Auri_GWGloves_1.nif"
+    },
+    "alaristoauri.esp:000922": {
+      "MOD2": "",
+      "MOD3": "meshes\\ATA-armor\\Auri_GWBoots_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "asuras guard [armor].esp:00081F": {
+      "MOD2": "",
+      "MOD3": "Goampuja\\AsurasGuard\\AsurasHelmetNoMask_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "asuras guard [armor].esp:000D61": {
+      "MOD2": "",
+      "MOD3": "Goampuja\\AsurasGuard\\AsurasCombined_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "asuras guard [armor].esp:000D62": {
+      "MOD2": "",
+      "MOD3": "Goampuja\\AsurasGuard\\AsurasSabatons_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "asuras guard [armor].esp:000D63": {
+      "MOD2": "",
+      "MOD3": "Goampuja\\AsurasGuard\\AsurasVambraces_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "asuras guard [armor].esp:000D64": {
+      "MOD2": "",
+      "MOD3": "Goampuja\\AsurasGuard\\AsurasHelmet_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "asuras guard [armor].esp:000D67": {
+      "MOD2": "",
+      "MOD3": "Goampuja\\AsurasGuard\\AsurasHeels_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "asuras guard [armor].esp:000D73": {
+      "MOD2": "",
+      "MOD3": "Goampuja\\AsurasGuard\\AsurasBra_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "bde_armor.esp:000D61": {
+      "MOD2": "",
+      "MOD3": "armor\\GoasBDEarmor\\BDE_BreastPlate_1.nif",
+      "MOD4": "",
+      "MOD5": "Actors\\Character\\Character Assets\\1stPersonFemaleBody_1.nif"
+    },
+    "bde_armor.esp:000D62": {
+      "MOD2": "",
+      "MOD3": "armor\\GoasBDEarmor\\BDE_Top_1.nif",
+      "MOD4": "",
+      "MOD5": "Actors\\Character\\Character Assets\\1stPersonFemaleBody_1.nif"
+    },
+    "bde_armor.esp:000D63": {
+      "MOD2": "",
+      "MOD3": "armor\\GoasBDEarmor\\BDE_Gloves_1.nif",
+      "MOD4": "",
+      "MOD5": "armor\\GoasBDEarmor\\BDE_Gloves_1stP_1.nif"
+    },
+    "bde_armor.esp:000D64": {
+      "MOD2": "",
+      "MOD3": "armor\\GoasBDEarmor\\BDE_Sabatons_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "bde_armor.esp:005E70": {
+      "MOD2": "",
+      "MOD3": "armor\\GoasBDEarmor\\BDE_Combined_1.nif",
+      "MOD4": "",
+      "MOD5": "armor\\GoasBDEarmor\\BDEcombined1stP_1.nif"
+    },
+    "bdor arditer.esp:000800": {
+      "MOD2": "armor\\BDOR Arditer\\body_1.nif",
+      "MOD3": "",
+      "MOD4": "armor\\BDOR Arditer\\1st\\body_1.nif",
+      "MOD5": ""
+    },
+    "bdor arditer.esp:000806": {
+      "MOD2": "armor\\BDOR Arditer\\hands_1.nif",
+      "MOD3": "",
+      "MOD4": "armor\\BDOR Arditer\\hands_1.nif",
+      "MOD5": ""
+    },
+    "bdor arditer.esp:000809": {
+      "MOD2": "armor\\BDOR Arditer\\head_1.nif",
+      "MOD3": "",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "bdor arditer.esp:00080C": {
+      "MOD2": "armor\\BDOR Arditer\\feet_1.nif",
+      "MOD3": "",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "bdor arditer.esp:00080F": {
+      "MOD2": "armor\\BDOR Arditer\\head_1.nif",
+      "MOD3": "",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "bdor chic lua.esp:000800": {
+      "MOD2": "armor\\BDOR Chic Lua\\body_1.nif",
+      "MOD3": "",
+      "MOD4": "Actors\\Character\\Character Assets\\1stPersonMaleBody_1.NIF",
+      "MOD5": "Actors\\Character\\Character Assets\\1stPersonFemaleBody_1.nif"
+    },
+    "bdor chic lua.esp:000806": {
+      "MOD2": "armor\\BDOR Chic Lua\\hand_1.nif",
+      "MOD3": "",
+      "MOD4": "armor\\BDOR Chic Lua\\hand_1.nif",
+      "MOD5": ""
+    },
+    "bdor chic lua.esp:000809": {
+      "MOD2": "armor\\BDOR Chic Lua\\feet_1.nif",
+      "MOD3": "",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "black rose.esp:000809": {
+      "MOD2": "",
+      "MOD3": "n8k\\Black Rose\\Body2_1.nif",
+      "MOD4": "",
+      "MOD5": "n8k\\Black Rose\\Body2_1.nif"
+    },
+    "black rose.esp:000D62": {
+      "MOD2": "",
+      "MOD3": "n8k\\Black Rose\\Body1_1.nif",
+      "MOD4": "",
+      "MOD5": "n8k\\Black Rose\\Body1_1.nif"
+    },
+    "corsair outfit.esp:0002D7": {
+      "MOD2": "",
+      "MOD3": "armor\\Aokili\\CorsairOutfit\\Gauntlets_1.nif",
+      "MOD4": "",
+      "MOD5": "armor\\Aokili\\CorsairOutfit\\Gauntlets_1.nif"
+    },
+    "corsair outfit.esp:0002D9": {
+      "MOD2": "",
+      "MOD3": "armor\\Aokili\\CorsairOutfit\\Boots_1.nif",
+      "MOD4": "",
+      "MOD5": "armor\\Aokili\\CorsairOutfit\\Boots_1.nif"
+    },
+    "corsair outfit.esp:0002DE": {
+      "MOD2": "",
+      "MOD3": "armor\\Aokili\\CorsairOutfit\\Cuirass_1.nif",
+      "MOD4": "",
+      "MOD5": "armor\\Aokili\\CorsairOutfit\\Cuirass_1.nif"
+    },
+    "corsair outfit.esp:000308": {
+      "MOD2": "",
+      "MOD3": "armor\\Aokili\\CorsairOutfit\\Cuirass_1.nif",
+      "MOD4": "",
+      "MOD5": "armor\\Aokili\\CorsairOutfit\\Cuirass_1.nif"
+    },
+    "corsair outfit.esp:000309": {
+      "MOD2": "",
+      "MOD3": "armor\\Aokili\\CorsairOutfit\\Gauntlets_1.nif",
+      "MOD4": "",
+      "MOD5": "armor\\Aokili\\CorsairOutfit\\Gauntlets_1.nif"
+    },
+    "corsair outfit.esp:00030C": {
+      "MOD2": "",
+      "MOD3": "armor\\Aokili\\CorsairOutfit\\Boots_1.nif",
+      "MOD4": "",
+      "MOD5": "armor\\Aokili\\CorsairOutfit\\Boots_1.nif"
+    },
+    "corsair outfit.esp:000311": {
+      "MOD2": "",
+      "MOD3": "armor\\Aokili\\CorsairOutfit\\Cuirass_1.nif",
+      "MOD4": "",
+      "MOD5": "armor\\Aokili\\CorsairOutfit\\Cuirass_1.nif"
+    },
+    "corsair outfit.esp:000312": {
+      "MOD2": "",
+      "MOD3": "armor\\Aokili\\CorsairOutfit\\Gauntlets_1.nif",
+      "MOD4": "",
+      "MOD5": "armor\\Aokili\\CorsairOutfit\\Gauntlets_1.nif"
+    },
+    "corsair outfit.esp:000315": {
+      "MOD2": "",
+      "MOD3": "armor\\Aokili\\CorsairOutfit\\Boots_1.nif",
+      "MOD4": "",
+      "MOD5": "armor\\Aokili\\CorsairOutfit\\Boots_1.nif"
+    },
+    "courageousknight.esp:0007C4": {
+      "MOD2": "",
+      "MOD3": "armor\\Aokili\\CourageousKnight\\Cuirass_1.nif",
+      "MOD4": "",
+      "MOD5": "armor\\Aokili\\CourageousKnight\\Cuirass_1.nif"
+    },
+    "courageousknight.esp:0007C6": {
+      "MOD2": "",
+      "MOD3": "armor\\Aokili\\CourageousKnight\\Gauntlets_1.nif",
+      "MOD4": "",
+      "MOD5": "armor\\Aokili\\CourageousKnight\\Gauntlets_1.nif"
+    },
+    "courageousknight.esp:0007C9": {
+      "MOD2": "",
+      "MOD3": "_pgpatcher_dups\\1\\armor\\aokili\\courageousknight\\sabatons_1.nif",
+      "MOD4": "",
+      "MOD5": "_pgpatcher_dups\\1\\armor\\aokili\\courageousknight\\sabatons_1.nif"
+    },
+    "courageousknight.esp:0007CF": {
+      "MOD2": "",
+      "MOD3": "armor\\Aokili\\CourageousKnight\\Cuirass_1.nif",
+      "MOD4": "",
+      "MOD5": "armor\\Aokili\\CourageousKnight\\Cuirass_1.nif"
+    },
+    "courageousknight.esp:0007D1": {
+      "MOD2": "",
+      "MOD3": "armor\\Aokili\\CourageousKnight\\Gauntlets_1.nif",
+      "MOD4": "",
+      "MOD5": "armor\\Aokili\\CourageousKnight\\Gauntlets_1.nif"
+    },
+    "courageousknight.esp:0007D4": {
+      "MOD2": "",
+      "MOD3": "_pgpatcher_dups\\1\\armor\\aokili\\courageousknight\\sabatons_1.nif",
+      "MOD4": "",
+      "MOD5": "_pgpatcher_dups\\1\\armor\\aokili\\courageousknight\\sabatons_1.nif"
+    },
+    "courageousknight.esp:00080F": {
+      "MOD2": "",
+      "MOD3": "armor\\Aokili\\CourageousKnight\\Sabatons_1.nif",
+      "MOD4": "",
+      "MOD5": "armor\\Aokili\\CourageousKnight\\Sabatons_1.nif"
+    },
+    "courageousknight.esp:000810": {
+      "MOD2": "",
+      "MOD3": "armor\\Aokili\\CourageousKnight\\Gauntlets_1.nif",
+      "MOD4": "",
+      "MOD5": "armor\\Aokili\\CourageousKnight\\Gauntlets_1.nif"
+    },
+    "courageousknight.esp:00081A": {
+      "MOD2": "",
+      "MOD3": "armor\\Aokili\\CourageousKnight\\Cuirass_1.nif",
+      "MOD4": "",
+      "MOD5": "armor\\Aokili\\CourageousKnight\\Cuirass_1.nif"
+    },
+    "dac0da.esm:000DAC": {
+      "MOD2": "Actors\\Dac0da\\Cgt\\cavity\\za\\ZATorso.nif",
+      "MOD3": "",
+      "MOD4": "Actors\\Dac0da\\Cgt\\cavity\\za\\ZATorso1stp.nif",
+      "MOD5": ""
+    },
+    "dac0da.esm:000DAD": {
+      "MOD2": "Actors\\Dac0da\\Cgt\\cavity\\za\\ZAHands.nif",
+      "MOD3": "",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "dac0da.esm:000DB0": {
+      "MOD2": "Actors\\Dac0da\\Cgt\\cavity\\za\\ZAFeet.nif",
+      "MOD3": "",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "dark dreams.esl:000D61": {
+      "MOD2": "",
+      "MOD3": "armor\\Dark Dreams\\DDBra_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "dark dreams.esl:000D6A": {
+      "MOD2": "",
+      "MOD3": "armor\\Dark Dreams\\DDBoots_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "dark dreams.esl:000D6B": {
+      "MOD2": "",
+      "MOD3": "armor\\Dark Dreams\\DDGloves_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "dark dreams.esl:000D6C": {
+      "MOD2": "",
+      "MOD3": "armor\\Dark Dreams\\DDFull_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "darkwitch.esp:000800": {
+      "MOD2": "",
+      "MOD3": "armor\\hedgewitch\\dress_1.nif",
+      "MOD4": "",
+      "MOD5": "armor\\hedgewitch\\1stdress_1.nif"
+    },
+    "darkwitch.esp:000802": {
+      "MOD2": "",
+      "MOD3": "armor\\hedgewitch\\gauntlet_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "darkwitch.esp:000806": {
+      "MOD2": "",
+      "MOD3": "armor\\hedgewitch\\boots_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "ddangeli.esp:000D62": {
+      "MOD2": "",
+      "MOD3": "DDAngeli\\DDAngeli_body02 Feet_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "ddangeli.esp:001838": {
+      "MOD2": "",
+      "MOD3": "DDAngeli\\DDAngeli_body03 Feet_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "ddangeli.esp:001843": {
+      "MOD2": "",
+      "MOD3": "DDAngeli\\DDAngeli_body04_Feet_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "ddangeli.esp:00287C": {
+      "MOD2": "",
+      "MOD3": "DDAngeli\\DDAngeli_body05_Feet_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "ddangeli.esp:00287D": {
+      "MOD2": "",
+      "MOD3": "DDAngeli\\DDAngeli_body06_Feet_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "ddangeli.esp:00287E": {
+      "MOD2": "",
+      "MOD3": "DDAngeli\\DDAngeli_body07_Feet_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "eldritchdisciple.esp:000807": {
+      "MOD2": "",
+      "MOD3": "armor\\Aokili\\EldritchDisciple\\Gauntlets_1.nif",
+      "MOD4": "",
+      "MOD5": "armor\\Aokili\\EldritchDisciple\\Gauntlets_1.nif"
+    },
+    "eldritchdisciple.esp:000808": {
+      "MOD2": "",
+      "MOD3": "armor\\Aokili\\EldritchDisciple\\Sabatons_1.nif",
+      "MOD4": "",
+      "MOD5": "armor\\Aokili\\EldritchDisciple\\Sabatons_1.nif"
+    },
+    "eldritchdisciple.esp:00080D": {
+      "MOD2": "",
+      "MOD3": "armor\\Aokili\\EldritchDisciple\\Cuirass_1.nif",
+      "MOD4": "",
+      "MOD5": "armor\\Aokili\\EldritchDisciple\\Cuirass_1.nif"
+    },
+    "eldritchdisciple.esp:000836": {
+      "MOD2": "",
+      "MOD3": "armor\\Aokili\\EldritchDisciple\\Cuirass_1.nif",
+      "MOD4": "",
+      "MOD5": "armor\\Aokili\\EldritchDisciple\\Cuirass_1.nif"
+    },
+    "eldritchdisciple.esp:000837": {
+      "MOD2": "",
+      "MOD3": "armor\\Aokili\\EldritchDisciple\\Gauntlets_1.nif",
+      "MOD4": "",
+      "MOD5": "armor\\Aokili\\EldritchDisciple\\Gauntlets_1.nif"
+    },
+    "eldritchdisciple.esp:00083A": {
+      "MOD2": "",
+      "MOD3": "armor\\Aokili\\EldritchDisciple\\Sabatons_1.nif",
+      "MOD4": "",
+      "MOD5": "armor\\Aokili\\EldritchDisciple\\Sabatons_1.nif"
+    },
+    "eldritchdisciple.esp:00083F": {
+      "MOD2": "",
+      "MOD3": "armor\\Aokili\\EldritchDisciple\\Cuirass_1.nif",
+      "MOD4": "",
+      "MOD5": "armor\\Aokili\\EldritchDisciple\\Cuirass_1.nif"
+    },
+    "eldritchdisciple.esp:000840": {
+      "MOD2": "",
+      "MOD3": "armor\\Aokili\\EldritchDisciple\\Gauntlets_1.nif",
+      "MOD4": "",
+      "MOD5": "armor\\Aokili\\EldritchDisciple\\Gauntlets_1.nif"
+    },
+    "eldritchdisciple.esp:000843": {
+      "MOD2": "",
+      "MOD3": "armor\\Aokili\\EldritchDisciple\\Sabatons_1.nif",
+      "MOD4": "",
+      "MOD5": "armor\\Aokili\\EldritchDisciple\\Sabatons_1.nif"
+    },
+    "elvenia armor.esp:000800": {
+      "MOD2": "",
+      "MOD3": "Putra\\Elvenia\\ElveniaBoots_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "elvenia armor.esp:000802": {
+      "MOD2": "",
+      "MOD3": "Putra\\Elvenia\\ElveniaBra_1.nif",
+      "MOD4": "",
+      "MOD5": "Putra\\Elvenia\\1stPerson_1.nif"
+    },
+    "elvenia armor.esp:00082D": {
+      "MOD2": "",
+      "MOD3": "Putra\\Elvenia\\ElveniaBraBodysuit_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "elvenia armor.esp:00083A": {
+      "MOD2": "",
+      "MOD3": "Putra\\Elvenia\\ElveniaThighBoots_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "elvenia armor.esp:000D62": {
+      "MOD2": "",
+      "MOD3": "Putra\\Elvenia\\ElveniaGauntlets_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "fashionwtich set.esp:000800": {
+      "MOD2": "",
+      "MOD3": "TheBottomhoodofsteel\\FashionWitchSet\\FW_Dress_1.nif",
+      "MOD4": "",
+      "MOD5": "TheBottomhoodofsteel\\FashionWitchSet\\FW_Dress_1.nif"
+    },
+    "fashionwtich set.esp:000801": {
+      "MOD2": "",
+      "MOD3": "TheBottomhoodofsteel\\FashionWitchSet\\FW_Nail_1.nif",
+      "MOD4": "",
+      "MOD5": "TheBottomhoodofsteel\\FashionWitchSet\\FW_Nail_1.nif"
+    },
+    "fashionwtich set.esp:000802": {
+      "MOD2": "",
+      "MOD3": "TheBottomhoodofsteel\\FashionWitchSet\\FW_Boots_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "fashionwtich set.esp:000833": {
+      "MOD2": "",
+      "MOD3": "TheBottomhoodofsteel\\FashionWitchSet\\FW_Heels_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "fashionwtich set.esp:000847": {
+      "MOD2": "",
+      "MOD3": "TheBottomhoodofsteel\\FashionWitchSet\\FW_Dress_1.nif",
+      "MOD4": "",
+      "MOD5": "TheBottomhoodofsteel\\FashionWitchSet\\FW_Dress_1.nif"
+    },
+    "fashionwtich set.esp:000848": {
+      "MOD2": "",
+      "MOD3": "TheBottomhoodofsteel\\FashionWitchSet\\FW_Dress_1.nif",
+      "MOD4": "",
+      "MOD5": "TheBottomhoodofsteel\\FashionWitchSet\\FW_Dress_1.nif"
+    },
+    "fashionwtich set.esp:000849": {
+      "MOD2": "",
+      "MOD3": "TheBottomhoodofsteel\\FashionWitchSet\\FW_Nail_1.nif",
+      "MOD4": "",
+      "MOD5": "TheBottomhoodofsteel\\FashionWitchSet\\FW_Nail_1.nif"
+    },
+    "fashionwtich set.esp:00084A": {
+      "MOD2": "",
+      "MOD3": "TheBottomhoodofsteel\\FashionWitchSet\\FW_Nail_1.nif",
+      "MOD4": "",
+      "MOD5": "TheBottomhoodofsteel\\FashionWitchSet\\FW_Nail_1.nif"
+    },
+    "fashionwtich set.esp:000853": {
+      "MOD2": "",
+      "MOD3": "TheBottomhoodofsteel\\FashionWitchSet\\FW_Heels_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "h2135fantasyseries8 [se].esp:000834": {
+      "MOD2": "",
+      "MOD3": "_pgpatcher_dups\\1\\harry2135\\fantasyseries8\\fs8_cuirass_1.nif",
+      "MOD4": "",
+      "MOD5": "_pgpatcher_dups\\1\\harry2135\\fantasyseries8\\fs8_cuirass_1.nif"
+    },
+    "h2135fantasyseries8 [se].esp:000838": {
+      "MOD2": "",
+      "MOD3": "_pgpatcher_dups\\1\\harry2135\\fantasyseries8\\fs8_gauntlets_1.nif",
+      "MOD4": "",
+      "MOD5": "_pgpatcher_dups\\1\\harry2135\\fantasyseries8\\fs8_gauntlets_1.nif"
+    },
+    "h2135fantasyseries8 [se].esp:00083A": {
+      "MOD2": "",
+      "MOD3": "_pgpatcher_dups\\1\\harry2135\\fantasyseries8\\fs8_greaves_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "h2135fantasyseries8 [se].esp:00083E": {
+      "MOD2": "",
+      "MOD3": "_pgpatcher_dups\\1\\harry2135\\fantasyseries8\\fs8add_breastplate_1.nif",
+      "MOD4": "",
+      "MOD5": "_pgpatcher_dups\\1\\harry2135\\fantasyseries8\\fs8add_breastplate_1.nif"
+    },
+    "h2135fantasyseries8 [se].esp:000841": {
+      "MOD2": "",
+      "MOD3": "_pgpatcher_dups\\1\\harry2135\\fantasyseries8\\fs8add_chainmail_top_1.nif",
+      "MOD4": "",
+      "MOD5": "_pgpatcher_dups\\1\\harry2135\\fantasyseries8\\fs8add_chainmail_top_1.nif"
+    },
+    "h2135fantasyseries8 [se].esp:000843": {
+      "MOD2": "",
+      "MOD3": "_pgpatcher_dups\\1\\harry2135\\fantasyseries8\\fs8add_gauntlets_1.nif",
+      "MOD4": "",
+      "MOD5": "_pgpatcher_dups\\1\\harry2135\\fantasyseries8\\fs8add_gauntlets_1.nif"
+    },
+    "h2135fantasyseries8 [se].esp:000844": {
+      "MOD2": "",
+      "MOD3": "_pgpatcher_dups\\1\\harry2135\\fantasyseries8\\fs8add_greaves_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "h2135fantasyseries8 [se].esp:000862": {
+      "MOD2": "",
+      "MOD3": "_pgpatcher_dups\\1\\harry2135\\fantasyseries8\\fs8_cuirass_1.nif",
+      "MOD4": "",
+      "MOD5": "_pgpatcher_dups\\1\\harry2135\\fantasyseries8\\fs8_cuirass_1.nif"
+    },
+    "h2135fantasyseries8 [se].esp:000866": {
+      "MOD2": "",
+      "MOD3": "_pgpatcher_dups\\1\\harry2135\\fantasyseries8\\fs8_gauntlets_1.nif",
+      "MOD4": "",
+      "MOD5": "_pgpatcher_dups\\1\\harry2135\\fantasyseries8\\fs8_gauntlets_1.nif"
+    },
+    "h2135fantasyseries8 [se].esp:000868": {
+      "MOD2": "",
+      "MOD3": "_pgpatcher_dups\\1\\harry2135\\fantasyseries8\\fs8_greaves_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "h2135fantasyseries8 [se].esp:00086C": {
+      "MOD2": "",
+      "MOD3": "_pgpatcher_dups\\1\\harry2135\\fantasyseries8\\fs8add_breastplate_1.nif",
+      "MOD4": "",
+      "MOD5": "_pgpatcher_dups\\1\\harry2135\\fantasyseries8\\fs8add_breastplate_1.nif"
+    },
+    "h2135fantasyseries8 [se].esp:00086F": {
+      "MOD2": "",
+      "MOD3": "_pgpatcher_dups\\1\\harry2135\\fantasyseries8\\fs8add_chainmail_top_1.nif",
+      "MOD4": "",
+      "MOD5": "_pgpatcher_dups\\1\\harry2135\\fantasyseries8\\fs8add_chainmail_top_1.nif"
+    },
+    "h2135fantasyseries8 [se].esp:000871": {
+      "MOD2": "",
+      "MOD3": "_pgpatcher_dups\\1\\harry2135\\fantasyseries8\\fs8add_gauntlets_1.nif",
+      "MOD4": "",
+      "MOD5": "_pgpatcher_dups\\1\\harry2135\\fantasyseries8\\fs8add_gauntlets_1.nif"
+    },
+    "h2135fantasyseries8 [se].esp:000872": {
+      "MOD2": "",
+      "MOD3": "_pgpatcher_dups\\1\\harry2135\\fantasyseries8\\fs8add_greaves_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "h2135fantasyseries8 [se].esp:0009A7": {
+      "MOD2": "",
+      "MOD3": "_pgpatcher_dups\\1\\harry2135\\fantasyseries8\\fs8_cuirasscm_1.nif",
+      "MOD4": "",
+      "MOD5": "_pgpatcher_dups\\1\\harry2135\\fantasyseries8\\fs8_cuirasscm_1.nif"
+    },
+    "h2135fantasyseries8 [se].esp:0009A8": {
+      "MOD2": "",
+      "MOD3": "_pgpatcher_dups\\1\\harry2135\\fantasyseries8\\fs8add_breastplatecm_1.nif",
+      "MOD4": "",
+      "MOD5": "_pgpatcher_dups\\1\\harry2135\\fantasyseries8\\fs8add_breastplatecm_1.nif"
+    },
+    "h2135fantasyseries8 [se].esp:0009A9": {
+      "MOD2": "",
+      "MOD3": "_pgpatcher_dups\\1\\harry2135\\fantasyseries8\\fs8_cuirasscm_1.nif",
+      "MOD4": "",
+      "MOD5": "_pgpatcher_dups\\1\\harry2135\\fantasyseries8\\fs8_cuirasscm_1.nif"
+    },
+    "h2135fantasyseries8 [se].esp:0009BA": {
+      "MOD2": "",
+      "MOD3": "_pgpatcher_dups\\1\\harry2135\\fantasyseries8\\fs8add_breastplatecm_1.nif",
+      "MOD4": "",
+      "MOD5": "_pgpatcher_dups\\1\\harry2135\\fantasyseries8\\fs8add_breastplatecm_1.nif"
+    },
+    "h2135fantasyseries8 [se].esp:0009DE": {
+      "MOD2": "",
+      "MOD3": "_pgpatcher_dups\\1\\harry2135\\fantasyseries8\\fs8_cuirasscmrealistic_1.nif",
+      "MOD4": "",
+      "MOD5": "_pgpatcher_dups\\1\\harry2135\\fantasyseries8\\fs8_cuirasscmrealistic_1.nif"
+    },
+    "h2135fantasyseries8 [se].esp:0009E1": {
+      "MOD2": "",
+      "MOD3": "_pgpatcher_dups\\1\\harry2135\\fantasyseries8\\fs8_cuirasscmrealistic_1.nif",
+      "MOD4": "",
+      "MOD5": "_pgpatcher_dups\\1\\harry2135\\fantasyseries8\\fs8_cuirasscmrealistic_1.nif"
+    },
+    "h2135fantasyseries8 [se].esp:0009E5": {
+      "MOD2": "",
+      "MOD3": "_pgpatcher_dups\\1\\harry2135\\fantasyseries8\\fs8_cuirassrealistic_1.nif",
+      "MOD4": "",
+      "MOD5": "_pgpatcher_dups\\1\\harry2135\\fantasyseries8\\fs8_cuirassrealistic_1.nif"
+    },
+    "h2135fantasyseries8 [se].esp:0009E6": {
+      "MOD2": "",
+      "MOD3": "_pgpatcher_dups\\1\\harry2135\\fantasyseries8\\fs8_cuirassrealistic_1.nif",
+      "MOD4": "",
+      "MOD5": "_pgpatcher_dups\\1\\harry2135\\fantasyseries8\\fs8_cuirassrealistic_1.nif"
+    },
+    "h2135fantasyseries8 [se].esp:0009EA": {
+      "MOD2": "",
+      "MOD3": "_pgpatcher_dups\\1\\harry2135\\fantasyseries8\\fs8add_breastplatecmrealistic_1.nif",
+      "MOD4": "",
+      "MOD5": "_pgpatcher_dups\\1\\harry2135\\fantasyseries8\\fs8add_breastplatecmrealistic_1.nif"
+    },
+    "h2135fantasyseries8 [se].esp:0009ED": {
+      "MOD2": "",
+      "MOD3": "_pgpatcher_dups\\1\\harry2135\\fantasyseries8\\fs8add_breastplatecmrealistic_1.nif",
+      "MOD4": "",
+      "MOD5": "_pgpatcher_dups\\1\\harry2135\\fantasyseries8\\fs8add_breastplatecmrealistic_1.nif"
+    },
+    "h2135fantasyseries8 [se].esp:0009EE": {
+      "MOD2": "",
+      "MOD3": "_pgpatcher_dups\\1\\harry2135\\fantasyseries8\\fs8add_breastplaterealistic_1.nif",
+      "MOD4": "",
+      "MOD5": "_pgpatcher_dups\\1\\harry2135\\fantasyseries8\\fs8add_breastplaterealistic_1.nif"
+    },
+    "h2135fantasyseries8 [se].esp:0009F1": {
+      "MOD2": "",
+      "MOD3": "_pgpatcher_dups\\1\\harry2135\\fantasyseries8\\fs8add_breastplaterealistic_1.nif",
+      "MOD4": "",
+      "MOD5": "_pgpatcher_dups\\1\\harry2135\\fantasyseries8\\fs8add_breastplaterealistic_1.nif"
+    },
+    "honeypopcorn skyrim overhaul.esp:D1997D": {
+      "MOD2": "",
+      "MOD3": "armor\\hsochainhands_1.nif",
+      "MOD4": "",
+      "MOD5": "armor\\hsochainhands_1.nif"
+    },
+    "honeypopcorn skyrim overhaul.esp:D19980": {
+      "MOD2": "",
+      "MOD3": "armor\\hsochaintop_1.nif",
+      "MOD4": "",
+      "MOD5": "armor\\hsochaintop_1.nif"
+    },
+    "honeypopcorn skyrim overhaul.esp:D19981": {
+      "MOD2": "",
+      "MOD3": "armor\\hsochaintop2_1.nif",
+      "MOD4": "",
+      "MOD5": "armor\\hsochaintop2_1.nif"
+    },
+    "hoodu_follower.esp:000843": {
+      "MOD2": "",
+      "MOD3": "Clothing\\Hoodu\\gauntlets_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "hoodu_follower.esp:000845": {
+      "MOD2": "",
+      "MOD3": "Clothing\\Hoodu\\sabatons_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "hoodu_follower.esp:00084F": {
+      "MOD2": "",
+      "MOD3": "_pgpatcher_dups\\1\\clothing\\hoodu\\setarmors_1.nif",
+      "MOD4": "",
+      "MOD5": "_pgpatcher_dups\\1\\clothing\\hoodu\\1st_1.nif"
+    },
+    "k101daegon.esp:23CE8A": {
+      "MOD2": "",
+      "MOD3": "k101daegonarmor\\Count_FemaleBodyNoPlate_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "k101daegon.esp:23CE8C": {
+      "MOD2": "",
+      "MOD3": "k101daegonarmor\\boots_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "k101daegon.esp:84F8BF": {
+      "MOD2": "",
+      "MOD3": "k101daegonarmor\\DaegonRoyalBoots_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "k101daegon.esp:84F8C0": {
+      "MOD2": "",
+      "MOD3": "k101daegonarmor\\DaegonRoyalArmor_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "latex lover corset plus.esp:00092B": {
+      "MOD2": "",
+      "MOD3": "meshes\\Latex Lover Corset Plus\\Latex Lover Corset Plus Binding Gloves_1.nif",
+      "MOD4": "",
+      "MOD5": "meshes\\Latex Lover Corset Plus\\Latex Lover Corset Plus Binding Gloves_1.nif"
+    },
+    "latex lover corset plus.esp:00092E": {
+      "MOD2": "",
+      "MOD3": "meshes\\Latex Lover Corset Plus\\Latex Lover Corset Plus Gloves_1.nif",
+      "MOD4": "",
+      "MOD5": "meshes\\Latex Lover Corset Plus\\Latex Lover Corset Plus Gloves_1.nif"
+    },
+    "latex lover corset plus.esp:000937": {
+      "MOD2": "",
+      "MOD3": "meshes\\Latex Lover Corset Plus\\Latex Lover Corset Plus Boots_1.nif",
+      "MOD4": "",
+      "MOD5": "meshes\\Latex Lover Corset Plus\\Latex Lover Corset Plus Boots_1.nif"
+    },
+    "latex lover corset plus.esp:000951": {
+      "MOD2": "",
+      "MOD3": "meshes\\Latex Lover Corset Plus\\Latex Lover Corset Plus Socks_1.nif",
+      "MOD4": "",
+      "MOD5": "meshes\\Latex Lover Corset Plus\\Latex Lover Corset Plus Socks_1.nif"
+    },
+    "niel_follower.esp:000840": {
+      "MOD2": "",
+      "MOD3": "Clothing\\Niel\\VA_Sabatons_1.nif",
+      "MOD4": "",
+      "MOD5": "Clothing\\Niel\\VA_Sabatons_1.nif"
+    },
+    "niel_follower.esp:000841": {
+      "MOD2": "",
+      "MOD3": "Clothing\\Niel\\VA_Leotard_1.nif",
+      "MOD4": "",
+      "MOD5": "Clothing\\Niel\\VA_Leotard_1.nif"
+    },
+    "niel_follower.esp:000842": {
+      "MOD2": "",
+      "MOD3": "Clothing\\Niel\\VA_Gauntlets_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "regaliaofthescorned.esp:000800": {
+      "MOD2": "",
+      "MOD3": "armor\\RegaliaOfTheScorned\\rotsTop_1.nif",
+      "MOD4": "",
+      "MOD5": "Actors\\Character\\Character Assets\\1stPersonFemaleBody_1.nif"
+    },
+    "regaliaofthescorned.esp:000801": {
+      "MOD2": "",
+      "MOD3": "armor\\RegaliaOfTheScorned\\rotsCombined_1.nif",
+      "MOD4": "",
+      "MOD5": "Actors\\Character\\Character Assets\\1stPersonFemaleBody_1.nif"
+    },
+    "regaliaofthescorned.esp:00080C": {
+      "MOD2": "",
+      "MOD3": "armor\\RegaliaOfTheScorned\\RotsArms_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "regaliaofthescorned.esp:00080D": {
+      "MOD2": "",
+      "MOD3": "armor\\RegaliaOfTheScorned\\rotsHeels_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "the adventurer's guild - armor - goblin slayer.esp:000874": {
+      "MOD2": "",
+      "MOD3": "Coco_Cloths\\Deliciously_Bride\\body1_1.nif",
+      "MOD4": "",
+      "MOD5": "Coco_Cloths\\Deliciously_Bride\\body1_1.nif"
+    },
+    "the adventurer's guild - armor - goblin slayer.esp:000895": {
+      "MOD2": "",
+      "MOD3": "Coco_Cloths\\Deliciously_Bride\\shoes_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "the adventurer's guild - armor - goblin slayer.esp:000896": {
+      "MOD2": "",
+      "MOD3": "Coco_Cloths\\Deliciously_Bride\\body1_1.nif",
+      "MOD4": "",
+      "MOD5": "Coco_Cloths\\Deliciously_Bride\\body1_1.nif"
+    },
+    "the adventurer's guild - armor - goblin slayer.esp:000897": {
+      "MOD2": "",
+      "MOD3": "Coco_Cloths\\Deliciously_Bride\\body1_1.nif",
+      "MOD4": "",
+      "MOD5": "Coco_Cloths\\Deliciously_Bride\\body1_1.nif"
+    },
+    "the adventurer's guild - armor - goblin slayer.esp:00089B": {
+      "MOD2": "",
+      "MOD3": "Coco_Cloths\\Deliciously_Bride\\glove_1.nif",
+      "MOD4": "",
+      "MOD5": "Coco_Cloths\\Deliciously_Bride\\glove_1.nif"
+    },
+    "the adventurer's guild - armor - goblin slayer.esp:0008B8": {
+      "MOD2": "",
+      "MOD3": "Coco_Cloths\\Deliciously_Bride\\shoes_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "the adventurer's guild - armor - goblin slayer.esp:0008B9": {
+      "MOD2": "",
+      "MOD3": "Coco_Cloths\\Deliciously_Bride\\body2_1.nif",
+      "MOD4": "",
+      "MOD5": "Coco_Cloths\\Deliciously_Bride\\body2_1.nif"
+    },
+    "the adventurer's guild - armor - goblin slayer.esp:0008BA": {
+      "MOD2": "",
+      "MOD3": "Coco_Cloths\\Deliciously_Bride\\body2_1.nif",
+      "MOD4": "",
+      "MOD5": "Coco_Cloths\\Deliciously_Bride\\body2_1.nif"
+    },
+    "the adventurer's guild - armor - goblin slayer.esp:0008BE": {
+      "MOD2": "",
+      "MOD3": "Coco_Cloths\\Deliciously_Bride\\glove_1.nif",
+      "MOD4": "",
+      "MOD5": "Coco_Cloths\\Deliciously_Bride\\glove_1.nif"
+    },
+    "the adventurer's guild - armor - goblin slayer.esp:0008CE": {
+      "MOD2": "",
+      "MOD3": "_pgpatcher_dups\\1\\coco_cloths\\deliciously_bride\\shoes_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "the adventurer's guild - armor - goblin slayer.esp:0008CF": {
+      "MOD2": "",
+      "MOD3": "Coco_Cloths\\Deliciously_Bride\\body2_1.nif",
+      "MOD4": "",
+      "MOD5": "Coco_Cloths\\Deliciously_Bride\\body2_1.nif"
+    },
+    "the adventurer's guild - armor - goblin slayer.esp:0008D0": {
+      "MOD2": "",
+      "MOD3": "Coco_Cloths\\Deliciously_Bride\\body2_1.nif",
+      "MOD4": "",
+      "MOD5": "Coco_Cloths\\Deliciously_Bride\\body2_1.nif"
+    },
+    "the adventurer's guild - armor - goblin slayer.esp:0008D4": {
+      "MOD2": "",
+      "MOD3": "Coco_Cloths\\Deliciously_Bride\\glove_1.nif",
+      "MOD4": "",
+      "MOD5": "Coco_Cloths\\Deliciously_Bride\\glove_1.nif"
+    },
+    "the adventurer's guild - armor - goblin slayer.esp:0008DC": {
+      "MOD2": "",
+      "MOD3": "_pgpatcher_dups\\2\\coco_cloths\\deliciously_bride\\shoes_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "the adventurer's guild - armor - goblin slayer.esp:0008DE": {
+      "MOD2": "",
+      "MOD3": "Coco_Cloths\\Deliciously_Bride\\glove_1.nif",
+      "MOD4": "",
+      "MOD5": "Coco_Cloths\\Deliciously_Bride\\glove_1.nif"
+    },
+    "the adventurer's guild - armor - goblin slayer.esp:0008EC": {
+      "MOD2": "",
+      "MOD3": "Coco_Cloths\\Deliciously_Bride\\shoes_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "the adventurer's guild - armor - goblin slayer.esp:0008F2": {
+      "MOD2": "",
+      "MOD3": "Coco_Cloths\\Deliciously_Bride\\glove_1.nif",
+      "MOD4": "",
+      "MOD5": "Coco_Cloths\\Deliciously_Bride\\glove_1.nif"
+    },
+    "the adventurer's guild - armor - goblin slayer.esp:0008FA": {
+      "MOD2": "",
+      "MOD3": "Coco_Cloths\\Deliciously_Bride\\body2_1.nif",
+      "MOD4": "",
+      "MOD5": "Coco_Cloths\\Deliciously_Bride\\body2_1.nif"
+    },
+    "the adventurer's guild - armor - goblin slayer.esp:0008FE": {
+      "MOD2": "",
+      "MOD3": "Coco_Cloths\\Deliciously_Bride\\body1_1.nif",
+      "MOD4": "",
+      "MOD5": "Coco_Cloths\\Deliciously_Bride\\body1_1.nif"
+    },
+    "the adventurer's guild - armor - goblin slayer.esp:000903": {
+      "MOD2": "",
+      "MOD3": "Coco_Cloths\\Deliciously_Bride\\body2_1.nif",
+      "MOD4": "",
+      "MOD5": "Coco_Cloths\\Deliciously_Bride\\body2_1.nif"
+    },
+    "the adventurer's guild - armor - goblin slayer.esp:000904": {
+      "MOD2": "",
+      "MOD3": "Coco_Cloths\\Deliciously_Bride\\body2_1.nif",
+      "MOD4": "",
+      "MOD5": "Coco_Cloths\\Deliciously_Bride\\body2_1.nif"
+    },
+    "the adventurer's guild - armor - goblin slayer.esp:000907": {
+      "MOD2": "",
+      "MOD3": "Coco_Cloths\\Deliciously_Bride\\body2_1.nif",
+      "MOD4": "",
+      "MOD5": "Coco_Cloths\\Deliciously_Bride\\body2_1.nif"
+    },
+    "the adventurer's guild - armor - goblin slayer.esp:000908": {
+      "MOD2": "",
+      "MOD3": "Coco_Cloths\\Deliciously_Bride\\body2_1.nif",
+      "MOD4": "",
+      "MOD5": "Coco_Cloths\\Deliciously_Bride\\body2_1.nif"
+    },
+    "the adventurer's guild - armor - goblin slayer.esp:00090B": {
+      "MOD2": "",
+      "MOD3": "Coco_Cloths\\Deliciously_Bride\\body2_1.nif",
+      "MOD4": "",
+      "MOD5": "Coco_Cloths\\Deliciously_Bride\\body2_1.nif"
+    },
+    "the modern scrolls.esp:005FDB": {
+      "MOD2": "gipsy danger armor.nif",
+      "MOD3": "",
+      "MOD4": "1stgipsy.nif",
+      "MOD5": ""
+    },
+    "vertigo boots.esp:000806": {
+      "MOD2": "",
+      "MOD3": "Vertigo\\VBoots_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "vertigo boots.esp:000D98": {
+      "MOD2": "",
+      "MOD3": "Vertigo\\VBoots_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "vertigo boots.esp:000DA4": {
+      "MOD2": "",
+      "MOD3": "Vertigo\\VBoots_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "vertigo boots.esp:000DB6": {
+      "MOD2": "",
+      "MOD3": "Vertigo\\VBoots_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "vertigo boots.esp:000DB7": {
+      "MOD2": "",
+      "MOD3": "Vertigo\\VBoots_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "vertigo boots.esp:000DB8": {
+      "MOD2": "",
+      "MOD3": "Vertigo\\VBoots_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "zazanimationpack.esm:009FE2": {
+      "MOD2": "",
+      "MOD3": "ZaZ-UltimateDataPack\\ZaZ - Accessories\\Restraints\\06ZAZ - GSBDoggieBelt\\DoggieBelt_1.nif",
+      "MOD4": "Clothes\\BeggarClothes\\1stPersontorsom_0.nif",
+      "MOD5": "Clothes\\BeggarClothes\\1stPersontorsof_1.nif"
+    },
+    "zazanimationpack.esm:02ECB8": {
+      "MOD2": "",
+      "MOD3": "ZaZ-UltimateDataPack\\ZaZ - Accessories\\Restraints\\07ZAZ - WaistRope01\\WaistRope01_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "zazanimationpack.esm:031D39": {
+      "MOD2": "",
+      "MOD3": "ZaZ-UltimateDataPack\\ZaZ - Accessories\\Restraints\\07ZAZ - WaistRope02\\WaistRope02_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "zazanimationpack.esm:035337": {
+      "MOD2": "",
+      "MOD3": "ZaZ-UltimateDataPack\\ZaZ - Accessories\\Restraints\\015ZaZ - Shibari\\Shibari_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "zazanimationpack.esm:073F77": {
+      "MOD2": "",
+      "MOD3": "ZaZ-UltimateDataPack\\ZaZ - Accessories\\Restraints\\08ZAZ - WaistRopeWithBreastRope01\\WaistRopeWithBreastRope01_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "zazanimationpack.esm:073F79": {
+      "MOD2": "",
+      "MOD3": "ZaZ-UltimateDataPack\\ZaZ - Accessories\\Restraints\\09ZAZ - WaistRopeWithBreastRope02\\WaistRopeWithBreastRope02_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "zazanimationpack.esm:0795DA": {
+      "MOD2": "",
+      "MOD3": "ZaZ-UltimateDataPack\\ZaZ - Accessories\\Restraints\\011ZaZ - BreastRopeExtreme01\\BreastRopeExtreme01_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "zazanimationpack.esm:0795DB": {
+      "MOD2": "",
+      "MOD3": "ZaZ-UltimateDataPack\\ZaZ - Accessories\\Restraints\\012ZaZ - BreastRopeExtreme02\\BreastRopeExtreme02_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "zazanimationpack.esm:07A0A4": {
+      "MOD2": "",
+      "MOD3": "ZaZ-UltimateDataPack\\ZaZ - Accessories\\Restraints\\013ZaZ - BreastRopeWithWaistRopeExtreme01\\BreastRopeWithWaistRopeExtreme01_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "zazanimationpack.esm:07A0A5": {
+      "MOD2": "",
+      "MOD3": "ZaZ-UltimateDataPack\\ZaZ - Accessories\\Restraints\\014ZaZ - BreastRopeWithWaistRopeExtreme02\\BreastRopeWithWaistRopeExtreme02_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    },
+    "zazanimationpack.esm:089F59": {
+      "MOD2": "",
+      "MOD3": "ZaZ-UltimateDataPack\\ZaZ - Accessories\\Restraints\\019ZaZ - StraightJacket\\StraightJacket_1.nif",
+      "MOD4": "",
+      "MOD5": ""
+    }
+  },
+  "native_task": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\validation\\synthesis_input_models_v3",
+  "native_result_sha256": "5355b5e8084b19a5571bd5ef515d79ea986dd4ea291aade9f87be97161a5ff87",
+  "native_log_sha256": "f2debe73c81c64e98e08ab6e7866ede11495ee3e6725e2407d56d16d4a64c4a9",
+  "native_prepared_sha256": "fbf4ecac56ebd6f2efed073c6fda658fba875730ff0a80eaa0210cf342d2f687",
+  "input_inventory_sha256": "9c9df02ce8a99819de17444f5ac28a646d43d5b3629a80eecb0d01a7046b8c33",
+  "synthesis_not_loaded": true,
+  "game_launched": false
+}

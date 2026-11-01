@@ -45,6 +45,8 @@
 !/integration/research/synthesis_final/DatabaseSynthesisInputModelsV2.source.txt
 !/integration/research/synthesis_final/install/runs/production_v2/prepared.json
 !/integration/research/synthesis_final/install/runs/production_v2/installed.json
+!/integration/research/feature_generation/cache_containment/probe_v1/D3D11Probe.cs
+!/integration/research/feature_generation/cache_containment/probe_v1/native_result.json
 !/integration/research/plugin_integration/navi_unresolved_audit/final_navi_key_audit.json
 !/integration/research/plugin_integration/navi_unresolved_audit/stock_orphan_parent_absence_v6.json
 

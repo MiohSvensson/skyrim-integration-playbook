@@ -107,6 +107,8 @@ Formal PG is blocked while Windows/NVIDIA may write an OS driver cache outside `
 
 First implement and verify per-process containment inside the run. Never change global GPU/security/privacy settings. If containment cannot be proven, leave PG blocked and do not weaken the guard.
 
+A bounded D3D11 initialization probe passed inside a private debug-MO2 tool tree, with the main MO2 config unchanged. Its actual usvfs log captured no D3D cache write, but no shader dispatch or full PG workload was exercised. Kernel ETW was refused for insufficient privileges; no elevation was attempted. See `cache_containment/probe_v1/usvfs_trace_analysis_manifest.json`. This is not a supported cache-root override or permission to run formal PG.
+
 After containment and final Synthesis:
 
 1. Prepare a fresh incoming-only run with old DynDOLOD/TexGen outputs disabled.

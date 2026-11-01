@@ -1,0 +1,49 @@
+{
+  "schema": "skyrim.pg_cache_probe.usvfs_trace.v1",
+  "status": "CACHE_ROOT_UNPROVEN_NO_CACHE_WRITE_OBSERVED",
+  "native_result_sha256": "688a9762a421ca386dffadfa0a856806b6832b02e71342a76ff101a472193bca",
+  "trace_sha256": "7b2fed52803fd81897c5edf15825df4a2cda002c140eb05462081f24c179366c",
+  "native_pid": 38904,
+  "debug_log_level": 0,
+  "d3d11_hardware_compute_shader_pass": true,
+  "shader_dispatch_performed": false,
+  "cache_write_events": [],
+  "nvidia_file_events": [
+    {
+      "path": "\\??\\C:\\ProgramData\\NVIDIA Corporation\\Drs\\nvdrssel.bin",
+      "desired_access": "c0100080",
+      "generic_write": true
+    },
+    {
+      "path": "\\??\\C:\\ProgramData\\NVIDIA Corporation\\Drs\\nvdrssel.bin",
+      "desired_access": "c0100080",
+      "generic_write": true
+    },
+    {
+      "path": "\\??\\C:\\ProgramData\\NVIDIA Corporation\\Drs\\nvdrssel.bin",
+      "desired_access": "c0100080",
+      "generic_write": true
+    },
+    {
+      "path": "\\??\\C:\\ProgramData\\NVIDIA Corporation\\Drs\\nvdrssel.bin",
+      "desired_access": "c0100080",
+      "generic_write": true
+    },
+    {
+      "path": "\\??\\C:\\ProgramData\\NVIDIA Corporation\\Drs\\nvdrssel.bin",
+      "desired_access": "c0100080",
+      "generic_write": true
+    },
+    {
+      "path": "\\??\\C:\\ProgramData\\NVIDIA Corporation\\Drs\\nvAppTimestamps",
+      "desired_access": "c0100080",
+      "generic_write": true
+    }
+  ],
+  "main_config_unchanged": true,
+  "kernel_etw": "Blocked by normal Windows privilege policy; no elevation or security-setting change",
+  "scope": "Initialization-only usvfs evidence. No D3D cache write was observed; no cache-root override or full-workload containment is proven.",
+  "formal_pg_allowed": false,
+  "pg_launched": false,
+  "game_launched": false
+}

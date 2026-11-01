@@ -1,0 +1,12 @@
+{
+  "schema": "skyrim.pg_cache_probe.kernel_trace_blocked.v1",
+  "status": "KERNEL_ETW_BLOCKED_NO_ELEVATION",
+  "provider": "Microsoft-Windows-Kernel-File",
+  "result": "logman start was refused for insufficient privileges; no ETW session was started and no trace file was produced",
+  "native_probe_executed_for_this_attempt": false,
+  "reason": "The probe child had a corrected-afterward import-path error and did not launch the native executable. No D3D11 result is accepted from this attempt.",
+  "constraints": "Do not elevate privileges, change security settings, or treat the missing ETW trace as evidence of containment",
+  "alternative": "Use a private MO2 debug configuration and actual usvfs native file-operation logs, with the main MO2 configuration left byte-identical",
+  "formal_pg_launched": false,
+  "game_launched": false
+}

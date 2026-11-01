@@ -1,0 +1,15 @@
+{
+  "schema": "skyrim.pg_cache_probe.debug_mo2.v1",
+  "status": "PRIVATE_DEBUG_MO2_READY",
+  "original_config": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\MO2\\ModOrganizer.ini",
+  "original_config_sha256": "12731ac4d0b81206ad19881e37e320675d76c65bc12bd39374412585ff1ec191",
+  "debug_config": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\feature_generation\\cache_containment\\probe_v1\\mo2_debug_full\\ModOrganizer.ini",
+  "debug_config_sha256": "d7629a50fdbf856424198b6400a7bfcec2e3620d943ea79a02c1ca55f3473f8b",
+  "debug_exe_sha256": "442b354a8f34754da0048654c44d27f51628feba54ce46c3187cf58d6c43e622",
+  "source_exe_sha256": "442b354a8f34754da0048654c44d27f51628feba54ce46c3187cf58d6c43e622",
+  "debug_log_level": 0,
+  "original_config_unchanged": true,
+  "dependencies": "Private full MO2 tool tree with read-only linked binaries and an independent debug INI; original config is not modified",
+  "game_launched": false,
+  "pg_launched": false
+}

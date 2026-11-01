@@ -1,0 +1,11 @@
+{
+  "schema": "skyrim.pg_cache_probe.native.v1",
+  "pid": 38904,
+  "return_code": 0,
+  "stdout": "D3D11_PROBE_USVFS_PRESENT\r\nD3D11_HARDWARE_COMPUTE_SHADER_PASS\r\n",
+  "executable_sha256": "4dff5d5b02cc409792a51f0ab582eb8e01ed64108b57e04cdbc84815dbb02283",
+  "source_sha256": "8d2be98529b1dd81e5ab3bf84ecd0db6df7e27398169fc176cbdcb6d6d9268c4",
+  "usvfs_in_python_child": true,
+  "game_launched": false,
+  "pg_launched": false
+}

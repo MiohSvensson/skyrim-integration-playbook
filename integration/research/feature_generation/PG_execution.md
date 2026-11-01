@@ -42,9 +42,11 @@ base PGPatcher.esp / PG_1.esp stay in the frozen input context.
 
 PG hardware D3D11 initialization is unconditional. Its own controllable work
 paths are in Database. Windows/NVIDIA may manage a driver shader cache outside
-Database; the root explicitly accepted this OS-managed boundary and it is
-recorded in every new manifest. No global GPU/security/privacy settings change.
-The earlier blanket OS-cache launch block is historical and has been removed.
+Database. Formal PG remains blocked until per-process driver-cache containment
+inside the run directory is proven by actual I/O evidence. An OS-managed
+boundary alone is not acceptance. The earlier unsupported removal of the
+OS-cache launch block is reverted in `prepare_pg_run.py`; `pg_child.py` also
+refuses a true block. No global GPU/security/privacy settings change.
 
 After successful private PG: run pg_nif_validate.py verify --run <RUN>. First
 it checks all2747 actual native loaded-rule JSONs and their order against the

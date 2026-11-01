@@ -1,0 +1,25 @@
+{
+  "schema": "skyrim.pg_containment.review.v1",
+  "status": "BLOCKED_PENDING_PER_PROCESS_DRIVER_CACHE_CONTAINMENT",
+  "finding": "The new PG delivery text removed the OS-driver-cache launch block without actual per-process containment evidence. That removal is not accepted.",
+  "guard": {
+    "prepare_pg_run.py": "database_only_formal_run_blocked is restored to true and containment is explicitly required",
+    "pg_child.py": "The existing launcher requires a false block before it can execute PGPatcher.exe",
+    "PG_execution.md": "The text once again records that formal PG is blocked",
+    "PG_delivery_final.json": "Not accepted as authority while containment is unproven"
+  },
+  "guard_sha256": {
+    "prepare_pg_run.py": "5653b0ddc20bc08978982f12ec163adb7723be9f714ba24419f92dd93d820bd9",
+    "pg_child.py": "7182961fc7487c01ad2fd7e58aadf18dbff505cc709f74a110a30a736731682a"
+  },
+  "required_proof": "Actual I/O evidence that every Windows/NVIDIA driver-cache write from the PG process is contained inside the fresh run directory, or a supported native per-process cache-root mechanism proven by that evidence. Environment-variable guesses and parent acceptance of an OS-managed boundary are insufficient.",
+  "not_done": [
+    "No formal PG run was launched",
+    "No GPU, security, privacy, registry or global cache setting was changed",
+    "No PG output was installed",
+    "Synthesis acceptance remains blocked by the exact VA_CuirassAA mesh source gap",
+    "Terrain, grass and final LOD generation remain pending"
+  ],
+  "original_packs_modified": false,
+  "game_launched": false
+}

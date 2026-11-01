@@ -37,12 +37,16 @@
       "status": "ACCEPTED_STATIC_TYPED_RELOAD_FINAL_VFS_PENDING"
     },
     {
+      "evidence": "integration/research/verified_patch_install/runs/fc_v12/accepted.json",
+      "status": "ACCEPTED_STATIC_TYPED_RELOAD_FINAL_VFS_PENDING"
+    },
+    {
       "evidence": "integration/research/feature_conflicts/candidate/review_recheck_v14.json",
       "status": "CURRENT_RESOLVED_MAP_BINARY_RECHECK_PASS"
     }
   ],
   "remaining": [
-    "build_binary_verify_install_and_fresh_reload_FC_then_Glen_navigation_patches",
+    "build_binary_verify_install_and_fresh_reload_Glen_navigation_patch",
     "close_or_explicitly_disposition_bounded_upstream_resource_gaps",
     "rebuild_final_Synthesis_with_all_gameplay_inputs",
     "implement_and_verify_Database_only_PG_driver_cache_containment_then_run_and_validate_PG",
@@ -51,8 +55,9 @@
     "verify_original_controls_unchanged_after_all_remaining_writers",
     "finalize_database_catalog_launchers_and_maintenance_docs"
   ],
-  "updated_utc": "2026-11-01T02:44:51Z",
+  "updated_utc": "2026-11-01T03:17:39Z",
   "completed": [
+    "FC4_navigation_binary_install_and_dual_fresh_typed_reload_accepted",
     "base_selection_TuLED",
     "full_491328_file_baseline_view",
     "private_mutable_runtime_and_clean_MO2",
@@ -91,15 +96,15 @@
   "runtime_checkpoint": {
     "active_job": null,
     "module_selection_confirmed": true,
-    "build_profile_plugins": 1076,
-    "default_profile_plugins": 1079,
+    "build_profile_plugins": 1077,
+    "default_profile_plugins": 1080,
     "build_profile_slots": {
       "full": 144,
-      "light": 932
+      "light": 933
     },
     "default_profile_slots": {
       "full": 147,
-      "light": 932
+      "light": 933
     },
     "current_workflow": "Text-only continuation; do not launch the game. Keep every task-owned output, cache, log and generated file under Database.",
     "last_bad_requests_utc": [
@@ -128,7 +133,7 @@
       "FC one response motif sound missing, FUZ voice itself present"
     ],
     "next_required": [
-      "FC4 navigation builder+binary+install+fresh reload, then Glen8 navigation with the same gates",
+      "Glen8 navigation bounded producer+binary+install+fresh reload, preserving FC and unrelated NAVI entries",
       "Final Synthesis with all gameplay inputs and master budget checks",
       "Fresh PG against final Synthesis context; typed records, NIF and resource closure before deployment",
       "Affected terrain/TexGen/DynDOLOD/offline grass and final occlusion in verified batch order",
@@ -145,7 +150,7 @@
     "normal_xedit": "ACTUAL_PROVEN SimpleRecords=0; textfalseignored. See plugin_integration/xedit_settings/settings_rootcause.json",
     "current_native_source": "research/feature_conflicts/draft_version_manifest.v13.json",
     "current_feature_binary_verifier": "research/feature_conflicts/verify_compatibility_v14.py; verify_compatibility.py remains frozen v13 evidence and is not the accepted-candidate verifier",
-    "navigation_source": "Use the current FC/Glen diagnostic PAS files; baseline generators and v6/v8 manifests are historical. FC verifier source 506c65d760f11e7cfdfd8a9b4bcde576b5e2ac7cac7a2c4ea5fd8744db33d8d8 passed a fresh diagnostic-profile typed reload of candidate 5775a78be65ec8e088d6c348361eb4dce4dae1fd71d9d3b3228c81a6f524cf84. Full producer and production installation remain pending; preserve FC NVMI entries in Glen",
+    "navigation_source": "FC v12 is accepted at research/verified_patch_install/runs/fc_v12/accepted.json; see research/forgotten_city_navigation/navigation_v12_manifest.json. Main and separate triangle reloads are both mandatory. Glen uses the same bounded producer/binary/install/fresh reload chain and must preserve FC and unrelated NAVI/NVPP/NVSI entries; baseline generators and v6/v8 manifests are historical",
     "sprint_repair": "ExactoneTABPEXfixinstalledZZ86 integration/sprint_literal_fix.json",
     "PG_nif": "3842 sources read with exact-format numeric limits; source-only trailer cases not adopted; formal PG not started",
     "configuration_rebase": "POST_APPLY_READ_ONLY_STATE_PASS; four values private and original controls unchanged",

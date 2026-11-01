@@ -1,0 +1,71 @@
+{
+  "schema": "skyrim.fc_navigation.acceptance.v12",
+  "utc": "2026-11-01T03:17:39Z",
+  "status": "ACCEPTED_STATIC_TYPED_RELOAD_FINAL_VFS_PENDING",
+  "candidate": {
+    "name": "Database Forgotten City USSEP Navigation.esp",
+    "path": "UnifiedSkyrim/mods/ZZ87 Verified compatibility patches/Database Forgotten City USSEP Navigation.esp",
+    "sha256": "5775a78be65ec8e088d6c348361eb4dce4dae1fd71d9d3b3228c81a6f524cf84",
+    "size_bytes": 82550,
+    "overrides": ["NAVM", "CELL", "NAVI", "WRLD"],
+    "own_records": 0,
+    "forwarded_NVMI": 7,
+    "retained_reciprocal_ports": [16, 16],
+    "triangle_flag_edge_checks": 324,
+    "NAVI_witness": "KuroneSoulTomb_EX3.esp"
+  },
+  "producer": {
+    "task": "UnifiedSkyrim/validation/fc_navigation_v12_r1",
+    "result_sha256": "ac5bce9eec9898abcc147d3483dd41e7d2123c1605ec11951776da7177a97114",
+    "pass_marker": "FC_NAV_PRODUCER_PASS",
+    "scope": "Bounded producer export; not an in-memory acceptance claim",
+    "executed_builder_sha256": "6fece6ece65797cf720741bb0214b490cb768afaf7317575c2c5ef1320b0805d",
+    "current_builder_sha256": "be9852660e076214f71d279499914ab7f8f8bd1c8182068390c40d1a484a44be",
+    "current_change": "Comment-only header update after execution; normalized source matches the executed hash"
+  },
+  "binary_verification": {
+    "report": "integration/research/forgotten_city_navigation/binary_v12.json",
+    "sha256": "de9f5c0be7ac23960932c55dc6d76566605aa9020fb83b01592fdfc7b7bb86ad",
+    "status": "BINARY_PASS_TYPED_RELOAD_REQUIRED"
+  },
+  "installation": {
+    "prepared": "integration/research/verified_patch_install/runs/fc_v12/prepared.json",
+    "prepared_sha256": "57ae8fdfe3916db0e79b786f6f2626ece3871c6c9226f948b929a3bf4ff5b293",
+    "receipt": "integration/research/verified_patch_install/runs/fc_v12/installed.json",
+    "receipt_sha256": "1175a87579ce0a811e316c8cc01fbf9cd1ed6a4bf960c8bbbf2f68b049ae5abf"
+  },
+  "fresh_typed_reloads": [
+    {
+      "role": "Main record, NAVI, parent, vertex, cover, reciprocal and xEdit Check verification",
+      "task": "UnifiedSkyrim/validation/fc_navigation_v12_reload_r5",
+      "result_sha256": "08867e8345c110cc9fd9469e2c15e3c47e5bf052aa05241a41e3f1b36c3f770d",
+      "pass_marker": "FC_NAV_RELOAD_TYPED_PASS",
+      "source_sha256": "a8b4813855113eb53b0d3dd73b820c61475586d2c5759f070a154697d3ff8b2c"
+    },
+    {
+      "role": "All 324 triangle flag and external-edge checks in a separate read-only process",
+      "task": "UnifiedSkyrim/validation/fc_navigation_v12_triangles_r1",
+      "result_sha256": "45263af980830870a28f8f71cf2f0bda1c462c2625cd999aafc2facb4331c872",
+      "pass_marker": "FC_NAV_TRIANGLE_TYPED_PASS",
+      "source_sha256": "5006499d5589785f8bff6c42fb14e8839fef847853504b6e2f35bc07ae584628"
+    }
+  ],
+  "native_plugin_order_sha256": "349011e791dbbc31254d03dcf5bab008dd1561e181bb23e0811c2633d9977198",
+  "acceptance": {
+    "receipt": "integration/research/verified_patch_install/runs/fc_v12/accepted.json",
+    "sha256": "eb729ff20766755519e7082ff4020bb1caae68d84e42bf19bf779729a1da3b43",
+    "auxiliary_reload_required": true,
+    "missing_auxiliary_reload_rejected": true
+  },
+  "profiles": {
+    "Unified Build": {"plugins": 1077, "full": 144, "light": 933},
+    "Unified Skyrim": {"plugins": 1080, "full": 147, "light": 933}
+  },
+  "design": "Separate bounded mutation from deep read-only verification to avoid xEdit interface-destruction failures. The independent binary verifier, both fresh reloads, exact candidate bytes, unchanged inputs/controls, and rev4 acceptance gates remain mandatory.",
+  "original_packs_modified": false,
+  "game_launched": false,
+  "limits": [
+    "Static integration acceptance only; no in-game navigation test occurred",
+    "Final VFS/resource closure, Synthesis, PG and LOD generation remain separate gates"
+  ]
+}

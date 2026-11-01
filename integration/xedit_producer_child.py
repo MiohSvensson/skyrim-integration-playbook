@@ -42,6 +42,8 @@ assert Path(command[0]).resolve()==TARGET/'tools/xedit/SSEEdit64.exe'
 assert '-nofixup' in command
 log=task/'logs/xedit.log'
 assert not log.exists()
+exception_source=TARGET/'tools/xedit/SSEEdit64Exception.log'
+exception_offset=exception_source.stat().st_size if exception_source.is_file() else 0
 (task/'child_started.json').write_text(json.dumps({'utc':utc(),'usvfs':True,'pid':os.getpid(),'normal_records_config':normal_settings})+'\n',encoding='utf-8')
 started=time.monotonic()
 inputs=json.loads((task/'input_inventory.json').read_text('utf-8'))
@@ -58,6 +60,15 @@ try:
         code=process.wait()
 finally:
     watcher.stop()
+exception_receipt=None
+if exception_source.is_file() and exception_source.stat().st_size>exception_offset:
+    with exception_source.open('rb') as stream:
+        stream.seek(exception_offset)
+        blob=stream.read()
+    exception_path=task/'logs/xedit_exception.log'
+    exception_path.write_bytes(blob)
+    exception_receipt={'path':str(exception_path),'sha256':sha(exception_path),'source_offset':exception_offset,
+                       'xedit_pid':process.pid,'tail':blob.decode('utf-16' if blob.startswith((b'\xff\xfe',b'\xfe\xff')) else 'utf-16-le',errors='replace')[-16000:]}
 changed_inputs=[r['name'] for r in inputs['plugins'] if sha(r['path'])!=r['sha256']]
 after_controls=control_audit()
 changed_controls=after_controls['changed_controls']
@@ -83,6 +94,7 @@ result={'utc':utc(),'status':'PASS' if passed else 'FAIL','usvfs':True,'return_c
         'native_loaded_context':loaded_context,
         'profile_control_audit':after_controls,
         'native_progress':native_xedit_context.read_log(prepared['progress_file']) if prepared.get('progress_file') else None}
+result['xedit_exception']=exception_receipt
 result['changed_input_plugins']=changed_inputs
 result['changed_profile_controls']=changed_controls
 result['isolated_script_autosave']=autosave

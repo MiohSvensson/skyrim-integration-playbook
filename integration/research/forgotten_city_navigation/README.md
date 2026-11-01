@@ -1,6 +1,6 @@
 # Forgotten City／USSEP 導航三向結果
 
-**此處已有可定界的組合方案和 typed 草稿，尚未產生或驗證成品 ESP。** 沒有啟動 xEdit／MO2／遊戲，沒有改原件或共用 Edit Scripts。`source_preflight.json` 的 `SOURCE_PREFLIGHT_PASS` 只表示三個來源與已審查檔案 SHA 相符。
+**正式 producer、獨立二進位驗證、rev4 私人安裝及正式 profile 的新程序 typed reload 均已通過，靜態整合接受完成。** 沒有啟動遊戲，沒有修改原裝 mod packs；所有產出及私人工具副本均在 Database。最終完整 VFS、資源與生成階段仍另行驗證。`source_preflight.json` 的 `SOURCE_PREFLIGHT_PASS` 只表示三個來源與已審查檔案 SHA 相符。
 
 ## 核心結論
 
@@ -54,22 +54,23 @@ NAVI 的 108AB4 NVMI 是 island：USSEP 含 **7 個鄰居**，保留其新增 `U
 ## 草稿與驗證流程
 
 - `DatabaseForgottenCityNavigationDraft.pas`：正常 4.1.5f defs 下建立新 ESL-flag ESP。只允許既有 Skyrim NAVM 108AB4、CELL 007644、NAVI 012FB4，以及外部 container 必需的 Tamriel WRLD 00003C 四個 override，零自有記錄。WRLD 和 CELL 都原樣保留最終贏家。
-- `DatabaseVerifyForgottenCityNavigationDraft.pas`：只有 `VERIFY_ONLY=true` 一行不同；必須在新的 xEdit 程序重載候選後執行，不修改、不 export。
-- 目前兩份 PAS 是 **v6 exact-source orphan-guard 版本**，權威清單為 `../plugin_integration/navi_unresolved_audit/stock_orphan_lookup_fix_manifest_v6.json`。`generate_drafts.py` 只保留早期基底產生器，**不得對目前草稿重新執行**，否則會移除 v4–v6 修正；需要變更時從 v6 frozen copy 建立新 revision。
+- `DatabaseVerifyForgottenCityNavigationDraft.pas`：以 `VERIFY_ONLY=true` 在新的 xEdit 程序重載候選，不修改、不 export；負責完整記錄、NAVI、vertices、cover flags、parent 和 reciprocal checks。
+- `../plugin_integration/navi_unresolved_audit/DatabaseTriangleLocalProbe.pas`：另一個必要的只讀新程序，逐一檢查 324 個 triangle 的 flags 與 external edge remap。分離是為了避開 xEdit 在同一 interpreter 中混合多組 interfaces 時的 destruction 問題，不是省略驗證。
+- 目前接受的是 v12；v6/v8 清單是歷史證據。`generate_drafts.py` 只保留早期基底產生器，**不得對目前草稿重新執行**，否則會移除之後修正。
 - `verify_navigation_candidate.py`：來源預檢；有候選後比較所有 NVNM 位元組／tuple、邏輯差異只在 triangle 50、16／16 互惠，並以實際 `--navi-winning` 原檔為 witness 比較七筆精確 NVMI 與其餘全部 NAVI 資料。
 
-執行順序：最終 VFS 三個來源先跑預檢 → 正常 defs 編譯／執行 builder → 獨立二進位後驗 → 候選 mod 隔離安裝 → 新程序完整 VFS 重載執行 verifier → 全插件原生及完整環境檢查。預檢命令（在本目錄執行）為：
+執行順序：最終 VFS 三個來源先跑預檢 → 正常 defs 編譯／執行 bounded builder → 獨立二進位後驗 → rev4 私人安裝 → 新程序完整 VFS 重載執行主 verifier 與 triangle companion verifier → 兩個結果接受。預檢命令（在本目錄執行）為：
 
 ```powershell
 python verify_navigation_candidate.py --vanilla "E:/stock/Skyrim collection/Database/repairs/consistent_stock/Data/Skyrim.esm" --feature "E:/stock/Skyrim collection/Anno/iniRePather-Skyrim/mods/The Forgotten City/ForgottenCity.esp" --ussep "E:/stock/Skyrim collection/Database/xedit_runs/TuLED/Data/Unofficial Skyrim Special Edition Patch.esp"
 ```
 
-保存候選執行前後 SHA、命令和對應日誌。僅獨立二進位通過時狀態是 `BINARY_PASS_TYPED_RELOAD_REQUIRED`；提供有 `FC_NAV_RELOAD_TYPED_PASS` 的同輪日誌才可記靜態完整通過。
+保存候選執行前後 SHA、命令和對應日誌。僅獨立二進位通過時狀態是 `BINARY_PASS_TYPED_RELOAD_REQUIRED`；正式接受必須同時有 `FC_NAV_RELOAD_TYPED_PASS` 與 `FC_NAV_TRIANGLE_TYPED_PASS`，並以 `--aux-reload-task` 提供後者。缺少 companion task 時 accept 會拒絕。
 
 草稿要求 final NAVM 七個來源仍是作者；重載時只有 108AB4 必須由候選最後覆蓋。最終有效 NVMI 若偏離作者先前版本、碰到其他來源贏家／新路徑資料或出現額外記錄，都停止。它不會為了啟用內容刪除診斷或猜新連接。
 
 主記錄複製使用 `wbCopyElementToFile(source,target,false,true)`，最後的 true 才會複製 payload；false 只建立 shell。4.1.5f 的 `TwbMainRecord.AssignInternal` 不複製獨立 ChildGroup，故不會因此複製整個 Tamriel；同時會重設 VCS stamps，草稿立即以來源值明確還原 VCS1/VCS2/FormVersion。這些行為已對照 exact tag core，並非依參數名稱猜測。
 
-父容器比較的精確例外以 4.1.5f 為準：WRLD 的 RNAM/Large References、OFST 帶 dfNoCopyAsOverride，容許複製時省略；若仍存在，內容必須完全相同。此版本的 MHDT 沒有 no-copy 標記，仍逐字段嚴格比較，不採用 latest-main 的不同定義。只有 Interior CELL（DATA bit 1）之 XCLW 按 wbCELLXCLWGetConflictPriority 的 cpIgnore 例外；外部 CELL 水高及所有其他字段的存在性和 typed 值均嚴格相同。目前 v6 草稿尚未經 xEdit 編譯／執行。
+父容器比較的精確例外以 4.1.5f 為準：WRLD 的 RNAM/Large References、OFST 帶 dfNoCopyAsOverride，容許複製時省略；若仍存在，內容必須完全相同。此版本的 MHDT 沒有 no-copy 標記，仍逐字段嚴格比較，不採用 latest-main 的不同定義。只有 Interior CELL（DATA bit 1）之 XCLW 按 wbCELLXCLWGetConflictPriority 的 cpIgnore 例外；外部 CELL 水高及所有其他字段的存在性和 typed 值均嚴格相同。
 
-目前兩份 PAS 尚未經 xEdit 編譯／執行，候選 ESP 不存在。這是有界的靜態資料組合證據，不是遊戲內尋路驗證。
+正式接受記錄為 `integration/research/verified_patch_install/runs/fc_v12/accepted.json`；主 reload 為 `fc_navigation_v12_reload_r5`，triangle companion 為 `fc_navigation_v12_triangles_r1`。候選 SHA `5775a78be65ec8e088d6c348361eb4dce4dae1fd71d9d3b3228c81a6f524cf84`。這是靜態整合接受，不是遊戲內尋路驗證；最終完整 VFS、資源及生成階段仍須完成。

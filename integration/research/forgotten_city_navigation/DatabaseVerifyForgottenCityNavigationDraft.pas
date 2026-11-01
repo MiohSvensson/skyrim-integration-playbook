@@ -1,10 +1,11 @@
 unit UserScript;
-// DRAFT ONLY. Same-version typed APIs verified; xEdit compile/run still required.
-// Original records never edited. Requires normal definitions and source preflight.
+// Read-only fresh-process verifier for the bounded FC candidate.
+// Requires exact sources, normal definitions, and an installed candidate.
 const
   VERIFY_ONLY = True;
   PATCH_NAME = 'Database Forgotten City USSEP Navigation.esp';
-  OUTPUT_FILE = 'E:\stock\Skyrim collection\Database\integration\research\forgotten_city_navigation\candidate\Database Forgotten City USSEP Navigation.esp';
+  PROGRESS_FILE = '';
+  OUTPUT_FILE = 'E:\stock\Skyrim collection\Database\integration\research\forgotten_city_navigation\candidate_v12\Database Forgotten City USSEP Navigation.esp';
 
 var stockOrphanGuardChecked, stockOrphanTreeDumped: Boolean;
 
@@ -12,6 +13,17 @@ procedure Need(ok: Boolean; messageText: string);
 begin
   if not ok then
     raise Exception.Create('BOUNDED_NAVM_STOP: ' + messageText);
+end;
+
+procedure NativePhase(value: string);
+var rows: TStringList;
+begin
+  Need(PROGRESS_FILE <> '', 'Per-task progress path was not prepared');
+  rows := TStringList.Create;
+  try
+    rows.Add(value);
+    rows.SaveToFile(PROGRESS_FILE);
+  finally rows.Free; end;
 end;
 
 function ReqFile(fileName: string): IInterface;
@@ -135,6 +147,8 @@ begin
   if linkedA or linkedB then begin
     NeedCompared(linkedA and linkedB,labelText+': unresolved/non-record counterpart FormID',a,b);
     NeedCompared(SameRecord(la,lb),labelText+': resolved canonical FormID changed',a,b);
+    la := nil;
+    lb := nil;
     Exit;
   end;
   typeA:=VarType(GetNativeValue(a));typeB:=VarType(GetNativeValue(b));
@@ -151,6 +165,8 @@ begin
   try equalNative:=GetNativeValue(a)=GetNativeValue(b);
   except NeedCompared(False,labelText+': native value is not scalar-comparable',a,b);Exit;end;
   NeedCompared(equalNative,labelText+': exact native value changed',a,b);
+  la := nil;
+  lb := nil;
 end;
 
 function FieldToken(e: IInterface): string;
@@ -210,6 +226,10 @@ begin
   for i:=0 to ElementCount(a)-1 do begin
     x:=ElementByIndex(a,i);Need(Assigned(UniqueChild(b,BaseName(x))),labelText+': extra header field'+ComparisonContext(x,b));
   end;
+  a := nil;
+  b := nil;
+  x := nil;
+  y := nil;
 end;
 
 function KnownNoCopyParentField(recordElement, field: IInterface): Boolean;
@@ -606,6 +626,10 @@ begin
     n := BaseName(x); Need(n=BaseName(y), 'NVNM field order changed');
     if (n<>'Triangles') and (n<>'Edge Links') then AssertTree(x,y,'unchanged NVNM/'+n);
   end;
+  ga := nil;
+  gb := nil;
+  x := nil;
+  y := nil;
 end;
 
 procedure AssertAuthoredDelta(feature, vanilla, neighborMaster: IInterface);
@@ -692,45 +716,83 @@ begin
   Need((countA=16) and (countB=16), 'Expected sixteen retained reciprocal ports');
 end;
 
+procedure AssertExternalLinkTuples(navCopy,usNav,neighborMaster: IInterface);
+var i,j: Integer; linksA,linksB: IInterface;
+begin
+  linksA := Req(navCopy,'NVNM\Edge Links');
+  linksB := Req(usNav,'NVNM\Edge Links');
+  Need(LinkIs(ElementByIndex(linksB,6),neighborMaster,469), 'USSEP removed link no longer exact');
+  for i := 0 to 28 do begin
+    j := i;
+    if i>=6 then Inc(j);
+    AssertTree(ElementByIndex(linksA,i),ElementByIndex(linksB,j),'preserved external link');
+  end;
+  linksA := nil;
+  linksB := nil;
+end;
+
+procedure AssertTriangleVertices(navCopy,usNav: IInterface);
+var i,j: Integer; a,b: IInterface;
+begin
+  for i := 0 to 323 do begin
+    a := Triangle(navCopy,i);
+    b := Triangle(usNav,i);
+    for j := 0 to 2 do AssertTree(Req(a,VertexName(j)),Req(b,VertexName(j)),'preserved USSEP triangle vertices');
+  end;
+  a := nil;
+  b := nil;
+end;
+
+procedure AssertTriangleCoverFlags(navCopy,usNav: IInterface);
+var i: Integer; a,b: IInterface;
+begin
+  for i := 0 to 323 do begin
+    a := Triangle(navCopy,i);
+    b := Triangle(usNav,i);
+    AssertTree(Req(a,'Cover Flags'),Req(b,'Cover Flags'),'preserved USSEP cover flags');
+  end;
+  a := nil;
+  b := nil;
+end;
+
+procedure AssertTriangleTuples(navCopy,usNav: IInterface);
+begin
+  AssertTriangleVertices(navCopy,usNav);
+  NativePhase('vertices_passed');
+  AssertTriangleCoverFlags(navCopy,usNav);
+  NativePhase('cover_flags_passed');
+  NativePhase('triangle_flags_edges_deferred_to_separate_process');
+end;
+
 procedure AssertComposed(navCopy,usNav,neighborMaster: IInterface);
-var i,j,side,flags,edge,expected: Integer; a,b,linksA,linksB: IInterface;
+var i: Integer; a,b: IInterface;
 begin
   AssertRecordHeader(navCopy,usNav,'Preserve USSEP NAVM header');
+  NativePhase('header_passed');
   Need(ElementCount(navCopy)=ElementCount(usNav),'NAVM top-level member count changed');
   for i:=0 to ElementCount(usNav)-1 do begin
     b:=ElementByIndex(usNav,i);
     if BaseName(b)<>'Record Header' then begin
       a:=UniqueTop(navCopy,FieldToken(b));Need(Assigned(a),'NAVM field missing'+ComparisonContext(a,b));
-      if BaseName(b)<>'NVNM' then AssertTree(a,b,'Preserve non-NVNM fields');
+      if FieldToken(b)<>'NVNM' then AssertTree(a,b,'Preserve non-NVNM fields');
     end;
   end;
+  NativePhase('top_level_passed');
+  a:=nil;
+  b:=nil;
   Need(ElementCount(Req(navCopy,'NVNM\Vertices'))=271, 'USSEP vertices lost');
   Need(ElementCount(Req(navCopy,'NVNM\Triangles'))=324, 'USSEP triangles lost');
   Need(ElementCount(Req(usNav,'NVNM\Edge Links'))=30, 'USSEP Edge Links changed');
   Need(ElementCount(Req(navCopy,'NVNM\Edge Links'))=29, 'Expected one portal entry deletion');
+  NativePhase('counts_passed');
   AssertOtherNVNM(navCopy,usNav);
-  linksA := Req(navCopy,'NVNM\Edge Links'); linksB := Req(usNav,'NVNM\Edge Links');
-  Need(LinkIs(ElementByIndex(linksB,6),neighborMaster,469), 'USSEP removed link no longer exact');
-  for i := 0 to 28 do begin
-    j := i; if i>=6 then Inc(j);
-    AssertTree(ElementByIndex(linksA,i),ElementByIndex(linksB,j),'preserved external link');
-  end;
-  for i := 0 to 323 do begin
-    a := Triangle(navCopy,i); b := Triangle(usNav,i);
-    for j := 0 to 2 do AssertTree(Req(a,VertexName(j)),Req(b,VertexName(j)),'preserved USSEP triangle vertices');
-    AssertTree(Req(a,'Cover Flags'),Req(b,'Cover Flags'),'preserved USSEP cover flags');
-    flags := GetNativeValue(Req(b,'Flags')); expected := flags;
-    if i=50 then begin Need(flags=2052,'USSEP triangle50 flags changed'); expected := 2048; end;
-    Need(GetNativeValue(Req(a,'Flags'))=expected,'Unexpected composed flags');
-    for side := 0 to 2 do begin
-      edge := GetNativeValue(Req(b,EdgeName(side))); expected := edge;
-      if (flags and (1 shl side))<>0 then begin
-        if edge=6 then begin Need((i=50) and (side=2),'More than one portal uses deleted entry'); expected := -1; end
-        else if edge>6 then expected := edge-1;
-      end;
-      Need(GetNativeValue(Req(a,EdgeName(side)))=expected,'Unexpected composed adjacency/index remap');
-    end;
-  end;
+  NativePhase('other_nvnm_passed');
+  AssertExternalLinkTuples(navCopy,usNav,neighborMaster);
+  NativePhase('external_links_passed');
+  AssertTriangleTuples(navCopy,usNav);
+  NativePhase('triangles_passed');
+  a:=nil;
+  b:=nil;
 end;
 
 procedure AssertOtherInfosFC(copyNavi,sourceNavi: IInterface);
@@ -778,8 +840,10 @@ var stock,feature,usFile,patchFile: IInterface;
 begin
   stockOrphanGuardChecked := False; stockOrphanTreeDumped := False;
   Result:=1;
+  NativePhase('entered|files=' + IntToStr(FileCount));
   Need(Pos('e:\stock\skyrim collection\database\',LowerCase(DataPath))=1,'Database-owned Data required');
   stock:=ReqFile('Skyrim.esm');feature:=ReqFile('ForgottenCity.esp');usFile:=ReqFile('Unofficial Skyrim Special Edition Patch.esp');
+  NativePhase('base_plugins_present');
   masterNav:=RecordByFormID(stock,$00108AB4,False);vanNav:=masterNav;
   neighborMaster:=RecordByFormID(stock,$00107528,False);vanNeighbor:=neighborMaster;
   featureNav:=RecordByFormID(feature,LoadOrderFormIDtoFileFormID(feature,GetLoadOrderFormID(masterNav)),True);
@@ -788,7 +852,9 @@ begin
   Need(SameText(GetFileName(GetFile(featureNav)),'ForgottenCity.esp'),'Feature NAVM override absent');
   Need(SameText(GetFileName(GetFile(usNav)),'Unofficial Skyrim Special Edition Patch.esp'),'USSEP NAVM override absent');
   Need(SameText(GetFileName(GetFile(featureNeighbor)),'ForgottenCity.esp'),'Authored neighbor override absent');
+  NativePhase('source_records_resolved');
   AssertAuthoredDelta(featureNav,vanNav,neighborMaster);
+  NativePhase('authored_delta_passed');
   AssertFaceSameAtIndex(usNav,vanNav,50);
   Need(GetNativeValue(Req(Triangle(usNav,50),'Vertex 0'))=48,'USSEP target face changed');
   Need(GetNativeValue(Req(Triangle(usNav,50),'Vertex 1'))=12,'USSEP target face changed');
@@ -815,6 +881,7 @@ begin
     Need(Assigned(desired),'Expected feature NVMI absent');
     AssertTree(existing,desired,'Unreviewed final effective NVMI change');
   end;
+  NativePhase('existing_context_passed');
   if VERIFY_ONLY then begin
     Need(FileExists(DataPath+PATCH_NAME),'Installed candidate required for fresh reload');
     patchFile:=ReqFile(PATCH_NAME);
@@ -823,11 +890,14 @@ begin
     naviCopy:=RecordByFormID(patchFile,LoadOrderFormIDtoFileFormID(patchFile,GetLoadOrderFormID(naviMaster)),True);
     worldCopy:=RecordByFormID(patchFile,LoadOrderFormIDtoFileFormID(patchFile,GetLoadOrderFormID(worldMaster)),True);
     Need(SameText(GetFileName(GetFile(WinningOverride(naviMaster))),PATCH_NAME),'Patch must be last NAVI winner');
+    NativePhase('verify_patch_loaded');
   end else begin
     Need(not Assigned(FileByName(PATCH_NAME)),'Patch already loaded');
     Need(not FileExists(DataPath+PATCH_NAME),'Patch already exists in Data');
     Need(not FileExists(OUTPUT_FILE),'Candidate output exists');
+    NativePhase('candidate_absence_passed');
     patchFile:=AddNewFileName(PATCH_NAME);Need(Assigned(patchFile),'Patch creation failed');
+    NativePhase('candidate_created');
     AddMasterIfMissing(patchFile,'Skyrim.esm');AddMasterIfMissing(patchFile,'ForgottenCity.esp');
     AddMasterIfMissing(patchFile,'Unofficial Skyrim Special Edition Patch.esp');
     AddMasterIfMissing(patchFile,GetFileName(GetFile(cellSource)));
@@ -844,11 +914,15 @@ begin
       Need(AddRequiredElementMasters(desired,patchFile,False,True),'NVMI masters failed');
     end;
     SortMasters(patchFile);Need(MasterCount(patchFile)<=253,'Master budget exceeded');
+    NativePhase('masters_sorted');
     worldCopy:=CopyOverride(worldSource,patchFile);
+    NativePhase('world_copied');
     cellCopy:=CopyOverride(cellSource,patchFile);
+    NativePhase('cell_copied');
     navCopy:=CopyOverride(usNav,patchFile);
     Need(Assigned(cellCopy) and Assigned(navCopy),'Typed record copy failed');
     AssertTree(Req(navCopy,'NVNM'),Req(usNav,'NVNM'),'Initial exact USSEP copy');
+    NativePhase('navm_initial_copy_passed');
     for i:=0 to 323 do begin
       sourceTri:=Triangle(usNav,i);t:=Triangle(navCopy,i);flags:=GetNativeValue(Req(sourceTri,'Flags'));
       for side:=0 to 2 do if (flags and (1 shl side))<>0 then begin
@@ -858,23 +932,32 @@ begin
       end;
       if i=50 then SetNativeValue(Req(t,'Flags'),flags and (not 4));
     end;
-    Remove(ElementByIndex(Req(navCopy,'NVNM\Edge Links'),6));
+    edgeArray:=ElementByIndex(Req(navCopy,'NVNM\Edge Links'),6);
+    Remove(edgeArray);
+    edgeArray:=nil;
+    NativePhase('navm_geometry_composed');
     naviCopy:=CopyOverride(naviSource,patchFile);Need(Assigned(naviCopy),'NAVI copy failed');
     AssertUnchangedRecord(naviCopy,naviSource,'Initial full final NAVI copy');
+    NativePhase('navi_initial_copy_passed');
     for i:=0 to 6 do begin
       m:=RecordByFormID(stock,SharedID(i),False);
       if SharedID(i)=$108AB4 then desired:=InfoFor(usNavi,m) else desired:=InfoFor(featureNavi,m);
-      existing:=InfoFor(naviCopy,m);if Assigned(existing) then Remove(existing);
+      existing:=InfoFor(naviCopy,m);
+      if Assigned(existing) then begin Remove(existing); existing:=nil; end;
       newInfo:=ElementAssign(Req(naviCopy,'Navmesh Infos'),HighInteger,desired,False);
       Need(Assigned(newInfo),'NVMI forwarding failed');RemapInfoReferences(newInfo,desired);
       AssertTree(newInfo,desired,'Exact selected NVMI forwarding');
     end;
     SetIsESL(patchFile,True);
+    NativePhase('nvmi_forwarded');
   end;
   AssertComposed(navCopy,usNav,neighborMaster);
+  NativePhase('composition_passed');
   AssertReciprocal(navCopy,featureNeighbor,vanNav,vanNeighbor,masterNav,neighborMaster);
+  NativePhase('reciprocal_passed');
   AssertUnchangedRecord(cellCopy,cellSource,'Preserve final parent CELL');
   AssertUnchangedRecord(worldCopy,worldSource,'Preserve final Tamriel WRLD');
+  NativePhase('parent_payloads_passed');
   for i:=0 to 6 do begin
     m:=RecordByFormID(stock,SharedID(i),False);
     if SharedID(i)=$108AB4 then desired:=InfoFor(usNavi,m) else desired:=InfoFor(featureNavi,m);
@@ -882,18 +965,25 @@ begin
     AssertTree(existing,desired,'Exact selected NVMI post-check');
   end;
   AssertOtherInfosFC(naviCopy,naviSource);AssertNaviRest(naviCopy,naviSource);
+  NativePhase('navi_preservation_passed');
   AssertRecords(patchFile,masterNav,cellMaster,naviMaster,worldMaster);
+  NativePhase('record_whitelist_passed');
   Need(Check(navCopy)='','NAVM diagnostics: '+Check(navCopy));
   Need(Check(cellCopy)='','CELL diagnostics: '+Check(cellCopy));
   Need(Check(naviCopy)='','NAVI diagnostics: '+Check(naviCopy));
   Need(Check(worldCopy)='','WRLD diagnostics: '+Check(worldCopy));
+  NativePhase('diagnostics_passed');
   if not VERIFY_ONLY then begin
+    NativePhase('export_started');
     ForceDirectories(ExtractFilePath(OUTPUT_FILE));stream:=TFileStream.Create(OUTPUT_FILE,fmCreate);
     try FileWriteToStream(patchFile,stream,0);finally stream.Free;end;
+    NativePhase('export_completed');
     AddMessage('FC_NAV_CANDIDATE_EXPORTED|'+OUTPUT_FILE);
   end;
   if VERIFY_ONLY then AddMessage('FC_NAV_RELOAD_TYPED_PASS|PORTS=16/16|OWN=0|NVMI=7')
   else AddMessage('FC_NAV_INMEMORY_TYPED_PASS|PORTS=16/16|OWN=0|NVMI=7');
+  if VERIFY_ONLY then NativePhase('FC_NAV_RELOAD_TYPED_PASS')
+  else NativePhase('FC_NAV_INMEMORY_TYPED_PASS');
   Result:=0;
 end;
 

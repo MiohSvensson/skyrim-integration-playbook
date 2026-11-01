@@ -32,7 +32,7 @@ import plugin_binary
 LAYER = 'ZZ87 Verified compatibility patches'
 PROFILES = ('Unified Skyrim', 'Unified Build')
 CONTROLS = ('modlist.txt', 'plugins.txt', 'loadorder.txt', 'Skyrim.ini',
-            'SkyrimCustom.ini', 'initweaks.ini', 'archives.txt', 'settings.ini')
+            'SkyrimCustom.ini', 'skyrimprefs.ini', 'initweaks.ini', 'archives.txt', 'settings.ini')
 DERIVED = {'synthesis - patch.esp', 'dyndolod.esp', 'occlusion.esp'}
 COMPATIBILITY_PRIORITY = {
     'database feature compatibility.esp': 10,
@@ -757,6 +757,25 @@ def accept(args):
          'Reload job predates installation')
     need(Path(prepared['profile']).resolve() == mat.TARGET / 'profiles/Unified Build', 'Wrong reload profile')
     task = Path(args.reload_task).resolve()
+    aux_task = None
+    if plan['candidate_name'] == 'Database Forgotten City USSEP Navigation.esp':
+        need(args.aux_reload_task, 'FC acceptance requires the separate triangle flag/edge verifier')
+        aux_task = Path(args.aux_reload_task).resolve()
+        aux_prepared, aux_result = producer_gate(aux_task)
+        need(aux_prepared.get('candidate') is None and aux_prepared.get('pass_marker') == 'FC_NAV_TRIANGLE_TYPED_PASS',
+             'Wrong FC triangle verification job')
+        need(aux_prepared.get('patch_name') == plan['candidate_name'], 'Triangle verifier targets another patch')
+        need(re.search(r'\bVERIFY_ONLY\s*=\s*True\s*;', Path(aux_prepared['script']).read_text('utf-8'), re.I),
+             'Triangle verifier does not explicitly select read-only verification')
+        need(datetime.fromisoformat(aux_prepared['utc']) > datetime.fromisoformat(receipt['utc']),
+             'Triangle verification predates installation')
+        need(Path(aux_prepared['profile']).resolve() == mat.TARGET / 'profiles/Unified Build', 'Wrong triangle verification profile')
+        need(aux_result['native_loaded_context']['order_sha256'] == result['native_loaded_context']['order_sha256'],
+             'Main and triangle verifiers used different native plugin orders')
+        aux_inventory = load(aux_task / 'input_inventory.json')['plugins']
+        aux_rows = [r for r in aux_inventory if mat.key(r['name']) == mat.key(plan['candidate_name'])]
+        need(len(aux_rows) == 1 and aux_rows[0]['sha256'] == plan['candidate_sha256'] and Path(aux_rows[0]['path']).resolve() == installed,
+             'Triangle verifier did not consume the installed exact VFS winner')
     inventory = load(task / 'input_inventory.json')['plugins']
     rows = [r for r in inventory if mat.key(r['name']) == mat.key(plan['candidate_name'])]
     need(len(rows) == 1 and rows[0]['sha256'] == plan['candidate_sha256'] and Path(rows[0]['path']).resolve() == installed,
@@ -790,6 +809,7 @@ def accept(args):
     accepted = {'utc': mat.utc(), 'status': 'ACCEPTED_STATIC_TYPED_RELOAD_FINAL_VFS_PENDING',
                 'accepted': True, 'candidate': pin(installed), 'installation': pin(path.parent / 'installed.json'),
                 'reload_task': str(task), 'reload_result': pin(task / 'result.json'),
+                'auxiliary_reload': {'task': str(aux_task), 'result': pin(aux_task / 'result.json')} if aux_task else None,
                 'limits': 'Static typed reload acceptance only. Final full VFS/resource/Synthesis/LOD audits remain separate; no game launch.'}
     save_new(path.parent / 'accepted.json', accepted)
     c = mat.connect()
@@ -818,6 +838,7 @@ def main():
     p = sub.add_parser('accept')
     p.add_argument('--prepared', required=True)
     p.add_argument('--reload-task', required=True)
+    p.add_argument('--aux-reload-task', help='Required companion triangle flag/edge verifier for FC')
     p.set_defaults(function=accept)
     args = ap.parse_args()
     if hasattr(args, 'replace_sha256') and args.replace_sha256:

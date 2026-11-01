@@ -1,15 +1,15 @@
 # Integration continuation playbook
 
-Last reviewed: 2026-10-31. Base: TuLED. Work remains active; static integration is not complete and no game testing has been performed.
+Last reviewed: 2026-11-01. Base: TuLED. Work remains active; static integration is not complete and no game testing has been performed.
 
 ## Current checkpoint
 
-- Final profile: 1,079 plugins; 147 full and 932 light.
-- Build profile: 1,076 plugins; 144 full and 932 light.
+- Final profile: 1,080 plugins; 147 full and 933 light.
+- Build profile: 1,077 plugins; 144 full and 933 light.
 - Physical resolution reports no missing plugins or masters and remains within slot limits.
-- Feature and quest compatibility patches have independent binary and fresh typed-reload acceptance.
+- Feature, quest, and FC compatibility patches have independent binary and fresh typed-reload acceptance.
 - The 6,495-row source catalog is refreshed as work in progress, with zero stale rows and zero linkage issues; 1,721 alternatives remain pending.
-- FC has an independently binary-verified candidate and a fresh diagnostic-profile typed reload; its full producer and production installation are still pending. Glen navigation remains pending.
+- FC v12 has completed producer, binary, rev4 installation, and dual fresh typed-reload acceptance. Glen navigation is next.
 - Formal Synthesis, PG, and final LOD generation remain pending.
 
 A pre-navigation MO2 child proved actual `usvfs_x64` injection and all 411,248 current runtime-path FileID/size winners in `pre_navigation_vfs_r2_probe_files.json`. That run is not an aggregate pass: MO2 moved its generated `modlist.txt` comment, and two Igraine hand textures remain unresolved. `mo2_controls.py` now canonicalizes only that exact comment with journal backup/rollback; no final all-resource VFS or in-game proof exists.
@@ -23,7 +23,7 @@ MO2 may discover installed diagnostic mods that a cloned profile omitted. It add
 Use these current sources rather than older status labels:
 
 - `integration/state.json`
-- `integration/research/plugin_integration/navi_unresolved_audit/stock_orphan_lookup_fix_manifest_v6.json`
+- `integration/research/forgotten_city_navigation/navigation_v12_manifest.json`
 - `integration/research/verified_patch_install/installer_tools_frozen_rev4.json`
 - `integration/research/lod_update/delivery_manifest.json`
 - `integration/research/feature_generation/PG_delivery.json`
@@ -53,14 +53,14 @@ The MO2/xEdit harness proves the complete native plugin sequence, including xEdi
 
 ## 1. Forgotten City navigation
 
-Use the current diagnostic PAS files, not the historical v6 baseline or `generate_drafts.py`. The current verifier's split comparison helpers and script-scoped triangle references passed against the binary-verified candidate in `FC Diagnostic 2`. That is diagnostic evidence only: port the same fix to the full producer, then require a producer pass, independent binary verification, rev4 installation, and a fresh production-profile typed reload before acceptance.
+FC v12 is accepted for static integration, with final VFS/resource checks still pending. Its producer exports the bounded patch without deep post-mutation inspection. Independent binary checks and fresh-process typed verifiers retain the full acceptance checks, avoiding xEdit's stale interface destruction when mutation and deep comparison share a process.
 
 1. Run the corrected source preflight documented in `integration/research/forgotten_city_navigation/README.md`.
 2. Prepare a fresh xEdit producer against `Unified Build` and execute it through the actual MO2 VFS.
 3. Independently verify the exported candidate, using the builder-logged prior NAVI winner as witness.
 4. Prepare/install with installer rev4.
-5. Reload in a new MO2/xEdit process and run the read-only typed verifier.
-6. Accept only after exact candidate SHA, four-record whitelist, 16/16 reciprocal portals, NAVI preservation, and both-profile closure pass.
+5. Run the main read-only verifier and `DatabaseTriangleLocalProbe.pas` in separate fresh MO2/xEdit processes. Both must consume the installed candidate in the same native plugin order.
+6. Accept only after exact candidate SHA, four-record whitelist, 16/16 reciprocal portals, all 324 triangle flag/edge checks, NAVI preservation, and both-profile closure pass. Use `accept --aux-reload-task <triangle-task>`; acceptance rejects a missing FC companion result.
 
 Stop if any source, NAVM winner, parent CELL/WRLD, NAVI witness, or record set changes unexpectedly.
 

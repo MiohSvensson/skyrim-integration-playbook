@@ -1,13 +1,13 @@
 {
   "schema": "skyrim.verified_patch_installer.freeze.v1",
-  "utc": "2026-10-31T16:43:00Z",
+  "utc": "2026-11-01T03:17:39Z",
   "revision": 4,
-  "status": "PREPARED_AND_CRASH_RECOVERY_FIXTURE_VERIFIED_NOT_EXECUTED_ON_RUNTIME_BY_THIS_REVISION",
+  "status": "CRASH_RECOVERY_PROFILE_CONTROL_AND_FC_COMPANION_GATE_VERIFIED",
   "files": [
     {
       "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\verified_patch_install\\install_verified_patch.py",
-      "sha256": "8b8767a1b1cedefe9e5c8fc17de8fc5c65d4e053d5112ffdda1b61bb522f4079",
-      "size_bytes": 44217
+      "sha256": "942490904e540c9e493cf6a484d4b16e272a791763e61e112b25029910a94df7",
+      "size_bytes": 46150
     },
     {
       "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\verified_patch_install\\validate_installer.py",
@@ -15,8 +15,8 @@
       "size_bytes": 15440
     },
     {
-      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\verified_patch_install\\validation_4284950a476a4a259e0d8c7f40710eb6.json",
-      "sha256": "7ed041fde3feadaad3980f98955ee47c69b6f5ef4f566a1bc19cf2cac1bfff6a",
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\verified_patch_install\\validation_a621acc8faeb4d55bea650aac39a7ff4.json",
+      "sha256": "06093212ea66339f38b9e75befc0d8f6e0f8da19711ecf156113065bdcd48454",
       "size_bytes": 4779
     }
   ],
@@ -43,7 +43,7 @@
     "prepare": "python integration/research/verified_patch_install/install_verified_patch.py prepare --candidate <research/candidate/Exact Patch.esp> --producer <UnifiedSkyrim/validation/PASS_builder_task> --binary-report <research/SHA-bound_binary_report.json> --output <fresh research/install_job>",
     "install": "python integration/research/verified_patch_install/install_verified_patch.py install --prepared <fresh research/install_job/prepared.json>",
     "recover": "python integration/research/verified_patch_install/install_verified_patch.py recover --prepared <interrupted research/install_job/prepared.json>",
-    "accept": "python integration/research/verified_patch_install/install_verified_patch.py accept --prepared <research/install_job/prepared.json> --reload-task <fresh UnifiedSkyrim/validation/PASS_installed_reload_task>"
+    "accept": "python integration/research/verified_patch_install/install_verified_patch.py accept --prepared <research/install_job/prepared.json> --reload-task <fresh UnifiedSkyrim/validation/PASS_installed_reload_task> --aux-reload-task <required FC triangle reload task>"
   },
   "requirements": [
     "All rev3 producer, independent binary, full active-context, profile topology, exact private-copy, ordering, and fresh typed-reload gates remain mandatory.",
@@ -62,7 +62,21 @@
       "replacement of an existing candidate"
     ],
     "guards_exercised": ["live-PID rejection", "external-file-drift rejection", "stale-lock takeover", "integrity_check ok"],
-    "scope": "Only research fixtures were mutated. No real runtime/profile/shared-journal mutation or candidate installation occurred."
+    "profile_preference_pinning": {
+      "file": "skyrimprefs.ini",
+      "sha256": "0f73d9c77ffe1473d16a7c5b7c41dc444f19b8586f468d9c45b82e0ccdc31e57",
+      "real_prepare": "integration/research/verified_patch_install/runs/fc_v12/prepared.json",
+      "status": "PASS"
+    },
+    "fc_acceptance": {
+      "receipt": "integration/research/verified_patch_install/runs/fc_v12/accepted.json",
+      "sha256": "eb729ff20766755519e7082ff4020bb1caae68d84e42bf19bf779729a1da3b43",
+      "main_reload": "UnifiedSkyrim/validation/fc_navigation_v12_reload_r5",
+      "triangle_reload": "UnifiedSkyrim/validation/fc_navigation_v12_triangles_r1",
+      "missing_auxiliary_reload_rejected": true,
+      "status": "ACCEPTED_STATIC_TYPED_RELOAD_FINAL_VFS_PENDING"
+    },
+    "scope": "All 29 crash/rollback checks mutate only research fixtures. FC preparation, installation, dual fresh reloads and acceptance have separate immutable receipts."
   },
   "limits": [
     "Legacy rev3 interrupted attempts lack original_file_rows and still require manual inspection; rev4 does not guess their original journal state.",
@@ -74,5 +88,5 @@
     "sha256": "6f1f10596e1e05fd5fe5ac90f9bff1c5c9960cdd7a9f4c1e851e62d4d266ca27",
     "size_bytes": 5961
   },
-  "change": "Adds deliberate process-crash recovery with complete original-row snapshots and tested Windows locking; rev3 handled rollback and immutable receipts are retained."
+  "change": "Retains rev4 crash recovery and immutable receipts; adds optional profile preference pinning and a mandatory FC triangle companion reload for acceptance."
 }

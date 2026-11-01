@@ -1,0 +1,30 @@
+{
+  "utc": "2026-11-01T03:16:34.218119+00:00",
+  "status": "ACCEPTED_STATIC_TYPED_RELOAD_FINAL_VFS_PENDING",
+  "accepted": true,
+  "candidate": {
+    "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\ZZ87 Verified compatibility patches\\Database Forgotten City USSEP Navigation.esp",
+    "sha256": "5775a78be65ec8e088d6c348361eb4dce4dae1fd71d9d3b3228c81a6f524cf84",
+    "size_bytes": 82550
+  },
+  "installation": {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\verified_patch_install\\runs\\fc_v12\\installed.json",
+    "sha256": "1175a87579ce0a811e316c8cc01fbf9cd1ed6a4bf960c8bbbf2f68b049ae5abf",
+    "size_bytes": 2427
+  },
+  "reload_task": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\validation\\fc_navigation_v12_reload_r5",
+  "reload_result": {
+    "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\validation\\fc_navigation_v12_reload_r5\\result.json",
+    "sha256": "08867e8345c110cc9fd9469e2c15e3c47e5bf052aa05241a41e3f1b36c3f770d",
+    "size_bytes": 1259
+  },
+  "auxiliary_reload": {
+    "task": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\validation\\fc_navigation_v12_triangles_r1",
+    "result": {
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\validation\\fc_navigation_v12_triangles_r1\\result.json",
+      "sha256": "45263af980830870a28f8f71cf2f0bda1c462c2625cd999aafc2facb4331c872",
+      "size_bytes": 1263
+    }
+  },
+  "limits": "Static typed reload acceptance only. Final full VFS/resource/Synthesis/LOD audits remain separate; no game launch."
+}

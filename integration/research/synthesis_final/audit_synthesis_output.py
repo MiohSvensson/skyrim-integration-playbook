@@ -21,6 +21,7 @@ def main():
     parser.add_argument('--task', required=True)
     parser.add_argument('--arma-delta', required=True)
     parser.add_argument('--input-models', required=True)
+    parser.add_argument('--production-receipt')
     parser.add_argument('--output', required=True)
     args = parser.parse_args()
     assert vfs.injected(), 'Actual usvfs injection is required'
@@ -50,13 +51,30 @@ def main():
     assert result['native_loaded_context']['exact_order_match']
     assert result['native_loaded_context']['expected_profile_plugins'] == 1080
     assert result['native_loaded_context']['expected_native_entries'] == 1081
-    assert prepared['pass_marker'] == 'SYNTHESIS_NATIVE_CHECK_PASS'
+    assert prepared['pass_marker'] in {'SYNTHESIS_NATIVE_CHECK_PASS', 'SYNTHESIS_RELOAD_TYPED_PASS'}
     candidate = Path(receipt['candidate']['path']).resolve(strict=True)
     assert vfs.digest(candidate) == receipt['candidate']['sha256'] == replay['final_plugin_candidate']['sha256']
-    assert vfs.file_identity(vfs.DEFAULT_TARGET / 'Game/Data' / candidate.name) == vfs.file_identity(candidate)
     sidecar = Path(receipt['sidecar']['path']).resolve(strict=True)
     assert vfs.digest(sidecar) == receipt['sidecar']['sha256'] == replay['generated_sidecar']['sha256']
-    assert vfs.file_identity(vfs.DEFAULT_TARGET / 'Game/Data/skse/plugins/experience/races/generatedexperiencepatch.ini') == vfs.file_identity(sidecar)
+    production_receipt = None
+    if args.production_receipt:
+        production_path = Path(args.production_receipt).resolve(strict=True)
+        production_receipt = json.loads(production_path.read_text('utf-8'))
+        assert production_receipt['status'] == 'INSTALLED_PENDING_FRESH_TYPED_RELOAD'
+        assert production_receipt['accepted'] is False
+        assert production_receipt['candidate_name'] == candidate.name
+        assert production_receipt['candidate_sha256'] == receipt['candidate']['sha256']
+        assert prepared['profile'].endswith('Unified Build')
+        plugin_row, sidecar_row = production_receipt['files'][:2]
+        installed_plugin = Path(plugin_row['path']).resolve(strict=True)
+        installed_sidecar = Path(sidecar_row['path']).resolve(strict=True)
+        assert installed_plugin.name == candidate.name and vfs.digest(installed_plugin) == plugin_row['sha256'] == receipt['candidate']['sha256']
+        assert installed_sidecar.name == 'GeneratedExperiencePatch.ini' and vfs.digest(installed_sidecar) == sidecar_row['sha256'] == receipt['sidecar']['sha256']
+        assert vfs.file_identity(vfs.DEFAULT_TARGET / 'Game/Data' / candidate.name) == vfs.file_identity(installed_plugin)
+        assert vfs.file_identity(vfs.DEFAULT_TARGET / 'Game/Data/skse/plugins/experience/races/generatedexperiencepatch.ini') == vfs.file_identity(installed_sidecar)
+    else:
+        assert vfs.file_identity(vfs.DEFAULT_TARGET / 'Game/Data' / candidate.name) == vfs.file_identity(candidate)
+        assert vfs.file_identity(vfs.DEFAULT_TARGET / 'Game/Data/skse/plugins/experience/races/generatedexperiencepatch.ini') == vfs.file_identity(sidecar)
     original_sidecar = Path(replay['prepared']['path']).parent / 'prepared.json'
     prepared_replay = json.loads(original_sidecar.read_text('utf-8'))
     original = Path(prepared_replay['private_sidecar']['path']).resolve(strict=True)
@@ -103,7 +121,7 @@ def main():
     assert seen_affected == affected, 'Final candidate lost an affected ARMA source record'
     checked_log = (task / 'logs/xedit.log').read_text('utf-8-sig', errors='replace')
     assert f'SYNTHESIS_NATIVE_CHECKED|{len(records) - 1}|ERRORS=0' in checked_log
-    assert 'SYNTHESIS_NATIVE_CHECK_PASS' in checked_log
+    assert 'SYNTHESIS_NATIVE_CHECK_PASS' in checked_log and prepared['pass_marker'] in checked_log
     generated_missing = [row for row in missing if row['origin'] == 'changed_by_synthesis']
     inherited_missing = [row for row in missing if row['origin'] != 'changed_by_synthesis']
     common = {
@@ -122,6 +140,8 @@ def main():
                          'native_task': input_report['native_task']},
         'diagnostic_receipt_sha256': vfs.digest(receipt_path),
         'replay_result_sha256': vfs.digest(replay_path),
+        'production_receipt': {'path': str(Path(args.production_receipt).resolve()),
+                               'sha256': vfs.digest(args.production_receipt)} if production_receipt else None,
         'original_packs_modified': False, 'game_launched': False
     }
     if generated_missing:
@@ -134,14 +154,14 @@ def main():
         raise ValueError('Missing generated ARMA models; see ' + str(output))
     report = {
         'schema': 'skyrim.synthesis_candidate.validation.v2',
-        'status': 'SYNTHESIS_CANDIDATE_SCOPED_STATIC_PASS_PENDING_INSTALLATION', **common,
+        'status': 'SYNTHESIS_INSTALLED_SCOPED_STATIC_PASS_PENDING_ACCEPTANCE' if production_receipt else 'SYNTHESIS_CANDIDATE_SCOPED_STATIC_PASS_PENDING_INSTALLATION', **common,
         'record_signatures': dict(collections.Counter(record['sig'] for record in records[1:])),
         'stages': [{'index': row['index'], 'name': row['name'], 'return_code': row['return_code'],
                     'output_sha256': row['output']['sha256']} for row in replay['stages']],
         'armor_model_references': model_checks,
         'sidecar': {'path': str(sidecar), 'sha256': vfs.digest(sidecar), 'original_restored': True,
                     'original_sha256': replay['original_sidecar_sha256']},
-        'next': 'Install the reviewed plugin and captured sidecar, then repeat native and actual VFS checks. Inherited-only gaps still require final consumer/resource disposition.'
+        'next': 'Run Synthesis acceptance and final consumer/resource disposition; inherited gaps remain open.' if production_receipt else 'Install the reviewed plugin and captured sidecar, then repeat native and actual VFS checks. Inherited-only gaps still require final consumer/resource disposition.'
     }
     with output.open('x', encoding='utf-8', newline='\n') as stream:
         json.dump(report, stream, ensure_ascii=False, indent=2)

@@ -398,14 +398,20 @@ def prepare(args):
                       'sha256': mat.sha(job / 'prepared.json'), 'profiles': [{k: p[k] for k in ('profile', 'slots', 'relocated_derived_suffix')} for p in plans]}, indent=2))
 
 
-def check_plan(plan, verify_current=True):
+def check_plan(plan, verify_current=True, binary_validation=True):
     need(plan['schema'] == 'skyrim.verified_patch_install.v1' and plan['layer'] == LAYER, 'Wrong plan schema/layer')
     need(plan.get('compatibility_priority') == COMPATIBILITY_PRIORITY, 'Compatibility priority policy changed')
-    need(Path(plan['installer']['path']).resolve() == Path(__file__).resolve(), 'Wrong installer source')
+    allowed_installers = {Path(__file__).resolve(), *(Path(p).resolve() for p in plan.get('installer_variants', []))}
+    need(Path(plan['installer']['path']).resolve() in allowed_installers, 'Wrong installer source')
+    for destination, digest in plan.get('extra_replacements', {}).items():
+        need(destination.startswith('mods/' + LAYER + '/') and re.fullmatch('[0-9a-f]{64}', digest or ''),
+             'Unexpected additional replacement destination or hash')
     for row in [plan['installer'], *plan['source_pins'], *plan['staged_pins']]:
         check_pin(row)
-    producer_gate(plan['producer_task'], Path(plan['source_pins'][0]['path']))
-    binary_gate(load(plan['binary_report']), Path(plan['source_pins'][0]['path']), plan['candidate_sha256'])
+    expected = Path(plan['source_pins'][0]['path']) if plan.get('producer_candidate_required', True) else None
+    producer_gate(plan['producer_task'], expected)
+    if binary_validation:
+        binary_gate(load(plan['binary_report']), Path(plan['source_pins'][0]['path']), plan['candidate_sha256'])
     if verify_current:
         for profile in plan['profiles']:
             for row in profile['control_pins'].values():
@@ -435,6 +441,11 @@ def check_plan(plan, verify_current=True):
                      'Staged control file differs from recomputed ordering')
 
 
+def allowed_destinations(plan):
+    return {f'mods/{LAYER}/{plan["candidate_name"]}'} | {
+        f'profiles/{p}/{n}' for p in PROFILES for n in CONTROLS[:3]} | set(plan.get('extra_replacements', {}))
+
+
 def install_unlocked(args):
     path = research_path(args.prepared)
     plan = load(path)
@@ -443,8 +454,7 @@ def install_unlocked(args):
     need(not (job / 'installed.json').exists() and not (job / 'install_started.json').exists(),
          'Existing install attempt; inspect receipt/rollback rather than blindly retry')
     mappings = plan['mappings']
-    allowed = {f'mods/{LAYER}/{plan["candidate_name"]}'} | {
-        f'profiles/{p}/{n}' for p in PROFILES for n in CONTROLS[:3]}
+    allowed = allowed_destinations(plan)
     need({m['destination'] for m in mappings} == allowed and len(mappings) == len(allowed),
          'Unexpected or duplicate destination mapping')
     backups = {}
@@ -454,7 +464,8 @@ def install_unlocked(args):
             st = regular(destination)
             need(st.st_nlink == 1, 'Existing writable destination is shared')
             if item['destination'].startswith('mods/'):
-                need(plan['replace_sha256'] and mat.sha(destination) == plan['replace_sha256'],
+                expected_sha = plan.get('extra_replacements', {}).get(item['destination'], plan['replace_sha256'])
+                need(expected_sha and mat.sha(destination) == expected_sha,
                      'Replacement SHA not explicitly pinned')
             backup = job / 'backups' / f'{i:02d}.bin'
             backup.parent.mkdir(exist_ok=True)
@@ -656,8 +667,7 @@ def recover_unlocked(args):
     need(isinstance(started.get('install_pid'), int) and not pid_running(started['install_pid']),
          'Installer is still running; recovery cannot proceed')
     mappings = plan['mappings']
-    allowed = {f'mods/{LAYER}/{plan["candidate_name"]}'} | {
-        f'profiles/{p}/{n}' for p in PROFILES for n in CONTROLS[:3]}
+    allowed = allowed_destinations(plan)
     need({m['destination'] for m in mappings} == allowed and len(mappings) == len(allowed),
          'Unexpected or duplicate recovery destination')
     backups = started['backups']
@@ -807,6 +817,9 @@ def accept(args):
                  'Final loadorder and activation order disagree')
     finally:
         runtime.PROFILE = current
+    guard = getattr(args, 'acceptance_guard', None)
+    if guard is not None:
+        guard(plan, receipt, installed)
     accepted = {'utc': mat.utc(), 'status': 'ACCEPTED_STATIC_TYPED_RELOAD_FINAL_VFS_PENDING',
                 'accepted': True, 'candidate': pin(installed), 'installation': pin(path.parent / 'installed.json'),
                 'reload_task': str(task), 'reload_result': pin(task / 'result.json'),

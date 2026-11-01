@@ -1,0 +1,56 @@
+{
+  "utc": "2026-11-01T13:15:58.998529+00:00",
+  "status": "INSTALLED_PENDING_FRESH_TYPED_RELOAD",
+  "accepted": false,
+  "unit": "verified_patch_052b48054e644d8eb2440cbb81592f16",
+  "prepared": {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\synthesis_final\\install\\runs\\production_v2\\prepared.json",
+    "sha256": "fa69261e0b694b18743185d7b17b63c40c77555d335229624d40fa54b392d7ad",
+    "size_bytes": 1265641
+  },
+  "candidate_name": "Synthesis - Patch.esp",
+  "candidate_sha256": "5f8f491fc086631868ecd78fb4f19c09b76e9a8a4e3b0cb20d5156611cfc64a8",
+  "files": [
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T5861 Synthesis Patch (1.01)\\Synthesis - Patch.esp",
+      "sha256": "5f8f491fc086631868ecd78fb4f19c09b76e9a8a4e3b0cb20d5156611cfc64a8",
+      "size_bytes": 72559932
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T5861 Synthesis Patch (1.01)\\SKSE\\Plugins\\Experience\\Races\\GeneratedExperiencePatch.ini",
+      "sha256": "2eec837296da38c4e69c2927cc7293918a325fb61120f87bf743044b8ed12417",
+      "size_bytes": 46631
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\profiles\\Unified Skyrim\\modlist.txt",
+      "sha256": "e8d715b68c2ea60a66797c60df11b90e39bcc756b653a421fe27b10d21f115e2",
+      "size_bytes": 90199
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\profiles\\Unified Skyrim\\plugins.txt",
+      "sha256": "a06ce266f846fea2f8ba4f1247f92de51dcda503899386a0b0faa6de26822a0d",
+      "size_bytes": 30035
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\profiles\\Unified Skyrim\\loadorder.txt",
+      "sha256": "20bb57d4dd04bed6ecfd0a48d74f68472200ec853c13b85053af4ce3817d1165",
+      "size_bytes": 29030
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\profiles\\Unified Build\\modlist.txt",
+      "sha256": "2f833923ba8ee4ed2ab10e586fa33dd6d3e5144f9b7399b7a5f808342d75aa5a",
+      "size_bytes": 90270
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\profiles\\Unified Build\\plugins.txt",
+      "sha256": "197015b7f861acf8a36cc79e1fafcb5f9c431521b6284cf1a53cbf419e10ba2f",
+      "size_bytes": 29990
+    },
+    {
+      "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\profiles\\Unified Build\\loadorder.txt",
+      "sha256": "5f2de01b09a1d5e6ac0950ebb7df4a810483dcf1cf3b86f4baeaf7964a706560",
+      "size_bytes": 28987
+    }
+  ],
+  "required_next_step": "New MO2/xEdit process with installed candidate active; run exact typed reload verifier before accept."
+}

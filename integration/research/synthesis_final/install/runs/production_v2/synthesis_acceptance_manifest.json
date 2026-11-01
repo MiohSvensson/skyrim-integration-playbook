@@ -1,0 +1,29 @@
+{
+  "schema": "skyrim.synthesis_acceptance.v1",
+  "status": "SYNTHESIS_SCOPED_STATIC_ACCEPTED_FINAL_RESOURCE_WORK_PENDING",
+  "candidate": {
+    "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T5861 Synthesis Patch (1.01)\\Synthesis - Patch.esp",
+    "sha256": "5f8f491fc086631868ecd78fb4f19c09b76e9a8a4e3b0cb20d5156611cfc64a8",
+    "size_bytes": 72559932
+  },
+  "sidecar": {
+    "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T5861 Synthesis Patch (1.01)\\SKSE\\Plugins\\Experience\\Races\\GeneratedExperiencePatch.ini",
+    "sha256": "2eec837296da38c4e69c2927cc7293918a325fb61120f87bf743044b8ed12417",
+    "size_bytes": 46631
+  },
+  "validation_report": {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\synthesis_final\\synthesis_production_validation_manifest.json",
+    "sha256": "d2518b871bb2b74b9c087b7221e058386da680506350f4e3998e88da21b7074e",
+    "size_bytes": 413664
+  },
+  "proof": {
+    "producer_task": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\validation\\synthesis_candidate_check_v2",
+    "diagnostic_receipt": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\synthesis_final\\diagnostics\\final_v8\\receipt.json",
+    "validation_report": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\synthesis_final\\synthesis_v8_validation_manifest.json",
+    "input_models": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\synthesis_final\\synthesis_input_models_manifest.json",
+    "arma_delta": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\synthesis_final\\synthesis_v8_arma_delta_manifest.json",
+    "resource_acceptance": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\generated_mesh_resources_r1\\accepted.json"
+  },
+  "inherited_resource_disposition_required": true,
+  "game_launched": false
+}

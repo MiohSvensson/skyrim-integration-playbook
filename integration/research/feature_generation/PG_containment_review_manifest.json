@@ -17,7 +17,7 @@
     "No formal PG run was launched",
     "No GPU, security, privacy, registry or global cache setting was changed",
     "No PG output was installed",
-    "Synthesis production installation remains pending after scoped model and 23-file resource validation; inherited gaps remain tracked",
+    "Production Synthesis is accepted with its captured sidecar; inherited gaps remain tracked",
     "Terrain, grass and final LOD generation remain pending"
   ],
   "original_packs_modified": false,

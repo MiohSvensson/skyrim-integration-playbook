@@ -43,6 +43,8 @@
 !/integration/research/vfs_validation/hoth_cloak_vfs_proof_r1.json
 !/integration/research/vfs_validation/generated_mesh_vfs_proof_r1.json
 !/integration/research/synthesis_final/DatabaseSynthesisInputModelsV2.source.txt
+!/integration/research/synthesis_final/install/runs/production_v2/prepared.json
+!/integration/research/synthesis_final/install/runs/production_v2/installed.json
 !/integration/research/plugin_integration/navi_unresolved_audit/final_navi_key_audit.json
 !/integration/research/plugin_integration/navi_unresolved_audit/stock_orphan_parent_absence_v6.json
 

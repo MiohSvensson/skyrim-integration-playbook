@@ -1,0 +1,23 @@
+{
+  "utc": "2026-11-01T13:18:07.824060+00:00",
+  "status": "ACCEPTED_STATIC_TYPED_RELOAD_FINAL_VFS_PENDING",
+  "accepted": true,
+  "candidate": {
+    "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\T5861 Synthesis Patch (1.01)\\Synthesis - Patch.esp",
+    "sha256": "5f8f491fc086631868ecd78fb4f19c09b76e9a8a4e3b0cb20d5156611cfc64a8",
+    "size_bytes": 72559932
+  },
+  "installation": {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\synthesis_final\\install\\runs\\production_v2\\installed.json",
+    "sha256": "7ca671d0c1e76d6f3a63fa393d544f0668a7c70d9ba35d58c1d24d8b87d4bd4f",
+    "size_bytes": 2680
+  },
+  "reload_task": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\validation\\synthesis_production_check_v1",
+  "reload_result": {
+    "path": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\validation\\synthesis_production_check_v1\\result.json",
+    "sha256": "836a0d2850f0f1b2617199f856fca2a2aea8179303b80c466357145336ea4a5e",
+    "size_bytes": 1265
+  },
+  "auxiliary_reload": null,
+  "limits": "Static typed reload acceptance only. Final full VFS/resource/Synthesis/LOD audits remain separate; no game launch."
+}

@@ -43,6 +43,7 @@ begin
   AddMessage('SYNTHESIS_NATIVE_CHECKED|' + IntToStr(checked) + '|ERRORS=' + IntToStr(errors));
   Need(errors = 0, 'Unexpected generated Synthesis diagnostics');
   AddMessage('SYNTHESIS_NATIVE_CHECK_PASS');
+  AddMessage('SYNTHESIS_RELOAD_TYPED_PASS');
   NativePhase('SYNTHESIS_NATIVE_CHECK_PASS');
   Result := 0;
 end;

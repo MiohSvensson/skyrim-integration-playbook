@@ -1,7 +1,7 @@
 {
   "objective": "Build one reviewed Skyrim integration from Anno, Burida and TuLED without launching the game or making full pack backups",
   "status": "active",
-  "phase": "final_navigation_and_generated_output_validation",
+  "phase": "synthesis_source_closure_blocked",
   "base_pack": "TuLED",
   "source_packs_unchanged": true,
   "game_launch_prohibited": true,
@@ -59,17 +59,26 @@
     {
       "evidence": "integration/research/feature_conflicts/candidate/review_recheck_v14.json",
       "status": "CURRENT_RESOLVED_MAP_BINARY_RECHECK_PASS"
+    },
+    {
+      "evidence": "integration/research/vfs_validation/hoth_cloak_r2/accepted.json",
+      "status": "HOTH_CLOAK_RESOURCE_VERIFIED"
+    },
+    {
+      "evidence": "integration/research/synthesis_final/synthesis_v8_blocker_manifest.json",
+      "status": "SYNTHESIS_SIX_STAGES_COMPLETE_SOURCE_CLOSURE_BLOCKED_NOT_DEPLOYED"
     }
   ],
   "remaining": [
-    "rebuild_final_Synthesis_with_all_gameplay_inputs",
+    "establish_exact_VA_CuirassAA_mesh_provenance_and_close_all_generated_Synthesis_resources",
+    "install_and_validate_reviewed_Synthesis_plugin_and_captured_sidecar_after_source_closure",
     "implement_and_verify_Database_only_PG_driver_cache_containment_then_run_and_validate_PG",
     "regenerate_affected_grass_terrain_TexGen_DynDOLOD_and_occlusion_without_game",
     "run_full_final_native_xEdit_QEX_and_actual_MO2_VFS_resource_closure",
     "verify_original_controls_unchanged_after_all_remaining_writers",
     "finalize_database_catalog_launchers_and_maintenance_docs"
   ],
-  "updated_utc": "2026-11-01T05:19:34Z",
+  "updated_utc": "2026-11-01T06:43:45Z",
   "completed": [
     "FC4_navigation_binary_install_and_dual_fresh_typed_reload_accepted",
     "Glen8_navigation_binary_install_and_fresh_typed_reload_accepted",
@@ -151,9 +160,10 @@
       "FC response motif remains an active unrepaired source-audio limitation; no synthesized or aliased audio"
     ],
     "next_required": [
-      "Run six-stage Synthesis with all gameplay inputs and master budget checks",
-      "Final Synthesis with all gameplay inputs and master budget checks",
-      "Fresh PG against final Synthesis context; typed records, NIF and resource closure before deployment",
+      "Recover exact male VA_CuirassAA author mesh/project or document an unrepairable source gap; never alias female or unrelated armor",
+      "Complete all ARMA MOD2/MOD3/MOD4/MOD5 source closure for final_v8 before production Synthesis installation",
+      "Install the reviewed final_v8 plugin and captured Experience sidecar atomically, disable ZZ88 only after sidecar installation, and repeat native/VFS checks",
+      "Fresh PG only after Synthesis acceptance and proof of Database-only per-process driver-cache containment; typed records, NIF and resource closure before deployment",
       "Affected terrain/TexGen/DynDOLOD/offline grass and final occlusion in verified batch order",
       "Full native Check+QEX final consumer proof",
       "Bootstrap->quest seeds/exact exceptions->final expectations->actual all-path MO2 probe",

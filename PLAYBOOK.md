@@ -10,7 +10,7 @@ Last reviewed: 2026-11-01. Base: TuLED. Work remains active; static integration 
 - Feature, quest, FC, Glen, and God of War format compatibility patches have independent binary and fresh typed-reload acceptance.
 - The 6,495-row source catalog is refreshed as work in progress, with zero stale rows and zero linkage issues; 1,721 alternatives remain pending.
 - FC v12 and Glen v7 are accepted for static integration. Bounded resource dispositions are documented; six-stage Synthesis is next, with final VFS and generation still pending.
-- Formal Synthesis, PG, and final LOD generation remain pending.
+- Six-stage Synthesis replay completed, but acceptance is blocked by the exact VA_CuirassAA mesh source. No generated output is deployed. PG containment and final LOD remain pending.
 
 A pre-navigation MO2 child proved actual `usvfs_x64` injection and all 411,248 current runtime-path FileID/size winners in `pre_navigation_vfs_r2_probe_files.json`. That run is not an aggregate pass: MO2 moved its generated `modlist.txt` comment, and two Igraine hand textures remain unresolved. `mo2_controls.py` now canonicalizes only that exact comment with journal backup/rollback; no final all-resource VFS or in-game proof exists.
 
@@ -99,7 +99,7 @@ Run after all gameplay/navigation patches are accepted.
 
 ## 5. PG containment and generation
 
-Formal PG is blocked while Windows/NVIDIA may write an OS driver cache outside `Database`.
+Formal PG is blocked while Windows/NVIDIA may write an OS driver cache outside `Database`. An earlier unsupported change removed that launch block; `prepare_pg_run.py` now restores it, and `pg_child.py` refuses a true block. `PG_delivery_final.json` is not accepted as authority while containment is unproven.
 
 First implement and verify per-process containment inside the run. Never change global GPU/security/privacy settings. If containment cannot be proven, leave PG blocked and do not weaken the guard.
 

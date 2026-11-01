@@ -16,7 +16,7 @@ from mo2_controls import normalize_profile
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--profile', default='Unified Skyrim', choices=['Unified Skyrim', 'Unified Build', 'FC Diagnostic', 'FC Diagnostic 2'])
+    parser.add_argument('--profile', default='Unified Skyrim', choices=['Unified Skyrim', 'Unified Build', 'FC Diagnostic', 'FC Diagnostic 2', 'Synthesis Diagnostic'])
     parser.add_argument('task_name')
     parser.add_argument('script')
     parser.add_argument('arguments', nargs=argparse.REMAINDER)

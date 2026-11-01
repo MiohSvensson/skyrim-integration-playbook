@@ -1,0 +1,40 @@
+{
+  "schema": "skyrim.hoth_cloak_acceptance.v1",
+  "status": "HOTH_CLOAK_RESOURCE_VERIFIED",
+  "accepted": true,
+  "proof": {
+    "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\hoth_cloak_vfs_proof_r1.json",
+    "sha256": "8bed8060ac27d0a524b836165f0c47c5c3ba965db1679986c9ce6171ba1b1960"
+  },
+  "resources": [
+    {
+      "path": "meshes/armor/hotharmor/hothwcloak_1.nif",
+      "runtime_file_id": "1D3EBF999BE7FE1F:7944010000000f000000000000000000",
+      "installed_file_id": "1D3EBF999BE7FE1F:7944010000000f000000000000000000",
+      "sha256": "03429fedb71813cd9ccf4643e999dd7b8816a176e39f2690403b694c3d6c0258",
+      "bytes": 1015597
+    },
+    {
+      "path": "textures/armor/hothsarmortex/bearskinsnowa.dds",
+      "runtime_file_id": "1D3EBF999BE7FE1F:7c44010000000f000000000000000000",
+      "installed_file_id": "1D3EBF999BE7FE1F:7c44010000000f000000000000000000",
+      "sha256": "933069a85f446b0beb3d356a8fe4468bcd03ca1a15a813aa16831d3c4a0e5f6a",
+      "bytes": 2796344
+    },
+    {
+      "path": "textures/armor/hothsarmortex/bearskin_n.dds",
+      "runtime_file_id": "1D3EBF999BE7FE1F:7d44010000000f000000000000000000",
+      "installed_file_id": "1D3EBF999BE7FE1F:7d44010000000f000000000000000000",
+      "sha256": "6d26fdba553a553acf03bd405936f542945901b4529d76a5697f40883f792213",
+      "bytes": 5592532
+    },
+    {
+      "path": "textures/armor/hothsarmortex/malebody_1.dds",
+      "runtime_file_id": "1D3EBF999BE7FE1F:7e44010000000f000000000000000000",
+      "installed_file_id": "1D3EBF999BE7FE1F:7e44010000000f000000000000000000",
+      "sha256": "2bb67435d2d0e041f8afc002cd2ed942e1389850dc008fdff4f9c951222b90ae",
+      "bytes": 22369776
+    }
+  ],
+  "scope": "Exact cloak mesh and all material dependencies; not a full resource or in-game proof"
+}

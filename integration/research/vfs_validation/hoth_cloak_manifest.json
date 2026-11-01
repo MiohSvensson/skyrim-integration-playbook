@@ -1,0 +1,131 @@
+{
+  "schema": "skyrim.hoth_cloak_resource_audit.v1",
+  "status": "READY_FOR_PRIVATE_RESOURCE_INSTALL",
+  "source_mesh": {
+    "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\PGPatcher_Output\\meshes\\armor\\hotharmor\\hothwcloak_1.nif",
+    "sha256": "03429fedb71813cd9ccf4643e999dd7b8816a176e39f2690403b694c3d6c0258",
+    "bytes": 1015597
+  },
+  "runtime_dependencies": [
+    {
+      "path": "textures/armor/hothsarmortex/bearskinsnowa.dds",
+      "source": "HothFollower.bsa",
+      "sha256": "933069a85f446b0beb3d356a8fe4468bcd03ca1a15a813aa16831d3c4a0e5f6a",
+      "archive_sha256": "7636277076d80fbe6756201f32859c6308ea0af8e600bfea0bd260711198ec48"
+    },
+    {
+      "path": "textures/armor/hothsarmortex/bearskin_n.dds",
+      "source": "HothFollower.bsa",
+      "sha256": "6d26fdba553a553acf03bd405936f542945901b4529d76a5697f40883f792213",
+      "archive_sha256": "7636277076d80fbe6756201f32859c6308ea0af8e600bfea0bd260711198ec48"
+    },
+    {
+      "path": "textures/pbr/clothes/bandit/banditm.dds",
+      "file_id": "1D3EBF999BE7FE1F:4db42000000002000000000000000000"
+    },
+    {
+      "path": "textures/pbr/clothes/bandit/banditm_n.dds",
+      "file_id": "1D3EBF999BE7FE1F:4fb42000000002000000000000000000"
+    },
+    {
+      "path": "textures/pbr/clothes/bandit/banditm_rmaos.dds",
+      "file_id": "1D3EBF999BE7FE1F:50b42000000002000000000000000000"
+    },
+    {
+      "path": "textures/pbr/clothes/bandit/banditm_f.dds",
+      "file_id": "1D3EBF999BE7FE1F:4eb42000000002000000000000000000"
+    },
+    {
+      "path": "textures/armor/hothsarmortex/malebody_1.dds",
+      "source": "HothFollower.bsa",
+      "sha256": "2bb67435d2d0e041f8afc002cd2ed942e1389850dc008fdff4f9c951222b90ae",
+      "archive_sha256": "7636277076d80fbe6756201f32859c6308ea0af8e600bfea0bd260711198ec48"
+    },
+    {
+      "path": "textures/actors/character/male/malebody_1_msn.dds",
+      "file_id": "1D3EBF999BE7FE1F:e7de1b00000002000000000000000000"
+    },
+    {
+      "path": "textures/actors/character/male/malebody_1_sk.dds",
+      "file_id": "1D3EBF999BE7FE1F:e9de1b00000002000000000000000000"
+    },
+    {
+      "path": "textures/actors/character/male/malebody_1_s.dds",
+      "file_id": "1D3EBF999BE7FE1F:e8de1b00000002000000000000000000"
+    },
+    {
+      "path": "textures/pbr/actors/skeleton/skeleton.dds",
+      "file_id": "1D3EBF999BE7FE1F:0e751900000003000000000000000000"
+    },
+    {
+      "path": "textures/pbr/actors/skeleton/skeleton_n.dds",
+      "file_id": "1D3EBF999BE7FE1F:0f751900000003000000000000000000"
+    },
+    {
+      "path": "textures/pbr/actors/skeleton/skeleton_p.dds",
+      "file_id": "1D3EBF999BE7FE1F:10751900000003000000000000000000"
+    },
+    {
+      "path": "textures/pbr/actors/skeleton/skeleton_rmaos.dds",
+      "file_id": "1D3EBF999BE7FE1F:11751900000003000000000000000000"
+    },
+    {
+      "path": "textures/pbr/armor/iron/m/cuirassplate.dds",
+      "file_id": "1D3EBF999BE7FE1F:56eb1c00000002000000000000000000"
+    },
+    {
+      "path": "textures/pbr/armor/iron/m/cuirassplate_n.dds",
+      "file_id": "1D3EBF999BE7FE1F:58eb1c00000002000000000000000000"
+    },
+    {
+      "path": "textures/pbr/armor/iron/m/cuirassplate_rmaos.dds",
+      "file_id": "1D3EBF999BE7FE1F:59eb1c00000002000000000000000000"
+    },
+    {
+      "path": "textures/pbr/armor/iron/m/cuirassplate_f.dds",
+      "file_id": "1D3EBF999BE7FE1F:57eb1c00000002000000000000000000"
+    }
+  ],
+  "basis": "Exact author PGPatcher_Output weight-1 mesh; no alias or invented asset",
+  "private_resource_mapping": [
+    {
+      "source": {
+        "path": "E:\\stock\\Skyrim collection\\Anno\\iniRePather-Skyrim\\mods\\PGPatcher_Output\\meshes\\armor\\hotharmor\\hothwcloak_1.nif",
+        "sha256": "03429fedb71813cd9ccf4643e999dd7b8816a176e39f2690403b694c3d6c0258",
+        "bytes": 1015597
+      },
+      "destination": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\ZZ83 Verified generated item and quest assets\\meshes\\armor\\hotharmor\\hothwcloak_1.nif",
+      "basis": "Exact author mesh for the generated weight-1 ARMA reference"
+    },
+    {
+      "source": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\hoth_cloak_sources\\textures\\armor\\hothsarmortex\\bearskinsnowa.dds",
+        "sha256": "933069a85f446b0beb3d356a8fe4468bcd03ca1a15a813aa16831d3c4a0e5f6a",
+        "bytes": 2796344
+      },
+      "destination": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\ZZ83 Verified generated item and quest assets\\textures\\armor\\hothsarmortex\\bearskinsnowa.dds",
+      "basis": "Exact author HothFollower.bsa member, verified against indexed SHA256"
+    },
+    {
+      "source": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\hoth_cloak_sources\\textures\\armor\\hothsarmortex\\bearskin_n.dds",
+        "sha256": "6d26fdba553a553acf03bd405936f542945901b4529d76a5697f40883f792213",
+        "bytes": 5592532
+      },
+      "destination": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\ZZ83 Verified generated item and quest assets\\textures\\armor\\hothsarmortex\\bearskin_n.dds",
+      "basis": "Exact author HothFollower.bsa member, verified against indexed SHA256"
+    },
+    {
+      "source": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\hoth_cloak_sources\\textures\\armor\\hothsarmortex\\malebody_1.dds",
+        "sha256": "2bb67435d2d0e041f8afc002cd2ed942e1389850dc008fdff4f9c951222b90ae",
+        "bytes": 22369776
+      },
+      "destination": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\ZZ83 Verified generated item and quest assets\\textures\\armor\\hothsarmortex\\malebody_1.dds",
+      "basis": "Exact author HothFollower.bsa member, verified against indexed SHA256"
+    }
+  ],
+  "original_packs_modified": false,
+  "mesh_or_controls_modified": false,
+  "next": "Install the exact private mesh into the active ZZ83 layer and verify its actual MO2 VFS identity and hash"
+}

@@ -1,0 +1,34 @@
+{
+  "schema": "skyrim.synthesis.source_blocker.v1",
+  "status": "REPLAY_COMPLETE_CANDIDATE_SOURCE_BLOCKER_NOT_ACCEPTED",
+  "replay": {
+    "path": "integration/research/synthesis_final/runs/final_v8/result.json",
+    "status": "REPLAY_COMPLETED_OUTPUT_NOT_DEPLOYED_NEEDS_SEMANTIC_AND_XEDIT_VALIDATION",
+    "completed_stages": 6,
+    "candidate_sha256": "5f8f491fc086631868ecd78fb4f19c09b76e9a8a4e3b0cb20d5156611cfc64a8",
+    "experience_sidecar_restored": true
+  },
+  "verified_before_blocker": {
+    "full_native_record_check": "SYNTHESIS_NATIVE_CHECK_PASS",
+    "native_plugin_order": "Synthesis Diagnostic profile, exact expected sequence",
+    "masters_and_record_ownership": "Full plugin, no own records, masters within the frozen input context",
+    "experience_sidecar": "Captured candidate kept private; original sidecar restored exactly"
+  },
+  "blocking_resource": {
+    "record": "VA_CuirassAA",
+    "path": "meshes/aokili/va/va_cuirass_m_1.nif",
+    "runtime_status": "Missing",
+    "source_status": "The installed Vindicator Armor 1.2.0.0 author package (Nexus 124613) has the female 3BA project and female VA_Cuirass_0/1 output, but no male VA_Cuirass_m_1 mesh, male BodySlide project, or matching indexed BSA entry",
+    "last_audit_error": "Missing runtime and source asset: meshes/aokili/va/va_cuirass_m_1.nif",
+    "accepted_alias": null,
+    "reason": "No author asset or typed source contract was found for this exact mesh. An unrelated cuirass or invented replacement would be invalid."
+  },
+  "not_accepted": [
+    "No generated Synthesis plugin or captured sidecar was installed in a production profile",
+    "No source repair was inferred from a similar filename or from another armor package",
+    "Synthesis output acceptance, final PG, terrain/grass and final LOD have not run"
+  ],
+  "required_next": "Obtain the exact author mesh or typed author project for VA_CuirassAA, then rerun complete source closure, native output audit, rev4 installation and fresh production validation. Do not mark Synthesis accepted before that evidence exists.",
+  "original_packs_modified": false,
+  "game_launched": false
+}

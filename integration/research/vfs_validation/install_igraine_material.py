@@ -31,14 +31,17 @@ def control_pins():
             for name in ['modlist.txt', 'plugins.txt', 'loadorder.txt']}
 
 
-def install(manifest_path=MANIFEST, job=None, copier=None):
+def install(manifest_path=MANIFEST, job=None, copier=None, unit=UNIT, manifest_sha256=MANIFEST_SHA256, expected=None):
     copier = copier or mat.make_private
+    if unit not in {'igraine_material_v1', 'hoth_cloak_v1'}:
+        raise ValueError('Unsupported private resource installation unit')
+    expected = EXPECTED if expected is None else expected
     manifest_path = Path(manifest_path).resolve(strict=True)
-    if mat.sha(manifest_path) != MANIFEST_SHA256:
-        raise ValueError('Reviewed Igraine manifest changed')
+    if mat.sha(manifest_path) != manifest_sha256:
+        raise ValueError('Reviewed resource manifest changed')
     report = json.loads(manifest_path.read_text('utf-8'))
-    if report.get('schema') != 'skyrim.igraine_material_audit.v1' or report.get('status') != 'READY_FOR_PRIVATE_RESOURCE_INSTALL':
-        raise ValueError('Typed Igraine source proof required')
+    if report.get('schema') not in {'skyrim.igraine_material_audit.v1', 'skyrim.hoth_cloak_resource_audit.v1'} or report.get('status') != 'READY_FOR_PRIVATE_RESOURCE_INSTALL':
+        raise ValueError('Typed resource source proof required')
     layer = mat.BASE / 'UnifiedSkyrim/mods' / LAYER
     mappings = []
     for row in report['private_resource_mapping']:
@@ -47,13 +50,13 @@ def install(manifest_path=MANIFEST, job=None, copier=None):
         if not source.is_file() or not destination.is_relative_to(layer):
             raise ValueError('Unexpected Igraine source or destination')
         relative = destination.relative_to(layer).as_posix()
-        if relative not in EXPECTED or mat.sha(source) != row['source']['sha256'] or source.stat().st_size != row['source']['bytes']:
-            raise ValueError('Igraine source or target differs from the typed review')
+        if relative not in expected or mat.sha(source) != row['source']['sha256'] or source.stat().st_size != row['source']['bytes']:
+            raise ValueError('Resource source or target differs from the typed review')
         mappings.append({'source': source, 'relative': relative,
                          'destination': f'mods/{LAYER}/{relative}', 'bytes': source.stat().st_size,
                          'sha256': row['source']['sha256']})
-    if {row['relative'] for row in mappings} != EXPECTED or len(mappings) != 2:
-        raise ValueError('Exactly two reviewed Igraine resources are required')
+    if {row['relative'] for row in mappings} != expected or len(mappings) != len(expected):
+        raise ValueError('Resource mapping does not match the reviewed path set')
     job = Path(job).resolve() if job else HERE / 'igraine_material_r1'
     mat.within(job, HERE)
     if job.exists():
@@ -71,10 +74,12 @@ def install(manifest_path=MANIFEST, job=None, copier=None):
                                                          'pid': os.getpid(), 'files': mappings}, ensure_ascii=False, indent=2, default=str) + '\n', encoding='utf-8')
     c = mat.connect()
     installed = []
+    created_unit = False
     try:
-        mat.add_file_mapping(c, UNIT, [{'source': str(row['source']), 'destination': row['destination'],
+        mat.add_file_mapping(c, unit, [{'source': str(row['source']), 'destination': row['destination'],
                                        'storage': 'private', 'bytes': row['bytes']} for row in mappings],
-                             'Two typed Igraine hand-material resources; private copies only')
+                             'Reviewed private resource copies; original sources are not modified')
+        created_unit = True
         for row in mappings:
             target = mat.guard_destination(mat.TARGET / row['destination'])
             target.parent.mkdir(parents=True, exist_ok=True)
@@ -82,19 +87,20 @@ def install(manifest_path=MANIFEST, job=None, copier=None):
             if digest != row['sha256'] or target.stat().st_nlink != 1:
                 raise RuntimeError('Private resource copy differs from its reviewed source')
             c.execute("update files set status='materialized',sha256=? where unit_id=? and dest_key=?",
-                      (digest, UNIT, mat.key(row['destination'])))
+                      (digest, unit, mat.key(row['destination'])))
             c.commit()
             installed.append(pin(target))
         if control_pins() != controls:
             raise RuntimeError('Profile controls changed during resource installation')
         if c.execute('pragma integrity_check').fetchone()[0] != 'ok':
             raise RuntimeError('Journal integrity check failed')
-        receipt = {'schema': 'skyrim.igraine_material_install.v1', 'utc': mat.utc(),
-                   'status': 'INSTALLED_PENDING_ACTUAL_VFS', 'accepted': False, 'unit': UNIT,
+        receipt = {'schema': 'skyrim.igraine_material_install.v1' if unit == UNIT else 'skyrim.hoth_cloak_install.v1',
+                   'utc': mat.utc(), 'status': 'INSTALLED_PENDING_ACTUAL_VFS', 'accepted': False, 'unit': unit,
                    'manifest': pin(manifest_path), 'files': installed, 'controls': controls,
                    'original_packs_modified': False, 'game_launched': False}
         (job / 'installed.json').write_text(json.dumps(receipt, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-        c.execute('insert into events values(?,?,?)', (mat.utc(), 'igraine_material_installed_pending_vfs', json.dumps(receipt)))
+        event = 'igraine_material_installed_pending_vfs' if unit == UNIT else unit + '_pending_vfs'
+        c.execute('insert into events values(?,?,?)', (mat.utc(), event, json.dumps(receipt)))
         c.commit()
         print(json.dumps(receipt, ensure_ascii=False, indent=2))
         return receipt
@@ -105,8 +111,11 @@ def install(manifest_path=MANIFEST, job=None, copier=None):
                 if mat.sha(target) != row['sha256']:
                     raise RuntimeError('Rollback refuses an unexpected destination: ' + str(target))
                 target.unlink()
-        c.execute('delete from files where unit_id=?', (UNIT,))
-        c.execute('delete from units where id=?', (UNIT,))
+        if created_unit:
+            c.execute('delete from files where unit_id=?', (unit,))
+            c.execute('delete from units where id=?', (unit,))
+        else:
+            c.rollback()
         c.commit()
         (job / 'failed.json').write_text(json.dumps({'status': 'INSTALL_FAILED_ROLLED_BACK', 'error': repr(exc)}, indent=2) + '\n', encoding='utf-8')
         raise

@@ -1,0 +1,132 @@
+{
+  "schema": "skyrim.inherited_boundary_review.v1",
+  "status": "BOUNDARY_SOURCE_SELECTION_PASS",
+  "source_manifest_sha256": "9b3d705d6b941f141b28b17ca9183095275ac09e602dd529e17cebe85e4ab116",
+  "selected_meshes": [
+    {
+      "path": "meshes/armor/bandit/1stpersonbody1m_1.nif",
+      "source": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\inherited_mesh_sources\\meshes\\armor\\bandit\\1stpersonbody1m_1.nif",
+        "sha256": "e483123be116f1d1698626d872cb006f6d4b5fb9fe90c2e01937533a3caa69aa",
+        "bytes": 51176
+      },
+      "destination": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\ZZ83 Verified generated item and quest assets\\meshes\\armor\\bandit\\1stpersonbody1m_1.nif",
+      "basis": "Exact selected TuLED stock archive for the TuLED-based integration"
+    },
+    {
+      "path": "meshes/clothes/beggarclothes/torsom_0.nif",
+      "source": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\inherited_mesh_sources\\meshes\\clothes\\beggarclothes\\torsom_0.nif",
+        "sha256": "3b59687449f92d053f371a4e093058202f833499d5e5b7c47f48a2be37379d1c",
+        "bytes": 192370
+      },
+      "destination": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\ZZ83 Verified generated item and quest assets\\meshes\\clothes\\beggarclothes\\torsom_0.nif",
+      "basis": "Exact selected TuLED stock archive for the TuLED-based integration"
+    },
+    {
+      "path": "meshes/ellise/qta_rlcoat/f/qta_rlc_jerkin1stf_1.nif",
+      "source": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\inherited_mesh_sources\\meshes\\ellise\\qta_rlcoat\\f\\qta_rlc_jerkin1stf_1.nif",
+        "sha256": "0b11ec8b19e989bf757eaa1fdb5218c2a11759f6b547ed6dfcf0aef18ebcea51",
+        "bytes": 91709
+      },
+      "destination": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\ZZ83 Verified generated item and quest assets\\meshes\\ellise\\qta_rlcoat\\f\\qta_rlc_jerkin1stf_1.nif",
+      "basis": "Exact source-owner Legacy of the Dragonborn archive; do not substitute the similarly named Aeldsten asset"
+    },
+    {
+      "path": "meshes/ellise/qta_rlcoat/f/qta_rlc_jerkinf_1.nif",
+      "source": {
+        "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\inherited_mesh_sources\\meshes\\ellise\\qta_rlcoat\\f\\qta_rlc_jerkinf_1.nif",
+        "sha256": "3e842d7d159cf852cd333501cd39b8f82d5a454c90d2e0e99967d2649e54abc0",
+        "bytes": 635758
+      },
+      "destination": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\ZZ83 Verified generated item and quest assets\\meshes\\ellise\\qta_rlcoat\\f\\qta_rlc_jerkinf_1.nif",
+      "basis": "Exact source-owner Legacy of the Dragonborn archive; do not substitute the similarly named Aeldsten asset"
+    },
+    {
+      "path": "meshes/dr aris tag/1stperson/1stperson_dr_aris_armor.nif",
+      "source": {
+        "path": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\ADVG 1st #05 The Adventurer's Guild by PI Update v2\\meshes\\DR Aris TAG\\1stperson\\1stperson_DR_Aris_Armor_0.nif",
+        "sha256": "9e81f7e946f17861999d88d9717e7b8a7391ae2d03d2637abbe74a0dc24e1e34",
+        "bytes": 180224
+      },
+      "destination": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\ZZ83 Verified generated item and quest assets\\meshes\\dr aris tag\\1stperson\\1stperson_dr_aris_armor.nif",
+      "basis": "Default unnumbered model derived from exact author weight-0 mesh; weight-1 is separately present"
+    }
+  ],
+  "effect_shader": {
+    "path": "meshes/armor/dac0da/worm/headfx.nif",
+    "source": {
+      "path": "E:\\stock\\Skyrim collection\\Database\\integration\\research\\vfs_validation\\inherited_mesh_sources\\meshes\\armor\\dac0da\\worm\\headfx.nif",
+      "sha256": "462a8d1f6202fe330173d15e58950ecd8872134fece2913e0128926ba82f0631",
+      "bytes": 50601
+    },
+    "destination": "E:\\stock\\Skyrim collection\\Database\\UnifiedSkyrim\\mods\\ZZ83 Verified generated item and quest assets\\meshes\\armor\\dac0da\\worm\\headfx.nif",
+    "basis": "Exact author BSEffectShaderProperty mesh; no external texture filename in the NIF strings",
+    "effect_shader_count": 6,
+    "external_texture_references": []
+  },
+  "source_overrides": {
+    "meshes/armor/bandit/1stpersonbody1m_1.nif": {
+      "archive": "E:\\stock\\Skyrim collection\\Database\\repairs\\consistent_stock\\Data\\Skyrim - Meshes0.bsa",
+      "entry_sha256": "e483123be116f1d1698626d872cb006f6d4b5fb9fe90c2e01937533a3caa69aa",
+      "archive_sha256": "91d0c93706846cefe4c51be5a7dee95e9042a0ad2069962b219c5bcabc75234e",
+      "basis": "Exact selected TuLED stock archive for the TuLED-based integration"
+    },
+    "meshes/clothes/beggarclothes/torsom_0.nif": {
+      "archive": "E:\\stock\\Skyrim collection\\Database\\repairs\\consistent_stock\\Data\\Skyrim - Meshes0.bsa",
+      "entry_sha256": "3b59687449f92d053f371a4e093058202f833499d5e5b7c47f48a2be37379d1c",
+      "archive_sha256": "91d0c93706846cefe4c51be5a7dee95e9042a0ad2069962b219c5bcabc75234e",
+      "basis": "Exact selected TuLED stock archive for the TuLED-based integration"
+    },
+    "meshes/ellise/qta_rlcoat/f/qta_rlc_jerkin1stf_1.nif": {
+      "archive": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\[LED]Legacy of the Dragonborn v6.10.0\\LegacyoftheDragonborn.bsa",
+      "entry_sha256": "0b11ec8b19e989bf757eaa1fdb5218c2a11759f6b547ed6dfcf0aef18ebcea51",
+      "archive_sha256": "210d83b82e3715caed64e2c323592b96e387d77b79b063265f3ee24daa325db6",
+      "basis": "Exact source-owner Legacy of the Dragonborn archive; do not substitute the similarly named Aeldsten asset"
+    },
+    "meshes/ellise/qta_rlcoat/f/qta_rlc_jerkinf_1.nif": {
+      "archive": "E:\\stock\\Skyrim collection\\TuLED\\File Mod Skyrim SE\\mods\\[LED]Legacy of the Dragonborn v6.10.0\\LegacyoftheDragonborn.bsa",
+      "entry_sha256": "3e842d7d159cf852cd333501cd39b8f82d5a454c90d2e0e99967d2649e54abc0",
+      "archive_sha256": "210d83b82e3715caed64e2c323592b96e387d77b79b063265f3ee24daa325db6",
+      "basis": "Exact source-owner Legacy of the Dragonborn archive; do not substitute the similarly named Aeldsten asset"
+    }
+  },
+  "remaining_unresolved_meshes": [
+    {
+      "path": "meshes/018auri/outfit/valenwoodranger/f/auri valenwood ranger cuirass_1.nif",
+      "error": "Missing runtime and source asset: meshes/018auri/outfit/valenwoodranger/f/auri valenwood ranger cuirass_1.nif",
+      "archive_alternatives": []
+    },
+    {
+      "path": "meshes/1falconer/1stpersonfalconerarmorf_1.nif",
+      "error": "Missing runtime and source asset: meshes/1falconer/1stpersonfalconerarmorf_1.nif",
+      "archive_alternatives": []
+    },
+    {
+      "path": "meshes/_pgpatcher_dups/1/clothing/hoodu/setarmors_1.nif",
+      "error": "Missing runtime and source asset: meshes/_pgpatcher_dups/1/clothing/hoodu/setarmors_1.nif",
+      "archive_alternatives": []
+    },
+    {
+      "path": "meshes/armor/aokili/va/va_cuirass_m_1.nif",
+      "error": "Missing runtime and source asset: meshes/armor/aokili/va/va_cuirass_m_1.nif",
+      "archive_alternatives": []
+    },
+    {
+      "path": "meshes/fafny stash/templar assassin/fb_templar_assassin_main_1st.nif",
+      "error": "Missing runtime and source asset: meshes/fafny stash/templar assassin/fb_templar_assassin_main_1st.nif",
+      "archive_alternatives": []
+    },
+    {
+      "path": "meshes/twilight princess armor/f/1stpersontwilightprincess_cuirass_1 - .nif",
+      "error": "Missing runtime and source asset: meshes/twilight princess armor/f/1stpersontwilightprincess_cuirass_1 - .nif",
+      "archive_alternatives": []
+    }
+  ],
+  "selected_mesh_count": 6,
+  "remaining_mesh_count": 6,
+  "installation_performed": false,
+  "original_packs_modified": false,
+  "game_launched": false
+}
